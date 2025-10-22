@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "TSB Personal Loan: Simple and Straightforward Financing - Top Finance UK",
+      "TSB Personal Loan: Simple and Straightforward Financing - KardTrust",
     description:
       "Explore TSB Personal Loans with competitive rates, flexible repayment options, and a focus on clear, simple banking solutions.",
     keywords:
-      "TSB Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, TSB banking, loan application",
+      "TSB Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, TSB banking, loan application",
   };
 }
 
@@ -90,15 +90,6 @@ export default function TSBPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/tsb-personal-loan-requirements">
                   <Button className="bg-[#0A4D8C] hover:bg-blue-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -114,7 +105,7 @@ export default function TSBPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -146,7 +137,7 @@ export default function TSBPersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

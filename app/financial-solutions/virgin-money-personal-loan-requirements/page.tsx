@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Virgin Money Personal Loan Requirements: Application Guide - Top Finance UK",
+      "Virgin Money Personal Loan Requirements: Application Guide - KardTrust",
     description:
       "Learn about Virgin Money Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
     keywords:
-      "Virgin Money Personal Loan requirements, UK loan application, loan eligibility, Virgin Money loan criteria, personal loan documentation, loan application process, Virgin Red",
+      "Virgin Money Personal Loan requirements, US loan application, loan eligibility, Virgin Money loan criteria, personal loan documentation, loan application process, Virgin Red",
   };
 }
 
@@ -29,7 +29,7 @@ export default function VirginMoneyPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -49,7 +49,7 @@ export default function VirginMoneyPersonalLoanRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -79,9 +79,9 @@ export default function VirginMoneyPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a permanent UK resident with a UK bank account.
+                      must be a permanent US resident with a US bank account.
                       Virgin Money typically requires applicants to have lived
-                      in the UK for at least 3 years.
+                      in the US for at least 3 years.
                     </div>
                   </div>
 
@@ -138,7 +138,7 @@ export default function VirginMoneyPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Proof of identity:</span>{" "}
-                      A valid passport, UK driving license, or EU identity card
+                      A valid passport, US driving license, or EU identity card
                       is typically required.
                     </div>
                   </div>
@@ -177,7 +177,7 @@ export default function VirginMoneyPersonalLoanRequirementsPage() {
                       <span className="font-semibold">
                         Bank account details:
                       </span>{" "}
-                      Details of a UK bank account are required for loan
+                      Details of a US bank account are required for loan
                       disbursement and setting up direct debit repayments.
                     </div>
                   </div>
@@ -302,7 +302,7 @@ export default function VirginMoneyPersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -352,7 +352,7 @@ export default function VirginMoneyPersonalLoanRequirementsPage() {
                     href="/personal-finance/personal-loans-debt-strategy" // Replaced dead link
                     className="text-blue-600 underline"
                   >
-                    Effective debt consolidation strategies in the UK
+                    Effective debt consolidation strategies in the US
                   </Link>
                 </p>
 

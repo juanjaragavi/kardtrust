@@ -8,7 +8,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Revolut Credit Card Requirements: Global Application Guide - Top Finance UK",
+      "Revolut Credit Card Requirements: Global Application Guide - KardTrust",
     description:
       "Discover the eligibility criteria, digital application process, and requirements for the Revolut Credit Card to maximize your chances of approval.",
     keywords:
@@ -32,7 +32,7 @@ export default function RevolutCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -83,8 +83,8 @@ export default function RevolutCreditCardRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
                       You must be at least 18 years old and a legal resident of
-                      a country where Revolut operates. For UK applicants, you
-                      need to have a valid UK address and have been a resident
+                      a country where Revolut operates. For US applicants, you
+                      need to have a valid US address and have been a resident
                       for a minimum period (typically 3 years).
                     </div>
                   </div>
@@ -133,7 +133,7 @@ export default function RevolutCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

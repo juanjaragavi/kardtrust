@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Monzo Personal Loan Requirements: Neobank Application Guide - Top Finance UK",
+      "Monzo Personal Loan Requirements: Neobank Application Guide - KardTrust",
     description:
       "Learn about Monzo Personal Loan eligibility criteria, the fully digital application process via the Monzo app, and required information.",
     keywords:
-      "Monzo Personal Loan requirements, UK neobank loan application, loan eligibility, Monzo loan criteria, personal loan documentation, Monzo app",
+      "Monzo Personal Loan requirements, US neobank loan application, loan eligibility, Monzo loan criteria, personal loan documentation, Monzo app",
   };
 }
 
@@ -29,7 +29,7 @@ export default function MonzoPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -49,7 +49,7 @@ export default function MonzoPersonalLoanRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -93,7 +93,7 @@ export default function MonzoPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a UK resident with a UK address.
+                      must be a US resident with a US address.
                     </div>
                   </div>
 
@@ -129,7 +129,7 @@ export default function MonzoPersonalLoanRequirementsPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

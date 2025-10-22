@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "TSB Credit Card: Practical Benefits for Everyday Banking - Top Finance UK",
+      "TSB Credit Card: Practical Benefits for Everyday Banking - KardTrust",
     description:
       "The TSB Credit Card offers practical features, competitive rates, and straightforward benefits designed for everyday banking needs and financial management.",
     keywords:
-      "TSB Credit Card, UK credit cards, everyday banking, cashback offers, balance transfers, TSB Bank, contactless payments",
+      "TSB Credit Card, US credit cards, everyday banking, cashback offers, balance transfers, TSB Bank, contactless payments",
   };
 }
 
@@ -34,6 +34,15 @@ export default function TSBCreditCardPage() {
                 credit with practical features and competitive rates designed to
                 support your everyday financial needs.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -88,15 +97,6 @@ export default function TSBCreditCardPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/tsb-credit-card-requirements">
                   <Button className="bg-[#0A4D8C] hover:bg-blue-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -112,7 +112,7 @@ export default function TSBCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -122,7 +122,7 @@ export default function TSBCreditCardPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   The TSB Credit Card represents a practical financial tool from
-                  one of the UK's established high street banks. With its focus
+                  one of the US's established high street banks. With its focus
                   on straightforward features and competitive rates, this card
                   is designed to complement your everyday banking needs without
                   unnecessary complexity.
@@ -162,7 +162,7 @@ export default function TSBCreditCardPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -280,7 +280,7 @@ export default function TSBCreditCardPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Branch Network:</span>{" "}
                       Access in-person assistance at TSB's extensive network of
-                      branches across the UK, allowing for face-to-face support
+                      branches across the US, allowing for face-to-face support
                       with credit card queries and account management.
                     </div>
                   </div>

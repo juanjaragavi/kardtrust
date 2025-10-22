@@ -57,7 +57,7 @@ export function getFixedImageUrl(url: string): string {
   if (fixedUrl.startsWith("data:")) return fixedUrl;
 
   // Add cache-busting for certain domains
-  if (fixedUrl.includes("topfinanzas.com")) {
+  if (fixedUrl.includes("kardtrust.com")) {
     // Add width and quality params if not already present
     if (!fixedUrl.includes("?")) {
       fixedUrl += "?";

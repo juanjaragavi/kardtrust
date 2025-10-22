@@ -18,6 +18,13 @@ export default function UnderstandingCreditCardInterestRatesPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Understanding Credit Card Interest Rates - A Consumer Guide
             </h1>
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -28,12 +35,12 @@ export default function UnderstandingCreditCardInterestRatesPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/download-5-2.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/download-5-2.webp"
                   alt="Understanding Credit Card Interest Rates"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -141,7 +148,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                       href="/financial-solutions/santander-uk-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK Credit Cards:
+                      Santander US Credit Cards:
                     </Link>{" "}
                     May offer different APRs depending on the card type (e.g.,
                     cashback vs. low rate).
@@ -304,6 +311,14 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                <div
+                  id="uk_kardtrust_4"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Take Control of Your Financial Future
                 </h2>
@@ -327,7 +342,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               <div className="mt-12 mb-6 text-center">
                 <Link
                   href="/credit-card-recommender-p1"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                  className="cta-button-orange"
                 >
                   Compare Credit Card Rates & Offers
                 </Link>

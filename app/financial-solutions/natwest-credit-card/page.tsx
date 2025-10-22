@@ -7,11 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "NatWest Credit Card: Versatile Banking Solutions - Top Finance UK",
+    title: "NatWest Credit Card: Versatile Banking Solutions - KardTrust",
     description:
       "The NatWest Credit Card offers flexible rewards, secure spending, and practical features designed to support your everyday financial needs.",
     keywords:
-      "NatWest Credit Card, UK credit cards, everyday spending, rewards programme, NatWest Bank, secure banking, contactless payments",
+      "NatWest Credit Card, US credit cards, everyday spending, rewards programme, NatWest Bank, secure banking, contactless payments",
   };
 }
 
@@ -36,6 +36,15 @@ export default function NatWestCreditCardPage() {
                 rewards, security features, and financial flexibility designed
                 to support your everyday spending and special purchases.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -86,15 +95,6 @@ export default function NatWestCreditCardPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/natwest-credit-card-requirements">
                   <Button className="bg-[#42145F] hover:bg-purple-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -110,7 +110,7 @@ export default function NatWestCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -120,7 +120,7 @@ export default function NatWestCreditCardPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   The NatWest Credit Card represents a practical financial tool
-                  from one of the UK's established banking institutions.
+                  from one of the US's established banking institutions.
                   Designed to complement your everyday banking needs, it
                   combines useful rewards with security features and convenient
                   digital management to offer a well-rounded credit card
@@ -144,7 +144,7 @@ export default function NatWestCreditCardPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -361,7 +361,7 @@ export default function NatWestCreditCardPage() {
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
                   Whether you're an existing NatWest customer looking to expand
                   your banking relationship or someone seeking a reliable credit
-                  card from an established UK bank, the NatWest Credit Card
+                  card from an established US bank, the NatWest Credit Card
                   offers a straightforward and effective financial tool. Its
                   combination of rewards, security, and convenience makes it
                   particularly suitable for those who value practical benefits

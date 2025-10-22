@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Barclays Personal Loan: Flexible Financial Solutions - Top Finance UK",
+    title: "Barclays Personal Loan: Flexible Financial Solutions - KardTrust",
     description:
       "Explore Barclays Personal Loans with competitive rates, flexible terms, and a streamlined application process to fund your next big purchase or consolidate debt.",
     keywords:
-      "Barclays Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Barclays banking, loan application",
+      "Barclays Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Barclays banking, loan application",
   };
 }
 
@@ -32,10 +31,28 @@ export default function BarclaysPersonalLoanPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Barclays Personal Loans combine competitive rates with the
-                stability and trusted service of one of the UK's largest banking
+                stability and trusted service of one of the US's largest banking
                 institutions, providing flexible financial solutions customized
                 to your needs.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -93,15 +110,6 @@ export default function BarclaysPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/barclays-personal-loan-requirements">
                   <Button className="bg-[#00AEEF] hover:bg-blue-600 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -111,7 +119,7 @@ export default function BarclaysPersonalLoanPage() {
               </div>
 
               <div
-                id="uk_topfinanzas_4"
+                id="uk_kardtrust_4"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -126,7 +134,7 @@ export default function BarclaysPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -345,7 +353,7 @@ export default function BarclaysPersonalLoanPage() {
                   financial institution that balances innovation with proven
                   expertise. The bank's commitment to responsible lending
                   practices ensures that loan recommendations align with your
-                  financial circumstances, while their extensive UK presence
+                  financial circumstances, while their extensive US presence
                   provides reassurance and accessibility. With comprehensive
                   customer support available through digital channels, telephone
                   banking, and physical branches, Barclays ensures you have

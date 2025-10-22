@@ -18,6 +18,13 @@ export default function PersonalLoansDebtStrategyPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Personal Loans - A Strategy for Managing Debt
             </h1>
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -33,7 +40,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -205,7 +212,7 @@ export default function PersonalLoansDebtStrategyPage() {
                       href="/financial-solutions/santander-uk-personal-loan"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK Personal Loan:
+                      Santander US Personal Loan:
                     </Link>{" "}
                     See if their loan products fit your consolidation needs.
                   </li>
@@ -338,6 +345,14 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                <div
+                  id="uk_kardtrust_4"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   A Step Toward Better Financial Management
                 </h2>
@@ -359,10 +374,7 @@ export default function PersonalLoansDebtStrategyPage() {
 
               {/* CTA Button */}
               <div className="mt-12 mb-6 text-center">
-                <Link
-                  href="/financial-solutions"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
-                >
+                <Link href="/financial-solutions" className="cta-button-orange">
                   Find a Loan for Your Debt Strategy
                 </Link>
               </div>

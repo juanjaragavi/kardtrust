@@ -1,7 +1,6 @@
 import type React from "react";
 import type { Metadata, Viewport } from "next";
-import localFont from "next/font/local";
-import Script from "next/script";
+import { Inter } from "next/font/google";
 import { Suspense } from "react";
 import fs from "fs";
 import path from "path";
@@ -9,10 +8,17 @@ import "./globals.css";
 import GoogleTagManager, {
   GoogleTagManagerNoScript,
 } from "@/components/analytics/gtm";
+import GoogleAds from "@/components/analytics/google-ads";
+import GoogleAdManager from "@/components/analytics/gam";
 import UtmPersister from "@/components/analytics/utm-persister";
+import UtmLinkInjector from "@/components/analytics/utm-link-injector";
 import UtmMonitor from "@/components/analytics/utm-monitor";
 import AdZep from "@/components/analytics/adzep";
 import AdZepTest from "@/components/analytics/adzep-test";
+import AdZepSPABridge from "@/components/analytics/adzep-spa-bridge";
+import AdZepInterstitialBlocker from "@/components/analytics/adzep-interstitial-blocker";
+import AdZepAccessibilityFix from "@/components/analytics/adzep-accessibility-fix";
+import AnalyticsValidationPanel from "@/components/analytics/validation-panel";
 import ResourceHints from "@/components/resource-hints";
 import NavigationProvider from "@/components/providers/navigation-provider";
 {
@@ -20,28 +26,13 @@ import NavigationProvider from "@/components/providers/navigation-provider";
 }
 import ClientOnly from "@/components/ClientOnly";
 
-// Use local font to avoid external requests during build
-// This improves build time and eliminates network dependency
-const poppins = localFont({
-  src: [
-    {
-      path: "../public/fonts/poppins-regular.woff2",
-      weight: "400",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/poppins-medium.woff2",
-      weight: "500",
-      style: "normal",
-    },
-    {
-      path: "../public/fonts/poppins-semibold.woff2",
-      weight: "600",
-      style: "normal",
-    },
-  ],
+// Use Google Fonts Inter - highly readable geometric sans-serif
+// Perfect for modern financial content portals with excellent legibility
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   display: "swap",
-  variable: "--font-poppins",
+  variable: "--font-inter",
   fallback: [
     "system-ui",
     "Segoe UI",
@@ -53,7 +44,7 @@ const poppins = localFont({
 });
 
 // Define base URL for metadata
-const baseUrl = "https://uk.topfinanzas.com";
+const baseUrl = "https://kardtrust.com";
 
 // Read critical CSS at build time to inline it
 let criticalCSS = "";
@@ -61,7 +52,7 @@ try {
   // Read the critical CSS file
   criticalCSS = fs.readFileSync(
     path.join(process.cwd(), "app/critical.css"),
-    "utf8"
+    "utf8",
   );
 } catch (e) {
   console.warn("Failed to read critical CSS:", e);
@@ -76,39 +67,39 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  // Updated Title and Description for UK focus
-  title: "TopFinance UK - Your Guide to UK Credit Cards & Loans",
+  // Updated Title and Description for US focus
+  title: "KardTrust - Your Guide to US Credit Cards & Loans",
   description:
-    "Compare the best UK credit cards, loans, and financial solutions with TopFinance UK. Expert guides and tools tailored for the UK market.",
+    "Compare the best US credit cards, loans, and financial solutions with KardTrust. Expert guides and tools tailored for the US market.",
   keywords:
-    "credit cards UK, personal loans UK, compare credit cards, compare loans, financial advice UK, TopFinance UK", // Updated keywords
+    "credit cards US, personal loans US, compare credit cards, compare loans, financial advice US, KardTrust", // Updated keywords
   // Removed generator tag
 
   // Added Open Graph Metadata
   openGraph: {
-    title: "TopFinance UK - Your Guide to UK Credit Cards & Loans",
+    title: "KardTrust - Your Guide to US Credit Cards & Loans",
     description:
-      "Compare the best UK credit cards, loans, and financial solutions with TopFinance UK.",
+      "Compare the best US credit cards, loans, and financial solutions with KardTrust.",
     url: baseUrl,
-    siteName: "TopFinance UK",
+    siteName: "KardTrust",
     images: [
       {
         url: `https://media.topfinanzas.com/images/placeholder-image.webp`, // Using the provided image URL
         width: 900, // Assuming standard OG image width
         height: 600, // Assuming standard OG image height
-        alt: "TopFinance UK - Financial Guides and Solutions", // Updated Alt Text
+        alt: "KardTrust - Financial Guides and Solutions", // Updated Alt Text
       },
     ],
-    locale: "en_GB",
+    locale: "en_US",
     type: "website",
   },
 
   // Added Twitter Card Metadata
   twitter: {
     card: "summary_large_image",
-    title: "TopFinance UK - Your Guide to UK Credit Cards & Loans",
+    title: "KardTrust - Your Guide to US Credit Cards & Loans",
     description:
-      "Compare the best UK credit cards, loans, and financial solutions with TopFinance UK.",
+      "Compare the best US credit cards, loans, and financial solutions with KardTrust.",
     // siteId: "[Optional Twitter ID]",
     // creator: "[Optional Twitter Handle]",
     // creatorId: "[Optional Twitter ID]",
@@ -132,7 +123,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-gb">
+    <html lang="en-us">
       <head>
         {/* Inline critical CSS for faster rendering */}
         <style
@@ -155,20 +146,6 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
 
-        {/* Module/nomodule pattern for modern browsers */}
-        <script
-          type="module"
-          dangerouslySetInnerHTML={{
-            __html: "document.documentElement.dataset.jsEnabled = 'module';",
-          }}
-        />
-        <script
-          noModule
-          dangerouslySetInnerHTML={{
-            __html: "document.documentElement.dataset.jsEnabled = 'nomodule';",
-          }}
-        />
-
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -176,9 +153,9 @@ export default function RootLayout({
               {
                 "@context": "https://schema.org",
                 "@type": "Organization",
-                name: "TopFinance UK",
+                name: "KardTrust",
                 url: baseUrl,
-                logo: "https://media.topfinanzas.com/images/logo-english.webp",
+                logo: "https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "PANAMA, PANAMA CITY",
@@ -190,7 +167,7 @@ export default function RootLayout({
                   "@type": "ContactPoint",
                   telephone: "+44-20-1234-5678",
                   contactType: "customer support",
-                  email: "info@topfinanzas.com",
+                  email: "info@kardtrust.com",
                 },
                 sameAs: [
                   "https://www.linkedin.com/company/top-networks-inc",
@@ -198,19 +175,22 @@ export default function RootLayout({
                 ],
               },
               null,
-              2
+              2,
             ),
           }}
         />
 
         <ClientOnly>
           <GoogleTagManager />
+          <GoogleAds />
+          <GoogleAdManager />
           <AdZep />
         </ClientOnly>
+
         <ResourceHints />
 
         {/* Explicit favicon and manifest links with proper MIME types */}
-        <link rel="icon" href="/favicon.png" type="image/png" sizes="192x192" />
+        <link rel="icon" href="/favicon.png" type="image/png" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link
           rel="apple-touch-icon"
@@ -225,20 +205,19 @@ export default function RootLayout({
         />
 
         {/* Fallback api routes for browsers that might have issues with static files */}
-        <link rel="alternate icon" href="/api/favicon" type="image/x-icon" />
         <link
           rel="alternate"
           href="/api/webmanifest"
           type="application/manifest+json"
         />
       </head>
-      <body className={`${poppins.variable} font-sans text-left sm:text-left`}>
+      <body className={`${inter.variable} font-sans text-left sm:text-left`}>
         <GoogleTagManagerNoScript />
         {/*<PreloaderProvider
           defaultConfig={{
             duration: 4000,
-            primaryColor: "#1e40af",
-            secondaryColor: "#3b82f6",
+            primaryColor: "#DC2626",
+            secondaryColor: "#2563EB",
             backgroundColor: "#ffffff",
             showLogo: true,
             showProgress: true,
@@ -248,8 +227,15 @@ export default function RootLayout({
         <NavigationProvider>
           <Suspense fallback={null}>
             <UtmPersister />
+            <UtmLinkInjector />
+            <AdZepSPABridge />
+            <AdZepInterstitialBlocker />
+            <AdZepAccessibilityFix />
             {process.env.NODE_ENV === "development" && <UtmMonitor />}
             {process.env.NODE_ENV === "development" && <AdZepTest />}
+            {process.env.NODE_ENV === "development" && (
+              <AnalyticsValidationPanel />
+            )}
           </Suspense>
           {children}
         </NavigationProvider>

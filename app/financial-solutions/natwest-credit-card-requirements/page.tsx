@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "NatWest Credit Card Requirements: Application Criteria - Top Finance UK",
+    title: "NatWest Credit Card Requirements: Application Criteria - KardTrust",
     description:
       "Understand the eligibility requirements, application process, and documentation needed for the NatWest Credit Card to enhance your chances of approval.",
     keywords:
-      "NatWest Credit Card requirements, UK credit card application, NatWest eligibility, credit score requirements, UK banking applications",
+      "NatWest Credit Card requirements, US credit card application, NatWest eligibility, credit score requirements, US banking applications",
   };
 }
 
@@ -32,7 +31,7 @@ export default function NatWestCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -52,7 +51,7 @@ export default function NatWestCreditCardRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -71,9 +70,9 @@ export default function NatWestCreditCardRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a UK resident. This
+                      You must be at least 18 years old and a US resident. This
                       ensures compliance with regulatory requirements and
-                      confirms your eligibility for UK financial products.
+                      confirms your eligibility for US financial products.
                     </div>
                   </div>
 
@@ -107,7 +106,7 @@ export default function NatWestCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -138,7 +137,7 @@ export default function NatWestCreditCardRequirementsPage() {
                       <span className="font-semibold">Proof of Address:</span>{" "}
                       Recent utility bills, council tax statements, or bank
                       statements (typically no older than 3 months) to confirm
-                      your current UK residential address.
+                      your current US residential address.
                     </div>
                   </div>
 

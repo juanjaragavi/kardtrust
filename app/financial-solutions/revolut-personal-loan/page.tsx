@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Revolut Personal Loan: Fast, Flexible Fintech Lending - Top Finance UK",
+    title: "Revolut Personal Loan: Fast, Flexible Fintech Lending - KardTrust",
     description:
       "Explore Revolut Personal Loans offering quick decisions, flexible terms, and seamless management through the Revolut app.",
     keywords:
-      "Revolut Personal Loan, UK loans, fintech loan, personal finance, debt consolidation, flexible repayment, Revolut app, loan application",
+      "Revolut Personal Loan, US loans, fintech loan, personal finance, debt consolidation, flexible repayment, Revolut app, loan application",
   };
 }
 
@@ -34,6 +33,15 @@ export default function RevolutPersonalLoanPage() {
                 quick, flexible borrowing managed entirely through the Revolut
                 app, providing a modern alternative to traditional bank loans.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -87,15 +95,6 @@ export default function RevolutPersonalLoanPage() {
                   </div>
                 </div>
               </div>
-
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/revolut-personal-loan-requirements">
@@ -157,7 +156,7 @@ export default function RevolutPersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

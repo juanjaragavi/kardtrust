@@ -7,10 +7,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "iwoca Flexi-Loan: Fast Business Financing for SMEs - Top Finance UK",
+    title: "iwoca Flexi-Loan: Fast Business Financing for SMEs - KardTrust",
     description:
-      "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed specifically for UK small and medium-sized businesses.",
+      "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed specifically for US small and medium-sized businesses.",
     keywords:
       "iwoca, Flexi-Loan, SME loan, business finance UK, fintech lending, small business funding, working capital, flexible business loan",
   };
@@ -27,15 +26,24 @@ export default function IwocaPersonalLoanPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              iwoca Flexi-Loan: Fast, Flexible Funding for UK Businesses
+              iwoca Flexi-Loan: Fast, Flexible Funding for US Businesses
             </h1>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 iwoca offers innovative business finance solutions, including
-                the Flexi-Loan, designed to provide UK SMEs with quick access to
+                the Flexi-Loan, designed to provide US SMEs with quick access to
                 working capital through a simple, technology-driven process.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -92,15 +100,6 @@ export default function IwocaPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/iwoca-personal-loan-requirements">
                   <Button className="bg-red-400 hover:bg-teal-600 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -116,7 +115,7 @@ export default function IwocaPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -153,7 +152,7 @@ export default function IwocaPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -322,7 +321,7 @@ export default function IwocaPersonalLoanPage() {
                 </p>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  For UK SMEs seeking fast, flexible, and transparent
+                  For US SMEs seeking fast, flexible, and transparent
                   short-to-medium term financing, especially for working
                   capital, iwoca's Flexi-Loan offers a strong fintech
                   alternative to traditional bank overdrafts or loans.

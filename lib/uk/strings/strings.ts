@@ -38,8 +38,8 @@ export const step3Texts = {
     lastNameRequired: "Last name is required",
     lastNameLength: "Last name must be at least 2 characters",
     phoneRequired: "Phone number is required",
-    phoneFormat: "Please enter a valid UK mobile number (11 digits)",
-    phoneLada: "The area code doesn't appear to be valid for the UK",
+    phoneFormat: "Please enter a valid US mobile number (11 digits)",
+    phoneLada: "The area code doesn't appear to be valid for the US",
     acceptTerms: "You must agree to receive information to continue",
   },
 };

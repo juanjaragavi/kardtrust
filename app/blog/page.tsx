@@ -2,10 +2,7 @@
 
 import { useState, useCallback, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
-// Standard Next.js Image component
 import { FeaturedPostCard } from "@/components/ui/featured-post-card";
-import { FeaturedPostsGrid } from "@/components/ui/featured-posts-grid";
 import { motion, AnimatePresence } from "framer-motion";
 import { BlogLayout } from "@/components/mdx/blog-layout"; // Assuming this layout is suitable
 import { Button } from "@/components/ui/button"; // For pagination
@@ -45,58 +42,69 @@ export default function BlogArchivePage() {
     // Personal Finance Posts
     {
       title:
-        "Best Personal Loans in the UK: Your Complete Guide | Top Finance UK",
+        "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | KardTrust",
+      slug: "inflation-proof-your-life",
+      description:
+        "Discover seven practical strategies to protect your purchasing power during high inflation. Learn how to cut invisible spending leaks, lock in fixed rates, build emergency buffers, and keep your personal finance on track when costs are rising.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "15 October 2025",
+    },
+    {
+      title: "Best Personal Loans in the US: Your Complete Guide | KardTrust",
       slug: "best-personal-loans",
-      description: "Comprehensive guide to the UK's top personal loans...",
-      image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
+      description: "Comprehensive guide to the US's top personal loans...",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "30 March 2025",
     },
     {
-      title:
-        "Top Rewards Credit Cards to Maximize Your Spending | Top Finance UK",
+      title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
       slug: "best-rewards-credit-cards",
       description: "Discover the best rewards credit cards...",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp", // Placeholder
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
     },
     {
       title:
-        "Best Cashback Credit Cards for Maximizing Your Rewards | Top Finance UK",
+        "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
       slug: "cashback-credit-cards",
       description: "Discover the top cashback credit cards!...",
-      image: "https://media.topfinanzas.com/images/uk/download-8-1.webp", // Placeholder
+      image: "https://media.topfinanzas.com/images/kardtrust/download-8-1.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
     },
     {
       title:
-        "Credit Cards - Types, Benefits, and Keys to Financial Health | Top Finance UK",
+        "Credit Cards - Types, Benefits, and Keys to Financial Health | KardTrust",
       slug: "credit-card-types-benefits",
       description: "Discover everything you need to know about credit cards...",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finanzas_Top_tarjeta_de_credito-1.webp", // Placeholder
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finanzas_Top_tarjeta_de_credito-1.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
     },
     {
-      title: "Practical Guide to Getting Out of Debt | Top Finance UK",
+      title: "Practical Guide to Getting Out of Debt | KardTrust",
       slug: "getting-out-of-debt",
       description: "Feeling overwhelmed by debt? Get practical strategies...",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
     },
     {
-      title: "Top Credit Cards With No Annual Fees | Top Finance UK",
+      title: "Top Credit Cards With No Annual Fees | KardTrust",
       slug: "no-annual-fee-credit-cards",
       description: "Find the best no annual fee credit cards...",
       image:
@@ -106,7 +114,7 @@ export default function BlogArchivePage() {
       date: "3 April 2025",
     },
     {
-      title: "Personal Loans - A Strategy for Managing Debt | Top Finance UK",
+      title: "Personal Loans - A Strategy for Managing Debt | KardTrust",
       slug: "personal-loans-debt-strategy",
       description:
         "Discover how personal loans can help you consolidate debt...",
@@ -118,7 +126,7 @@ export default function BlogArchivePage() {
     },
     {
       title:
-        "5 Essential Tips for Choosing an Online Loan: Quick Guide | Top Finance UK",
+        "5 Essential Tips for Choosing an Online Loan: Quick Guide | KardTrust",
       slug: "tips-for-choosing-an-online-loan",
       description: "Navigate the world of online loans with confidence...",
       image:
@@ -128,25 +136,139 @@ export default function BlogArchivePage() {
       date: "30 March 2025",
     },
     {
-      title:
-        "Best Credit Cards with 0% Intro APR Offers in the UK | Top Finance UK",
+      title: "Best Credit Cards with 0% Intro APR Offers in the US | KardTrust",
       slug: "top-credit-cards-0-intro-apr",
       description:
         "Compare the best credit cards offering 0% introductory APR...",
-      image: "https://media.topfinanzas.com/images/uk/APR.webp", // Placeholder
+      image: "https://media.topfinanzas.com/images/kardtrust/APR.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
     },
     {
       title:
-        "Understanding Credit Card Interest Rates - A Consumer Guide | Top Finance UK",
+        "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",
       slug: "understanding-credit-card-interest-rates",
       description: "Learn how credit card interest rates work...",
-      image: "https://media.topfinanzas.com/images/uk/download-5-2.webp", // Placeholder
+      image: "https://media.topfinanzas.com/images/kardtrust/download-5-2.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
+    },
+    {
+      title:
+        "Side Hustle or Second Job? How to Choose the Right Income Booster",
+      slug: "side-hustle-or-second-job",
+      description:
+        "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
+      image: "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "27 August 2025",
+    },
+    {
+      title:
+        "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
+      slug: "creating-a-budget-youll-actually-stick-to",
+      description:
+        "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "4 September 2025",
+    },
+    {
+      title:
+        "How to Confidently Ask for a Raise (with Scripts and a Preparation Guide)",
+      slug: "how-to-ask-for-a-raise",
+      description:
+        "Learn exactly what to say when asking for a pay rise. This UK-focused guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
+      image:
+        "https://media.topfinanzas.com/images/uk/how-to-ask-for-a-raise.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "3 October 2025",
+    },
+    {
+      title:
+        "What Is 'Lifestyle Creep' and How Is It Silently Draining Your Wallet?",
+      slug: "what-is-lifestyle-creep",
+      description:
+        "Discover how lifestyle creep gradually increases your spending as your income grows, and learn practical strategies to prevent this silent wealth-drainer from sabotaging your personal finance goals whilst still enjoying life.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "9 October 2025",
+    },
+    {
+      title:
+        "Yours, Mine, or Ours? How to Strategically Combine Finances After Marriage (or Moving In)",
+      slug: "combine-finances-after-marriage-or-moving-in",
+      description:
+        "Thinking about merging money with a partner? Whether you've just tied the knot or moved in together, combining finances is more than opening a joint account. This US-focused guide walks you through practical options, common pitfalls, and an easy step-by-step plan.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/combine-finances-after-marriage-or-moving-in.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "20 October 2025",
+    },
+    {
+      title: "Ditching the Impulse Buys: A Practical Guide to Mindful Spending",
+      slug: "ditching-impulse-buys-mindful-spending",
+      description:
+        "Learn practical strategies to stop impulse buying and develop mindful spending habits. US-focused guide with real examples, budgeting tips, and proven techniques for better personal finance control.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/ditching-impulse-buys-mindful-spending-guide.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "26 September 2025",
+    },
+    {
+      title: "What Is Financial Health? A Quick Guide to Checking Your Vitals",
+      slug: "what-is-financial-health",
+      description:
+        "A simple US-focused guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/what-is-financial-health.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "13 August 2025",
+    },
+    {
+      title: "Money Management for Beginners: Where Do I Even Start?",
+      slug: "money-management-for-beginners",
+      description:
+        "New to personal finance? Learn simple US-based steps to budget, save, manage debt, and build steady money habits that stick.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/money-management-for-beginners.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "13 August 2025",
+    },
+    {
+      title:
+        "Setting Financial Goals: A Beginner's Guide to Personal Finance Planning",
+      slug: "setting-financial-goals",
+      description:
+        "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple US-focused personal finance guide for beginners.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/setting-financial-goals.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "15 August 2025",
+    },
+    {
+      title: "Best Travel Credit Cards US",
+      slug: "travel-credit-cards",
+      description:
+        "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/travel-cards-explained.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "7 April 2025",
     },
     // Financial Solutions Posts (Add relevant ones)
     // Example: Add a few key ones, more can be added later
@@ -196,39 +318,78 @@ export default function BlogArchivePage() {
     // ... Add more posts from financial-solutions as needed
   ];
 
-  // Sort posts by date if available, otherwise keep original order (or implement other sorting)
-  // For now, keeping the combined order. Add date parsing/sorting if needed.
+  // Sort posts by date (newest first). Supports ISO strings and "DD Month YYYY".
+  const MONTHS: Record<string, number> = {
+    january: 0,
+    february: 1,
+    march: 2,
+    april: 3,
+    may: 4,
+    june: 5,
+    july: 6,
+    august: 7,
+    september: 8,
+    october: 9,
+    november: 10,
+    december: 11,
+  };
+
+  const parseDate = (value?: string): number => {
+    if (!value) return 0;
+    // ISO quick path
+    if (/^\d{4}-\d{2}-\d{2}/.test(value) || value.includes("T")) {
+      const t = Date.parse(value);
+      return isNaN(t) ? 0 : t;
+    }
+    // "DD Month YYYY" (e.g., "3 April 2025")
+    const m = value.trim().match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/);
+    if (m) {
+      const day = parseInt(m[1], 10);
+      const monthName = m[2].toLowerCase();
+      const year = parseInt(m[3], 10);
+      const month = MONTHS[monthName];
+      if (month != null) {
+        return Date.UTC(year, month, day);
+      }
+    }
+    const t = Date.parse(value);
+    return isNaN(t) ? 0 : t;
+  };
+
+  const allPostsSorted: PostItem[] = [...allPosts].sort(
+    (a, b) => parseDate(b.date) - parseDate(a.date),
+  );
 
   // Filter posts based on active category
   const filterPosts = useCallback(() => {
-    let filteredPosts = [...allPosts];
+    let filteredPosts = [...allPostsSorted];
 
     if (activeCategory === "personalFinance") {
-      filteredPosts = allPosts.filter(
-        (post) => post.category === "Personal Finance"
+      filteredPosts = allPostsSorted.filter(
+        (post) => post.category === "Personal Finance",
       );
     } else if (activeCategory === "financialSolutions") {
-      filteredPosts = allPosts.filter(
-        (post) => post.category === "Financial Solutions"
+      filteredPosts = allPostsSorted.filter(
+        (post) => post.category === "Financial Solutions",
       );
     } else if (activeCategory === "creditCards") {
-      filteredPosts = allPosts.filter(
+      filteredPosts = allPostsSorted.filter(
         (post) =>
           post.title.toLowerCase().includes("credit card") ||
           post.slug.toLowerCase().includes("credit-card") ||
-          post.description.toLowerCase().includes("credit card")
+          post.description.toLowerCase().includes("credit card"),
       );
     } else if (activeCategory === "loans") {
-      filteredPosts = allPosts.filter(
+      filteredPosts = allPostsSorted.filter(
         (post) =>
           post.title.toLowerCase().includes("loan") ||
           post.slug.toLowerCase().includes("loan") ||
-          post.description.toLowerCase().includes("loan")
+          post.description.toLowerCase().includes("loan"),
       );
     }
 
     return filteredPosts;
-  }, [allPosts, activeCategory]);
+  }, [activeCategory, allPostsSorted]);
 
   // Get filtered posts
   const filteredPosts = filterPosts();
@@ -248,22 +409,22 @@ export default function BlogArchivePage() {
 
   const content = (
     <div>
-      <h1 className="text-4xl font-bold mb-6">TopFinance UK Blog</h1>
+      <h1 className="text-4xl font-bold mb-6">KardTrust Blog</h1>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
         Your source for insights on personal finance and financial solutions in
-        the UK.
+        the US.
       </p>
 
       {/* Category Highlights */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <Link
           href="/personal-finance"
-          className="block p-6 bg-blue-50 rounded-xl hover:shadow-md transition-shadow"
+          className="block p-6 bg-red-50 rounded-xl hover:shadow-md transition-shadow"
         >
-          <h2 className="text-2xl font-semibold text-blue-800 mb-2">
+          <h2 className="text-2xl font-semibold text-primary-dark mb-2">
             Personal Finance Guides
           </h2>
-          <p className="text-blue-700">
+          <p className="text-primary">
             Explore tips on budgeting, saving, debt management, credit cards,
             and more.
           </p>
@@ -277,7 +438,7 @@ export default function BlogArchivePage() {
           </h2>
           <p className="text-green-700">
             Discover detailed reviews and comparisons of credit cards and loans
-            available in the UK.
+            available in the US.
           </p>
         </Link>
       </div>
@@ -314,7 +475,7 @@ export default function BlogArchivePage() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative"
         >
           {currentPosts.map((post, index) => (
             <motion.div

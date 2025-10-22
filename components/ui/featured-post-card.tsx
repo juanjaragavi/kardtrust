@@ -64,9 +64,9 @@ export function FeaturedPostCard({
             src={image}
             alt={title}
             fill
-            priority={true}
+            priority={priority}
             style={{ objectFit: "cover" }}
-            loading="eager"
+            loading={priority ? "eager" : "lazy"}
             sizes={
               orientation === "horizontal"
                 ? "(max-width: 768px) 100vw, 33vw"
@@ -78,7 +78,7 @@ export function FeaturedPostCard({
             unoptimized={false}
           />
           {showBadge && type && (
-            <div className="absolute top-0 right-0 bg-blue-600 text-white text-xs font-bold px-2 py-1 uppercase">
+            <div className="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-2 py-1 uppercase">
               {type}
             </div>
           )}
@@ -86,7 +86,7 @@ export function FeaturedPostCard({
             <div className="absolute top-2 left-2 z-10">
               <Badge
                 className={`
-                ${category === "Personal Finance" ? "bg-blue-600" : ""}
+                ${category === "Personal Finance" ? "bg-primary" : ""}
                 ${category === "Financial Solutions" ? "bg-green-600" : ""}
               `}
               >

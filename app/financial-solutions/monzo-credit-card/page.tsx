@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Monzo Credit Card: Digital-First Banking Solutions - Top Finance UK",
+    title: "Monzo Credit Card: Digital-First Banking Solutions - KardTrust",
     description:
       "The Monzo Credit Card offers innovative digital features, real-time spending insights, and simplified financial management designed for the mobile-first generation.",
     keywords:
-      "Monzo Credit Card, UK credit cards, digital banking, mobile-first banking, Monzo, neobank, spending insights, budgeting tools",
+      "Monzo Credit Card, US credit cards, digital banking, mobile-first banking, Monzo, neobank, spending insights, budgeting tools",
   };
 }
 
@@ -34,10 +33,19 @@ export default function MonzoCreditCardPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Monzo Credit Card embodies the innovative, digital-first
-                approach that has made Monzo one of the UK's leading neobanks,
+                approach that has made Monzo one of the US's leading neobanks,
                 combining powerful financial tools with an intuitive user
                 experience.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -98,15 +106,6 @@ export default function MonzoCreditCardPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/monzo-credit-card-requirements">
                   <Button className="bg-[#FF4D56] hover:bg-red-500 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -122,7 +121,7 @@ export default function MonzoCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -132,7 +131,7 @@ export default function MonzoCreditCardPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   The Monzo Credit Card represents a natural extension of
-                  Monzo's innovative approach to banking. As one of the UK's
+                  Monzo's innovative approach to banking. As one of the US's
                   most successful neobanks, Monzo has built its reputation on
                   reimagining financial services for the digital age. The Monzo
                   Credit Card carries forward this philosophy, offering a
@@ -158,7 +157,7 @@ export default function MonzoCreditCardPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

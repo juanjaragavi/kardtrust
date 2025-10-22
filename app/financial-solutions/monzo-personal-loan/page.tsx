@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Monzo Personal Loan: Simple, Transparent Neobank Lending - Top Finance UK",
+      "Monzo Personal Loan: Simple, Transparent Neobank Lending - KardTrust",
     description:
       "Explore Monzo Personal Loans offering quick decisions, clear terms, and seamless management through the Monzo app.",
     keywords:
-      "Monzo Personal Loan, UK loans, neobank loan, personal finance, debt consolidation, flexible repayment, Monzo app, loan application",
+      "Monzo Personal Loan, US loans, neobank loan, personal finance, debt consolidation, flexible repayment, Monzo app, loan application",
   };
 }
 
@@ -90,15 +90,6 @@ export default function MonzoPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/monzo-personal-loan-requirements">
                   <Button className="bg-[#FF4D56] hover:bg-red-500 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -114,7 +105,7 @@ export default function MonzoPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -149,7 +140,7 @@ export default function MonzoPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

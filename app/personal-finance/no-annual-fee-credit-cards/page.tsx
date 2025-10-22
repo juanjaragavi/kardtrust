@@ -15,6 +15,13 @@ export default function NoAnnualFeeCreditCards() {
         <h1 className="text-2xl font-bold text-gray-900 mb-4">
           Top Credit Cards With No Annual Fees
         </h1>
+        {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+        <div
+          id="uk_kardtrust_3"
+          className="items-center justify-center flex w-full my-8"
+        >
+          {/* Empty responsive, centered div */}
+        </div>
         <p className="text-gray-800 mb-6 text-sm leading-5 font-light">
           Finding the right credit card can be a game-changer, especially when
           you want valuable rewards without the added expense of an annual fee.
@@ -30,7 +37,7 @@ export default function NoAnnualFeeCreditCards() {
             width={800}
             height={450}
             className="w-full h-auto rounded-xl"
-            priority={true}
+            priority={false}
             fetchPriority="high"
             quality={85}
             loading="eager"
@@ -233,6 +240,14 @@ export default function NoAnnualFeeCreditCards() {
         </section>
 
         <section className="my-8">
+          {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+          <div
+            id="uk_kardtrust_4"
+            className="items-center justify-center flex w-full my-8"
+          >
+            {/* Empty responsive, centered div */}
+          </div>
+
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Maximize Rewards Without Extra Costs
           </h2>
@@ -257,7 +272,7 @@ export default function NoAnnualFeeCreditCards() {
         <div className="mt-12 mb-6 text-center">
           <Link
             href="/credit-card-recommender-p1"
-            className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+            className="cta-button-orange"
           >
             Explore No Annual Fee Cards
           </Link>

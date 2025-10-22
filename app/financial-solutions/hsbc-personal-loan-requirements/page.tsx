@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "HSBC Personal Loan Requirements: Application Guide - Top Finance UK",
+    title: "HSBC Personal Loan Requirements: Application Guide - KardTrust",
     description:
       "Learn about HSBC Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
     keywords:
-      "HSBC Personal Loan requirements, UK loan application, loan eligibility, HSBC loan criteria, personal loan documentation, loan application process",
+      "HSBC Personal Loan requirements, US loan application, loan eligibility, HSBC loan criteria, personal loan documentation, loan application process",
   };
 }
 
@@ -29,7 +28,7 @@ export default function HSBCPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -50,7 +49,7 @@ export default function HSBCPersonalLoanRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -71,7 +70,7 @@ export default function HSBCPersonalLoanRequirementsPage() {
                       <span className="font-semibold">Age requirement:</span>{" "}
                       You must be at least 18 years old to apply for an HSBC
                       Personal Loan. This is a standard regulatory requirement
-                      for all financial products in the UK.
+                      for all financial products in the US.
                     </div>
                   </div>
 
@@ -81,9 +80,9 @@ export default function HSBCPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a UK resident with a permanent UK address. HSBC
+                      must be a US resident with a permanent US address. HSBC
                       typically requires applicants to have been resident in the
-                      UK for at least 3 years, though there may be some
+                      US for at least 3 years, though there may be some
                       flexibility for existing customers.
                     </div>
                   </div>
@@ -137,7 +136,7 @@ export default function HSBCPersonalLoanRequirementsPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -150,7 +149,7 @@ export default function HSBCPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Proof of identity:</span>{" "}
-                      A valid passport, UK driving license, or EU identity card
+                      A valid passport, US driving license, or EU identity card
                       is typically required. For existing HSBC customers, this
                       step may be waived if your identity has already been
                       verified.

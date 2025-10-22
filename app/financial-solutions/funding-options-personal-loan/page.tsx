@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Funding Options: Business Finance Marketplace for SMEs - Top Finance UK",
+    title: "Funding Options: Business Finance Marketplace for SMEs - KardTrust",
     description:
-      "Explore Funding Options, a leading UK platform connecting SMEs with a wide range of business finance solutions from various lenders.",
+      "Explore Funding Options, a leading US platform connecting SMEs with a wide range of business finance solutions from various lenders.",
     keywords:
-      "Funding Options, SME finance, business loan marketplace, UK business funding, alternative finance, invoice finance, asset finance, commercial mortgage",
+      "Funding Options, SME finance, business loan marketplace, US business funding, alternative finance, invoice finance, asset finance, commercial mortgage",
   };
 }
 
@@ -33,9 +32,18 @@ export default function FundingOptionsPersonalLoanPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Funding Options is a leading business finance marketplace that
-                simplifies the process for UK SMEs to find and compare funding
+                simplifies the process for US SMEs to find and compare funding
                 solutions from a wide panel of lenders.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -95,15 +103,6 @@ export default function FundingOptionsPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/funding-options-personal-loan-requirements">
                   <Button className="bg-[#FDB913] hover:bg-yellow-500 text-black font-medium text-md py-2 px-8 rounded-full w-full">
@@ -119,7 +118,7 @@ export default function FundingOptionsPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -128,7 +127,7 @@ export default function FundingOptionsPersonalLoanPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Funding Options operates as a crucial intermediary in the UK's
+                  Funding Options operates as a crucial intermediary in the US's
                   business finance landscape. Instead of lending directly, they
                   provide a platform that connects Small and Medium-sized
                   Enterprises (SMEs) with a diverse range of funding providers,
@@ -155,7 +154,7 @@ export default function FundingOptionsPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -336,7 +335,7 @@ export default function FundingOptionsPersonalLoanPage() {
                 </h2>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  Funding Options plays a vital role in the UK's SME ecosystem
+                  Funding Options plays a vital role in the US's SME ecosystem
                   by improving access to finance. Their platform demystifies the
                   funding landscape, offering clarity and choice to business
                   owners who might otherwise struggle to navigate the market or
@@ -344,7 +343,7 @@ export default function FundingOptionsPersonalLoanPage() {
                 </p>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  For UK SMEs seeking finance, Funding Options provides an
+                  For US SMEs seeking finance, Funding Options provides an
                   efficient, transparent, and supportive route to exploring a
                   wide range of potential funding solutions tailored to their
                   specific business needs.

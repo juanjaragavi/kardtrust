@@ -3,7 +3,7 @@
 import { BlogLayout } from "@/components/mdx/blog-layout";
 import Link from "next/link";
 import { FeaturedPostCard } from "@/components/ui/featured-post-card";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 
 export default function FinancialSolutionsPage() {
   // Category definitions
@@ -109,10 +109,10 @@ export default function FinancialSolutionsPage() {
       type: "personal",
     },
     {
-      title: "Santander UK Personal Loan",
+      title: "Santander US Personal Loan",
       slug: "santander-uk-personal-loan",
       description:
-        "Explore Santander UK Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
+        "Explore Santander US Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp",
       date: "4 April 2025",
@@ -142,7 +142,7 @@ export default function FinancialSolutionsPage() {
       title: "Halifax Personal Loan",
       slug: "halifax-personal-loan",
       description:
-        "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major UK bank.",
+        "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major US bank.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136403-fotosprestamo-halifax1uk.webp",
       date: "4 April 2025",
@@ -194,7 +194,7 @@ export default function FinancialSolutionsPage() {
       title: "Funding Circle Business Loan",
       slug: "funding-circle-personal-loan", // Keep slug as created
       description:
-        "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for UK SMEs.",
+        "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for US SMEs.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
       date: "4 April 2025",
@@ -204,7 +204,7 @@ export default function FinancialSolutionsPage() {
       title: "Funding Options Marketplace",
       slug: "funding-options-personal-loan", // Keep slug as created
       description:
-        "Explore Funding Options, a leading UK platform connecting SMEs with a wide range of business finance solutions.",
+        "Explore Funding Options, a leading US platform connecting SMEs with a wide range of business finance solutions.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718138018-fotosprestamo-fundingoption1uk.webp",
       date: "4 April 2025",
@@ -214,7 +214,7 @@ export default function FinancialSolutionsPage() {
       title: "iwoca Flexi-Loan",
       slug: "iwoca-personal-loan", // Keep slug as created
       description:
-        "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for UK SMEs.",
+        "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for US SMEs.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137033-fotosprestamo-iwoca1uk.webp",
       date: "4 April 2025",
@@ -224,7 +224,7 @@ export default function FinancialSolutionsPage() {
       title: "MarketFinance Business Finance",
       slug: "marketfinance-personal-loan", // Keep slug as created
       description:
-        "Explore MarketFinance's solutions for UK SMEs, including fast business loans and flexible invoice finance.",
+        "Explore MarketFinance's solutions for US SMEs, including fast business loans and flexible invoice finance.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137315-fotosprestamo-fundingchange2uk.webp",
       date: "4 April 2025",
@@ -234,7 +234,7 @@ export default function FinancialSolutionsPage() {
       title: "Funding Xchange Platform",
       slug: "funding-xchange-personal-loan", // Keep slug as created
       description:
-        "Explore Funding Xchange, a smart platform helping UK SMEs compare and access business finance options.",
+        "Explore Funding Xchange, a smart platform helping US SMEs compare and access business finance options.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136896-fotosprestamo-fundingchange1uk.webp",
       date: "4 April 2025",
@@ -244,7 +244,7 @@ export default function FinancialSolutionsPage() {
       title: "Capify Business Finance",
       slug: "capify-personal-loan", // Keep slug as created
       description:
-        "Explore Capify's financing solutions for UK SMEs, including Merchant Cash Advances and Business Loans.",
+        "Explore Capify's financing solutions for US SMEs, including Merchant Cash Advances and Business Loans.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137374-fotosprestamo-capify1uk.webp",
       date: "4 April 2025",
@@ -254,7 +254,7 @@ export default function FinancialSolutionsPage() {
       title: "Fleximize Business Loans",
       slug: "fleximize-personal-loan", // Keep slug as created
       description:
-        "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for UK SMEs.",
+        "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for US SMEs.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137416-fotosprestamo-fleximize1uk.webp",
       date: "4 April 2025",
@@ -285,10 +285,10 @@ export default function FinancialSolutionsPage() {
       type: "traditional",
     },
     {
-      title: "Santander UK Credit Card",
+      title: "Santander US Credit Card",
       slug: "santander-uk-credit-card",
       description:
-        "Learn about the Santander UK Credit Card with All in One cashback, no foreign transaction fees, and balance transfer options for smart financial management.",
+        "Learn about the Santander US Credit Card with All in One cashback, no foreign transaction fees, and balance transfer options for smart financial management.",
       image:
         "https://media.topfinanzas.com/images/uk/credit-cards/718644935-top_prestamos-y-tarjetas-uk_v1-03.webp",
       date: "2 April 2025",
@@ -506,7 +506,7 @@ export default function FinancialSolutionsPage() {
       )}
 
       {/* CTA section */}
-      <div className="bg-blue-50 p-8 rounded-xl shadow-sm mb-10">
+      <div className="bg-red-50 p-8 rounded-xl shadow-sm mb-10">
         <h2 className="text-2xl font-bold mb-4 text-left sm:text-left">
           Looking for the ideal card for you?
         </h2>
@@ -516,7 +516,7 @@ export default function FinancialSolutionsPage() {
         </p>
         <Link
           href="/credit-card-recommender-p1"
-          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 inline-block transition-colors rounded-full"
+          className="bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 inline-block transition-colors rounded-full"
         >
           Go to Recommender
         </Link>
@@ -527,7 +527,7 @@ export default function FinancialSolutionsPage() {
   return (
     <BlogLayout
       metadata={{
-        title: "Financial Solutions - TopFinance",
+        title: "Financial Solutions - KardTrust",
         description:
           "Discover information about the best credit cards, requirements and comprehensive guides to choose the right option for your financial needs.",
       }}

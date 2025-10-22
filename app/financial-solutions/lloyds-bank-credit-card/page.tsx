@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Lloyds Bank Credit Card: Flexible Everyday Rewards - Top Finance UK",
+    title: "Lloyds Bank Credit Card: Flexible Everyday Rewards - KardTrust",
     description:
       "The Lloyds Bank Credit Card offers flexible rewards, competitive rates, and convenient features for everyday spending and financial management.",
     keywords:
-      "Lloyds Bank Credit Card, UK credit cards, everyday spending, cashback rewards, Lloyds Bank, balance transfer, purchase card",
+      "Lloyds Bank Credit Card, US credit cards, everyday spending, cashback rewards, Lloyds Bank, balance transfer, purchase card",
   };
 }
 
@@ -37,6 +36,15 @@ export default function LloydsBankCreditCardPage() {
                 and flexibility, designed to support your daily spending while
                 providing useful rewards and benefits.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -86,15 +94,6 @@ export default function LloydsBankCreditCardPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/lloyds-bank-credit-card-requirements">
                   <Button className="bg-[#006A4D] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -110,7 +109,7 @@ export default function LloydsBankCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -120,9 +119,9 @@ export default function LloydsBankCreditCardPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   The Lloyds Bank Credit Card is designed to offer everyday
-                  value to UK consumers, providing a reliable financial tool
+                  value to US consumers, providing a reliable financial tool
                   that combines convenience, security, and rewards. As one of
-                  the UK's oldest and most trusted banking institutions, Lloyds
+                  the US's oldest and most trusted banking institutions, Lloyds
                   Bank has created a credit card that reflects its commitment to
                   customer-focused banking solutions.
                 </p>
@@ -161,7 +160,7 @@ export default function LloydsBankCreditCardPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -283,7 +282,7 @@ export default function LloydsBankCreditCardPage() {
                         Contactless Technology:
                       </span>{" "}
                       Quick and convenient contactless payment capability for
-                      purchases up to the current UK limit, making everyday
+                      purchases up to the current US limit, making everyday
                       transactions faster and easier.
                     </div>
                   </div>
@@ -334,7 +333,7 @@ export default function LloydsBankCreditCardPage() {
                         Branch Network Support:
                       </span>{" "}
                       Benefit from Lloyds Bank's extensive branch network across
-                      the UK, providing in-person support when needed.
+                      the US, providing in-person support when needed.
                     </div>
                   </div>
                 </div>

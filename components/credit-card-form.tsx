@@ -1,25 +1,36 @@
 "use client";
 
 import type React from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useRouter } from "next/navigation";
 import Cookies from "js-cookie"; // Import Cookies
 import Step1 from "./steps/step1";
 import Step2 from "./steps/step2";
 import Step3 from "./steps/step3";
 import Logo from "./ui/logo";
-import { formStrings } from "@/lib/constants";
+import {
+  BRAND_STATIC_FIELDS,
+  BRAND_STATIC_FIELDS_LOWER,
+  UTM_PARAM_KEYS,
+  formStrings,
+} from "@/lib/constants";
 import { step1Strings, step2Strings } from "@/lib/strings";
+import { pushGTMConversion } from "@/components/analytics/gtm";
+import { trackGoogleAdsConversion } from "@/components/analytics/google-ads";
+import { redirectWithUtmParams } from "@/lib/utils/url-builder";
 
-// Define UTM parameters array
-const UTM_PARAM_KEYS = [
-  "utm_source",
-  "utm_medium",
-  "utm_campaign",
-  "utm_term",
-  "utm_content",
-];
+type SubmissionStatus = "idle" | "success" | "duplicate" | "error";
+
+const buildKitFields = (fields: Record<string, string | null | undefined>) =>
+  Object.fromEntries(
+    Object.entries(fields).filter(
+      ([, value]) => value !== undefined && value !== null && value !== "",
+    ),
+  );
+
+const GOOGLE_ADS_CONVERSION_LABEL =
+  process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL ?? "";
+const GTM_CONVERSION_EVENT_NAME = "quiz_lead_submitted";
 
 // Cookie names for user tracking
 const COOKIE_NAMES = {
@@ -46,7 +57,7 @@ const getCookieConfig = () => {
       process.env.NEXT_PUBLIC_COOKIE_VALIDATION_ENABLED !== "false",
     SHORT_EXPIRATION: parseInt(
       process.env.NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION || "1",
-      10
+      10,
     ),
     DEFAULT_EXPIRATION: 30,
   };
@@ -66,23 +77,77 @@ export default function CreditCardForm() {
 
   const [isRegisteredUser, setIsRegisteredUser] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submissionStatus, setSubmissionStatus] =
+    useState<SubmissionStatus>("idle");
+  const [submissionMessage, setSubmissionMessage] = useState<string | null>(
+    null,
+  );
+
+  const hasAutoSubmittedRef = useRef(false);
 
   const totalSteps = 3;
   const progress = Math.round(((step - 1) / (totalSteps - 1)) * 100) || 0;
 
-  const updateFormData = (data: Partial<typeof formData>) => {
+  const updateFormData = useCallback((data: Partial<typeof formData>) => {
     setFormData((prev) => ({ ...prev, ...data }));
-  };
+  }, []);
 
-  const getPreferenceText = (id: string): string => {
+  const getPreferenceText = useCallback((id: string): string => {
     const option = step1Strings.options.find((opt) => opt.id === id);
     return option ? option.label : "";
-  };
+  }, []);
 
-  const getIncomeText = (id: string): string => {
+  const getIncomeText = useCallback((id: string): string => {
     const option = step2Strings.options.find((opt) => opt.id === id);
     return option ? option.label : "";
-  };
+  }, []);
+
+  const triggerConversionEvents = useCallback(() => {
+    if (!GOOGLE_ADS_CONVERSION_LABEL) {
+      console.warn(
+        "[QUIZ] Google Ads conversion label is not configured; skipping Ad conversion event.",
+      );
+    } else {
+      trackGoogleAdsConversion(GOOGLE_ADS_CONVERSION_LABEL);
+    }
+
+    pushGTMConversion(GTM_CONVERSION_EVENT_NAME);
+  }, []);
+
+  const persistRegistrationCookies = useCallback(() => {
+    const cookieConfig = getCookieConfig();
+    if (!cookieConfig.VALIDATION_ENABLED) {
+      console.log(
+        "[QUIZ] Cookie validation disabled; skipping cookie persistence",
+      );
+      return;
+    }
+
+    const cookieExpiration = cookieConfig.DEFAULT_EXPIRATION;
+
+    Cookies.set(COOKIE_NAMES.QUIZ_COMPLETED, "true", {
+      expires: cookieExpiration,
+    });
+
+    if (formData.email) {
+      const registrationData = {
+        email: formData.email,
+        firstName: formData.firstName,
+      };
+
+      Cookies.set(COOKIE_NAMES.USER_REGISTERED, "true", {
+        expires: cookieExpiration,
+      });
+      Cookies.set(COOKIE_NAMES.USER_DATA, JSON.stringify(registrationData), {
+        expires: cookieExpiration,
+      });
+
+      console.log(
+        `[QUIZ] Cookie validation: enabled, expiration: ${cookieExpiration} days`,
+      );
+    }
+  }, [formData.email, formData.firstName]);
 
   // Set mounted state
   useEffect(() => {
@@ -121,7 +186,7 @@ export default function CreditCardForm() {
         console.error("Error parsing saved user data:", error);
       }
     }
-  }, [mounted]);
+  }, [mounted, updateFormData]);
 
   useEffect(() => {
     if (formData.preference) {
@@ -132,54 +197,62 @@ export default function CreditCardForm() {
     if (formData.income) {
       updateFormData({ incomeText: getIncomeText(formData.income) });
     }
-  }, [formData.preference, formData.income]);
+  }, [
+    formData.preference,
+    formData.income,
+    updateFormData,
+    getPreferenceText,
+    getIncomeText,
+  ]);
 
   useEffect(() => {
-    if (
-      step < totalSteps &&
-      ((step === 1 && formData.preference) || (step === 2 && formData.income))
-    ) {
-      // For registered users, skip step 3 after completing step 2
-      if (step === 2 && formData.income && isRegisteredUser) {
-        // Submit directly for registered users
-        setTimeout(() => {
-          handleSubmit();
-        }, 500);
-      } else {
-        // Normal flow: proceed to next step
-        const timer = setTimeout(() => setStep(step + 1), 500);
-        return () => clearTimeout(timer);
-      }
+    if (!isRegisteredUser) {
+      hasAutoSubmittedRef.current = false;
     }
-  }, [formData, step, isRegisteredUser]);
+  }, [isRegisteredUser]);
 
-  const router = useRouter();
+  const handleSubmit = useCallback(
+    async (e?: React.FormEvent) => {
+      e?.preventDefault();
 
-  const handleSubmit = async (e?: React.FormEvent) => {
-    e?.preventDefault();
-    console.log("Form submitted with data:", formData);
-    console.log("[DEBUG] API Key:", "[DEBUG] API Key: OK");
+      if (isSubmitting) {
+        return;
+      }
 
-    try {
-      // Get UTM parameters from session storage
-      const utmParams: Record<string, string> = {};
-      UTM_PARAM_KEYS.forEach((param) => {
-        const value = sessionStorage.getItem(param);
-        if (value) {
-          utmParams[param] = value;
-        }
-      });
+      console.log("[QUIZ] Form submission attempt", formData);
+      setIsSubmitting(true);
+      setSubmissionStatus("idle");
+      setSubmissionMessage(null);
 
-      // Prepare data for Kit API
-      const nameParts = formData.firstName.trim().split(" ");
-      const apiFirstName = nameParts[0] || "";
-      const apiLastName = nameParts.slice(1).join(" ") || "";
+      try {
+        const utmParams: Record<string, string> = {};
+        UTM_PARAM_KEYS.forEach((param) => {
+          const value = sessionStorage.getItem(param);
+          if (typeof value === "string") {
+            utmParams[param] = value;
+          }
+        });
 
-      const kitData = {
-        first_name: apiFirstName,
-        email_address: formData.email,
-        state: "active",
-        fields: {
+        const utmFieldsForSheets = UTM_PARAM_KEYS.reduce<
+          Record<string, string>
+        >((acc, key) => {
+          acc[key] = utmParams[key] ?? "";
+          return acc;
+        }, {});
+
+        const normalizedHiddenFields = {
+          source: utmParams.utm_source ?? "",
+          medium: utmParams.utm_medium ?? "",
+          campaign: utmParams.utm_campaign ?? "",
+          term: utmParams.utm_term ?? "",
+          content: utmParams.utm_content ?? "",
+        };
+
+        const nameParts = formData.firstName.trim().split(" ");
+        const apiFirstName = nameParts[0] || "";
+        const apiLastName = nameParts.slice(1).join(" ") || "";
+
+        const kitFields = {
           acepto_politicas_de_tratamiento_de_datos_y_terminos_y_condiciones:
             formData.receiveMessages ? "1" : "0",
           beneficio_empresa: null,
@@ -194,7 +267,8 @@ export default function CreditCardForm() {
           last_name: apiLastName,
           monto_empresa: null,
           newsletter: null,
-          pais: "Reino Unido",
+          pais: BRAND_STATIC_FIELDS_LOWER.pais,
+          marca: BRAND_STATIC_FIELDS_LOWER.marca,
           phone_number: null,
           preferencia_1_cupo_de_credito_alto: null,
           preferencia_2_sin_buro: null,
@@ -228,91 +302,153 @@ export default function CreditCardForm() {
           recovery: null,
           reingresar_flujo_tarjetas: null,
           tarjetas_neobancos: null,
+          source: normalizedHiddenFields.source || null,
+          medium: normalizedHiddenFields.medium || null,
+          campaign: normalizedHiddenFields.campaign || null,
+          term: normalizedHiddenFields.term || null,
+          content: normalizedHiddenFields.content || null,
           utm_adgroup: utmParams.utm_adgroup || null,
           utm_campaign: utmParams.utm_campaign || null,
           utm_content: utmParams.utm_content || null,
           utm_medium: utmParams.utm_medium || null,
           utm_source: utmParams.utm_source || null,
           utm_term: utmParams.utm_term || null,
-        },
-      };
-
-      // Send data to Kit API only if not a registered user or if we have new email data
-      if (!isRegisteredUser || formData.email) {
-        try {
-          // Send data to Google Sheets
-          const sheetsData = {
-            ...formData,
-            ...utmParams,
-          };
-          await fetch("/api/sheets", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(sheetsData),
-          });
-
-          const response = await fetch("/api/subscribe", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify(kitData),
-          });
-
-          const result = await response.json();
-          console.log("Subscription API response:", result);
-        } catch (error) {
-          console.error("Error calling subscription API:", error);
-        }
-      }
-    } catch (error) {
-      console.error("Error sending data to Kit API:", error);
-    } finally {
-      const cookieConfig = getCookieConfig();
-      // Determine cookie expiration based on configuration
-      const cookieExpiration = cookieConfig.VALIDATION_ENABLED
-        ? cookieConfig.DEFAULT_EXPIRATION
-        : cookieConfig.SHORT_EXPIRATION;
-
-      // Set cookies to indicate quiz completion and user registration
-      Cookies.set(COOKIE_NAMES.QUIZ_COMPLETED, "true", {
-        expires: cookieExpiration,
-      });
-
-      // Save user registration status and data for future visits
-      if (formData.email) {
-        // Add timestamp when validation is disabled for debugging/monitoring
-        const registrationData = {
-          email: formData.email,
-          firstName: formData.firstName,
-          ...(!cookieConfig.VALIDATION_ENABLED && {
-            _temporaryMode: true,
-            _timestamp: new Date().toISOString(),
-          }),
         };
 
-        Cookies.set(COOKIE_NAMES.USER_REGISTERED, "true", {
-          expires: cookieExpiration,
-        });
-        Cookies.set(COOKIE_NAMES.USER_DATA, JSON.stringify(registrationData), {
-          expires: cookieExpiration,
+        const kitData = {
+          first_name: apiFirstName,
+          email_address: formData.email,
+          state: "active",
+          fields: buildKitFields(kitFields),
+        };
+
+        const sheetsPayload = {
+          ...formData,
+          ...utmFieldsForSheets,
+          ...normalizedHiddenFields,
+          ...BRAND_STATIC_FIELDS,
+          ...BRAND_STATIC_FIELDS_LOWER,
+        };
+
+        const sheetsResponse = await fetch("/api/sheets", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(sheetsPayload),
         });
 
-        // Log the current cookie validation status for debugging
-        console.log(
-          `[QUIZ] Cookie validation: ${
-            cookieConfig.VALIDATION_ENABLED ? "enabled" : "disabled"
-          }, expiration: ${cookieExpiration} days`
+        const sheetsResult = await sheetsResponse.json().catch(() => ({}));
+
+        if (sheetsResponse.status === 409) {
+          console.info("[QUIZ] Duplicate submission detected", sheetsResult);
+          persistRegistrationCookies();
+          setSubmissionStatus("duplicate");
+          setSubmissionMessage(
+            "We already have your latest details. Redirecting you to your offers.",
+          );
+
+          setTimeout(() => {
+            redirectWithUtmParams("https://linkly.link/2ERav");
+          }, 800);
+          return;
+        }
+
+        if (!sheetsResponse.ok) {
+          throw new Error(
+            (sheetsResult as { error?: string })?.error ||
+              "Failed to add registration to sheet",
+          );
+        }
+
+        if (!isRegisteredUser || formData.email) {
+          try {
+            const subscribeResponse = await fetch("/api/subscribe", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(kitData),
+            });
+
+            if (!subscribeResponse.ok) {
+              const subscribeError = await subscribeResponse
+                .json()
+                .catch(() => null);
+              console.error("[QUIZ] Subscription API error", subscribeError);
+            } else {
+              const subscribeResult = await subscribeResponse
+                .json()
+                .catch(() => null);
+              console.log("Subscription API response:", subscribeResult);
+            }
+          } catch (subscriptionError) {
+            console.error(
+              "[QUIZ] Error calling subscription API",
+              subscriptionError,
+            );
+          }
+        }
+
+        triggerConversionEvents();
+        persistRegistrationCookies();
+        setSubmissionStatus("success");
+        setSubmissionMessage(
+          "Thanks! Redirecting you to your tailored credit card options.",
         );
+
+        setTimeout(() => {
+          redirectWithUtmParams("https://linkly.link/2ERav");
+        }, 800);
+      } catch (error) {
+        console.error("[QUIZ] Error handling submission", error);
+        setSubmissionStatus("error");
+        setSubmissionMessage(
+          "We couldn’t confirm your registration. Please try again in a moment.",
+        );
+        setIsSubmitting(false);
+      }
+    },
+    [
+      formData,
+      isSubmitting,
+      isRegisteredUser,
+      persistRegistrationCookies,
+      triggerConversionEvents,
+    ],
+  );
+
+  useEffect(() => {
+    if (
+      step < totalSteps &&
+      ((step === 1 && formData.preference) || (step === 2 && formData.income))
+    ) {
+      if (step === 2 && formData.income && isRegisteredUser) {
+        if (hasAutoSubmittedRef.current) {
+          return;
+        }
+
+        hasAutoSubmittedRef.current = true;
+        const timer = setTimeout(() => {
+          void handleSubmit();
+        }, 500);
+
+        return () => clearTimeout(timer);
       }
 
-      // Redirect to UK results page using Next.js router
-      // regardless of API response to ensure good user experience
-      router.push("/credit-card-recommender-p1");
+      const timer = setTimeout(() => setStep((current) => current + 1), 500);
+      return () => clearTimeout(timer);
     }
-  };
+
+    return undefined;
+  }, [
+    formData.preference,
+    formData.income,
+    step,
+    totalSteps,
+    isRegisteredUser,
+    handleSubmit,
+  ]);
 
   return (
     <div className="bg-white flex flex-col h-[100dvh]">
@@ -343,6 +479,9 @@ export default function CreditCardForm() {
                     formData={formData}
                     updateFormData={updateFormData}
                     onSubmit={handleSubmit}
+                    isSubmitting={isSubmitting}
+                    submissionStatus={submissionStatus}
+                    submissionMessage={submissionMessage}
                   />
                 </>
               )}

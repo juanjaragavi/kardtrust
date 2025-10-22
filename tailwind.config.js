@@ -17,12 +17,16 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#4ADE80", // Light green
-          dark: "#22C55E", // Darker green for hover
+          DEFAULT: "#DC2626", // red-600 - Main brand red
+          light: "#EF4444", // red-500 - Lighter variant
+          dark: "#B91C1C", // red-700 - Darker for hover
+          accent: "#F87171", // red-400 - Softer highlights
         },
         secondary: {
-          DEFAULT: "#4F46E5", // Purple/Indigo
-          dark: "#4338CA",
+          DEFAULT: "#2563EB", // blue-600 - Main secondary blue
+          light: "#3B82F6", // blue-500 - Lighter variant
+          dark: "#1D4ED8", // blue-700 - Darker for hover
+          navy: "#1E3A8A", // blue-900 - Deep blue
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -51,7 +55,7 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        sans: ["var(--font-poppins)"],
+        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
       animation: {
         "fade-in": "fadeIn 0.5s ease-in-out",

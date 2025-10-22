@@ -24,7 +24,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
   font-family: var(--font-poppins);
   @apply text-gray-900;
 }
@@ -60,18 +65,17 @@ body {
 }
 
 @layer components {
-
   /* Heading Typography */
   .text-h1 {
     @apply text-[16px] font-bold text-gray-800 leading-7;
   }
 
   .text-h2 {
-    @apply text-[12px] text-gray-800 leading-6;
+    @apply text-[12px] text-primary-dark leading-6;
   }
 
   .text-h3 {
-    @apply text-[14px] font-semibold text-gray-800 leading-6;
+    @apply text-[14px] font-semibold text-primary-dark leading-6;
   }
 
   /* Paragraph Typography */
@@ -86,7 +90,7 @@ body {
 
   /* Link Typography */
   .text-link {
-    @apply text-[#222442] hover:underline;
+    @apply text-primary hover:text-primary-dark hover:underline;
   }
 
   /* Caption/Meta Typography */
@@ -145,8 +149,36 @@ body {
     @apply text-sm text-white leading-5;
   }
 
+  /* Section Spacing - BudgetBee pattern */
+  .section {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+
+  /* Container Pattern */
+  .container {
+    @apply mx-auto px-4 max-w-7xl;
+  }
+
+  /* Row Pattern */
+  .row {
+    @apply flex flex-wrap -mx-4;
+  }
+
+  /* Column Utilities */
+  .lg\:col-10 {
+    @apply lg:w-10/12;
+  }
+
+  .md\:col-6 {
+    @apply md:w-1/2;
+  }
+
+  .col-12 {
+    @apply w-full;
+  }
+
   .footer-link {
-    @apply text-white hover:text-[#55B9FF] hover:underline;
+    @apply text-white hover:text-blue-300 hover:underline;
   }
 
   /* Default background for text overlay sections */
@@ -169,7 +201,7 @@ body {
   }
 
   .btn-primary {
-    @apply bg-green-400 hover:bg-green-500 text-white font-medium py-3 px-8 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
+    @apply bg-primary hover:bg-primary-dark text-white font-medium py-3 px-8 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
   }
 
   .btn-secondary {
@@ -193,8 +225,133 @@ body {
   }
 
   .banner-section-desktop {
-    background-image: url(https://media.topfinanzas.com/images/banner-home.webp);
+    background-image: url(https://media.topfinanzas.com/images/kardtrust/banner-home.webp);
     background-position: center center;
     /* Keep centered for desktop */
   }
+
+  /* Touch-friendly CTA button styles */
+  /* Prevents double-tap issue on mobile by only applying hover effects on devices with true hover capability */
+  .cta-button-base {
+    @apply font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md;
+  }
+
+  .cta-button-orange {
+    @apply cta-button-base bg-orange-500 text-white;
+  }
+
+  .cta-button-blue {
+    @apply cta-button-base bg-secondary text-white;
+  }
+
+  /* Only apply hover effects (including transforms) on devices with true hover capability */
+  /* This prevents the double-tap issue on mobile touch devices */
+  @media (hover: hover) and (pointer: fine) {
+    .cta-button-orange:hover {
+      @apply bg-orange-600 shadow-lg;
+      transform: translateY(-2px);
+    }
+
+    .cta-button-blue:hover {
+      @apply bg-secondary-dark shadow-lg;
+      transform: translateY(-2px);
+    }
+  }
+
+  /* For touch devices, provide simple active state feedback without transforms */
+  @media (hover: none) and (pointer: coarse) {
+    .cta-button-orange:active {
+      @apply bg-orange-600;
+    }
+
+    .cta-button-blue:active {
+      @apply bg-secondary-dark;
+    }
+  }
+}
+
+/* ⚠️ AdZep Overlay/Ad Blocking CSS Rules COMPLETELY REMOVED ⚠️
+ * 
+ * Previously, this CSS file contained multiple aggressive rules that blocked ALL AdZep elements:
+ * 
+ * REMOVED RULES:
+ * - #adzep-article-overlay, [id*="adzep-overlay"] - Blocked our own overlay utilities
+ * - [id*="interstitial"], [class*="interstitial"] - Blocked interstitial ads
+ * - [id*="rewardful"], [class*="rewardful"] - Blocked offerwall/rewardful ads  
+ * - [id*="overlay"], [class*="overlay"] - Blocked generic overlays
+ * - Various data attributes and specific classes
+ * 
+ * These rules used display:none !important and pointer-events:none !important,
+ * which completely prevented AdZep ads from displaying or being interactive.
+ * 
+ * CRITICAL PRODUCTION BUG CAUSED:
+ * 1. Interstitial ads would load but be completely non-clickable
+ * 2. Close buttons on ads were unresponsive (pointer-events: none)
+ * 3. Users couldn't dismiss ads, completely blocking their journey
+ * 4. Revenue generation was 100% blocked
+ * 5. Issue persisted even after JavaScript component fixes
+ * 
+ * ROOT CAUSE: CSS !important rules override all JavaScript
+ * Even though we disabled AdZepInterstitialBlocker component, these CSS rules
+ * were still active and blocking all ad interactions globally.
+ * 
+ * SOLUTION: ALL blocking CSS rules have been PERMANENTLY REMOVED
+ * AdZep's own ad units include proper close buttons and controls.
+ * They should be allowed to display and function normally.
+ * 
+ * If problematic overlays appear in the future, implement a targeted solution:
+ * 1. Use specific data attributes to identify malicious elements
+ * 2. Whitelist legitimate ad network domains (AdZep)
+ * 3. Don't use broad pattern matching like [id*="interstitial"]
+ * 4. Never use !important on blocking rules
+ * 5. Test thoroughly before deploying
+ */
+
+/* Prevent body from being locked by ad scripts */
+body.ad-loading,
+body.ad-overlay-active,
+body[style*="overflow: hidden"],
+html.ad-loading,
+html.ad-overlay-active,
+html[style*="overflow: hidden"] {
+  overflow: auto !important;
+  position: static !important;
+  height: auto !important;
+  pointer-events: auto !important;
+}
+
+/* Remove lingering backdrop/overlay elements after ads are dismissed
+ * These rules target ONLY orphaned backdrop elements that remain after ad closure
+ * They do NOT block the ad units themselves - only cleanup leftover backdrops
+ */
+
+/* Target AdZep backdrop elements that commonly remain after ad dismissal */
+body
+  > div[style*="position: fixed"][style*="inset: 0"]:not(
+    [id*="uk_topfinanzas"]
+  ):empty,
+body
+  > div[style*="position: fixed"][style*="z-index"][style*="background"]:not(
+    [id*="uk_topfinanzas"]
+  ):empty,
+body > div[class*="backdrop"]:empty,
+body > div[class*="overlay"]:empty:not([id*="uk_topfinanzas"]) {
+  display: none !important;
+  pointer-events: none !important;
+}
+
+/* Remove backdrop-filter blur effects from body when no active ads */
+body:not(:has([id^="uk_topfinanzas_"][style*="display"][style*="block"])),
+body:not(:has([data-adzep-active])) {
+  backdrop-filter: none !important;
+  filter: none !important;
+}
+
+/* Ensure main content containers are not blurred when ads are dismissed */
+main,
+#__next,
+[id*="root"],
+.container {
+  backdrop-filter: none !important;
+  filter: none !important;
 }

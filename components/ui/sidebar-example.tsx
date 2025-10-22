@@ -10,12 +10,8 @@ import {
   SidebarCategories,
   SidebarContent,
   SidebarFooter,
-  SidebarGroup,
   SidebarHeader,
   SidebarInput,
-  SidebarMenu,
-  SidebarMenuItem,
-  SidebarMenuButton,
   SidebarNewsletter,
   SidebarProvider,
   SidebarRecentArticles,
@@ -163,7 +159,7 @@ export default function SidebarExample() {
 
           <SidebarFooter>
             <small className="text-xs text-left block text-gray-500">
-              © 2025 TopFinance UK
+              © 2025 KardTrust
             </small>
           </SidebarFooter>
         </Sidebar>

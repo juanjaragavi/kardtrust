@@ -1,6 +1,7 @@
 "use client";
 
-import { useState, FormEvent } from "react";
+import { useEffect, useState } from "react";
+import type { ChangeEvent, FormEvent } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -11,16 +12,71 @@ import Link from "next/link";
 import { FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { BRAND_STATIC_FIELDS, UTM_PARAM_KEYS } from "@/lib/constants";
+
+interface ContactFormState {
+  name: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  message: string;
+  acceptTerms: boolean;
+  utm_source: string;
+  utm_medium: string;
+  utm_campaign: string;
+  utm_term: string;
+  utm_content: string;
+  source: string;
+  medium: string;
+  campaign: string;
+  term: string;
+  content: string;
+  Pais: string;
+  Marca: string;
+  pais: string;
+  marca: string;
+}
+
+type ContactFormStringKeys = {
+  [K in keyof ContactFormState]: ContactFormState[K] extends string ? K : never;
+}[keyof ContactFormState];
+
+const initialFormState: ContactFormState = {
+  name: "",
+  lastName: "",
+  email: "",
+  phone: "",
+  message: "",
+  acceptTerms: false,
+  utm_source: "",
+  utm_medium: "",
+  utm_campaign: "",
+  utm_term: "",
+  utm_content: "",
+  source: "",
+  medium: "",
+  campaign: "",
+  term: "",
+  content: "",
+  Pais: BRAND_STATIC_FIELDS.Pais,
+  Marca: BRAND_STATIC_FIELDS.Marca,
+  pais: BRAND_STATIC_FIELDS.Pais,
+  marca: BRAND_STATIC_FIELDS.Marca,
+};
+
+const UTM_TO_PLAIN_FIELD: Record<
+  (typeof UTM_PARAM_KEYS)[number],
+  ContactFormStringKeys
+> = {
+  utm_source: "source",
+  utm_medium: "medium",
+  utm_campaign: "campaign",
+  utm_term: "term",
+  utm_content: "content",
+};
 
 export default function ContactUs() {
-  const [formData, setFormData] = useState({
-    name: "",
-    lastName: "",
-    email: "",
-    phone: "",
-    message: "",
-    acceptTerms: false,
-  });
+  const [formData, setFormData] = useState<ContactFormState>(initialFormState);
 
   const [errors, setErrors] = useState<{
     name: string | null;
@@ -41,6 +97,35 @@ export default function ContactUs() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    const utmUpdates: Partial<Record<keyof ContactFormState, string>> = {};
+
+    UTM_PARAM_KEYS.forEach((param) => {
+      const value = sessionStorage.getItem(param);
+      if (typeof value === "string" && value.trim() !== "") {
+        utmUpdates[param as keyof ContactFormState] = value;
+        const mappedKey = UTM_TO_PLAIN_FIELD[param];
+        if (mappedKey) {
+          utmUpdates[mappedKey] = value;
+        }
+      }
+    });
+
+    if (Object.keys(utmUpdates).length > 0) {
+      setFormData(
+        (prev) =>
+          ({
+            ...prev,
+            ...utmUpdates,
+          }) as ContactFormState,
+      );
+    }
+  }, []);
 
   const validateEmail = (email: string): boolean => {
     if (!email) {
@@ -126,7 +211,7 @@ export default function ContactUs() {
       return false;
     }
 
-    // UK mobile numbers are 11 digits, typically starting with '07'
+    // US mobile numbers are 11 digits, typically starting with '07'
     const ukPhoneRegex = /^07\d{9}$/;
 
     // Alternative format with spaces or dashes
@@ -138,12 +223,12 @@ export default function ContactUs() {
     if (!ukPhoneRegex.test(cleanPhone) && !ukPhoneRegexAlt.test(phoneNumber)) {
       setErrors((prev) => ({
         ...prev,
-        phone: "Please enter a valid UK mobile number (11 digits)",
+        phone: "Please enter a valid US mobile number (11 digits)",
       }));
       return false;
     }
 
-    // Check that it starts with valid UK mobile prefix (07)
+    // Check that it starts with valid US mobile prefix (07)
     const firstTwoDigits = cleanPhone.substring(0, 2);
     if (firstTwoDigits !== "07") {
       setErrors((prev) => ({
@@ -206,10 +291,16 @@ export default function ContactUs() {
   };
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
-    setFormData((prev) => ({ ...prev, [name]: value }));
+    setFormData(
+      (prev) =>
+        ({
+          ...prev,
+          [name]: value,
+        }) as ContactFormState,
+    );
 
     // Live validation
     if (name === "email" && value.length > 5) {
@@ -257,20 +348,21 @@ export default function ContactUs() {
       }
 
       setSubmitSuccess(true);
-      setFormData({
+      setFormData((prev) => ({
+        ...prev,
         name: "",
         lastName: "",
         email: "",
         phone: "",
         message: "",
         acceptTerms: false,
-      });
+      }));
     } catch (error) {
       console.error("Error sending message:", error);
       setSubmitError(
         error instanceof Error
           ? error.message
-          : "An unexpected error occurred. Please try again."
+          : "An unexpected error occurred. Please try again.",
       );
     } finally {
       setIsSubmitting(false);
@@ -289,7 +381,7 @@ export default function ContactUs() {
             <div className="relative w-full h-64 md:h-80 overflow-hidden rounded-xl shadow-md">
               <Image
                 src="https://media.topfinanzas.com/images/uk/contact-us-uk.webp"
-                alt="Contact TopFinanzas UK"
+                alt="Contact KardTrust"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -308,11 +400,8 @@ export default function ContactUs() {
                 financial stability and prosperity, we're here to accompany you.
                 Contact us through our email at{" "}
                 <span className="font-semibold text-[#2E74B5]">
-                  <a
-                    href="mailto:info@topfinanzas.com"
-                    rel="noopener noreferrer"
-                  >
-                    info@topfinanzas.com
+                  <a href="mailto:info@kardtrust.com" rel="noopener noreferrer">
+                    info@kardtrust.com
                   </a>
                 </span>{" "}
                 or complete the form to share your questions, ideas, or plans.
@@ -538,8 +627,8 @@ export default function ContactUs() {
                     isSubmitting
                       ? "bg-gray-400 cursor-not-allowed text-white"
                       : formData.acceptTerms
-                      ? "bg-[#8DC63F] hover:bg-[#6BA828] text-white"
-                      : "bg-gray-300 text-gray-500 cursor-not-allowed"
+                        ? "bg-[#8DC63F] hover:bg-[#6BA828] text-white"
+                        : "bg-gray-300 text-gray-500 cursor-not-allowed"
                   }`}
                 >
                   {isSubmitting ? "Sending..." : "SEND MESSAGE"}

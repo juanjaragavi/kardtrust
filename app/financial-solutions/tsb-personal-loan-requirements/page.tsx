@@ -7,11 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "TSB Personal Loan Requirements: Application Guide - Top Finance UK",
+    title: "TSB Personal Loan Requirements: Application Guide - KardTrust",
     description:
       "Learn about TSB Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
     keywords:
-      "TSB Personal Loan requirements, UK loan application, loan eligibility, TSB loan criteria, personal loan documentation, loan application process",
+      "TSB Personal Loan requirements, US loan application, loan eligibility, TSB loan criteria, personal loan documentation, loan application process",
   };
 }
 
@@ -28,7 +28,7 @@ export default function TSBPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -48,7 +48,7 @@ export default function TSBPersonalLoanRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -78,8 +78,8 @@ export default function TSBPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a permanent UK resident. TSB typically requires
-                      applicants to have lived in the UK for at least 3 years.
+                      must be a permanent US resident. TSB typically requires
+                      applicants to have lived in the US for at least 3 years.
                     </div>
                   </div>
 
@@ -125,7 +125,7 @@ export default function TSBPersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -142,7 +142,7 @@ export default function TSBPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Proof of identity:</span>{" "}
-                      A valid passport, UK driving license, or EU identity card
+                      A valid passport, US driving license, or EU identity card
                       is typically required. Existing TSB customers may have
                       this step streamlined.
                     </div>
@@ -182,7 +182,7 @@ export default function TSBPersonalLoanRequirementsPage() {
                       <span className="font-semibold">
                         Bank account details:
                       </span>{" "}
-                      Details of a UK bank account are required for loan
+                      Details of a US bank account are required for loan
                       disbursement and setting up direct debit repayments.
                     </div>
                   </div>
@@ -361,7 +361,7 @@ export default function TSBPersonalLoanRequirementsPage() {
                     href="/personal-finance/personal-loans-debt-strategy" // Replaced dead link
                     className="text-blue-600 underline"
                   >
-                    Debt consolidation options in the UK
+                    Debt consolidation options in the US
                   </Link>
                 </p>
 

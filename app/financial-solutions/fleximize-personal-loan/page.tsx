@@ -7,9 +7,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Fleximize: Flexible Business Loans for UK SMEs - Top Finance UK",
+    title: "Fleximize: Flexible Business Loans for US SMEs - KardTrust",
     description:
-      "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options and top-up facilities for UK SMEs.",
+      "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options and top-up facilities for US SMEs.",
     keywords:
       "Fleximize, Flexiloan, SME loan, business finance UK, flexible business loan, fintech lending, working capital, growth funding",
   };
@@ -33,9 +33,18 @@ export default function FleximizePersonalLoanPage() {
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Fleximize offers innovative and highly flexible business loans
                 (Flexiloan and Flexiloan Lite) designed to adapt to the changing
-                needs of UK SMEs, with features like repayment holidays and
+                needs of US SMEs, with features like repayment holidays and
                 top-ups.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -94,15 +103,6 @@ export default function FleximizePersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/fleximize-personal-loan-requirements">
                   <Button className="bg-[#6D2C91] hover:bg-purple-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -112,7 +112,7 @@ export default function FleximizePersonalLoanPage() {
               </div>
 
               <div
-                id="uk_topfinanzas_4"
+                id="uk_kardtrust_4"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -127,7 +127,7 @@ export default function FleximizePersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -331,7 +331,7 @@ export default function FleximizePersonalLoanPage() {
                 </p>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  For UK SMEs seeking more than just capital – a flexible
+                  For US SMEs seeking more than just capital – a flexible
                   financial partner that understands business volatility –
                   Fleximize offers a compelling and supportive lending solution.
                 </p>

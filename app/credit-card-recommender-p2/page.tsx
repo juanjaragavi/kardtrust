@@ -5,9 +5,11 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useState, Suspense } from "react";
+import useRecommenderPageGuard from "@/hooks/use-recommender-page-guard";
 
-export default function CreditCardRecommenderPage() {
+function CreditCardRecommenderContent() {
+  useRecommenderPageGuard();
   const [openFaq, setOpenFaq] = useState<string | null>("benefits");
 
   const toggleFaq = (id: string) => {
@@ -29,27 +31,40 @@ export default function CreditCardRecommenderPage() {
               Discover Your Ideal Credit Card
             </h1>
 
-            <div className="my-8 text-left sm:text-left">
+            <div className="grid grid-cols-1 my-8 items-center justify-center text-left sm:text-left space-y-4">
               <Link href="/financial-solutions/lloyds-bank-credit-card">
-                <Button className="bg-[#80E67D] hover:bg-[#6AD167] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                <Button className="bg-[#006A4D] hover:bg-[#00563d] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
-                    <span>Accept Recommendation</span>
+                    <span>Lloyds Bank Credit Card</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
-                      <span className="text-[#80E67D] text-xs">➔</span>
+                      <span className="text-[#006A4D] text-xs">➔</span>
+                    </div>
+                  </div>
+                </Button>
+              </Link>
+
+              <Link href="/financial-solutions/santander-uk-credit-card">
+                <Button className="bg-[#EA2424] hover:bg-[#c81d1d] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                  <div className="flex items-center space-x-1">
+                    <span>Santander US Credit Card</span>
+                    <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
+                      <span className="text-[#EA2424] text-xs">➔</span>
+                    </div>
+                  </div>
+                </Button>
+              </Link>
+
+              <Link href="/financial-solutions/monzo-credit-card">
+                <Button className="bg-[#80111B] hover:bg-[#650d14] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                  <div className="flex items-center space-x-1">
+                    <span>Monzo Credit Card</span>
+                    <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
+                      <span className="text-[#80111B] text-xs">➔</span>
                     </div>
                   </div>
                 </Button>
               </Link>
             </div>
-
-            <div
-              id="uk_topfinanzas_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
-
-            <hr className="my-8" />
 
             <p className="text-left text-xs leading-4 text-gray-800 mb-5">
               Finding the right card is simple. Maximise rewards, organise your
@@ -57,13 +72,22 @@ export default function CreditCardRecommenderPage() {
               ideal card for you!
             </p>
 
+            <div
+              id="uk_kardtrust_1"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
+
+            <hr className="my-8" />
+
             <h2 className="text-lg leading-5 font-bold text-gray-800 mb-6">
               Why Choose Our Credit Card Recommender?
             </h2>
 
             <div className="space-y-1 mb-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-[#80E67D] px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-[#3B82F6] px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -72,7 +96,7 @@ export default function CreditCardRecommenderPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-[#80E67D] px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-[#3B82F6] px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -81,7 +105,7 @@ export default function CreditCardRecommenderPage() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-[#80E67D] px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-[#3B82F6] px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -92,32 +116,35 @@ export default function CreditCardRecommenderPage() {
 
             <p className="text-left text-sm leading-5 text-gray-800 mb-4">
               Our recommendations are designed to connect your financial goals
-              with cards that suit your needs. From cashback to travel rewards,
-              we give you clear, easy-to-understand options so you can make
-              informed decisions.
+              with cards that suit your needs.
             </p>
 
-            <div className="mt-6 mb-4">
-              <Link href="/financial-solutions/santander-uk-credit-card">
-                <Button className="bg-[#80E67D] hover:bg-[#6AD167] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
-                  <div className="flex items-center space-x-1">
-                    <span>Our Top Recommendation</span>
-                    <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
-                      <span className="text-[#80E67D] text-xs">➔</span>
-                    </div>
-                  </div>
-                </Button>
-              </Link>
-            </div>
-
             <div
-              id="uk_topfinanzas_2"
+              id="uk_kardtrust_2"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
             </div>
 
+            <p className="text-left text-sm leading-5 text-gray-800 mb-4">
+              From cashback to travel rewards, we give you clear,
+              easy-to-understand options so you can make informed decisions.
+            </p>
+
             <hr className="my-8" />
+
+            <div className="mt-6 mb-4">
+              <Link href="/financial-solutions/santander-uk-credit-card">
+                <Button className="bg-[#3B82F6] hover:bg-[#2563EB] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                  <div className="flex items-center space-x-1">
+                    <span>Our Top Recommendation</span>
+                    <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
+                      <span className="text-[#3B82F6] text-xs">➔</span>
+                    </div>
+                  </div>
+                </Button>
+              </Link>
+            </div>
 
             <p className="text-left text-sm leading-5 text-gray-800 mb-5">
               With our guide, you'll transform your credit card into a tool that
@@ -144,7 +171,7 @@ export default function CreditCardRecommenderPage() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "benefits" ? "text-green-500" : "text-sky-600"
+                    openFaq === "benefits" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   What are the benefits of a card with no annual fee?
@@ -153,7 +180,7 @@ export default function CreditCardRecommenderPage() {
                   className={`text-xl transition-transform ${
                     openFaq === "benefits" ? "transform rotate-180" : "" // Changed to rotate for better icon indication
                   } ${
-                    openFaq === "benefits" ? "text-green-500" : "text-sky-700"
+                    openFaq === "benefits" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true" // Hide decorative icon from screen readers
                 >
@@ -179,7 +206,7 @@ export default function CreditCardRecommenderPage() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "cashback" ? "text-green-500" : "text-sky-600"
+                    openFaq === "cashback" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   How does cashback work?
@@ -188,7 +215,7 @@ export default function CreditCardRecommenderPage() {
                   className={`text-xl transition-transform ${
                     openFaq === "cashback" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "cashback" ? "text-green-500" : "text-sky-700"
+                    openFaq === "cashback" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true"
                 >
@@ -213,7 +240,7 @@ export default function CreditCardRecommenderPage() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "travelers" ? "text-green-500" : "text-sky-600"
+                    openFaq === "travelers" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   What's the best option for travellers?
@@ -222,7 +249,7 @@ export default function CreditCardRecommenderPage() {
                   className={`text-xl transition-transform ${
                     openFaq === "travelers" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "travelers" ? "text-green-500" : "text-sky-700"
+                    openFaq === "travelers" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true"
                 >
@@ -248,7 +275,7 @@ export default function CreditCardRecommenderPage() {
               >
                 <h3
                   className={`font-medium text-lg leading-6 ${
-                    openFaq === "online" ? "text-green-500" : "text-sky-600"
+                    openFaq === "online" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   Is it safe to use credit cards online?
@@ -256,9 +283,7 @@ export default function CreditCardRecommenderPage() {
                 <span
                   className={`text-xl transition-transform ${
                     openFaq === "online" ? "transform rotate-180" : ""
-                  } ${
-                    openFaq === "online" ? "text-green-500" : "text-sky-700"
-                  }`}
+                  } ${openFaq === "online" ? "text-primary" : "text-sky-700"}`}
                   aria-hidden="true"
                 >
                   ▼
@@ -300,5 +325,13 @@ export default function CreditCardRecommenderPage() {
 
       <CompactFooter />
     </main>
+  );
+}
+
+export default function CreditCardRecommenderPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <CreditCardRecommenderContent />
+    </Suspense>
   );
 }

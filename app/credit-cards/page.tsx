@@ -44,10 +44,10 @@ export default function CreditCardsArchivePage() {
       type: "traditional",
     },
     {
-      title: "Santander UK Credit Card",
+      title: "Santander US Credit Card",
       slug: "santander-uk-credit-card",
       description:
-        "Learn about the Santander UK Credit Card with All in One cashback, no foreign transaction fees, and balance transfer options for smart financial management.",
+        "Learn about the Santander US Credit Card with All in One cashback, no foreign transaction fees, and balance transfer options for smart financial management.",
       image:
         "https://media.topfinanzas.com/images/uk/credit-cards/718644935-top_prestamos-y-tarjetas-uk_v1-03.webp",
       date: "2 April 2025",
@@ -157,10 +157,10 @@ export default function CreditCardsArchivePage() {
 
   const pageContent = (
     <div>
-      <h1 className="text-4xl font-bold mb-6">UK Credit Card Solutions</h1>
+      <h1 className="text-4xl font-bold mb-6">US Credit Card Solutions</h1>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
         Explore detailed guides and reviews of the best credit cards available
-        in the UK. Find the right card based on rewards, fees, and your
+        in the US. Find the right card based on rewards, fees, and your
         financial needs.
       </p>
 
@@ -193,9 +193,9 @@ export default function CreditCardsArchivePage() {
   return (
     <BlogLayout
       metadata={{
-        title: "UK Credit Cards: Reviews & Guides | TopFinance UK",
+        title: "US Credit Cards: Reviews & Guides | KardTrust",
         description:
-          "Compare the best UK credit cards. Find reviews, guides, and comparisons for rewards, cashback, travel, and low-interest cards.",
+          "Compare the best US credit cards. Find reviews, guides, and comparisons for rewards, cashback, travel, and low-interest cards.",
       }}
     >
       {pageContent}

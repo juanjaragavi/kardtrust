@@ -8,9 +8,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "MarketFinance Requirements: Business Loan & Invoice Finance Guide - Top Finance UK",
+      "MarketFinance Requirements: Business Loan & Invoice Finance Guide - KardTrust",
     description:
-      "Learn about MarketFinance eligibility criteria for UK SMEs seeking business loans or invoice finance, the application process, and required information.",
+      "Learn about MarketFinance eligibility criteria for US SMEs seeking business loans or invoice finance, the application process, and required information.",
     keywords:
       "MarketFinance requirements, SME finance eligibility, business loan criteria UK, invoice finance requirements, fintech lending application, MarketFinance documentation",
   };
@@ -30,7 +30,7 @@ export default function MarketFinancePersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -39,7 +39,7 @@ export default function MarketFinancePersonalLoanRequirementsPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
                 MarketFinance offers fast business loans and invoice finance.
-                Understanding their eligibility criteria helps UK SMEs access
+                Understanding their eligibility criteria helps US SMEs access
                 the right funding.
               </p>
 
@@ -50,7 +50,7 @@ export default function MarketFinancePersonalLoanRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -70,7 +70,7 @@ export default function MarketFinancePersonalLoanRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Business Type:</span>{" "}
                       Primarily serves Limited Companies and LLPs registered in
-                      the UK.
+                      the US.
                     </div>
                   </div>
 
@@ -128,7 +128,7 @@ export default function MarketFinancePersonalLoanRequirementsPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Monzo Credit Card Requirements: Digital Application Guide - Top Finance UK",
+      "Monzo Credit Card Requirements: Digital Application Guide - KardTrust",
     description:
       "Learn about the eligibility criteria, digital application process, and approval requirements for the Monzo Credit Card to maximize your chances of success.",
     keywords:
-      "Monzo Credit Card requirements, UK neobank applications, Monzo eligibility, credit score requirements, digital credit card application, mobile banking",
+      "Monzo Credit Card requirements, US neobank applications, Monzo eligibility, credit score requirements, digital credit card application, mobile banking",
   };
 }
 
@@ -32,7 +32,7 @@ export default function MonzoCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -52,7 +52,7 @@ export default function MonzoCreditCardRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -71,9 +71,9 @@ export default function MonzoCreditCardRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a UK resident with a
-                      UK home address. As a digital bank, Monzo requires a valid
-                      UK residence for account verification purposes.
+                      You must be at least 18 years old and a US resident with a
+                      US home address. As a digital bank, Monzo requires a valid
+                      US residence for account verification purposes.
                     </div>
                   </div>
 
@@ -121,7 +121,7 @@ export default function MonzoCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

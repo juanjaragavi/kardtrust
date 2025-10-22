@@ -2,17 +2,17 @@
 applyTo: "**"
 ---
 
-# Next.js Project Configuration Rules for TopFinance UK
+# Next.js Project Configuration Rules for KardTrust
 
 ## Project Overview
 
-This Next.js project (uk-topfinanzas-com) is a UK-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the UK market.
+This Next.js project (kardtrust) is a US-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the US market.
 
 ## System Architecture
 
 ### Core Technologies
 
-- **Framework**: Next.js 14+ with App Router
+- **Framework**: Next.js 15+ with App Router
 - **Language**: TypeScript with strict configuration
 - **Styling**: Tailwind CSS with custom theme
 - **UI Components**: Shadcn/UI with Radix UI primitives
@@ -147,7 +147,7 @@ import { CustomComponent } from "./custom-component";
 
 ### 1. Localization
 
-- **Language**: UK English (en-GB)
+- **Language**: UK English (en-US)
 - **Currency**: GBP (£) formatting
 - **Date Format**: DD/MM/YYYY
 - **Address Format**: UK postcode system
@@ -256,7 +256,18 @@ import { CustomComponent } from "./custom-component";
 - **Component Usage**: Embedded React components
 - **SEO**: Proper metadata for all content
 
-### 2. SEO Optimization
+### 2. Blog Post Integration
+
+When creating new blog articles, they must be integrated across multiple locations:
+
+- **Blog Listing**: Add to `app/blog/page.tsx` allPosts array
+- **Homepage**: Consider featuring on main page
+- **Sidebar**: Update recent articles in blog layout
+- **Navigation**: Add to header featured posts if standout content
+
+**Reference**: See `/.github/instructions/BLOG_POST_INTEGRATION.instructions.md` for detailed procedures.
+
+### 3. SEO Optimization
 
 - **Meta Tags**: Comprehensive metadata
 - **Schema Markup**: Structured data
@@ -299,7 +310,7 @@ import { CustomComponent } from "./custom-component";
 - **Dependency Updates**: Regular updates
 - **Security Patches**: Timely security updates
 - **Performance Audits**: Regular performance reviews
-- **Content Updates**: UK market updates
+- **Content Updates**: US market updates
 
 ## Best Practices Summary
 
@@ -331,4 +342,4 @@ import { CustomComponent } from "./custom-component";
 - Target UK user behavior
 - Optimize for UK search engines
 
-This configuration ensures the Next.js project maintains high code quality, performance, and compliance with UK market requirements while providing an excellent user experience for UK financial service seekers.
+This configuration ensures the Next.js project maintains high code quality, performance, and compliance with US market requirements while providing an excellent user experience for UK financial service seekers.

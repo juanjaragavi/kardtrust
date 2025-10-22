@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Virgin Money Personal Loan: Flexible Financing with Perks - Top Finance UK",
+      "Virgin Money Personal Loan: Flexible Financing with Perks - KardTrust",
     description:
       "Explore Virgin Money Personal Loans with competitive rates, flexible terms, and potential benefits linked to the Virgin Red rewards program.",
     keywords:
-      "Virgin Money Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Virgin Red, loan application",
+      "Virgin Money Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Virgin Red, loan application",
   };
 }
 
@@ -36,6 +36,15 @@ export default function VirginMoneyPersonalLoanPage() {
                 Virgin Red rewards program, offering a unique approach to
                 borrowing.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -92,15 +101,6 @@ export default function VirginMoneyPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/virgin-money-personal-loan-requirements">
                   <Button className="bg-[#CC0000] hover:bg-red-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -116,7 +116,7 @@ export default function VirginMoneyPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -165,7 +165,7 @@ export default function VirginMoneyPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

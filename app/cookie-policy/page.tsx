@@ -6,16 +6,16 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { useMDXComponents } from "@/mdx-components";
 
 export const metadata = {
-  title: "Cookie Policy - TopFinance UK",
+  title: "Cookie Policy - KardTrust",
   description:
-    "Learn about how TopFinance UK uses cookies and similar technologies on our website.",
+    "Learn about how KardTrust uses cookies and similar technologies on our website.",
 };
 
 export default async function CookiePolicyPage() {
   // Read the MDX file
   const filePath = path.join(
     process.cwd(),
-    "content/legal/cookie-policy.mdx" // Updated path
+    "content/legal/cookie-policy.mdx", // Updated path
   );
   let source = "# Cookie Policy\n\nContent not found.";
 
@@ -37,7 +37,7 @@ export default async function CookiePolicyPage() {
   });
 
   return (
-    <main className="bg-white min-h-screen flex flex-col bg-gray-50">
+    <main className="bg-white min-h-screen flex flex-col">
       <Header />
 
       <div className="container mx-auto px-4 py-12">

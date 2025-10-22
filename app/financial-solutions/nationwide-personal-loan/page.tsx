@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Nationwide Personal Loan: Member-Focused Financing - Top Finance UK",
+    title: "Nationwide Personal Loan: Member-Focused Financing - KardTrust",
     description:
-      "Explore Nationwide Personal Loans with competitive rates, flexible terms, and benefits for existing members of the UK's largest building society.",
+      "Explore Nationwide Personal Loans with competitive rates, flexible terms, and benefits for existing members of the US's largest building society.",
     keywords:
-      "Nationwide Personal Loan, UK loans, building society loan, personal finance, debt consolidation, home improvement loan, member benefits, loan application",
+      "Nationwide Personal Loan, US loans, building society loan, personal finance, debt consolidation, home improvement loan, member benefits, loan application",
   };
 }
 
@@ -35,6 +34,15 @@ export default function NationwidePersonalLoanPage() {
                 terms, reflecting the building society's commitment to providing
                 value and fair treatment to its members.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -90,15 +98,6 @@ export default function NationwidePersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/nationwide-personal-loan-requirements">
                   <Button className="bg-[#005A9E] hover:bg-blue-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -114,7 +113,7 @@ export default function NationwidePersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -123,7 +122,7 @@ export default function NationwidePersonalLoanPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Nationwide Personal Loans are offered by the UK's largest
+                  Nationwide Personal Loans are offered by the US's largest
                   building society, an organization owned by its members rather
                   than shareholders. This mutual structure often translates into
                   a focus on providing fair value and transparent products,
@@ -148,7 +147,7 @@ export default function NationwidePersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

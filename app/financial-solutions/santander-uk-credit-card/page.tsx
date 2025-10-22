@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Santander UK Credit Card: Flexible Rewards and Benefits - Top Finance UK",
+      "Santander US Credit Card: Flexible Rewards and Benefits - KardTrust",
     description:
-      "The Santander UK Credit Card offers competitive cashback, flexible features, and robust digital banking tools for your everyday spending and financial management.",
+      "The Santander US Credit Card offers competitive cashback, flexible features, and robust digital banking tools for your everyday spending and financial management.",
     keywords:
-      "Santander UK Credit Card, cashback rewards, UK credit cards, everyday spending, Santander Bank, contactless payments, mobile banking",
+      "Santander US Credit Card, cashback rewards, US credit cards, everyday spending, Santander Bank, contactless payments, mobile banking",
   };
 }
 
@@ -25,15 +25,24 @@ export default function SantanderUKCreditCardPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              Santander UK Credit Card: Smart Banking for Modern Life
+              Santander US Credit Card: Smart Banking for Modern Life
             </h1>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                The Santander UK Credit Card combines competitive cashback
+                The Santander US Credit Card combines competitive cashback
                 opportunities with practical features designed to support your
                 financial goals while rewarding your everyday spending.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -88,15 +97,6 @@ export default function SantanderUKCreditCardPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/santander-uk-credit-card-requirements">
                   <Button className="bg-[#EC0000] hover:bg-red-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -108,7 +108,7 @@ export default function SantanderUKCreditCardPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/uk/credit-cards/718644935-top_prestamos-y-tarjetas-uk_v1-03.webp"
-                  alt="Santander UK Credit Card"
+                  alt="Santander US Credit Card"
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
@@ -119,7 +119,7 @@ export default function SantanderUKCreditCardPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Santander UK Credit Card represents a versatile financial
+                  The Santander US Credit Card represents a versatile financial
                   tool from one of Europe's leading banking institutions. With a
                   focus on rewarding everyday spending while providing practical
                   financial flexibility, this card is designed to complement
@@ -131,7 +131,7 @@ export default function SantanderUKCreditCardPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  With the Santander UK Credit Card, your everyday purchases
+                  With the Santander US Credit Card, your everyday purchases
                   become more valuable through the card's cashback program.
                   Cardholders can earn up to 0.5% cashback on eligible spending,
                   with the potential for enhanced rates when shopping with
@@ -144,7 +144,7 @@ export default function SantanderUKCreditCardPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -289,7 +289,7 @@ export default function SantanderUKCreditCardPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Global Acceptance:</span>{" "}
                       With Mastercard or Visa network backing (depending on your
-                      specific card), the Santander UK Credit Card is accepted
+                      specific card), the Santander US Credit Card is accepted
                       at millions of locations worldwide, ensuring payment
                       convenience whether you're shopping locally or
                       internationally.
@@ -342,7 +342,7 @@ export default function SantanderUKCreditCardPage() {
                 </h2>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  The Santander UK Credit Card offers a balanced combination of
+                  The Santander US Credit Card offers a balanced combination of
                   practical benefits, financial flexibility, and everyday
                   rewards. It's designed to appeal to a broad range of
                   customers, from those seeking simple cashback on their

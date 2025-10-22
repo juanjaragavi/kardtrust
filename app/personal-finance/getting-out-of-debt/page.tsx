@@ -18,7 +18,14 @@ export default function GettingOutOfDebtPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Practical Guide to Getting Out of Debt
             </h1>
-            
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
                 Feeling overwhelmed by debt? Get practical strategies for
@@ -28,12 +35,12 @@ export default function GettingOutOfDebtPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp" // Keep existing image or update if needed
+                  src="https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp" // Keep existing image or update if needed
                   alt="Getting Out of Debt Guide"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -590,7 +597,7 @@ export default function GettingOutOfDebtPage() {
                     Debtline offer free, impartial advice and can help you
                     explore options like Debt Management Plans (DMPs), Debt
                     Relief Orders (DROs), or Individual Voluntary Arrangements
-                    (IVAs), depending on your circumstances in the UK.
+                    (IVAs), depending on your circumstances in the US.
                   </li>
                   <li className="mb-2">
                     <strong>Financial advisors:</strong> While often focused on
@@ -735,6 +742,14 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                <div
+                  id="uk_kardtrust_4"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Build a Debt-Free Future
                 </h2>
@@ -763,10 +778,7 @@ export default function GettingOutOfDebtPage() {
 
               {/* CTA Button */}
               <div className="mt-12 mb-6 text-center">
-                <Link
-                  href="/financial-solutions"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
-                >
+                <Link href="/financial-solutions" className="cta-button-orange">
                   Explore Debt Management Solutions
                 </Link>
               </div>

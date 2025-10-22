@@ -7,11 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "NatWest Personal Loan: Flexible Financing Options - Top Finance UK",
+    title: "NatWest Personal Loan: Flexible Financing Options - KardTrust",
     description:
-      "Explore NatWest Personal Loans with competitive rates, flexible repayment terms, and a straightforward application process from a trusted UK bank.",
+      "Explore NatWest Personal Loans with competitive rates, flexible repayment terms, and a straightforward application process from a trusted US bank.",
     keywords:
-      "NatWest Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, NatWest banking, loan application",
+      "NatWest Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, NatWest banking, loan application",
   };
 }
 
@@ -24,16 +24,25 @@ export default function NatWestPersonalLoanPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              NatWest Personal Loan: Flexible Financing from a Leading UK Bank
+              NatWest Personal Loan: Flexible Financing from a Leading US Bank
             </h1>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 NatWest Personal Loans offer competitive rates, adaptable
-                repayment options, and the reliability of one of the UK's
+                repayment options, and the reliability of one of the US's
                 largest banking groups, helping you achieve your financial
                 goals.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -93,15 +102,6 @@ export default function NatWestPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/natwest-personal-loan-requirements">
                   <Button className="bg-[#42145F] hover:bg-purple-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -117,7 +117,7 @@ export default function NatWestPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -127,7 +127,7 @@ export default function NatWestPersonalLoanPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   NatWest Personal Loans offer a reliable and flexible financing
-                  option from one of the UK's most prominent banking groups.
+                  option from one of the US's most prominent banking groups.
                   With a strong high-street presence combined with advanced
                   digital services, NatWest provides personal loans designed to
                   meet the diverse financial needs of its customers across the
@@ -168,7 +168,7 @@ export default function NatWestPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -340,7 +340,7 @@ export default function NatWestPersonalLoanPage() {
                   consolidate debts, or require financing for a significant life
                   event, the NatWest Personal Loan offers a reliable and
                   flexible solution backed by the resources and reputation of a
-                  major UK banking group.
+                  major US banking group.
                 </p>
 
                 <div className="text-left my-8">

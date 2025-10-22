@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script"; // Added for GPT display
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
@@ -9,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Barclaycard Avios Plus Requirements: Everything You Need to Know - Top Finance UK",
+      "Barclaycard Avios Plus Requirements: Everything You Need to Know - KardTrust",
     description:
       "Understand the eligibility criteria, documentation, and application process for the Barclaycard Avios Plus Credit Card to maximize your chances of approval.",
     keywords:
-      "Barclaycard Avios Plus requirements, UK credit card application, Avios Plus eligibility, credit score requirements, premium card application",
+      "Barclaycard Avios Plus requirements, US credit card application, Avios Plus eligibility, credit score requirements, premium card application",
   };
 }
 
@@ -33,7 +32,7 @@ export default function BarclayCardAviosPlusRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -53,7 +52,7 @@ export default function BarclayCardAviosPlusRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -72,7 +71,7 @@ export default function BarclayCardAviosPlusRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a UK resident. This
+                      You must be at least 18 years old and a US resident. This
                       ensures applicants have the legal capacity for financial
                       commitments and that the bank can operate within local
                       regulations.
@@ -94,7 +93,7 @@ export default function BarclayCardAviosPlusRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

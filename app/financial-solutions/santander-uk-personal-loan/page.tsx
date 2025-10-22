@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Santander UK Personal Loan: Flexible Financing Options - Top Finance UK",
+    title: "Santander US Personal Loan: Flexible Financing Options - KardTrust",
     description:
-      "Explore Santander UK Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
+      "Explore Santander US Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
     keywords:
-      "Santander UK Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Santander banking, loan application",
+      "Santander US Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Santander banking, loan application",
   };
 }
 
@@ -25,15 +24,24 @@ export default function SantanderUKPersonalLoanPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              Santander UK Personal Loan: Simple, Flexible Financing
+              Santander US Personal Loan: Simple, Flexible Financing
             </h1>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                Santander UK Personal Loans offer straightforward borrowing with
+                Santander US Personal Loans offer straightforward borrowing with
                 competitive rates, flexible terms, and potential perks for
                 existing Santander customers, helping you fund your plans.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -91,15 +99,6 @@ export default function SantanderUKPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/santander-uk-personal-loan-requirements">
                   <Button className="bg-[#EC0000] hover:bg-red-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -111,11 +110,11 @@ export default function SantanderUKPersonalLoanPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp"
-                  alt="Santander UK Personal Loan"
+                  alt="Santander US Personal Loan"
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -124,9 +123,9 @@ export default function SantanderUKPersonalLoanPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  Santander UK Personal Loans provide a straightforward and
+                  Santander US Personal Loans provide a straightforward and
                   reliable financing option from a major global banking group
-                  with a strong presence in the UK. Known for its
+                  with a strong presence in the US. Known for its
                   customer-focused approach, Santander offers personal loans
                   designed to be simple, flexible, and accessible.
                 </p>
@@ -146,7 +145,7 @@ export default function SantanderUKPersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -184,7 +183,7 @@ export default function SantanderUKPersonalLoanPage() {
                   <Link href="/personal-finance/credit-card-types-benefits/">
                     <Image
                       src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
-                      alt="Santander UK Personal Loan"
+                      alt="Santander US Personal Loan"
                       width={1000}
                       height={563}
                       className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
@@ -318,7 +317,7 @@ export default function SantanderUKPersonalLoanPage() {
                 </h2>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  Choosing a Santander UK Personal Loan means accessing finance
+                  Choosing a Santander US Personal Loan means accessing finance
                   from a well-regarded international bank with a strong UK
                   footprint. Santander is known for its focus on simple,
                   value-driven products and rewarding customer loyalty,
@@ -331,7 +330,7 @@ export default function SantanderUKPersonalLoanPage() {
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
                   For borrowers seeking a straightforward loan with competitive
                   rates and the backing of a major financial institution,
-                  Santander UK Personal Loans offer a compelling option. The
+                  Santander US Personal Loans offer a compelling option. The
                   potential benefits for existing customers make it particularly
                   attractive for those already banking with Santander.
                 </p>

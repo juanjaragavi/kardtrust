@@ -8,9 +8,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Fleximize Loan Requirements: Flexible SME Finance Guide - Top Finance UK",
+      "Fleximize Loan Requirements: Flexible SME Finance Guide - KardTrust",
     description:
-      "Learn about Fleximize's eligibility criteria for UK SMEs seeking flexible business loans (Flexiloan & Flexiloan Lite), the application process, and required information.",
+      "Learn about Fleximize's eligibility criteria for US SMEs seeking flexible business loans (Flexiloan & Flexiloan Lite), the application process, and required information.",
     keywords:
       "Fleximize requirements, Flexiloan eligibility, SME loan application UK, flexible business loan criteria, fintech lending requirements, Fleximize documentation",
   };
@@ -30,7 +30,7 @@ export default function FleximizePersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -38,7 +38,7 @@ export default function FleximizePersonalLoanRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                Fleximize offers highly flexible loans for UK SMEs.
+                Fleximize offers highly flexible loans for US SMEs.
                 Understanding their eligibility criteria and
                 relationship-focused application process is key.
               </p>
@@ -50,7 +50,7 @@ export default function FleximizePersonalLoanRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -118,13 +118,13 @@ export default function FleximizePersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK Based Operation:</span>{" "}
-                      The business must be based and operating in the UK.
+                      The business must be based and operating in the US.
                     </div>
                   </div>
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

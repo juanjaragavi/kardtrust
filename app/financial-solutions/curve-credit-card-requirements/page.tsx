@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Curve Card Requirements: Application and Eligibility Guide - Top Finance UK",
+      "Curve Card Requirements: Application and Eligibility Guide - KardTrust",
     description:
       "Discover the eligibility criteria, application process, and requirements for the Curve Card to maximize your chances of approval.",
     keywords:
-      "Curve Card requirements, UK fintech application, all-in-one card, credit card consolidation, Curve Flex, card eligibility, time travel banking",
+      "Curve Card requirements, US fintech application, all-in-one card, credit card consolidation, Curve Flex, card eligibility, time travel banking",
   };
 }
 
@@ -29,7 +29,7 @@ export default function CurveCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -49,7 +49,7 @@ export default function CurveCreditCardRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -70,7 +70,7 @@ export default function CurveCreditCardRequirementsPage() {
                       <span className="font-semibold">Age requirement:</span>{" "}
                       You must be at least 18 years old to apply for a Curve
                       Card. This is a standard regulatory requirement for
-                      financial products in the UK.
+                      financial products in the US.
                     </div>
                   </div>
 
@@ -81,7 +81,7 @@ export default function CurveCreditCardRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Residency:</span> You must
                       be a resident of one of the countries where Curve
-                      operates, including the UK and most European Economic Area
+                      operates, including the US and most European Economic Area
                       (EEA) countries. Proof of address in an eligible country
                       is required during the application process.
                     </div>
@@ -96,14 +96,14 @@ export default function CurveCreditCardRequirementsPage() {
                         Existing payment cards:
                       </span>{" "}
                       You need to have at least one Mastercard or Visa card
-                      (debit or credit) from a UK or EEA bank to connect to your
+                      (debit or credit) from a US or EEA bank to connect to your
                       Curve account. American Express cards are not currently
                       supported by Curve.
                     </div>
                   </div>
 
                   <div
-                    id="uk_topfinanzas_4"
+                    id="uk_kardtrust_4"
                     className="items-center justify-center flex w-full my-6"
                   >
                     {/* Empty responsive, centered div */}

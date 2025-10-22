@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Lloyds Bank Personal Loan: Reliable Financing Solutions - Top Finance UK",
+      "Lloyds Bank Personal Loan: Reliable Financing Solutions - KardTrust",
     description:
-      "Explore Lloyds Bank Personal Loans with competitive rates, flexible repayment options, and the trusted service of a leading UK bank.",
+      "Explore Lloyds Bank Personal Loans with competitive rates, flexible repayment options, and the trusted service of a leading US bank.",
     keywords:
-      "Lloyds Bank Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Lloyds banking, loan application",
+      "Lloyds Bank Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Lloyds banking, loan application",
   };
 }
 
@@ -31,9 +31,18 @@ export default function LloydsBankPersonalLoanPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Lloyds Bank Personal Loans offer competitive rates, flexible
-                terms, and the reliability of one of the UK's most established
+                terms, and the reliability of one of the US's most established
                 banking institutions, helping you fund life's important moments.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -91,15 +100,6 @@ export default function LloydsBankPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/lloyds-bank-personal-loan-requirements">
                   <Button className="bg-[#006A4D] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -115,7 +115,7 @@ export default function LloydsBankPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -125,7 +125,7 @@ export default function LloydsBankPersonalLoanPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   Lloyds Bank Personal Loans provide a dependable financial
-                  solution from one of the UK's most recognized and trusted
+                  solution from one of the US's most recognized and trusted
                   banking names. With a long history of serving British
                   customers, Lloyds Bank combines extensive experience with
                   modern banking convenience to offer personal loans tailored to
@@ -148,7 +148,7 @@ export default function LloydsBankPersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -340,7 +340,7 @@ export default function LloydsBankPersonalLoanPage() {
                   Whether you are an existing Lloyds Bank customer or
                   considering them for the first time, their Personal Loan
                   product offers a solid combination of competitive terms,
-                  flexible options, and the backing of a major UK financial
+                  flexible options, and the backing of a major US financial
                   institution. It's a practical choice for funding significant
                   life events or managing existing debts effectively.
                 </p>

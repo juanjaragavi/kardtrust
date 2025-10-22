@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Starling Bank Credit Card: Digital Banking Excellence - Top Finance UK",
+    title: "Starling Bank Credit Card: Digital Banking Excellence - KardTrust",
     description:
       "The Starling Bank Credit Card offers innovative digital features, transparent pricing, and exceptional customer service designed for modern, tech-savvy consumers.",
     keywords:
-      "Starling Bank Credit Card, UK credit cards, digital banking, neobank, app-based banking, no foreign transaction fees, transparent fees, ethical banking",
+      "Starling Bank Credit Card, US credit cards, digital banking, neobank, app-based banking, no foreign transaction fees, transparent fees, ethical banking",
   };
 }
 
@@ -35,6 +34,15 @@ export default function StarlingBankCreditCardPage() {
                 credit product that combines innovative features with ethical
                 principles.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -92,24 +100,6 @@ export default function StarlingBankCreditCardPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
-              <div
-                id="uk_topfinanzas_4"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/starling-bank-credit-card-requirements">
                   <Button className="bg-[#250E62] hover:bg-purple-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -125,7 +115,7 @@ export default function StarlingBankCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -136,7 +126,7 @@ export default function StarlingBankCreditCardPage() {
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   The Starling Bank Credit Card is a natural extension of the
                   award-winning digital bank's approach to financial services.
-                  As one of the UK's most respected neobanks, Starling has built
+                  As one of the US's most respected neobanks, Starling has built
                   its reputation on challenging traditional banking models with
                   transparent, customer-focused alternatives. The Starling
                   Credit Card carries forward this mission, offering a credit

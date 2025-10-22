@@ -16,12 +16,12 @@ interface PreloaderProps {
 }
 
 const Preloader: React.FC<PreloaderProps> = ({
-  duration = 4000,
+  duration = 1000,
   onComplete,
   showLogo = true,
   showProgress = true,
   backgroundColor = "#ffffff",
-  primaryColor = "#1e40af", // TopFinanzas blue
+  primaryColor = "#1e40af", // KardTrust blue
   secondaryColor = "#3b82f6",
 }) => {
   const [progress, setProgress] = useState(0);
@@ -45,7 +45,7 @@ const Preloader: React.FC<PreloaderProps> = ({
         setTimeout(() => {
           setIsVisible(false);
           onComplete?.();
-        }, 300);
+        }, 100);
       }
     }, 16); // 60fps
 
@@ -58,7 +58,7 @@ const Preloader: React.FC<PreloaderProps> = ({
         <motion.div
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.5 }}
+          transition={{ duration: 0.3 }}
           className="fixed inset-0 z-[9999] flex items-center justify-center"
           style={{ backgroundColor }}
         >
@@ -133,8 +133,8 @@ const Preloader: React.FC<PreloaderProps> = ({
                     className="relative z-10 w-32 h-32 flex items-center justify-center"
                   >
                     <Image
-                      src="/favicon.png"
-                      alt="TopFinance UK Logo"
+                      src="https://media.topfinanzas.com/images/kardtrust/favicon.png"
+                      alt="KardTrust Logo"
                       width={128}
                       height={128}
                       priority
@@ -156,7 +156,7 @@ const Preloader: React.FC<PreloaderProps> = ({
                 className="text-2xl font-semibold"
                 style={{ color: primaryColor }}
               >
-                Loading TopFinance UK
+                Loading KardTrust
               </h2>
               <p className="text-gray-600 text-center mt-2">
                 Your trusted financial advisor

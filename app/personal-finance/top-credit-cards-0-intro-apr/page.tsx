@@ -18,6 +18,13 @@ export default function TopCreditCards0IntroAprPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Top Credit Cards with 0% Intro APR to Help You Save
             </h1>
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -28,12 +35,12 @@ export default function TopCreditCards0IntroAprPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/APR.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/APR.webp"
                   alt="0% Intro APR Credit Cards" // Updated Alt Text
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -262,6 +269,14 @@ export default function TopCreditCards0IntroAprPage() {
               </section>
 
               <section className="my-6">
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                <div
+                  id="uk_kardtrust_4"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Your Financial Goals Are Within Reach
                 </h2>
@@ -293,7 +308,7 @@ export default function TopCreditCards0IntroAprPage() {
               <div className="mt-12 mb-6 text-center">
                 <Link
                   href="/credit-card-recommender-p1"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                  className="cta-button-orange"
                 >
                   Explore 0% Intro APR Cards
                 </Link>

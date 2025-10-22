@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
@@ -6,9 +5,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Best Travel Credit Cards UK: Top Options for 2025 - Top Finance UK",
+    title: "Best Travel Credit Cards UK: Top Options for 2025 - KardTrust",
     description:
-      "Compare the best travel credit cards in the UK with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
+      "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
     keywords:
       "travel credit cards UK, no foreign transaction fees, travel rewards, airline miles, hotel points, travel insurance, best travel cards",
   };
@@ -29,6 +28,13 @@ export default function TravelCreditCardsPage() {
               Best Travel Credit Cards UK: Ultimate Guide for International
               Spending
             </h1>
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-6">
@@ -39,13 +45,13 @@ export default function TravelCreditCardsPage() {
                 travel insurance, and rewarding points systems.
               </p>
 
-              <div className="my-8 bg-blue-50 p-6 rounded-xl">
+              <div className="my-8 bg-red-50 p-6 rounded-xl">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Top Travel Credit Cards at a Glance
                 </h2>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -68,7 +74,7 @@ export default function TravelCreditCardsPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -91,7 +97,7 @@ export default function TravelCreditCardsPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -119,7 +125,7 @@ export default function TravelCreditCardsPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -410,7 +416,7 @@ export default function TravelCreditCardsPage() {
                 </li>
               </ul>
 
-              <div className="p-6 bg-blue-50 rounded-xl mb-8">
+              <div className="p-6 bg-red-50 rounded-xl mb-8">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Related Resources
                 </h2>
@@ -453,6 +459,14 @@ export default function TravelCreditCardsPage() {
                 </ul>
               </div>
 
+              {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+              <div
+                id="uk_kardtrust_4"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
               <h2 className="text-2xl font-bold text-gray-800 my-5">
                 Final Thoughts
               </h2>
@@ -486,7 +500,7 @@ export default function TravelCreditCardsPage() {
               <div className="mt-12 mb-6 text-center">
                 <Link
                   href="/credit-card-recommender-p1"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                  className="cta-button-orange"
                 >
                   Explore Top Travel Credit Cards
                 </Link>

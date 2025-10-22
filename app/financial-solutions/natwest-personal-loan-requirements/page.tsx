@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "NatWest Personal Loan Requirements: Application Guide - Top Finance UK",
+    title: "NatWest Personal Loan Requirements: Application Guide - KardTrust",
     description:
       "Learn about NatWest Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
     keywords:
-      "NatWest Personal Loan requirements, UK loan application, loan eligibility, NatWest loan criteria, personal loan documentation, loan application process",
+      "NatWest Personal Loan requirements, US loan application, loan eligibility, NatWest loan criteria, personal loan documentation, loan application process",
   };
 }
 
@@ -29,7 +28,7 @@ export default function NatWestPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -49,7 +48,7 @@ export default function NatWestPersonalLoanRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -79,9 +78,9 @@ export default function NatWestPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a UK resident with a permanent UK address. NatWest
+                      must be a US resident with a permanent US address. NatWest
                       typically requires applicants to have been resident in the
-                      UK for at least 3 years.
+                      US for at least 3 years.
                     </div>
                   </div>
 
@@ -137,7 +136,7 @@ export default function NatWestPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Proof of identity:</span>{" "}
-                      A valid passport, UK driving license, or EU identity card
+                      A valid passport, US driving license, or EU identity card
                       is typically required. Existing NatWest customers may have
                       this step streamlined.
                     </div>
@@ -177,7 +176,7 @@ export default function NatWestPersonalLoanRequirementsPage() {
                       <span className="font-semibold">
                         Bank account details:
                       </span>{" "}
-                      Details of a UK bank account are required for loan
+                      Details of a US bank account are required for loan
                       disbursement and setting up direct debit repayments.
                     </div>
                   </div>
@@ -220,7 +219,7 @@ export default function NatWestPersonalLoanRequirementsPage() {
                   </div>
 
                   <div
-                    id="uk_topfinanzas_4"
+                    id="uk_kardtrust_4"
                     className="items-center justify-center flex w-full my-6"
                   >
                     {/* Empty responsive, centered div */}

@@ -1,9 +1,27 @@
-// Constant strings used throughout the application for UK market
+// Constant strings used throughout the application for US market
 
 export const metadata = {
-  title: "Find Your Perfect Credit Card - TopFinance UK",
+  title: "Find Your Perfect Credit Card - KardTrust",
   description: "Find the perfect credit card tailored to your needs",
 };
+
+export const UTM_PARAM_KEYS = [
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_term",
+  "utm_content",
+] as const;
+
+export const BRAND_STATIC_FIELDS = {
+  Pais: "Estados Unidos",
+  Marca: "KardTrust",
+} as const;
+
+export const BRAND_STATIC_FIELDS_LOWER = {
+  pais: BRAND_STATIC_FIELDS.Pais,
+  marca: BRAND_STATIC_FIELDS.Marca,
+} as const;
 
 export const commonStrings = {
   copyright: "© Top Networks Inc. 2025",

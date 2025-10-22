@@ -5,11 +5,10 @@ import { BackToTop } from "@/components/ui/back-to-top"; // Import the new compo
 // Import content from lib directory
 import { logos } from "@/lib/images/logos";
 import { footerNavigation } from "@/lib/navigation/footerNavigation";
-import { footerContent } from "@/lib/texts/footer/content";
 
 export function CompactFooter() {
   return (
-    <footer className="bg-[#3F67B9] text-white">
+    <footer className="bg-primary-dark text-white">
       <div className="container mx-auto px-4 py-8">
         {/* Logo Section */}
         <div className="flex justify-center mb-4">

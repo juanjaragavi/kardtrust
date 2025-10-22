@@ -1,6 +1,6 @@
 /**
  * Navigation items and content for the footer component
- * Localized for the UK market
+ * Localized for the US market
  * Easily modifiable by LLM agents to update site footer content
  */
 
@@ -65,7 +65,7 @@ export const footerNavigation = {
   blogItems: [
     // Renamed conceptually to Popular Articles
     {
-      text: "Best Personal Loans UK",
+      text: "Best Personal Loans in the US",
       href: "/personal-finance/best-personal-loans", // Updated path
     },
     {
@@ -108,8 +108,8 @@ export const footerNavigation = {
   contactInfo: [
     {
       type: "email",
-      value: "info@topfinanzas.com",
-      href: "mailto:info@topfinanzas.com",
+      value: "info@kardtrust.com",
+      href: "mailto:info@kardtrust.com",
       svgPath:
         "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
     },

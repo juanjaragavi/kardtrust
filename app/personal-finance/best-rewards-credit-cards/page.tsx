@@ -18,7 +18,14 @@ export default function BestRewardsCreditCardsPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Top Rewards Credit Cards to Maximize Your Spending
             </h1>
-            
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
                 Discover the best rewards credit cards that turn your everyday
@@ -29,12 +36,12 @@ export default function BestRewardsCreditCardsPage() {
               {/* TODO: Update image if needed */}
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp"
                   alt="Rewards Credit Cards" // Updated Alt Text
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -169,7 +176,7 @@ export default function BestRewardsCreditCardsPage() {
                 </h2>
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Interested in specific rewards credit cards? Here are some top
-                  choices in the UK:
+                  choices in the US:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
@@ -204,7 +211,7 @@ export default function BestRewardsCreditCardsPage() {
                       href="/financial-solutions/santander-uk-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK All in One Credit Card:
+                      Santander US All in One Credit Card:
                     </Link>{" "}
                     Provides cashback and no foreign transaction fees.
                   </li>
@@ -260,6 +267,14 @@ export default function BestRewardsCreditCardsPage() {
               </section>
 
               <section className="my-6">
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                <div
+                  id="uk_kardtrust_4"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Find the Perfect Card to Maximize Your Rewards
                 </h2>
@@ -288,7 +303,7 @@ export default function BestRewardsCreditCardsPage() {
               <div className="mt-12 mb-6 text-center">
                 <Link
                   href="/credit-card-recommender-p1"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                  className="cta-button-orange"
                 >
                   Explore Top Reward Credit Cards
                 </Link>

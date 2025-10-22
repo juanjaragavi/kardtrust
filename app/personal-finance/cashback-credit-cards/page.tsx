@@ -1,6 +1,5 @@
 import { Header } from "@/components/layout/header"; // Add Header import
 import { CompactFooter } from "@/components/layout/compact-footer"; // Add CompactFooter import
-import { Button } from "@/components/ui/button"; // Keep Button import if needed, or remove if not
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image"; // Add Image import
 import Link from "next/link"; // Add Link import
@@ -19,7 +18,14 @@ export default function CashbackCreditCardsPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Best Cashback Credit Cards for Maximizing Your Rewards
             </h1>
-            
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
                 Discover the top cashback credit cards! Compare benefits like
@@ -30,12 +36,12 @@ export default function CashbackCreditCardsPage() {
               {/* TODO: Update image if needed */}
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/download-8-1.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/download-8-1.webp"
                   alt="Cashback Credit Cards" // Updated Alt Text
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -160,7 +166,7 @@ export default function CashbackCreditCardsPage() {
                       href="/financial-solutions/santander-uk-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK All in One Credit Card:
+                      Santander US All in One Credit Card:
                     </Link>{" "}
                     Known for its All in One cashback benefits.
                   </li>
@@ -216,6 +222,14 @@ export default function CashbackCreditCardsPage() {
               </section>
 
               <section className="my-6">
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                <div
+                  id="uk_kardtrust_4"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Unlock the Power of Cashback Rewards
                 </h2>
@@ -242,7 +256,7 @@ export default function CashbackCreditCardsPage() {
               <div className="mt-12 mb-6 text-center">
                 <Link
                   href="/credit-card-recommender-p1"
-                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                  className="cta-button-orange"
                 >
                   Explore Top Cashback Credit Cards
                 </Link>

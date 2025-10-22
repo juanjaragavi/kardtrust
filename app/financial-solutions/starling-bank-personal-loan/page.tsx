@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Starling Bank Personal Loan: Ethical & Transparent Lending - Top Finance UK",
+      "Starling Bank Personal Loan: Ethical & Transparent Lending - KardTrust",
     description:
       "Explore Starling Bank Personal Loans offering competitive rates, clear terms, and seamless management via the award-winning Starling app.",
     keywords:
-      "Starling Bank Personal Loan, UK loans, neobank loan, ethical banking, personal finance, debt consolidation, flexible repayment, Starling app",
+      "Starling Bank Personal Loan, US loans, neobank loan, ethical banking, personal finance, debt consolidation, flexible repayment, Starling app",
   };
 }
 
@@ -35,6 +35,15 @@ export default function StarlingBankPersonalLoanPage() {
                 neobank's commitment to transparency, ethical practices, and an
                 exceptional digital experience via the Starling app.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -90,15 +99,6 @@ export default function StarlingBankPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/starling-bank-personal-loan-requirements">
                   <Button className="bg-[#250E62] hover:bg-purple-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -114,7 +114,7 @@ export default function StarlingBankPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -164,7 +164,7 @@ export default function StarlingBankPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

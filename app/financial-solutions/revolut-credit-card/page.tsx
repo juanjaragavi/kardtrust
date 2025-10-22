@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Revolut Credit Card: Global-First Fintech Solution - Top Finance UK",
+    title: "Revolut Credit Card: Global-First Fintech Solution - KardTrust",
     description:
       "The Revolut Credit Card offers multi-currency capabilities, powerful global features, and real-time control designed for international lifestyles and digital-first consumers.",
     keywords:
-      "Revolut Credit Card, UK fintech, multi-currency card, global banking, Revolut, exchange rates, travel benefits, international spending",
+      "Revolut Credit Card, US fintech, multi-currency card, global banking, Revolut, exchange rates, travel benefits, international spending",
   };
 }
 
@@ -38,6 +37,15 @@ export default function RevolutCreditCardPage() {
                 multi-currency capabilities, competitive exchange rates, and
                 real-time control.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -94,15 +102,6 @@ export default function RevolutCreditCardPage() {
                   </div>
                 </div>
               </div>
-
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <div className="text-left my-8">
                 <Link href="/financial-solutions/revolut-credit-card-requirements">
@@ -171,7 +170,7 @@ export default function RevolutCreditCardPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

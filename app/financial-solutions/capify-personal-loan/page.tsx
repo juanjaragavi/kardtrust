@@ -8,9 +8,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Capify: Fast Business Loans & Merchant Cash Advance for SMEs - Top Finance UK",
+      "Capify: Fast Business Loans & Merchant Cash Advance for SMEs - KardTrust",
     description:
-      "Explore Capify's financing solutions for UK SMEs, including flexible Business Loans and Merchant Cash Advances based on card sales.",
+      "Explore Capify's financing solutions for US SMEs, including flexible Business Loans and Merchant Cash Advances based on card sales.",
     keywords:
       "Capify, SME finance, business loan UK, merchant cash advance, MCA, fintech lending, small business funding, working capital",
   };
@@ -27,7 +27,7 @@ export default function CapifyPersonalLoanPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              Capify: Flexible Financing Solutions for UK Businesses
+              Capify: Flexible Financing Solutions for US Businesses
             </h1>
 
             <div className="my-8 text-left sm:text-left">
@@ -37,6 +37,15 @@ export default function CapifyPersonalLoanPage() {
                 flexible Business Loans designed to support growth and manage
                 cash flow.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -92,15 +101,6 @@ export default function CapifyPersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/capify-personal-loan-requirements">
                   <Button className="bg-[#00AEEF] hover:bg-blue-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -110,7 +110,7 @@ export default function CapifyPersonalLoanPage() {
               </div>
 
               <div
-                id="uk_topfinanzas_4"
+                id="uk_kardtrust_4"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -125,7 +125,7 @@ export default function CapifyPersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -136,7 +136,7 @@ export default function CapifyPersonalLoanPage() {
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   Capify is a global fintech lender specializing in providing
                   accessible and flexible finance solutions to small and
-                  medium-sized businesses. In the UK, they are particularly
+                  medium-sized businesses. In the US, they are particularly
                   known for their Merchant Cash Advance (MCA) product alongside
                   more traditional business loans, catering to SMEs that may
                   find conventional bank lending challenging.

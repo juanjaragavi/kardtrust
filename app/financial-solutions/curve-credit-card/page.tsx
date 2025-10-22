@@ -7,11 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Curve Credit Card: All-In-One Financial Solution - Top Finance UK",
+    title: "Curve Credit Card: All-In-One Financial Solution - KardTrust",
     description:
       "The Curve Credit Card offers a revolutionary 'all-in-one' approach, combining multiple cards in one, with advanced benefits like time-travel functionality and enhanced rewards.",
     keywords:
-      "Curve Card, UK fintech, all-in-one card, card consolidation, Curve Flex, cashback, time travel banking, Go Back in Time, card management",
+      "Curve Card, US fintech, all-in-one card, card consolidation, Curve Flex, cashback, time travel banking, Go Back in Time, card management",
   };
 }
 
@@ -34,6 +34,15 @@ export default function CurveCreditCardPage() {
                 card, while adding powerful features that transform your
                 financial management.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -87,15 +96,6 @@ export default function CurveCreditCardPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/curve-credit-card-requirements">
                   <Button className="bg-[#E33292] hover:bg-pink-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -105,7 +105,7 @@ export default function CurveCreditCardPage() {
               </div>
 
               <div
-                id="uk_topfinanzas_4"
+                id="uk_kardtrust_4"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -120,7 +120,7 @@ export default function CurveCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"

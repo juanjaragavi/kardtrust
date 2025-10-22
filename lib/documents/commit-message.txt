@@ -1,9 +1,22 @@
-feat: optimize ad placement and layout
+refactor: Standardize all image URLs to kardtrust subdirectory path
 
-Refactored the ad unit placement across multiple financial product pages to improve user experience and ad performance.
+Completed migration of all image URLs from generic `/images/` and `/images/uk/` paths to the new centralized `/images/kardtrust/` subdirectory structure across the entire application.
 
-- Repositioned CTA buttons to appear above ad blocks for better visibility and user interaction.
-- Increased spacing around ad units to create clearer visual separation from other content.
-- Added horizontal rules as visual separators between ad units and surrounding elements.
+Scope of Changes:
+- Blog post metadata and page components (30+ files)
+- Homepage featured posts and hero sections
+- Personal finance article pages and featured images
+- Navigation header and mega menu images
+- Blog layout sidebar recent articles
+- Documentation and optimization reports
 
-These changes align with recommendations from the Google Ads Manager to enhance usability and prevent accidental ad clicks.
+This organizational change:
+- Improves content organization and asset management
+- Ensures consistent CDN path structure
+- Enables better scalability for future image additions
+- Maintains brand-specific asset separation on shared CDN
+
+All images now use the pattern: media.topfinanzas.com/images/kardtrust/[filename].webp
+- docs/PROMPT_BANNER_HOME_HERO.md (new)
+
+Documentation system complete and ready for production image generation. All media URLs now follow KardTrust-specific naming convention for better asset organization.

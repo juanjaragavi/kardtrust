@@ -1,26 +1,35 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "TopFinance UK Blog: Personal Finance & Financial Solutions",
+  title: "KardTrust Blog: Personal Finance & Financial Solutions",
   description:
-    "Explore articles on credit cards, loans, debt management, savings, and more financial topics relevant to the UK market.",
+    "Explore articles on credit cards, loans, debt management, savings, and more financial topics relevant to the US market.",
   keywords:
-    "UK finance blog, personal finance UK, credit cards UK, loans UK, debt management, financial advice UK",
+    "US finance blog, personal finance US, credit cards US, loans US, debt management, financial advice US",
   openGraph: {
-    title: "TopFinance UK Blog: Personal Finance & Financial Solutions",
+    title: "KardTrust Blog: Personal Finance & Financial Solutions",
     description:
-      "Explore articles on credit cards, loans, debt management, savings, and more financial topics relevant to the UK market.",
-    url: "https://uk.topfinanzas.com/blog", // Assuming this is the blog URL
+      "Explore articles on credit cards, loans, debt management, savings, and more financial topics relevant to the US market.",
+    url: "https://kardtrust.com/blog", // Assuming this is the blog URL
     type: "website",
     // Optional: Add a general blog image
-    images: [{ url: 'https://media.topfinanzas.com/images/best-personal-loans.webp', width: 1200, height: 630, alt: 'TopFinance UK Blog' }],
+    images: [
+      {
+        url: "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
+        width: 1200,
+        height: 630,
+        alt: "KardTrust Blog",
+      },
+    ],
     // section: "Blog", // Removed as it's not valid for type 'website'
   },
   twitter: {
     card: "summary_large_image",
-    title: "TopFinance UK Blog: Personal Finance & Financial Solutions",
+    title: "KardTrust Blog: Personal Finance & Financial Solutions",
     description:
-      "Explore articles on credit cards, loans, debt management, savings, and more financial topics relevant to the UK market.",
-    images: ['https://media.topfinanzas.com/images/best-personal-loans.webp'],
+      "Explore articles on credit cards, loans, debt management, savings, and more financial topics relevant to the US market.",
+    images: [
+      "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
+    ],
   },
 };

@@ -1,6 +1,5 @@
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
-import { Button } from "@/components/ui/button";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 import Image from "next/image";
@@ -20,6 +19,13 @@ export default function TipsForChoosingAnOnlineLoanPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               5 Essential Tips for Choosing an Online Loan: Your Quick Guide
             </h1>
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            <div
+              id="uk_kardtrust_3"
+              className="items-center justify-center flex w-full my-8"
+            >
+              {/* Empty responsive, centered div */}
+            </div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -93,7 +99,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -102,12 +108,12 @@ export default function TipsForChoosingAnOnlineLoanPage() {
 
               <section className="my-6">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  The Growing Importance of Online Loans in the UK
+                  The Growing Importance of Online Loans in the US
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   In recent years, online loans have become an integral part of
-                  the UK financial landscape, offering quick access to funds
+                  the US financial landscape, offering quick access to funds
                   without the lengthy processes traditionally associated with
                   high street banks. The convenience of applying from home,
                   rapid approval times, and competitive rates have made online
@@ -159,7 +165,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   The digital nature of online lending makes it particularly
                   important to verify that you're dealing with a legitimate
-                  financial institution. All legitimate UK lenders must be
+                  financial institution. All legitimate US lenders must be
                   authorised and regulated by the Financial Conduct Authority
                   (FCA). This regulation provides important protections for
                   borrowers, including fair treatment standards and access to
@@ -332,7 +338,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Popular UK loan comparison sites include MoneySuperMarket,
+                  Popular US loan comparison sites include MoneySuperMarket,
                   Compare the Market, and Experian. When using these platforms,
                   remember that they may not include every available lender, so
                   considering multiple comparison sites can provide a more
@@ -400,6 +406,14 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   conditions.
                 </p>
 
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                <div
+                  id="uk_kardtrust_4"
+                  className="items-center justify-center flex w-full my-8"
+                >
+                  {/* Empty responsive, centered div */}
+                </div>
+
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Navigating Online Loans with Confidence
                 </h2>
@@ -433,7 +447,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                 <div className="mt-12 mb-6 text-center">
                   <Link
                     href="/financial-solutions"
-                    className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0.5"
+                    className="cta-button-orange"
                   >
                     Explore Online Loan Options
                   </Link>

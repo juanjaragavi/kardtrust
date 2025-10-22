@@ -7,13 +7,9 @@ import { ReactNode } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import {
-  Sidebar,
   SidebarAd,
   SidebarCategories,
   SidebarContent,
-  SidebarFooter,
-  SidebarHeader,
-  SidebarInput,
   SidebarNewsletter,
   SidebarProvider,
   SidebarRecentArticles,
@@ -30,8 +26,8 @@ interface BlogLayoutProps {
 
 export function BlogLayout({ children, metadata }: BlogLayoutProps) {
   const {
-    title = "Blog - TopFinance",
-    description = "Stay informed with the latest financial tips, strategies and information from TopFinance experts.",
+    title = "Blog - KardTrust",
+    description = "Stay informed with the latest financial tips, strategies and information from KardTrust experts.",
   } = metadata || {};
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
@@ -46,6 +42,10 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
 
       <section className="bg-gradient-to-b from-white to-gray-50 py-10">
         <div className="container mx-auto px-4">
+          <div className="mb-10 text-left max-w-3xl">
+            <h1 className="text-3xl font-bold text-gray-900 mb-3">{title}</h1>
+            <p className="text-gray-600 leading-relaxed">{description}</p>
+          </div>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
             {/* Main content */}
             <div className="lg:col-span-8">
@@ -61,16 +61,88 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   <SidebarSeparator />
                   {/* Recent Articles - Updated */}
                   <SidebarRecentArticles>
-                    {/* Article 1 */}
+                    {/* Inflation-Proof Article - NEW */}
                     <div className="flex items-center gap-3">
                       <Image
-                        src="https://media.topfinanzas.com/images/best-personal-loans.webp"
-                        alt="Best Personal Loans in the UK"
+                        src="https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp"
+                        alt="Inflation-Proof Your Life: 7 Smart Money Moves"
                         width={50}
                         height={50}
                         loading="lazy"
-                        priority={false}  
-                        className="rounded-md object-cover" // Added object-cover
+                        priority={false}
+                        className="rounded-md object-cover"
+                        onError={(e) => {
+                          e.currentTarget.src =
+                            "https://media.topfinanzas.com/images/placeholder-image.webp";
+                        }}
+                      />
+                      <div>
+                        <Link
+                          href="/personal-finance/inflation-proof-your-life"
+                          className="text-sm font-medium hover:underline line-clamp-2"
+                        >
+                          Inflation-Proof Your Life: 7 Smart Money Moves
+                        </Link>
+                      </div>
+                    </div>
+                    {/* Lifestyle Creep Article */}
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src="https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp"
+                        alt="What Is Lifestyle Creep and How Is It Silently Draining Your Wallet"
+                        width={50}
+                        height={50}
+                        loading="lazy"
+                        priority={false}
+                        className="rounded-md object-cover"
+                        onError={(e) => {
+                          e.currentTarget.src =
+                            "https://media.topfinanzas.com/images/placeholder-image.webp";
+                        }}
+                      />
+                      <div>
+                        <Link
+                          href="/personal-finance/what-is-lifestyle-creep"
+                          className="text-sm font-medium hover:underline line-clamp-2"
+                        >
+                          What Is Lifestyle Creep?
+                        </Link>
+                      </div>
+                    </div>
+                    {/* Budget Article */}
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src="https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp"
+                        alt="Create a Personal Finance Budget You'll Actually Stick To"
+                        width={50}
+                        height={50}
+                        loading="lazy"
+                        priority={false}
+                        className="rounded-md object-cover"
+                        onError={(e) => {
+                          e.currentTarget.src =
+                            "https://media.topfinanzas.com/images/placeholder-image.webp";
+                        }}
+                      />
+                      <div>
+                        <Link
+                          href="/personal-finance/creating-a-budget-youll-actually-stick-to"
+                          className="text-sm font-medium hover:underline line-clamp-2"
+                        >
+                          Create a Budget You'll Actually Stick To
+                        </Link>
+                      </div>
+                    </div>
+                    {/* Article 1 */}
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src="https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp"
+                        alt="Best Personal Loans in the US"
+                        width={50}
+                        height={50}
+                        loading="lazy"
+                        priority={false}
+                        className="rounded-md object-cover"
                         onError={(e) => {
                           e.currentTarget.src =
                             "https://media.topfinanzas.com/images/placeholder-image.webp";
@@ -79,82 +151,9 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                       <div>
                         <Link
                           href="/personal-finance/best-personal-loans"
-                          className="text-sm font-medium hover:underline line-clamp-2" // Added line-clamp
-                        >
-                          Best Personal Loans in the UK
-                        </Link>
-                        {/* Optional: Add date if available */}
-                      </div>
-                    </div>
-                    {/* Article 2 */}
-                    <div className="flex items-center gap-3">
-                      <Image
-                        src="https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp" // Placeholder
-                        alt="Top Rewards Credit Cards"
-                        width={50}
-                        height={50}
-                        loading="lazy"
-                        priority={false} 
-                        className="rounded-md object-cover"
-                        onError={(e) => {
-                          e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/placeholder-image.webp";
-                        }}
-                      />
-                      <div>
-                        <Link
-                          href="/personal-finance/best-rewards-credit-cards"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          Top Rewards Credit Cards
-                        </Link>
-                      </div>
-                    </div>
-                    {/* Article 3 */}
-                    <div className="flex items-center gap-3">
-                      <Image
-                        src="https://media.topfinanzas.com/images/barclaycard-avios-plus.webp"
-                        alt="Barclaycard Avios Plus"
-                        width={50}
-                        height={50}
-                        loading="lazy"
-                        priority={false} 
-                        className="rounded-md object-cover"
-                        onError={(e) => {
-                          e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/placeholder-image.webp";
-                        }}
-                      />
-                      <div>
-                        <Link
-                          href="/financial-solutions/barclaycard-avios-plus"
-                          className="text-sm font-medium hover:underline line-clamp-2"
-                        >
-                          Barclaycard Avios Plus Credit Card
-                        </Link>
-                      </div>
-                    </div>
-                    {/* Article 4 */}
-                    <div className="flex items-center gap-3">
-                      <Image
-                        src="https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp"
-                        alt="Practical Guide to Getting Out of Debt"
-                        width={50}
-                        height={50}
-                        loading="lazy"
-                        priority={false} 
-                        className="rounded-md object-cover"
-                        onError={(e) => {
-                          e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/placeholder-image.webp";
-                        }}
-                      />
-                      <div>
-                        <Link
-                          href="/personal-finance/getting-out-of-debt"
-                          className="text-sm font-medium hover:underline line-clamp-2"
-                        >
-                          Practical Guide to Getting Out of Debt
+                          Best Personal Loans in the US
                         </Link>
                       </div>
                     </div>

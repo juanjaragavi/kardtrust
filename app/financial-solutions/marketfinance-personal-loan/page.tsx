@@ -8,9 +8,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "MarketFinance: Business Loans & Invoice Finance for SMEs - Top Finance UK",
+      "MarketFinance: Business Loans & Invoice Finance for SMEs - KardTrust",
     description:
-      "Explore MarketFinance's solutions for UK SMEs, including fast business loans and flexible invoice finance to improve cash flow and fund growth.",
+      "Explore MarketFinance's solutions for US SMEs, including fast business loans and flexible invoice finance to improve cash flow and fund growth.",
     keywords:
       "MarketFinance, SME finance, business loan UK, invoice finance, fintech lending, cash flow solutions, working capital, business funding",
   };
@@ -27,15 +27,24 @@ export default function MarketFinancePersonalLoanPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              MarketFinance: Smart Business Finance Solutions for UK SMEs
+              MarketFinance: Smart Business Finance Solutions for US SMEs
             </h1>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 MarketFinance offers a range of fast, flexible finance options
-                for UK businesses, including business loans and invoice finance,
+                for US businesses, including business loans and invoice finance,
                 designed to unlock working capital and fuel growth.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
@@ -89,15 +98,6 @@ export default function MarketFinancePersonalLoanPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/marketfinance-personal-loan-requirements">
                   <Button className="bg-[#003DA5] hover:bg-blue-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -113,7 +113,7 @@ export default function MarketFinancePersonalLoanPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
-                  priority={true}
+                  priority={false}
                   fetchPriority="high"
                   quality={85}
                   loading="eager"
@@ -122,7 +122,7 @@ export default function MarketFinancePersonalLoanPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  MarketFinance (formerly MarketInvoice) is a leading UK fintech
+                  MarketFinance (formerly MarketInvoice) is a leading US fintech
                   company specializing in providing working capital solutions to
                   SMEs. They offer innovative products like invoice finance and
                   business loans, designed to help businesses manage cash flow,
@@ -160,7 +160,7 @@ export default function MarketFinancePersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -307,7 +307,7 @@ export default function MarketFinancePersonalLoanPage() {
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
                   MarketFinance plays a significant role in the alternative
                   finance market, offering crucial working capital and growth
-                  funding to UK SMEs. Their focus on invoice finance provides a
+                  funding to US SMEs. Their focus on invoice finance provides a
                   valuable tool for businesses facing cash flow challenges due
                   to long payment terms from customers. Their business loans
                   offer a fast alternative to traditional bank lending for
@@ -315,7 +315,7 @@ export default function MarketFinancePersonalLoanPage() {
                 </p>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  For established UK SMEs seeking efficient, technology-driven
+                  For established US SMEs seeking efficient, technology-driven
                   finance solutions, particularly for managing cash flow or
                   funding growth, MarketFinance offers tailored products
                   designed to meet their specific needs.

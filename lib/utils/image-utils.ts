@@ -40,7 +40,7 @@ export function fixImageUrl(url: string): string {
   }
 
   // Force HTTPS
-  let fixedUrl = url.replace(/^http:\/\//i, "https://");
+  const fixedUrl = url.replace(/^http:\/\//i, "https://");
 
   // Handle relative URLs
   if (fixedUrl.startsWith("/")) {
@@ -50,8 +50,8 @@ export function fixImageUrl(url: string): string {
 
   // Handle CDN domain issues
   if (
-    fixedUrl.includes("topfinanzas.com") ||
-    fixedUrl.includes("media.topfinanzas")
+    fixedUrl.includes("kardtrust.com") ||
+    fixedUrl.includes("media.kardtrust")
   ) {
     // Return the URL as is, but with HTTPS
     return fixedUrl;

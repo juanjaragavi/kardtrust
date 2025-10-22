@@ -1,6 +1,5 @@
 import ResponsiveImage from "@/components/ui/responsive-image";
 import Link from "next/link";
-import Script from "next/script"; // Added for GPT display
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
@@ -9,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Barclaycard Avios Plus Credit Card: Premium Travel Rewards - Top Finance UK",
+      "Barclaycard Avios Plus Credit Card: Premium Travel Rewards - KardTrust",
     description:
       "The Barclaycard Avios Plus Credit Card offers premium travel perks and generous Avios points to enhance your travel experience and reward your everyday spending.",
     keywords:
-      "Barclaycard Avios Plus, travel credit card, Avios points, UK credit cards, premium credit card, travel perks, British Airways",
+      "Barclaycard Avios Plus, travel credit card, Avios points, US credit cards, premium credit card, travel perks, British Airways",
   };
 }
 
@@ -38,6 +37,15 @@ export default function BarclayCardAviosPlusPage() {
                 travelers and those who want to maximize rewards on everyday
                 spending with premium travel benefits.
               </p>
+
+              <div
+                id="uk_kardtrust_3"
+                className="items-center justify-center flex w-full my-8"
+              >
+                {/* Empty responsive, centered div */}
+              </div>
+
+              <hr className="my-8" />
 
               <div className="space-y-2 my-8">
                 <div className="flex items-start">
@@ -89,18 +97,9 @@ export default function BarclayCardAviosPlusPage() {
                 </div>
               </div>
 
-              <div
-                id="uk_topfinanzas_3"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="text-left my-8">
                 <Link href="/financial-solutions/barclaycard-avios-plus-requirements">
-                  <Button className="bg-[#00395D] hover:bg-blue-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                  <Button className="bg-[#00395D] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     View Requirements
                   </Button>
                 </Link>
@@ -113,7 +112,7 @@ export default function BarclayCardAviosPlusPage() {
                   width={900}
                   height={507}
                   className="w-full rounded-xl"
-                  priority={true}
+                  priority={false}
                   quality={85}
                   sizes="(max-width: 768px) 100vw, 900px"
                   containerClassName="w-full"
@@ -146,7 +145,7 @@ export default function BarclayCardAviosPlusPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -269,7 +268,7 @@ export default function BarclayCardAviosPlusPage() {
                         Contactless Payments:
                       </span>{" "}
                       Quick and convenient contactless payment capability for
-                      purchases up to the current UK limit.
+                      purchases up to the current US limit.
                     </div>
                   </div>
 

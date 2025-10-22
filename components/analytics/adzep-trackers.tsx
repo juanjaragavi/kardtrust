@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import { useAdZep } from "./adzep";
 
 /**
  * Enhanced AdZep Link Tracker
@@ -27,7 +26,7 @@ export default function AdZepLinkTracker() {
             type: link.tagName,
             href: link.getAttribute("href"),
             text: link.textContent?.substring(0, 50),
-            note: "Activation handled by AdZepCentralizedHandler"
+            note: "Activation handled by AdZepCentralizedHandler",
           });
         }
       }
@@ -57,12 +56,12 @@ export function AdZepFormTracker() {
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    const handleFormSubmit = (event: Event) => {
+    const handleFormSubmit = () => {
       // Only log for debugging/tracking purposes
       // AdZep activation is handled by AdZepCentralizedHandler in header
       if (process.env.NODE_ENV === "development") {
         console.log("AdZep: Form submission detected (tracking only)", {
-          note: "Activation handled by AdZepCentralizedHandler"
+          note: "Activation handled by AdZepCentralizedHandler",
         });
       }
     };
@@ -78,7 +77,7 @@ export function AdZepFormTracker() {
         if (process.env.NODE_ENV === "development") {
           console.log("AdZep: Form interaction detected (tracking only)", {
             elementType: target.tagName,
-            note: "Activation handled by AdZepCentralizedHandler"
+            note: "Activation handled by AdZepCentralizedHandler",
           });
         }
       }
@@ -115,7 +114,7 @@ export function AdZepPageTracker() {
         // AdZep activation is handled by AdZepCentralizedHandler in header
         if (process.env.NODE_ENV === "development") {
           console.log("AdZep: Page became visible (tracking only)", {
-            note: "Activation handled by AdZepCentralizedHandler"
+            note: "Activation handled by AdZepCentralizedHandler",
           });
         }
       }
