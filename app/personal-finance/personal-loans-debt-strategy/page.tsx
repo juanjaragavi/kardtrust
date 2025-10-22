@@ -35,7 +35,7 @@ export default function PersonalLoansDebtStrategyPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/Top-Finances_personal_loans.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/Top-Finances_personal_loans.webp"
                   alt="Personal Loans Strategy"
                   width={800}
                   height={450}

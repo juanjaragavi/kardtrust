@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       "Find the best no annual fee credit cards with great cashback, rewards, and flexible benefits. Perfect for managing expenses while saving on fees.",
     images: [
-      "https://media.topfinanzas.com/images/uk/Top_Finance_credit_cards_without_annual_fee.webp",
+      "https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp",
     ], // Add if featuredImage is available
   },
 };

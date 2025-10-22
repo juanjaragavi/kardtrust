@@ -1,22 +1,21 @@
-refactor: Standardize all image URLs to kardtrust subdirectory path
+Complete image URL migration to kardtrust subdirectory
 
-Completed migration of all image URLs from generic `/images/` and `/images/uk/` paths to the new centralized `/images/kardtrust/` subdirectory structure across the entire application.
+Finalized the migration of remaining image URLs from generic `/images/uk/` paths to the standardized `/images/kardtrust/` subdirectory structure.
 
-Scope of Changes:
-- Blog post metadata and page components (30+ files)
-- Homepage featured posts and hero sections
-- Personal finance article pages and featured images
-- Navigation header and mega menu images
-- Blog layout sidebar recent articles
-- Documentation and optimization reports
+Files Updated:
+- Blog archive page (app/blog/page.tsx)
+- Homepage featured posts (app/page.tsx)
+- Personal finance archive page
+- Personal loans strategy page and metadata
+- Online loan tips article
+- No annual fee credit cards page and metadata
+- Credit card interest rates metadata
+- Blog layout recent articles sidebar
 
-This organizational change:
-- Improves content organization and asset management
-- Ensures consistent CDN path structure
-- Enables better scalability for future image additions
-- Maintains brand-specific asset separation on shared CDN
+Benefits:
+- Complete standardization of image paths across entire application
+- Consistent CDN URL structure for all KardTrust assets
+- Improved asset organization and scalability
+- Better brand-specific asset management on shared CDN infrastructure
 
-All images now use the pattern: media.topfinanzas.com/images/kardtrust/[filename].webp
-- docs/PROMPT_BANNER_HOME_HERO.md (new)
-
-Documentation system complete and ready for production image generation. All media URLs now follow KardTrust-specific naming convention for better asset organization.
+All images now consistently use: media.topfinanzas.com/images/kardtrust/[filename].webp

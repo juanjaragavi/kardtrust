@@ -156,7 +156,7 @@ const allPosts: PostData[] = [
       description: "Navigate the world of online loans with confidence...",
       date: "2025-03-30T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp",
+        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
       categories: [{ name: "Personal Finance", slug: "personal-finance" }],
     },
     category: "Personal Finance",
@@ -200,7 +200,7 @@ const allPosts: PostData[] = [
         "Find the best no annual fee credit cards with great cashback, rewards, and flexible benefits. Perfect for managing expenses while saving on fees.",
       date: "2025-04-03T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_credit_cards_without_annual_fee.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp",
       categories: [{ name: "Personal Finance", slug: "personal-finance" }],
     },
     category: "Personal Finance",
@@ -214,7 +214,7 @@ const allPosts: PostData[] = [
         "Discover how personal loans can help you consolidate debt and manage your finances efficiently. Learn how to choose the right loan for your needs.",
       date: "2025-04-03T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/uk/Top-Finances_personal_loans.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top-Finances_personal_loans.webp",
       categories: [{ name: "Personal Finance", slug: "personal-finance" }],
     },
     category: "Personal Finance",
