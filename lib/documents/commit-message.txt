@@ -1,22 +1,8 @@
-refactor: Standardize all image URLs to kardtrust subdirectory path
+Adjust footer logo styling for better visual hierarchy
 
-Completed migration of all image URLs from generic `/images/` and `/images/uk/` paths to the new centralized `/images/kardtrust/` subdirectory structure across the entire application.
+- Reduce footer logo width to match copyright text (max-w-[250px])
+- Increase vertical spacing between logo and text (mt-2 to mt-6)
+- Change logo height from fixed h-20 to responsive h-auto
+- Improve visual balance in footer logo section
 
-Scope of Changes:
-- Blog post metadata and page components (30+ files)
-- Homepage featured posts and hero sections
-- Personal finance article pages and featured images
-- Navigation header and mega menu images
-- Blog layout sidebar recent articles
-- Documentation and optimization reports
-
-This organizational change:
-- Improves content organization and asset management
-- Ensures consistent CDN path structure
-- Enables better scalability for future image additions
-- Maintains brand-specific asset separation on shared CDN
-
-All images now use the pattern: media.topfinanzas.com/images/kardtrust/[filename].webp
-- docs/PROMPT_BANNER_HOME_HERO.md (new)
-
-Documentation system complete and ready for production image generation. All media URLs now follow KardTrust-specific naming convention for better asset organization.
+Changes made to components/layout/footer.tsx to improve footer aesthetics and consistency.

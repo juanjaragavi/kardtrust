@@ -18,9 +18,9 @@ export function Footer() {
             alt={logos.whiteLogo.alt}
             width={logos.whiteLogo.width}
             height={logos.whiteLogo.height}
-            className="h-20 w-auto"
+            className="h-auto w-auto max-w-[250px]"
           />
-          <p className="text-xs mt-2 text-justify max-w-[250px] leading-3 text-white font-light">
+          <p className="text-xs mt-6 text-justify max-w-[250px] leading-3 text-white font-light">
             {footerContent.legal.fullCopyright.text}
           </p>
         </div>
