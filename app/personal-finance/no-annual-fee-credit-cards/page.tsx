@@ -32,7 +32,7 @@ export default function NoAnnualFeeCreditCards() {
 
         <div className="my-8 text-left sm:text-left">
           <Image
-            src="https://media.topfinanzas.com/images/uk/Top_Finance_credit_cards_without_annual_fee.webp"
+            src="https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp"
             alt="Rewards Credit Cards" // Updated Alt Text
             width={800}
             height={450}

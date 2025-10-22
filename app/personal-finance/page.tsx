@@ -103,7 +103,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Find the best no annual fee credit cards with great cashback, rewards, and flexible benefits. Perfect for managing expenses while saving on fees.",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_credit_cards_without_annual_fee.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp",
       date: "3 April 2025",
       category: "creditCards",
     },
@@ -113,7 +113,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Discover how personal loans can help you consolidate debt and manage your finances efficiently. Learn how to choose the right loan for your needs.",
       image:
-        "https://media.topfinanzas.com/images/uk/Top-Finances_personal_loans.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top-Finances_personal_loans.webp",
       date: "3 April 2025",
       category: "loans",
     },
@@ -124,7 +124,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Navigate the world of online loans with confidence using these essential tips to find the best rates and terms for your financial needs.",
       image:
-        "https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp",
+        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
       date: "30 March 2025",
       category: "loans",
     },
@@ -186,7 +186,8 @@ export default function PersonalFinanceArchivePage() {
       slug: "side-hustle-or-second-job",
       description:
         "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
-      image: "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
       date: "27 August 2025",
       category: "guide",
     },

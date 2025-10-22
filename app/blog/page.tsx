@@ -108,7 +108,7 @@ export default function BlogArchivePage() {
       slug: "no-annual-fee-credit-cards",
       description: "Find the best no annual fee credit cards...",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_credit_cards_without_annual_fee.webp", // Placeholder
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -119,7 +119,7 @@ export default function BlogArchivePage() {
       description:
         "Discover how personal loans can help you consolidate debt...",
       image:
-        "https://media.topfinanzas.com/images/uk/Top-Finances_personal_loans.webp", // Placeholder
+        "https://media.topfinanzas.com/images/kardtrust/Top-Finances_personal_loans.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",
@@ -130,7 +130,7 @@ export default function BlogArchivePage() {
       slug: "tips-for-choosing-an-online-loan",
       description: "Navigate the world of online loans with confidence...",
       image:
-        "https://media.topfinanzas.com/images/uk/choosing-online-loan-uk.webp",
+        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "30 March 2025",
@@ -161,7 +161,8 @@ export default function BlogArchivePage() {
       slug: "side-hustle-or-second-job",
       description:
         "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
-      image: "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "27 August 2025",
@@ -185,7 +186,7 @@ export default function BlogArchivePage() {
       description:
         "Learn exactly what to say when asking for a pay rise. This UK-focused guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
       image:
-        "https://media.topfinanzas.com/images/uk/how-to-ask-for-a-raise.webp",
+        "https://media.topfinanzas.com/images/kardtrust/how-to-ask-for-a-raise.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 October 2025",
