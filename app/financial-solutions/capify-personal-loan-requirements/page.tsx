@@ -7,10 +7,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Capify Finance Requirements: MCA & Business Loan Guide - Top Finance UK",
+    title: "Capify Finance Requirements: MCA & Business Loan Guide - KardTrust",
     description:
-      "Learn about Capify's eligibility criteria for UK SMEs seeking Merchant Cash Advances or Business Loans, the application process, and required information.",
+      "Learn about Capify's eligibility criteria for US SMEs seeking Merchant Cash Advances or Business Loans, the application process, and required information.",
     keywords:
       "Capify requirements, SME finance eligibility, MCA criteria, business loan application UK, fintech lending requirements, Capify documentation",
   };
@@ -30,7 +29,7 @@ export default function CapifyPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -39,7 +38,7 @@ export default function CapifyPersonalLoanRequirementsPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
                 Capify offers fast Merchant Cash Advances and Business Loans for
-                UK SMEs. Understanding their eligibility helps businesses access
+                US SMEs. Understanding their eligibility helps businesses access
                 funding quickly.
               </p>
 
@@ -69,7 +68,7 @@ export default function CapifyPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Business Location:</span>{" "}
-                      Your business must be based and operating in the UK.
+                      Your business must be based and operating in the US.
                     </div>
                   </div>
 
@@ -266,7 +265,7 @@ export default function CapifyPersonalLoanRequirementsPage() {
                   </div>
 
                   <div
-                    id="uk_topfinanzas_4"
+                    id="uk_kardtrust_4"
                     className="items-center justify-center flex w-full my-6"
                   >
                     {/* Empty responsive, centered div */}

@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Nationwide Personal Loan Requirements: Application Guide - Top Finance UK",
+      "Nationwide Personal Loan Requirements: Application Guide - KardTrust",
     description:
       "Learn about Nationwide Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
     keywords:
-      "Nationwide Personal Loan requirements, UK loan application, building society loan eligibility, Nationwide loan criteria, personal loan documentation, member benefits",
+      "Nationwide Personal Loan requirements, US loan application, building society loan eligibility, Nationwide loan criteria, personal loan documentation, member benefits",
   };
 }
 
@@ -29,7 +29,7 @@ export default function NationwidePersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -39,7 +39,7 @@ export default function NationwidePersonalLoanRequirementsPage() {
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
                 Nationwide Personal Loans offer competitive rates, especially
                 for members. Understanding the eligibility criteria is key to a
-                successful application with the UK's largest building society.
+                successful application with the US's largest building society.
               </p>
 
               <div className="my-8 text-left sm:text-left">
@@ -79,8 +79,8 @@ export default function NationwidePersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a permanent UK resident. Nationwide typically
-                      requires applicants to have lived in the UK for at least 3
+                      must be a permanent US resident. Nationwide typically
+                      requires applicants to have lived in the US for at least 3
                       years.
                     </div>
                   </div>
@@ -128,7 +128,7 @@ export default function NationwidePersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -145,7 +145,7 @@ export default function NationwidePersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Proof of identity:</span>{" "}
-                      A valid passport, UK driving license, or EU identity card
+                      A valid passport, US driving license, or EU identity card
                       is typically required. Existing Nationwide members may
                       have this step streamlined.
                     </div>
@@ -185,7 +185,7 @@ export default function NationwidePersonalLoanRequirementsPage() {
                       <span className="font-semibold">
                         Bank account details:
                       </span>{" "}
-                      Details of a UK bank account are required for loan
+                      Details of a US bank account are required for loan
                       disbursement and setting up direct debit repayments.
                     </div>
                   </div>

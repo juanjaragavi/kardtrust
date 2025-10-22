@@ -8,7 +8,7 @@
  * Usage: node scripts/test-production.js
  */
 
-const PRODUCTION_URL = "https://uk.topfinanzas.com";
+const PRODUCTION_URL = "https://kardtrust.com";
 
 const testData = {
   sheetsPayload: {

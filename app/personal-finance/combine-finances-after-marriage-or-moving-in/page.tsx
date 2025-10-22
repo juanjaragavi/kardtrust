@@ -22,7 +22,7 @@ export default function CombineFinancesAfterMarriagePage() {
 
             {/* Ad unit placeholder (centered and responsive) */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             />
 
@@ -39,7 +39,7 @@ export default function CombineFinancesAfterMarriagePage() {
             <div className="my-8">
               <Image
                 src="https://media.topfinanzas.com/images/uk/combine-finances-after-marriage-or-moving-in.webp"
-                alt="Couple combining finances with a simple joint system in the UK"
+                alt="Couple combining finances with a simple joint system in the US"
                 width={800}
                 height={450}
                 className="w-full h-auto rounded-xl"
@@ -58,7 +58,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 In simple terms, it’s how two people organise income, bills,
                 spending, saving, and borrowing together. There’s no one “right
                 way” — good systems are clear, fair, and repeatable. Most
-                couples in the UK use one of three models:
+                couples in the US use one of three models:
               </p>
               <ul className="list-disc pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                 <li className="mb-2">
@@ -217,7 +217,7 @@ export default function CombineFinancesAfterMarriagePage() {
 
             <section className="my-6">
               <h2 className="text-xl font-bold text-gray-800 mb-3">
-                A quick UK example
+                A quick US example
               </h2>
               <p className="text-gray-800 mb-4 text-sm leading-6 font-light">
                 Alex takes home £2,400 and Jamie £1,800. Shared bills total
@@ -232,7 +232,7 @@ export default function CombineFinancesAfterMarriagePage() {
 
             {/* Mid-article ad placeholder */}
             <div
-              id="uk_topfinanzas_4"
+              id="uk_kardtrust_4"
               className="items-center justify-center flex w-full my-8"
             />
 

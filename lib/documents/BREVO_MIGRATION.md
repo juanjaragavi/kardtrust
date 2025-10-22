@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the migration from Kit.com to Brevo as the marketing automation provider for the UK TopFinanzas project. The migration maintains all essential data collection while adapting to Brevo's API structure.
+This document outlines the migration from Kit.com to Brevo as the marketing automation provider for the KardTrust project. The migration maintains all essential data collection while adapting to Brevo's API structure.
 
 ## What Changed
 
@@ -20,8 +20,8 @@ Each contact receives a unique external ID for tracking:
 
 ```javascript
 const timestamp = Math.floor(Date.now() / 1000);
-const extId = `topfinanzas-uk-${timestamp}`;
-// Example: topfinanzas-uk-1759870873
+const extId = `kardtrust-${timestamp}`;
+// Example: kardtrust-1759870873
 ```
 
 ### 2. Required Attributes
@@ -30,7 +30,7 @@ Every contact submission includes:
 
 - **FIRSTNAME**: User's first name
 - **LASTNAME**: User's last name (extracted from fields)
-- **COUNTRIES**: Fixed value "United Kingdom"
+- **COUNTRIES**: Fixed value "United States"
 - **Email**: Primary identifier
 
 ### 3. Marketing Data Preservation
@@ -65,7 +65,7 @@ The integration preserves all critical marketing and user data:
 
 Contacts are automatically added to:
 
-- **List ID 9**: UK TopFinanzas contact list
+- **List ID 9**: KardTrust contact list
 
 ## API Request Format
 
@@ -100,7 +100,7 @@ Contacts are automatically added to:
   "attributes": {
     "FIRSTNAME": "John",
     "LASTNAME": "Smith",
-    "COUNTRIES": "United Kingdom",
+    "COUNTRIES": "United States",
     "INCOME": "£2,000 - £3,000",
     "CARD_PREFERENCE": "Cashback",
     "PAIS": "Reino Unido",
@@ -112,7 +112,7 @@ Contacts are automatically added to:
     "UTM_MEDIUM": "cpc",
     "UTM_CAMPAIGN": "uk-cards-q1"
   },
-  "ext_id": "topfinanzas-uk-1704628800",
+  "ext_id": "kardtrust-1704628800",
   "updateEnabled": false,
   "listIds": [9]
 }
@@ -235,7 +235,7 @@ Success log format:
 ```markdown
 [Brevo API] Contact created successfully: {
 email: 'user@example.com',
-ext_id: 'topfinanzas-uk-1704628800'
+ext_id: 'kardtrust-1704628800'
 }
 ```
 

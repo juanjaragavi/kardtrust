@@ -1,8 +1,8 @@
-# UK TopFinanzas Copilot Instructions
+# KardTrust Copilot Instructions
 
 ## Project Architecture
 
-This is a **Next.js 14+ App Router** financial comparison site for the UK market, built with TypeScript and Tailwind CSS. The architecture centers around credit card/loan comparison tools with multi-step forms and comprehensive analytics tracking.
+This is a **Next.js 15+ App Router** financial comparison site for the US market, built with TypeScript and Tailwind CSS. The architecture centers around credit card/loan comparison tools with multi-step forms and comprehensive analytics tracking.
 
 ### Key System Components
 
@@ -62,7 +62,7 @@ export default function Step1({ formData, updateFormData }: StepProps) {
 
 - **Currency**: Always GBP (£) formatting
 - **Compliance**: FCA regulatory requirements in financial content
-- **Localization**: UK English (en-GB), DD/MM/YYYY dates
+- **Localization**: UK English (en-US), DD/MM/YYYY dates
 - **Business Context**: Credit cards, personal loans, financial guidance
 
 ## Development Workflows
@@ -70,9 +70,9 @@ export default function Step1({ formData, updateFormData }: StepProps) {
 ### Build & Dev Commands
 
 ```bash
-npm run dev      # Development server on port 3004 with Turbo
+npm run dev      # Development server on port 3005 with Turbo
 npm run build    # Production build
-npm run start    # Production server on port 3004
+npm run start    # Production server on port 3005
 ```
 
 ### Git Workflow (Critical)
@@ -146,7 +146,7 @@ export async function POST(req: Request) {
 
 ### API Route Patterns
 
-- All API routes use Next.js 14 App Router pattern: `app/api/*/route.ts`
+- All API routes use Next.js 15 App Router pattern: `app/api/*/route.ts`
 - Environment variables for external integrations (Google Sheets, Kit.com, SendGrid)
 - Consistent error handling and response formatting
 - CORS configuration in `cors-config.json` for cross-origin requests
@@ -187,7 +187,7 @@ export const metadata: Metadata = {
 
 ## Common Gotchas
 
-1. **Port Configuration**: Development runs on port 3004, not 3000
+1. **Port Configuration**: Development runs on port 3005, not 3000
 2. **Analytics Order**: GTM loads before AdZep in layout
 3. **Form Navigation**: Always call `window.scrollTo(0, 0)` on step changes
 4. **UK Compliance**: Include regulatory disclaimers for financial products

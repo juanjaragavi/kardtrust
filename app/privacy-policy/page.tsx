@@ -6,9 +6,9 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { useMDXComponents } from "@/mdx-components";
 
 export const metadata = {
-  title: "Privacy Policy - TopFinance UK",
+  title: "Privacy Policy - KardTrust",
   description:
-    "Learn how TopFinance UK protects your personal information and what rights you have over your data.",
+    "Learn how KardTrust protects your personal information and what rights you have over your data.",
 };
 
 export default async function PrivacyPolicyPage() {

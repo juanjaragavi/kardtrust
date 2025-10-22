@@ -7,11 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Curve Credit Card: All-In-One Financial Solution - Top Finance UK",
+    title: "Curve Credit Card: All-In-One Financial Solution - KardTrust",
     description:
       "The Curve Credit Card offers a revolutionary 'all-in-one' approach, combining multiple cards in one, with advanced benefits like time-travel functionality and enhanced rewards.",
     keywords:
-      "Curve Card, UK fintech, all-in-one card, card consolidation, Curve Flex, cashback, time travel banking, Go Back in Time, card management",
+      "Curve Card, US fintech, all-in-one card, card consolidation, Curve Flex, cashback, time travel banking, Go Back in Time, card management",
   };
 }
 
@@ -36,7 +36,7 @@ export default function CurveCreditCardPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -105,7 +105,7 @@ export default function CurveCreditCardPage() {
               </div>
 
               <div
-                id="uk_topfinanzas_4"
+                id="uk_kardtrust_4"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

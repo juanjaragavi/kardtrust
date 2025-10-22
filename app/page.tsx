@@ -98,8 +98,7 @@ const allPosts: PostData[] = [
   {
     slug: "best-rewards-credit-cards",
     frontmatter: {
-      title:
-        "Top Rewards Credit Cards to Maximize Your Spending | Top Finance UK",
+      title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
       description: "Discover the best rewards credit cards...",
       date: "2025-04-03T00:00:00Z",
       featuredImage:
@@ -112,7 +111,7 @@ const allPosts: PostData[] = [
   {
     slug: "getting-out-of-debt",
     frontmatter: {
-      title: "Practical Guide to Getting Out of Debt | Top Finance UK",
+      title: "Practical Guide to Getting Out of Debt | KardTrust",
       description: "Feeling overwhelmed by debt? Get practical strategies...",
       date: "2025-04-03T00:00:00Z",
       featuredImage:
@@ -125,8 +124,7 @@ const allPosts: PostData[] = [
   {
     slug: "top-credit-cards-0-intro-apr",
     frontmatter: {
-      title:
-        "Best Credit Cards with 0% Intro APR Offers in the UK | Top Finance UK",
+      title: "Best Credit Cards with 0% Intro APR Offers in the US | KardTrust",
       description:
         "Compare the best credit cards offering 0% introductory APR...",
       date: "2025-04-03T00:00:00Z",
@@ -139,9 +137,8 @@ const allPosts: PostData[] = [
   {
     slug: "best-personal-loans",
     frontmatter: {
-      title:
-        "Best Personal Loans in the UK: Your Complete Guide | Top Finance UK",
-      description: "Comprehensive guide to the UK's top personal loans...",
+      title: "Best Personal Loans in the US: Your Complete Guide | KardTrust",
+      description: "Comprehensive guide to the US's top personal loans...",
       date: "2025-03-30T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/best-personal-loans.webp",
@@ -154,7 +151,7 @@ const allPosts: PostData[] = [
     slug: "tips-for-choosing-an-online-loan",
     frontmatter: {
       title:
-        "5 Essential Tips for Choosing an Online Loan: Quick Guide | Top Finance UK",
+        "5 Essential Tips for Choosing an Online Loan: Quick Guide | KardTrust",
       description: "Navigate the world of online loans with confidence...",
       date: "2025-03-30T00:00:00Z",
       featuredImage:
@@ -205,7 +202,7 @@ export default function Home() {
       category: post.category,
       categorySlug: post.categoryPath,
       date: post.frontmatter.date
-        ? new Date(post.frontmatter.date).toLocaleDateString("en-GB", {
+        ? new Date(post.frontmatter.date).toLocaleDateString("en-US", {
             year: "numeric",
             month: "long",
             day: "numeric",
@@ -224,7 +221,7 @@ export default function Home() {
         {/* Desktop banner image */}
         <Image
           src="https://media.topfinanzas.com/images/banner-home.webp"
-          alt="Top Finance UK - Financial guidance banner"
+          alt="KardTrust - Financial guidance banner"
           fill
           priority
           quality={85}
@@ -236,7 +233,7 @@ export default function Home() {
         {/* Mobile banner image */}
         <Image
           src="https://media.topfinanzas.com/images/banner-home-mobile.webp"
-          alt="Top Finance UK - Financial guidance banner"
+          alt="KardTrust - Financial guidance banner"
           fill
           priority
           quality={85}
@@ -251,7 +248,7 @@ export default function Home() {
         {/* Content */}
         <div className="container mx-auto px-4 text-left relative z-[2]">
           <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 drop-shadow-lg leading-tight">
-            Welcome to Top Finance
+            Welcome to KardTrust
           </h1>
           <p className="text-white text-base md:text-lg lg:text-xl max-w-3xl mb-6 md:mb-8 drop-shadow-md leading-tight">
             Where every financial decision expands your world. <br />
@@ -266,8 +263,8 @@ export default function Home() {
           {/* Featured post - Using standard Next.js Image component */}
           <div className="mb-12 relative">
             <FeaturedPostCard
-              title="Best Personal Loans in the UK: Your Complete Guide"
-              description="Comprehensive guide to the UK's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays."
+              title="Best Personal Loans in the US: Your Complete Guide"
+              description="Comprehensive guide to the US's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays."
               image="https://media.topfinanzas.com/images/best-personal-loans.webp"
               slug="best-personal-loans"
               category="Personal Finance"

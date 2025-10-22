@@ -7,9 +7,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Funding Circle Business Loan: Fast SME Financing - Top Finance UK",
+    title: "Funding Circle Business Loan: Fast SME Financing - KardTrust",
     description:
-      "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for UK Small and Medium-sized Enterprises (SMEs).",
+      "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for US Small and Medium-sized Enterprises (SMEs).",
     keywords:
       "Funding Circle, SME loan, business loan UK, fintech lending, small business finance, working capital loan, business expansion loan",
   };
@@ -32,13 +32,13 @@ export default function FundingCirclePersonalLoanPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Funding Circle provides fast and flexible business loans
-                tailored to the needs of UK SMEs, leveraging fintech innovation
+                tailored to the needs of US SMEs, leveraging fintech innovation
                 to streamline the borrowing process for growth, working capital,
                 and more.
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -129,7 +129,7 @@ export default function FundingCirclePersonalLoanPage() {
                   Funding Circle is a leading global platform connecting small
                   businesses seeking finance with investors. Their business
                   loans are specifically designed to meet the unique challenges
-                  and opportunities faced by UK SMEs, offering a faster, more
+                  and opportunities faced by US SMEs, offering a faster, more
                   flexible alternative to traditional bank lending.
                 </p>
 
@@ -161,7 +161,7 @@ export default function FundingCirclePersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -308,7 +308,7 @@ export default function FundingCirclePersonalLoanPage() {
                 </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Supporting UK SMEs
+                  Supporting US SMEs
                 </h2>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
@@ -321,7 +321,7 @@ export default function FundingCirclePersonalLoanPage() {
                 </p>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  For UK SMEs seeking fast, flexible, and transparent financing
+                  For US SMEs seeking fast, flexible, and transparent financing
                   options to support their growth and operational needs, Funding
                   Circle offers a compelling alternative finance solution.
                 </p>

@@ -20,9 +20,9 @@ export default function WhatIsLifestyleCreepPage() {
               Wallet?
             </h1>
 
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -34,7 +34,7 @@ export default function WhatIsLifestyleCreepPage() {
                 much healthier than before. Sound familiar? You might be
                 experiencing lifestyle creep — the gradual increase in spending
                 that follows income growth. This silent wealth-drainer affects
-                millions of UK households, often without people realising it's
+                millions of US households, often without people realising it's
                 happening. Understanding lifestyle creep is the first step
                 towards protecting your personal finance goals whilst still
                 enjoying the rewards of your hard work.
@@ -42,8 +42,8 @@ export default function WhatIsLifestyleCreepPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://storage.googleapis.com/media-topfinanzas-com/images/lifestyle-creep-personal-finance.webp"
-                  alt="Understanding lifestyle creep and its impact on personal finance in the UK"
+                  src="https://storage.googleapis.com/media-kardtrust-com/images/lifestyle-creep-personal-finance.webp"
+                  alt="Understanding lifestyle creep and its impact on personal finance in the US"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
@@ -146,7 +146,7 @@ export default function WhatIsLifestyleCreepPage() {
 
                 <div className="bg-blue-50 p-4 rounded-lg mb-4">
                   <h3 className="text-left sm:text-left text-lg font-semibold text-gray-800 mb-3">
-                    Real UK scenario:
+                    Real US scenario:
                   </h3>
                   <p className="text-sm text-gray-800 mb-2 font-light">
                     Imagine you receive a £3,000 annual pay rise (about

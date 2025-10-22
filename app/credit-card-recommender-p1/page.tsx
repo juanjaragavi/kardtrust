@@ -38,7 +38,7 @@ function CreditCardRecommenderPageContent() {
             </p>
 
             <div
-              id="uk_topfinanzas_1"
+              id="uk_kardtrust_1"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -95,7 +95,7 @@ function CreditCardRecommenderPageContent() {
               informed decisions.
             </p>
             <div
-              id="uk_topfinanzas_2"
+              id="uk_kardtrust_2"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -135,7 +135,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "benefits" ? "text-green-500" : "text-sky-600"
+                    openFaq === "benefits" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   What are the benefits of a card with no annual fee?
@@ -144,7 +144,7 @@ function CreditCardRecommenderPageContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "benefits" ? "transform rotate-180" : "" // Changed to rotate for better icon indication
                   } ${
-                    openFaq === "benefits" ? "text-green-500" : "text-sky-700"
+                    openFaq === "benefits" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true" // Hide decorative icon from screen readers
                 >
@@ -170,7 +170,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "cashback" ? "text-green-500" : "text-sky-600"
+                    openFaq === "cashback" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   How does cashback work?
@@ -179,7 +179,7 @@ function CreditCardRecommenderPageContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "cashback" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "cashback" ? "text-green-500" : "text-sky-700"
+                    openFaq === "cashback" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true"
                 >
@@ -204,7 +204,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "travelers" ? "text-green-500" : "text-sky-600"
+                    openFaq === "travelers" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   What's the best option for travellers?
@@ -213,7 +213,7 @@ function CreditCardRecommenderPageContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "travelers" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "travelers" ? "text-green-500" : "text-sky-700"
+                    openFaq === "travelers" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true"
                 >
@@ -239,7 +239,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-6 ${
-                    openFaq === "online" ? "text-green-500" : "text-sky-600"
+                    openFaq === "online" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   Is it safe to use credit cards online?
@@ -247,9 +247,7 @@ function CreditCardRecommenderPageContent() {
                 <span
                   className={`text-xl transition-transform ${
                     openFaq === "online" ? "transform rotate-180" : ""
-                  } ${
-                    openFaq === "online" ? "text-green-500" : "text-sky-700"
-                  }`}
+                  } ${openFaq === "online" ? "text-primary" : "text-sky-700"}`}
                   aria-hidden="true"
                 >
                   ▼

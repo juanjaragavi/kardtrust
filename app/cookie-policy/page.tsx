@@ -6,9 +6,9 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { useMDXComponents } from "@/mdx-components";
 
 export const metadata = {
-  title: "Cookie Policy - TopFinance UK",
+  title: "Cookie Policy - KardTrust",
   description:
-    "Learn about how TopFinance UK uses cookies and similar technologies on our website.",
+    "Learn about how KardTrust uses cookies and similar technologies on our website.",
 };
 
 export default async function CookiePolicyPage() {

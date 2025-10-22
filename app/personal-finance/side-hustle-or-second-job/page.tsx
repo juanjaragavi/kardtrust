@@ -18,9 +18,9 @@ export default function SideHustleOrSecondJobPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Side Hustle or Second Job? How to Choose the Right Income Booster
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -28,7 +28,7 @@ export default function SideHustleOrSecondJobPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
-                With rising living costs across the UK, many people are seeking
+                With rising living costs across the US, many people are seeking
                 ways to boost their income. Whether you're considering a
                 traditional second job or exploring the world of side hustles,
                 making the right choice can significantly impact your personal
@@ -111,7 +111,7 @@ export default function SideHustleOrSecondJobPage() {
                   Your available time and energy levels play crucial roles in
                   this decision. Second jobs often require specific time
                   commitments that might conflict with your primary employment
-                  or personal responsibilities. Many UK employers have policies
+                  or personal responsibilities. Many US employers have policies
                   regarding second jobs that could affect your main career
                   progression, so it's important to check your employment
                   contract and company policies.
@@ -127,7 +127,7 @@ export default function SideHustleOrSecondJobPage() {
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  Practical Considerations for UK Workers
+                  Practical Considerations for US Workers
                 </h2>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
@@ -210,9 +210,9 @@ export default function SideHustleOrSecondJobPage() {
                   can complement your income-boosting efforts.
                 </p>
 
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

@@ -7,10 +7,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "iwoca Flexi-Loan Requirements: SME Application Guide - Top Finance UK",
+    title: "iwoca Flexi-Loan Requirements: SME Application Guide - KardTrust",
     description:
-      "Learn about iwoca Flexi-Loan eligibility criteria for UK SMEs, the online application process, and required business information.",
+      "Learn about iwoca Flexi-Loan eligibility criteria for US SMEs, the online application process, and required business information.",
     keywords:
       "iwoca requirements, Flexi-Loan eligibility, SME loan application UK, business finance criteria, fintech lending requirements, iwoca documentation",
   };
@@ -30,7 +29,7 @@ export default function IwocaPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -38,7 +37,7 @@ export default function IwocaPersonalLoanRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                iwoca provides fast, flexible finance for UK SMEs. Understanding
+                iwoca provides fast, flexible finance for US SMEs. Understanding
                 their eligibility criteria and application process helps
                 businesses access working capital quickly.
               </p>
@@ -70,7 +69,7 @@ export default function IwocaPersonalLoanRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Business Type:</span>{" "}
                       Available to Limited Companies and Limited Liability
-                      Partnerships (LLPs) registered in the UK. Sole traders are
+                      Partnerships (LLPs) registered in the US. Sole traders are
                       also eligible.
                     </div>
                   </div>
@@ -118,7 +117,7 @@ export default function IwocaPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK Based Operation:</span>{" "}
-                      The business must be based and operating in the UK.
+                      The business must be based and operating in the US.
                     </div>
                   </div>
                 </div>
@@ -304,7 +303,7 @@ export default function IwocaPersonalLoanRequirementsPage() {
                   </div>
 
                   <div
-                    id="uk_topfinanzas_4"
+                    id="uk_kardtrust_4"
                     className="items-center justify-center flex w-full my-6"
                   >
                     {/* Empty responsive, centered div */}

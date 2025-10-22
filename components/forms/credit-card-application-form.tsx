@@ -58,10 +58,10 @@ export const CreditCardApplicationForm = () => {
         className="bg-white p-8 rounded-xl shadow-md"
       >
         <div className="text-left">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-6">
+          <div className="inline-flex items-center justify-center w-16 h-16 bg-red-50 rounded-full mb-6">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-8 w-8 text-green-600"
+              className="h-8 w-8 text-primary-dark"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -555,8 +555,8 @@ export const CreditCardApplicationForm = () => {
                 />
                 <label htmlFor="terms" className="text-sm text-gray-600">
                   I confirm that the information provided is accurate and
-                  complete. I authorize TopFinanzas to obtain my credit report
-                  and verify the information provided in this application.
+                  complete. I authorize KardTrust to obtain my credit report and
+                  verify the information provided in this application.
                 </label>
               </div>
             </div>

@@ -48,7 +48,7 @@
 
 - **Email**: <test.brevo.1759870955@topnetworks.co>
 - **Name**: Juan Miguel
-- **External ID**: topfinanzas-uk-1759870955
+- **External ID**: kardtrust-1759870955
 - **Response Status**: 201 Created
 - **Contact ID**: 47438
 
@@ -60,7 +60,7 @@
   "attributes": {
     "FIRSTNAME": "Juan",
     "LASTNAME": "Miguel",
-    "COUNTRIES": "United Kingdom",
+    "COUNTRIES": "United States",
     "INCOME": "£2,000 - £3,000",
     "CARD_PREFERENCE": "Cashback",
     "PAIS": "Reino Unido",
@@ -72,7 +72,7 @@
     "UTM_MEDIUM": "unique_email_test",
     "UTM_CAMPAIGN": "brevo_migration_verification"
   },
-  "ext_id": "topfinanzas-uk-1759870955",
+  "ext_id": "kardtrust-1759870955",
   "updateEnabled": false,
   "listIds": [9, 5]
 }
@@ -81,8 +81,8 @@
 ### Key Validations 2
 
 ✅ Contact created successfully in Brevo  
-✅ External ID format correct: `topfinanzas-uk-{timestamp}`  
-✅ COUNTRIES attribute: "United Kingdom" ✓  
+✅ External ID format correct: `kardtrust-{timestamp}`  
+✅ COUNTRIES attribute: "United States" ✓  
 ✅ All attributes preserved and mapped correctly  
 ✅ Added to List IDs: 9 and 5  
 ✅ Timestamp-based unique identifier working
@@ -99,7 +99,7 @@
 
 - **Email**: <test.api.1759871106@topnetworks.co>
 - **Name**: Juan Miguel
-- **Server**: <http://localhost:3004>
+- **Server**: <http://localhost:3005>
 - **Response Status**: 200 OK
 - **Contact ID**: 47439
 
@@ -143,14 +143,14 @@
 
 #### 1. Dynamic External ID
 
-- **Format**: `topfinanzas-uk-{timestamp}`
-- **Example**: `topfinanzas-uk-1759870955`
+- **Format**: `kardtrust-{timestamp}`
+- **Example**: `kardtrust-1759870955`
 - **Status**: ✅ WORKING
 - **Verified in**: Tests 2 & 3
 
 #### 2. Static COUNTRIES Value
 
-- **Value**: "United Kingdom"
+- **Value**: "United States"
 - **Status**: ✅ ALWAYS INCLUDED
 - **Verified in**: All tests
 
@@ -184,7 +184,7 @@ All user data fields are preserved:
 
 - **ID**: 47438
 - **Email**: <test.brevo.1759870955@topnetworks.co>
-- **External ID**: topfinanzas-uk-1759870955
+- **External ID**: kardtrust-1759870955
 - **Lists**: 9, 5
 - **Status**: ✅ Verified in Brevo Dashboard
 
@@ -192,7 +192,7 @@ All user data fields are preserved:
 
 - **ID**: 47439
 - **Email**: <test.api.1759871106@topnetworks.co>
-- **External ID**: topfinanzas-uk-{timestamp}
+- **External ID**: kardtrust-{timestamp}
 - **Lists**: 9, 5
 - **Status**: ✅ Verified via API Response
 
@@ -274,7 +274,7 @@ npm run test:brevo
 # Test direct API connection
 npm run test:brevo-direct
 
-# Test Next.js API route (requires server on port 3004)
+# Test Next.js API route (requires server on port 3005)
 npm run test:brevo-api
 ```
 
@@ -384,7 +384,7 @@ All commands added to `package.json` for easy access.
 The migration from Kit.com to Brevo is complete and fully tested. The integration:
 
 - Generates dynamic external IDs with timestamps
-- Includes "United Kingdom" in every payload
+- Includes "United States" in every payload
 - Preserves all user data and marketing attribution
 - Maintains full backward compatibility with the frontend
 - Has been verified with real API calls creating actual contacts

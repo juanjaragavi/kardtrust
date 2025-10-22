@@ -1,7 +1,7 @@
-// Constant strings used throughout the application for UK market
+// Constant strings used throughout the application for US market
 
 export const metadata = {
-  title: "Find Your Perfect Credit Card - TopFinance UK",
+  title: "Find Your Perfect Credit Card - KardTrust",
   description: "Find the perfect credit card tailored to your needs",
 };
 

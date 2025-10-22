@@ -20,7 +20,7 @@ UTM parameters were being stored in sessionStorage and added to URLs via `router
 When users start a quiz with UTM parameters like:
 
 ```bash
-https://uk.topfinanzas.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886
+https://kardtrust.com/quiz?utm_source=adwords&utm_medium=cpc&utm_campaign=22524445886
 ```
 
 They need to maintain these parameters through:
@@ -190,7 +190,7 @@ try {
 
 ```bash
 # Start at quiz with UTM params
-http://localhost:3004/quiz?utm_source=test&utm_medium=cpc&utm_campaign=test_campaign
+http://localhost:3005/quiz?utm_source=test&utm_medium=cpc&utm_campaign=test_campaign
 
 # Click through quiz steps
 # Verify URL maintains UTM params at each step
@@ -204,7 +204,7 @@ http://localhost:3004/quiz?utm_source=test&utm_medium=cpc&utm_campaign=test_camp
 
 ```bash
 # Start at home WITH UTM params
-http://localhost:3004/?utm_source=google&utm_medium=organic
+http://localhost:3005/?utm_source=google&utm_medium=organic
 
 # Click on any internal link
 # Verify link includes UTM params
@@ -217,7 +217,7 @@ http://localhost:3004/?utm_source=google&utm_medium=organic
 
 ```bash
 # Start with UTM params
-http://localhost:3004/?utm_source=test
+http://localhost:3005/?utm_source=test
 
 # Click external link (e.g., to google.com)
 # Verify external link doesn't get UTM params (correct)

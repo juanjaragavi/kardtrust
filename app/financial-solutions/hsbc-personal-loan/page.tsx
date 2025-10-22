@@ -7,11 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "HSBC Personal Loan: Flexible Financing Solutions - Top Finance UK",
+    title: "HSBC Personal Loan: Flexible Financing Solutions - KardTrust",
     description:
       "Discover HSBC Personal Loans with competitive rates, flexible repayment terms, and quick application process designed to help you achieve your financial goals.",
     keywords:
-      "HSBC Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, HSBC banking, loan application",
+      "HSBC Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, HSBC banking, loan application",
   };
 }
 
@@ -37,7 +37,7 @@ export default function HSBCPersonalLoanPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -167,7 +167,7 @@ export default function HSBCPersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -342,7 +342,7 @@ export default function HSBCPersonalLoanPage() {
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
                   Choosing HSBC for your personal loan means partnering with a
                   financial institution that combines global scale with local
-                  expertise. The bank's established presence in the UK market,
+                  expertise. The bank's established presence in the US market,
                   comprehensive service offerings, and commitment to customer
                   satisfaction provide reassurance when making important
                   financial decisions. Additionally, HSBC's robust security

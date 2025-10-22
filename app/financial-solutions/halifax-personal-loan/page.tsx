@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Halifax Personal Loan: Flexible Financing Solutions - Top Finance UK",
+    title: "Halifax Personal Loan: Flexible Financing Solutions - KardTrust",
     description:
-      "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major UK bank.",
+      "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major US bank.",
     keywords:
-      "Halifax Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Halifax banking, loan application",
+      "Halifax Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Halifax banking, loan application",
   };
 }
 
@@ -31,12 +30,12 @@ export default function HalifaxPersonalLoanPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Halifax Personal Loans offer competitive rates, flexible terms,
-                and the dependability of one of the UK's largest and most
+                and the dependability of one of the US's largest and most
                 recognized banking brands, part of the Lloyds Banking Group.
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -127,7 +126,7 @@ export default function HalifaxPersonalLoanPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   Halifax Personal Loans provide a dependable financing option
-                  from one of the UK's most familiar banking names. As part of
+                  from one of the US's most familiar banking names. As part of
                   the Lloyds Banking Group, Halifax benefits from the resources
                   and stability of a major financial institution while
                   maintaining its distinct brand identity focused on
@@ -149,7 +148,7 @@ export default function HalifaxPersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -335,7 +334,7 @@ export default function HalifaxPersonalLoanPage() {
                   Whether you are an existing Halifax customer or new to the
                   bank, their Personal Loan product offers a solid combination
                   of competitive terms, flexibility, and the reliability of a
-                  major UK financial institution. It's a practical choice for
+                  major US financial institution. It's a practical choice for
                   funding significant life events or managing existing debts
                   effectively.
                 </p>

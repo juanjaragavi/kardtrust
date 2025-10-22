@@ -1,5 +1,5 @@
 /**
- * Advertisement management system for TopFinanzas
+ * Advertisement management system for KardTrust
  * This file centralizes ad content, allowing for programmatic editing without changing component structure
  */
 

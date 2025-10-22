@@ -1,6 +1,6 @@
 /**
  * Navigation items for the header component
- * Localized for the UK market
+ * Localized for the US market
  * Easily modifiable by LLM agents to update site navigation
  */
 
@@ -97,7 +97,7 @@ export const headerNavigation = {
         title: "Personal Finance",
         items: [
           {
-            text: cleanTitle("Best Personal Loans in the UK"),
+            text: cleanTitle("Best Personal Loans in the US"),
             href: "/personal-finance/best-personal-loans",
           },
           {
@@ -187,10 +187,9 @@ export const headerNavigation = {
       title: "Featured Articles",
       posts: [
         {
-          title: cleanTitle("Best Personal Loans in the UK"),
+          title: cleanTitle("Best Personal Loans in the US"),
           href: "/personal-finance/best-personal-loans",
-          image:
-            "https://media.topfinanzas.com/images/best-personal-loans.webp",
+          image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
           category: "Personal Finance",
           categoryHref: "/personal-finance",
         },

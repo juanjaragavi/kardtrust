@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Funding Xchange Process & Eligibility: SME Finance Guide - Top Finance UK",
+      "Funding Xchange Process & Eligibility: SME Finance Guide - KardTrust",
     description:
-      "Learn how the Funding Xchange platform works, general eligibility for UK SMEs, and the information needed to compare business finance options.",
+      "Learn how the Funding Xchange platform works, general eligibility for US SMEs, and the information needed to compare business finance options.",
     keywords:
-      "Funding Xchange process, SME finance eligibility, business loan comparison requirements, UK business funding criteria, alternative finance platform application",
+      "Funding Xchange process, SME finance eligibility, business loan comparison requirements, US business funding criteria, alternative finance platform application",
   };
 }
 
@@ -30,7 +30,7 @@ export default function FundingXchangePersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -38,7 +38,7 @@ export default function FundingXchangePersonalLoanRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                Funding Xchange connects UK SMEs with multiple finance
+                Funding Xchange connects US SMEs with multiple finance
                 providers. Understanding their process and general eligibility
                 helps businesses leverage the platform effectively.
               </p>
@@ -76,7 +76,7 @@ export default function FundingXchangePersonalLoanRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK-Based Business:</span>{" "}
                       Your business must be registered and operating primarily
-                      within the United Kingdom.
+                      within the United States.
                     </div>
                   </div>
 
@@ -129,7 +129,7 @@ export default function FundingXchangePersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

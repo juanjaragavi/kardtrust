@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const SERVING_CONFIG =
-  "projects/absolute-brook-452020-d5/locations/global/collections/default_collection/engines/topfinanzas-uk-search-engi_1744641181584/servingConfigs/default_search";
+  "projects/absolute-brook-452020-d5/locations/global/collections/default_collection/engines/kardtrust-search-engi_1744641181584/servingConfigs/default_search";
 const BASE_ENDPOINT = "https://discoveryengine.googleapis.com/v1"; // Base endpoint
 
 interface VertexSearchSnippet {

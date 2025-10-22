@@ -51,12 +51,12 @@ test_configuration() {
     echo ""
     
     # Check if Next.js is running
-    if curl -s http://localhost:3004 > /dev/null; then
-        echo "✅ Next.js server is running on http://localhost:3004"
-        echo "🔗 Quiz URL: http://localhost:3004/quiz"
+    if curl -s http://localhost:3005 > /dev/null; then
+        echo "✅ Next.js server is running on http://localhost:3005"
+        echo "🔗 Quiz URL: http://localhost:3005/quiz"
         echo ""
         echo "🧪 Test Steps:"
-        echo "   1. Visit http://localhost:3004/quiz"
+        echo "   1. Visit http://localhost:3005/quiz"
         echo "   2. Complete the quiz"
         echo "   3. Try to access the quiz again"
         echo "   4. Check browser console for validation logs"

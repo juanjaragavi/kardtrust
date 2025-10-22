@@ -45,7 +45,7 @@
   {/* Desktop banner image */}
   <Image
     src="https://media.topfinanzas.com/images/banner-home.webp"
-    alt="Top Finance UK - Financial guidance banner"
+    alt="KardTrust - Financial guidance banner"
     fill
     priority
     quality={85}
@@ -57,7 +57,7 @@
   {/* Mobile banner image */}
   <Image
     src="https://media.topfinanzas.com/images/banner-home-mobile.webp"
-    alt="Top Finance UK - Financial guidance banner"
+    alt="KardTrust - Financial guidance banner"
     fill
     priority
     quality={85}
@@ -102,7 +102,7 @@
    - Bundle sizes remain optimal
 
 3. **Development Server Test:** ✅ PASSED
-   - Server started successfully on port 3004
+   - Server started successfully on port 3005
    - No runtime errors
    - Application ready in 1048ms
 
@@ -227,7 +227,7 @@ Before deploying to production, please verify:
 
 The development server is currently running:
 
-- **URL:** <http://localhost:3004>
+- **URL:** <http://localhost:3005>
 - **Status:** ✅ Running successfully
 - **Compilation:** Ready in 1048ms
 - **No errors detected**

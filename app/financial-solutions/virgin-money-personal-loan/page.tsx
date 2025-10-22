@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Virgin Money Personal Loan: Flexible Financing with Perks - Top Finance UK",
+      "Virgin Money Personal Loan: Flexible Financing with Perks - KardTrust",
     description:
       "Explore Virgin Money Personal Loans with competitive rates, flexible terms, and potential benefits linked to the Virgin Red rewards program.",
     keywords:
-      "Virgin Money Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Virgin Red, loan application",
+      "Virgin Money Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, Virgin Red, loan application",
   };
 }
 
@@ -38,7 +38,7 @@ export default function VirginMoneyPersonalLoanPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -165,7 +165,7 @@ export default function VirginMoneyPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

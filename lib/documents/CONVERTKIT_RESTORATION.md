@@ -2,7 +2,7 @@
 
 ## Overview
 
-The ConvertKit (Kit.com) subscriber integration has been reinstated alongside the existing Brevo and Google Sheets workflows that power the UK TopFinanzas credit card quiz. Incoming payloads continue to use the original Kit-style structure sent from the frontend, ensuring full backward compatibility with historical data submissions.
+The ConvertKit (Kit.com) subscriber integration has been reinstated alongside the existing Brevo and Google Sheets workflows that power the KardTrust credit card quiz. Incoming payloads continue to use the original Kit-style structure sent from the frontend, ensuring full backward compatibility with historical data submissions.
 
 ## Key Changes
 
@@ -36,7 +36,7 @@ The ConvertKit (Kit.com) subscriber integration has been reinstated alongside th
 
 ## Testing
 
-Run the end-to-end validation after starting the dev server on port 3004:
+Run the end-to-end validation after starting the dev server on port 3005:
 
 ```bash
 node scripts/test-full-flow.js

@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Monzo Credit Card: Digital-First Banking Solutions - Top Finance UK",
+    title: "Monzo Credit Card: Digital-First Banking Solutions - KardTrust",
     description:
       "The Monzo Credit Card offers innovative digital features, real-time spending insights, and simplified financial management designed for the mobile-first generation.",
     keywords:
-      "Monzo Credit Card, UK credit cards, digital banking, mobile-first banking, Monzo, neobank, spending insights, budgeting tools",
+      "Monzo Credit Card, US credit cards, digital banking, mobile-first banking, Monzo, neobank, spending insights, budgeting tools",
   };
 }
 
@@ -34,13 +33,13 @@ export default function MonzoCreditCardPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Monzo Credit Card embodies the innovative, digital-first
-                approach that has made Monzo one of the UK's leading neobanks,
+                approach that has made Monzo one of the US's leading neobanks,
                 combining powerful financial tools with an intuitive user
                 experience.
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -132,7 +131,7 @@ export default function MonzoCreditCardPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   The Monzo Credit Card represents a natural extension of
-                  Monzo's innovative approach to banking. As one of the UK's
+                  Monzo's innovative approach to banking. As one of the US's
                   most successful neobanks, Monzo has built its reputation on
                   reimagining financial services for the digital age. The Monzo
                   Credit Card carries forward this philosophy, offering a
@@ -158,7 +157,7 @@ export default function MonzoCreditCardPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

@@ -48,12 +48,12 @@ export default function AnalyticsValidationPanel() {
   return (
     <div className="fixed bottom-4 right-4 z-50 bg-white border-2 border-gray-300 rounded-lg shadow-lg max-w-md">
       <div className="p-3 bg-blue-50 border-b border-gray-200 flex items-center justify-between">
-        <h3 className="font-semibold text-sm text-blue-900">
+        <h3 className="font-semibold text-sm text-secondary-navy">
           Analytics Validation
         </h3>
         <button
           onClick={() => setIsExpanded(!isExpanded)}
-          className="text-blue-600 hover:text-blue-800"
+          className="text-secondary hover:text-secondary-dark"
         >
           {isExpanded ? "−" : "+"}
         </button>
@@ -65,7 +65,7 @@ export default function AnalyticsValidationPanel() {
             <button
               onClick={runValidation}
               disabled={isRunning}
-              className="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 disabled:opacity-50"
+              className="bg-secondary text-white px-3 py-1 rounded text-sm hover:bg-secondary-dark disabled:opacity-50"
             >
               {isRunning ? "Running..." : "Run Validation"}
             </button>

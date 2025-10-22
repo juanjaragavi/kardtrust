@@ -3,7 +3,7 @@
  * Tests the /api/subscribe endpoint with sample data
  */
 
-const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:3004";
+const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:3005";
 
 // Generate unique email with timestamp
 const timestamp = Math.floor(Date.now() / 1000);
@@ -60,7 +60,7 @@ async function testBrevoIntegration() {
       console.log(`   ✓ Request passed through Next.js API route`);
       console.log(`   ✓ Data transformed from Kit.com to Brevo format`);
       console.log(`   ✓ Contact created with dynamic ext_id`);
-      console.log(`   ✓ COUNTRIES attribute set to "United Kingdom"`);
+      console.log(`   ✓ COUNTRIES attribute set to "United States"`);
       console.log(`   ✓ All user data preserved in Brevo attributes`);
       console.log(
         "\n📋 Check Brevo dashboard to verify the contact was created.\n",
@@ -76,7 +76,7 @@ async function testBrevoIntegration() {
     console.error("\n❌ ERROR: Failed to connect to API");
     console.error("   Error details:", error.message);
     console.error(
-      "\n💡 Make sure your development server is running on port 3004",
+      "\n💡 Make sure your development server is running on port 3005",
     );
     console.error("   Run: npm run dev\n");
     return false;

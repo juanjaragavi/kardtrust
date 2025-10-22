@@ -16,12 +16,12 @@ All requirements have been successfully implemented and verified with real API c
 
 ### 2. Required Implementations
 
-| Requirement            | Status | Details                                   |
-| ---------------------- | ------ | ----------------------------------------- |
-| Dynamic ext_id         | ✅     | Format: `topfinanzas-uk-{timestamp}`      |
-| Static COUNTRIES       | ✅     | Value: "United Kingdom" (always included) |
-| Data Preservation      | ✅     | All fields mapped to Brevo attributes     |
-| Frontend Compatibility | ✅     | No changes needed to Step 3 form          |
+| Requirement            | Status | Details                                  |
+| ---------------------- | ------ | ---------------------------------------- |
+| Dynamic ext_id         | ✅     | Format: `kardtrust-{timestamp}`          |
+| Static COUNTRIES       | ✅     | Value: "United States" (always included) |
+| Data Preservation      | ✅     | All fields mapped to Brevo attributes    |
+| Frontend Compatibility | ✅     | No changes needed to Step 3 form         |
 
 ---
 
@@ -92,7 +92,7 @@ Contact Created in Lists 9 & 5
   "attributes": {
     "FIRSTNAME": "Juan",
     "LASTNAME": "Miguel",
-    "COUNTRIES": "United Kingdom",
+    "COUNTRIES": "United States",
     "INCOME": "£2,000 - £3,000",
     "CARD_PREFERENCE": "Cashback",
     "PAIS": "Reino Unido",
@@ -102,7 +102,7 @@ Contact Created in Lists 9 & 5
     "UTM_SOURCE": "google",
     "UTM_MEDIUM": "cpc"
   },
-  "ext_id": "topfinanzas-uk-1759870955",
+  "ext_id": "kardtrust-1759870955",
   "updateEnabled": false,
   "listIds": [9, 5]
 }
@@ -148,7 +148,7 @@ Contact Created in Lists 9 & 5
 
 1. **No frontend changes needed** - existing form code works as-is
 2. **Dynamic ext_id** - automatically generated with timestamp
-3. **COUNTRIES always included** - hardcoded "United Kingdom"
+3. **COUNTRIES always included** - hardcoded "United States"
 4. **Backward compatible** - accepts Kit.com format, outputs Brevo format
 5. **Production ready** - fully tested with real API calls
 

@@ -22,7 +22,7 @@ export const footerContent = {
     /** Disclaimer content */
     disclaimer: {
       label: "Legal Disclaimer:",
-      text: "TopFinance strives to maintain accurate and up-to-date information. This information may differ from what you see when visiting the website of a financial institution, service provider or specific product. All financial products, commercial products and services are presented without warranty. When evaluating offers, please review the Terms and Conditions of the financial institution. Pre-qualified offers are not binding.",
+      text: "KardTrust strives to maintain accurate and up-to-date information. This information may differ from what you see when visiting the website of a financial institution, service provider or specific product. All financial products, commercial products and services are presented without warranty. When evaluating offers, please review the Terms and Conditions of the financial institution. Pre-qualified offers are not binding.",
     },
 
     /** Copyright notice */

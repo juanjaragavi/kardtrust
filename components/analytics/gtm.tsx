@@ -18,7 +18,7 @@ export default function GoogleTagManager({ id = GTM_ID }: { id?: string }) {
       if (typeof window !== "undefined" && window.dataLayer) {
         window.dataLayer.push({
           event: "gtm_loaded",
-          site_section: "uk_topfinanzas",
+          site_section: "uk_kardtrust",
           page_type: "general",
         });
         console.debug("GTM: Enhanced configuration loaded");

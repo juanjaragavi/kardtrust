@@ -4,16 +4,16 @@ This file provides guidance to WARP (warp.dev) when working with code in this re
 
 ## Project Overview
 
-UK TopFinanzas is a Next.js 14+ financial services comparison website for the UK market, built with TypeScript and Tailwind CSS. The site specializes in credit card and personal loan comparison tools with sophisticated multi-step forms and comprehensive analytics tracking.
+KardTrust is a Next.js 15+ financial services comparison website for the United States market, built with TypeScript and Tailwind CSS. The site specializes in credit card and personal loan comparison tools with sophisticated multi-step forms and comprehensive analytics tracking.
 
 ## Common Development Commands
 
 ### Development & Build
 
 ```bash
-npm run dev      # Start development server on port 3004 with Turbo
+npm run dev      # Start development server on port 3005 with Turbo
 npm run build    # Production build
-npm run start    # Start production server on port 3004
+npm run start    # Start production server on port 3005
 npm run lint     # Run ESLint
 ```
 
@@ -51,7 +51,7 @@ bash ./scripts/cookie-validation-control.sh {config|disable|enable|test|deploy}
 
 ### Core Technologies
 
-- **Framework**: Next.js 14+ with App Router
+- **Framework**: Next.js 15+ with App Router
 - **Language**: TypeScript with strict mode
 - **Styling**: Tailwind CSS with mobile-first approach
 - **UI Components**: Shadcn/UI + Radix UI primitives
@@ -127,23 +127,23 @@ NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION    # days (default: 1)
 
 **Production Note**: Environment files on server stored at `/opt/app/` with restricted permissions.
 
-## UK Market Specific Requirements
+## US Market Specific Requirements
 
 ### Compliance & Localization
 
-- **Currency**: Always GBP (£) formatting with proper thousand separators
-- **Date Format**: DD/MM/YYYY (UK standard)
-- **Language**: en-GB localization
-- **Regulatory**: FCA compliance for financial products
+- **Currency**: Always USD ($) formatting with proper thousand separators
+- **Date Format**: MM/DD/YYYY (United States standard)
+- **Language**: en-US localization
+- **Regulatory**: Federal and state compliance for financial products
 - **APR Display**: "24.9% APR (variable)" format
-- **Required Terms**: "representative example" where regulations require
+- **Required Terms**: Truth in Lending Act (TILA) disclosure requirements
 
 ### Content Guidelines
 
 - Include regulatory disclaimers for financial products
-- Use UK-specific financial terminology
-- Comply with FCA advertising standards
-- Proper UK address and phone number formats
+- Use US-specific financial terminology
+- Comply with federal and state advertising standards
+- Proper United States address and phone number formats
 
 ## Development Patterns
 
@@ -193,8 +193,8 @@ const { activateAds } = useAdZep();
 
 ### Critical Performance Settings
 
-- Port 3004 for both development and production
-- PM2 process manager for production (`uk-topfinanzas-com` process name)
+- Port 3005 for both development and production
+- PM2 process manager for production (`kardtrust` process name)
 - Webpack build workers and parallel compilation enabled
 - CSS optimization and package import optimization
 
@@ -218,7 +218,7 @@ const { activateAds } = useAdZep();
 
 ## Common Issues & Solutions
 
-1. **Port 3004 in use**: Kill existing process or use different port
+1. **Port 3005 in use**: Kill existing process or use different port
 2. **Git merge conflicts**: Script automatically resolves by keeping current changes
 3. **AdZep not loading**: Check script order in layout.tsx (GTM must load first)
 4. **Form submission failing**: Verify Google Sheets API credentials
@@ -231,7 +231,7 @@ const { activateAds } = useAdZep();
 3. Verify environment variables in `.env.production`
 4. On server: `sudo bash ./scripts/deploy_update.sh`
 5. PM2 will automatically restart the application
-6. Monitor logs: `pm2 logs uk-topfinanzas-com`
+6. Monitor logs: `pm2 logs kardtrust`
 
 ## Additional Resources
 

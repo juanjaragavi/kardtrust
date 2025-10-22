@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Funding Options Process & Eligibility: SME Finance Guide - Top Finance UK",
+      "Funding Options Process & Eligibility: SME Finance Guide - KardTrust",
     description:
-      "Learn how the Funding Options marketplace works, the general eligibility for UK SMEs, and the information needed to find business finance.",
+      "Learn how the Funding Options marketplace works, the general eligibility for US SMEs, and the information needed to find business finance.",
     keywords:
-      "Funding Options process, SME finance eligibility, business loan marketplace requirements, UK business funding criteria, alternative finance application",
+      "Funding Options process, SME finance eligibility, business loan marketplace requirements, US business funding criteria, alternative finance application",
   };
 }
 
@@ -30,7 +30,7 @@ export default function FundingOptionsPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -38,7 +38,7 @@ export default function FundingOptionsPersonalLoanRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                Funding Options connects UK SMEs with numerous lenders.
+                Funding Options connects US SMEs with numerous lenders.
                 Understanding their process and general eligibility helps
                 businesses navigate the platform effectively.
               </p>
@@ -76,7 +76,7 @@ export default function FundingOptionsPersonalLoanRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK-Based Business:</span>{" "}
                       Your business must be registered and operating primarily
-                      within the United Kingdom.
+                      within the United States.
                     </div>
                   </div>
 
@@ -130,7 +130,7 @@ export default function FundingOptionsPersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

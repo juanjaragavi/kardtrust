@@ -42,7 +42,7 @@ export default function BlogArchivePage() {
     // Personal Finance Posts
     {
       title:
-        "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | Top Finance UK",
+        "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | KardTrust",
       slug: "inflation-proof-your-life",
       description:
         "Discover seven practical strategies to protect your purchasing power during high inflation. Learn how to cut invisible spending leaks, lock in fixed rates, build emergency buffers, and keep your personal finance on track when costs are rising.",
@@ -53,18 +53,16 @@ export default function BlogArchivePage() {
       date: "15 October 2025",
     },
     {
-      title:
-        "Best Personal Loans in the UK: Your Complete Guide | Top Finance UK",
+      title: "Best Personal Loans in the US: Your Complete Guide | KardTrust",
       slug: "best-personal-loans",
-      description: "Comprehensive guide to the UK's top personal loans...",
+      description: "Comprehensive guide to the US's top personal loans...",
       image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "30 March 2025",
     },
     {
-      title:
-        "Top Rewards Credit Cards to Maximize Your Spending | Top Finance UK",
+      title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
       slug: "best-rewards-credit-cards",
       description: "Discover the best rewards credit cards...",
       image:
@@ -75,7 +73,7 @@ export default function BlogArchivePage() {
     },
     {
       title:
-        "Best Cashback Credit Cards for Maximizing Your Rewards | Top Finance UK",
+        "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
       slug: "cashback-credit-cards",
       description: "Discover the top cashback credit cards!...",
       image: "https://media.topfinanzas.com/images/uk/download-8-1.webp", // Placeholder
@@ -85,7 +83,7 @@ export default function BlogArchivePage() {
     },
     {
       title:
-        "Credit Cards - Types, Benefits, and Keys to Financial Health | Top Finance UK",
+        "Credit Cards - Types, Benefits, and Keys to Financial Health | KardTrust",
       slug: "credit-card-types-benefits",
       description: "Discover everything you need to know about credit cards...",
       image:
@@ -95,7 +93,7 @@ export default function BlogArchivePage() {
       date: "3 April 2025",
     },
     {
-      title: "Practical Guide to Getting Out of Debt | Top Finance UK",
+      title: "Practical Guide to Getting Out of Debt | KardTrust",
       slug: "getting-out-of-debt",
       description: "Feeling overwhelmed by debt? Get practical strategies...",
       image:
@@ -105,7 +103,7 @@ export default function BlogArchivePage() {
       date: "3 April 2025",
     },
     {
-      title: "Top Credit Cards With No Annual Fees | Top Finance UK",
+      title: "Top Credit Cards With No Annual Fees | KardTrust",
       slug: "no-annual-fee-credit-cards",
       description: "Find the best no annual fee credit cards...",
       image:
@@ -115,7 +113,7 @@ export default function BlogArchivePage() {
       date: "3 April 2025",
     },
     {
-      title: "Personal Loans - A Strategy for Managing Debt | Top Finance UK",
+      title: "Personal Loans - A Strategy for Managing Debt | KardTrust",
       slug: "personal-loans-debt-strategy",
       description:
         "Discover how personal loans can help you consolidate debt...",
@@ -127,7 +125,7 @@ export default function BlogArchivePage() {
     },
     {
       title:
-        "5 Essential Tips for Choosing an Online Loan: Quick Guide | Top Finance UK",
+        "5 Essential Tips for Choosing an Online Loan: Quick Guide | KardTrust",
       slug: "tips-for-choosing-an-online-loan",
       description: "Navigate the world of online loans with confidence...",
       image:
@@ -137,8 +135,7 @@ export default function BlogArchivePage() {
       date: "30 March 2025",
     },
     {
-      title:
-        "Best Credit Cards with 0% Intro APR Offers in the UK | Top Finance UK",
+      title: "Best Credit Cards with 0% Intro APR Offers in the US | KardTrust",
       slug: "top-credit-cards-0-intro-apr",
       description:
         "Compare the best credit cards offering 0% introductory APR...",
@@ -149,7 +146,7 @@ export default function BlogArchivePage() {
     },
     {
       title:
-        "Understanding Credit Card Interest Rates - A Consumer Guide | Top Finance UK",
+        "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",
       slug: "understanding-credit-card-interest-rates",
       description: "Learn how credit card interest rates work...",
       image: "https://media.topfinanzas.com/images/uk/download-5-2.webp", // Placeholder
@@ -162,7 +159,7 @@ export default function BlogArchivePage() {
         "Side Hustle or Second Job? How to Choose the Right Income Booster",
       slug: "side-hustle-or-second-job",
       description:
-        "With rising living costs across the UK, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
+        "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
       image: "https://media.topfinanzas.com/images/side-hustle-second-job.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
@@ -170,7 +167,7 @@ export default function BlogArchivePage() {
     },
     {
       title:
-        "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | Top Finance UK",
+        "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
       slug: "creating-a-budget-youll-actually-stick-to",
       description:
         "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start.",
@@ -342,10 +339,10 @@ export default function BlogArchivePage() {
 
   const content = (
     <div>
-      <h1 className="text-4xl font-bold mb-6">TopFinance UK Blog</h1>
+      <h1 className="text-4xl font-bold mb-6">KardTrust Blog</h1>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
         Your source for insights on personal finance and financial solutions in
-        the UK.
+        the US.
       </p>
 
       {/* Category Highlights */}
@@ -371,7 +368,7 @@ export default function BlogArchivePage() {
           </h2>
           <p className="text-green-700">
             Discover detailed reviews and comparisons of credit cards and loans
-            available in the UK.
+            available in the US.
           </p>
         </Link>
       </div>

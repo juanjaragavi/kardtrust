@@ -25,7 +25,7 @@ const testData = {
   attributes: {
     FIRSTNAME: "Juan",
     LASTNAME: "Miguel",
-    COUNTRIES: "United Kingdom",
+    COUNTRIES: "United States",
     INCOME: "£2,000 - £3,000",
     CARD_PREFERENCE: "Cashback",
     PAIS: "Reino Unido",
@@ -37,7 +37,7 @@ const testData = {
     UTM_MEDIUM: "unique_email_test",
     UTM_CAMPAIGN: "brevo_migration_verification",
   },
-  ext_id: `topfinanzas-uk-${timestamp}`,
+  ext_id: `kardtrust-${timestamp}`,
   updateEnabled: false,
   listIds: [9],
 };
@@ -78,10 +78,10 @@ async function testBrevoWithUniqueEmail() {
       console.log("\n✅ SUCCESS: New contact created in Brevo!");
       console.log(`\n🔑 External ID: ${testData.ext_id}`);
       console.log(`📧 Email: ${testData.email}`);
-      console.log("📋 List ID: 9 (UK TopFinanzas)");
+      console.log("📋 List ID: 9 (KardTrust)");
       console.log("\n🎉 All required fields have been verified:");
       console.log(`   ✓ COUNTRIES: ${testData.attributes.COUNTRIES}`);
-      console.log(`   ✓ ext_id format: topfinanzas-uk-{timestamp}`);
+      console.log(`   ✓ ext_id format: kardtrust-{timestamp}`);
       console.log(`   ✓ Timestamp: ${timestamp}`);
       console.log(
         "\n🔍 Verify in Brevo Dashboard: https://app.brevo.com/contact/list/9",

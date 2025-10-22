@@ -1,14 +1,14 @@
-# Next.js Project Configuration Rules for TopFinance UK
+# Next.js Project Configuration Rules for KardTrust
 
 ## Project Overview
 
-This Next.js project (uk-topfinanzas-com) is a UK-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the UK market.
+This Next.js project (kardtrust) is a United States-focused financial comparison website built with modern web technologies. The project specializes in credit cards, personal loans, and financial guidance tailored for the United States market.
 
 ## System Architecture
 
 ### Core Technologies
 
-- **Framework**: Next.js 14+ with App Router
+- **Framework**: Next.js 15+ with App Router
 - **Language**: TypeScript with strict configuration
 - **Styling**: Tailwind CSS with custom theme
 - **UI Components**: Shadcn/UI with Radix UI primitives
@@ -139,36 +139,36 @@ import { CustomComponent } from "./custom-component";
 - **API Routes**: Appropriate cache headers
 - **Dynamic Content**: Strategic ISR usage
 
-## UK Market Specifics
+## US Market Specifics
 
 ### 1. Localization
 
-- **Language**: UK English (en-GB)
-- **Currency**: GBP (£) formatting
-- **Date Format**: DD/MM/YYYY
-- **Address Format**: UK postcode system
+- **Language**: United States English (en-US)
+- **Currency**: USD ($) formatting
+- **Date Format**: MM/DD/YYYY
+- **Address Format**: United States ZIP code system
 
 ### 2. Financial Compliance
 
-- **APR Display**: UK regulatory format
-- **Representative Examples**: FCA requirements
-- **Terms & Conditions**: UK legal compliance
-- **Data Protection**: GDPR compliance
+- **APR Display**: United States regulatory format
+- **Representative Examples**: Truth in Lending Act (TILA) requirements
+- **Terms & Conditions**: United States legal compliance
+- **Data Protection**: Federal and state data protection compliance
 
 ### 3. Content Guidelines
 
-- **Financial Terms**: UK-specific terminology
-- **Regulatory Info**: FCA disclaimers
-- **Contact Details**: UK phone numbers
-- **Business Hours**: UK timezone (GMT/BST)
+- **Financial Terms**: United States-specific terminology
+- **Regulatory Info**: Federal and state disclaimers
+- **Contact Details**: United States phone numbers
+- **Business Hours**: United States timezone (EST/PST)
 
 ## Analytics Integration
 
 ### 1. Google Tag Manager
 
-- **Container ID**: UK-specific GTM container
-- **Event Tracking**: UK user interactions
-- **Conversion Tracking**: UK-specific goals
+- **Container ID**: United States-specific GTM container
+- **Event Tracking**: United States user interactions
+- **Conversion Tracking**: United States-specific goals
 
 ### 2. AdZep Integration
 
@@ -287,7 +287,7 @@ import { CustomComponent } from "./custom-component";
 
 - **Core Web Vitals**: Continuous monitoring
 - **Error Tracking**: Production error monitoring
-- **User Analytics**: UK user behavior tracking
+- **User Analytics**: United States user behavior tracking
 - **Conversion Tracking**: Financial product conversions
 
 ### 2. Maintenance Tasks
@@ -295,7 +295,7 @@ import { CustomComponent } from "./custom-component";
 - **Dependency Updates**: Regular updates
 - **Security Patches**: Timely security updates
 - **Performance Audits**: Regular performance reviews
-- **Content Updates**: UK market updates
+- **Content Updates**: United States market updates
 
 ## Best Practices Summary
 
@@ -320,14 +320,14 @@ import { CustomComponent } from "./custom-component";
 - Fast loading times
 - Intuitive navigation
 
-### 4. UK Market Focus
+### 4. US Market Focus
 
-- Use UK-specific terminology
-- Comply with UK regulations
-- Target UK user behavior
-- Optimize for UK search engines
+- Use United States-specific terminology
+- Comply with United States regulations
+- Target United States user behavior
+- Optimize for United States search engines
 
-This configuration ensures the Next.js project maintains high code quality, performance, and compliance with UK market requirements while providing an excellent user experience for UK financial service seekers.
+This configuration ensures the Next.js project maintains high code quality, performance, and compliance with United States market requirements while providing an excellent user experience for United States financial service seekers.
 
 ## Push and Commit Guidelines
 
@@ -345,7 +345,7 @@ This procedure is initiated when the user issues the prompt "Push and commit our
 
    ```json
    {
-     "repo_path": "/Users/macbookpro/GitHub/uk-topfinanzas-com"
+     "repo_path": "/Users/macbookpro/GitHub/kardtrust"
    }
    ```
 

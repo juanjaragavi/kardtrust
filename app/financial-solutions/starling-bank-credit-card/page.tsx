@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Starling Bank Credit Card: Digital Banking Excellence - Top Finance UK",
+    title: "Starling Bank Credit Card: Digital Banking Excellence - KardTrust",
     description:
       "The Starling Bank Credit Card offers innovative digital features, transparent pricing, and exceptional customer service designed for modern, tech-savvy consumers.",
     keywords:
-      "Starling Bank Credit Card, UK credit cards, digital banking, neobank, app-based banking, no foreign transaction fees, transparent fees, ethical banking",
+      "Starling Bank Credit Card, US credit cards, digital banking, neobank, app-based banking, no foreign transaction fees, transparent fees, ethical banking",
   };
 }
 
@@ -37,7 +36,7 @@ export default function StarlingBankCreditCardPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -127,7 +126,7 @@ export default function StarlingBankCreditCardPage() {
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   The Starling Bank Credit Card is a natural extension of the
                   award-winning digital bank's approach to financial services.
-                  As one of the UK's most respected neobanks, Starling has built
+                  As one of the US's most respected neobanks, Starling has built
                   its reputation on challenging traditional banking models with
                   transparent, customer-focused alternatives. The Starling
                   Credit Card carries forward this mission, offering a credit

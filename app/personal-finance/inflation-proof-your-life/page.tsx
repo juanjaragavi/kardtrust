@@ -19,9 +19,9 @@ export default function InflationProofYourLifePage() {
               Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices
               Are High
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -41,7 +41,7 @@ export default function InflationProofYourLifePage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/inflation-proof-your-life-7-smart-money-moves.webp"
-                  alt="Smart money strategies to combat inflation in the UK"
+                  alt="Smart money strategies to combat inflation in the US"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
@@ -60,7 +60,7 @@ export default function InflationProofYourLifePage() {
                   Inflation is the gradual rise in prices over time, which means
                   each pound buys a little less. When inflation is high,
                   everyday costs — energy, food, transport — climb faster than
-                  usual, squeezing household budgets. For UK households, this
+                  usual, squeezing household budgets. For US households, this
                   often shows up as rising grocery bills, pricier petrol, and
                   higher mortgage or rent costs. The key to staying afloat is
                   adjusting your spending, protecting your income, and finding
@@ -353,9 +353,9 @@ export default function InflationProofYourLifePage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

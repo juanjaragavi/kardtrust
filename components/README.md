@@ -1,6 +1,6 @@
 # Components Directory
 
-This directory contains React components for the TopFinance UK website. The components are organized by function and purpose.
+This directory contains React components for the KardTrust website. The components are organized by function and purpose.
 
 ## Directory Structure
 

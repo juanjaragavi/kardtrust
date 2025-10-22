@@ -7,11 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Funding Xchange: SME Finance Comparison Platform - Top Finance UK",
+    title: "Funding Xchange: SME Finance Comparison Platform - KardTrust",
     description:
-      "Explore Funding Xchange, a smart platform helping UK SMEs compare and access a wide range of business finance options from multiple lenders.",
+      "Explore Funding Xchange, a smart platform helping US SMEs compare and access a wide range of business finance options from multiple lenders.",
     keywords:
-      "Funding Xchange, SME finance comparison, business loan marketplace, UK business funding, alternative finance platform, asset finance, invoice finance",
+      "Funding Xchange, SME finance comparison, business loan marketplace, US business funding, alternative finance platform, asset finance, invoice finance",
   };
 }
 
@@ -31,13 +31,13 @@ export default function FundingXchangePersonalLoanPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                Funding Xchange provides an intelligent platform for UK SMEs to
+                Funding Xchange provides an intelligent platform for US SMEs to
                 compare and access tailored business finance solutions from a
                 diverse panel of lenders, simplifying the funding search.
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -128,7 +128,7 @@ export default function FundingXchangePersonalLoanPage() {
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
                   Funding Xchange operates as an intelligent comparison platform
-                  and marketplace for business finance in the UK. Rather than
+                  and marketplace for business finance in the US. Rather than
                   lending directly, it connects SMEs with a wide array of
                   funding providers, using technology to match business needs
                   with the most suitable finance options available from its
@@ -140,7 +140,7 @@ export default function FundingXchangePersonalLoanPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The UK business finance market is diverse and can be complex
+                  The US business finance market is diverse and can be complex
                   to navigate. Funding Xchange aims to simplify this by
                   providing a single platform where SMEs can outline their
                   funding requirements and receive matched, comparable
@@ -154,7 +154,7 @@ export default function FundingXchangePersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -348,7 +348,7 @@ export default function FundingXchangePersonalLoanPage() {
                 </p>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  For UK SMEs seeking to efficiently explore and compare diverse
+                  For US SMEs seeking to efficiently explore and compare diverse
                   business finance options, Funding Xchange offers a valuable,
                   data-led platform.
                 </p>

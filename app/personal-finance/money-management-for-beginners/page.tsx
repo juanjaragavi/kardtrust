@@ -18,9 +18,9 @@ export default function MoneyManagementBeginnersPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Money Management for Beginners: Where Do I Even Start?
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -39,7 +39,7 @@ export default function MoneyManagementBeginnersPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/uk/money-management-for-beginners.webp"
-                  alt="Getting started with personal finance and money management in the UK"
+                  alt="Getting started with personal finance and money management in the US"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
@@ -82,7 +82,7 @@ export default function MoneyManagementBeginnersPage() {
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
-                  Why it matters in the UK right now
+                  Why it matters in the US right now
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   With everyday costs and interest rates affecting monthly
@@ -165,7 +165,7 @@ export default function MoneyManagementBeginnersPage() {
                       href="/personal-finance/best-personal-loans"
                       className="text-blue-600 hover:underline"
                     >
-                      the best personal loans in the UK
+                      the best personal loans in the US
                     </Link>{" "}
                     is a useful starting point.
                   </li>
@@ -233,7 +233,7 @@ export default function MoneyManagementBeginnersPage() {
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
-                  A realistic UK example
+                  A realistic US example
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Imagine you bring home £2,200 a month. Essentials (rent,
@@ -254,9 +254,9 @@ export default function MoneyManagementBeginnersPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -292,7 +292,7 @@ export default function MoneyManagementBeginnersPage() {
                       href="/personal-finance/best-personal-loans"
                       className="text-blue-600 hover:underline"
                     >
-                      UK personal loans
+                      US personal loans
                     </Link>{" "}
                     by rates, fees, and terms.
                   </li>

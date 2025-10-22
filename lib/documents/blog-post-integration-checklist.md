@@ -16,7 +16,7 @@
 
 ### ✅ Technical Implementation
 
-- [x] Next.js 14 App Router structure
+- [x] Next.js 15 App Router structure
 - [x] TypeScript types correct
 - [x] Responsive design
 - [x] Image optimization (Next.js Image)
@@ -52,7 +52,7 @@
 
 ### 🇬🇧 UK Market Compliance
 
-- [x] British English (en-GB)
+- [x] British English (en-US)
 - [x] GBP currency (£) formatting
 - [x] UK-specific terms (council tax, direct debits, etc.)
 - [x] UK household budget examples

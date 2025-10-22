@@ -90,7 +90,7 @@ body {
 
   /* Link Typography */
   .text-link {
-    @apply text-[#222442] hover:underline;
+    @apply text-blue-900 hover:text-primary hover:underline;
   }
 
   /* Caption/Meta Typography */
@@ -150,7 +150,7 @@ body {
   }
 
   .footer-link {
-    @apply text-white hover:text-[#55B9FF] hover:underline;
+    @apply text-white hover:text-blue-300 hover:underline;
   }
 
   /* Default background for text overlay sections */
@@ -173,7 +173,7 @@ body {
   }
 
   .btn-primary {
-    @apply bg-green-400 hover:bg-green-500 text-white font-medium py-3 px-8 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
+    @apply bg-primary hover:bg-primary-dark text-white font-medium py-3 px-8 rounded-full transition-colors duration-200 inline-flex items-center justify-center;
   }
 
   .btn-secondary {
@@ -213,7 +213,7 @@ body {
   }
 
   .cta-button-blue {
-    @apply cta-button-base bg-blue-600 text-white;
+    @apply cta-button-base bg-secondary text-white;
   }
 
   /* Only apply hover effects (including transforms) on devices with true hover capability */
@@ -225,7 +225,7 @@ body {
     }
 
     .cta-button-blue:hover {
-      @apply bg-blue-700 shadow-lg;
+      @apply bg-secondary-dark shadow-lg;
       transform: translateY(-2px);
     }
   }
@@ -237,7 +237,7 @@ body {
     }
 
     .cta-button-blue:active {
-      @apply bg-blue-700;
+      @apply bg-secondary-dark;
     }
   }
 }

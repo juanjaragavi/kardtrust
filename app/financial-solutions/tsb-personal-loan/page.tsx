@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "TSB Personal Loan: Simple and Straightforward Financing - Top Finance UK",
+      "TSB Personal Loan: Simple and Straightforward Financing - KardTrust",
     description:
       "Explore TSB Personal Loans with competitive rates, flexible repayment options, and a focus on clear, simple banking solutions.",
     keywords:
-      "TSB Personal Loan, UK loans, personal finance, debt consolidation, home improvement loan, flexible repayment, TSB banking, loan application",
+      "TSB Personal Loan, US loans, personal finance, debt consolidation, home improvement loan, flexible repayment, TSB banking, loan application",
   };
 }
 
@@ -137,7 +137,7 @@ export default function TSBPersonalLoanPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

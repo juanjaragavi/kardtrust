@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Halifax World Elite Mastercard Requirements: Application Guide - Top Finance UK",
+      "Halifax World Elite Mastercard Requirements: Application Guide - KardTrust",
     description:
       "Learn about the eligibility criteria, documentation, and application process for the Halifax World Elite Mastercard to successfully obtain this premium banking product.",
     keywords:
-      "Halifax World Elite Mastercard requirements, UK credit card application, Halifax premium card, credit score requirements, UK banking, premium card eligibility",
+      "Halifax World Elite Mastercard requirements, US credit card application, Halifax premium card, credit score requirements, US banking, premium card eligibility",
   };
 }
 
@@ -32,7 +32,7 @@ export default function HalifaxWorldEliteMastercardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -71,7 +71,7 @@ export default function HalifaxWorldEliteMastercardRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a UK resident. As
+                      You must be at least 18 years old and a US resident. As
                       with all financial products, these fundamental
                       requirements ensure you have the legal capacity to enter
                       into credit agreements and that the bank can operate
@@ -167,7 +167,7 @@ export default function HalifaxWorldEliteMastercardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

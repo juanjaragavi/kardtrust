@@ -21,7 +21,7 @@ const Preloader: React.FC<PreloaderProps> = ({
   showLogo = true,
   showProgress = true,
   backgroundColor = "#ffffff",
-  primaryColor = "#1e40af", // TopFinanzas blue
+  primaryColor = "#1e40af", // KardTrust blue
   secondaryColor = "#3b82f6",
 }) => {
   const [progress, setProgress] = useState(0);
@@ -134,7 +134,7 @@ const Preloader: React.FC<PreloaderProps> = ({
                   >
                     <Image
                       src="https://media.topfinanzas.com/images/favicon.png"
-                      alt="TopFinance UK Logo"
+                      alt="KardTrust Logo"
                       width={128}
                       height={128}
                       priority
@@ -156,7 +156,7 @@ const Preloader: React.FC<PreloaderProps> = ({
                 className="text-2xl font-semibold"
                 style={{ color: primaryColor }}
               >
-                Loading TopFinance UK
+                Loading KardTrust
               </h2>
               <p className="text-gray-600 text-center mt-2">
                 Your trusted financial advisor

@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Halifax World Elite Mastercard: Premier Banking Benefits - Top Finance UK",
+      "Halifax World Elite Mastercard: Premier Banking Benefits - KardTrust",
     description:
       "The Halifax World Elite Mastercard offers exceptional travel perks, premium concierge services, and exclusive lifestyle benefits to elevate your financial experience.",
     keywords:
-      "Halifax World Elite Mastercard, premium credit card, UK banking, travel perks, concierge services, cashback, airport lounge access, Halifax credit card",
+      "Halifax World Elite Mastercard, premium credit card, US banking, travel perks, concierge services, cashback, airport lounge access, Halifax credit card",
   };
 }
 
@@ -40,7 +40,7 @@ export default function HalifaxWorldEliteMastercardPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -147,7 +147,7 @@ export default function HalifaxWorldEliteMastercardPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

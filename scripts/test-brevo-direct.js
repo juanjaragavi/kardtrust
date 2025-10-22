@@ -23,7 +23,7 @@ const testData = {
   attributes: {
     FIRSTNAME: "Juan",
     LASTNAME: "Miguel",
-    COUNTRIES: "United Kingdom",
+    COUNTRIES: "United States",
     INCOME: "£2,000 - £3,000",
     CARD_PREFERENCE: "Cashback",
     PAIS: "Reino Unido",
@@ -35,7 +35,7 @@ const testData = {
     UTM_MEDIUM: "direct_api_test",
     UTM_CAMPAIGN: "brevo_migration",
   },
-  ext_id: `topfinanzas-uk-${Math.floor(Date.now() / 1000)}`,
+  ext_id: `kardtrust-${Math.floor(Date.now() / 1000)}`,
   updateEnabled: false,
   listIds: [9],
 };
@@ -73,7 +73,7 @@ async function testBrevoDirectAPI() {
     if (response.ok) {
       console.log("\n✅ SUCCESS: Contact created in Brevo!");
       console.log(`\n🔑 External ID: ${testData.ext_id}`);
-      console.log("📋 List ID: 9 (UK TopFinanzas)");
+      console.log("📋 List ID: 9 (KardTrust)");
       console.log(
         "\n🔍 Verify in Brevo Dashboard:",
         "https://app.brevo.com/contact/list/9\n",

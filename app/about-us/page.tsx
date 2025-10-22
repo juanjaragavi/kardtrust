@@ -22,10 +22,10 @@ export default function AboutUs() {
   // FAQ data structure
   const faqs = [
     {
-      question: "What services does Top Finanzas offer?",
+      question: "What services does KardTrust offer?",
       answer: (
         <p>
-          Top Finanzas offers financial advice, practical tools, and educational
+          KardTrust offers financial advice, practical tools, and educational
           resources. For more details,
           <Link href="/" className="text-blue-600 hover:underline ml-1">
             visit our homepage
@@ -48,7 +48,7 @@ export default function AboutUs() {
       ),
     },
     {
-      question: "Does Top Finanzas offer personalised advice?",
+      question: "Does KardTrust offer personalised advice?",
       answer: (
         <p>
           Yes, we offer personalised services tailored to your needs and
@@ -73,7 +73,7 @@ export default function AboutUs() {
       ),
     },
     {
-      question: "How can I contact Top Finanzas?",
+      question: "How can I contact KardTrust?",
       answer: (
         <p>
           You can contact us through our online form, email, or phone by
@@ -89,7 +89,7 @@ export default function AboutUs() {
     },
     {
       question:
-        "What resources does Top Finanzas offer to learn about investments?",
+        "What resources does KardTrust offer to learn about investments?",
       answer: (
         <p>
           We offer articles, tutorials, and webinars on investments. Learn more
@@ -124,7 +124,7 @@ export default function AboutUs() {
       ),
     },
     {
-      question: "Does Top Finanzas offer free financial tools?",
+      question: "Does KardTrust offer free financial tools?",
       answer: <p>Yes, we offer calculators and other tools on our website.</p>,
     },
     {
@@ -141,7 +141,7 @@ export default function AboutUs() {
       ),
     },
     {
-      question: "Does Top Finanzas have a mobile app?",
+      question: "Does KardTrust have a mobile app?",
       answer: (
         <p>
           We are currently developing an app to enhance the user experience.
@@ -158,7 +158,7 @@ export default function AboutUs() {
     },
     {
       question:
-        "Does Top Finanzas offer advice on retirement and long-term planning?",
+        "Does KardTrust offer advice on retirement and long-term planning?",
       answer: (
         <p>
           Yes, we provide information and resources for your retirement and
@@ -173,21 +173,21 @@ export default function AboutUs() {
   const testimonials = [
     {
       quote:
-        "Investing always seemed like something from another world to me, but with Top Finanzas everything changed. I started little by little and now I watch my money grow. I'm even thinking about my retirement! It's incredible how accessible investing is for everyone! Thank you for making it so easy to understand.",
+        "Investing always seemed like something from another world to me, but with KardTrust everything changed. I started little by little and now I watch my money grow. I'm even thinking about my retirement! It's incredible how accessible investing is for everyone! Thank you for making it so easy to understand.",
       name: "James Davies",
       location: "Manchester",
       initials: "JD",
     },
     {
       quote:
-        "Looking for a loan had me lost among so many options. But with Top Finanzas' help, I not only found one that suited me, but I also learned to manage the terms and my payments. Now I feel super confident with my finances. It was a real game-changer in my financial education!",
+        "Looking for a loan had me lost among so many options. But with KardTrust' help, I not only found one that suited me, but I also learned to manage the terms and my payments. Now I feel super confident with my finances. It was a real game-changer in my financial education!",
       name: "Sarah Wilson",
       location: "London",
       initials: "SW",
     },
     {
       quote:
-        "Before, managing my credit cards was a real headache. But wow! I learned with Top Finanzas how to make the most of them. Now I manage my expenses intelligently, and my credit score has even improved. They really opened my eyes to the fact that credit cards are allies in my financial goals. Thank you so much!",
+        "Before, managing my credit cards was a real headache. But wow! I learned with KardTrust how to make the most of them. Now I manage my expenses intelligently, and my credit score has even improved. They really opened my eyes to the fact that credit cards are allies in my financial goals. Thank you so much!",
       name: "Robert Mitchell",
       location: "Edinburgh",
       initials: "RM",
@@ -209,13 +209,13 @@ export default function AboutUs() {
       <main className="bg-white min-h-screen flex flex-col px-4 sm:px-6">
         <div className="container mx-auto px-4 py-12 max-w-7xl bg-white">
           <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold mb-8">
-            Top Finanzas: Your guide to the world of personal finance
+            KardTrust: Your guide to the world of personal finance
           </h1>
 
           <div className="mb-12">
             <Image
               src="https://media.topfinanzas.com/images/uk/about-us-uk.webp"
-              alt="Top Finanzas UK Team"
+              alt="KardTrust Team"
               width={1200}
               height={600}
               className="w-full rounded-xl object-cover shadow-md"
@@ -224,8 +224,8 @@ export default function AboutUs() {
           </div>
           <section className="mb-12">
             <p className="text-lg mb-6">
-              At Top Finanzas, we firmly believe that good financial management
-              is the key to a more fulfilling and peaceful life.
+              At KardTrust, we firmly believe that good financial management is
+              the key to a more fulfilling and peaceful life.
             </p>
 
             <p className="mb-6">
@@ -312,7 +312,7 @@ export default function AboutUs() {
             </h2>
 
             <p className="mb-6">
-              At Top Finanzas, we understand that every step in your financial
+              At KardTrust, we understand that every step in your financial
               journey is important. Whether you're beginning to organise your
               personal finances or exploring advanced investment strategies, our
               content is meticulously designed to provide you with the
@@ -337,7 +337,7 @@ export default function AboutUs() {
                   >
                     <h3 className="font-semibold text-lg text-left flex items-center">
                       <span
-                        className={`text-green-500 mr-2 transition-transform duration-300 ${
+                        className={`text-primary mr-2 transition-transform duration-300 ${
                           openFAQs[index] ? "rotate-90" : ""
                         }`}
                       >
@@ -390,7 +390,7 @@ export default function AboutUs() {
                 >
                   <p className="italic mb-6 text-lg">"{testimonial.quote}"</p>
                   <div className="flex items-center">
-                    <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mr-4 overflow-hidden">
+                    <div className="w-14 h-14 bg-red-50 rounded-full flex items-center justify-center mr-4 overflow-hidden">
                       {/* Dynamic image/fallback for testimonial authors */}
                       <Image
                         src={
@@ -408,13 +408,13 @@ export default function AboutUs() {
                           // If image fails to load, show initials as fallback
                           e.currentTarget.style.display = "none";
                           if (e.currentTarget.parentElement) {
-                            e.currentTarget.parentElement.innerHTML = `<span class="text-green-600 font-bold">${testimonial.initials}</span>`;
+                            e.currentTarget.parentElement.innerHTML = `<span class="text-primary-dark font-bold">${testimonial.initials}</span>`;
                           }
                         }}
                       />
                     </div>
                     <div>
-                      <p className="font-semibold text-green-600">
+                      <p className="font-semibold text-primary-dark">
                         {testimonial.name}
                       </p>
                       <p className="text-sm">{testimonial.location}</p>
@@ -431,7 +431,7 @@ export default function AboutUs() {
                     onClick={() => setActiveTestimonial(index)}
                     className={`w-3 h-3 rounded-full ${
                       activeTestimonial === index
-                        ? "bg-green-500"
+                        ? "bg-primary-dark"
                         : "bg-gray-300"
                     } transition-colors duration-300`}
                     aria-label={`View testimonial ${index + 1}`}

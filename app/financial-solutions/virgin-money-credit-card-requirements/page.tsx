@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Virgin Money Credit Card Requirements: Application Guide - Top Finance UK",
+      "Virgin Money Credit Card Requirements: Application Guide - KardTrust",
     description:
       "Discover the eligibility criteria, documentation, and application process for the Virgin Money Credit Card to improve your chances of approval.",
     keywords:
-      "Virgin Money Credit Card requirements, UK credit card application, Virgin Money eligibility, credit score requirements, UK banking applications, Virgin Red",
+      "Virgin Money Credit Card requirements, US credit card application, Virgin Money eligibility, credit score requirements, US banking applications, Virgin Red",
   };
 }
 
@@ -29,7 +29,7 @@ export default function VirginMoneyCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -70,7 +70,7 @@ export default function VirginMoneyCreditCardRequirementsPage() {
                       <span className="font-semibold">Age and residency:</span>{" "}
                       You must be at least 18 years old and a permanent UK
                       resident. Virgin Money requires applicants to have been
-                      living in the UK for at least 3 years to establish
+                      living in the US for at least 3 years to establish
                       eligibility for their credit products.
                     </div>
                   </div>
@@ -121,7 +121,7 @@ export default function VirginMoneyCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -152,7 +152,7 @@ export default function VirginMoneyCreditCardRequirementsPage() {
                       <span className="font-semibold">Proof of Address:</span>{" "}
                       Recent utility bills, council tax statements, or bank
                       statements (typically no older than 3 months) to confirm
-                      your current UK residential address. Virgin Money may also
+                      your current US residential address. Virgin Money may also
                       verify your address electronically using the electoral
                       roll.
                     </div>

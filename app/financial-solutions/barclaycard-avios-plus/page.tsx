@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Barclaycard Avios Plus Credit Card: Premium Travel Rewards - Top Finance UK",
+      "Barclaycard Avios Plus Credit Card: Premium Travel Rewards - KardTrust",
     description:
       "The Barclaycard Avios Plus Credit Card offers premium travel perks and generous Avios points to enhance your travel experience and reward your everyday spending.",
     keywords:
-      "Barclaycard Avios Plus, travel credit card, Avios points, UK credit cards, premium credit card, travel perks, British Airways",
+      "Barclaycard Avios Plus, travel credit card, Avios points, US credit cards, premium credit card, travel perks, British Airways",
   };
 }
 
@@ -39,7 +39,7 @@ export default function BarclayCardAviosPlusPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -145,7 +145,7 @@ export default function BarclayCardAviosPlusPage() {
                 </p>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -268,7 +268,7 @@ export default function BarclayCardAviosPlusPage() {
                         Contactless Payments:
                       </span>{" "}
                       Quick and convenient contactless payment capability for
-                      purchases up to the current UK limit.
+                      purchases up to the current US limit.
                     </div>
                   </div>
 

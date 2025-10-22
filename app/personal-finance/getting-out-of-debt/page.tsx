@@ -18,9 +18,9 @@ export default function GettingOutOfDebtPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Practical Guide to Getting Out of Debt
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -597,7 +597,7 @@ export default function GettingOutOfDebtPage() {
                     Debtline offer free, impartial advice and can help you
                     explore options like Debt Management Plans (DMPs), Debt
                     Relief Orders (DROs), or Individual Voluntary Arrangements
-                    (IVAs), depending on your circumstances in the UK.
+                    (IVAs), depending on your circumstances in the US.
                   </li>
                   <li className="mb-2">
                     <strong>Financial advisors:</strong> While often focused on
@@ -742,9 +742,9 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

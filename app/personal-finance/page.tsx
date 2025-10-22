@@ -37,7 +37,7 @@ export default function PersonalFinanceArchivePage() {
   const allPosts: PostItem[] = [
     {
       title:
-        "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | Top Finance UK",
+        "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | KardTrust",
       slug: "inflation-proof-your-life",
       description:
         "Discover seven practical strategies to protect your purchasing power during high inflation. Learn how to cut invisible spending leaks, lock in fixed rates, build emergency buffers, and keep your personal finance on track when costs are rising.",
@@ -47,18 +47,16 @@ export default function PersonalFinanceArchivePage() {
       category: "guide",
     },
     {
-      title:
-        "Best Personal Loans in the UK: Your Complete Guide | Top Finance UK",
+      title: "Best Personal Loans in the US: Your Complete Guide | KardTrust",
       slug: "best-personal-loans",
       description:
-        "Comprehensive guide to the UK's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays.",
+        "Comprehensive guide to the US's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays.",
       image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
       date: "30 March 2025",
       category: "loans",
     },
     {
-      title:
-        "Top Rewards Credit Cards to Maximize Your Spending | Top Finance UK",
+      title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
       slug: "best-rewards-credit-cards",
       description:
         "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
@@ -69,7 +67,7 @@ export default function PersonalFinanceArchivePage() {
     },
     {
       title:
-        "Best Cashback Credit Cards for Maximizing Your Rewards | Top Finance UK",
+        "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
       slug: "cashback-credit-cards",
       description:
         "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
@@ -79,7 +77,7 @@ export default function PersonalFinanceArchivePage() {
     },
     {
       title:
-        "Credit Cards - Types, Benefits, and Keys to Financial Health | Top Finance UK",
+        "Credit Cards - Types, Benefits, and Keys to Financial Health | KardTrust",
       slug: "credit-card-types-benefits",
       description:
         "Discover everything you need to know about credit cards, from types and benefits to tips for responsible usage and maintaining healthy finances.",
@@ -89,7 +87,7 @@ export default function PersonalFinanceArchivePage() {
       category: "creditCards",
     },
     {
-      title: "Practical Guide to Getting Out of Debt | Top Finance UK",
+      title: "Practical Guide to Getting Out of Debt | KardTrust",
       slug: "getting-out-of-debt",
       description:
         "Feeling overwhelmed by debt? Get practical strategies for getting out of debt, building an emergency fund, and taking control of your finances.",
@@ -99,7 +97,7 @@ export default function PersonalFinanceArchivePage() {
       category: "debt",
     },
     {
-      title: "Top Credit Cards With No Annual Fees | Top Finance UK",
+      title: "Top Credit Cards With No Annual Fees | KardTrust",
       slug: "no-annual-fee-credit-cards",
       description:
         "Find the best no annual fee credit cards with great cashback, rewards, and flexible benefits. Perfect for managing expenses while saving on fees.",
@@ -109,7 +107,7 @@ export default function PersonalFinanceArchivePage() {
       category: "creditCards",
     },
     {
-      title: "Personal Loans - A Strategy for Managing Debt | Top Finance UK",
+      title: "Personal Loans - A Strategy for Managing Debt | KardTrust",
       slug: "personal-loans-debt-strategy",
       description:
         "Discover how personal loans can help you consolidate debt and manage your finances efficiently. Learn how to choose the right loan for your needs.",
@@ -120,7 +118,7 @@ export default function PersonalFinanceArchivePage() {
     },
     {
       title:
-        "5 Essential Tips for Choosing an Online Loan: Quick Guide | Top Finance UK",
+        "5 Essential Tips for Choosing an Online Loan: Quick Guide | KardTrust",
       slug: "tips-for-choosing-an-online-loan",
       description:
         "Navigate the world of online loans with confidence using these essential tips to find the best rates and terms for your financial needs.",
@@ -130,18 +128,17 @@ export default function PersonalFinanceArchivePage() {
       category: "loans",
     },
     {
-      title:
-        "Best Credit Cards with 0% Intro APR Offers in the UK | Top Finance UK",
+      title: "Best Credit Cards with 0% Intro APR Offers in the US | KardTrust",
       slug: "top-credit-cards-0-intro-apr",
       description:
-        "Compare the best credit cards offering 0% introductory APR on purchases and balance transfers in the UK. Save money on interest and manage debt effectively.",
+        "Compare the best credit cards offering 0% introductory APR on purchases and balance transfers in the US. Save money on interest and manage debt effectively.",
       image: "https://media.topfinanzas.com/images/uk/APR.webp",
       date: "3 April 2025",
       category: "creditCards",
     },
     {
       title:
-        "Understanding Credit Card Interest Rates - A Consumer Guide | Top Finance UK",
+        "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",
       slug: "understanding-credit-card-interest-rates",
       description:
         "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
@@ -151,7 +148,7 @@ export default function PersonalFinanceArchivePage() {
     },
     {
       title:
-        "What Is Financial Health? A Quick Guide to Checking Your Vitals | Top Finance UK",
+        "What Is Financial Health? A Quick Guide to Checking Your Vitals | KardTrust",
       slug: "what-is-financial-health",
       description:
         "A simple UK-focused guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
@@ -162,7 +159,7 @@ export default function PersonalFinanceArchivePage() {
     },
     {
       title:
-        "Money Management for Beginners: Where Do I Even Start? | Top Finance UK",
+        "Money Management for Beginners: Where Do I Even Start? | KardTrust",
       slug: "money-management-for-beginners",
       description:
         "New to personal finance? Learn simple UK-based steps to budget, save, manage debt, and build steady money habits that stick.",
@@ -173,7 +170,7 @@ export default function PersonalFinanceArchivePage() {
     },
     {
       title:
-        "Setting Financial Goals: A Beginner's Guide to Personal Finance Planning | Top Finance UK",
+        "Setting Financial Goals: A Beginner's Guide to Personal Finance Planning | KardTrust",
       slug: "setting-financial-goals",
       description:
         "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple UK-focused personal finance guide for beginners.",
@@ -187,14 +184,14 @@ export default function PersonalFinanceArchivePage() {
         "Side Hustle or Second Job? How to Choose the Right Income Booster",
       slug: "side-hustle-or-second-job",
       description:
-        "With rising living costs across the UK, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
+        "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
       image: "https://media.topfinanzas.com/images/side-hustle-second-job.webp",
       date: "27 August 2025",
       category: "guide",
     },
     {
       title:
-        "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | Top Finance UK",
+        "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
       slug: "creating-a-budget-youll-actually-stick-to",
       description:
         "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start — built to help you actually stick to it.",
@@ -204,7 +201,7 @@ export default function PersonalFinanceArchivePage() {
     },
     {
       title:
-        "What Is 'Lifestyle Creep' and How Is It Silently Draining Your Wallet? | Top Finance UK",
+        "What Is 'Lifestyle Creep' and How Is It Silently Draining Your Wallet? | KardTrust",
       slug: "what-is-lifestyle-creep",
       description:
         "Discover how lifestyle creep gradually increases your spending as your income grows, and learn practical strategies to prevent this silent wealth-drainer from sabotaging your personal finance goals whilst still enjoying life.",
@@ -307,9 +304,9 @@ export default function PersonalFinanceArchivePage() {
 
   // Metadata for the archive page itself
   const pageMetadata = {
-    title: "Personal Finance Guides | Top Finance UK",
+    title: "Personal Finance Guides | KardTrust",
     description:
-      "Explore guides on credit cards, loans, debt management, and other personal finance topics in the UK.",
+      "Explore guides on credit cards, loans, debt management, and other personal finance topics in the US.",
   };
 
   return <BlogLayout metadata={pageMetadata}>{content}</BlogLayout>;

@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Virgin Money Credit Card: Innovative Rewards and Benefits - Top Finance UK",
+      "Virgin Money Credit Card: Innovative Rewards and Benefits - KardTrust",
     description:
       "The Virgin Money Credit Card offers innovative rewards, competitive rates, and distinctive benefits designed for modern consumers seeking both style and substance.",
     keywords:
-      "Virgin Money Credit Card, UK credit cards, rewards cards, cashback, Virgin rewards, Virgin Red, travel perks, money transfer",
+      "Virgin Money Credit Card, US credit cards, rewards cards, cashback, Virgin rewards, Virgin Red, travel perks, money transfer",
   };
 }
 
@@ -37,7 +37,7 @@ export default function VirginMoneyCreditCardPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -46,7 +46,7 @@ export default function VirginMoneyCreditCardPage() {
               <hr className="my-8" />
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -130,7 +130,7 @@ export default function VirginMoneyCreditCardPage() {
 
               <div className="my-6">
                 <p className="text-gray-800 mb-4 text-md leading-5 font-light text-left">
-                  The Virgin Money Credit Card stands out in the UK banking
+                  The Virgin Money Credit Card stands out in the US banking
                   landscape with its distinctive approach that combines
                   practical financial benefits with the innovative style that
                   the Virgin brand is known for. This card is designed for
@@ -161,7 +161,7 @@ export default function VirginMoneyCreditCardPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

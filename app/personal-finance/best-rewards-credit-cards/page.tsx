@@ -18,9 +18,9 @@ export default function BestRewardsCreditCardsPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Top Rewards Credit Cards to Maximize Your Spending
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -176,7 +176,7 @@ export default function BestRewardsCreditCardsPage() {
                 </h2>
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Interested in specific rewards credit cards? Here are some top
-                  choices in the UK:
+                  choices in the US:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
@@ -211,7 +211,7 @@ export default function BestRewardsCreditCardsPage() {
                       href="/financial-solutions/santander-uk-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK All in One Credit Card:
+                      Santander US All in One Credit Card:
                     </Link>{" "}
                     Provides cashback and no foreign transaction fees.
                   </li>
@@ -267,9 +267,9 @@ export default function BestRewardsCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

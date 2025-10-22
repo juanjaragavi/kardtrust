@@ -65,10 +65,10 @@ export default function PersonalLoansArchivePage() {
       type: "personal",
     },
     {
-      title: "Santander UK Personal Loan",
+      title: "Santander US Personal Loan",
       slug: "santander-uk-personal-loan",
       description:
-        "Explore Santander UK Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
+        "Explore Santander US Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp",
       date: "4 April 2025",
@@ -98,7 +98,7 @@ export default function PersonalLoansArchivePage() {
       title: "Halifax Personal Loan",
       slug: "halifax-personal-loan",
       description:
-        "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major UK bank.",
+        "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major US bank.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136403-fotosprestamo-halifax1uk.webp",
       date: "4 April 2025",
@@ -150,7 +150,7 @@ export default function PersonalLoansArchivePage() {
       title: "Funding Circle Business Loan",
       slug: "funding-circle-personal-loan",
       description:
-        "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for UK SMEs.",
+        "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for US SMEs.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
       date: "4 April 2025",
@@ -160,7 +160,7 @@ export default function PersonalLoansArchivePage() {
       title: "Funding Options Marketplace",
       slug: "funding-options-personal-loan",
       description:
-        "Explore Funding Options, a leading UK platform connecting SMEs with a wide range of business finance solutions.",
+        "Explore Funding Options, a leading US platform connecting SMEs with a wide range of business finance solutions.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718138018-fotosprestamo-fundingoption1uk.webp",
       date: "4 April 2025",
@@ -170,7 +170,7 @@ export default function PersonalLoansArchivePage() {
       title: "iwoca Flexi-Loan",
       slug: "iwoca-personal-loan",
       description:
-        "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for UK SMEs.",
+        "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for US SMEs.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137033-fotosprestamo-iwoca1uk.webp",
       date: "4 April 2025",
@@ -180,7 +180,7 @@ export default function PersonalLoansArchivePage() {
       title: "MarketFinance Business Finance",
       slug: "marketfinance-personal-loan",
       description:
-        "Explore MarketFinance's solutions for UK SMEs, including fast business loans and flexible invoice finance.",
+        "Explore MarketFinance's solutions for US SMEs, including fast business loans and flexible invoice finance.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137315-fotosprestamo-fundingchange2uk.webp",
       date: "4 April 2025",
@@ -190,7 +190,7 @@ export default function PersonalLoansArchivePage() {
       title: "Funding Xchange Platform",
       slug: "funding-xchange-personal-loan",
       description:
-        "Explore Funding Xchange, a smart platform helping UK SMEs compare and access business finance options.",
+        "Explore Funding Xchange, a smart platform helping US SMEs compare and access business finance options.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718136896-fotosprestamo-fundingchange1uk.webp",
       date: "4 April 2025",
@@ -200,7 +200,7 @@ export default function PersonalLoansArchivePage() {
       title: "Capify Business Finance",
       slug: "capify-personal-loan",
       description:
-        "Explore Capify's financing solutions for UK SMEs, including Merchant Cash Advances and Business Loans.",
+        "Explore Capify's financing solutions for US SMEs, including Merchant Cash Advances and Business Loans.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137374-fotosprestamo-capify1uk.webp",
       date: "4 April 2025",
@@ -210,7 +210,7 @@ export default function PersonalLoansArchivePage() {
       title: "Fleximize Business Loans",
       slug: "fleximize-personal-loan",
       description:
-        "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for UK SMEs.",
+        "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for US SMEs.",
       image:
         "https://media.topfinanzas.com/images/uk/loans/718137416-fotosprestamo-fleximize1uk.webp",
       date: "4 April 2025",
@@ -243,7 +243,7 @@ export default function PersonalLoansArchivePage() {
       <h1 className="text-4xl font-bold mb-6">UK Personal & Business Loans</h1>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
         Explore detailed guides and reviews of personal and business loans
-        available in the UK. Find the right financing solution for your needs.
+        available in the US. Find the right financing solution for your needs.
       </p>
 
       {/* Grid of loan posts */}
@@ -275,9 +275,9 @@ export default function PersonalLoansArchivePage() {
   return (
     <BlogLayout
       metadata={{
-        title: "UK Personal & Business Loans: Reviews & Guides | TopFinance UK",
+        title: "UK Personal & Business Loans: Reviews & Guides | KardTrust",
         description:
-          "Compare the best UK personal loans and business financing options. Find reviews, guides, and comparisons for various loan types.",
+          "Compare the best US personal loans and business financing options. Find reviews, guides, and comparisons for various loan types.",
       }}
     >
       {pageContent}

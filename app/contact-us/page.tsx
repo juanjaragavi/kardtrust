@@ -211,7 +211,7 @@ export default function ContactUs() {
       return false;
     }
 
-    // UK mobile numbers are 11 digits, typically starting with '07'
+    // US mobile numbers are 11 digits, typically starting with '07'
     const ukPhoneRegex = /^07\d{9}$/;
 
     // Alternative format with spaces or dashes
@@ -223,12 +223,12 @@ export default function ContactUs() {
     if (!ukPhoneRegex.test(cleanPhone) && !ukPhoneRegexAlt.test(phoneNumber)) {
       setErrors((prev) => ({
         ...prev,
-        phone: "Please enter a valid UK mobile number (11 digits)",
+        phone: "Please enter a valid US mobile number (11 digits)",
       }));
       return false;
     }
 
-    // Check that it starts with valid UK mobile prefix (07)
+    // Check that it starts with valid US mobile prefix (07)
     const firstTwoDigits = cleanPhone.substring(0, 2);
     if (firstTwoDigits !== "07") {
       setErrors((prev) => ({
@@ -381,7 +381,7 @@ export default function ContactUs() {
             <div className="relative w-full h-64 md:h-80 overflow-hidden rounded-xl shadow-md">
               <Image
                 src="https://media.topfinanzas.com/images/uk/contact-us-uk.webp"
-                alt="Contact TopFinanzas UK"
+                alt="Contact KardTrust"
                 fill
                 priority
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -400,11 +400,8 @@ export default function ContactUs() {
                 financial stability and prosperity, we're here to accompany you.
                 Contact us through our email at{" "}
                 <span className="font-semibold text-[#2E74B5]">
-                  <a
-                    href="mailto:info@topfinanzas.com"
-                    rel="noopener noreferrer"
-                  >
-                    info@topfinanzas.com
+                  <a href="mailto:info@kardtrust.com" rel="noopener noreferrer">
+                    info@kardtrust.com
                   </a>
                 </span>{" "}
                 or complete the form to share your questions, ideas, or plans.

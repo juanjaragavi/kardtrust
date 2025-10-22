@@ -26,8 +26,8 @@ interface BlogLayoutProps {
 
 export function BlogLayout({ children, metadata }: BlogLayoutProps) {
   const {
-    title = "Blog - TopFinance",
-    description = "Stay informed with the latest financial tips, strategies and information from TopFinance experts.",
+    title = "Blog - KardTrust",
+    description = "Stay informed with the latest financial tips, strategies and information from KardTrust experts.",
   } = metadata || {};
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
@@ -137,7 +137,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     <div className="flex items-center gap-3">
                       <Image
                         src="https://media.topfinanzas.com/images/best-personal-loans.webp"
-                        alt="Best Personal Loans in the UK"
+                        alt="Best Personal Loans in the US"
                         width={50}
                         height={50}
                         loading="lazy"
@@ -153,7 +153,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                           href="/personal-finance/best-personal-loans"
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
-                          Best Personal Loans in the UK
+                          Best Personal Loans in the US
                         </Link>
                       </div>
                     </div>

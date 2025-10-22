@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Santander UK Personal Loan Requirements: Application Guide - Top Finance UK",
+      "Santander US Personal Loan Requirements: Application Guide - KardTrust",
     description:
-      "Learn about Santander UK Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
+      "Learn about Santander US Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
     keywords:
-      "Santander UK Personal Loan requirements, UK loan application, loan eligibility, Santander loan criteria, personal loan documentation, loan application process",
+      "Santander US Personal Loan requirements, US loan application, loan eligibility, Santander loan criteria, personal loan documentation, loan application process",
   };
 }
 
@@ -25,11 +25,11 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
-              Requirements for Santander UK Personal Loans
+              Requirements for Santander US Personal Loans
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -37,7 +37,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                Santander UK Personal Loans offer competitive rates and flexible
+                Santander US Personal Loans offer competitive rates and flexible
                 terms. Understanding the eligibility criteria and application
                 requirements is key to a successful application.
               </p>
@@ -45,7 +45,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/uk/loans/718136220-fotosprestamo-santander2uk.webp"
-                  alt="Santander UK Personal Loan Requirements"
+                  alt="Santander US Personal Loan Requirements"
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
@@ -79,8 +79,8 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a permanent UK resident. Santander typically
-                      requires applicants to have lived in the UK for at least 3
+                      must be a permanent US resident. Santander typically
+                      requires applicants to have lived in the US for at least 3
                       years.
                     </div>
                   </div>
@@ -129,7 +129,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -146,7 +146,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Proof of identity:</span>{" "}
-                      A valid passport, UK driving license, or EU identity card
+                      A valid passport, US driving license, or EU identity card
                       is typically required. Existing Santander customers may
                       have this step streamlined.
                     </div>
@@ -186,7 +186,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                       <span className="font-semibold">
                         Bank account details:
                       </span>{" "}
-                      Details of a UK bank account are required for loan
+                      Details of a US bank account are required for loan
                       disbursement and setting up direct debit repayments.
                     </div>
                   </div>
@@ -208,7 +208,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Online Application:</span>{" "}
-                      The quickest method is via the Santander UK website or
+                      The quickest method is via the Santander US website or
                       mobile app. The online form is designed for ease of use,
                       guiding you through each section. Existing customers often
                       benefit from pre-filled information.
@@ -260,7 +260,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  Key terms associated with Santander UK Personal Loans:
+                  Key terms associated with Santander US Personal Loans:
                 </p>
 
                 <div className="space-y-6 my-8">
@@ -316,7 +316,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                   <Link href="/personal-finance/best-personal-loans">
                     <Image
                       src="https://media.topfinanzas.com/images/ads/Top-Blog-Personal-loans-1.webp"
-                      alt="Santander UK Personal Loan"
+                      alt="Santander US Personal Loan"
                       width={1000}
                       height={563}
                       className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
@@ -331,7 +331,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  Santander UK Personal Loans are a strong option for various
+                  Santander US Personal Loans are a strong option for various
                   borrowers:
                 </p>
 
@@ -401,7 +401,7 @@ export default function SantanderUKPersonalLoanRequirementsPage() {
                   <Link href="/personal-finance/getting-out-of-debt">
                     <Image
                       src="https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp"
-                      alt="Santander UK Personal Loan"
+                      alt="Santander US Personal Loan"
                       width={1000}
                       height={563}
                       className="mx-auto w-full md:w-8/12 h-auto rounded-xl"

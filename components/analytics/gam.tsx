@@ -73,10 +73,10 @@ export default function GoogleAdManager() {
               googletag.pubads().setTargeting("utm_medium", utmMedium);
             }
 
-            // Set additional targeting for UK market
-            googletag.pubads().setTargeting("country", "UK");
+            // Set additional targeting for US market
+            googletag.pubads().setTargeting("country", "US");
             googletag.pubads().setTargeting("language", "en");
-            googletag.pubads().setTargeting("site", "topfinanzas_uk");
+            googletag.pubads().setTargeting("site", "kardtrust_uk");
 
             console.debug("GAM: Services enabled and targeting configured");
           });
@@ -127,14 +127,14 @@ export default function GoogleAdManager() {
               // Use the command queue to ensure execution happens after GPT is ready
               window.googletag.cmd.push(function() {
                 try {
-                  // Define common ad slots for UK TopFinanzas
+                  // Define common ad slots for US KardTrust
                   
                   // Header banner slot
                   if (!window.gamSlots) window.gamSlots = {};
                   
                   if (!window.gamSlots.header) {
                     window.gamSlots.header = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_topfinanzas_header',
+                      '/${GAM_NETWORK_CODE}/uk_kardtrust_header',
                       [[728, 90], [970, 90], [320, 50]],
                       'gam-header-ad'
                     ).addService(window.googletag.pubads());
@@ -143,7 +143,7 @@ export default function GoogleAdManager() {
                   // Sidebar ad slot
                   if (!window.gamSlots.sidebar) {
                     window.gamSlots.sidebar = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_topfinanzas_sidebar',
+                      '/${GAM_NETWORK_CODE}/uk_kardtrust_sidebar',
                       [[300, 250], [336, 280], [300, 600]],
                       'gam-sidebar-ad'
                     ).addService(window.googletag.pubads());
@@ -152,7 +152,7 @@ export default function GoogleAdManager() {
                   // Content ad slot
                   if (!window.gamSlots.content) {
                     window.gamSlots.content = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_topfinanzas_content',
+                      '/${GAM_NETWORK_CODE}/uk_kardtrust_content',
                       [[728, 90], [300, 250], [336, 280]],
                       'gam-content-ad'
                     ).addService(window.googletag.pubads());
@@ -161,7 +161,7 @@ export default function GoogleAdManager() {
                   // Footer ad slot
                   if (!window.gamSlots.footer) {
                     window.gamSlots.footer = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_topfinanzas_footer',
+                      '/${GAM_NETWORK_CODE}/uk_kardtrust_footer',
                       [[728, 90], [970, 90], [320, 50]],
                       'gam-footer-ad'
                     ).addService(window.googletag.pubads());

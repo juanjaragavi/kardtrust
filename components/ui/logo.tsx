@@ -18,7 +18,7 @@ export default function Logo() {
     >
       <Image
         src="https://media.topfinanzas.com/images/favicon.webp"
-        alt="Top Finance Logo"
+        alt="KardTrust Logo"
         width={48}
         height={48}
         className="object-contain"

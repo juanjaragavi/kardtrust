@@ -6,7 +6,7 @@ The Google Sheets API is returning **500 Internal Server Error** in production b
 
 ## Error Details
 
-- **URL**: <https://uk.topfinanzas.com/api/sheets>
+- **URL**: <https://kardtrust.com/api/sheets>
 - **Status**: 500 Internal Server Error
 - **Error Message**: "Failed to add data to sheet"
 - **Root Cause**: Missing Google Sheets credentials in production environment
@@ -92,7 +92,7 @@ After setting up environment variables:
 1. **Test the API directly**:
 
    ```bash
-   curl -X POST https://uk.topfinanzas.com/api/sheets \
+   curl -X POST https://kardtrust.com/api/sheets \
    -H "Content-Type: application/json" \
    -d '{
        "email": "test@example.com",
@@ -114,7 +114,7 @@ After setting up environment variables:
    ```
 
 2. **Test the quiz form**
-   - Go to: <https://uk.topfinanzas.com/quiz>
+   - Go to: <https://kardtrust.com/quiz>
    - Fill out the form completely
    - Submit and check for errors in console
    - Verify data appears in Google Sheets
@@ -122,7 +122,7 @@ After setting up environment variables:
 3. **Check Brevo dashboard**
    - Go to: <https://app.brevo.com/contact/list/9>
    - Verify new contact was created
-   - Check that COUNTRIES field is "United Kingdom"
+   - Check that COUNTRIES field is "United States"
 
 ## Common Issues
 
@@ -180,7 +180,7 @@ If using environment file on server:
 
 ```bash
 # Navigate to app directory
-cd /opt/app/uk-topfinanzas-com
+cd /opt/app/kardtrust
 
 # Create production env file
 cat > .env.production << 'EOF'
@@ -201,7 +201,7 @@ Once environment variables are properly configured:
 
 1. ✅ Form submissions work in production
 2. ✅ Data appears in Google Sheets
-3. ✅ Contacts created in Brevo with "United Kingdom" in COUNTRIES field
+3. ✅ Contacts created in Brevo with "United States" in COUNTRIES field
 4. ✅ No 500 errors in console
 5. ✅ Users see success message and get redirected
 

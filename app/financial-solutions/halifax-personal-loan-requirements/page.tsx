@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Halifax Personal Loan Requirements: Application Guide - Top Finance UK",
+    title: "Halifax Personal Loan Requirements: Application Guide - KardTrust",
     description:
       "Learn about Halifax Personal Loan eligibility criteria, application process, and required documentation to maximize your chances of approval.",
     keywords:
-      "Halifax Personal Loan requirements, UK loan application, loan eligibility, Halifax loan criteria, personal loan documentation, loan application process",
+      "Halifax Personal Loan requirements, US loan application, loan eligibility, Halifax loan criteria, personal loan documentation, loan application process",
   };
 }
 
@@ -29,7 +28,7 @@ export default function HalifaxPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -79,8 +78,8 @@ export default function HalifaxPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK residency:</span> You
-                      must be a permanent UK resident. Halifax typically
-                      requires applicants to have lived in the UK for at least 3
+                      must be a permanent US resident. Halifax typically
+                      requires applicants to have lived in the US for at least 3
                       years.
                     </div>
                   </div>
@@ -127,7 +126,7 @@ export default function HalifaxPersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -144,7 +143,7 @@ export default function HalifaxPersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Proof of identity:</span>{" "}
-                      A valid passport, UK driving license, or EU identity card
+                      A valid passport, US driving license, or EU identity card
                       is typically required. Existing Halifax customers may have
                       this step streamlined.
                     </div>
@@ -184,7 +183,7 @@ export default function HalifaxPersonalLoanRequirementsPage() {
                       <span className="font-semibold">
                         Bank account details:
                       </span>{" "}
-                      Details of a UK bank account are required for loan
+                      Details of a US bank account are required for loan
                       disbursement and setting up direct debit repayments.
                     </div>
                   </div>

@@ -19,9 +19,9 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
               Ditching the Impulse Buys: A Practical Guide to Mindful Spending
             </h1>
 
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -34,7 +34,7 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
                 sabotage even the best-planned budgets. The good news: mindful
                 spending isn't about depriving yourself; it's about making
                 conscious choices that align with your personal finance goals.
-                This practical UK guide shows you how to recognise spending
+                This practical US guide shows you how to recognise spending
                 triggers, create helpful boundaries, and develop habits that
                 keep your money working for you.
               </p>
@@ -42,7 +42,7 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/ditching-impulse-buys-mindful-spending-guide.webp"
-                  alt="Practical mindful spending strategies for UK personal finance and budget control"
+                  alt="Practical mindful spending strategies for US personal finance and budget control"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
@@ -61,7 +61,7 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
                   Understanding your spending triggers is the first step to
                   mindful spending. Most impulse purchases happen when we're
                   emotionally charged — whether stressed, bored, excited, or
-                  even just tired after a long day. UK retailers know this,
+                  even just tired after a long day. US retailers know this,
                   which is why you'll find chocolate bars at the checkout,
                   "limited time" offers in your inbox, and strategically placed
                   sale items.
@@ -196,7 +196,7 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
 
                 <div className="bg-gray-50 p-4 rounded-lg mb-4">
                   <h3 className="text-left sm:text-left text-lg font-semibold text-gray-800 mb-3">
-                    UK examples to help you decide:
+                    US examples to help you decide:
                   </h3>
                   <div className="grid md:grid-cols-2 gap-4 text-sm">
                     <div>

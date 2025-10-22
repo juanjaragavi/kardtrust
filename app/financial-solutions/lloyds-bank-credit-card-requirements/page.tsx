@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Lloyds Bank Credit Card Requirements: Eligibility Criteria - Top Finance UK",
+      "Lloyds Bank Credit Card Requirements: Eligibility Criteria - KardTrust",
     description:
       "Understand the eligibility requirements, application process, and documentation needed for the Lloyds Bank Credit Card to maximize your chances of approval.",
     keywords:
-      "Lloyds Bank Credit Card requirements, UK credit card application, Lloyds credit card eligibility, credit score requirements, UK banking applications",
+      "Lloyds Bank Credit Card requirements, US credit card application, Lloyds credit card eligibility, credit score requirements, US banking applications",
   };
 }
 
@@ -32,7 +32,7 @@ export default function LloydsBankCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -71,10 +71,10 @@ export default function LloydsBankCreditCardRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a UK resident. This
+                      You must be at least 18 years old and a US resident. This
                       ensures you have the legal capacity to enter into
                       financial agreements and allows Lloyds to operate within
-                      UK banking regulations.
+                      US banking regulations.
                     </div>
                   </div>
 
@@ -118,7 +118,7 @@ export default function LloydsBankCreditCardRequirementsPage() {
                       <span className="font-semibold">Proof of Address:</span>{" "}
                       Recent utility bills, council tax statements, or bank
                       statements (no older than 3 months) to confirm your
-                      current residential address in the UK.
+                      current residential address in the US.
                     </div>
                   </div>
 
@@ -149,7 +149,7 @@ export default function LloydsBankCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Starling Bank Credit Card Requirements: Digital Application Guide - Top Finance UK",
+      "Starling Bank Credit Card Requirements: Digital Application Guide - KardTrust",
     description:
       "Discover the eligibility criteria, application process, and requirements for the Starling Bank Credit Card to maximize your chances of approval.",
     keywords:
-      "Starling Bank Credit Card requirements, UK neobank application, credit card eligibility, digital banking, ethical banking, transparent application",
+      "Starling Bank Credit Card requirements, US neobank application, credit card eligibility, digital banking, ethical banking, transparent application",
   };
 }
 
@@ -29,7 +29,7 @@ export default function StarlingBankCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -84,9 +84,9 @@ export default function StarlingBankCreditCardRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a UK resident with a
-                      permanent UK address. Starling typically requires
-                      applicants to have been resident in the UK for at least 3
+                      You must be at least 18 years old and a US resident with a
+                      permanent US address. Starling typically requires
+                      applicants to have been resident in the US for at least 3
                       years.
                     </div>
                   </div>
@@ -121,7 +121,7 @@ export default function StarlingBankCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

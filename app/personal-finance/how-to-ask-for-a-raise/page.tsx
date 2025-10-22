@@ -19,9 +19,9 @@ export default function HowToAskForRaisePage() {
               How to Confidently Ask for a Raise (with Scripts and a Preparation
               Guide)
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -41,7 +41,7 @@ export default function HowToAskForRaisePage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://storage.googleapis.com/media-topfinanzas-com/images/uk/how-to-ask-for-a-raise.webp"
+                  src="https://storage.googleapis.com/media-kardtrust-com/images/uk/how-to-ask-for-a-raise.webp"
                   alt="Professional having a confident conversation with manager about salary increase"
                   width={800}
                   height={450}
@@ -80,7 +80,7 @@ export default function HowToAskForRaisePage() {
                   Research what you're worth
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  UK salary benchmarks vary widely by region, sector, and
+                  US salary benchmarks vary widely by region, sector, and
                   seniority. Use sites like Glassdoor, Reed, and Totaljobs to
                   see what similar roles pay in your area. If you're in London,
                   remember that salaries often include a weighting to reflect

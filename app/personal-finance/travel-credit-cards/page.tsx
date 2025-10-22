@@ -5,9 +5,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Best Travel Credit Cards UK: Top Options for 2025 - Top Finance UK",
+    title: "Best Travel Credit Cards UK: Top Options for 2025 - KardTrust",
     description:
-      "Compare the best travel credit cards in the UK with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
+      "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
     keywords:
       "travel credit cards UK, no foreign transaction fees, travel rewards, airline miles, hotel points, travel insurance, best travel cards",
   };
@@ -28,9 +28,9 @@ export default function TravelCreditCardsPage() {
               Best Travel Credit Cards UK: Ultimate Guide for International
               Spending
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -459,9 +459,9 @@ export default function TravelCreditCardsPage() {
                 </ul>
               </div>
 
-              {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+              {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
               <div
-                id="uk_topfinanzas_4"
+                id="uk_kardtrust_4"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}

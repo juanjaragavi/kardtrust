@@ -66,7 +66,7 @@ Engaging opening that acknowledges UK households feeling the squeeze from rising
 
 ### Structure
 
-- Uses standard Next.js 14 App Router pattern
+- Uses standard Next.js 15 App Router pattern
 - Follows existing personal-finance article template
 - Includes Header, CompactFooter, AIContentDisclaimer components
 - Ad unit placements: `uk_topfinanzas_3` and `uk_topfinanzas_4`
@@ -123,7 +123,7 @@ Engaging opening that acknowledges UK households feeling the squeeze from rising
 - **Word Count:** ~950 words (TOFU appropriate: 800-1,000)
 - **Tone:** Informal but educational
 - **Audience:** UK general audience
-- **Language:** British English (en-GB)
+- **Language:** British English (en-US)
 - **Examples:** UK-specific (£, council tax, FCA, etc.)
 - **Call-to-Action:** Soft, encouraging, actionable
 

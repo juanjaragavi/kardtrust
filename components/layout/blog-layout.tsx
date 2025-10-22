@@ -28,7 +28,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
   const {
     title = "Blog Post Title",
     date = "February 25, 2025",
-    author = "Top Finance",
+    author = "KardTrust",
     authorImage = "/placeholder-user.webp",
     readingTime = "6 minute read",
     // Default categories updated to reflect current structure
@@ -209,7 +209,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   </svg>
                 </button>
                 <button
-                  className="w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center hover:bg-green-600 transition-colors"
+                  className="w-10 h-10 rounded-full bg-primary-dark text-white flex items-center justify-center hover:bg-green-600 transition-colors"
                   aria-label="Share on WhatsApp"
                 >
                   <svg
@@ -346,14 +346,14 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     <div className="relative h-32 rounded-xl overflow-hidden">
                       <Image
                         src="https://media.topfinanzas.com/images/best-personal-loans.webp" // Updated Image
-                        alt="Best Personal Loans in the UK" // Updated Alt
+                        alt="Best Personal Loans in the US" // Updated Alt
                         fill
                         style={{ objectFit: "cover" }}
                         className="brightness-75"
                       />
                       <div className="absolute inset-0 flex flex-col justify-end p-3 text-white">
                         <h4 className="font-medium text-[10px] leading-tight mb-1">
-                          Best Personal Loans in the UK {/* Updated Title */}
+                          Best Personal Loans in the US {/* Updated Title */}
                         </h4>
                         {/* Removed date for consistency */}
                       </div>
@@ -366,7 +366,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   >
                     <div className="relative h-32 rounded-xl overflow-hidden">
                       <Image
-                        src="https://us.topfinanzas.com/wp-content/uploads/2023/11/Top_Finanzas_como_salir_de_deudas.webp" // Updated Image
+                        src="https://us.kardtrust.com/wp-content/uploads/2023/11/Top_Finanzas_como_salir_de_deudas.webp" // Updated Image
                         alt="Practical Guide to Getting Out of Debt" // Updated Alt
                         fill
                         style={{ objectFit: "cover" }}

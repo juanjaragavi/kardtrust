@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Starling Bank Personal Loan: Ethical & Transparent Lending - Top Finance UK",
+      "Starling Bank Personal Loan: Ethical & Transparent Lending - KardTrust",
     description:
       "Explore Starling Bank Personal Loans offering competitive rates, clear terms, and seamless management via the award-winning Starling app.",
     keywords:
-      "Starling Bank Personal Loan, UK loans, neobank loan, ethical banking, personal finance, debt consolidation, flexible repayment, Starling app",
+      "Starling Bank Personal Loan, US loans, neobank loan, ethical banking, personal finance, debt consolidation, flexible repayment, Starling app",
   };
 }
 
@@ -37,7 +37,7 @@ export default function StarlingBankPersonalLoanPage() {
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -164,7 +164,7 @@ export default function StarlingBankPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

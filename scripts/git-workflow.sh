@@ -10,7 +10,7 @@ DEV_BRANCH="dev"
 MAIN_BRANCH="main"
 BACKUP_BRANCH="backup"
 
-# Generic Git workflow script for TopFinanzas Pages MX
+# Generic Git workflow script for KardTrustPages MX
 # This script automates common Git operations for deployment
 
 # --- Pre-flight Checks ---

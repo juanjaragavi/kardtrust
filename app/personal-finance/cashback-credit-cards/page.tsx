@@ -18,9 +18,9 @@ export default function CashbackCreditCardsPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Best Cashback Credit Cards for Maximizing Your Rewards
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -166,7 +166,7 @@ export default function CashbackCreditCardsPage() {
                       href="/financial-solutions/santander-uk-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK All in One Credit Card:
+                      Santander US All in One Credit Card:
                     </Link>{" "}
                     Known for its All in One cashback benefits.
                   </li>
@@ -222,9 +222,9 @@ export default function CashbackCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

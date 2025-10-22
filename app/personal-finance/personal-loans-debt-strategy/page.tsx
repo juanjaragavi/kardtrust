@@ -18,9 +18,9 @@ export default function PersonalLoansDebtStrategyPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Personal Loans - A Strategy for Managing Debt
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -212,7 +212,7 @@ export default function PersonalLoansDebtStrategyPage() {
                       href="/financial-solutions/santander-uk-personal-loan"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK Personal Loan:
+                      Santander US Personal Loan:
                     </Link>{" "}
                     See if their loan products fit your consolidation needs.
                   </li>
@@ -345,9 +345,9 @@ export default function PersonalLoansDebtStrategyPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

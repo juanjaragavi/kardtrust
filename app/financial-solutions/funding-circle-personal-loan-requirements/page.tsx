@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Funding Circle Business Loan Requirements: SME Application Guide - Top Finance UK",
+      "Funding Circle Business Loan Requirements: SME Application Guide - KardTrust",
     description:
-      "Learn about Funding Circle business loan eligibility criteria, the online application process, and required documentation for UK SMEs.",
+      "Learn about Funding Circle business loan eligibility criteria, the online application process, and required documentation for US SMEs.",
     keywords:
-      "Funding Circle requirements, SME loan application, business loan eligibility, UK business finance, fintech lending criteria, Funding Circle documentation",
+      "Funding Circle requirements, SME loan application, business loan eligibility, US business finance, fintech lending criteria, Funding Circle documentation",
   };
 }
 
@@ -30,7 +30,7 @@ export default function FundingCirclePersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -38,7 +38,7 @@ export default function FundingCirclePersonalLoanRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                Funding Circle offers fast, flexible loans for UK SMEs.
+                Funding Circle offers fast, flexible loans for US SMEs.
                 Understanding the eligibility criteria and application
                 requirements is crucial for securing finance.
               </p>
@@ -70,7 +70,7 @@ export default function FundingCirclePersonalLoanRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Business Type:</span>{" "}
                       Typically available to Limited Companies and Limited
-                      Liability Partnerships (LLPs) registered in the UK. Sole
+                      Liability Partnerships (LLPs) registered in the US. Sole
                       traders may be considered under specific circumstances or
                       schemes.
                     </div>
@@ -100,7 +100,7 @@ export default function FundingCirclePersonalLoanRequirementsPage() {
                   </div>
 
                   <div
-                    id="uk_topfinanzas_4"
+                    id="uk_kardtrust_4"
                     className="items-center justify-center flex w-full my-6"
                   >
                     {/* Empty responsive, centered div */}
@@ -124,7 +124,7 @@ export default function FundingCirclePersonalLoanRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">UK Based:</span> The
-                      business must be based and operating in the UK.
+                      business must be based and operating in the US.
                     </div>
                   </div>
                 </div>
@@ -346,7 +346,7 @@ export default function FundingCirclePersonalLoanRequirementsPage() {
                 </p>
 
                 <h3 className="text-lg font-bold text-gray-800 mb-3 text-left">
-                  Established UK SMEs:
+                  Established US SMEs:
                 </h3>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">

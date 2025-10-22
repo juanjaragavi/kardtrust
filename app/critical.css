@@ -6,7 +6,8 @@
 
 /* Base element styles */
 :root {
-  --primary-color: #222442;
+  --primary-color: #dc2626; /* red-600 - Main brand red */
+  --secondary-color: #2563eb; /* blue-600 - Main secondary blue */
   --background-color: #ffffff;
   --text-color: #222222;
   --font-sans:

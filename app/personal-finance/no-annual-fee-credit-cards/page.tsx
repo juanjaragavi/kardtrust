@@ -15,9 +15,9 @@ export default function NoAnnualFeeCreditCards() {
         <h1 className="text-2xl font-bold text-gray-900 mb-4">
           Top Credit Cards With No Annual Fees
         </h1>
-        {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+        {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
         <div
-          id="uk_topfinanzas_3"
+          id="uk_kardtrust_3"
           className="items-center justify-center flex w-full my-8"
         >
           {/* Empty responsive, centered div */}
@@ -240,9 +240,9 @@ export default function NoAnnualFeeCreditCards() {
         </section>
 
         <section className="my-8">
-          {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+          {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
           <div
-            id="uk_topfinanzas_4"
+            id="uk_kardtrust_4"
             className="items-center justify-center flex w-full my-8"
           >
             {/* Empty responsive, centered div */}

@@ -31,13 +31,13 @@ export default function InvitCreditCardRecUKPage() {
             </h2>
 
             <p className="px-2 text-left text-sm text-gray-900 mb-2">
-              We sifted through the latest UK offers to match you with cards
+              We sifted through the latest US offers to match you with cards
               that keep everyday spending flexible while stacking meaningful
               rewards.
             </p>
 
             <div
-              id="uk_topfinanzas_1"
+              id="uk_kardtrust_1"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -48,7 +48,7 @@ export default function InvitCreditCardRecUKPage() {
               requirements:
             </p>
             <p className="text-center text-xs text-gray-800 mb-6">
-              By Top Finance
+              By KardTrust
             </p>
 
             {/* Centered limit options (green buttons), per US layout */}
@@ -243,13 +243,13 @@ export default function InvitCreditCardRecUKPage() {
             </div>
 
             <div
-              id="uk_topfinanzas_2"
+              id="uk_kardtrust_2"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
             </div>
 
-            {/* Stay Tuned panel (matching US layout copy, UK spelling) */}
+            {/* Stay Tuned panel (matching US layout copy, US spelling) */}
             <section className="text-left mb-6">
               <div className="bg-gray-50 border border-gray-200 rounded-md p-4 relative">
                 <div
@@ -275,7 +275,7 @@ export default function InvitCreditCardRecUKPage() {
                 <div className="flex flex-col items-center text-center space-y-3">
                   <Image
                     src="https://media.topfinanzas.com/images/credit-card-varity.png"
-                    alt="UK Credit Cards"
+                    alt="US Credit Cards"
                     width={640}
                     height={360}
                     className="w-56 h-auto"

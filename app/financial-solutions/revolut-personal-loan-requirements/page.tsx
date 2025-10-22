@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Revolut Personal Loan Requirements: Fintech Application Guide - Top Finance UK",
+      "Revolut Personal Loan Requirements: Fintech Application Guide - KardTrust",
     description:
       "Learn about Revolut Personal Loan eligibility criteria, the fully digital application process, and required information for approval.",
     keywords:
-      "Revolut Personal Loan requirements, UK fintech loan application, loan eligibility, Revolut loan criteria, personal loan documentation, Revolut app",
+      "Revolut Personal Loan requirements, US fintech loan application, loan eligibility, Revolut loan criteria, personal loan documentation, Revolut app",
   };
 }
 
@@ -29,7 +29,7 @@ export default function RevolutPersonalLoanRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -93,7 +93,7 @@ export default function RevolutPersonalLoanRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Residency:</span> You must
                       be a legal resident of a country where Revolut offers
-                      personal loans (primarily UK and select EEA countries).
+                      personal loans (primarily US and select EEA countries).
                     </div>
                   </div>
 
@@ -127,7 +127,7 @@ export default function RevolutPersonalLoanRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}

@@ -5,7 +5,6 @@ import { usePathname } from "next/navigation";
 import {
   activateAdZep,
   hasRenderedCreative,
-  pageHasAdUnits,
   waitForContainers,
 } from "@/lib/ads/activate-adzep";
 import { adZepConfig, isArticlePath, isExcludedPath } from "@/lib/ads/config";
@@ -119,7 +118,7 @@ export default function AdZepSPABridge() {
       firstLoadRef.current = false;
     };
 
-    // Next.js 14 App Router: use popstate as a fallback for browser nav
+    // Next.js 15 App Router: use popstate as a fallback for browser nav
     const handlePopState = () => {
       handleRouteStart();
       // small debounce to allow DOM mount

@@ -14,7 +14,7 @@ When creating new blog articles, they must be added to multiple locations across
 
 ```typescript
 {
-  title: "Article Title | Top Finance UK",
+  title: "Article Title | KardTrust",
   slug: "article-slug", // Must match directory name
   description: "Article description/excerpt",
   image: "https://media.topfinanzas.com/images/article-image.webp",
@@ -40,7 +40,7 @@ When creating new blog articles, they must be added to multiple locations across
 
 ```typescript
 {
-  title: "Article Title | Top Finance UK",
+  title: "Article Title | KardTrust",
   slug: "article-slug",
   description: "Article description/excerpt",
   image: "https://media.topfinanzas.com/images/article-image.webp",

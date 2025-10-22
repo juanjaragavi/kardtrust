@@ -5,7 +5,7 @@ export const metadata = {
   slug: "travel-credit-cards",
   category: "Personal Finance",
   publishDate: "2025-04-07",
-  author: "TopFinance Editorial Team",
+  author: "KardTrust Editorial Team",
   image:
     "https://media.topfinanzas.com/images/uk/credit-cards/travel-cards-explained.webp",
 };

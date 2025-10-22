@@ -20,9 +20,9 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
               You'll Actually Stick To
             </h1>
 
-            {/* Placeholder <div> for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder <div> for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -32,7 +32,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 Building a budget shouldn't feel like doing your tax return. You
                 don't need a giant spreadsheet or a finance degree — just a
-                simple, repeatable plan that fits real UK life. This guide cuts
+                simple, repeatable plan that fits real US life. This guide cuts
                 the faff and shows you how to create a personal finance budget
                 you'll actually keep up with, even when payday changes, bills
                 wobble, or the boiler acts up.
@@ -41,7 +41,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/uk/modern-budget-guide.webp"
-                  alt="Modern personal finance budgeting in the UK with simple pots and apps"
+                  alt="Modern personal finance budgeting in the US with simple pots and apps"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
@@ -108,7 +108,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   50% needs (rent, utilities, council tax, food, transport), 30%
                   wants, 20% saving/debt. It's a great starter because you can
-                  bend the ratios to your reality in the UK — especially if
+                  bend the ratios to your reality in the US — especially if
                   housing eats more than 50%.
                 </p>
 
@@ -177,7 +177,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                       href="/personal-finance/best-personal-loans"
                       className="text-blue-600 hover:underline"
                     >
-                      UK personal loans
+                      US personal loans
                     </Link>{" "}
                     carefully for terms and eligibility.
                   </li>
@@ -193,9 +193,9 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder <div> for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder <div> for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

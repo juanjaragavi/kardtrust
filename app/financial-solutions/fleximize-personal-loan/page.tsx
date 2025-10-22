@@ -7,9 +7,9 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Fleximize: Flexible Business Loans for UK SMEs - Top Finance UK",
+    title: "Fleximize: Flexible Business Loans for US SMEs - KardTrust",
     description:
-      "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options and top-up facilities for UK SMEs.",
+      "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options and top-up facilities for US SMEs.",
     keywords:
       "Fleximize, Flexiloan, SME loan, business finance UK, flexible business loan, fintech lending, working capital, growth funding",
   };
@@ -33,12 +33,12 @@ export default function FleximizePersonalLoanPage() {
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Fleximize offers innovative and highly flexible business loans
                 (Flexiloan and Flexiloan Lite) designed to adapt to the changing
-                needs of UK SMEs, with features like repayment holidays and
+                needs of US SMEs, with features like repayment holidays and
                 top-ups.
               </p>
 
               <div
-                id="uk_topfinanzas_3"
+                id="uk_kardtrust_3"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -112,7 +112,7 @@ export default function FleximizePersonalLoanPage() {
               </div>
 
               <div
-                id="uk_topfinanzas_4"
+                id="uk_kardtrust_4"
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
@@ -331,7 +331,7 @@ export default function FleximizePersonalLoanPage() {
                 </p>
 
                 <p className="text-gray-800 text-sm leading-5 mb-4 text-left">
-                  For UK SMEs seeking more than just capital – a flexible
+                  For US SMEs seeking more than just capital – a flexible
                   financial partner that understands business volatility –
                   Fleximize offers a compelling and supportive lending solution.
                 </p>

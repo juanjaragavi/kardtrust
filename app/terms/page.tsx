@@ -6,9 +6,9 @@ import { compileMDX } from "next-mdx-remote/rsc";
 import { useMDXComponents } from "@/mdx-components";
 
 export const metadata = {
-  title: "Terms and Conditions - TopFinance UK",
+  title: "Terms and Conditions - KardTrust",
   description:
-    "Read the Terms and Conditions for the use of TopFinance UK services and website.",
+    "Read the Terms and Conditions for the use of KardTrust services and website.",
 };
 
 export default async function TermsPage() {

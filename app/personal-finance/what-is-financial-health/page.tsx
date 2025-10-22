@@ -18,9 +18,9 @@ export default function WhatIsFinancialHealthPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               What Is Financial Health? A Quick Guide to Checking Your Vitals
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -32,7 +32,7 @@ export default function WhatIsFinancialHealthPage() {
                 your life today and in the future. It’s not about being rich —
                 it’s about feeling in control, handling surprises, and making
                 steady progress towards your goals. This quick guide will help
-                you understand what financial health looks like in the UK and
+                you understand what financial health looks like in the US and
                 how to check your money “vitals” in minutes.
               </p>
 
@@ -40,7 +40,7 @@ export default function WhatIsFinancialHealthPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/uk/what-is-financial-health.webp"
-                  alt="Financial health illustration for UK households"
+                  alt="Financial health illustration for US households"
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
@@ -83,10 +83,10 @@ export default function WhatIsFinancialHealthPage() {
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
-                  Why it matters in the UK
+                  Why it matters in the US
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-5 font-light">
-                  In the UK, everyday costs, credit card interest, and rising
+                  In the US, everyday costs, credit card interest, and rising
                   bills can quickly eat into your budget. Understanding how APR
                   works on cards and loans can help you avoid paying more than
                   you need to. If you’re exploring cards, our guide to{" "}
@@ -199,9 +199,9 @@ export default function WhatIsFinancialHealthPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

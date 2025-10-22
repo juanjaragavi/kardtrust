@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "TSB Credit Card Requirements: Application Guidelines - Top Finance UK",
+    title: "TSB Credit Card Requirements: Application Guidelines - KardTrust",
     description:
       "Discover the eligibility criteria, application process, and documentation needed for the TSB Credit Card application to improve your chances of approval.",
     keywords:
-      "TSB Credit Card requirements, UK credit card application, TSB eligibility, credit score requirements, UK banking applications",
+      "TSB Credit Card requirements, US credit card application, TSB eligibility, credit score requirements, US banking applications",
   };
 }
 
@@ -29,7 +28,7 @@ export default function TSBCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -68,8 +67,8 @@ export default function TSBCreditCardRequirementsPage() {
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a UK resident. This
-                      ensures compliance with UK financial regulations and
+                      You must be at least 18 years old and a US resident. This
+                      ensures compliance with US financial regulations and
                       confirms your eligibility for domestic financial products.
                     </div>
                   </div>
@@ -105,7 +104,7 @@ export default function TSBCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -136,7 +135,7 @@ export default function TSBCreditCardRequirementsPage() {
                       <span className="font-semibold">Proof of Address:</span>{" "}
                       Recent utility bills, council tax statements, or bank
                       statements (typically no older than 3 months) to confirm
-                      your current UK residential address. TSB may also verify
+                      your current US residential address. TSB may also verify
                       your address electronically using the electoral roll.
                     </div>
                   </div>

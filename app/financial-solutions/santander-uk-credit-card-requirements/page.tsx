@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Santander UK Credit Card Requirements: Application Guide - Top Finance UK",
+      "Santander US Credit Card Requirements: Application Guide - KardTrust",
     description:
-      "Learn about the eligibility criteria, documentation, and application process for the Santander UK Credit Card to improve your chances of approval.",
+      "Learn about the eligibility criteria, documentation, and application process for the Santander US Credit Card to improve your chances of approval.",
     keywords:
-      "Santander UK Credit Card requirements, UK credit card application, Santander eligibility, credit score requirements, UK banking applications",
+      "Santander US Credit Card requirements, US credit card application, Santander eligibility, credit score requirements, US banking applications",
   };
 }
 
@@ -25,11 +25,11 @@ export default function SantanderUKCreditCardRequirementsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
-              Requirements for the Santander UK Credit Card
+              Requirements for the Santander US Credit Card
             </h1>
 
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -37,7 +37,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                The Santander UK Credit Card offers a balanced mix of cashback
+                The Santander US Credit Card offers a balanced mix of cashback
                 rewards, promotional rates, and international spending benefits
                 for a wide range of financial needs.
               </p>
@@ -45,7 +45,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://media.topfinanzas.com/images/uk/credit-cards/718644940-top_prestamos-y-tarjetas-uk_v1-04.webp"
-                  alt="Santander UK Credit Card"
+                  alt="Santander US Credit Card"
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
@@ -58,7 +58,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
 
               <section className="my-6">
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                  How to Qualify for the Santander UK Credit Card
+                  How to Qualify for the Santander US Credit Card
                 </h2>
 
                 <div className="space-y-6 my-8">
@@ -69,8 +69,8 @@ export default function SantanderUKCreditCardRequirementsPage() {
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
                       You must be at least 18 years old and a permanent UK
-                      resident with a permanent UK address. This ensures
-                      compliance with UK financial regulations and establishes
+                      resident with a permanent US address. This ensures
+                      compliance with US financial regulations and establishes
                       your eligibility for domestic banking products.
                     </div>
                   </div>
@@ -105,7 +105,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -136,7 +136,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                       <span className="font-semibold">Proof of Address:</span>{" "}
                       Recent utility bills, council tax statements, or bank
                       statements (typically no older than 3 months) to confirm
-                      your current UK residential address. Santander may also
+                      your current US residential address. Santander may also
                       verify your address electronically using the electoral
                       roll.
                     </div>
@@ -175,7 +175,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  Understanding the Santander UK Credit Card application process
+                  Understanding the Santander US Credit Card application process
                   can help increase your chances of a successful application:
                 </p>
 
@@ -243,7 +243,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  Before applying for the Santander UK Credit Card, it's
+                  Before applying for the Santander US Credit Card, it's
                   important to understand the associated costs:
                 </p>
 
@@ -306,7 +306,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                   <Link href="/personal-finance/best-personal-loans">
                     <Image
                       src="https://media.topfinanzas.com/images/ads/Top-Blog-Personal-loans-1.webp"
-                      alt="Santander UK Credit Card"
+                      alt="Santander US Credit Card"
                       width={1000}
                       height={563}
                       className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
@@ -366,7 +366,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  The Santander UK Credit Card is particularly well-suited for
+                  The Santander US Credit Card is particularly well-suited for
                   several types of customers:
                 </p>
 
@@ -443,7 +443,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                   <Link href="/personal-finance/getting-out-of-debt">
                     <Image
                       src="https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp"
-                      alt="Santander UK Credit Card"
+                      alt="Santander US Credit Card"
                       width={1000}
                       height={563}
                       className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
@@ -453,11 +453,11 @@ export default function SantanderUKCreditCardRequirementsPage() {
                 </div>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
-                  Is the Santander UK Credit Card Right for You?
+                  Is the Santander US Credit Card Right for You?
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light text-left">
-                  When considering the Santander UK Credit Card, it's important
+                  When considering the Santander US Credit Card, it's important
                   to evaluate how its specific features align with your
                   financial needs and spending habits. This card offers a
                   balanced mix of cashback rewards, promotional rates, and

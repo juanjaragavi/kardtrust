@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Monzo Personal Loan: Simple, Transparent Neobank Lending - Top Finance UK",
+      "Monzo Personal Loan: Simple, Transparent Neobank Lending - KardTrust",
     description:
       "Explore Monzo Personal Loans offering quick decisions, clear terms, and seamless management through the Monzo app.",
     keywords:
-      "Monzo Personal Loan, UK loans, neobank loan, personal finance, debt consolidation, flexible repayment, Monzo app, loan application",
+      "Monzo Personal Loan, US loans, neobank loan, personal finance, debt consolidation, flexible repayment, Monzo app, loan application",
   };
 }
 
@@ -140,7 +140,7 @@ export default function MonzoPersonalLoanPage() {
                 </h2>
 
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

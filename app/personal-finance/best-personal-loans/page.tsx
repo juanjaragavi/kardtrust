@@ -16,12 +16,12 @@ export default function BestPersonalLoansPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
-              Best Personal Loans in the UK: Your Complete Guide
+              Best Personal Loans in the US: Your Complete Guide
             </h1>
 
-            {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_topfinanzas_3"
+              id="uk_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -32,7 +32,7 @@ export default function BestPersonalLoansPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
                 Find the perfect personal loan for your needs with our
-                comprehensive guide to the UK's top lenders, rates, and
+                comprehensive guide to the US's top lenders, rates, and
                 application requirements.
               </p>
 
@@ -52,13 +52,13 @@ export default function BestPersonalLoansPage() {
 
               <section className="my-6">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  Understanding Personal Loans in the UK
+                  Understanding Personal Loans in the US
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Personal loans provide a versatile financial solution for
                   various needs, from consolidating debt to funding home
-                  improvements or covering unexpected expenses. In the UK, these
+                  improvements or covering unexpected expenses. In the US, these
                   unsecured loans typically range from £1,000 to £50,000 with
                   repayment terms spanning 1 to 7 years, depending on the lender
                   and your financial profile.
@@ -74,7 +74,7 @@ export default function BestPersonalLoansPage() {
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
-                  Top Personal Loan Providers in the UK
+                  Top Personal Loan Providers in the US
                 </h2>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
@@ -95,7 +95,7 @@ export default function BestPersonalLoansPage() {
                   Their application process is straightforward, with same-day
                   approval available for many customers. Nationwide's
                   transparent terms and member-owned structure have earned them
-                  high satisfaction ratings among UK borrowers.
+                  high satisfaction ratings among US borrowers.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
@@ -232,7 +232,7 @@ export default function BestPersonalLoansPage() {
                 </h2>
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Ready to explore specific loan products? Here are some popular
-                  options available in the UK:
+                  options available in the US:
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
@@ -276,7 +276,7 @@ export default function BestPersonalLoansPage() {
                       href="/financial-solutions/santander-uk-personal-loan"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK Personal Loan:
+                      Santander US Personal Loan:
                     </a>{" "}
                     See potential benefits for 1|2|3 World customers.
                   </li>
@@ -357,9 +357,9 @@ export default function BestPersonalLoansPage() {
                   </li>
                 </ul>
 
-                {/* Placeholder `<div>` for the Ad Unit 'uk_topfinanzas_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_topfinanzas_4"
+                  id="uk_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}
@@ -372,7 +372,7 @@ export default function BestPersonalLoansPage() {
                 </h2>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  The UK personal loan market offers diverse options to suit
+                  The US personal loan market offers diverse options to suit
                   different financial needs and circumstances. By researching
                   thoroughly, comparing offers from multiple lenders, and
                   considering the factors that matter most to your situation,
