@@ -1,21 +1,64 @@
-Complete image URL migration to kardtrust subdirectory
+fix: update dependencies and remove deprecated packages
 
-Finalized the migration of remaining image URLs from generic `/images/uk/` paths to the standardized `/images/kardtrust/` subdirectory structure.
+Successfully resolved all Vercel build warnings by updating deprecated packages and outdated dependencies.
 
-Files Updated:
-- Blog archive page (app/blog/page.tsx)
-- Homepage featured posts (app/page.tsx)
-- Personal finance archive page
-- Personal loans strategy page and metadata
-- Online loan tips article
-- No annual fee credit cards page and metadata
-- Credit card interest rates metadata
-- Blog layout recent articles sidebar
+Key Changes:
+- Removed deprecated 'sendgrid@5.2.3' package (causing mailparser/mimelib warnings)
+- Updated '@sendgrid/mail' from 8.1.5 to 8.1.6 (latest stable)
+- Updated 'nodemailer' from 6.10.1 to 7.0.9 (security fix)
+- Updated multiple Radix UI components to latest versions
+- Updated various dependencies (lucide-react, react-hook-form, sharp, etc.)
 
-Benefits:
-- Complete standardization of image paths across entire application
-- Consistent CDN URL structure for all KardTrust assets
-- Improved asset organization and scalability
-- Better brand-specific asset management on shared CDN infrastructure
+Package Count:
+- Before: 828 packages
+- After: 798 packages
+- Reduction: 30 packages (3.6% smaller)
 
-All images now consistently use: media.topfinanzas.com/images/kardtrust/[filename].webp
+Security Improvements:
+- Fixed moderate severity vulnerability in nodemailer (GHSA-mm7p-fcc7-pg87)
+- Remaining: 1 moderate severity in Next.js 15.4.3 (safe to ignore for now)
+
+Updated Dependencies:
+Core:
+- @sendgrid/mail: 8.1.5 → 8.1.6
+- nodemailer: 6.10.1 → 7.0.9
+
+UI Components (Radix):
+- @radix-ui/react-checkbox: 1.1.3 → 1.3.3
+- @radix-ui/react-radio-group: 1.2.2 → 1.3.8
+- @radix-ui/react-select: 2.1.4 → 2.2.6
+- @radix-ui/react-slider: 1.2.2 → 1.3.6
+- @radix-ui/react-slot: 1.1.1 → 1.2.3
+- @radix-ui/react-switch: 1.1.2 → 1.2.6
+- @radix-ui/react-tooltip: 1.1.6 → 1.2.8
+
+Utilities & Libraries:
+- @hookform/resolvers: 3.9.1 → 3.10.0
+- embla-carousel-react: 8.5.1 → 8.6.0
+- input-otp: 1.4.1 → 1.4.2
+- lucide-react: 0.454.0 → 0.546.0
+- next-themes: 0.4.4 → 0.4.6
+- react-day-picker: 9.8.0 → 9.11.1
+- react-hook-form: 7.54.1 → 7.65.0
+- react-resizable-panels: 2.1.7 → 2.1.9
+- sharp: 0.34.1 → 0.34.4
+- sonner: 1.7.1 → 1.7.4
+- tailwind-merge: 2.5.5 → 2.6.0
+- use-debounce: 10.0.4 → 10.0.6
+- vaul: 1.0.0 → 1.1.2
+- zod: 3.24.1 → 3.25.76
+
+Build Verification:
+✅ Build completed successfully in 21.0s
+✅ All 111 pages generated
+✅ No type errors
+✅ No linting errors
+✅ Bundle sizes optimized
+
+Note: Next.js kept at 15.4.3 (stable) - version 16.0.0 would be a major update requiring testing.
+
+Files Modified:
+- package.json (dependency updates)
+- package-lock.json (regenerated)
+- scripts/update-dependencies.sh (created)
+- docs/DEPRECATED_DEPENDENCIES_FIX.md (documentation)
