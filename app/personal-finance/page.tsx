@@ -61,7 +61,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
       date: "3 April 2025",
       category: "creditCards",
     },

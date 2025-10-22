@@ -30,7 +30,7 @@
   <style jsx>{`
     @media (min-width: 768px) {
       section {
-        background-image: url("https://media.topfinanzas.com/images/banner-home.webp");
+        background-image: url("https://media.topfinanzas.com/images/kardtrust/banner-home.webp");
       }
     }
   `}</style>
@@ -44,7 +44,7 @@
 <section className="relative py-16 md:py-24 lg:py-40 overflow-hidden">
   {/* Desktop banner image */}
   <Image
-    src="https://media.topfinanzas.com/images/banner-home.webp"
+    src="https://media.topfinanzas.com/images/kardtrust/banner-home.webp"
     alt="KardTrust - Financial guidance banner"
     fill
     priority

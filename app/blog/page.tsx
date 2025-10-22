@@ -66,7 +66,7 @@ export default function BlogArchivePage() {
       slug: "best-rewards-credit-cards",
       description: "Discover the best rewards credit cards...",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp", // Placeholder
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp", // Placeholder
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "3 April 2025",

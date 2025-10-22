@@ -36,7 +36,7 @@ export default function BestRewardsCreditCardsPage() {
               {/* TODO: Update image if needed */}
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp"
                   alt="Rewards Credit Cards" // Updated Alt Text
                   width={800}
                   height={450}

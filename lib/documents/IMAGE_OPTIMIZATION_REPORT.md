@@ -44,7 +44,7 @@ The hero banner on the homepage uses CSS `background-image` instead of the Next.
   <style jsx>{`
     @media (min-width: 768px) {
       section {
-        background-image: url("https://media.topfinanzas.com/images/banner-home.webp");
+        background-image: url("https://media.topfinanzas.com/images/kardtrust/banner-home.webp");
       }
     }
   `}</style>
@@ -66,7 +66,7 @@ import Image from "next/image";
 <section className="relative py-16 md:py-24 lg:py-40 overflow-hidden">
   {/* Desktop banner */}
   <Image
-    src="https://media.topfinanzas.com/images/banner-home.webp"
+    src="https://media.topfinanzas.com/images/kardtrust/banner-home.webp"
     alt="KardTrust Banner"
     fill
     priority
@@ -447,12 +447,12 @@ export default function HomePage() {
       <link
         rel="preload"
         as="image"
-        href="https://media.topfinanzas.com/images/banner-home.webp"
+        href="https://media.topfinanzas.com/images/kardtrust/banner-home.webp"
         type="image/webp"
         imageSrcSet="
-          https://media.topfinanzas.com/images/banner-home.webp?w=640 640w,
-          https://media.topfinanzas.com/images/banner-home.webp?w=1280 1280w,
-          https://media.topfinanzas.com/images/banner-home.webp?w=1920 1920w
+          https://media.topfinanzas.com/images/kardtrust/banner-home.webp?w=640 640w,
+          https://media.topfinanzas.com/images/kardtrust/banner-home.webp?w=1280 1280w,
+          https://media.topfinanzas.com/images/kardtrust/banner-home.webp?w=1920 1920w
         "
         imageSizes="100vw"
       />

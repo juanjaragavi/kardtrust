@@ -668,7 +668,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### Hero Banner
 
-- **Background Image (Desktop):** `https://media.topfinanzas.com/images/banner-home.webp`
+- **Background Image (Desktop):** `https://media.topfinanzas.com/images/kardtrust/banner-home.webp`
 - **Background Image (Mobile):** `https://media.topfinanzas.com/images/banner-home-mobile.webp`
 - **Background Position:** Center center
 - **Background Size:** Cover

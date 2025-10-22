@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
     images: [
-      "https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp",
+      "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
     ], // Add if featuredImage is available
   },
 };
