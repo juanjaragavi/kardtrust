@@ -155,7 +155,7 @@ export default function RootLayout({
                 "@type": "Organization",
                 name: "KardTrust",
                 url: baseUrl,
-                logo: "https://media.topfinanzas.com/images/logo-english.webp",
+                logo: "https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "PANAMA, PANAMA CITY",

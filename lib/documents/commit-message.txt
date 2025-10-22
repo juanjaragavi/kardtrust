@@ -1,27 +1,29 @@
-feat: Update favicon URLs to new KardTrust CDN paths and add brand documentation
+feat: Update to new KardTrust brand logos and increase header logo size
 
-FAVICON CDN MIGRATION:
-- Updated all favicon references from /images/ to /images/kardtrust/ CDN path
-- Modified favicon URLs in 7 core files: BRANDING.md, Preloader.tsx, blog-layout.tsx, logo.tsx, animated-image.tsx, mdx-components.tsx, next.config.mjs
-- Added rewrites in next.config.mjs for favicon.png, favicon.ico, and apple-touch-icon.png to point to new CDN URLs
-- Removed old TopFinanzas favicon files from /public/ directory (favicon.png, favicon.ico, favicon-16x16.ico, apple-touch-icon.png)
+LOGO MIGRATION:
+- Replaced old Top Finance UK logos with new KardTrust brand logos
+- Updated color logo URL to kardtrust-logo-dark.png for light backgrounds (header)
+- Updated white logo URL to kardtrust-logo-clear.png for dark backgrounds (footer)
+- Changed logo format from WebP to PNG for better compatibility
 
-BRAND DOCUMENTATION:
-- Created KARDTRUST_LOGOMARK_PROMPT.md with comprehensive brand identity analysis and AI image generation prompt
-- Includes detailed brand personality, color specifications (#DC2626 red, #2563EB blue), visual concepts, and style guidelines
-- Added 3 alternative short prompts optimized for AI image generation platforms (DALL-E, Midjourney, Stable Diffusion)
-- Created FAVICON_UPDATE_SUMMARY.md with complete testing checklist and rollback procedures
+FILES UPDATED:
+- lib/images/logos.ts: Primary logo configuration with new CDN URLs
+- BRANDING.md: Updated logo specifications in documentation (2 locations)
+- app/layout.tsx: Updated structured data (JSON-LD) organization schema logo
+- next.config.mjs: Updated cache headers for new logo path
+- lib/documents/FAVICON_UPDATE_SUMMARY.md: Updated next phase logo URLs
 
-BUG FIXES:
-- Fixed next.config.mjs rewrite configuration by removing invalid 'permanent' field (only valid for redirects, not rewrites)
-- Resolved development server startup error preventing Next.js from running
-- Cleared Next.js cache and verified clean server start
+LOGO SIZE ADJUSTMENT:
+- Increased header logo size by 5% for better visibility
+- Header logo dimensions: 160px × 42px → 168px × 44px
+- Footer logo remains at 160px × 42px
 
-TESTING:
-- Verified development server runs successfully on localhost:3005
-- Confirmed middleware compilation and page routing working correctly
-- Prepared testing checklist for favicon visibility across browsers and devices
+CLEANUP:
+- Removed old local logo files from public/images/
+- Deleted: logo-english-color.png, logo-english-white.png, logo-english.webp, logo-white.webp
 
-NEXT PHASE:
-- Phase 2 ready: header/footer logo updates to /images/kardtrust/ paths
-- Logo URLs prepared: logo-english.webp and logo-white.webp
+NEW LOGO URLS:
+- Color Logo: https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png
+- White Logo: https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png
+
+All logos now served from GCP media bucket with proper optimization and caching.

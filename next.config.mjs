@@ -67,7 +67,7 @@ const nextConfig = {
       },
       {
         // Logo image caching
-        source: "/images/logo-english.webp",
+        source: "/images/kardtrust/kardtrust-logo-dark.png",
         headers: [
           {
             key: "Cache-Control",

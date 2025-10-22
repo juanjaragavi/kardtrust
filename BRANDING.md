@@ -346,10 +346,10 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### Color Logo (Light Backgrounds)
 
-- **URL:** `https://media.topfinanzas.com/images/logo-english.webp?w=200&q=75`
+- **URL:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png?w=200&q=75`
 - **Alt Text:** "KardTrust"
 - **Dimensions:** 160px × 42px (optimal display size)
-- **Format:** WebP (optimized)
+- **Format:** PNG (optimized)
 - **File Size:** ~4KB
 - **Usage:** Header, light backgrounds, general use
 - **Background:** Transparent
@@ -357,10 +357,10 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 #### White Logo (Dark Backgrounds)
 
-- **URL:** `https://media.topfinanzas.com/images/logo-white.webp?w=200&q=75`
+- **URL:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png?w=200&q=75`
 - **Alt Text:** "KardTrust"
 - **Dimensions:** 160px × 42px (optimal display size)
-- **Format:** WebP (optimized)
+- **Format:** PNG (optimized)
 - **File Size:** ~4KB
 - **Usage:** Footer, dark backgrounds
 - **Background:** Transparent
@@ -781,7 +781,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
   "@type": "Organization",
   "name": "KardTrust",
   "url": "https://kardtrust.com",
-  "logo": "https://media.topfinanzas.com/images/logo-english.webp",
+  "logo": "https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "PANAMA, PANAMA CITY",
