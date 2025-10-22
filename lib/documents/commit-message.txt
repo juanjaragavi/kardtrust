@@ -1,29 +1,14 @@
-feat: Update to new KardTrust brand logos and increase header logo size
+docs: Add KardTrust clear logo to README.md header
 
-LOGO MIGRATION:
-- Replaced old Top Finance UK logos with new KardTrust brand logos
-- Updated color logo URL to kardtrust-logo-dark.png for light backgrounds (header)
-- Updated white logo URL to kardtrust-logo-clear.png for dark backgrounds (footer)
-- Changed logo format from WebP to PNG for better compatibility
+DOCUMENTATION UPDATE:
+- Added KardTrust clear logo image to README.md header
+- Logo displayed at 300px width for optimal visibility
+- Centered logo with GitHub badge for professional presentation
+- Logo URL: https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png
 
-FILES UPDATED:
-- lib/images/logos.ts: Primary logo configuration with new CDN URLs
-- BRANDING.md: Updated logo specifications in documentation (2 locations)
-- app/layout.tsx: Updated structured data (JSON-LD) organization schema logo
-- next.config.mjs: Updated cache headers for new logo path
-- lib/documents/FAVICON_UPDATE_SUMMARY.md: Updated next phase logo URLs
+BRANDING CONSISTENCY:
+- Ensures README matches the site's KardTrust brand identity
+- Uses same clear/white logo as footer for dark backgrounds
+- Improves GitHub repository visual presentation
 
-LOGO SIZE ADJUSTMENT:
-- Increased header logo size by 5% for better visibility
-- Header logo dimensions: 160px × 42px → 168px × 44px
-- Footer logo remains at 160px × 42px
-
-CLEANUP:
-- Removed old local logo files from public/images/
-- Deleted: logo-english-color.png, logo-english-white.png, logo-english.webp, logo-white.webp
-
-NEW LOGO URLS:
-- Color Logo: https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png
-- White Logo: https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-clear.png
-
-All logos now served from GCP media bucket with proper optimization and caching.
+This update completes the brand migration from Top Finance UK to KardTrust across all documentation and code.
