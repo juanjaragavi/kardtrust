@@ -127,7 +127,7 @@ export function Header() {
                   ref={(el) => {
                     setMenuButtonRef(el, "categories");
                   }}
-                  className="text-link hover:text-primary flex items-center space-x-1 text-sm"
+                  className="text-gray-700 hover:text-gray-900 flex items-center space-x-1 text-sm font-medium transition-colors"
                   onClick={(e) => {
                     // Prevent default browser action but DON'T stop propagation
                     e.preventDefault();
@@ -182,7 +182,7 @@ export function Header() {
                   ref={(el) => {
                     setMenuButtonRef(el, "blog");
                   }}
-                  className="text-link hover:text-primary flex items-center space-x-1 text-sm"
+                  className="text-gray-700 hover:text-gray-900 flex items-center space-x-1 text-sm font-medium transition-colors"
                   onClick={(e) => {
                     // Prevent default browser action but DON'T stop propagation
                     e.preventDefault();
@@ -310,7 +310,7 @@ export function Header() {
                           <div className="mt-4 text-right">
                             <Link
                               href="/blog"
-                              className="text-link font-medium inline-flex items-center text-blue-700 underline underline-offset-2"
+                              className="text-gray-700 hover:text-gray-900 font-medium inline-flex items-center underline underline-offset-2 transition-colors"
                               onClick={() => setActiveMegaMenu(null)}
                             >
                               {headerContent.blogMegaMenu.viewAllText}
@@ -344,7 +344,7 @@ export function Header() {
                   <Link
                     key={item.href}
                     href={item.href}
-                    className="text-link hover:text-primary text-sm" // text-sm already applied here, confirming
+                    className="text-gray-700 hover:text-gray-900 text-sm font-medium transition-colors"
                   >
                     {item.text}
                   </Link>
@@ -387,7 +387,7 @@ export function Header() {
                 <nav className="space-y-4">
                   {/* Navigation Section */}
                   <div className="space-y-2">
-                    <div className="text-h3 text-primary font-semibold">
+                    <div className="text-h3 text-gray-700 font-semibold">
                       {headerContent.mobileMenu.navigateLabel}
                     </div>
                     <Link
@@ -429,7 +429,7 @@ export function Header() {
 
                   {/* Categories Section */}
                   <div className="space-y-2">
-                    <div className="text-h3 text-[#2E74B5] font-semibold">
+                    <div className="text-h3 text-gray-700 font-semibold">
                       {headerContent.mobileMenu.categoriesLabel}
                     </div>
                     {headerNavigation.categoryDropdown.items
