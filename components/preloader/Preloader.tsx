@@ -133,7 +133,7 @@ const Preloader: React.FC<PreloaderProps> = ({
                     className="relative z-10 w-32 h-32 flex items-center justify-center"
                   >
                     <Image
-                      src="https://media.topfinanzas.com/images/favicon.png"
+                      src="https://media.topfinanzas.com/images/kardtrust/favicon.png"
                       alt="KardTrust Logo"
                       width={128}
                       height={128}

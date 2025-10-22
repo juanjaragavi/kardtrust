@@ -33,7 +33,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
     readingTime = "6 minute read",
     // Default categories updated to reflect current structure
     categories = [{ name: "Personal Finance", slug: "personal-finance" }],
-    featuredImage = "https://media.topfinanzas.com/images/favicon.webp",
+    featuredImage = "https://media.topfinanzas.com/images/kardtrust/favicon.webp",
     excerpt = "",
     views = 0,
     commentCount = 0,

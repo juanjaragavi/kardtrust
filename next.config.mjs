@@ -22,7 +22,18 @@ const nextConfig = {
     return [
       {
         source: "/favicon.png",
-        destination: "https://media.topfinanzas.com/images/favicon.png",
+        destination:
+          "https://media.topfinanzas.com/images/kardtrust/favicon.png",
+      },
+      {
+        source: "/favicon.ico",
+        destination:
+          "https://media.topfinanzas.com/images/kardtrust/favicon.png",
+      },
+      {
+        source: "/apple-touch-icon.png",
+        destination:
+          "https://media.topfinanzas.com/images/kardtrust/favicon.png",
       },
     ];
   },

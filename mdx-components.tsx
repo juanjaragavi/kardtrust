@@ -107,7 +107,8 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         <span className="block my-6">
           <Image
             src={
-              props.src || "https://media.topfinanzas.com/images/favicon.webp"
+              props.src ||
+              "https://media.topfinanzas.com/images/kardtrust/favicon.webp"
             }
             alt={props.alt || ""}
             width={props.width ? Number(props.width) : 800}

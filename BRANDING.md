@@ -392,7 +392,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 - **Location:** `/favicon.png`, `/favicon.ico`
 - **Format:** PNG (primary), ICO (fallback)
 - **Sizes:** 32×32, 48×48, 64×64
-- **Source:** `https://media.topfinanzas.com/images/favicon.png`
+- **Source:** `https://media.topfinanzas.com/images/kardtrust/favicon.png`
 
 #### Apple Touch Icon
 
