@@ -168,7 +168,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                 alt={title}
                 width={1200}
                 height={675}
-                className="w-full h-auto rounded-2xl"
+                className="w-full h-auto rounded-xl"
                 priority
               />
             </div>
@@ -444,7 +444,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
               </div>
 
               {/* Newsletter signup */}
-              <div className="p-4 bg-red-50 rounded-2xl">
+              <div className="p-4 bg-red-50 rounded-xl">
                 <h3 className="text-[12px] font-bold mb-2 text-[#234043]">
                   Subscribe to our newsletter
                 </h3>

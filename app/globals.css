@@ -149,6 +149,34 @@ body {
     @apply text-sm text-white leading-5;
   }
 
+  /* Section Spacing - BudgetBee pattern */
+  .section {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+
+  /* Container Pattern */
+  .container {
+    @apply mx-auto px-4 max-w-7xl;
+  }
+
+  /* Row Pattern */
+  .row {
+    @apply flex flex-wrap -mx-4;
+  }
+
+  /* Column Utilities */
+  .lg\:col-10 {
+    @apply lg:w-10/12;
+  }
+
+  .md\:col-6 {
+    @apply md:w-1/2;
+  }
+
+  .col-12 {
+    @apply w-full;
+  }
+
   .footer-link {
     @apply text-white hover:text-blue-300 hover:underline;
   }

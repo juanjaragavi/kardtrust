@@ -3,7 +3,8 @@
   
   # KardTrust - Next.js Project
 
-  [![GitHub Repository](https://img.shields.io/badge/GitHub-kardtrust-blue?logo=github)](https://github.com/juanjaragavi/kardtrust)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-kardtrust-blue?logo=github)](https://github.com/juanjaragavi/kardtrust)
+
 </div>
 
 This is a Next.js 15+ project for KardTrust, a financial services comparison website for the United States market. It includes a blog, credit card comparison tools, personal loan guides, and comprehensive financial services information.

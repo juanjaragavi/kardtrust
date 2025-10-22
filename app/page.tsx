@@ -2,12 +2,13 @@
 
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { HeroSection } from "@/components/layout/hero-section";
+import { FiftyFiftySection } from "@/components/layout/fifty-fifty-section";
 import { FeaturedPostsGrid } from "@/components/ui/featured-posts-grid";
 import { FeaturedPostCard } from "@/components/ui/featured-post-card";
 import { useState, useMemo } from "react";
 import { Button } from "@/components/ui/button";
 import dynamic from "next/dynamic";
-import Image from "next/image";
 
 // Dynamically import components that aren't needed for the initial render
 const DynamicPagination = dynamic(
@@ -216,46 +217,38 @@ export default function Home() {
     <main className="bg-white min-h-screen flex flex-col">
       <Header />
 
-      {/* Banner Section - Optimized with Next.js Image component for better LCP */}
-      <section className="relative py-16 md:py-24 lg:py-40 overflow-hidden">
-        {/* Desktop banner image */}
-        <Image
-          src="https://media.topfinanzas.com/images/banner-home.webp"
-          alt="KardTrust - Financial guidance banner"
-          fill
-          priority
-          quality={85}
-          sizes="100vw"
-          className="object-cover object-center hidden md:block"
-          style={{ objectFit: "cover" }}
-        />
+      {/* Hero Section - New BudgetBee-style design */}
+      <HeroSection
+        title="Your Trusted Partner for Smart Financial Decisions"
+        subtitle="Make smarter financial decisions with KardTrust. We provide clear, unbiased guidance on credit cards, personal loans, and financial planning – helping you choose wisely and live fully."
+        ctaText="Start Your Journey"
+        ctaLink="/blog"
+        imageSrc="https://media.topfinanzas.com/images/banner-home.webp"
+        imageAlt="KardTrust - Financial guidance and comparison"
+      />
 
-        {/* Mobile banner image */}
-        <Image
-          src="https://media.topfinanzas.com/images/banner-home-mobile.webp"
-          alt="KardTrust - Financial guidance banner"
-          fill
-          priority
-          quality={85}
-          sizes="100vw"
-          className="object-cover object-center md:hidden"
-          style={{ objectFit: "cover" }}
-        />
+      {/* 50/50 Sections - Placed before blog posts */}
+      <FiftyFiftySection
+        title="Find the Perfect Credit Card for Your Lifestyle"
+        description="Navigate the overwhelming world of credit cards with confidence. We analyze hundreds of options to recommend cards that actually match your spending habits and financial goals. Whether you're building credit, maximizing rewards, or consolidating debt, we'll help you find the right fit – without the sales pitch."
+        imageSrc="https://media.topfinanzas.com/images/uk/Top_Finance_uk_credit_cards.webp"
+        imageAlt="Credit card comparison"
+        ctaText="Explore Credit Cards"
+        ctaLink="/credit-cards"
+        imagePosition="right"
+        bgColor="white"
+      />
 
-        {/* Background Overlay */}
-        <div className="absolute inset-0 bg-black opacity-30 md:opacity-25 z-[1]"></div>
-
-        {/* Content */}
-        <div className="container mx-auto px-4 text-left relative z-[2]">
-          <h1 className="text-white text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 drop-shadow-lg leading-tight">
-            Welcome to KardTrust
-          </h1>
-          <p className="text-white text-base md:text-lg lg:text-xl max-w-3xl mb-6 md:mb-8 drop-shadow-md leading-tight">
-            Where every financial decision expands your world. <br />
-            Choose wisely, live fully.
-          </p>
-        </div>
-      </section>
+      <FiftyFiftySection
+        title="Smart Personal Loan Solutions"
+        description="Finding the right personal loan doesn't have to be complicated. We break down your options, compare rates from leading lenders, and help you understand the terms that matter. From debt consolidation to major purchases, make informed decisions with our comprehensive loan guides."
+        imageSrc="https://media.topfinanzas.com/images/best-personal-loans.webp"
+        imageAlt="Personal loan comparison"
+        ctaText="Compare Loans"
+        ctaLink="/personal-loans"
+        imagePosition="left"
+        bgColor="light"
+      />
 
       {/* Blog Section */}
       <section className="py-12 md:py-16 lg:py-20 bg-gradient-to-b from-white to-gray-50">
