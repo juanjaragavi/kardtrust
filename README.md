@@ -36,6 +36,7 @@ npm run lint     # Run ESLint
 4. On the server, environment files are stored in `/opt/app/` with strict permissions
 
 **Required Environment Variables:**
+
 - `GOOGLE_SERVICE_ACCOUNT_EMAIL` - Google Sheets integration
 - `GOOGLE_PRIVATE_KEY` - Google Sheets authentication
 - `GOOGLE_SHEET_ID` - Target spreadsheet

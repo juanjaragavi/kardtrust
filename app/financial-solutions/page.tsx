@@ -506,7 +506,7 @@ export default function FinancialSolutionsPage() {
       )}
 
       {/* CTA section */}
-      <div className="bg-blue-50 p-8 rounded-xl shadow-sm mb-10">
+      <div className="bg-red-50 p-8 rounded-xl shadow-sm mb-10">
         <h2 className="text-2xl font-bold mb-4 text-left sm:text-left">
           Looking for the ideal card for you?
         </h2>
@@ -516,7 +516,7 @@ export default function FinancialSolutionsPage() {
         </p>
         <Link
           href="/credit-card-recommender-p1"
-          className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 inline-block transition-colors rounded-full"
+          className="bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 inline-block transition-colors rounded-full"
         >
           Go to Recommender
         </Link>

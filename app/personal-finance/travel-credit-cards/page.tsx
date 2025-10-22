@@ -45,13 +45,13 @@ export default function TravelCreditCardsPage() {
                 travel insurance, and rewarding points systems.
               </p>
 
-              <div className="my-8 bg-blue-50 p-6 rounded-xl">
+              <div className="my-8 bg-red-50 p-6 rounded-xl">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Top Travel Credit Cards at a Glance
                 </h2>
                 <ul className="space-y-3">
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -74,7 +74,7 @@ export default function TravelCreditCardsPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -97,7 +97,7 @@ export default function TravelCreditCardsPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -125,7 +125,7 @@ export default function TravelCreditCardsPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block bg-blue-600 rounded-full p-1 mr-3 mt-1">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-4 w-4 text-white"
@@ -416,7 +416,7 @@ export default function TravelCreditCardsPage() {
                 </li>
               </ul>
 
-              <div className="p-6 bg-blue-50 rounded-xl mb-8">
+              <div className="p-6 bg-red-50 rounded-xl mb-8">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Related Resources
                 </h2>

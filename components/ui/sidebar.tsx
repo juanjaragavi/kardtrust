@@ -824,7 +824,7 @@ const SidebarNewsletter = React.forwardRef<
     <div
       ref={ref}
       data-sidebar="newsletter"
-      className={cn("px-2 my-4 bg-blue-50 p-4 rounded-2xl", className)}
+      className={cn("px-2 my-4 bg-red-50 p-4 rounded-2xl", className)}
       {...props}
     >
       <h3 className="font-semibold text-lg mb-2">

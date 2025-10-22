@@ -59,7 +59,7 @@ export function AIContentDisclaimer() {
 
   return (
     <div className="mt-10 pt-6 border-t border-gray-200">
-      <div className="bg-blue-50 rounded-xl p-6">
+      <div className="bg-red-50 rounded-xl p-6">
         <div className="flex items-start">
           <div className="flex-shrink-0 mr-4">
             <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-white">
@@ -73,7 +73,7 @@ export function AIContentDisclaimer() {
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
                   if (e.currentTarget.parentElement) {
-                    e.currentTarget.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-blue-200 text-blue-600 font-semibold text-lg">
+                    e.currentTarget.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-red-100 text-primary font-semibold text-lg">
                         ${author.name
                           .split(" ")
                           .map((n) => n[0])
@@ -137,7 +137,7 @@ export function AIContentDisclaimerStatic() {
 
   return (
     <div className="mt-10 pt-6 border-t border-gray-200">
-      <div className="bg-blue-50 rounded-xl p-6">
+      <div className="bg-red-50 rounded-xl p-6">
         <div className="flex items-start">
           <div className="flex-shrink-0 mr-4">
             <div className="relative w-16 h-16 rounded-full overflow-hidden border-2 border-white">
@@ -150,7 +150,7 @@ export function AIContentDisclaimerStatic() {
                 onError={(e) => {
                   e.currentTarget.style.display = "none";
                   if (e.currentTarget.parentElement) {
-                    e.currentTarget.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-blue-200 text-blue-600 font-semibold text-lg">
+                    e.currentTarget.parentElement.innerHTML = `<div class="w-full h-full flex items-center justify-center bg-red-100 text-primary font-semibold text-lg">
                         ${author.name
                           .split(" ")
                           .map((n) => n[0])

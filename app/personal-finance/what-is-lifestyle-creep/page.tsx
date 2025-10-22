@@ -144,7 +144,7 @@ export default function WhatIsLifestyleCreepPage() {
                   towards your financial security and independence.
                 </p>
 
-                <div className="bg-blue-50 p-4 rounded-lg mb-4">
+                <div className="bg-red-50 p-4 rounded-lg mb-4">
                   <h3 className="text-left sm:text-left text-lg font-semibold text-gray-800 mb-3">
                     Real US scenario:
                   </h3>

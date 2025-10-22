@@ -9,7 +9,7 @@ import { footerContent } from "@/lib/texts/footer/content";
 
 export function Footer() {
   return (
-    <footer className="bg-[#3F67B9] text-white">
+    <footer className="bg-primary-dark text-white">
       <div className="container mx-auto px-6 py-12">
         {/* Logo Section - Added at the top for mobile */}
         <div className="flex flex-col items-center md:items-start mb-8">

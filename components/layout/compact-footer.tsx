@@ -8,7 +8,7 @@ import { footerNavigation } from "@/lib/navigation/footerNavigation";
 
 export function CompactFooter() {
   return (
-    <footer className="bg-[#3F67B9] text-white">
+    <footer className="bg-primary-dark text-white">
       <div className="container mx-auto px-4 py-8">
         {/* Logo Section */}
         <div className="flex justify-center mb-4">

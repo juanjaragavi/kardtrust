@@ -71,11 +71,11 @@ body {
   }
 
   .text-h2 {
-    @apply text-[12px] text-gray-800 leading-6;
+    @apply text-[12px] text-primary-dark leading-6;
   }
 
   .text-h3 {
-    @apply text-[14px] font-semibold text-gray-800 leading-6;
+    @apply text-[14px] font-semibold text-primary-dark leading-6;
   }
 
   /* Paragraph Typography */
@@ -90,7 +90,7 @@ body {
 
   /* Link Typography */
   .text-link {
-    @apply text-blue-900 hover:text-primary hover:underline;
+    @apply text-primary hover:text-primary-dark hover:underline;
   }
 
   /* Caption/Meta Typography */

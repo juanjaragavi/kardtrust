@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     title: "US Financial Solutions: Credit Cards & Loans | KardTrust",
     description:
       "Your guide to the top credit cards and personal loans available in the US. Compare options and find the best fit for your needs.",
-    images: ["https://media.topfinanzas.com/images/barclaycard-avios-plus.webp"],
+    images: [
+      "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
+    ],
   },
 };

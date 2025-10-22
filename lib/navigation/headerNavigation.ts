@@ -189,7 +189,8 @@ export const headerNavigation = {
         {
           title: cleanTitle("Best Personal Loans in the US"),
           href: "/personal-finance/best-personal-loans",
-          image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
+          image:
+            "https://media.topfinanzas.com/images/best-personal-loans.webp",
           category: "Personal Finance",
           categoryHref: "/personal-finance",
         },

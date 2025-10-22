@@ -72,7 +72,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     blockquote: ({ className, ...props }) => (
       <blockquote
         className={cn(
-          "border-l-4 border-blue-500 pl-4 py-1 mb-4 italic text-gray-700 bg-blue-50 rounded-r",
+          "border-l-4 border-primary-dark pl-4 py-1 mb-4 italic text-gray-700 bg-red-50 rounded-r",
           className,
         )}
         {...props}
@@ -106,7 +106,9 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
       return (
         <span className="block my-6">
           <Image
-            src={props.src || "https://media.topfinanzas.com/images/favicon.webp"}
+            src={
+              props.src || "https://media.topfinanzas.com/images/favicon.webp"
+            }
             alt={props.alt || ""}
             width={props.width ? Number(props.width) : 800}
             height={props.height ? Number(props.height) : 450}

@@ -47,8 +47,8 @@ export default function AnalyticsValidationPanel() {
 
   return (
     <div className="fixed bottom-4 right-4 z-50 bg-white border-2 border-gray-300 rounded-lg shadow-lg max-w-md">
-      <div className="p-3 bg-blue-50 border-b border-gray-200 flex items-center justify-between">
-        <h3 className="font-semibold text-sm text-secondary-navy">
+      <div className="p-3 bg-red-50 border-b border-gray-200 flex items-center justify-between">
+        <h3 className="font-semibold text-sm text-primary-dark">
           Analytics Validation
         </h3>
         <button
@@ -104,9 +104,11 @@ export default function AnalyticsValidationPanel() {
                     {result.passed ? "✓" : "✗"}{" "}
                     {result.message.split(": ")[1] || result.message}
                   </div>
-                  {result.data && (
+                  {result.data !== undefined && (
                     <div className="mt-1 text-gray-600 font-mono">
-                      {JSON.stringify(result.data, null, 2)}
+                      <pre className="whitespace-pre-wrap break-words text-xs">
+                        {String(JSON.stringify(result.data, null, 2))}
+                      </pre>
                     </div>
                   )}
                 </div>

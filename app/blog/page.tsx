@@ -349,12 +349,12 @@ export default function BlogArchivePage() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         <Link
           href="/personal-finance"
-          className="block p-6 bg-blue-50 rounded-xl hover:shadow-md transition-shadow"
+          className="block p-6 bg-red-50 rounded-xl hover:shadow-md transition-shadow"
         >
-          <h2 className="text-2xl font-semibold text-blue-800 mb-2">
+          <h2 className="text-2xl font-semibold text-primary-dark mb-2">
             Personal Finance Guides
           </h2>
-          <p className="text-blue-700">
+          <p className="text-primary">
             Explore tips on budgeting, saving, debt management, credit cards,
             and more.
           </p>
