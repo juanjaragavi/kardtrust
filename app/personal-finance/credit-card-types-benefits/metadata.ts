@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       "Discover everything you need to know about credit cards, from types and benefits to tips for responsible usage and maintaining healthy finances.",
     images: [
-      "https://media.topfinanzas.com/images/uk/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
+      "https://media.topfinanzas.com/images/kardtrust/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
     ], // Add if featuredImage is available
   },
 };

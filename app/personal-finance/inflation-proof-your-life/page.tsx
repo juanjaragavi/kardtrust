@@ -40,7 +40,7 @@ export default function InflationProofYourLifePage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/inflation-proof-your-life-7-smart-money-moves.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp"
                   alt="Smart money strategies to combat inflation in the US"
                   width={800}
                   height={450}

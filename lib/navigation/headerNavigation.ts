@@ -190,7 +190,7 @@ export const headerNavigation = {
           title: cleanTitle("Best Personal Loans in the US"),
           href: "/personal-finance/best-personal-loans",
           image:
-            "https://media.topfinanzas.com/images/best-personal-loans.webp",
+            "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
           category: "Personal Finance",
           categoryHref: "/personal-finance",
         },
@@ -198,7 +198,7 @@ export const headerNavigation = {
           title: cleanTitle("Practical Guide to Getting Out of Debt"),
           href: "/personal-finance/getting-out-of-debt",
           image:
-            "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
+            "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
           category: "Personal Finance",
           categoryHref: "/personal-finance",
         },

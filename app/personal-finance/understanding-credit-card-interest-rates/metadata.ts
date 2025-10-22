@@ -24,6 +24,6 @@ export const metadata: Metadata = {
       "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",
     description:
       "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
-    images: ["https://media.topfinanzas.com/images/uk/download-5-2.webp"],
+    images: ["https://media.topfinanzas.com/images/kardtrust/download-5-2.webp"],
   },
 };

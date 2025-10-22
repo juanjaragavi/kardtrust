@@ -36,7 +36,7 @@ export default function CashbackCreditCardsPage() {
               {/* TODO: Update image if needed */}
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/download-8-1.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/download-8-1.webp"
                   alt="Cashback Credit Cards" // Updated Alt Text
                   width={800}
                   height={450}

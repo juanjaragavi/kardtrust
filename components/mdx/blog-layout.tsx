@@ -64,7 +64,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     {/* Inflation-Proof Article - NEW */}
                     <div className="flex items-center gap-3">
                       <Image
-                        src="https://media.topfinanzas.com/images/inflation-proof-your-life-7-smart-money-moves.webp"
+                        src="https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp"
                         alt="Inflation-Proof Your Life: 7 Smart Money Moves"
                         width={50}
                         height={50}
@@ -88,7 +88,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     {/* Lifestyle Creep Article */}
                     <div className="flex items-center gap-3">
                       <Image
-                        src="https://media.topfinanzas.com/images/lifestyle-creep-personal-finance.webp"
+                        src="https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp"
                         alt="What Is Lifestyle Creep and How Is It Silently Draining Your Wallet"
                         width={50}
                         height={50}
@@ -112,7 +112,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     {/* Budget Article */}
                     <div className="flex items-center gap-3">
                       <Image
-                        src="https://media.topfinanzas.com/images/uk/modern-budget-guide.webp"
+                        src="https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp"
                         alt="Create a Personal Finance Budget You'll Actually Stick To"
                         width={50}
                         height={50}
@@ -136,7 +136,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                     {/* Article 1 */}
                     <div className="flex items-center gap-3">
                       <Image
-                        src="https://media.topfinanzas.com/images/best-personal-loans.webp"
+                        src="https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp"
                         alt="Best Personal Loans in the US"
                         width={50}
                         height={50}

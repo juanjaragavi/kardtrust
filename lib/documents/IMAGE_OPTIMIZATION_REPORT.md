@@ -123,7 +123,7 @@ When too many images are marked as "priority," the browser must decide which to 
 ```tsx
 // Example from app/personal-finance/getting-out-of-debt/page.tsx
 <Image
-  src="https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp"
+  src="https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp"
   alt="Getting Out of Debt"
   priority={true} // ⚠️ This page is not the homepage
   quality={85}

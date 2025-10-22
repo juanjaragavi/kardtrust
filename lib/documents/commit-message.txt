@@ -1,56 +1,22 @@
-feat: Complete brand image generation documentation and standardize media URLs
+refactor: Standardize all image URLs to kardtrust subdirectory path
 
-Major updates to brand assets and documentation:
+Completed migration of all image URLs from generic `/images/` and `/images/uk/` paths to the new centralized `/images/kardtrust/` subdirectory structure across the entire application.
 
-Brand Image Generation System (NEW):
-- Created comprehensive 7-file documentation system in /docs/
-  * BRAND_IMAGE_README.md: Master index and navigation guide
-  * BRAND_IMAGE_GENERATION_PROMPT.md: Complete prompt template (2,500+ words)
-  * BRAND_IMAGE_QUICK_PROMPT.md: Copy-paste quick reference
-  * BRAND_VISUAL_SPECIFICATIONS.md: Technical design specifications
-  * BRAND_IMAGE_PRACTICAL_EXAMPLES.md: Ready-to-use example prompts
-  * BRAND_IMAGE_CHECKLIST.md: Quality validation checklist
-  * BRAND_IMAGE_IMPLEMENTATION_SUMMARY.md: Project overview
-  * PROMPT_BANNER_HOME_HERO.md: Homepage hero banner specific prompt
+Scope of Changes:
+- Blog post metadata and page components (30+ files)
+- Homepage featured posts and hero sections
+- Personal finance article pages and featured images
+- Navigation header and mega menu images
+- Blog layout sidebar recent articles
+- Documentation and optimization reports
 
-- Extracted KardTrust brand colors from logo:
-  * Brand Red #D72638 (arrows representing growth)
-  * Brand Blue #003DA5 (stars representing trust)
+This organizational change:
+- Improves content organization and asset management
+- Ensures consistent CDN path structure
+- Enables better scalability for future image additions
+- Maintains brand-specific asset separation on shared CDN
 
-- Multi-modal LLM prompt system for DALL-E 3, Midjourney, Stable Diffusion XL
-- Two-stage approach: photography generation + post-production graphics
-- Complete quality checklists, Next.js integration examples
-- File naming conventions and responsive image guidelines
-
-Media URL Standardization:
-- Updated all media URLs from generic path to KardTrust-specific:
-  * Changed: media.topfinanzas.com/images/ 
-  * To: media.topfinanzas.com/images/kardtrust/
-- Applied across multiple files for consistency:
-  * banner-home.webp (homepage hero, globals.css, docs)
-  * Top_Finance_uk_credit_cards.webp (blog pages, metadata)
-- Updated references in BRANDING.md, IMAGE_OPTIMIZATION_REPORT.md
-
-Files Modified:
-- BRANDING.md: Updated banner image URL
-- app/page.tsx: Homepage hero image path
-- app/blog/page.tsx: Featured post image
-- app/globals.css: Desktop banner background URL
-- app/personal-finance/best-rewards-credit-cards/page.tsx: Hero image
-- app/personal-finance/best-rewards-credit-cards/metadata.ts: Twitter card image
-- app/personal-finance/page.tsx: Archive listing image
-- app/personal-finance/what-is-lifestyle-creep/page.tsx: Fixed storage URL
-- lib/documents/IMAGE_OPTIMIZATION_REPORT.md: Updated example URLs
-- lib/documents/PRIORITY_1_IMPLEMENTATION.md: Updated implementation examples
-
-Files Created:
-- docs/BRAND_IMAGE_README.md (new)
-- docs/BRAND_IMAGE_GENERATION_PROMPT.md (new)
-- docs/BRAND_IMAGE_QUICK_PROMPT.md (new)
-- docs/BRAND_VISUAL_SPECIFICATIONS.md (new)
-- docs/BRAND_IMAGE_PRACTICAL_EXAMPLES.md (new)
-- docs/BRAND_IMAGE_CHECKLIST.md (new)
-- docs/BRAND_IMAGE_IMPLEMENTATION_SUMMARY.md (new)
+All images now use the pattern: media.topfinanzas.com/images/kardtrust/[filename].webp
 - docs/PROMPT_BANNER_HOME_HERO.md (new)
 
 Documentation system complete and ready for production image generation. All media URLs now follow KardTrust-specific naming convention for better asset organization.

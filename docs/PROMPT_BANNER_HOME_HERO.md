@@ -368,7 +368,7 @@ RED UPWARD ARROWS:
 - Semi-transparent (85-90% opacity)
 
 BLUE STARS:
-- 4-5 bright blue four-pointed stars (color: #003DA5 / rgb(0, 61, 165))  
+- 4-5 bright blue four-pointed stars (color: #003DA5 / rgb(0, 61, 165))
 - Scattered across composition, especially in left negative space
 - Sharp, compass-style points with subtle glow effect
 - Various sizes (large to small)

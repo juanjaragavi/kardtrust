@@ -37,7 +37,7 @@ export default function CreditCardTypesBenefitsPage() {
               {/* TODO: Update image if needed */}
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/Top_Finanzas_Top_tarjeta_de_credito-1.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/Top_Finanzas_Top_tarjeta_de_credito-1.webp"
                   alt="Credit Card Types" // Updated Alt Text
                   width={800}
                   height={450}

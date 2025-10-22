@@ -38,7 +38,7 @@ export default function MoneyManagementBeginnersPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/money-management-for-beginners.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/money-management-for-beginners.webp"
                   alt="Getting started with personal finance and money management in the US"
                   width={800}
                   height={450}

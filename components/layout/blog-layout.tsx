@@ -354,7 +354,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   >
                     <div className="relative h-32 rounded-xl overflow-hidden">
                       <Image
-                        src="https://media.topfinanzas.com/images/best-personal-loans.webp" // Updated Image
+                        src="https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp" // Updated Image
                         alt="Best Personal Loans in the US" // Updated Alt
                         fill
                         style={{ objectFit: "cover" }}

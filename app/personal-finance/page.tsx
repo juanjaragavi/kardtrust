@@ -42,7 +42,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Discover seven practical strategies to protect your purchasing power during high inflation. Learn how to cut invisible spending leaks, lock in fixed rates, build emergency buffers, and keep your personal finance on track when costs are rising.",
       image:
-        "https://media.topfinanzas.com/images/inflation-proof-your-life-7-smart-money-moves.webp",
+        "https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp",
       date: "15 October 2025",
       category: "guide",
     },
@@ -51,7 +51,8 @@ export default function PersonalFinanceArchivePage() {
       slug: "best-personal-loans",
       description:
         "Comprehensive guide to the US's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays.",
-      image: "https://media.topfinanzas.com/images/best-personal-loans.webp",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
       date: "30 March 2025",
       category: "loans",
     },
@@ -71,7 +72,7 @@ export default function PersonalFinanceArchivePage() {
       slug: "cashback-credit-cards",
       description:
         "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
-      image: "https://media.topfinanzas.com/images/uk/download-8-1.webp",
+      image: "https://media.topfinanzas.com/images/kardtrust/download-8-1.webp",
       date: "3 April 2025",
       category: "creditCards",
     },
@@ -82,7 +83,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Discover everything you need to know about credit cards, from types and benefits to tips for responsible usage and maintaining healthy finances.",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
       date: "3 April 2025",
       category: "creditCards",
     },
@@ -92,7 +93,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Feeling overwhelmed by debt? Get practical strategies for getting out of debt, building an emergency fund, and taking control of your finances.",
       image:
-        "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
       date: "3 April 2025",
       category: "debt",
     },
@@ -132,7 +133,7 @@ export default function PersonalFinanceArchivePage() {
       slug: "top-credit-cards-0-intro-apr",
       description:
         "Compare the best credit cards offering 0% introductory APR on purchases and balance transfers in the US. Save money on interest and manage debt effectively.",
-      image: "https://media.topfinanzas.com/images/uk/APR.webp",
+      image: "https://media.topfinanzas.com/images/kardtrust/APR.webp",
       date: "3 April 2025",
       category: "creditCards",
     },
@@ -142,7 +143,7 @@ export default function PersonalFinanceArchivePage() {
       slug: "understanding-credit-card-interest-rates",
       description:
         "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
-      image: "https://media.topfinanzas.com/images/uk/download-5-2.webp",
+      image: "https://media.topfinanzas.com/images/kardtrust/download-5-2.webp",
       date: "3 April 2025",
       category: "creditCards",
     },
@@ -153,7 +154,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "A simple UK-focused guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
       image:
-        "https://media.topfinanzas.com/images/uk/what-is-financial-health.webp",
+        "https://media.topfinanzas.com/images/kardtrust/what-is-financial-health.webp",
       date: "13 August 2025",
       category: "guide",
     },
@@ -164,7 +165,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "New to personal finance? Learn simple UK-based steps to budget, save, manage debt, and build steady money habits that stick.",
       image:
-        "https://media.topfinanzas.com/images/uk/money-management-for-beginners.webp",
+        "https://media.topfinanzas.com/images/kardtrust/money-management-for-beginners.webp",
       date: "13 August 2025",
       category: "guide",
     },
@@ -175,7 +176,7 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple UK-focused personal finance guide for beginners.",
       image:
-        "https://media.topfinanzas.com/images/uk/setting-financial-goals.webp",
+        "https://media.topfinanzas.com/images/kardtrust/setting-financial-goals.webp",
       date: "15 August 2025",
       category: "guide",
     },
@@ -185,7 +186,7 @@ export default function PersonalFinanceArchivePage() {
       slug: "side-hustle-or-second-job",
       description:
         "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
-      image: "https://media.topfinanzas.com/images/side-hustle-second-job.webp",
+      image: "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
       date: "27 August 2025",
       category: "guide",
     },
@@ -195,7 +196,8 @@ export default function PersonalFinanceArchivePage() {
       slug: "creating-a-budget-youll-actually-stick-to",
       description:
         "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start — built to help you actually stick to it.",
-      image: "https://media.topfinanzas.com/images/uk/modern-budget-guide.webp",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp",
       date: "4 September 2025",
       category: "guide",
     },
@@ -206,11 +208,53 @@ export default function PersonalFinanceArchivePage() {
       description:
         "Discover how lifestyle creep gradually increases your spending as your income grows, and learn practical strategies to prevent this silent wealth-drainer from sabotaging your personal finance goals whilst still enjoying life.",
       image:
-        "https://media.topfinanzas.com/images/lifestyle-creep-personal-finance.webp",
+        "https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp",
       date: "9 October 2025",
       category: "guide",
     },
-    // Add other posts here as needed
+    {
+      title:
+        "Yours, Mine, or Ours? How to Strategically Combine Finances After Marriage (or Moving In) | KardTrust",
+      slug: "combine-finances-after-marriage-or-moving-in",
+      description:
+        "Thinking about merging money with a partner? Whether you've just tied the knot or moved in together, combining finances is more than opening a joint account. This US-focused guide walks you through practical options, common pitfalls, and an easy step-by-step plan.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/combine-finances-after-marriage-or-moving-in.webp",
+      date: "20 October 2025",
+      category: "guide",
+    },
+    {
+      title:
+        "Ditching the Impulse Buys: A Practical Guide to Mindful Spending | KardTrust",
+      slug: "ditching-impulse-buys-mindful-spending",
+      description:
+        "Learn practical strategies to stop impulse buying and develop mindful spending habits. US-focused guide with real examples, budgeting tips, and proven techniques for better personal finance control.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/ditching-impulse-buys-mindful-spending-guide.webp",
+      date: "26 September 2025",
+      category: "guide",
+    },
+    {
+      title:
+        "How to Confidently Ask for a Raise (with Scripts and a Preparation Guide) | KardTrust",
+      slug: "how-to-ask-for-a-raise",
+      description:
+        "Learn exactly what to say when asking for a pay rise. This US-focused guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/how-to-ask-for-a-raise.webp",
+      date: "3 October 2025",
+      category: "guide",
+    },
+    {
+      title: "Best Travel Credit Cards US | KardTrust",
+      slug: "travel-credit-cards",
+      description:
+        "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/travel-cards-explained.webp",
+      date: "7 April 2025",
+      category: "creditCards",
+    },
   ];
 
   // Filter posts based on the selected category

@@ -39,7 +39,7 @@ export default function SettingFinancialGoalsPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/setting-financial-goals.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/setting-financial-goals.webp"
                   alt="Setting financial goals and planning your personal finance in the US"
                   width={800}
                   height={450}

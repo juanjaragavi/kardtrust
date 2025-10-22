@@ -39,7 +39,7 @@ export default function WhatIsFinancialHealthPage() {
               {/* TODO: Update image if needed */}
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/what-is-financial-health.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/what-is-financial-health.webp"
                   alt="Financial health illustration for US households"
                   width={800}
                   height={450}

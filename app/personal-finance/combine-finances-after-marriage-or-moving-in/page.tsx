@@ -38,7 +38,7 @@ export default function CombineFinancesAfterMarriagePage() {
 
             <div className="my-8">
               <Image
-                src="https://media.topfinanzas.com/images/uk/combine-finances-after-marriage-or-moving-in.webp"
+                src="https://media.topfinanzas.com/images/kardtrust/combine-finances-after-marriage-or-moving-in.webp"
                 alt="Couple combining finances with a simple joint system in the US"
                 width={800}
                 height={450}

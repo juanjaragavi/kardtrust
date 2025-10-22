@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     // Optional: Add a general blog image
     images: [
       {
-        url: "https://media.topfinanzas.com/images/best-personal-loans.webp",
+        url: "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
         width: 1200,
         height: 630,
         alt: "KardTrust Blog",
@@ -28,6 +28,8 @@ export const metadata: Metadata = {
     title: "KardTrust Blog: Personal Finance & Financial Solutions",
     description:
       "Explore articles on credit cards, loans, debt management, savings, and more financial topics relevant to the US market.",
-    images: ["https://media.topfinanzas.com/images/best-personal-loans.webp"],
+    images: [
+      "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
+    ],
   },
 };

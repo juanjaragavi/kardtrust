@@ -37,7 +37,7 @@ export default function SideHustleOrSecondJobPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/side-hustle-second-job.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp"
                   alt="Side Hustle vs Second Job Guide"
                   width={800}
                   height={450}

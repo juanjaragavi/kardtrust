@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       "Feeling overwhelmed by debt? Get practical strategies for getting out of debt, building an emergency fund, and taking control of your finances.",
     images: [
-      "https://media.topfinanzas.com/images/uk/Top_Finance_how_to_get_out_of_debt.webp",
+      "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
     ], // Add if featuredImage is available
   },
 };

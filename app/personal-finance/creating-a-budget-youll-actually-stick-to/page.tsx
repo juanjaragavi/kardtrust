@@ -40,7 +40,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/modern-budget-guide.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp"
                   alt="Modern personal finance budgeting in the US with simple pots and apps"
                   width={800}
                   height={450}

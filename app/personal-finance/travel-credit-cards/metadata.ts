@@ -7,5 +7,5 @@ export const metadata = {
   publishDate: "2025-04-07",
   author: "KardTrust Editorial Team",
   image:
-    "https://media.topfinanzas.com/images/uk/credit-cards/travel-cards-explained.webp",
+    "https://media.topfinanzas.com/images/kardtrust/travel-cards-explained.webp",
 };

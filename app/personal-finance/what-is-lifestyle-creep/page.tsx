@@ -42,7 +42,7 @@ export default function WhatIsLifestyleCreepPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/lifestyle-creep-personal-finance.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp"
                   alt="Understanding lifestyle creep and its impact on personal finance in the US"
                   width={800}
                   height={450}

@@ -41,7 +41,7 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/ditching-impulse-buys-mindful-spending-guide.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/ditching-impulse-buys-mindful-spending-guide.webp"
                   alt="Practical mindful spending strategies for US personal finance and budget control"
                   width={800}
                   height={450}

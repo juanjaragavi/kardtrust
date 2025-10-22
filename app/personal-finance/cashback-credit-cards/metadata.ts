@@ -21,6 +21,8 @@ export const metadata: Metadata = {
     title: "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
     description:
       "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
-    images: ["https://media.topfinanzas.com/images/uk/download-8-1.webp"], // Add if featuredImage is available
+    images: [
+      "https://media.topfinanzas.com/images/kardtrust/download-8-1.webp",
+    ], // Add if featuredImage is available
   },
 };
