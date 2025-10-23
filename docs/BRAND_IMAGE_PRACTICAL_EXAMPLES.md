@@ -85,11 +85,11 @@ OUTPUT: Seamlessly integrated brand photography that communicates financial conf
 
 ## Example 2: Woman with Tablet (Professional Office)
 
-### Reference Image 2
+### Reference Image
 
 `woman-with-tablet.avif` (or similar filename)
 
-### Custom Prompt 2
+### Custom Prompt
 
 ```text
 Generate a hyper-realistic, professional stock photograph for a US financial services website with KardTrust brand elements.
@@ -147,7 +147,7 @@ TECHNICAL:
 OUTPUT: Professional office scene with seamless KardTrust brand integration, communicating competence, upward progress, and financial trust.
 ```
 
-### Expected Result 2
+### Expected Result
 
 - Clean office environment preserved
 - Professional woman with tablet focus
@@ -160,11 +160,11 @@ OUTPUT: Professional office scene with seamless KardTrust brand integration, com
 
 ## Example 3: Woman Shopping (Urban Lifestyle)
 
-### Reference Image 3
+### Reference Image
 
 `woman-shopping.avif` (or similar filename)
 
-### Custom Prompt 3
+### Custom Prompt
 
 ```text
 Generate a hyper-realistic, professional stock photograph for a US financial services website with KardTrust brand elements.
@@ -224,7 +224,7 @@ TECHNICAL:
 OUTPUT: Lifestyle shopping scene with KardTrust branding that communicates financial empowerment, smart spending, and the rewarding experience of financial confidence.
 ```
 
-### Expected Result 3
+### Expected Result
 
 - Colorful urban shopping scene maintained
 - Woman with phone and card as focal point

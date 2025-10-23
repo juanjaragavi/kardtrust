@@ -143,10 +143,10 @@ import { CustomComponent } from "./custom-component";
 
 ### 1. Localization
 
-- **Language**: US English (en-US)
-- **Currency**: USD ($) formatting
-- **Date Format**: MM/DD/YYYY
-- **Address Format**: US zip code system
+- **Language**: UK English (en-US)
+- **Currency**: GBP (£) formatting
+- **Date Format**: DD/MM/YYYY
+- **Address Format**: UK postcode system
 
 ### 2. Financial Compliance
 

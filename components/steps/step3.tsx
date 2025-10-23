@@ -168,9 +168,9 @@ export default function Step3({
         <h2 className="text-xl font-bold text-left text-gray-950">
           {step3Strings.title}
         </h2>
-        <p className="text-xl leading-tight font-bold text-left text-secondary">
+        <p className="text-xl leading-tight font-bold text-left text-[#2E74B5]">
           {step3Texts.subtitle.firstPart}{" "}
-          <span className="text-secondary">
+          <span className="text-[#4A8BC5]">
             {step3Texts.subtitle.highlight}
           </span>
         </p>
@@ -196,7 +196,7 @@ export default function Step3({
             className={`h-9 text-base ${
               errors.email
                 ? "border-red-500 focus-visible:ring-red-500"
-                : "border-secondary focus-visible:ring-primary"
+                : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
             }`}
             placeholder={step3Strings.placeholders.email}
             aria-describedby="email-error"
@@ -223,7 +223,7 @@ export default function Step3({
             className={`h-9 text-base ${
               errors.firstName
                 ? "border-red-500 focus-visible:ring-red-500"
-                : "border-secondary focus-visible:ring-primary"
+                : "border-[#2E74B5] focus-visible:ring-[#8DC63F]"
             }`}
             placeholder={
               (step3Strings.placeholders as { firstName?: string })
@@ -243,7 +243,7 @@ export default function Step3({
             id="receiveMessages"
             checked={receiveMessages}
             onCheckedChange={handleCheckboxChange}
-            className="mt-0.5 data-[state=checked]:bg-primary data-[state=checked]:border-primary"
+            className="mt-0.5 data-[state=checked]:bg-[#8DC63F] data-[state=checked]:border-[#8DC63F]"
           />
           <Label htmlFor="receiveMessages" className="text-xs">
             {step3Strings.checkbox}{" "}
@@ -273,7 +273,7 @@ export default function Step3({
           aria-busy={isSubmitting}
           className={`w-full py-3 text-sm font-medium rounded-full transition-colors shadow-md ${
             receiveMessages && !isSubmitting
-              ? "bg-primary hover:bg-primary-dark text-white"
+              ? "bg-[#8DC63F] hover:bg-[#6BA828] text-white"
               : "bg-gray-300 text-gray-500 cursor-not-allowed"
           }`}
         >
@@ -285,8 +285,8 @@ export default function Step3({
               submissionStatus === "error"
                 ? "text-red-500"
                 : submissionStatus === "duplicate"
-                  ? "text-secondary"
-                  : "text-primary"
+                  ? "text-[#2E74B5]"
+                  : "text-[#8DC63F]"
             }`}
             role={submissionStatus === "error" ? "alert" : undefined}
           >

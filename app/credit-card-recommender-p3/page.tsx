@@ -50,7 +50,7 @@ function CreditCardRecommenderPageContent() {
 
             <div className="space-y-1 mb-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-primary px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-[#F97316] px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -59,7 +59,7 @@ function CreditCardRecommenderPageContent() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-primary px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-[#F97316] px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -68,7 +68,7 @@ function CreditCardRecommenderPageContent() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-primary px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-[#F97316] px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -112,11 +112,11 @@ function CreditCardRecommenderPageContent() {
 
             <div className="mt-6 mb-4">
               <Link href="/financial-solutions/virgin-money-credit-card">
-                <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                <Button className="bg-[#F97316] hover:bg-[#EA580C] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
                     <span>Our Top Recommendation</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
-                      <span className="text-primary text-xs">➔</span>
+                      <span className="text-[#F97316] text-xs">➔</span>
                     </div>
                   </div>
                 </Button>
@@ -142,7 +142,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "benefits" ? "text-primary" : "text-secondary"
+                    openFaq === "benefits" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   What are the benefits of a card with no annual fee?
@@ -151,7 +151,7 @@ function CreditCardRecommenderPageContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "benefits" ? "transform rotate-180" : "" // Changed to rotate for better icon indication
                   } ${
-                    openFaq === "benefits" ? "text-primary" : "text-secondary"
+                    openFaq === "benefits" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true" // Hide decorative icon from screen readers
                 >
@@ -177,7 +177,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "cashback" ? "text-primary" : "text-secondary"
+                    openFaq === "cashback" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   How does cashback work?
@@ -186,7 +186,7 @@ function CreditCardRecommenderPageContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "cashback" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "cashback" ? "text-primary" : "text-secondary"
+                    openFaq === "cashback" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true"
                 >
@@ -211,7 +211,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "travelers" ? "text-primary" : "text-secondary"
+                    openFaq === "travelers" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   What's the best option for travellers?
@@ -220,7 +220,7 @@ function CreditCardRecommenderPageContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "travelers" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "travelers" ? "text-primary" : "text-secondary"
+                    openFaq === "travelers" ? "text-primary" : "text-sky-700"
                   }`}
                   aria-hidden="true"
                 >
@@ -246,7 +246,7 @@ function CreditCardRecommenderPageContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-6 ${
-                    openFaq === "online" ? "text-primary" : "text-secondary"
+                    openFaq === "online" ? "text-primary" : "text-sky-600"
                   }`}
                 >
                   Is it safe to use credit cards online?
@@ -254,7 +254,7 @@ function CreditCardRecommenderPageContent() {
                 <span
                   className={`text-xl transition-transform ${
                     openFaq === "online" ? "transform rotate-180" : ""
-                  } ${openFaq === "online" ? "text-primary" : "text-secondary"}`}
+                  } ${openFaq === "online" ? "text-primary" : "text-sky-700"}`}
                   aria-hidden="true"
                 >
                   ▼

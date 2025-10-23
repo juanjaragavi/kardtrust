@@ -1,6 +1,21 @@
-docs: fix markdown code block syntax in brand image generation docs
+Complete image URL migration to kardtrust subdirectory
 
-Minor documentation improvements to brand image generation guide files:
-- Fixed code block syntax from bash to markdown in BRAND_IMAGE_GENERATION_PROMPT.md
-- Improved heading consistency in BRAND_IMAGE_PRACTICAL_EXAMPLES.md for better navigation
+Finalized the migration of remaining image URLs from generic `/images/uk/` paths to the standardized `/images/kardtrust/` subdirectory structure.
 
+Files Updated:
+- Blog archive page (app/blog/page.tsx)
+- Homepage featured posts (app/page.tsx)
+- Personal finance archive page
+- Personal loans strategy page and metadata
+- Online loan tips article
+- No annual fee credit cards page and metadata
+- Credit card interest rates metadata
+- Blog layout recent articles sidebar
+
+Benefits:
+- Complete standardization of image paths across entire application
+- Consistent CDN URL structure for all KardTrust assets
+- Improved asset organization and scalability
+- Better brand-specific asset management on shared CDN infrastructure
+
+All images now consistently use: media.topfinanzas.com/images/kardtrust/[filename].webp

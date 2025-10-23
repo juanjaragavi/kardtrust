@@ -128,7 +128,7 @@ export function pushGTMEvent(
 export function pushGTMConversion(
   conversionName: string,
   value?: number,
-  currency = "USD",
+  currency = "GBP",
 ) {
   if (typeof window !== "undefined" && window.dataLayer) {
     const conversionData: Record<string, unknown> = {

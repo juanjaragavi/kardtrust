@@ -26,8 +26,8 @@ export default function OptionButton({
       // Added ${className} to the template literal
       className={`option-button flex items-center w-full rounded-full overflow-hidden mb-2 ${
         selected
-          ? "selected bg-red-50 text-primary"
-          : "bg-secondary/90 text-white hover:bg-secondary"
+          ? "selected bg-[#6fade7] text-[#8DC63F]"
+          : "bg-[#296eb0]/80 text-white hover:bg-opacity-90"
       } ${className}`}
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
@@ -37,7 +37,7 @@ export default function OptionButton({
     >
       <div
         className={`circle flex items-center justify-center h-10 w-10 rounded-full text-sm ${
-          selected ? "bg-primary text-white" : "bg-white text-secondary"
+          selected ? "bg-[#8DC63F] text-white" : "bg-white text-[#6fade7]"
         }`}
       >
         {id}

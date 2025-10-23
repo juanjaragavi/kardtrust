@@ -35,7 +35,7 @@ Based on the KardTrust logo (`kardtrust-logo-dark.png`), the definitive brand el
 
 Use this prompt with multi-modal image generation LLMs (e.g., DALL-E 3, Midjourney, Stable Diffusion XL with image-to-image):
 
-```markdown
+```bash
 TASK: Generate a hyper-realistic, high-quality stock photograph for a US financial services website with branded vector graphic overlays.
 
 INPUT REFERENCE IMAGE: [Attach reference image here - e.g., original template photo]
