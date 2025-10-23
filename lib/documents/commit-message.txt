@@ -1,18 +1,13 @@
-refactor: Remove LinkedIn from social media - Instagram only platform
+docs: Fix product generation instructions - correct category reference
 
-- Removed LinkedIn from BRANDING.md Organization Schema (sameAs field)
-- Removed LinkedIn from BRANDING.md Social Media section
-- Removed LinkedIn link and icon from Contact Us page
-- Removed FaLinkedin import from contact-us/page.tsx
-- Removed LinkedIn from app/layout.tsx Organization Schema
-- Removed LinkedIn from lib/navigation/footerNavigation.ts
-- Removed "linkedin" from lib/analytics-validator.ts valid sources
-- Removed "linkedin" from components/analytics/utm-persister.tsx valid sources
-- Updated social media titles to "Follow us on Instagram"
+- Updated CREDIT_CARD_PRODUCT_GENERATION.instructions.md
+- Changed Step 8 post-publication integration instructions
+- Corrected reference from /app/personal-finance/page.tsx to /app/financial-solutions/page.tsx
+- Fixed Quick Reference section to mention Financial Solutions category instead of Personal Finance
+- Updated example text to reflect proper category assignment for financial products
 
 Changes ensure:
-- Accurate social media presence (Instagram only)
-- Cleaner Schema.org structured data for SEO
-- Simplified social media navigation throughout site
-- Removed unused LinkedIn references from analytics tracking
-- Proper brand identity reflecting actual social media presence
+- Accurate documentation for product page generation workflow
+- Proper category assignment (Financial Solutions for credit cards/loans)
+- Correct file paths in post-publication integration steps
+- Clear guidance for LLM agents generating financial product content

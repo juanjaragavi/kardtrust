@@ -41,7 +41,7 @@ Each page must be:
 2. `/app/financial-solutions/{productSlug}-requirements/page.tsx` (requirements page)
 3. **Automatic Post-Publication Integration** (REQUIRED):
    - Add the product to `/app/blog/page.tsx` in the `allPosts` array
-   - Add the product to `/app/personal-finance/page.tsx` in the `allPosts` array (if relevant to Personal Finance category)
+   - Add the product to `/app/financial-solutions/page.tsx` in the `allPosts` array (if relevant to Financial Solutions category)
    - Update both arrays immediately after generating the page components
 
 **Key Tools**:
@@ -242,8 +242,8 @@ After generating both page components, you MUST immediately update the following
    - Place at the top of the array (most recent first)
    - Use `replace_string_in_file` tool to update
 
-2. **Personal Finance Category Page** (`/app/personal-finance/page.tsx`) - IF APPLICABLE:
-   - Only add if the product is relevant to Personal Finance topics (e.g., credit cards, personal loans)
+2. **Financial Solutions Category Page** (`/app/financial-solutions/page.tsx`):
+   - Add the product to the Financial Solutions category
    - Add new entry to the `allPosts` array with appropriate category tag
    - Place at the top of the array
    - Use `replace_string_in_file` tool to update
