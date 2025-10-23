@@ -3,7 +3,8 @@
 import { BlogLayout } from "@/components/mdx/blog-layout";
 import Link from "next/link";
 import { FeaturedPostCard } from "@/components/ui/featured-post-card";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+import { sortPostsByDate } from "@/lib/utils/date-utils";
 
 export default function FinancialSolutionsPage() {
   // Category definitions
@@ -366,16 +367,29 @@ export default function FinancialSolutionsPage() {
     },
   ];
 
+  // Sort all content by date (newest first)
+  const creditCardsContentSorted = useMemo(
+    () => sortPostsByDate(creditCardsContent),
+    [],
+  );
+
+  const allLoansContentSorted = useMemo(
+    () => sortPostsByDate(allLoansContent),
+    [],
+  );
+
   // Filter content based on selected category and type
   const filteredCreditCards =
     activeCreditCardType === "all"
-      ? creditCardsContent
-      : creditCardsContent.filter((card) => card.type === activeCreditCardType);
+      ? creditCardsContentSorted
+      : creditCardsContentSorted.filter(
+          (card) => card.type === activeCreditCardType,
+        );
 
   const filteredLoans =
     activeLoanType === "all"
-      ? allLoansContent
-      : allLoansContent.filter((loan) => loan.type === activeLoanType);
+      ? allLoansContentSorted
+      : allLoansContentSorted.filter((loan) => loan.type === activeLoanType);
 
   // Custom content for this category page
   const content = (

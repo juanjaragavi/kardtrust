@@ -6,6 +6,7 @@ import { FeaturedPostCard } from "@/components/ui/featured-post-card";
 import { motion, AnimatePresence } from "framer-motion";
 import { BlogLayout } from "@/components/mdx/blog-layout"; // Assuming this layout is suitable
 import { Button } from "@/components/ui/button"; // For pagination
+import { sortPostsByDate } from "@/lib/utils/date-utils";
 
 // Define the structure for each post item, adding category
 interface PostItem {
@@ -331,47 +332,8 @@ export default function BlogArchivePage() {
     // ... Add more posts from financial-solutions as needed
   ];
 
-  // Sort posts by date (newest first). Supports ISO strings and "DD Month YYYY".
-  const MONTHS: Record<string, number> = {
-    january: 0,
-    february: 1,
-    march: 2,
-    april: 3,
-    may: 4,
-    june: 5,
-    july: 6,
-    august: 7,
-    september: 8,
-    october: 9,
-    november: 10,
-    december: 11,
-  };
-
-  const parseDate = (value?: string): number => {
-    if (!value) return 0;
-    // ISO quick path
-    if (/^\d{4}-\d{2}-\d{2}/.test(value) || value.includes("T")) {
-      const t = Date.parse(value);
-      return isNaN(t) ? 0 : t;
-    }
-    // "DD Month YYYY" (e.g., "3 April 2025")
-    const m = value.trim().match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/);
-    if (m) {
-      const day = parseInt(m[1], 10);
-      const monthName = m[2].toLowerCase();
-      const year = parseInt(m[3], 10);
-      const month = MONTHS[monthName];
-      if (month != null) {
-        return Date.UTC(year, month, day);
-      }
-    }
-    const t = Date.parse(value);
-    return isNaN(t) ? 0 : t;
-  };
-
-  const allPostsSorted: PostItem[] = [...allPosts].sort(
-    (a, b) => parseDate(b.date) - parseDate(a.date),
-  );
+  // Sort posts by date (newest first) using the centralized utility
+  const allPostsSorted: PostItem[] = sortPostsByDate(allPosts);
 
   // Filter posts based on active category
   const filterPosts = useCallback(() => {

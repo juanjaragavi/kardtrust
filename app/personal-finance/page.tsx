@@ -3,7 +3,8 @@
 import { BlogLayout } from "@/components/mdx/blog-layout";
 import Link from "next/link";
 import Image from "next/image";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
+import { sortPostsByDate } from "@/lib/utils/date-utils";
 
 // Define the structure for each post item
 interface PostItem {
@@ -269,11 +270,14 @@ export default function PersonalFinanceArchivePage() {
     },
   ];
 
+  // Sort all posts by date (newest first)
+  const allPostsSorted = useMemo(() => sortPostsByDate(allPosts), []);
+
   // Filter posts based on the selected category
   const filteredPosts =
     activeCategory === "all"
-      ? allPosts
-      : allPosts.filter((post) => post.category === activeCategory);
+      ? allPostsSorted
+      : allPostsSorted.filter((post) => post.category === activeCategory);
 
   const content = (
     <div data-category="personal-finance">

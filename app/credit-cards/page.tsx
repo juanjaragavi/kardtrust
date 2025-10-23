@@ -2,7 +2,8 @@
 
 import { BlogLayout } from "@/components/mdx/blog-layout"; // Assuming BlogLayout is suitable
 import { FeaturedPostCard } from "@/components/ui/featured-post-card"; // Reusing card component
-import { useState, useEffect } from "react"; // Keep state hooks for consistency, though filtering is static now
+import { useState, useEffect, useMemo } from "react"; // Keep state hooks for consistency, though filtering is static now
+import { sortPostsByDate } from "@/lib/utils/date-utils";
 
 // Define the structure for each post item (can be imported if shared)
 interface PostItem {
@@ -135,8 +136,14 @@ export default function CreditCardsArchivePage() {
     },
   ];
 
-  // No filtering needed, just display the credit card content
-  const filteredPosts = creditCardsContent;
+  // Sort posts by date (newest first)
+  const creditCardsContentSorted = useMemo(
+    () => sortPostsByDate(creditCardsContent),
+    [],
+  );
+
+  // No filtering needed, just display the sorted credit card content
+  const filteredPosts = creditCardsContentSorted;
 
   // Avoid rendering until client-side code is running
   if (!isClient) {
