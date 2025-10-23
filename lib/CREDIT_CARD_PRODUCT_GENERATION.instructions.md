@@ -39,12 +39,17 @@ Each page must be:
 
 1. `/app/financial-solutions/{productSlug}/page.tsx` (benefits page)
 2. `/app/financial-solutions/{productSlug}-requirements/page.tsx` (requirements page)
+3. **Automatic Post-Publication Integration** (REQUIRED):
+   - Add the product to `/app/blog/page.tsx` in the `allPosts` array
+   - Add the product to `/app/personal-finance/page.tsx` in the `allPosts` array (if relevant to Personal Finance category)
+   - Update both arrays immediately after generating the page components
 
 **Key Tools**:
 
 - `fetch_webpage` - Browse official product URLs
 - `fetch_txt` - Retrieve CSV and sitemap data
 - Workspace file system - Read template files for reference
+- `replace_string_in_file` - Update blog and category page arrays
 
 ---
 
@@ -127,7 +132,7 @@ CSV fields include:
 ### Secondary Data Source
 
 **CSV Topic Outline Database**
-- Location: <https://media.kardtrust.com/documents/topfinanzas-us-topic-outline.csv>
+- Location: <https://media.topfinanzas.com/documents/topfinanzas-us-topic-outline.csv>
 - Access method: Use `fetch_txt` tool
 
 ### Internal Linking Resource
@@ -213,6 +218,39 @@ Reference these existing pages for structure:
 - Confirm proper styling and component usage
 - Validate compliance requirements
 
+### Step 8: Post-Publication Integration (REQUIRED)
+
+**Automatically Add to Site Indexes**
+
+After generating both page components, you MUST immediately update the following files to make the product visible on public-facing pages:
+
+1. **Blog Main Page** (`/app/blog/page.tsx`):
+   - Add new entry to the `allPosts` array
+   - Include: title, slug, description, image, category ("Financial Solutions"), categoryPath, date
+   - Place at the top of the array (most recent first)
+   - Use `replace_string_in_file` tool to update
+
+2. **Personal Finance Category Page** (`/app/personal-finance/page.tsx`) - IF APPLICABLE:
+   - Only add if the product is relevant to Personal Finance topics (e.g., credit cards, personal loans)
+   - Add new entry to the `allPosts` array with appropriate category tag
+   - Place at the top of the array
+   - Use `replace_string_in_file` tool to update
+
+**Example Entry Format for Blog Page**:
+```typescript
+{
+  title: "Product Name: Value Proposition | KardTrust",
+  slug: "product-slug",
+  description: "Brief product description focusing on key benefits",
+  image: "https://media.topfinanzas.com/images/us/product-image.webp",
+  category: "Financial Solutions",
+  categoryPath: "/financial-solutions",
+  date: "MM/DD/YYYY", // Current date in US format
+}
+```
+
+**CRITICAL**: This step is NOT optional. Product pages that are not added to these indexes will remain invisible to users browsing the site. Always complete this integration step immediately after generating the page components.
+
 </ExpectedBehaviorAndInteraction>
 
 <OutputFormatting>
@@ -285,46 +323,3 @@ All generated content must be:
 - Clear that content is informational, not personalized advice
 
 </EthicalGuidelines>
-
----
-
-## Summary: Complete Workflow for LLM Agents
-
-### Pre-Generation Checklist
-
-✅ All required variables provided
-✅ Official product URL accessible
-✅ CSV and sitemap data available
-✅ Template files accessible for reference
-
-### Execution Sequence
-
-1. Fetch data from official URL, CSV, and sitemap
-2. Analyze templates for structure and patterns
-3. Synthesize information, prioritizing official source
-4. Plan structure, sections, and internal links
-5. Verify US compliance requirements
-6. Generate TWO complete .tsx files
-7. Quality check for completeness and validity
-
-### Success Criteria
-
-✅ TWO production-ready .tsx files generated
-✅ All imports, metadata, and exports correct
-✅ American English and US terminology used
-✅ Compliance-aware with APR disclosures and warnings
-✅ Brand colors applied correctly
-✅ Ad containers with correct IDs
-✅ 2-3 internal links added
-✅ AIContentDisclaimer included
-✅ Code matches existing template patterns
-
-### Failure Points (Halt Generation)
-
-❌ Official product URL inaccessible
-❌ Critical data missing (APR, fees, eligibility, brand color)
-❌ CSV or sitemap unavailable
-❌ Template files cannot be read
-❌ Contradictory data from sources
-
-**Action on Failure**: Inform user of specific issue and request resolution before proceeding.

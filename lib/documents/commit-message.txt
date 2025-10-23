@@ -8,7 +8,22 @@ Add blog workflow migration files and system prompts
 - Added prompt-to-generate-tofu-posts.md template
 - Added prompt-to-generate-credit-card-products-posts.md template
 
-All files adapted from UK TopFinanzas project for US market (KardTrust)
+feat: Add financial uncoupling breakup guide and update blog workflow documentation
+
+- Created new article: Financial Uncoupling - A Compassionate Guide to Separating Finances During a Breakup
+- Added article integration to blog main page (app/blog/page.tsx)
+- Added article integration to personal finance category page (app/personal-finance/page.tsx)
+- Updated blog post generation instructions to include automatic post-publication integration
+- Updated credit card product generation instructions with integration requirements
+- Corrected CDN URLs from media.kardtrust.com to media.topfinanzas.com across documentation
+- Enhanced documentation with Step 8 post-publication integration requirements
+- Updated workflow migration summary and quick start guides with accurate CDN references
+
+Changes focus on:
+- Comprehensive personal finance content for relationship transitions
+- Improved content visibility through automated blog index updates
+- Standardized post-publication workflows for both blog articles and product pages
+- Documentation accuracy for US market implementation
 - Updated brand references (TopFinanzas → KardTrust)
 - Changed regulatory framework (FCA → CFPB/FTC)
 - Localized to American English and US regulations

@@ -37,6 +37,17 @@ export default function PersonalFinanceArchivePage() {
   const allPosts: PostItem[] = [
     {
       title:
+        "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup | KardTrust",
+      slug: "financial-uncoupling-breakup-guide",
+      description:
+        "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/financial-uncoupling-breakup-guide.webp",
+      date: "23 October 2025",
+      category: "guide",
+    },
+    {
+      title:
         "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | KardTrust",
       slug: "inflation-proof-your-life",
       description:

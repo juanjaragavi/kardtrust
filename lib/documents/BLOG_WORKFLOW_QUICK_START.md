@@ -78,7 +78,7 @@
 ### Secondary
 
 - **Sitemap**: `https://kardtrust.com/sitemap.xml`
-- **CDN**: `https://media.kardtrust.com/`
+- **CDN**: `https://media.topfinanzas.com/`
 
 ### References
 
@@ -92,7 +92,7 @@ Before generating content, ensure:
 
 - [ ] CSV topic outline exists: `lib/documents/kardtrust-topic-outline.csv`
 - [ ] Sitemap is accessible: `https://kardtrust.com/sitemap.xml`
-- [ ] CDN is configured: `https://media.kardtrust.com/`
+- [ ] CDN is configured: `https://media.topfinanzas.com/`
 - [ ] Template articles exist in `/app/personal-finance/` or `/app/financial-solutions/`
 
 ## 📝 Post-Generation Tasks
@@ -152,7 +152,7 @@ All generated content must:
 
 ### Issue: Images not loading
 
-**Solution**: Check CDN configuration at `https://media.kardtrust.com/`
+**Solution**: Check CDN configuration at `https://media.topfinanzas.com/`
 
 ### Issue: TypeScript errors in generated code
 

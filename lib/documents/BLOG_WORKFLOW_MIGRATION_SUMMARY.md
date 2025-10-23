@@ -78,7 +78,7 @@ This document summarizes the successful migration of the blog post generation wo
 | ------------------------------ | ------------------------- |
 | uk_topfinanzas_3               | kardtrust_ad_1            |
 | uk_topfinanzas_4               | kardtrust_ad_2            |
-| media.topfinanzas.com          | media.kardtrust.com       |
+| media.topfinanzas.com          | media.topfinanzas.com       |
 | uk.topfinanzas.com/sitemap.xml | kardtrust.com/sitemap.xml |
 
 ### 5. File Path Updates
@@ -87,7 +87,7 @@ All references to file paths have been updated to match the KardTrust project st
 
 - CSV location: `lib/documents/kardtrust-topic-outline.csv`
 - Sitemap: `https://kardtrust.com/sitemap.xml`
-- CSV URL: `https://media.kardtrust.com/documents/kardtrust-topic-outline.csv`
+- CSV URL: `https://media.topfinanzas.com/documents/kardtrust-topic-outline.csv`
 
 ## Workflow Structure
 
@@ -159,7 +159,7 @@ All references to file paths have been updated to match the KardTrust project st
 
 1. ✅ Create CSV topic outline file: `lib/documents/kardtrust-topic-outline.csv`
 2. ✅ Ensure sitemap is accessible: `https://kardtrust.com/sitemap.xml`
-3. ✅ Verify CDN is configured: `https://media.kardtrust.com/`
+3. ✅ Verify CDN is configured: `https://media.topfinanzas.com/`
 4. ✅ Test workflow with a sample article
 
 ### Optional Enhancements

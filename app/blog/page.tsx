@@ -42,6 +42,18 @@ export default function BlogArchivePage() {
     // Personal Finance Posts
     {
       title:
+        "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup | KardTrust",
+      slug: "financial-uncoupling-breakup-guide",
+      description:
+        "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/financial-uncoupling-breakup-guide.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "23 October 2025",
+    },
+    {
+      title:
         "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | KardTrust",
       slug: "inflation-proof-your-life",
       description:
@@ -358,7 +370,7 @@ export default function BlogArchivePage() {
   };
 
   const allPostsSorted: PostItem[] = [...allPosts].sort(
-    (a, b) => parseDate(b.date) - parseDate(a.date),
+    (a, b) => parseDate(b.date) - parseDate(a.date)
   );
 
   // Filter posts based on active category
@@ -367,25 +379,25 @@ export default function BlogArchivePage() {
 
     if (activeCategory === "personalFinance") {
       filteredPosts = allPostsSorted.filter(
-        (post) => post.category === "Personal Finance",
+        (post) => post.category === "Personal Finance"
       );
     } else if (activeCategory === "financialSolutions") {
       filteredPosts = allPostsSorted.filter(
-        (post) => post.category === "Financial Solutions",
+        (post) => post.category === "Financial Solutions"
       );
     } else if (activeCategory === "creditCards") {
       filteredPosts = allPostsSorted.filter(
         (post) =>
           post.title.toLowerCase().includes("credit card") ||
           post.slug.toLowerCase().includes("credit-card") ||
-          post.description.toLowerCase().includes("credit card"),
+          post.description.toLowerCase().includes("credit card")
       );
     } else if (activeCategory === "loans") {
       filteredPosts = allPostsSorted.filter(
         (post) =>
           post.title.toLowerCase().includes("loan") ||
           post.slug.toLowerCase().includes("loan") ||
-          post.description.toLowerCase().includes("loan"),
+          post.description.toLowerCase().includes("loan")
       );
     }
 

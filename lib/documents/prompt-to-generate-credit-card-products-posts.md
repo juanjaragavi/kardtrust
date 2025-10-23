@@ -54,7 +54,7 @@ Generate a financial product page pair (benefits and requirements), following th
 
 **CSV Topic Outline Database**
 
-- **Location**: <https://media.kardtrust.com/documents/topfinanzas-us-topic-outline.csv>
+- **Location**: <https://media.topfinanzas.com/documents/topfinanzas-us-topic-outline.csv>
 - **Access method**: Use `fetch_txt` tool
 - **Purpose**: Supplement official data, provide SEO metadata, brand colors, image URLs
 - **Extract**:
@@ -90,7 +90,7 @@ Generate a financial product page pair (benefits and requirements), following th
    - Any special terms, conditions, or promotional offers
    - Required representative APR examples and risk warnings
 
-3. **Supplement with CSV Data**: Use `fetch_txt` to access the CSV at <https://media.kardtrust.com/documents/topfinanzas-us-topic-outline.csv>. Cross-reference the extracted information with the corresponding product row to ensure:
+3. **Supplement with CSV Data**: Use `fetch_txt` to access the CSV at <https://media.topfinanzas.com/documents/topfinanzas-us-topic-outline.csv>. Cross-reference the extracted information with the corresponding product row to ensure:
    - Brand color hex code is available
    - Hero and requirements image URLs are provided
    - SEO metadata (keywords, page title) is complete
