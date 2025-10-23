@@ -653,7 +653,7 @@ export default function ContactUs() {
               <FaLinkedin />
             </Link>
             <Link
-              href="https://www.instagram.com/topfinance_en/"
+              href="https://www.instagram.com/kardtrust/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-3xl text-[#E1306C] hover:opacity-80 transition-opacity"

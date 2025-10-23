@@ -1,12 +1,14 @@
-fix: Correct CDN image paths and update documentation examples
+fix: Update Instagram social media URLs to KardTrust account
 
-- Updated About Us page testimonial images from /us/ to /kardtrust/ subdirectory
-- Fixed CREDIT_CARD_PRODUCT_GENERATION.instructions.md image path example
-- Fixed TOFU_BLOG_POST_GENERATION.instructions.md image path examples
-- Standardized all image URLs to use https://media.topfinanzas.com/images/kardtrust/
+- Updated BRANDING.md Organization Schema with new Instagram URL
+- Updated BRANDING.md Social Media section documentation
+- Updated Contact Us page social media links
+- Updated app layout.tsx Organization Schema
+- Updated footerNavigation.ts social media configuration
+- Changed from https://www.instagram.com/topfinance_en/ to https://www.instagram.com/kardtrust/
 
 Changes ensure:
-- Consistent CDN subdirectory structure across the site
-- Accurate documentation examples for content generation
-- Proper image loading for all testimonial avatars
-- Alignment with KardTrust brand asset organization
+- Consistent brand identity across all touchpoints
+- Accurate social media links for user engagement
+- Updated Schema.org structured data for SEO
+- Proper navigation configuration throughout the site

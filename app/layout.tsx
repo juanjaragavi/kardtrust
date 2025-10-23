@@ -171,7 +171,7 @@ export default function RootLayout({
                 },
                 sameAs: [
                   "https://www.linkedin.com/company/top-networks-inc",
-                  "https://www.instagram.com/topfinance_en/",
+                  "https://www.instagram.com/kardtrust/",
                 ],
               },
               null,

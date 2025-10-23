@@ -797,7 +797,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
   },
   "sameAs": [
     "https://www.linkedin.com/company/top-networks-inc",
-    "https://www.instagram.com/topfinance_en/"
+    "https://www.instagram.com/kardtrust/"
   ]
 }
 ```
@@ -1324,7 +1324,7 @@ For agents extracting specific values:
 ### Social Media
 
 - **LinkedIn:** <https://www.linkedin.com/company/top-networks-inc>
-- **Instagram:** <https://www.instagram.com/topfinance_en/>
+- **Instagram:** <https://www.instagram.com/kardtrust/>
 
 ### Support
 
