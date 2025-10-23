@@ -67,7 +67,7 @@ export default function GoogleAds() {
                     campaign_source: utmSource,
                     campaign_medium: utmMedium || 'cpc',
                     value: 1,
-                    currency: 'GBP'
+                    currency: 'USD'
                   });
                   console.debug('Google Ads: Enhanced page view with campaign data sent');
                 }
@@ -105,7 +105,7 @@ export default function GoogleAds() {
 export function trackGoogleAdsConversion(
   conversionLabel: string,
   value?: number,
-  currency = "GBP",
+  currency = "USD",
 ) {
   if (typeof window !== "undefined" && window.gtag) {
     window.gtag("event", "conversion", {

@@ -174,22 +174,22 @@ export default function AboutUs() {
     {
       quote:
         "Investing always seemed like something from another world to me, but with KardTrust everything changed. I started little by little and now I watch my money grow. I'm even thinking about my retirement! It's incredible how accessible investing is for everyone! Thank you for making it so easy to understand.",
-      name: "James Davies",
-      location: "Manchester",
+      name: "James Davis",
+      location: "Austin, TX",
       initials: "JD",
     },
     {
       quote:
         "Looking for a loan had me lost among so many options. But with KardTrust' help, I not only found one that suited me, but I also learned to manage the terms and my payments. Now I feel super confident with my finances. It was a real game-changer in my financial education!",
-      name: "Sarah Wilson",
-      location: "London",
+      name: "Sarah Williams",
+      location: "Denver, CO",
       initials: "SW",
     },
     {
       quote:
         "Before, managing my credit cards was a real headache. But wow! I learned with KardTrust how to make the most of them. Now I manage my expenses intelligently, and my credit score has even improved. They really opened my eyes to the fact that credit cards are allies in my financial goals. Thank you so much!",
       name: "Robert Mitchell",
-      location: "Edinburgh",
+      location: "Seattle, WA",
       initials: "RM",
     },
   ];
@@ -214,7 +214,7 @@ export default function AboutUs() {
 
           <div className="mb-12">
             <Image
-              src="https://media.topfinanzas.com/images/uk/about-us-uk.webp"
+              src="https://media.topfinanzas.com/images/kardtrust/about-us-kardtrust.webp"
               alt="KardTrust Team"
               width={1200}
               height={600}
@@ -395,10 +395,10 @@ export default function AboutUs() {
                       <Image
                         src={
                           index === 0
-                            ? "https://media.topfinanzas.com/images/uk/james-davies.webp"
+                            ? "https://media.topfinanzas.com/images/us/james-davis.webp"
                             : index === 1
-                              ? "https://media.topfinanzas.com/images/uk/sarah-wilson.webp"
-                              : "https://media.topfinanzas.com/images/uk/robert-mitchell.webp"
+                              ? "https://media.topfinanzas.com/images/us/sarah-williams.webp"
+                              : "https://media.topfinanzas.com/images/us/robert-mitchell.webp"
                         }
                         alt={testimonial.name}
                         width={56}
