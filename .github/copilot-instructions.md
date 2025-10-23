@@ -58,11 +58,11 @@ export default function Step1({ formData, updateFormData }: StepProps) {
 }
 ```
 
-#### 4. UK Market Specifics
+#### 4. US Market Specifics
 
-- **Currency**: Always GBP (£) formatting
-- **Compliance**: FCA regulatory requirements in financial content
-- **Localization**: UK English (en-US), DD/MM/YYYY dates
+- **Currency**: Always USD ($) formatting
+- **Compliance**: CFPB and state regulatory requirements in financial content
+- **Localization**: US English (en-US), MM/DD/YYYY dates
 - **Business Context**: Credit cards, personal loans, financial guidance
 
 ## Development Workflows

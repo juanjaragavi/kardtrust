@@ -87,7 +87,7 @@ function CreditCardRecommenderContent() {
 
             <div className="space-y-1 mb-6">
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-[#3B82F6] px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-primary px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -96,7 +96,7 @@ function CreditCardRecommenderContent() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-[#3B82F6] px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-primary px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -105,7 +105,7 @@ function CreditCardRecommenderContent() {
               </div>
 
               <div className="flex items-start">
-                <div className="flex-shrink-0 rounded-full bg-[#3B82F6] px-1 flex items-center justify-center mr-2">
+                <div className="flex-shrink-0 rounded-full bg-primary px-1 flex items-center justify-center mr-2">
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
@@ -135,11 +135,11 @@ function CreditCardRecommenderContent() {
 
             <div className="mt-6 mb-4">
               <Link href="/financial-solutions/santander-uk-credit-card">
-                <Button className="bg-[#3B82F6] hover:bg-[#2563EB] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+                <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
                     <span>Our Top Recommendation</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
-                      <span className="text-[#3B82F6] text-xs">➔</span>
+                      <span className="text-primary text-xs">➔</span>
                     </div>
                   </div>
                 </Button>
@@ -171,7 +171,7 @@ function CreditCardRecommenderContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "benefits" ? "text-primary" : "text-sky-600"
+                    openFaq === "benefits" ? "text-primary" : "text-secondary"
                   }`}
                 >
                   What are the benefits of a card with no annual fee?
@@ -180,7 +180,7 @@ function CreditCardRecommenderContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "benefits" ? "transform rotate-180" : "" // Changed to rotate for better icon indication
                   } ${
-                    openFaq === "benefits" ? "text-primary" : "text-sky-700"
+                    openFaq === "benefits" ? "text-primary" : "text-secondary"
                   }`}
                   aria-hidden="true" // Hide decorative icon from screen readers
                 >
@@ -206,7 +206,7 @@ function CreditCardRecommenderContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "cashback" ? "text-primary" : "text-sky-600"
+                    openFaq === "cashback" ? "text-primary" : "text-secondary"
                   }`}
                 >
                   How does cashback work?
@@ -215,7 +215,7 @@ function CreditCardRecommenderContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "cashback" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "cashback" ? "text-primary" : "text-sky-700"
+                    openFaq === "cashback" ? "text-primary" : "text-secondary"
                   }`}
                   aria-hidden="true"
                 >
@@ -240,7 +240,7 @@ function CreditCardRecommenderContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-5 ${
-                    openFaq === "travelers" ? "text-primary" : "text-sky-600"
+                    openFaq === "travelers" ? "text-primary" : "text-secondary"
                   }`}
                 >
                   What's the best option for travellers?
@@ -249,7 +249,7 @@ function CreditCardRecommenderContent() {
                   className={`text-xl transition-transform ${
                     openFaq === "travelers" ? "transform rotate-180" : ""
                   } ${
-                    openFaq === "travelers" ? "text-primary" : "text-sky-700"
+                    openFaq === "travelers" ? "text-primary" : "text-secondary"
                   }`}
                   aria-hidden="true"
                 >
@@ -275,7 +275,7 @@ function CreditCardRecommenderContent() {
               >
                 <h3
                   className={`font-medium text-lg leading-6 ${
-                    openFaq === "online" ? "text-primary" : "text-sky-600"
+                    openFaq === "online" ? "text-primary" : "text-secondary"
                   }`}
                 >
                   Is it safe to use credit cards online?
@@ -283,7 +283,7 @@ function CreditCardRecommenderContent() {
                 <span
                   className={`text-xl transition-transform ${
                     openFaq === "online" ? "transform rotate-180" : ""
-                  } ${openFaq === "online" ? "text-primary" : "text-sky-700"}`}
+                  } ${openFaq === "online" ? "text-primary" : "text-secondary"}`}
                   aria-hidden="true"
                 >
                   ▼
