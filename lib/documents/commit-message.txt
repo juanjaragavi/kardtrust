@@ -1,6 +1,10 @@
-docs: fix markdown code block syntax in brand image generation docs
+Update sitemap.xml with comprehensive URL coverage and current dates
 
-Minor documentation improvements to brand image generation guide files:
-- Fixed code block syntax from bash to markdown in BRAND_IMAGE_GENERATION_PROMPT.md
-- Improved heading consistency in BRAND_IMAGE_PRACTICAL_EXAMPLES.md for better navigation
-
+- Updated all lastmod dates to 2025-10-23 for consistency
+- Added missing main pages (about-us, contact-us, credit-card-recommender pages)
+- Added category archive pages (credit-cards, personal-loans)
+- Added all personal finance article URLs with proper metadata
+- Added all financial solutions product pages
+- Added corresponding requirements pages for all financial products
+- Improved SEO structure with proper changefreq and priority values
+- Enhanced sitemap completeness for better search engine indexing
