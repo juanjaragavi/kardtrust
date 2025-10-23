@@ -242,7 +242,7 @@ After generating both page components, you MUST immediately update the following
   title: "Product Name: Value Proposition | KardTrust",
   slug: "product-slug",
   description: "Brief product description focusing on key benefits",
-  image: "https://media.topfinanzas.com/images/us/product-image.webp",
+  image: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
   category: "Financial Solutions",
   categoryPath: "/financial-solutions",
   date: "MM/DD/YYYY", // Current date in US format

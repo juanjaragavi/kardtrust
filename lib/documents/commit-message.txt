@@ -1,30 +1,12 @@
-Add blog workflow migration files and system prompts
+fix: Correct CDN image paths and update documentation examples
 
-- Added TOFU_BLOG_POST_GENERATION.instructions.md system prompt
-- Added CREDIT_CARD_PRODUCT_GENERATION.instructions.md system prompt
-- Added blog-post-generation-prompt.md user documentation
-- Added BLOG_WORKFLOW_MIGRATION_SUMMARY.md comprehensive guide
-- Added BLOG_WORKFLOW_QUICK_START.md quick reference
-- Added prompt-to-generate-tofu-posts.md template
-- Added prompt-to-generate-credit-card-products-posts.md template
+- Updated About Us page testimonial images from /us/ to /kardtrust/ subdirectory
+- Fixed CREDIT_CARD_PRODUCT_GENERATION.instructions.md image path example
+- Fixed TOFU_BLOG_POST_GENERATION.instructions.md image path examples
+- Standardized all image URLs to use https://media.topfinanzas.com/images/kardtrust/
 
-feat: Add financial uncoupling breakup guide and update blog workflow documentation
-
-- Created new article: Financial Uncoupling - A Compassionate Guide to Separating Finances During a Breakup
-- Added article integration to blog main page (app/blog/page.tsx)
-- Added article integration to personal finance category page (app/personal-finance/page.tsx)
-- Updated blog post generation instructions to include automatic post-publication integration
-- Updated credit card product generation instructions with integration requirements
-- Corrected CDN URLs from media.kardtrust.com to media.topfinanzas.com across documentation
-- Enhanced documentation with Step 8 post-publication integration requirements
-- Updated workflow migration summary and quick start guides with accurate CDN references
-
-Changes focus on:
-- Comprehensive personal finance content for relationship transitions
-- Improved content visibility through automated blog index updates
-- Standardized post-publication workflows for both blog articles and product pages
-- Documentation accuracy for US market implementation
-- Updated brand references (TopFinanzas → KardTrust)
-- Changed regulatory framework (FCA → CFPB/FTC)
-- Localized to American English and US regulations
-- Updated technical references (ad IDs, CDN URLs, file paths)
+Changes ensure:
+- Consistent CDN subdirectory structure across the site
+- Accurate documentation examples for content generation
+- Proper image loading for all testimonial avatars
+- Alignment with KardTrust brand asset organization

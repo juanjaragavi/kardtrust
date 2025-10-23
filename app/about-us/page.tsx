@@ -395,10 +395,10 @@ export default function AboutUs() {
                       <Image
                         src={
                           index === 0
-                            ? "https://media.topfinanzas.com/images/us/james-davis.webp"
+                            ? "https://media.topfinanzas.com/images/kardtrust/james-davis.webp"
                             : index === 1
-                              ? "https://media.topfinanzas.com/images/us/sarah-williams.webp"
-                              : "https://media.topfinanzas.com/images/us/robert-mitchell.webp"
+                              ? "https://media.topfinanzas.com/images/kardtrust/sarah-williams.webp"
+                              : "https://media.topfinanzas.com/images/kardtrust/robert-mitchell.webp"
                         }
                         alt={testimonial.name}
                         width={56}

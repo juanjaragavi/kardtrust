@@ -233,7 +233,7 @@ After generating the blog article component, you MUST immediately update the fol
   title: "Article Title | KardTrust",
   slug: "article-slug",
   description: "Compelling article description focusing on value to reader",
-  image: "https://media.topfinanzas.com/images/us/article-image.webp",
+  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
   category: "Personal Finance",
   categoryPath: "/personal-finance",
   date: "MM/DD/YYYY", // Current date in US format (e.g., "10/23/2025")
@@ -246,7 +246,7 @@ After generating the blog article component, you MUST immediately update the fol
   title: "Article Title | KardTrust",
   slug: "article-slug",
   description: "Brief article description",
-  image: "https://media.topfinanzas.com/images/us/article-image.webp",
+  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
   date: "MM/DD/YYYY",
   category: "guide", // Options: "guide", "creditCards", "loans", "debt"
 }
@@ -297,7 +297,7 @@ export default function {ComponentName}Page() {
             </p>
             <div className="my-8">
               <Image
-                src="https://media.topfinanzas.com/images/{hero-image}.webp"
+                src="https://media.topfinanzas.com/images/kardtrust/{hero-image}.webp"
                 alt="{Descriptive alt text for US audience}"
                 width={800}
                 height={450}
