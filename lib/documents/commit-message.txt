@@ -1,14 +1,18 @@
-fix: Update Instagram social media URLs to KardTrust account
+refactor: Remove LinkedIn from social media - Instagram only platform
 
-- Updated BRANDING.md Organization Schema with new Instagram URL
-- Updated BRANDING.md Social Media section documentation
-- Updated Contact Us page social media links
-- Updated app layout.tsx Organization Schema
-- Updated footerNavigation.ts social media configuration
-- Changed from https://www.instagram.com/topfinance_en/ to https://www.instagram.com/kardtrust/
+- Removed LinkedIn from BRANDING.md Organization Schema (sameAs field)
+- Removed LinkedIn from BRANDING.md Social Media section
+- Removed LinkedIn link and icon from Contact Us page
+- Removed FaLinkedin import from contact-us/page.tsx
+- Removed LinkedIn from app/layout.tsx Organization Schema
+- Removed LinkedIn from lib/navigation/footerNavigation.ts
+- Removed "linkedin" from lib/analytics-validator.ts valid sources
+- Removed "linkedin" from components/analytics/utm-persister.tsx valid sources
+- Updated social media titles to "Follow us on Instagram"
 
 Changes ensure:
-- Consistent brand identity across all touchpoints
-- Accurate social media links for user engagement
-- Updated Schema.org structured data for SEO
-- Proper navigation configuration throughout the site
+- Accurate social media presence (Instagram only)
+- Cleaner Schema.org structured data for SEO
+- Simplified social media navigation throughout site
+- Removed unused LinkedIn references from analytics tracking
+- Proper brand identity reflecting actual social media presence

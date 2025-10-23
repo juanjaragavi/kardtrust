@@ -78,7 +78,7 @@ This document summarizes the successful migration of the blog post generation wo
 | ------------------------------ | ------------------------- |
 | uk_topfinanzas_3               | kardtrust_ad_1            |
 | uk_topfinanzas_4               | kardtrust_ad_2            |
-| media.topfinanzas.com          | media.topfinanzas.com       |
+| media.topfinanzas.com          | media.topfinanzas.com     |
 | uk.topfinanzas.com/sitemap.xml | kardtrust.com/sitemap.xml |
 
 ### 5. File Path Updates

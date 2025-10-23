@@ -24,7 +24,6 @@ const VALID_UTM_SOURCES = [
   "facebook",
   "instagram",
   "twitter",
-  "linkedin",
   "youtube",
   "tiktok",
   "pinterest",

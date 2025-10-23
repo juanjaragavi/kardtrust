@@ -795,10 +795,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
     "contactType": "customer support",
     "email": "info@topfinanzas.com"
   },
-  "sameAs": [
-    "https://www.linkedin.com/company/top-networks-inc",
-    "https://www.instagram.com/kardtrust/"
-  ]
+  "sameAs": ["https://www.instagram.com/kardtrust/"]
 }
 ```
 
@@ -1323,7 +1320,6 @@ For agents extracting specific values:
 
 ### Social Media
 
-- **LinkedIn:** <https://www.linkedin.com/company/top-networks-inc>
 - **Instagram:** <https://www.instagram.com/kardtrust/>
 
 ### Support

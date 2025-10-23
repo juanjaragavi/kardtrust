@@ -254,7 +254,6 @@ class AnalyticsValidator {
       "facebook",
       "instagram",
       "twitter",
-      "linkedin",
       "youtube",
       "tiktok",
       "pinterest",

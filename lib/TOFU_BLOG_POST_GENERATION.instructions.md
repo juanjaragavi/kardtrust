@@ -228,6 +228,7 @@ After generating the blog article component, you MUST immediately update the fol
    - Use `replace_string_in_file` tool to update
 
 **Example Entry Format for Blog Page**:
+
 ```typescript
 {
   title: "Article Title | KardTrust",
@@ -241,6 +242,7 @@ After generating the blog article component, you MUST immediately update the fol
 ```
 
 **Example Entry Format for Personal Finance Category Page**:
+
 ```typescript
 {
   title: "Article Title | KardTrust",

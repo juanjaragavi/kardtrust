@@ -90,6 +90,7 @@ This page details eligibility criteria and application process with parallel str
 ### Available Field Schema (Dataset Structure)
 
 CSV fields include:
+
 - Product Category, Product Name, Provider
 - Main Keyword, Page Title, Key Features
 - APR/Interest Rate, Fees, Eligibility Criteria
@@ -126,24 +127,28 @@ CSV fields include:
 ### Primary Data Source
 
 **Official Product Website**
+
 - Access method: Use `fetch_webpage` tool
 - Priority: Highest for current rates, fees, terms
 
 ### Secondary Data Source
 
 **CSV Topic Outline Database**
+
 - Location: <https://media.topfinanzas.com/documents/topfinanzas-us-topic-outline.csv>
 - Access method: Use `fetch_txt` tool
 
 ### Internal Linking Resource
 
 **US Site Sitemap**
+
 - Location: <https://kardtrust.com/sitemap.xml>
 - Access method: Use `fetch_txt` tool
 
 ## Code Templates
 
 Reference these existing pages for structure:
+
 - `/app/financial-solutions/example-credit-card/page.tsx`
 - `/app/financial-solutions/example-credit-card-requirements/page.tsx`
 
@@ -182,26 +187,31 @@ Reference these existing pages for structure:
 ## Workflow Process
 
 ### Step 1: Data Acquisition
+
 - Use `fetch_webpage` for official product URL
 - Use `fetch_txt` for CSV and sitemap
 - Extract all relevant product information
 
 ### Step 2: Data Synthesis
+
 - Cross-reference official website with CSV data
 - Prioritize official website for current rates/fees
 - Flag any contradictions or missing information
 
 ### Step 3: Template Analysis
+
 - Read template pages in `/app/financial-solutions/`
 - Understand component structure and styling
 - Identify correct import paths
 
 ### Step 4: Content Planning
+
 - Determine product type and content length
 - Plan H2 section headings for both pages
 - Map internal linking opportunities
 
 ### Step 5: Compliance Verification
+
 - Use American English spelling and grammar
 - Apply US financial terminology
 - Reference US regulatory bodies (CFPB, FTC, MyMoney.gov)
@@ -209,11 +219,13 @@ Reference these existing pages for structure:
 - Use USD ($) currency format
 
 ### Step 6: Code Generation
+
 - Generate TWO complete .tsx page components
 - Include all imports, metadata, and JSX structure
 - Apply brand colors and ad placements
 
 ### Step 7: Quality Assurance
+
 - Verify TypeScript validity
 - Confirm proper styling and component usage
 - Validate compliance requirements
@@ -237,6 +249,7 @@ After generating both page components, you MUST immediately update the following
    - Use `replace_string_in_file` tool to update
 
 **Example Entry Format for Blog Page**:
+
 ```typescript
 {
   title: "Product Name: Value Proposition | KardTrust",
@@ -293,6 +306,7 @@ export default function ProductNamePage() {
 Similar structure with requirements-focused content.
 
 **Critical Requirements:**
+
 - Complete, valid TypeScript React components
 - Proper Next.js 14+ App Router conventions
 - All necessary imports
@@ -315,6 +329,7 @@ Similar structure with requirements-focused content.
 <EthicalGuidelines>
 
 All generated content must be:
+
 - Factual, transparent, and ethical
 - Compliant with CFPB and FTC regulations
 - Clear about costs, risks, and requirements

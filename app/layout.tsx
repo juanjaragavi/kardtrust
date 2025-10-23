@@ -169,10 +169,7 @@ export default function RootLayout({
                   contactType: "customer support",
                   email: "info@kardtrust.com",
                 },
-                sameAs: [
-                  "https://www.linkedin.com/company/top-networks-inc",
-                  "https://www.instagram.com/kardtrust/",
-                ],
+                sameAs: ["https://www.instagram.com/kardtrust/"],
               },
               null,
               2,

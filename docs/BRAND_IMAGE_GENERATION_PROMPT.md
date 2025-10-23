@@ -41,6 +41,7 @@ TASK: Generate a hyper-realistic, high-quality stock photograph for a US financi
 INPUT REFERENCE IMAGE: [Attach reference image here - e.g., original template photo]
 
 PHOTOGRAPHY REQUIREMENTS:
+
 1. REALISM & QUALITY
    - Create a photorealistic, professional stock photography aesthetic
    - Ultra-high resolution (minimum 4K quality)
@@ -65,6 +66,7 @@ PHOTOGRAPHY REQUIREMENTS:
    - Depth and dimensional space for vector graphic layering
 
 REMOVE FROM REFERENCE:
+
 - All existing vector graphics (blue and green lines, shapes, overlays)
 - Any non-photorealistic elements from the template
 - Preserve only the photographic elements
@@ -78,10 +80,10 @@ Add new vector graphics inspired by the KardTrust brand logo with these exact sp
    - Design: Smooth, rounded edges with solid fills (no gradients unless subtle)
    - Shape: Dynamic curved or straight arrows suggesting growth and upward momentum
    - Placement: 2-4 arrows of varying sizes
-     * Position strategically around the subject (top-left, mid-right, bottom-left zones)
-     * Largest arrow: 15-20% of image width, positioned prominently but not obscuring the face
-     * Medium arrows: 8-12% of image width
-     * Small accent arrows: 4-6% of image width
+     - Position strategically around the subject (top-left, mid-right, bottom-left zones)
+     - Largest arrow: 15-20% of image width, positioned prominently but not obscuring the face
+     - Medium arrows: 8-12% of image width
+     - Small accent arrows: 4-6% of image width
    - Opacity: 85-95% solid
    - Interaction: Arrows should appear to "lift" from the background, suggesting forward motion
 
@@ -90,12 +92,12 @@ Add new vector graphics inspired by the KardTrust brand logo with these exact sp
    - Style: Clean, symmetrical four-pointed stars (like compass points or sparkles)
    - Design: Each star has 4 sharp points with slight glow/shine effect
    - Size variations: 3-6 stars total
-     * Large stars: 3-5% of image width
-     * Small accent stars: 1-2% of image width
+     - Large stars: 3-5% of image width
+     - Small accent stars: 1-2% of image width
    - Placement: Scattered naturally across the composition
-     * Position near arrows to create visual harmony
-     * Some stars near subject's head (suggesting excellence/achievement)
-     * Some stars in negative space areas
+     - Position near arrows to create visual harmony
+     - Some stars near subject's head (suggesting excellence/achievement)
+     - Some stars in negative space areas
    - Opacity: 90-100% solid with subtle glow
    - Effect: Stars should have a slight luminous quality, suggesting trust and excellence
 

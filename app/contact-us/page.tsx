@@ -9,7 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
-import { FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { BRAND_STATIC_FIELDS, UTM_PARAM_KEYS } from "@/lib/constants";
@@ -640,18 +640,9 @@ export default function ContactUs() {
         {/* Social Media Section */}
         <div className="mt-16 text-left bg-white py-8">
           <h3 className="text-xl font-semibold text-gray-800 mb-6">
-            Follow us on social media and take control of your finances
+            Follow us on Instagram and take control of your finances
           </h3>
-          <div className="flex justify-center space-x-6">
-            <Link
-              href="https://www.linkedin.com/company/top-networks-inc"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-3xl text-[#0077B5] hover:opacity-80 transition-opacity"
-              aria-label="LinkedIn"
-            >
-              <FaLinkedin />
-            </Link>
+          <div className="flex justify-center">
             <Link
               href="https://www.instagram.com/kardtrust/"
               target="_blank"
