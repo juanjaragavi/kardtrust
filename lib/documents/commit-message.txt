@@ -1,30 +1,22 @@
-feat: Add credit card product pages and update documentation
+fix: Update placeholder image URLs to KardTrust OG image
 
-This commit includes comprehensive additions to the Financial Solutions section:
+Replace all placeholder image URLs with the proper KardTrust OG image across the codebase:
 
-**New Credit Card Product Pages:**
-1. Chime Credit Builder Visa Secured Card
-   - Benefits page with 0% APR, no fees, credit building features
-   - Requirements page with eligibility criteria and application process
+**Files Updated:**
+- `BRANDING.md` - OG image metadata references
+- `app/layout.tsx` - Open Graph and Twitter card images
+- `app/personal-finance/page.tsx` - Image error fallback
+- `components/mdx/blog-layout.tsx` - Sidebar article image fallbacks
+- `.github/instructions/BLOG_POST_INTEGRATION.instructions.md` - Documentation example
 
-2. SoFi Unlimited 2% Credit Card
-   - Benefits page with 2% unlimited cash back, Mastercard World Elite perks
-   - Requirements page with excellent credit criteria and prequalification info
+**Changes:**
+- Old URL: `https://media.topfinanzas.com/images/placeholder-image.webp`
+- New URL: `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`
 
-3. Varo Believe Card
-   - Benefits page with no security deposit, 0% APR features
-   - Requirements page with simplified eligibility and application steps
+**Benefits:**
+- Consistent branding across all fallback images
+- Proper OG image for social media sharing
+- Improved user experience with branded error states
+- Better brand recognition in shared content
 
-**Documentation Updates:**
-- Refined prompt-to-generate-credit-card-products-posts.md formatting
-
-**Technical Details:**
-- All pages follow KardTrust design patterns and US market compliance
-- Comprehensive SEO metadata with targeted keywords
-- Responsive design with mobile-first approach
-- Integrated ad placement zones (kardtrust_ad_1, kardtrust_ad_2)
-- Representative APR examples and FDIC disclaimers
-- Step-by-step application processes and FAQ sections
-- Related article links and cross-promotion elements
-
-These additions provide users with detailed, compliant information about accessible credit building products in the US market.
+This update ensures all image references use the official KardTrust branding assets.

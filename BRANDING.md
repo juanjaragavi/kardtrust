@@ -757,7 +757,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 ##### OG Image
 
-- **URL:** `https://media.topfinanzas.com/images/placeholder-image.webp`
+- **URL:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`
 - **Width:** 900px
 - **Height:** 600px
 - **Alt:** "KardTrust - Financial Guides and Solutions"
@@ -769,7 +769,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 - **twitter:card:** summary_large_image
 - **twitter:title:** "KardTrust - Your Guide to US Credit Cards & Loans"
 - **twitter:description:** "Compare the best US credit cards, loans, and financial solutions with KardTrust."
-- **twitter:image:** `https://media.topfinanzas.com/images/placeholder-image.webp`
+- **twitter:image:** `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`
 
 ### Schema Markup
 

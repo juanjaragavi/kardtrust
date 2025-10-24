@@ -321,7 +321,7 @@ export default function PersonalFinanceArchivePage() {
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw" // Basic responsive sizes
                   onError={(e) => {
                     e.currentTarget.src =
-                      "https://media.topfinanzas.com/images/placeholder-image.webp";
+                      "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
                   }} // Fallback image
                   priority={false}
                   fetchPriority="high"
