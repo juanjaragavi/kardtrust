@@ -12,11 +12,11 @@ Generate a financial product page pair (benefits and requirements), following th
 
 - **Blog Post Category:** Financial Solutions
 - **Product Category:** Credit Cards (or Personal Loans)
-- **Product Name:** Chase Sapphire Preferred
-- **Provider:** Chase
-- **Official Product URL:** <https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred>
-- **Main Keywords:** Credit Cards, Chase Sapphire Preferred
-- **Page Title:** Discover the Benefits of Chase Sapphire Preferred
+- **Product Name:** [Product Name]
+- **Provider:** [Provider Name]
+- **Official Product URL:** [Official URL]
+- **Main Keywords:** Credit Cards, [Product Name]
+- **Page Title:** Discover the Benefits of [Product Name]
 - **Content Focus:** Product features, benefits, eligibility, application process
 - **SEO Intent Type:** Commercial/Transactional
 - **Funnel Stage:** MOFU/BOFU (Consideration/Decision)
@@ -25,9 +25,9 @@ Generate a financial product page pair (benefits and requirements), following th
 
 ## Brand and Visual Assets
 
-- **Brand Color:** #117ACA (hex color code for primary brand buttons/accents)
-- **Hero Image URL:** {Full URL to product hero image from CSV or CDN}
-- **Requirements Image URL:** {Full URL to requirements page image from CSV or CDN}
+- **Brand Color:** #[hexcode] (hex color code for primary brand buttons/accents)
+- **Hero Image URL:** https://media.topfinanzas.com/images/kardtrust/[product-slug].webp
+- **Requirements Image URL:** https://media.topfinanzas.com/images/kardtrust/[product-slug]-requirements.webp
 
 ## Data Sources
 
@@ -35,9 +35,9 @@ Generate a financial product page pair (benefits and requirements), following th
 
 ### Primary Data Source
 
-**Official Product Website**
+#### Official Product Website
 
-- **URL**: <https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred>
+- **URL**: [Official URL]
 - **Access method**: Use `fetch_webpage` tool
 - **Priority**: Highest - always prioritize for current rates, fees, terms
 - **Extract**:
@@ -52,9 +52,9 @@ Generate a financial product page pair (benefits and requirements), following th
 
 ### Secondary Data Source
 
-**CSV Topic Outline Database**
+#### CSV Topic Outline Database
 
-- **Location**: <https://media.topfinanzas.com/documents/topfinanzas-us-topic-outline.csv>
+- **Location**: `lib/documents/topfinanzas-us-topic-outline.csv`
 - **Access method**: Use `fetch_txt` tool
 - **Purpose**: Supplement official data, provide SEO metadata, brand colors, image URLs
 - **Extract**:
@@ -67,7 +67,7 @@ Generate a financial product page pair (benefits and requirements), following th
 
 ### Internal Linking Resource
 
-**US Site Sitemap**
+#### US Site Sitemap
 
 - **Location**: <https://kardtrust.com/sitemap.xml>
 - **Access method**: Use `fetch_txt` tool
@@ -80,7 +80,7 @@ Generate a financial product page pair (benefits and requirements), following th
 
 1. **Read System Prompt**: First, locate and read the complete system prompt at `/lib/CREDIT_CARD_PRODUCT_GENERATION.instructions.md` to understand all requirements, structures, and compliance rules.
 
-2. **Browse the Official Product URL**: Navigate to <https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred> using `fetch_webpage` and extract all relevant information:
+2. **Browse the Official Product URL**: Navigate to [Official URL] using `fetch_webpage` and extract all relevant information:
    - Product features and benefits (minimum 4 key features)
    - APR rates and interest rate information
    - Annual fees, application fees, and other charges
@@ -90,7 +90,7 @@ Generate a financial product page pair (benefits and requirements), following th
    - Any special terms, conditions, or promotional offers
    - Required representative APR examples and risk warnings
 
-3. **Supplement with CSV Data**: Use `fetch_txt` to access the CSV at <https://media.topfinanzas.com/documents/topfinanzas-us-topic-outline.csv>. Cross-reference the extracted information with the corresponding product row to ensure:
+3. **Supplement with CSV Data**: Use `fetch_txt` to access the CSV at `lib/documents/topfinanzas-us-topic-outline.csv`. Cross-reference the extracted information with the corresponding product row to ensure:
    - Brand color hex code is available
    - Hero and requirements image URLs are provided
    - SEO metadata (keywords, page title) is complete
@@ -121,8 +121,8 @@ Generate a financial product page pair (benefits and requirements), following th
    - `AIContentDisclaimer` component at the end of each page
 
 7. **Directory Placement**: Create files at:
-   - `/app/financial-solutions/chase-sapphire-preferred/page.tsx` (benefits page)
-   - `/app/financial-solutions/chase-sapphire-preferred-requirements/page.tsx` (requirements page)
+   - `/app/financial-solutions/[product-slug]/page.tsx` (benefits page)
+   - `/app/financial-solutions/[product-slug]-requirements/page.tsx` (requirements page)
 
 8. **Content Length**: Follow guidelines based on product type:
    - Credit Card Benefits Page: 800-1,200 words
@@ -135,13 +135,13 @@ Generate a financial product page pair (benefits and requirements), following th
 TWO complete Next.js page components:
 
 1. **Main Product Benefits Page**
-   - **File**: `/app/financial-solutions/chase-sapphire-preferred/page.tsx`
+   - **File**: `/app/financial-solutions/[product-slug]/page.tsx`
    - **Focus**: Features, benefits, rewards, value propositions
    - **Sections**: Introduction, key features, detailed benefits, CTAs
    - **Links**: Requirements page, related products, relevant guides
 
 2. **Requirements Page**
-   - **File**: `/app/financial-solutions/chase-sapphire-preferred-requirements/page.tsx`
+   - **File**: `/app/financial-solutions/[product-slug]-requirements/page.tsx`
    - **Focus**: Eligibility, application process, costs, documentation
    - **Sections**: Qualification criteria, required docs, costs/fees, application steps, FAQs
    - **Links**: Benefits page, related products, personal finance guides
@@ -150,7 +150,7 @@ Both files must:
 
 - Use `data-category="credit-cards"` attribute
 - Include complete `generateMetadata()` function
-- Apply brand color (#117ACA) to buttons and accents
+- Apply brand color (#[hexcode]) to buttons and accents
 - Contain compliance-aware disclaimers and representative APR examples
 - Follow existing template structure and styling patterns
 - Be production-ready with no placeholders or TODOs
@@ -171,6 +171,7 @@ Review these existing pages for structure and styling patterns:
 
 Additional US financial product URLs for pattern reference:
 
+- Chase Sapphire Preferred: <https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred>
 - American Express Blue Cash Preferred: <https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/>
 - Capital One Venture Rewards: <https://www.capitalone.com/credit-cards/venture/>
 - Discover it Cash Back: <https://www.discover.com/credit-cards/cash-back/it-card.html>

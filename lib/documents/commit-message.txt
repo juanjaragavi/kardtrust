@@ -1,27 +1,9 @@
-docs: Enhanced CREDIT_CARD_PRODUCT_GENERATION.instructions.md with comprehensive implementation details
+docs: Update documentation and migration guides
 
-- Expanded Financial Solutions Page Structure section with detailed components breakdown
-- Added complete Metadata Function specifications and Main Component Structure requirements
-- Clarified Page 2 (Requirements Page) structure with all required sections
-- Enhanced Available Field Schema documentation with detailed column descriptions
-- Expanded Precision and Compliance Rules with TILA, CFPB, and FTC specific guidance
-- Added recommended content length guidelines for each product type
-- Expanded Capabilities section with detailed subsections:
-  * Data Acquisition & Processing capabilities
-  * Code Generation expertise and standards
-  * Content Creation methodologies
-  * US Financial Compliance procedures
-  * US Market Localization requirements
-  * Technical Implementation guidelines
-  * Quality Assurance standards
-- Reorganized Limitations section with clear operational constraints
-- Enhanced ExpectedBehaviorAndInteraction workflow with 8-step process
-- Added detailed Step 8 for Post-Publication Integration (REQUIRED)
-- Clarified mandatory integration with BOTH blog and financial solutions pages
-- Added explicit warning to NOT add products to /app/personal-finance/page.tsx
-- Provided example entry formats for both blog and financial solutions pages
-- Expanded OutputFormatting with complete File 2 template code example
-- Enhanced HandlingAmbiguityAndEdgeCases with specific guidance on edge cases
-- Expanded EthicalGuidelines with detailed regulatory compliance requirements
+- Updated BLOG_POST_INTEGRATION instructions for enhanced clarity
+- Refined TOFU blog post generation guidelines
+- Enhanced credit card product post generation prompt
+- Added comprehensive UK migration summary documentation
+- Added migration quick reference guide for easy navigation
 
-Changes ensure comprehensive, clear guidance for financial product page generation with proper compliance and integration procedures.
+These updates improve documentation consistency and provide better guidance for content creation and platform migration workflows.

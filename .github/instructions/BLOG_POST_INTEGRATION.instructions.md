@@ -1,3 +1,7 @@
+---
+applyTo: "**/*"
+---
+
 # Blog Post Integration Instructions
 
 ## Overview
@@ -17,10 +21,10 @@ When creating new blog articles, they must be added to multiple locations across
   title: "Article Title | KardTrust",
   slug: "article-slug", // Must match directory name
   description: "Article description/excerpt",
-  image: "https://media.topfinanzas.com/images/article-image.webp",
+  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
   category: "Personal Finance" | "Financial Solutions",
   categoryPath: "/personal-finance" | "/financial-solutions",
-  date: "DD Month YYYY", // e.g., "27 August 2025"
+  date: "Month DD, YYYY", // e.g., "August 27, 2025"
 }
 ```
 
@@ -43,8 +47,8 @@ When creating new blog articles, they must be added to multiple locations across
   title: "Article Title | KardTrust",
   slug: "article-slug",
   description: "Article description/excerpt",
-  image: "https://media.topfinanzas.com/images/article-image.webp",
-  date: "DD Month YYYY",
+  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
+  date: "Month DD, YYYY",
   category: "guide" | "creditCards" | "loans" | "debt", // Category filter
 }
 ```
@@ -72,7 +76,7 @@ When creating new blog articles, they must be added to multiple locations across
 <FeaturedPostCard
   title="Article Title"
   description="Article description"
-  image="https://media.topfinanzas.com/images/article-image.webp"
+  image="https://media.topfinanzas.com/images/kardtrust/article-image.webp"
   slug="article-slug"
   category="Personal Finance"
   categorySlug="/personal-finance"
@@ -82,7 +86,7 @@ When creating new blog articles, they must be added to multiple locations across
 />
 ```
 
-### 3. Blog Sidebar Recent Articles (`components/mdx/blog-layout.tsx`)
+### 4. Blog Sidebar Recent Articles (`components/mdx/blog-layout.tsx`)
 
 **Location**: Around line 63 in the `SidebarRecentArticles` component
 
@@ -96,7 +100,7 @@ When creating new blog articles, they must be added to multiple locations across
 }
 <div className="flex items-center gap-3">
   <Image
-    src="https://media.topfinanzas.com/images/article-image.webp"
+    src="https://media.topfinanzas.com/images/kardtrust/article-image.webp"
     alt="Article Title"
     width={50}
     height={50}
@@ -125,7 +129,7 @@ When creating new blog articles, they must be added to multiple locations across
 - Remove oldest articles to maintain 4-5 recent articles
 - Keep most engaging/popular articles
 
-### 4. Header Navigation Featured Posts (`lib/navigation/headerNavigation.ts`)
+### 5. Header Navigation Featured Posts (`lib/navigation/headerNavigation.ts`)
 
 **Location**: Around line 186 in the `featuredPosts` object
 
@@ -137,7 +141,7 @@ When creating new blog articles, they must be added to multiple locations across
 {
   title: cleanTitle("Article Title"),
   href: "/personal-finance/article-slug",
-  image: "https://media.topfinanzas.com/images/article-image.webp",
+  image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
   category: "Personal Finance",
   categoryHref: "/personal-finance",
 }
@@ -149,7 +153,7 @@ When creating new blog articles, they must be added to multiple locations across
 - Mix of Personal Finance and Financial Solutions content
 - Replace least performing or oldest articles
 
-### 5. Personal Finance Category Navigation (`lib/navigation/headerNavigation.ts`)
+### 6. Personal Finance Category Navigation (`lib/navigation/headerNavigation.ts`)
 
 **Location**: Around line 95 in the Personal Finance `items` array
 
@@ -202,7 +206,7 @@ When creating new blog articles, they must be added to multiple locations across
 
 - **Format**: WebP preferred for performance
 - **Size**: Minimum 800x450 pixels (16:9 aspect ratio)
-- **Location**: `https://media.topfinanzas.com/images/` domain
+- **Location**: `https://media.topfinanzas.com/images/kardtrust/` domain
 - **Naming**: Use descriptive, SEO-friendly names
 - **Fallback**: Always include error handling for missing images
 

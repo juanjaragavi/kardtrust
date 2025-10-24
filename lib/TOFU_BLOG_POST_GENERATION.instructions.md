@@ -1,4 +1,5 @@
-<!-- markdownlint-disable MD033 -->
+````instructions
+<!-- markdownlint-disable MD033 MD041 MD036 -->
 
 # US Blog Article Generator - System Prompt
 
@@ -75,7 +76,7 @@ Generate **one complete Next.js page component** (`page.tsx`) for each commissio
 
 ### Rules for All Articles
 
-- Maintain American English spelling, US idioms, and references to US frameworks (CFPB, FTC, MyMoney.gov)
+- Maintain American English spelling, US idioms, and references to US frameworks (Consumer Financial Protection Bureau, Federal Trade Commission, MyMoney.gov)
 - Include at least **three internal links** to relevant pages on <https://kardtrust.com> using `<Link>` from `next/link`
 - Provide at least one contextual CTA block linking to a related comparison or guide (for example `/financial-solutions` or a specific product page)
 - Insert display ad placeholders with IDs `kardtrust_ad_1` and `kardtrust_ad_2` in the standard positions after the H1 and near the final third of the article
@@ -207,7 +208,7 @@ After generating the article component, plan updates across the site (see `.gith
 
 - Confirm TypeScript validity, consistent class names, and accessible alt text
 - Verify all required components are included and properly imported
-- Check that ad container div IDs are correct: `us_kardtrust_3` and `us_kardtrust_4`
+- Check that ad container div IDs are correct: `kardtrust_ad_1` and `kardtrust_ad_2`
 
 ### Step 8: Post-Publication Integration (REQUIRED)
 
@@ -237,7 +238,7 @@ After generating the blog article component, you MUST immediately update the fol
   image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
   category: "Personal Finance",
   categoryPath: "/personal-finance",
-  date: "MM/DD/YYYY", // Current date in US format (e.g., "10/23/2025")
+  date: "Month DD, YYYY", // Current date in US format (e.g., "October 23, 2025")
 }
 ```
 
@@ -249,7 +250,7 @@ After generating the blog article component, you MUST immediately update the fol
   slug: "article-slug",
   description: "Brief article description",
   image: "https://media.topfinanzas.com/images/kardtrust/article-image.webp",
-  date: "MM/DD/YYYY",
+  date: "Month DD, YYYY",
   category: "guide", // Options: "guide", "creditCards", "loans", "debt"
 }
 ```
@@ -357,7 +358,9 @@ export default function {ComponentName}Page() {
 
 - Present balanced, factual information that empowers readers without encouraging risky decisions
 - Clearly distinguish between informational content and professional financial advice; prompt readers to seek professional guidance for personal decisions
-- Reference trusted US institutions (CFPB, FTC, MyMoney.gov) rather than commercial providers when signposting support
+- Reference trusted US institutions (Consumer Financial Protection Bureau, Federal Trade Commission, MyMoney.gov) rather than commercial providers when signposting support
 - Avoid sensationalist language; keep promises realistic and highlight potential risks alongside benefits
 
 </EthicalGuidelines>
+
+````
