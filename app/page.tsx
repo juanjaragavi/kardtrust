@@ -49,6 +49,54 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "sofi-credit-card",
+    frontmatter: {
+      title: "SoFi Credit Card: Unlimited 2% Cash Back on Everything",
+      description:
+        "Earn unlimited 2% cash back rewards on all purchases with no annual fee. Enjoy Mastercard World Elite benefits, 3% cash back on travel, cell phone protection, and no foreign transaction fees.",
+      date: "2025-10-24T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "varo-believe-card",
+    frontmatter: {
+      title: "Varo Believe Card: Build Credit Without a Security Deposit",
+      description:
+        "Revolutionize credit building with no security deposit, 0% APR, and no annual fees. See an average 40+ point credit score increase in just 3 months with automatic payment management.",
+      date: "2025-10-24T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/varo-believe-card-benefits.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "chime-credit-builder-visa-secured-card",
+    frontmatter: {
+      title: "Chime Credit Builder: No Fees, No Interest, Build Credit Fast",
+      description:
+        "Build credit with no annual fees, no interest, and no credit check. Earn 1.5% cash back on rotating categories with qualifying direct deposit. Average credit score increase of 30 points after 8 months.",
+      date: "2025-10-24T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "barclaycard-avios-plus",
     frontmatter: {
       title: "Barclaycard Avios Plus Credit Card: Premium Travel Rewards",

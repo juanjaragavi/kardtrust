@@ -32,13 +32,13 @@ function CreditCardRecommenderPageContent() {
             </h1>
 
             <p className="text-left text-xs leading-4 text-gray-800 mb-5">
-              Finding the right card is simple. Maximise rewards, organise your
+              Finding the right card is simple. Maximize rewards, organize your
               spending and enjoy exclusive benefits. Explore and choose the
               ideal card for you!
             </p>
 
             <div
-              id="uk_kardtrust_1"
+              id="kardtrust_ad_1"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -54,7 +54,7 @@ function CreditCardRecommenderPageContent() {
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
-                  <span className="font-bold">Personalised Options</span>
+                  <span className="font-bold">Personalized Options</span>
                 </div>
               </div>
 
@@ -77,7 +77,7 @@ function CreditCardRecommenderPageContent() {
               </div>
             </div>
 
-            <Link href="/financial-solutions/barclaycard-avios-plus">
+            <Link href="/financial-solutions/sofi-credit-card">
               <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                 <div className="flex items-center space-x-1">
                   <span>Accept Recommendation</span>
@@ -95,7 +95,7 @@ function CreditCardRecommenderPageContent() {
               informed decisions.
             </p>
             <div
-              id="uk_kardtrust_2"
+              id="kardtrust_ad_2"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -106,7 +106,7 @@ function CreditCardRecommenderPageContent() {
               complications.
             </p>
             <div className="mt-6 mb-4">
-              <Link href="/financial-solutions/halifax-world-elite-mastercard">
+              <Link href="/financial-solutions/varo-believe-card">
                 <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
                     <span>Our Top Recommendation</span>
@@ -120,7 +120,7 @@ function CreditCardRecommenderPageContent() {
             <p className="text-left text-sm mb-6">
               <Link
                 className="text-blue-500"
-                href="/financial-solutions/halifax-world-elite-mastercard-requirements"
+                href="/financial-solutions/varo-believe-card-requirements"
               >
                 Learn How to Apply
               </Link>
@@ -265,14 +265,14 @@ function CreditCardRecommenderPageContent() {
             <p className="text-left text-sm leading-5 text-gray-800 mb-8">
               Make your credit card an ally in achieving your financial goals.
               From cashback to travel rewards, choose an option that simplifies
-              your life and maximises your benefits. Explore our recommendations
+              your life and maximizes your benefits. Explore our recommendations
               and find the card that best suits you.
             </p>
             <div className="my-8 text-left sm:text-left">
-              <Link href="/financial-solutions/barclaycard-avios-plus">
+              <Link href="/financial-solutions/sofi-credit-card">
                 <Image
                   src="https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp"
-                  alt="Barclaycard Avios Plus Credit Card"
+                  alt="SoFi Credit Card"
                   width={900}
                   height={507}
                   className="mx-auto w-full md:w-8/12 h-auto rounded-xl"

@@ -40,6 +40,31 @@ export default function BlogArchivePage() {
 
   // Combine posts from both categories
   const allPosts: PostItem[] = [
+    // Financial Solutions Posts
+    {
+      title:
+        "SoFi Credit Card: Unlimited 2% Cash Back with No Annual Fee | KardTrust",
+      slug: "sofi-credit-card",
+      description:
+        "Discover the SoFi Unlimited 2% Credit Card offering straightforward cash back rewards on all purchases, Mastercard World Elite benefits, and premium travel perks—all with no annual fee.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "24 October 2025",
+    },
+    {
+      title:
+        "Varo Believe Card: Build Credit with Zero Fees and No Security Deposit | KardTrust",
+      slug: "varo-believe-card",
+      description:
+        "Discover how the Varo Believe Card revolutionizes credit building with no security deposit, 0% APR, no annual fees, and an average 40+ point credit score increase in just 3 months.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/varo-believe-card-benefits.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "24 October 2025",
+    },
     // Personal Finance Posts
     {
       title:
@@ -286,6 +311,18 @@ export default function BlogArchivePage() {
     },
     // Financial Solutions Posts (Add relevant ones)
     // Example: Add a few key ones, more can be added later
+    {
+      title:
+        "Chime Credit Builder Visa Secured Card: Build Credit with No Fees | KardTrust",
+      slug: "chime-credit-builder-visa-secured-card",
+      description:
+        "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "24 October 2025",
+    },
     {
       title: "Barclaycard Avios Plus Credit Card: Premium Travel Rewards",
       slug: "barclaycard-avios-plus",

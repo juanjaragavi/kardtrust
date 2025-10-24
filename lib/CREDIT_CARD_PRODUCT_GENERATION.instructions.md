@@ -40,12 +40,15 @@ Each page must be:
 1. `/app/financial-solutions/{productSlug}/page.tsx` (benefits page)
 2. `/app/financial-solutions/{productSlug}-requirements/page.tsx` (requirements page)
 3. **Automatic Post-Publication Integration** (REQUIRED):
+   - Add the product to `/app/page.tsx` in the `allPosts` array at the TOP (homepage featured posts)
    - Add the product to `/app/blog/page.tsx` in the `allPosts` array under "Financial Solutions" category
    - Add the product to `/app/financial-solutions/page.tsx` in the appropriate content array:
      - For credit cards: add to `creditCardsContent` array with appropriate `type` ("traditional", "neobank", or "fintech")
      - For personal loans: add to `allLoansContent` array with appropriate `type` ("personal", "sme_fintech", "neobank", "marketplace", or "guide")
+   - **For credit cards ONLY**: Also add to `/app/credit-cards/page.tsx` in the `creditCardsContent` array
    - **DO NOT** add products to `/app/personal-finance/page.tsx` - that page is ONLY for educational guides and articles, NOT individual product pages
-   - Update both arrays immediately after generating the page components
+   - Update all required arrays immediately after generating the page components
+   - Credit card products require 4 file updates; loan products require 3 file updates
 
 **Key Tools**:
 
@@ -453,15 +456,21 @@ When you receive a user request with product details including the **Official Pr
 
 **Automatically Add to Site Indexes**
 
-After generating both page components, you MUST immediately update the following TWO files to make the product visible on public-facing pages:
+After generating both page components, you MUST immediately update the following THREE (or FOUR for credit cards) files to make the product visible on public-facing pages:
 
-1. **Blog Main Page** (`/app/blog/page.tsx`):
+1. **Homepage** (`/app/page.tsx`):
+   - Add new entry to the `allPosts` array at the TOP (most recent first)
+   - Include: slug, frontmatter object with title, description, date (ISO format), featuredImage, categories array
+   - category: "Financial Solutions", categoryPath: "/financial-solutions"
+   - Use `replace_string_in_file` tool to update
+
+2. **Blog Main Page** (`/app/blog/page.tsx`):
    - Add new entry to the `allPosts` array under the "Financial Solutions" category section
    - Include: title, slug, description, image, category ("Financial Solutions"), categoryPath ("/financial-solutions"), date
    - Place at the top of the "Financial Solutions" section (most recent first)
    - Use `replace_string_in_file` tool to update
 
-2. **Financial Solutions Category Page** (`/app/financial-solutions/page.tsx`):
+3. **Financial Solutions Category Page** (`/app/financial-solutions/page.tsx`):
    - **For Credit Cards**: Add new entry to the `creditCardsContent` array
      - Include: title, slug, description, image, date, type
      - `type` must be one of: "traditional" (major banks), "neobank" (digital-first banks), or "fintech" (fintech companies)
@@ -472,12 +481,20 @@ After generating both page components, you MUST immediately update the following
      - Place at the top of the array (most recent first)
    - Use `replace_string_in_file` tool to update
 
+4. **Credit Cards Category Page** (`/app/credit-cards/page.tsx`) - **ONLY FOR CREDIT CARD PRODUCTS**:
+   - Add new entry to the `creditCardsContent` array at the TOP
+   - Include: title, slug, description, image, date, type
+   - `type` must be one of: "traditional", "neobank", "fintech", "travel", or "rewards"
+   - Use `replace_string_in_file` tool to update
+   - **SKIP THIS STEP** for personal loans and other non-credit-card products
+
 **IMPORTANT**:
 
 - **DO NOT** add product pages to `/app/personal-finance/page.tsx`
 - The Personal Finance page is ONLY for educational guides and comparison articles, NOT individual product pages
-- Product pages must be added to BOTH the Blog page AND the Financial Solutions category page
-- Failing to add to Financial Solutions page will hide the product from the category listing
+- Product pages must be added to ALL THREE pages (Homepage, Blog, Financial Solutions) PLUS the Credit Cards page for credit card products
+- Failing to add to these pages will hide the product from listings and featured posts
+- Credit card products require FOUR updates total (Homepage, Blog, Financial Solutions, and Credit Cards pages)
 
 **Example Entry Format for Blog Page**:
 
@@ -489,7 +506,26 @@ After generating both page components, you MUST immediately update the following
   image: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
   category: "Financial Solutions",
   categoryPath: "/financial-solutions",
-  date: "MM/DD/YYYY", // Current date in US format
+  date: "Month DD, YYYY", // e.g., "October 24, 2025"
+}
+```
+
+**Example Entry Format for Homepage Page**:
+
+```typescript
+{
+  slug: "product-slug",
+  frontmatter: {
+    title: "Product Name: Value Proposition",
+    description: "Brief product description focusing on key benefits",
+    date: "YYYY-MM-DDTHH:mm:ssZ", // ISO format, e.g., "2025-10-24T00:00:00Z"
+    featuredImage: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
+    categories: [
+      { name: "Financial Solutions", slug: "financial-solutions" },
+    ],
+  },
+  category: "Financial Solutions",
+  categoryPath: "/financial-solutions",
 }
 ```
 
@@ -501,8 +537,21 @@ After generating both page components, you MUST immediately update the following
   slug: "product-slug",
   description: "Brief product description focusing on key benefits and APR",
   image: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
-  date: "MM/DD/YYYY",
+  date: "DD Month YYYY", // e.g., "24 October 2025"
   type: "fintech", // or "traditional" or "neobank"
+}
+```
+
+**Example Entry Format for Credit Cards Category Page** (ONLY for credit card products):
+
+```typescript
+{
+  title: "Product Name",
+  slug: "product-slug",
+  description: "Brief product description focusing on key benefits and APR",
+  image: "https://media.topfinanzas.com/images/kardtrust/product-image.webp",
+  date: "DD Month YYYY", // e.g., "24 October 2025"
+  type: "fintech", // or "traditional", "neobank", "travel", "rewards"
 }
 ```
 
@@ -514,12 +563,15 @@ After generating both page components, you MUST immediately update the following
   slug: "product-slug",
   description: "Brief product description focusing on key benefits",
   image: "https://media.topfinanzas.com/images/kardtrust/loans/product-image.webp",
-  date: "MM/DD/YYYY",
+  date: "DD Month YYYY", // e.g., "24 October 2025"
   type: "personal", // or "sme_fintech", "neobank", "marketplace", "guide"
 }
 ```
 
-**CRITICAL**: This step is NOT optional. Product pages that are not added to BOTH indexes will remain invisible or partially visible to users browsing the site. Always complete BOTH integration steps immediately after generating the page components.
+**CRITICAL**: This step is NOT optional. Product pages that are not added to ALL required indexes will remain invisible or partially visible to users browsing the site. Always complete ALL integration steps immediately after generating the page components:
+
+- Credit card products: Update 4 files (Homepage, Blog, Financial Solutions, Credit Cards)
+- Loan products: Update 3 files (Homepage, Blog, Financial Solutions)
 
 ### Error Handling
 

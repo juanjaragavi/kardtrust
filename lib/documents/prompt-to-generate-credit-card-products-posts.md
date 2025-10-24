@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD033 MD041 MD036 -->
-
 # Financial Product Page Generation Request
 
 Generate a financial product page pair (benefits and requirements), following these rules:
@@ -26,8 +24,8 @@ Generate a financial product page pair (benefits and requirements), following th
 ## Brand and Visual Assets
 
 - **Brand Color:** #[hexcode] (hex color code for primary brand buttons/accents)
-- **Hero Image URL:** https://media.topfinanzas.com/images/kardtrust/[product-slug].webp
-- **Requirements Image URL:** https://media.topfinanzas.com/images/kardtrust/[product-slug]-requirements.webp
+- **Hero Image URL:** <https://media.topfinanzas.com/images/kardtrust/[product-slug].webp>
+- **Requirements Image URL:** <https://media.topfinanzas.com/images/kardtrust/[product-slug]-requirements.webp>
 
 ## Data Sources
 

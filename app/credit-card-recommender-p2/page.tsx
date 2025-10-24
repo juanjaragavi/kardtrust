@@ -32,34 +32,34 @@ function CreditCardRecommenderContent() {
             </h1>
 
             <div className="grid grid-cols-1 my-8 items-center justify-center text-left sm:text-left space-y-4">
-              <Link href="/financial-solutions/lloyds-bank-credit-card">
-                <Button className="bg-[#006A4D] hover:bg-[#00563d] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+              <Link href="/financial-solutions/sofi-credit-card">
+                <Button className="bg-[#329192] hover:bg-[#297a7b] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
-                    <span>Lloyds Bank Credit Card</span>
+                    <span>SoFi Credit Card</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
-                      <span className="text-[#006A4D] text-xs">➔</span>
+                      <span className="text-[#329192] text-xs">➔</span>
                     </div>
                   </div>
                 </Button>
               </Link>
 
-              <Link href="/financial-solutions/santander-uk-credit-card">
-                <Button className="bg-[#EA2424] hover:bg-[#c81d1d] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+              <Link href="/financial-solutions/varo-believe-card">
+                <Button className="bg-[#8c58d0] hover:bg-[#7446b8] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
-                    <span>Santander US Credit Card</span>
+                    <span>Varo Believe Card</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
-                      <span className="text-[#EA2424] text-xs">➔</span>
+                      <span className="text-[#8c58d0] text-xs">➔</span>
                     </div>
                   </div>
                 </Button>
               </Link>
 
-              <Link href="/financial-solutions/monzo-credit-card">
-                <Button className="bg-[#80111B] hover:bg-[#650d14] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
+              <Link href="/financial-solutions/chime-credit-builder-visa-secured-card">
+                <Button className="bg-[#1CC461] hover:bg-[#17a84f] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
-                    <span>Monzo Credit Card</span>
+                    <span>Chime Credit Builder Card</span>
                     <div className="bg-white rounded-full w-4 h-4 flex items-center justify-center">
-                      <span className="text-[#80111B] text-xs">➔</span>
+                      <span className="text-[#1CC461] text-xs">➔</span>
                     </div>
                   </div>
                 </Button>
@@ -67,13 +67,13 @@ function CreditCardRecommenderContent() {
             </div>
 
             <p className="text-left text-xs leading-4 text-gray-800 mb-5">
-              Finding the right card is simple. Maximise rewards, organise your
+              Finding the right card is simple. Maximize rewards, organize your
               spending and enjoy exclusive benefits. Explore and choose the
               ideal card for you!
             </p>
 
             <div
-              id="uk_kardtrust_1"
+              id="kardtrust_ad_1"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -91,7 +91,7 @@ function CreditCardRecommenderContent() {
                   <span className="text-white font-bold text-sm">✓</span>
                 </div>
                 <div className="text-sm">
-                  <span className="font-bold">Personalised Options</span>
+                  <span className="font-bold">Personalized Options</span>
                 </div>
               </div>
 
@@ -120,7 +120,7 @@ function CreditCardRecommenderContent() {
             </p>
 
             <div
-              id="uk_kardtrust_2"
+              id="kardtrust_ad_2"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -134,7 +134,7 @@ function CreditCardRecommenderContent() {
             <hr className="my-8" />
 
             <div className="mt-6 mb-4">
-              <Link href="/financial-solutions/santander-uk-credit-card">
+              <Link href="/financial-solutions/sofi-credit-card">
                 <Button className="bg-primary hover:bg-primary-dark text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
                   <div className="flex items-center space-x-1">
                     <span>Our Top Recommendation</span>
@@ -155,7 +155,7 @@ function CreditCardRecommenderContent() {
             <p className="text-left text-sm mb-6">
               <Link
                 className="text-blue-500"
-                href="/financial-solutions/santander-uk-credit-card-requirements"
+                href="/financial-solutions/sofi-credit-card-requirements"
               >
                 Learn How to Apply
               </Link>
@@ -302,15 +302,15 @@ function CreditCardRecommenderContent() {
             <p className="text-left text-sm leading-5 text-gray-800 mb-8">
               Make your credit card an ally in achieving your financial goals.
               From cashback to travel rewards, choose an option that simplifies
-              your life and maximises your benefits. Explore our recommendations
+              your life and maximizes your benefits. Explore our recommendations
               and find the card that best suits you.
             </p>
 
             <div className="my-8 text-left sm:text-left">
-              <Link href="/financial-solutions/barclaycard-avios-plus">
+              <Link href="/financial-solutions/varo-believe-card">
                 <Image
                   src="https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp"
-                  alt="Barclaycard Avios Plus Credit Card"
+                  alt="Varo Believe Card"
                   width={900}
                   height={507}
                   className="mx-auto w-full md:w-8/12 h-auto rounded-xl"

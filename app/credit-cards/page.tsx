@@ -25,6 +25,36 @@ export default function CreditCardsArchivePage() {
   // Hardcoded list of credit card content (copied from financial-solutions/page.tsx)
   const creditCardsContent: PostItem[] = [
     {
+      title: "SoFi Credit Card",
+      slug: "sofi-credit-card",
+      description:
+        "Earn unlimited 2% cash back rewards on all purchases with no annual fee. Enjoy Mastercard World Elite benefits, 3% cash back on travel, cell phone protection, and no foreign transaction fees.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card.webp",
+      date: "24 October 2025",
+      type: "traditional",
+    },
+    {
+      title: "Varo Believe Card",
+      slug: "varo-believe-card",
+      description:
+        "Revolutionize credit building with no security deposit, 0% APR, and no annual fees. See an average 40+ point credit score increase in just 3 months with automatic payment management.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/varo-believe-card-benefits.webp",
+      date: "24 October 2025",
+      type: "fintech",
+    },
+    {
+      title: "Chime Credit Builder Visa Secured Card",
+      slug: "chime-credit-builder-visa-secured-card",
+      description:
+        "Build credit with no annual fees, no interest, and no credit check. Earn 1.5% cash back on rotating categories with qualifying direct deposit. Average credit score increase of 30 points after 8 months.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
+      date: "24 October 2025",
+      type: "fintech",
+    },
+    {
       title: "Lloyds Bank Credit Card",
       slug: "lloyds-bank-credit-card",
       description:
