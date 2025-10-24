@@ -25,6 +25,16 @@ export default function CreditCardsArchivePage() {
   // Hardcoded list of credit card content (copied from financial-solutions/page.tsx)
   const creditCardsContent: PostItem[] = [
     {
+      title: "Upgrade OneCard",
+      slug: "upgrade-credit-card",
+      description:
+        "Discover the Upgrade OneCard offering flexible payment options with pay now or pay later features, no annual fee, 14.99%-29.99% APR, and the convenience of a credit card with the predictability of a personal loan.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card.webp",
+      date: "24 October 2025",
+      type: "fintech",
+    },
+    {
       title: "SoFi Credit Card",
       slug: "sofi-credit-card",
       description:

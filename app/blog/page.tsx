@@ -42,6 +42,17 @@ export default function BlogArchivePage() {
   const allPosts: PostItem[] = [
     // Financial Solutions Posts
     {
+      title: "Upgrade OneCard: Pay Now or Pay Later Credit Card | KardTrust",
+      slug: "upgrade-credit-card",
+      description:
+        "Discover the Upgrade OneCard offering flexible payment options with pay now or pay later features, no annual fee, 14.99%-29.99% APR, and the convenience of a credit card with the predictability of a personal loan.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "24 October 2025",
+    },
+    {
       title:
         "SoFi Credit Card: Unlimited 2% Cash Back with No Annual Fee | KardTrust",
       slug: "sofi-credit-card",

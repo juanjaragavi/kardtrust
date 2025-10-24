@@ -49,6 +49,22 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "upgrade-credit-card",
+    frontmatter: {
+      title: "Upgrade OneCard: Pay Now or Pay Later Credit Card",
+      description:
+        "Discover the Upgrade OneCard offering flexible payment options with pay now or pay later features, no annual fee, 14.99%-29.99% APR, and the convenience of a credit card with the predictability of a personal loan.",
+      date: "2025-10-24T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "sofi-credit-card",
     frontmatter: {
       title: "SoFi Credit Card: Unlimited 2% Cash Back on Everything",

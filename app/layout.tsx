@@ -103,7 +103,9 @@ export const metadata: Metadata = {
     // siteId: "[Optional Twitter ID]",
     // creator: "[Optional Twitter Handle]",
     // creatorId: "[Optional Twitter ID]",
-    images: [`https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`], // Using the provided image URL
+    images: [
+      `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`,
+    ], // Using the provided image URL
   },
 
   // Use simplified favicon configuration
