@@ -1,22 +1,19 @@
-fix: Update placeholder image URLs to KardTrust OG image
+fix: Update Varo Believe Card image URL across all pages
 
-Replace all placeholder image URLs with the proper KardTrust OG image across the codebase:
+Fixed incorrect image filename from varo-believe-card-benefits.webp to varo-believe-card.webp
 
 **Files Updated:**
-- `BRANDING.md` - OG image metadata references
-- `app/layout.tsx` - Open Graph and Twitter card images
-- `app/personal-finance/page.tsx` - Image error fallback
-- `components/mdx/blog-layout.tsx` - Sidebar article image fallbacks
-- `.github/instructions/BLOG_POST_INTEGRATION.instructions.md` - Documentation example
+- `app/blog/page.tsx` - Blog archive page
+- `app/credit-cards/page.tsx` - Credit cards archive page
+- `app/financial-solutions/page.tsx` - Financial solutions page
+- `app/page.tsx` - Homepage
 
 **Changes:**
-- Old URL: `https://media.topfinanzas.com/images/placeholder-image.webp`
-- New URL: `https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp`
+- Old URL: `https://media.topfinanzas.com/images/kardtrust/varo-believe-card-benefits.webp`
+- New URL: `https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp`
 
 **Benefits:**
-- Consistent branding across all fallback images
-- Proper OG image for social media sharing
-- Improved user experience with branded error states
-- Better brand recognition in shared content
-
-This update ensures all image references use the official KardTrust branding assets.
+- Ensures consistent image references across the entire site
+- Resolves broken image links for Varo Believe Card promotional content
+- Improves user experience with correct product imagery
+- Maintains brand consistency for Varo Believe Card listings

@@ -72,7 +72,7 @@ const allPosts: PostData[] = [
         "Revolutionize credit building with no security deposit, 0% APR, and no annual fees. See an average 40+ point credit score increase in just 3 months with automatic payment management.",
       date: "2025-10-24T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/kardtrust/varo-believe-card-benefits.webp",
+        "https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],

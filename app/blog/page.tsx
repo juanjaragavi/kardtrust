@@ -60,7 +60,7 @@ export default function BlogArchivePage() {
       description:
         "Discover how the Varo Believe Card revolutionizes credit building with no security deposit, 0% APR, no annual fees, and an average 40+ point credit score increase in just 3 months.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/varo-believe-card-benefits.webp",
+        "https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "24 October 2025",
