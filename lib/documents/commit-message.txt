@@ -3,7 +3,9 @@ feat: Add upgrade credit card content and update blog/financial solutions pages
 - Created new upgrade credit card article pages with comprehensive content
 - Updated blog listing page with latest articles and improved filtering
 - Enhanced credit cards page with new posts and better organization
-- Updated financial solutions page with upgrade credit card content
+- Updated CREDIT_CARD_PRODUCT_GENERATION.instructions.md to require external CTAs on requirements pages
+
+Modified the financial product generation instructions to ensure that the final CTA button on requirements pages links to official external bank/product URLs instead of internal benefits pages. This change improves user experience by providing direct access to official application pages and includes proper implementation guidelines with target="_blank" and rel="noopener noreferrer" attributes for security.
 - Improved layout with recent articles sidebar
 - Updated favicon files for better branding consistency
 
