@@ -1,5 +1,4 @@
-chore: fix lint issues and harden logging types
+docs: expand tofu playbook and update requirement ctas
 
-- memoize static page content arrays to satisfy react hook dependencies
-- tighten browser/server logger typings and remove unused imports
-- keep analytics components lint-clean after console logging adjustments
+- refresh TOFU blog generation system prompt and request template with detailed workflow guidance
+- point credit-builder requirement pages to official provider application links

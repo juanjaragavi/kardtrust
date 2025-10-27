@@ -641,9 +641,9 @@ export default function ChimeCreditBuilderRequirementsPage() {
               </section>
 
               <div className="text-left my-8">
-                <Link href="/financial-solutions/chime-credit-builder-visa-secured-card">
+                <Link href="https://www.chime.com">
                   <Button className="bg-[#1CC461] hover:bg-green-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                    Learn More About Benefits
+                    Apply Now at Chime.com
                   </Button>
                 </Link>
               </div>

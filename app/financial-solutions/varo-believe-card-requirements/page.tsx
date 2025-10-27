@@ -665,7 +665,7 @@ export default function VaroBelieveCardRequirementsPage() {
 
               <div className="text-left my-8">
                 <Link
-                  href="https://www.varobank.com/believe/"
+                  href="https://www.varomoney.com/credit-builder"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

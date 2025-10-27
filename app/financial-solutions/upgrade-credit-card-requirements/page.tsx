@@ -758,7 +758,7 @@ export default function UpgradeCreditCardRequirementsPage() {
 
               <div className="text-left my-8">
                 <Link
-                  href="https://www.upgrade.com/credit/upgrade-onecard/"
+                  href="https://www.upgrade.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
