@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import { useEffect } from "react";
+import logger from "@/lib/logger";
 
 const GAM_NETWORK_CODE = "21879825561";
 
@@ -44,8 +45,12 @@ export default function GoogleAdManager() {
 
       const googletag = window.googletag as unknown as GoogletagNamespace;
 
-      console.debug(
-        `GAM: Initializing Google Ad Manager with network code ${GAM_NETWORK_CODE}`,
+      logger.debug(
+        {
+          module: "gam",
+          networkCode: GAM_NETWORK_CODE,
+        },
+        "Initializing Google Ad Manager",
       );
 
       // Wait for GPT script to load, then initialize
@@ -78,7 +83,12 @@ export default function GoogleAdManager() {
             googletag.pubads().setTargeting("language", "en");
             googletag.pubads().setTargeting("site", "kardtrust_uk");
 
-            console.debug("GAM: Services enabled and targeting configured");
+            logger.debug(
+              {
+                module: "gam",
+              },
+              "Services enabled and targeting configured",
+            );
           });
         } else {
           // Retry if script not loaded yet
@@ -167,9 +177,13 @@ export default function GoogleAdManager() {
                     ).addService(window.googletag.pubads());
                   }
                   
-                  console.debug('GAM: Ad slots defined for network ${GAM_NETWORK_CODE}');
+                  if (typeof window._loggerDebug === 'function') {
+                    window._loggerDebug('gam', 'Ad slots defined for network ${GAM_NETWORK_CODE}');
+                  }
                 } catch (error) {
-                  console.error('GAM: Error defining ad slots:', error);
+                  if (typeof window._loggerError === 'function') {
+                    window._loggerError('gam', 'Error defining ad slots', error);
+                  }
                 }
               });
             };
@@ -206,7 +220,13 @@ export function GAMAdSlot({
       googletag.cmd.push(() => {
         // Display the ad slot
         googletag.display(slotId);
-        console.debug(`GAM: Displaying ad slot ${slotId}`);
+        logger.debug(
+          {
+            module: "gam",
+            slotId,
+          },
+          "Displaying ad slot",
+        );
       });
     }
   }, [slotId]);
@@ -245,12 +265,23 @@ export function refreshGAMads(slotIds?: string[]) {
 
         if (slotsToRefresh.length > 0) {
           pubads.refresh(slotsToRefresh);
-          console.debug("GAM: Refreshed specific ad slots", slotIds);
+          logger.debug(
+            {
+              module: "gam",
+              slotIds,
+            },
+            "Refreshed specific ad slots",
+          );
         }
       } else {
         // Refresh all slots
         pubads.refresh();
-        console.debug("GAM: Refreshed all ad slots");
+        logger.debug(
+          {
+            module: "gam",
+          },
+          "Refreshed all ad slots",
+        );
       }
     });
   }

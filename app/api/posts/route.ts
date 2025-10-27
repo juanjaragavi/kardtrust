@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import fs from "fs/promises";
 import path from "path";
+import logger from "@/lib/logger";
 
 // --- Simplified Logic for Debugging File Existence ---
 
@@ -11,23 +12,43 @@ async function checkMetadataExistence(
 ): Promise<void> {
   // Changed return type
   const fullDirPath = path.join(process.cwd(), dirPath);
-  console.log(`[checkMetadataExistence] Scanning directory: ${fullDirPath}`);
+  logger.debug(
+    {
+      module: "posts-api",
+      directory: fullDirPath,
+      category: categoryName,
+    },
+    "Scanning directory for metadata files",
+  );
 
   try {
     const entries = await fs.readdir(fullDirPath, { withFileTypes: true });
-    console.log(
-      `[checkMetadataExistence] Found ${entries.length} entries in ${dirPath}`,
+    logger.debug(
+      {
+        module: "posts-api",
+        directory: dirPath,
+        entryCount: entries.length,
+      },
+      "Found directory entries",
     );
 
     for (const entry of entries) {
       if (entry.isDirectory()) {
         const slug = entry.name;
-        console.log(
-          `[checkMetadataExistence] Processing directory entry: ${slug}`,
+        logger.debug(
+          {
+            module: "posts-api",
+            slug,
+          },
+          "Processing directory entry",
         );
         if (slug.endsWith("-requirements") || slug.endsWith("-application")) {
-          console.log(
-            `[checkMetadataExistence] Skipping auxiliary directory: ${slug}`,
+          logger.debug(
+            {
+              module: "posts-api",
+              slug,
+            },
+            "Skipping auxiliary directory",
           );
           continue;
         }
@@ -35,8 +56,13 @@ async function checkMetadataExistence(
         const metadataPath = path.join(fullDirPath, slug, "metadata.ts");
         try {
           await fs.access(metadataPath, fs.constants.F_OK); // Check if file exists and is accessible
-          console.log(
-            `[checkMetadataExistence] FOUND metadata.ts for slug: ${slug} in ${categoryName}`,
+          logger.info(
+            {
+              module: "posts-api",
+              slug,
+              category: categoryName,
+            },
+            "Found metadata.ts file",
           );
         } catch (accessError) {
           // Log only if it's not a 'Not Found' error, or specifically log 'Not Found'
@@ -44,35 +70,63 @@ async function checkMetadataExistence(
             accessError instanceof Error &&
             (accessError as NodeJS.ErrnoException).code === "ENOENT"
           ) {
-            console.warn(
-              `[checkMetadataExistence] NOT FOUND metadata.ts for slug: ${slug} in ${categoryName} (Path: ${metadataPath})`,
+            logger.warn(
+              {
+                module: "posts-api",
+                slug,
+                category: categoryName,
+                path: metadataPath,
+              },
+              "Metadata.ts not found",
             );
           } else {
-            console.error(
-              `[checkMetadataExistence] Error accessing metadata.ts for slug: ${slug} in ${categoryName}:`,
-              accessError,
+            logger.error(
+              {
+                module: "posts-api",
+                slug,
+                category: categoryName,
+                error: accessError,
+              },
+              "Error accessing metadata.ts",
             );
           }
         }
       } else {
-        console.log(
-          `[checkMetadataExistence] Skipping non-directory entry: ${entry.name}`,
+        logger.debug(
+          {
+            module: "posts-api",
+            entry: entry.name,
+          },
+          "Skipping non-directory entry",
         );
       }
     }
   } catch (error) {
-    console.error(
-      `[checkMetadataExistence] Error reading directory ${fullDirPath}:`,
-      error,
+    logger.error(
+      {
+        module: "posts-api",
+        directory: fullDirPath,
+        error,
+      },
+      "Error reading directory",
     );
   }
-  console.log(`[checkMetadataExistence] Finished scanning ${dirPath}.`);
+  logger.debug(
+    {
+      module: "posts-api",
+      directory: dirPath,
+    },
+    "Finished scanning directory",
+  );
 }
 
 export async function GET() {
   try {
-    console.log(
-      "API route /api/posts called (DEBUGGING - Checking Metadata Existence)",
+    logger.info(
+      {
+        module: "posts-api",
+      },
+      "Posts API route called - checking metadata existence",
     );
 
     // Run checks but don't collect posts for now
@@ -84,12 +138,21 @@ export async function GET() {
 
     // Return an empty array for now to prevent frontend errors,
     // focus is on checking the server logs for the existence messages.
-    console.log(
-      "API route finished checks. Returning empty array for debugging.",
+    logger.debug(
+      {
+        module: "posts-api",
+      },
+      "Finished checks, returning empty array",
     );
     return NextResponse.json([]);
   } catch (error) {
-    console.error("Failed to get posts in API route:", error);
+    logger.error(
+      {
+        module: "posts-api",
+        error,
+      },
+      "Failed to get posts",
+    );
     return NextResponse.json(
       { error: "Failed to load posts" },
       { status: 500 },

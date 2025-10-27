@@ -1,6 +1,7 @@
 "use client";
 
 import Script from "next/script";
+import logger from "@/lib/logger";
 
 const GOOGLE_ADS_ID = "AW-17359006951";
 
@@ -69,7 +70,9 @@ export default function GoogleAds() {
                     value: 1,
                     currency: 'USD'
                   });
-                  console.debug('Google Ads: Enhanced page view with campaign data sent');
+                  if (typeof window._loggerDebug === 'function') {
+                    window._loggerDebug('google-ads', 'Enhanced page view with campaign data sent');
+                  }
                 }
               } else {
                 // Fallback page view without UTM data
@@ -90,7 +93,9 @@ export default function GoogleAds() {
             // Make gtag available globally for conversion tracking
             window.gtag = gtag;
             
-            console.debug('Google Ads: Configuration loaded for ${GOOGLE_ADS_ID}');
+            if (typeof window._loggerDebug === 'function') {
+              window._loggerDebug('google-ads', 'Configuration loaded for ${GOOGLE_ADS_ID}');
+            }
           `,
         }}
       />
@@ -113,10 +118,15 @@ export function trackGoogleAdsConversion(
       value: value,
       currency: currency,
     });
-    console.debug(`Google Ads: Conversion tracked - ${conversionLabel}`, {
-      value,
-      currency,
-    });
+    logger.debug(
+      {
+        module: "google-ads",
+        conversionLabel,
+        value,
+        currency,
+      },
+      "Conversion tracked",
+    );
   }
 }
 
@@ -133,6 +143,13 @@ export function trackGoogleAdsEvent(
       ...parameters,
       send_to: GOOGLE_ADS_ID,
     });
-    console.debug(`Google Ads: Event tracked - ${eventName}`, parameters);
+    logger.debug(
+      {
+        module: "google-ads",
+        eventName,
+        parameters,
+      },
+      "Event tracked",
+    );
   }
 }

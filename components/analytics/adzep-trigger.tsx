@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useAdZep } from "./adzep";
+import logger from "@/lib/logger";
 
 interface AdZepTriggerProps extends React.HTMLAttributes<HTMLDivElement> {
   /**
@@ -48,10 +49,15 @@ export default function AdZepTrigger({
     activateAds();
 
     if (process.env.NODE_ENV === "development") {
-      console.log(`AdZep: Manual trigger activated (${trigger})`, {
-        target: (event.target as HTMLElement)?.tagName,
-        timestamp: new Date().toISOString(),
-      });
+      logger.debug(
+        {
+          module: "adzep-trigger",
+          trigger,
+          target: (event.target as HTMLElement)?.tagName,
+          timestamp: new Date().toISOString(),
+        },
+        "Manual trigger activated",
+      );
     }
   };
 
@@ -102,7 +108,12 @@ export function AdZepButton({
     }
 
     if (process.env.NODE_ENV === "development") {
-      console.log("AdZep: Button click detected");
+      logger.debug(
+        {
+          module: "adzep-trigger",
+        },
+        "Button click detected",
+      );
     }
   };
 
@@ -133,10 +144,14 @@ export function AdZepLink({
     }
 
     if (process.env.NODE_ENV === "development") {
-      console.log("AdZep: Link click detected", {
-        href: props.href,
-        text: typeof children === "string" ? children : "complex content",
-      });
+      logger.debug(
+        {
+          module: "adzep-trigger",
+          href: props.href,
+          text: typeof children === "string" ? children : "complex content",
+        },
+        "Link click detected",
+      );
     }
   };
 

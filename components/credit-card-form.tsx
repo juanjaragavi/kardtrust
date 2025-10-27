@@ -4,6 +4,7 @@ import type React from "react";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Cookies from "js-cookie"; // Import Cookies
+import logger from "@/lib/logger";
 import Step1 from "./steps/step1";
 import Step2 from "./steps/step2";
 import Step3 from "./steps/step3";
@@ -105,8 +106,11 @@ export default function CreditCardForm() {
 
   const triggerConversionEvents = useCallback(() => {
     if (!GOOGLE_ADS_CONVERSION_LABEL) {
-      console.warn(
-        "[QUIZ] Google Ads conversion label is not configured; skipping Ad conversion event.",
+      logger.warn(
+        {
+          module: "credit-card-form",
+        },
+        "Google Ads conversion label not configured, skipping Ad conversion event",
       );
     } else {
       trackGoogleAdsConversion(GOOGLE_ADS_CONVERSION_LABEL);
@@ -118,8 +122,11 @@ export default function CreditCardForm() {
   const persistRegistrationCookies = useCallback(() => {
     const cookieConfig = getCookieConfig();
     if (!cookieConfig.VALIDATION_ENABLED) {
-      console.log(
-        "[QUIZ] Cookie validation disabled; skipping cookie persistence",
+      logger.debug(
+        {
+          module: "credit-card-form",
+        },
+        "Cookie validation disabled, skipping cookie persistence",
       );
       return;
     }
@@ -143,8 +150,12 @@ export default function CreditCardForm() {
         expires: cookieExpiration,
       });
 
-      console.log(
-        `[QUIZ] Cookie validation: enabled, expiration: ${cookieExpiration} days`,
+      logger.debug(
+        {
+          module: "credit-card-form",
+          cookieExpiration,
+        },
+        "Cookie validation enabled",
       );
     }
   }, [formData.email, formData.firstName]);
@@ -161,7 +172,12 @@ export default function CreditCardForm() {
     const cookieConfig = getCookieConfig();
     // Skip cookie validation entirely if disabled via environment variable
     if (!cookieConfig.VALIDATION_ENABLED) {
-      console.log("[QUIZ] Cookie validation temporarily disabled");
+      logger.debug(
+        {
+          module: "credit-card-form",
+        },
+        "Cookie validation temporarily disabled",
+      );
       setIsRegisteredUser(false);
       return;
     }
@@ -183,7 +199,13 @@ export default function CreditCardForm() {
           });
         }
       } catch (error) {
-        console.error("Error parsing saved user data:", error);
+        logger.error(
+          {
+            module: "credit-card-form",
+            error,
+          },
+          "Error parsing saved user data",
+        );
       }
     }
   }, [mounted, updateFormData]);
@@ -219,7 +241,13 @@ export default function CreditCardForm() {
         return;
       }
 
-      console.log("[QUIZ] Form submission attempt", formData);
+      logger.info(
+        {
+          module: "credit-card-form",
+          formData,
+        },
+        "Form submission attempt",
+      );
       setIsSubmitting(true);
       setSubmissionStatus("idle");
       setSubmissionMessage(null);
@@ -341,7 +369,13 @@ export default function CreditCardForm() {
         const sheetsResult = await sheetsResponse.json().catch(() => ({}));
 
         if (sheetsResponse.status === 409) {
-          console.info("[QUIZ] Duplicate submission detected", sheetsResult);
+          logger.info(
+            {
+              module: "credit-card-form",
+              result: sheetsResult,
+            },
+            "Duplicate submission detected",
+          );
           persistRegistrationCookies();
           setSubmissionStatus("duplicate");
           setSubmissionMessage(
@@ -375,17 +409,32 @@ export default function CreditCardForm() {
               const subscribeError = await subscribeResponse
                 .json()
                 .catch(() => null);
-              console.error("[QUIZ] Subscription API error", subscribeError);
+              logger.error(
+                {
+                  module: "credit-card-form",
+                  error: subscribeError,
+                },
+                "Subscription API error",
+              );
             } else {
               const subscribeResult = await subscribeResponse
                 .json()
                 .catch(() => null);
-              console.log("Subscription API response:", subscribeResult);
+              logger.info(
+                {
+                  module: "credit-card-form",
+                  result: subscribeResult,
+                },
+                "Subscription API response",
+              );
             }
-          } catch (subscriptionError) {
-            console.error(
-              "[QUIZ] Error calling subscription API",
-              subscriptionError,
+          } catch (subscribeError) {
+            logger.error(
+              {
+                module: "credit-card-form",
+                error: subscribeError,
+              },
+              "Failed to send subscription request",
             );
           }
         }
@@ -401,7 +450,13 @@ export default function CreditCardForm() {
           redirectWithUtmParams("https://linkly.link/2ERav");
         }, 800);
       } catch (error) {
-        console.error("[QUIZ] Error handling submission", error);
+        logger.error(
+          {
+            module: "credit-card-form",
+            error,
+          },
+          "Error handling submission",
+        );
         setSubmissionStatus("error");
         setSubmissionMessage(
           "We couldn’t confirm your registration. Please try again in a moment.",

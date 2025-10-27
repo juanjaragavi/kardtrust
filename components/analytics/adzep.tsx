@@ -3,6 +3,7 @@
 import Script from "next/script";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import logger from "@/lib/logger";
 
 /**
  * AdZep Analytics Script Component
@@ -39,7 +40,13 @@ export default function AdZep() {
         }}
         onError={(error) => {
           // Handle script loading errors
-          console.warn("AdZep script failed to load:", error);
+          logger.warn(
+            {
+              module: "adzep",
+              error,
+            },
+            "AdZep script failed to load",
+          );
         }}
       />
     </>
@@ -57,7 +64,13 @@ export function useAdZep() {
       try {
         window.AdZepActivateAds();
       } catch (error) {
-        console.warn("Error activating AdZep ads:", error);
+        logger.warn(
+          {
+            module: "adzep",
+            error,
+          },
+          "Error activating AdZep ads",
+        );
       }
     }
   };
@@ -82,10 +95,14 @@ export function AdZepLinkHandler() {
       const link = target.closest("a");
 
       if (link && process.env.NODE_ENV === "development") {
-        console.log("AdZep: Link click detected", {
-          href: link.href,
-          text: link.textContent?.trim(),
-        });
+        logger.debug(
+          {
+            module: "adzep",
+            href: link.href,
+            text: link.textContent?.trim(),
+          },
+          "Link click detected",
+        );
       }
     };
 
@@ -115,7 +132,13 @@ export function AdZepNavigationHandler() {
     if (typeof window === "undefined") return;
 
     if (process.env.NODE_ENV === "development") {
-      console.log("AdZep: Navigation detected to pathname:", pathname);
+      logger.debug(
+        {
+          module: "adzep",
+          pathname,
+        },
+        "Navigation detected",
+      );
     }
   }, [pathname]);
 
@@ -148,7 +171,12 @@ export function AdZepCentralizedHandler() {
       // Check if we're within the debounce period
       if (now - lastActivationTime < DEBOUNCE_DELAY) {
         if (process.env.NODE_ENV === "development") {
-          console.log("AdZep: Activation skipped due to debounce");
+          logger.debug(
+            {
+              module: "adzep",
+            },
+            "Activation skipped due to debounce",
+          );
         }
         return;
       }
@@ -159,19 +187,32 @@ export function AdZepCentralizedHandler() {
           lastActivationTime = now;
 
           if (process.env.NODE_ENV === "development") {
-            console.log(
-              "AdZep: Centralized activation successful for pathname:",
-              pathname,
-              "at",
-              new Date().toISOString(),
+            logger.debug(
+              {
+                module: "adzep",
+                pathname,
+                timestamp: new Date().toISOString(),
+              },
+              "Centralized activation successful",
             );
           }
         } catch (error) {
-          console.warn("AdZep: Error during centralized activation:", error);
+          logger.warn(
+            {
+              module: "adzep",
+              error,
+            },
+            "Error during centralized activation",
+          );
         }
       } else {
         if (process.env.NODE_ENV === "development") {
-          console.warn("AdZep: window.AdZepActivateAds not available");
+          logger.warn(
+            {
+              module: "adzep",
+            },
+            "window.AdZepActivateAds not available",
+          );
         }
       }
     };

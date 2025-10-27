@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
+import logger from "@/lib/logger";
 import {
   activateAdZep,
   hasRenderedCreative,
@@ -67,11 +68,15 @@ export default function AdZepSPABridge() {
       if (containersPresent || isArticlePath(pathname || "")) {
         // Log activation attempt for debugging
         if (process.env.NODE_ENV === "development") {
-          console.log("[AdZep SPA Bridge] Attempting activation", {
-            containersPresent,
-            activationTimeout,
-            firstLoad: firstLoadRef.current,
-          });
+          logger.debug(
+            {
+              module: "adzep-spa-bridge",
+              containersPresent,
+              activationTimeout,
+              firstLoad: firstLoadRef.current,
+            },
+            "Attempting activation",
+          );
         }
 
         await activateAdZep({ timeout: activationTimeout });
@@ -82,7 +87,12 @@ export default function AdZepSPABridge() {
           if (anyContainerHasCreative()) {
             // Just log for debugging - no overlay logic
             if (process.env.NODE_ENV === "development") {
-              console.log("[AdZep SPA Bridge] Creatives detected");
+              logger.debug(
+                {
+                  module: "adzep-spa-bridge",
+                },
+                "Creatives detected",
+              );
             }
             return;
           }
@@ -91,12 +101,18 @@ export default function AdZepSPABridge() {
             if (process.env.NODE_ENV === "development") {
               const shouldHaveAds = isArticlePath(pathname || "");
               if (shouldHaveAds) {
-                console.warn(
-                  "[AdZep SPA Bridge] Max retries reached on article page",
+                logger.warn(
+                  {
+                    module: "adzep-spa-bridge",
+                  },
+                  "Max retries reached on article page",
                 );
               } else {
-                console.log(
-                  "[AdZep SPA Bridge] No ad units expected on this page",
+                logger.debug(
+                  {
+                    module: "adzep-spa-bridge",
+                  },
+                  "No ad units expected on this page",
                 );
               }
             }

@@ -2,6 +2,7 @@ import { google } from "googleapis";
 import { NextResponse } from "next/server";
 
 import { BRAND_STATIC_FIELDS } from "@/lib/constants";
+import logger from "@/lib/logger";
 
 const pickString = (...values: unknown[]) => {
   for (const value of values) {
@@ -20,38 +21,42 @@ export async function POST(req: Request) {
   const body = await req.json();
 
   // Enhanced logging for production debugging
-  console.log("[Sheets API] Request received:", {
-    hasEmail: !!body.email,
-    hasFirstName: !!body.firstName,
-    hasPreferenceText: !!body.preferenceText,
-    hasIncomeText: !!body.incomeText,
-    hasUTMSource: !!body.utm_source,
-    hasUTMMedium: !!body.utm_medium,
-    hasUTMCampaign: !!body.utm_campaign,
-    hasUTMTerm: !!body.utm_term,
-    hasUTMContent: !!body.utm_content,
-    hasSource: !!body.source,
-    hasMedium: !!body.medium,
-    hasCampaign: !!body.campaign,
-    hasTerm: !!body.term,
-    hasContent: !!body.content,
-    hasPais: !!(body.Pais || body.pais),
-    hasMarca: !!(body.Marca || body.marca),
-    bodyKeys: Object.keys(body),
-    bodySize: JSON.stringify(body).length,
-    utmValues: {
-      source: body.utm_source,
-      medium: body.utm_medium,
-      campaign: body.utm_campaign,
+  logger.info(
+    {
+      module: "sheets-api",
+      hasEmail: !!body.email,
+      hasFirstName: !!body.firstName,
+      hasPreferenceText: !!body.preferenceText,
+      hasIncomeText: !!body.incomeText,
+      hasUTMSource: !!body.utm_source,
+      hasUTMMedium: !!body.utm_medium,
+      hasUTMCampaign: !!body.utm_campaign,
+      hasUTMTerm: !!body.utm_term,
+      hasUTMContent: !!body.utm_content,
+      hasSource: !!body.source,
+      hasMedium: !!body.medium,
+      hasCampaign: !!body.campaign,
+      hasTerm: !!body.term,
+      hasContent: !!body.content,
+      hasPais: !!(body.Pais || body.pais),
+      hasMarca: !!(body.Marca || body.marca),
+      bodyKeys: Object.keys(body),
+      bodySize: JSON.stringify(body).length,
+      utmValues: {
+        source: body.utm_source,
+        medium: body.utm_medium,
+        campaign: body.utm_campaign,
+      },
     },
-  });
+    "Sheets API request received",
+  );
 
   try {
     const emailInput =
       typeof body.email === "string" ? body.email.trim().toLowerCase() : "";
 
     if (!emailInput) {
-      console.log("[Sheets API] Validation failed: Missing email");
+      logger.warn({ module: "sheets-api" }, "Validation failed: Missing email");
       return NextResponse.json(
         {
           error: "Email is required to upsert quiz registration",
@@ -61,13 +66,16 @@ export async function POST(req: Request) {
     }
 
     // Environment check logging
-    console.log("[Sheets API] Environment check:", {
-      hasServiceEmail: !!process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
-      hasPrivateKey: !!process.env.GOOGLE_PRIVATE_KEY,
-      hasSheetId: !!process.env.GOOGLE_SHEET_ID,
-      privateKeyLength: process.env.GOOGLE_PRIVATE_KEY?.length,
-      privateKeyStartsWith: process.env.GOOGLE_PRIVATE_KEY?.substring(0, 30),
-    });
+    logger.debug(
+      {
+        module: "sheets-api",
+        hasServiceEmail: !!process.env.GOOGLE_SERVICE_ACCOUNT_EMAIL,
+        hasPrivateKey: !!process.env.GOOGLE_PRIVATE_KEY,
+        hasSheetId: !!process.env.GOOGLE_SHEET_ID,
+        privateKeyLength: process.env.GOOGLE_PRIVATE_KEY?.length,
+      },
+      "Environment check",
+    );
 
     const auth = new google.auth.GoogleAuth({
       credentials: {
@@ -77,7 +85,7 @@ export async function POST(req: Request) {
       scopes: ["https://www.googleapis.com/auth/spreadsheets"],
     });
 
-    console.log("[Sheets API] Google Auth created successfully");
+    logger.debug({ module: "sheets-api" }, "Google Auth created successfully");
 
     const sheets = google.sheets({ version: "v4", auth });
 
@@ -228,14 +236,22 @@ export async function POST(req: Request) {
     );
   } catch (error) {
     // Enhanced error logging
-    console.error("[Sheets API] Error occurred:", {
-      errorMessage: error instanceof Error ? error.message : "Unknown error",
-      errorName: error instanceof Error ? error.name : "Unknown",
-      errorStack: error instanceof Error ? error.stack : undefined,
-      hasUTMParams: !!(body.utm_source || body.utm_medium || body.utm_campaign),
-      requestBodySize: JSON.stringify(body).length,
-      requestFields: Object.keys(body),
-    });
+    logger.error(
+      {
+        module: "sheets-api",
+        errorMessage: error instanceof Error ? error.message : "Unknown error",
+        errorName: error instanceof Error ? error.name : "Unknown",
+        errorStack: error instanceof Error ? error.stack : undefined,
+        hasUTMParams: !!(
+          body.utm_source ||
+          body.utm_medium ||
+          body.utm_campaign
+        ),
+        requestBodySize: JSON.stringify(body).length,
+        requestFields: Object.keys(body),
+      },
+      "Sheets API error occurred",
+    );
 
     const errorMessage =
       error instanceof Error ? error.message : "Unknown error";

@@ -4,6 +4,7 @@ import {
   subscribeToConvertKit,
   type ConvertKitSubscriberPayload,
 } from "@/lib/kit/convertkit-client";
+import logger from "@/lib/logger";
 
 type KitFields = Record<string, string | null | undefined>;
 
@@ -121,7 +122,10 @@ const parseJson = async (response: Response) => {
   try {
     return JSON.parse(text);
   } catch (error) {
-    console.warn("[Brevo API] Failed to parse JSON response", error);
+    logger.warn(
+      { module: "brevo-api", error },
+      "Failed to parse JSON response",
+    );
     return text;
   }
 };
@@ -152,11 +156,15 @@ const sendToBrevo = async (
       const duplicateContact = errorCode === "duplicate_parameter";
 
       if (duplicateContact) {
-        console.info("[Brevo API] Contact already exists", {
-          email: metadata.email,
-          ext_id: metadata.extId,
-          status: response.status,
-        });
+        logger.info(
+          {
+            module: "brevo-api",
+            email: metadata.email,
+            ext_id: metadata.extId,
+            status: response.status,
+          },
+          "Contact already exists",
+        );
 
         return {
           success: true,
@@ -167,10 +175,14 @@ const sendToBrevo = async (
         };
       }
 
-      console.error("[Brevo API] Error response", {
-        status: response.status,
-        body: responseBody,
-      });
+      logger.error(
+        {
+          module: "brevo-api",
+          status: response.status,
+          body: responseBody,
+        },
+        "Error response",
+      );
 
       return {
         success: false,
@@ -185,11 +197,15 @@ const sendToBrevo = async (
       };
     }
 
-    console.log("[Brevo API] Contact processed", {
-      email: metadata.email,
-      ext_id: metadata.extId,
-      status: response.status,
-    });
+    logger.info(
+      {
+        module: "brevo-api",
+        email: metadata.email,
+        ext_id: metadata.extId,
+        status: response.status,
+      },
+      "Contact processed",
+    );
 
     return {
       success: true,
@@ -199,7 +215,7 @@ const sendToBrevo = async (
     };
   } catch (error) {
     const durationMs = performance.now() - startedAt;
-    console.error("[Brevo API] Network or unexpected error", error);
+    logger.error({ module: "brevo-api", error }, "Network or unexpected error");
 
     return {
       success: false,
@@ -279,9 +295,12 @@ export async function POST(request: Request) {
   }
 
   if (!convertKitResult.success) {
-    console.error(
-      "[ConvertKit API] Subscription failed but Brevo succeeded",
-      convertKitResult,
+    logger.error(
+      {
+        module: "convertkit-api",
+        result: convertKitResult,
+      },
+      "Subscription failed but Brevo succeeded",
     );
   }
 

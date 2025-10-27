@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import logger from "@/lib/logger";
 
 /**
  * AdZep Interstitial Blocker - DISABLED
@@ -28,8 +29,11 @@ export default function AdZepInterstitialBlocker() {
     // This allows AdZep interstitials, offerwalls, and other ad units to display properly
 
     if (process.env.NODE_ENV === "development") {
-      console.log(
-        "[AdZep Interstitial Blocker] Component is DISABLED - Ad units will display normally",
+      logger.debug(
+        {
+          module: "adzep-interstitial-blocker",
+        },
+        "Component is DISABLED - Ad units will display normally",
       );
     }
 

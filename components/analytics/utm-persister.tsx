@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
+import logger from "@/lib/logger";
 
 // Define the UTM parameters we want to track
 const UTM_PARAM_KEYS = [
@@ -69,14 +70,22 @@ function validateUtmSource(source: string): boolean {
   }
 
   if (UTM_SOURCE_PATTERN.test(normalizedSource)) {
-    console.debug(
-      `UTM Persister: Accepting dynamic utm_source value: ${normalizedSource}`,
+    logger.debug(
+      {
+        module: "utm-persister",
+        source: normalizedSource,
+      },
+      "Accepting dynamic utm_source value",
     );
     return true;
   }
 
-  console.warn(
-    `UTM Persister: Rejected utm_source value due to invalid characters: ${source}`,
+  logger.warn(
+    {
+      module: "utm-persister",
+      source,
+    },
+    "Rejected utm_source value due to invalid characters",
   );
   return false;
 }
@@ -108,7 +117,13 @@ function getRelevantUtmParams(
         if (validateUtmSource(value)) {
           relevantParams[param] = value.toLowerCase().trim();
         } else {
-          console.warn(`UTM Persister: Invalid utm_source value: ${value}`);
+          logger.warn(
+            {
+              module: "utm-persister",
+              value,
+            },
+            "Invalid utm_source value",
+          );
         }
       }
       // Apply validation for utm_campaign when source is Google
@@ -118,8 +133,12 @@ function getRelevantUtmParams(
           if (validateGoogleAdsCampaign(value)) {
             relevantParams[param] = value;
           } else {
-            console.warn(
-              `UTM Persister: Invalid Google Ads campaign format: ${value}`,
+            logger.warn(
+              {
+                module: "utm-persister",
+                value,
+              },
+              "Invalid Google Ads campaign format",
             );
           }
         } else {
@@ -184,20 +203,35 @@ export default function UtmPersister() {
     if (typeof window === "undefined") return;
 
     // Log for debugging
-    console.debug("UTM Persister: Checking URL for UTM parameters");
+    logger.debug(
+      {
+        module: "utm-persister",
+      },
+      "Checking URL for UTM parameters",
+    );
 
     // Get validated UTM parameters
     const validatedParams = getRelevantUtmParams(searchParams);
     const hasValidUtmParams = Object.keys(validatedParams).length > 0;
 
     if (hasValidUtmParams) {
-      console.debug(
-        "UTM Persister: Found valid UTM parameters in URL, storing to sessionStorage",
+      logger.debug(
+        {
+          module: "utm-persister",
+        },
+        "Found valid UTM parameters in URL, storing to sessionStorage",
       );
 
       // Save validated UTM parameters to sessionStorage
       Object.entries(validatedParams).forEach(([param, value]) => {
-        console.debug(`UTM Persister: Storing ${param}=${value}`);
+        logger.debug(
+          {
+            module: "utm-persister",
+            param,
+            value,
+          },
+          "Storing UTM parameter",
+        );
         sessionStorage.setItem(param, value);
       });
 
@@ -207,7 +241,12 @@ export default function UtmPersister() {
 
       if (source === "google" && campaign) {
         sessionStorage.setItem("google_ads_campaign_context", "true");
-        console.debug("UTM Persister: Google Ads campaign context stored");
+        logger.debug(
+          {
+            module: "utm-persister",
+          },
+          "Google Ads campaign context stored",
+        );
       }
     }
   }, [searchParams]);
@@ -237,7 +276,12 @@ export default function UtmPersister() {
 
     // If we have stored UTM parameters, add them to the URL
     if (hasStoredUtmParams) {
-      console.debug("UTM Persister: Adding stored UTM parameters to URL");
+      logger.debug(
+        {
+          module: "utm-persister",
+        },
+        "Adding stored UTM parameters to URL",
+      );
 
       const currentParams = new URLSearchParams(searchParams.toString());
 
@@ -265,8 +309,11 @@ export default function UtmPersister() {
           router.replace(newUrl, { scroll: false });
         } else if (userIsInteracting) {
           // If user is interacting, retry after the interaction completes
-          console.debug(
-            "UTM Persister: Deferring URL update due to user interaction",
+          logger.debug(
+            {
+              module: "utm-persister",
+            },
+            "Deferring URL update due to user interaction",
           );
           urlReplacementTimeoutRef.current = setTimeout(() => {
             if (!userIsInteracting && document.visibilityState === "visible") {
