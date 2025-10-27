@@ -16,6 +16,7 @@
  */
 
 import pino from "pino";
+import pinoPretty from "pino-pretty";
 
 /**
  * Determine if we're running in a browser environment
@@ -26,7 +27,6 @@ const isBrowser = typeof window !== "undefined";
  * Determine the environment
  */
 const isDevelopment = process.env.NODE_ENV === "development";
-const isProduction = process.env.NODE_ENV === "production";
 
 /**
  * Determine log level based on environment
@@ -41,16 +41,42 @@ const logLevel =
  * Browser-safe logger for client components
  * Falls back to console methods but with structured approach
  */
-const createBrowserLogger = () => {
+type LogContext = Record<string, unknown>;
+
+type BrowserLogger = {
+  trace: (...args: unknown[]) => void;
+  debug: (...args: unknown[]) => void;
+  info: (...args: unknown[]) => void;
+  warn: (...args: unknown[]) => void;
+  error: (...args: unknown[]) => void;
+  fatal: (...args: unknown[]) => void;
+  child: (bindings?: LogContext) => BrowserLogger;
+};
+
+const createBrowserLogger = (): BrowserLogger => {
   return {
-    trace: (...args: any[]) =>
-      isDevelopment && console.debug("[TRACE]", ...args),
-    debug: (...args: any[]) =>
-      isDevelopment && console.debug("[DEBUG]", ...args),
-    info: (...args: any[]) => console.info("[INFO]", ...args),
-    warn: (...args: any[]) => console.warn("[WARN]", ...args),
-    error: (...args: any[]) => console.error("[ERROR]", ...args),
-    fatal: (...args: any[]) => console.error("[FATAL]", ...args),
+    trace: (...args: unknown[]) => {
+      if (isDevelopment) {
+        console.debug("[TRACE]", ...args);
+      }
+    },
+    debug: (...args: unknown[]) => {
+      if (isDevelopment) {
+        console.debug("[DEBUG]", ...args);
+      }
+    },
+    info: (...args: unknown[]) => {
+      console.info("[INFO]", ...args);
+    },
+    warn: (...args: unknown[]) => {
+      console.warn("[WARN]", ...args);
+    },
+    error: (...args: unknown[]) => {
+      console.error("[ERROR]", ...args);
+    },
+    fatal: (...args: unknown[]) => {
+      console.error("[FATAL]", ...args);
+    },
     child: () => createBrowserLogger(),
   };
 };
@@ -119,21 +145,32 @@ const createServerLogger = () => {
   };
 
   // Development configuration with pretty printing
+  // Note: Using sync mode to avoid worker thread issues in Next.js/Turbopack
   if (isDevelopment) {
-    return pino({
-      ...baseConfig,
-      transport: {
-        target: "pino-pretty",
-        options: {
+    try {
+      // Try to use pino-pretty in sync mode (no worker threads)
+      return pino(
+        {
+          ...baseConfig,
+        },
+        pinoPretty({
           colorize: true,
           translateTime: "HH:MM:ss Z",
           ignore: "pid,hostname",
           singleLine: false,
           levelFirst: true,
           messageFormat: "{msg}",
-        },
-      },
-    });
+          sync: true, // Synchronous mode - no worker threads
+        }),
+      );
+    } catch (error) {
+      // Fallback to basic pino if pino-pretty fails
+      console.warn(
+        "Failed to initialize pino-pretty, using basic logger:",
+        error,
+      );
+      return pino(baseConfig);
+    }
   }
 
   // Production configuration - pure JSON for log aggregation
@@ -155,7 +192,7 @@ const logger = isBrowser ? createBrowserLogger() : createServerLogger();
  * log.info('Processing request');
  * ```
  */
-export const createLogger = (context: Record<string, any>) => {
+export const createLogger = (context: LogContext) => {
   return logger.child(context);
 };
 
@@ -171,7 +208,7 @@ export const logHelpers = {
   /**
    * Log API request details
    */
-  apiRequest: (method: string, url: string, meta?: Record<string, any>) => {
+  apiRequest: (method: string, url: string, meta?: LogContext) => {
     logger.info({ method, url, ...meta }, `API Request: ${method} ${url}`);
   },
 
@@ -183,7 +220,7 @@ export const logHelpers = {
     url: string,
     status: number,
     duration?: number,
-    meta?: Record<string, any>,
+    meta?: LogContext,
   ) => {
     logger.info(
       { method, url, status, duration, ...meta },
@@ -198,7 +235,7 @@ export const logHelpers = {
     method: string,
     url: string,
     error: Error | unknown,
-    meta?: Record<string, any>,
+    meta?: LogContext,
   ) => {
     logger.error(
       { method, url, error, ...meta },
@@ -209,14 +246,14 @@ export const logHelpers = {
   /**
    * Log analytics events
    */
-  analytics: (event: string, data?: Record<string, any>) => {
+  analytics: (event: string, data?: LogContext) => {
     logger.debug({ event, ...data }, `Analytics: ${event}`);
   },
 
   /**
    * Log database operations
    */
-  database: (operation: string, table: string, meta?: Record<string, any>) => {
+  database: (operation: string, table: string, meta?: LogContext) => {
     logger.debug(
       { operation, table, ...meta },
       `Database: ${operation} on ${table}`,
@@ -226,14 +263,14 @@ export const logHelpers = {
   /**
    * Log authentication events
    */
-  auth: (action: string, userId?: string, meta?: Record<string, any>) => {
+  auth: (action: string, userId?: string, meta?: LogContext) => {
     logger.info({ action, userId, ...meta }, `Auth: ${action}`);
   },
 
   /**
    * Log validation errors
    */
-  validation: (field: string, error: string, meta?: Record<string, any>) => {
+  validation: (field: string, error: string, meta?: LogContext) => {
     logger.warn({ field, error, ...meta }, `Validation: ${field} - ${error}`);
   },
 };

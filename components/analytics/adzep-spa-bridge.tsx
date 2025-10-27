@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { usePathname } from "next/navigation";
-import logger from "@/lib/logger";
+import logger from "@/lib/browser-logger";
 import {
   activateAdZep,
   hasRenderedCreative,

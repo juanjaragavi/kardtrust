@@ -49,6 +49,7 @@ export default function CurveCreditCardRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   priority={false}
                   fetchPriority="high"
                   quality={85}
@@ -519,9 +520,13 @@ export default function CurveCreditCardRequirementsPage() {
                 </p>
 
                 <div className="text-left my-8">
-                  <Link href="https://www.curve.com/card/" target="_blank">
+                  <Link
+                    href="https://www.curve.com/en-us/credit/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button className="bg-[#E33292] hover:bg-pink-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                      Visit Official Website
+                      Apply Now at Curve
                     </Button>
                   </Link>
                 </div>

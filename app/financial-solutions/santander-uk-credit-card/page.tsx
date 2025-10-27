@@ -112,6 +112,7 @@ export default function SantanderUKCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   loading="eager"
                   priority
                 />

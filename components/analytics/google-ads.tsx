@@ -1,7 +1,6 @@
 "use client";
 
 import Script from "next/script";
-import logger from "@/lib/logger";
 
 const GOOGLE_ADS_ID = "AW-17359006951";
 
@@ -118,15 +117,13 @@ export function trackGoogleAdsConversion(
       value: value,
       currency: currency,
     });
-    logger.debug(
-      {
-        module: "google-ads",
+    if (process.env.NODE_ENV === "development") {
+      console.debug("[google-ads] Conversion tracked:", {
         conversionLabel,
         value,
         currency,
-      },
-      "Conversion tracked",
-    );
+      });
+    }
   }
 }
 
@@ -143,13 +140,11 @@ export function trackGoogleAdsEvent(
       ...parameters,
       send_to: GOOGLE_ADS_ID,
     });
-    logger.debug(
-      {
-        module: "google-ads",
+    if (process.env.NODE_ENV === "development") {
+      console.debug("[google-ads] Event tracked:", {
         eventName,
         parameters,
-      },
-      "Event tracked",
-    );
+      });
+    }
   }
 }

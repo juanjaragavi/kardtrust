@@ -110,6 +110,7 @@ export function Header() {
                 width={logos.colorLogo.width}
                 height={logos.colorLogo.height}
                 className="h-10 w-auto"
+                style={{ width: "auto", height: "auto" }}
                 priority={true}
                 loading="eager"
                 sizes="153px" // Updated based on h-10 (40px) and aspect ratio

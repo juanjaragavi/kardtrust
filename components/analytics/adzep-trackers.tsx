@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect } from "react";
-import logger from "@/lib/logger";
 
 /**
  * Enhanced AdZep Link Tracker
@@ -23,7 +22,7 @@ export default function AdZepLinkTracker() {
         // Only log for debugging/tracking purposes
         // AdZep activation is handled by AdZepCentralizedHandler in header
         if (process.env.NODE_ENV === "development") {
-          logger.debug(
+          console.debug(
             {
               module: "adzep-tracker",
               type: link.tagName,
@@ -64,7 +63,7 @@ export function AdZepFormTracker() {
       // Only log for debugging/tracking purposes
       // AdZep activation is handled by AdZepCentralizedHandler in header
       if (process.env.NODE_ENV === "development") {
-        logger.debug(
+        console.debug(
           {
             module: "adzep-tracker",
           },
@@ -82,7 +81,7 @@ export function AdZepFormTracker() {
       ) {
         // Only log for debugging/tracking purposes
         if (process.env.NODE_ENV === "development") {
-          logger.debug(
+          console.debug(
             {
               module: "adzep-tracker",
               elementType: target.tagName,
@@ -123,7 +122,7 @@ export function AdZepPageTracker() {
         // Only log for debugging/tracking purposes
         // AdZep activation is handled by AdZepCentralizedHandler in header
         if (process.env.NODE_ENV === "development") {
-          logger.debug(
+          console.debug(
             {
               module: "adzep-tracker",
             },

@@ -3,7 +3,7 @@
 import Script from "next/script";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import logger from "@/lib/logger";
+import logger from "@/lib/browser-logger";
 
 /**
  * AdZep Analytics Script Component

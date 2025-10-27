@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
-import logger from "@/lib/logger";
+import logger from "@/lib/browser-logger";
 
 /**
  * UTM Link Injector

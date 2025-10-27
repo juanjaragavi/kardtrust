@@ -761,6 +761,7 @@ const SidebarAd = React.forwardRef<HTMLDivElement, React.ComponentProps<"div">>(
               width={1000}
               height={563}
               className="mx-auto w-full md:w-full h-auto rounded-xl"
+              style={{ width: "auto", height: "auto" }}
               priority
               placeholder="blur"
               blurDataURL="data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAAQAAAACQAAAwAAQUxQSBcAAAABD9D/ERFCyDa37d+ICPgXqjgjoqA+qgAAVlA4IDYAAACQAQCdASoKAAQAAkA4JZwAAPrHQAD++5AK1AA="

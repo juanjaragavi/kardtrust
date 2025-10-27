@@ -51,6 +51,7 @@ export default function NatWestCreditCardRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   priority={false}
                   fetchPriority="high"
                   quality={85}
@@ -453,9 +454,13 @@ export default function NatWestCreditCardRequirementsPage() {
                 </p>
 
                 <div className="text-left my-8">
-                  <Link href="https://www.natwest.com/credit-cards.html">
+                  <Link
+                    href="https://www.natwest.com/credit-cards.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button className="bg-[#42145F] hover:bg-purple-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                      Visit Official Website
+                      Apply Now at NatWest
                     </Button>
                   </Link>
                 </div>

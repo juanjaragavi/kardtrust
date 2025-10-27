@@ -169,6 +169,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                 width={1200}
                 height={675}
                 className="w-full h-auto rounded-xl"
+                style={{ width: "auto", height: "auto" }}
                 priority
               />
             </div>

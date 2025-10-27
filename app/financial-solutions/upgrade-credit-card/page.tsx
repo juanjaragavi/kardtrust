@@ -141,6 +141,7 @@ export default function UpgradeCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   priority={false}
                   fetchPriority="high"
                   quality={85}
@@ -244,6 +245,7 @@ export default function UpgradeCreditCardPage() {
                       width={1000}
                       height={563}
                       className="mx-auto w-full md:w-8/12 h-auto rounded-xl"
+                      style={{ width: "auto", height: "auto" }}
                       loading="lazy"
                       quality={80}
                     />

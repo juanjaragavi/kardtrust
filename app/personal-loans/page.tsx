@@ -23,206 +23,209 @@ export default function PersonalLoansArchivePage() {
   }, []);
 
   // Hardcoded list of loan content (copied from financial-solutions/page.tsx)
-  const allLoansContent: PostItem[] = [
-    // Personal Loans (Traditional Banks)
-    {
-      title: "HSBC Personal Loan",
-      slug: "hsbc-personal-loan",
-      description:
-        "Discover HSBC Personal Loans with competitive rates, flexible repayment terms, and quick application process.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Barclays Personal Loan",
-      slug: "barclays-personal-loan",
-      description:
-        "Explore Barclays Personal Loans with competitive rates, flexible terms, and a streamlined application process.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136012-fotosprestamo-barclays2uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Lloyds Bank Personal Loan",
-      slug: "lloyds-bank-personal-loan",
-      description:
-        "Explore Lloyds Bank Personal Loans with competitive rates, flexible repayment options, and trusted service.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136057-fotosprestamo-lloyds1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "NatWest Personal Loan",
-      slug: "natwest-personal-loan",
-      description:
-        "Explore NatWest Personal Loans with competitive rates, flexible repayment terms, and a straightforward application process.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136156-fotosprestamo-nawest1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Santander US Personal Loan",
-      slug: "santander-uk-personal-loan",
-      description:
-        "Explore Santander US Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "TSB Personal Loan",
-      slug: "tsb-personal-loan",
-      description:
-        "Explore TSB Personal Loans with competitive rates, flexible repayment options, and a focus on clear, simple banking solutions.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136271-fotosprestamo-tbs1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Virgin Money Personal Loan",
-      slug: "virgin-money-personal-loan",
-      description:
-        "Explore Virgin Money Personal Loans with competitive rates, flexible terms, and potential benefits linked to the Virgin Red rewards program.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136330-fotosprestamo-virginmoney1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Halifax Personal Loan",
-      slug: "halifax-personal-loan",
-      description:
-        "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major US bank.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136403-fotosprestamo-halifax1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    {
-      title: "Nationwide Personal Loan",
-      slug: "nationwide-personal-loan",
-      description:
-        "Explore Nationwide Personal Loans with competitive rates, flexible terms, and benefits for existing members.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136476-fotosprestamo-nationwide1uk.webp",
-      date: "4 April 2025",
-      type: "personal",
-    },
-    // Personal Loans (Fintech/Neobank)
-    {
-      title: "Revolut Personal Loan",
-      slug: "revolut-personal-loan",
-      description:
-        "Explore Revolut Personal Loans offering quick decisions, flexible terms, and seamless management through the Revolut app.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136529-fotosprestamo-revoult1uk.webp",
-      date: "4 April 2025",
-      type: "fintech",
-    },
-    {
-      title: "Monzo Personal Loan",
-      slug: "monzo-personal-loan",
-      description:
-        "Explore Monzo Personal Loans offering quick decisions, clear terms, and seamless management through the Monzo app.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136607-fotosprestamo-monzo2uk.webp",
-      date: "4 April 2025",
-      type: "neobank",
-    },
-    {
-      title: "Starling Bank Personal Loan",
-      slug: "starling-bank-personal-loan",
-      description:
-        "Explore Starling Bank Personal Loans offering competitive rates, clear terms, and seamless management via the Starling app.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136704-fotosprestamo-starlinkbanck1uk.webp",
-      date: "4 April 2025",
-      type: "neobank",
-    },
-    // SME Fintech Loans
-    {
-      title: "Funding Circle Business Loan",
-      slug: "funding-circle-personal-loan",
-      description:
-        "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for US SMEs.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
-      date: "4 April 2025",
-      type: "sme_fintech",
-    },
-    {
-      title: "Funding Options Marketplace",
-      slug: "funding-options-personal-loan",
-      description:
-        "Explore Funding Options, a leading US platform connecting SMEs with a wide range of business finance solutions.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718138018-fotosprestamo-fundingoption1uk.webp",
-      date: "4 April 2025",
-      type: "marketplace",
-    },
-    {
-      title: "iwoca Flexi-Loan",
-      slug: "iwoca-personal-loan",
-      description:
-        "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for US SMEs.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718137033-fotosprestamo-iwoca1uk.webp",
-      date: "4 April 2025",
-      type: "sme_fintech",
-    },
-    {
-      title: "MarketFinance Business Finance",
-      slug: "marketfinance-personal-loan",
-      description:
-        "Explore MarketFinance's solutions for US SMEs, including fast business loans and flexible invoice finance.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718137315-fotosprestamo-fundingchange2uk.webp",
-      date: "4 April 2025",
-      type: "sme_fintech",
-    },
-    {
-      title: "Funding Xchange Platform",
-      slug: "funding-xchange-personal-loan",
-      description:
-        "Explore Funding Xchange, a smart platform helping US SMEs compare and access business finance options.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136896-fotosprestamo-fundingchange1uk.webp",
-      date: "4 April 2025",
-      type: "marketplace",
-    },
-    {
-      title: "Capify Business Finance",
-      slug: "capify-personal-loan",
-      description:
-        "Explore Capify's financing solutions for US SMEs, including Merchant Cash Advances and Business Loans.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718137374-fotosprestamo-capify1uk.webp",
-      date: "4 April 2025",
-      type: "sme_fintech",
-    },
-    {
-      title: "Fleximize Business Loans",
-      slug: "fleximize-personal-loan",
-      description:
-        "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for US SMEs.",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718137416-fotosprestamo-fleximize1uk.webp",
-      date: "4 April 2025",
-      type: "sme_fintech",
-    },
-  ];
+  const allLoansContent = useMemo<PostItem[]>(
+    () => [
+      // Personal Loans (Traditional Banks)
+      {
+        title: "HSBC Personal Loan",
+        slug: "hsbc-personal-loan",
+        description:
+          "Discover HSBC Personal Loans with competitive rates, flexible repayment terms, and quick application process.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "Barclays Personal Loan",
+        slug: "barclays-personal-loan",
+        description:
+          "Explore Barclays Personal Loans with competitive rates, flexible terms, and a streamlined application process.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136012-fotosprestamo-barclays2uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "Lloyds Bank Personal Loan",
+        slug: "lloyds-bank-personal-loan",
+        description:
+          "Explore Lloyds Bank Personal Loans with competitive rates, flexible repayment options, and trusted service.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136057-fotosprestamo-lloyds1uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "NatWest Personal Loan",
+        slug: "natwest-personal-loan",
+        description:
+          "Explore NatWest Personal Loans with competitive rates, flexible repayment terms, and a straightforward application process.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136156-fotosprestamo-nawest1uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "Santander US Personal Loan",
+        slug: "santander-uk-personal-loan",
+        description:
+          "Explore Santander US Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "TSB Personal Loan",
+        slug: "tsb-personal-loan",
+        description:
+          "Explore TSB Personal Loans with competitive rates, flexible repayment options, and a focus on clear, simple banking solutions.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136271-fotosprestamo-tbs1uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "Virgin Money Personal Loan",
+        slug: "virgin-money-personal-loan",
+        description:
+          "Explore Virgin Money Personal Loans with competitive rates, flexible terms, and potential benefits linked to the Virgin Red rewards program.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136330-fotosprestamo-virginmoney1uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "Halifax Personal Loan",
+        slug: "halifax-personal-loan",
+        description:
+          "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major US bank.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136403-fotosprestamo-halifax1uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      {
+        title: "Nationwide Personal Loan",
+        slug: "nationwide-personal-loan",
+        description:
+          "Explore Nationwide Personal Loans with competitive rates, flexible terms, and benefits for existing members.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136476-fotosprestamo-nationwide1uk.webp",
+        date: "4 April 2025",
+        type: "personal",
+      },
+      // Personal Loans (Fintech/Neobank)
+      {
+        title: "Revolut Personal Loan",
+        slug: "revolut-personal-loan",
+        description:
+          "Explore Revolut Personal Loans offering quick decisions, flexible terms, and seamless management through the Revolut app.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136529-fotosprestamo-revoult1uk.webp",
+        date: "4 April 2025",
+        type: "fintech",
+      },
+      {
+        title: "Monzo Personal Loan",
+        slug: "monzo-personal-loan",
+        description:
+          "Explore Monzo Personal Loans offering quick decisions, clear terms, and seamless management through the Monzo app.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136607-fotosprestamo-monzo2uk.webp",
+        date: "4 April 2025",
+        type: "neobank",
+      },
+      {
+        title: "Starling Bank Personal Loan",
+        slug: "starling-bank-personal-loan",
+        description:
+          "Explore Starling Bank Personal Loans offering competitive rates, clear terms, and seamless management via the Starling app.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136704-fotosprestamo-starlinkbanck1uk.webp",
+        date: "4 April 2025",
+        type: "neobank",
+      },
+      // SME Fintech Loans
+      {
+        title: "Funding Circle Business Loan",
+        slug: "funding-circle-personal-loan",
+        description:
+          "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for US SMEs.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
+        date: "4 April 2025",
+        type: "sme_fintech",
+      },
+      {
+        title: "Funding Options Marketplace",
+        slug: "funding-options-personal-loan",
+        description:
+          "Explore Funding Options, a leading US platform connecting SMEs with a wide range of business finance solutions.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718138018-fotosprestamo-fundingoption1uk.webp",
+        date: "4 April 2025",
+        type: "marketplace",
+      },
+      {
+        title: "iwoca Flexi-Loan",
+        slug: "iwoca-personal-loan",
+        description:
+          "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for US SMEs.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718137033-fotosprestamo-iwoca1uk.webp",
+        date: "4 April 2025",
+        type: "sme_fintech",
+      },
+      {
+        title: "MarketFinance Business Finance",
+        slug: "marketfinance-personal-loan",
+        description:
+          "Explore MarketFinance's solutions for US SMEs, including fast business loans and flexible invoice finance.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718137315-fotosprestamo-fundingchange2uk.webp",
+        date: "4 April 2025",
+        type: "sme_fintech",
+      },
+      {
+        title: "Funding Xchange Platform",
+        slug: "funding-xchange-personal-loan",
+        description:
+          "Explore Funding Xchange, a smart platform helping US SMEs compare and access business finance options.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718136896-fotosprestamo-fundingchange1uk.webp",
+        date: "4 April 2025",
+        type: "marketplace",
+      },
+      {
+        title: "Capify Business Finance",
+        slug: "capify-personal-loan",
+        description:
+          "Explore Capify's financing solutions for US SMEs, including Merchant Cash Advances and Business Loans.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718137374-fotosprestamo-capify1uk.webp",
+        date: "4 April 2025",
+        type: "sme_fintech",
+      },
+      {
+        title: "Fleximize Business Loans",
+        slug: "fleximize-personal-loan",
+        description:
+          "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for US SMEs.",
+        image:
+          "https://media.topfinanzas.com/images/uk/loans/718137416-fotosprestamo-fleximize1uk.webp",
+        date: "4 April 2025",
+        type: "sme_fintech",
+      },
+    ],
+    [],
+  );
 
   // Sort posts by date (newest first)
   const allLoansContentSorted = useMemo(
     () => sortPostsByDate(allLoansContent),
-    [],
+    [allLoansContent],
   );
 
   // No filtering needed, just display the sorted loan content

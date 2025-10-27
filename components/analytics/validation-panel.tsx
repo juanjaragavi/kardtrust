@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import logger from "@/lib/logger";
 import analyticsValidator, {
   type ValidationResult,
 } from "@/lib/analytics-validator";
@@ -27,13 +26,8 @@ export default function AnalyticsValidationPanel() {
       setResults(validationResults);
       setSummary(analyticsValidator.getSummary());
     } catch (error) {
-      logger.error(
-        {
-          module: "validation-panel",
-          error,
-        },
-        "Validation failed",
-      );
+      // Using console.error since this is a client component (dev-only)
+      console.error("[validation-panel] Validation failed:", error);
     } finally {
       setIsRunning(false);
     }

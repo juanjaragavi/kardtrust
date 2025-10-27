@@ -115,19 +115,14 @@ class AnalyticsValidator {
         name: "GAM (Google Ad Manager) Validation",
         tests: [
           {
-            name: "GPT Library Loaded",
-            test: this.validateGPTLibrary.bind(this),
-            required: true,
-          },
-          {
             name: "GAM Ad Slots Defined",
             test: this.validateGAMSlots.bind(this),
-            required: true,
+            required: false, // Not required - GAM might not be on every page
           },
           {
             name: "GAM Services Enabled",
             test: this.validateGAMServices.bind(this),
-            required: true,
+            required: false, // Not required - GAM might not be on every page
           },
         ],
       },

@@ -35,243 +35,249 @@ export default function PersonalFinanceArchivePage() {
     setActiveCategory("all");
   }, []);
   // Array of all posts in this category
-  const allPosts: PostItem[] = [
-    {
-      title:
-        "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup | KardTrust",
-      slug: "financial-uncoupling-breakup-guide",
-      description:
-        "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/financial-uncoupling-breakup-guide.webp",
-      date: "23 October 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | KardTrust",
-      slug: "inflation-proof-your-life",
-      description:
-        "Discover seven practical strategies to protect your purchasing power during high inflation. Learn how to cut invisible spending leaks, lock in fixed rates, build emergency buffers, and keep your personal finance on track when costs are rising.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp",
-      date: "15 October 2025",
-      category: "guide",
-    },
-    {
-      title: "Best Personal Loans in the US: Your Complete Guide | KardTrust",
-      slug: "best-personal-loans",
-      description:
-        "Comprehensive guide to the US's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
-      date: "30 March 2025",
-      category: "loans",
-    },
-    {
-      title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
-      slug: "best-rewards-credit-cards",
-      description:
-        "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
-      slug: "cashback-credit-cards",
-      description:
-        "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
-      image: "https://media.topfinanzas.com/images/kardtrust/download-8-1.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "Credit Cards - Types, Benefits, and Keys to Financial Health | KardTrust",
-      slug: "credit-card-types-benefits",
-      description:
-        "Discover everything you need to know about credit cards, from types and benefits to tips for responsible usage and maintaining healthy finances.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title: "Practical Guide to Getting Out of Debt | KardTrust",
-      slug: "getting-out-of-debt",
-      description:
-        "Feeling overwhelmed by debt? Get practical strategies for getting out of debt, building an emergency fund, and taking control of your finances.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
-      date: "3 April 2025",
-      category: "debt",
-    },
-    {
-      title: "Top Credit Cards With No Annual Fees | KardTrust",
-      slug: "no-annual-fee-credit-cards",
-      description:
-        "Find the best no annual fee credit cards with great cashback, rewards, and flexible benefits. Perfect for managing expenses while saving on fees.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title: "Personal Loans - A Strategy for Managing Debt | KardTrust",
-      slug: "personal-loans-debt-strategy",
-      description:
-        "Discover how personal loans can help you consolidate debt and manage your finances efficiently. Learn how to choose the right loan for your needs.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/Top-Finances_personal_loans.webp",
-      date: "3 April 2025",
-      category: "loans",
-    },
-    {
-      title:
-        "5 Essential Tips for Choosing an Online Loan: Quick Guide | KardTrust",
-      slug: "tips-for-choosing-an-online-loan",
-      description:
-        "Navigate the world of online loans with confidence using these essential tips to find the best rates and terms for your financial needs.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
-      date: "30 March 2025",
-      category: "loans",
-    },
-    {
-      title: "Best Credit Cards with 0% Intro APR Offers in the US | KardTrust",
-      slug: "top-credit-cards-0-intro-apr",
-      description:
-        "Compare the best credit cards offering 0% introductory APR on purchases and balance transfers in the US. Save money on interest and manage debt effectively.",
-      image: "https://media.topfinanzas.com/images/kardtrust/APR.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",
-      slug: "understanding-credit-card-interest-rates",
-      description:
-        "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
-      image: "https://media.topfinanzas.com/images/kardtrust/download-5-2.webp",
-      date: "3 April 2025",
-      category: "creditCards",
-    },
-    {
-      title:
-        "What Is Financial Health? A Quick Guide to Checking Your Vitals | KardTrust",
-      slug: "what-is-financial-health",
-      description:
-        "A simple UK-focused guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/what-is-financial-health.webp",
-      date: "13 August 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "Money Management for Beginners: Where Do I Even Start? | KardTrust",
-      slug: "money-management-for-beginners",
-      description:
-        "New to personal finance? Learn simple UK-based steps to budget, save, manage debt, and build steady money habits that stick.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/money-management-for-beginners.webp",
-      date: "13 August 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "Setting Financial Goals: A Beginner's Guide to Personal Finance Planning | KardTrust",
-      slug: "setting-financial-goals",
-      description:
-        "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple UK-focused personal finance guide for beginners.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/setting-financial-goals.webp",
-      date: "15 August 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "Side Hustle or Second Job? How to Choose the Right Income Booster",
-      slug: "side-hustle-or-second-job",
-      description:
-        "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
-      date: "27 August 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
-      slug: "creating-a-budget-youll-actually-stick-to",
-      description:
-        "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start — built to help you actually stick to it.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp",
-      date: "4 September 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "What Is 'Lifestyle Creep' and How Is It Silently Draining Your Wallet? | KardTrust",
-      slug: "what-is-lifestyle-creep",
-      description:
-        "Discover how lifestyle creep gradually increases your spending as your income grows, and learn practical strategies to prevent this silent wealth-drainer from sabotaging your personal finance goals whilst still enjoying life.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp",
-      date: "9 October 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "Yours, Mine, or Ours? How to Strategically Combine Finances After Marriage (or Moving In) | KardTrust",
-      slug: "combine-finances-after-marriage-or-moving-in",
-      description:
-        "Thinking about merging money with a partner? Whether you've just tied the knot or moved in together, combining finances is more than opening a joint account. This US-focused guide walks you through practical options, common pitfalls, and an easy step-by-step plan.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/combine-finances-after-marriage-or-moving-in.webp",
-      date: "20 October 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "Ditching the Impulse Buys: A Practical Guide to Mindful Spending | KardTrust",
-      slug: "ditching-impulse-buys-mindful-spending",
-      description:
-        "Learn practical strategies to stop impulse buying and develop mindful spending habits. US-focused guide with real examples, budgeting tips, and proven techniques for better personal finance control.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/ditching-impulse-buys-mindful-spending-guide.webp",
-      date: "26 September 2025",
-      category: "guide",
-    },
-    {
-      title:
-        "How to Confidently Ask for a Raise (with Scripts and a Preparation Guide) | KardTrust",
-      slug: "how-to-ask-for-a-raise",
-      description:
-        "Learn exactly what to say when asking for a pay rise. This US-focused guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/how-to-ask-for-a-raise.webp",
-      date: "3 October 2025",
-      category: "guide",
-    },
-    {
-      title: "Best Travel Credit Cards US | KardTrust",
-      slug: "travel-credit-cards",
-      description:
-        "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/travel-cards-explained.webp",
-      date: "7 April 2025",
-      category: "creditCards",
-    },
-  ];
+  const allPosts = useMemo<PostItem[]>(
+    () => [
+      {
+        title:
+          "Financial Uncoupling: A Compassionate Guide to Separating Finances During a Breakup | KardTrust",
+        slug: "financial-uncoupling-breakup-guide",
+        description:
+          "Navigate the financial side of a breakup with confidence. Learn how to untangle joint accounts, split shared debts, protect your credit, and rebuild your financial independence after a relationship ends.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/financial-uncoupling-breakup-guide.webp",
+        date: "23 October 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "Inflation-Proof Your Life: 7 Smart Money Moves to Make When Prices Are High | KardTrust",
+        slug: "inflation-proof-your-life",
+        description:
+          "Discover seven practical strategies to protect your purchasing power during high inflation. Learn how to cut invisible spending leaks, lock in fixed rates, build emergency buffers, and keep your personal finance on track when costs are rising.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/inflation-proof-your-life-7-smart-money-moves.webp",
+        date: "15 October 2025",
+        category: "guide",
+      },
+      {
+        title: "Best Personal Loans in the US: Your Complete Guide | KardTrust",
+        slug: "best-personal-loans",
+        description:
+          "Comprehensive guide to the US's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp",
+        date: "30 March 2025",
+        category: "loans",
+      },
+      {
+        title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
+        slug: "best-rewards-credit-cards",
+        description:
+          "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
+        date: "3 April 2025",
+        category: "creditCards",
+      },
+      {
+        title:
+          "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
+        slug: "cashback-credit-cards",
+        description:
+          "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/download-8-1.webp",
+        date: "3 April 2025",
+        category: "creditCards",
+      },
+      {
+        title:
+          "Credit Cards - Types, Benefits, and Keys to Financial Health | KardTrust",
+        slug: "credit-card-types-benefits",
+        description:
+          "Discover everything you need to know about credit cards, from types and benefits to tips for responsible usage and maintaining healthy finances.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/Top_Finanzas_Top_tarjeta_de_credito-1.webp",
+        date: "3 April 2025",
+        category: "creditCards",
+      },
+      {
+        title: "Practical Guide to Getting Out of Debt | KardTrust",
+        slug: "getting-out-of-debt",
+        description:
+          "Feeling overwhelmed by debt? Get practical strategies for getting out of debt, building an emergency fund, and taking control of your finances.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
+        date: "3 April 2025",
+        category: "debt",
+      },
+      {
+        title: "Top Credit Cards With No Annual Fees | KardTrust",
+        slug: "no-annual-fee-credit-cards",
+        description:
+          "Find the best no annual fee credit cards with great cashback, rewards, and flexible benefits. Perfect for managing expenses while saving on fees.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/Top_Finance_credit_cards_without_annual_fee.webp",
+        date: "3 April 2025",
+        category: "creditCards",
+      },
+      {
+        title: "Personal Loans - A Strategy for Managing Debt | KardTrust",
+        slug: "personal-loans-debt-strategy",
+        description:
+          "Discover how personal loans can help you consolidate debt and manage your finances efficiently. Learn how to choose the right loan for your needs.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/Top-Finances_personal_loans.webp",
+        date: "3 April 2025",
+        category: "loans",
+      },
+      {
+        title:
+          "5 Essential Tips for Choosing an Online Loan: Quick Guide | KardTrust",
+        slug: "tips-for-choosing-an-online-loan",
+        description:
+          "Navigate the world of online loans with confidence using these essential tips to find the best rates and terms for your financial needs.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
+        date: "30 March 2025",
+        category: "loans",
+      },
+      {
+        title:
+          "Best Credit Cards with 0% Intro APR Offers in the US | KardTrust",
+        slug: "top-credit-cards-0-intro-apr",
+        description:
+          "Compare the best credit cards offering 0% introductory APR on purchases and balance transfers in the US. Save money on interest and manage debt effectively.",
+        image: "https://media.topfinanzas.com/images/kardtrust/APR.webp",
+        date: "3 April 2025",
+        category: "creditCards",
+      },
+      {
+        title:
+          "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",
+        slug: "understanding-credit-card-interest-rates",
+        description:
+          "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/download-5-2.webp",
+        date: "3 April 2025",
+        category: "creditCards",
+      },
+      {
+        title:
+          "What Is Financial Health? A Quick Guide to Checking Your Vitals | KardTrust",
+        slug: "what-is-financial-health",
+        description:
+          "A simple UK-focused guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/what-is-financial-health.webp",
+        date: "13 August 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "Money Management for Beginners: Where Do I Even Start? | KardTrust",
+        slug: "money-management-for-beginners",
+        description:
+          "New to personal finance? Learn simple UK-based steps to budget, save, manage debt, and build steady money habits that stick.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/money-management-for-beginners.webp",
+        date: "13 August 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "Setting Financial Goals: A Beginner's Guide to Personal Finance Planning | KardTrust",
+        slug: "setting-financial-goals",
+        description:
+          "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple UK-focused personal finance guide for beginners.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/setting-financial-goals.webp",
+        date: "15 August 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "Side Hustle or Second Job? How to Choose the Right Income Booster",
+        slug: "side-hustle-or-second-job",
+        description:
+          "With rising living costs across the US, many people are seeking ways to boost their income. Whether you're considering a traditional second job or exploring the world of side hustles, making the right choice can significantly impact your personal finance goals and lifestyle.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+        date: "27 August 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
+        slug: "creating-a-budget-youll-actually-stick-to",
+        description:
+          "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start — built to help you actually stick to it.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp",
+        date: "4 September 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "What Is 'Lifestyle Creep' and How Is It Silently Draining Your Wallet? | KardTrust",
+        slug: "what-is-lifestyle-creep",
+        description:
+          "Discover how lifestyle creep gradually increases your spending as your income grows, and learn practical strategies to prevent this silent wealth-drainer from sabotaging your personal finance goals whilst still enjoying life.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/lifestyle-creep-personal-finance.webp",
+        date: "9 October 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "Yours, Mine, or Ours? How to Strategically Combine Finances After Marriage (or Moving In) | KardTrust",
+        slug: "combine-finances-after-marriage-or-moving-in",
+        description:
+          "Thinking about merging money with a partner? Whether you've just tied the knot or moved in together, combining finances is more than opening a joint account. This US-focused guide walks you through practical options, common pitfalls, and an easy step-by-step plan.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/combine-finances-after-marriage-or-moving-in.webp",
+        date: "20 October 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "Ditching the Impulse Buys: A Practical Guide to Mindful Spending | KardTrust",
+        slug: "ditching-impulse-buys-mindful-spending",
+        description:
+          "Learn practical strategies to stop impulse buying and develop mindful spending habits. US-focused guide with real examples, budgeting tips, and proven techniques for better personal finance control.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/ditching-impulse-buys-mindful-spending-guide.webp",
+        date: "26 September 2025",
+        category: "guide",
+      },
+      {
+        title:
+          "How to Confidently Ask for a Raise (with Scripts and a Preparation Guide) | KardTrust",
+        slug: "how-to-ask-for-a-raise",
+        description:
+          "Learn exactly what to say when asking for a pay rise. This US-focused guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/how-to-ask-for-a-raise.webp",
+        date: "3 October 2025",
+        category: "guide",
+      },
+      {
+        title: "Best Travel Credit Cards US | KardTrust",
+        slug: "travel-credit-cards",
+        description:
+          "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/travel-cards-explained.webp",
+        date: "7 April 2025",
+        category: "creditCards",
+      },
+    ],
+    [],
+  );
 
   // Sort all posts by date (newest first)
-  const allPostsSorted = useMemo(() => sortPostsByDate(allPosts), []);
+  const allPostsSorted = useMemo(() => sortPostsByDate(allPosts), [allPosts]);
 
   // Filter posts based on the selected category
   const filteredPosts =

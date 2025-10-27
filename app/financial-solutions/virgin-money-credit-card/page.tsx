@@ -121,6 +121,7 @@ export default function VirginMoneyCreditCardPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   priority={false}
                   fetchPriority="high"
                   quality={85}

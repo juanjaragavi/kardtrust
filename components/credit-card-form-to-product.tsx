@@ -4,7 +4,6 @@ import type React from "react";
 import { useState, useEffect, useRef, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Cookies from "js-cookie"; // Import Cookies
-import logger from "@/lib/logger";
 import Step1 from "./steps/step1";
 import Step2 from "./steps/step2";
 import Step3 from "./steps/step3";

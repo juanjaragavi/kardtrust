@@ -52,6 +52,7 @@ export default function LloydsBankCreditCardRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   priority={false}
                   fetchPriority="high"
                   quality={85}
@@ -380,9 +381,13 @@ export default function LloydsBankCreditCardRequirementsPage() {
                 </p>
 
                 <div className="text-left my-8">
-                  <Link href="https://www.lloydsbank.com/credit-cards.html">
+                  <Link
+                    href="https://www.lloydsbank.com/credit-cards.html"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button className="bg-[#006A4D] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                      Visit Official Website
+                      Apply Now at Lloyds Bank
                     </Button>
                   </Link>
                 </div>

@@ -49,6 +49,7 @@ export default function SantanderUKCreditCardRequirementsPage() {
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   priority={false}
                   fetchPriority="high"
                   quality={85}
@@ -469,9 +470,13 @@ export default function SantanderUKCreditCardRequirementsPage() {
                 </p>
 
                 <div className="text-left my-8">
-                  <Link href="https://www.santander.co.uk/personal/credit-cards">
+                  <Link
+                    href="https://www.santander.co.uk/personal/credit-cards"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <Button className="bg-[#EC0000] hover:bg-red-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                      Visit Official Website
+                      Apply Now at Santander UK
                     </Button>
                   </Link>
                 </div>

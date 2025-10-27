@@ -18,6 +18,7 @@ export function CompactFooter() {
             width={120}
             height={40}
             className="h-10 w-auto"
+            style={{ width: "auto", height: "auto" }}
             priority
           />
         </div>

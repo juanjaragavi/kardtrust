@@ -59,6 +59,7 @@ export default function FinancialUncouplingPage() {
                   width={800}
                   height={450}
                   className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
                   priority={false}
                   loading="lazy"
                 />

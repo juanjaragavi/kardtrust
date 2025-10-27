@@ -2,7 +2,7 @@
 
 import React from "react";
 import { useAdZep } from "./adzep";
-import logger from "@/lib/logger";
+import logger from "@/lib/browser-logger";
 
 interface AdZepTriggerProps extends React.HTMLAttributes<HTMLDivElement> {
   /**

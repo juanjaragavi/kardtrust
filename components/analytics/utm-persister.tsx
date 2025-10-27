@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { usePathname, useSearchParams, useRouter } from "next/navigation";
-import logger from "@/lib/logger";
+import logger from "@/lib/browser-logger";
 
 // Define the UTM parameters we want to track
 const UTM_PARAM_KEYS = [

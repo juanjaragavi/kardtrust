@@ -58,8 +58,8 @@ export function FeaturedPostCard({
       data-category={category.toLowerCase().replace(/\s+/g, "-")}
       data-post-type={type}
     >
-      <div className={imageContainerClasses} style={{ position: "relative" }}>
-        <Link href={postUrl} className="block h-full">
+      <div className={imageContainerClasses}>
+        <Link href={postUrl} className="block h-full relative">
           <Image
             src={image}
             alt={title}

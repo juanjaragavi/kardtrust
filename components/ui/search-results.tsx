@@ -45,6 +45,7 @@ export function SearchResults({
                       width={80}
                       height={64}
                       className="object-cover w-full h-full"
+                      style={{ width: "auto", height: "auto" }}
                       loading="lazy"
                     />
                   ) : (
