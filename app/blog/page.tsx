@@ -42,6 +42,53 @@ export default function BlogArchivePage() {
   const allPosts: PostItem[] = [
     // Financial Solutions Posts
     {
+      title:
+        "Revolut Credit Card: Digital-First Banking for Modern Life | KardTrust",
+      slug: "revolut-credit-card",
+      description:
+        "Experience the Revolut Credit Card with multi-currency capabilities, instant virtual cards, advanced security controls, and premium subscription tiers. Choose Revolut Visa Credit Card or Revolut Secured Mastercard for innovative fintech banking.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/revolut-credit-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
+        "Step Visa Card: Build Credit for Free Starting at Age 13 | KardTrust",
+      slug: "step-visa-card",
+      description:
+        "Discover the Step Visa Card—build credit history for free with no credit score required, no fees, and no interest. Perfect for teens 13+ and young adults. Reports to all 3 credit bureaus with an average 57-point score increase.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/step-visa-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
+        "Robinhood Gold Card: 3% Cash Back on Everything with Premium Benefits | KardTrust",
+      slug: "robinhood-gold-card",
+      description:
+        "Discover the Robinhood Gold Card offering 3% cash back on all purchases, 5% back on travel, no annual fee, virtual cards, family card sharing, and Visa Signature benefits. Exclusive to Robinhood Gold members.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/robinhood-gold-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
+        "Tilt Card: Build Credit with Cash Back Rewards and No Security Deposit | KardTrust",
+      slug: "tilt-card",
+      description:
+        "Discover Tilt credit cards offering credit building without security deposits or credit history. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere.",
+      image: "https://media.topfinanzas.com/images/kardtrust/tilt-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
       title: "Upgrade OneCard: Pay Now or Pay Later Credit Card | KardTrust",
       slug: "upgrade-credit-card",
       description:

@@ -257,6 +257,35 @@ export default function FinancialSolutionsPage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "Step Visa Card",
+        slug: "step-visa-card",
+        description:
+          "Build credit for free starting at age 13 with no credit score required, no fees, and 0% APR. Secured card reports to all 3 bureaus with average 57-point score increase. Perfect for teens and young adults building credit history.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/step-visa-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "Robinhood Gold Card",
+        slug: "robinhood-gold-card",
+        description:
+          "Earn 3% cash back on all purchases and 5% on travel with no annual fee (requires Robinhood Gold membership). Enjoy virtual cards, family card sharing, Visa Signature benefits, and seamless investment integration with 29.99%-32.99% APR.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/robinhood-gold-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "Tilt Card",
+        slug: "tilt-card",
+        description:
+          "Build credit with no security deposit or credit history required. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere. Choose from Tilt Essentials, Motion, or Engage cards with variable APR 28.74%-33.74%.",
+        image: "https://media.topfinanzas.com/images/kardtrust/tilt-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
         title: "Upgrade OneCard",
         slug: "upgrade-credit-card",
         description:

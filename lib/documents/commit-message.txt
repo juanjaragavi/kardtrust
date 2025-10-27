@@ -1,4 +1,12 @@
-docs: expand tofu playbook and update requirement ctas
+feat: update Revolut Credit Card pages for US market
 
-- refresh TOFU blog generation system prompt and request template with detailed workflow guidance
-- point credit-builder requirement pages to official provider application links
+- Update Revolut Credit Card benefits and requirements pages with US-focused content
+- Apply brand color #121212 throughout all UI elements
+- Replace UK ad containers (uk_kardtrust_3/4) with US format (kardtrust_ad_1/2)
+- Update hero images to kardtrust CDN (revolut-credit-card.webp, revolut-credit-card-requirements.webp)
+- Emphasize both Revolut Visa Credit Card (Cross River Bank) and Revolut Secured Mastercard (Lead Bank)
+- Update external CTAs to https://www.revolut.com/en-US/cards
+- Add Revolut Credit Card to homepage featured posts (top position)
+- Add Revolut Credit Card to blog archive under Financial Solutions
+- Enhanced content highlighting multi-currency capabilities, virtual cards, security features, and subscription tiers
+- Zero compilation errors across all updated files

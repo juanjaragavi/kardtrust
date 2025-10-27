@@ -7,12 +7,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Revolut Credit Card Requirements: Global Application Guide - KardTrust",
+    title: "Revolut Credit Card Requirements: US Application Guide - KardTrust",
     description:
-      "Discover the eligibility criteria, digital application process, and requirements for the Revolut Credit Card to maximize your chances of approval.",
+      "Discover the eligibility criteria, digital application process, and requirements for the Revolut Visa Credit Card or Revolut Secured Mastercard. Learn about age, credit, and documentation requirements.",
     keywords:
-      "Revolut Credit Card requirements, fintech application, global credit card, Revolut eligibility, credit score requirements, digital banking",
+      "Revolut Credit Card requirements, Revolut Visa Credit Card, Revolut Secured Mastercard, fintech credit card application, Cross River Bank, Lead Bank, digital banking requirements",
   };
 }
 
@@ -32,7 +31,7 @@ export default function RevolutCreditCardRequirementsPage() {
             </h1>
 
             <div
-              id="uk_kardtrust_3"
+              id="kardtrust_ad_1"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -40,15 +39,18 @@ export default function RevolutCreditCardRequirementsPage() {
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
-                The Revolut Credit Card offers multi-currency capabilities,
-                global-first features, and innovative security controls for
-                modern international lifestyles.
+                The Revolut Credit Card—available as the Revolut Visa Credit
+                Card (issued by Cross River Bank) or Revolut Secured Mastercard
+                (issued by Lead Bank)—offers innovative digital banking with
+                multi-currency capabilities and advanced security features.
+                Here's everything you need to know about qualifying and applying
+                for this fintech-forward credit card.
               </p>
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/uk/credit-cards/718645629-top_prestamos-y-tarjetas-uk_v1-11.webp"
-                  alt="Revolut Credit Card"
+                  src="https://media.topfinanzas.com/images/kardtrust/revolut-credit-card-requirements.webp"
+                  alt="Revolut Credit Card Requirements"
                   width={900}
                   height={507}
                   className="w-full h-auto rounded-xl"
@@ -65,38 +67,40 @@ export default function RevolutCreditCardRequirementsPage() {
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Revolut account:</span>{" "}
-                      You need to have an existing Revolut account before you
-                      can apply for the Revolut Credit Card. This requirement
-                      ensures integration with Revolut's ecosystem and allows
-                      for a streamlined application process.
+                      You must have an existing Revolut account before applying
+                      for the Revolut Credit Card. This requirement ensures
+                      seamless integration with Revolut's ecosystem and allows
+                      for a streamlined, fully digital application process
+                      through the mobile app.
                     </div>
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Age and residency:</span>{" "}
-                      You must be at least 18 years old and a legal resident of
-                      a country where Revolut operates. For US applicants, you
-                      need to have a valid US address and have been a resident
-                      for a minimum period (typically 3 years).
+                      You must be at least 18 years old and a legal US resident
+                      with a valid US address. Applicants typically need to have
+                      been a US resident for a minimum period (usually 3 years)
+                      and provide proof of residency through documents like
+                      utility bills or lease agreements.
                     </div>
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
                       <span className="font-semibold">Credit history:</span>{" "}
-                      Revolut will assess your credit history as part of the
+                      Revolut assesses your credit history as part of the
                       application process. While they consider applicants with
                       various credit profiles, a good credit history will
                       generally improve your chances of approval and may result
@@ -105,7 +109,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -120,7 +124,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -134,7 +138,7 @@ export default function RevolutCreditCardRequirementsPage() {
                 </div>
 
                 <div
-                  id="uk_kardtrust_4"
+                  id="kardtrust_ad_2"
                   className="items-center justify-center flex w-full my-6"
                 >
                   {/* Empty responsive, centered div */}
@@ -146,7 +150,7 @@ export default function RevolutCreditCardRequirementsPage() {
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -159,7 +163,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -174,7 +178,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -189,7 +193,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -214,7 +218,7 @@ export default function RevolutCreditCardRequirementsPage() {
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -227,7 +231,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -240,7 +244,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -255,7 +259,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -283,7 +287,7 @@ export default function RevolutCreditCardRequirementsPage() {
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -296,7 +300,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -309,7 +313,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -325,7 +329,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -358,7 +362,7 @@ export default function RevolutCreditCardRequirementsPage() {
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -372,7 +376,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -386,7 +390,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -401,7 +405,7 @@ export default function RevolutCreditCardRequirementsPage() {
                   </div>
 
                   <div className="flex items-start">
-                    <div className="flex-shrink-0 size-5 rounded-full bg-[#191C33] flex items-center justify-center mr-3 mt-0.5">
+                    <div className="flex-shrink-0 size-5 rounded-full bg-[#121212] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
                     </div>
                     <div className="text-sm leading-5 text-left">
@@ -526,12 +530,12 @@ export default function RevolutCreditCardRequirementsPage() {
 
                 <div className="text-left my-8">
                   <Link
-                    href="https://www.revolut.com/en-GB/credit-card/"
+                    href="https://www.revolut.com/en-US/cards"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button className="bg-[#191C33] hover:bg-blue-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                      Apply Now at Revolut
+                    <Button className="bg-[#121212] hover:bg-gray-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                      Apply for Revolut Credit Card
                     </Button>
                   </Link>
                 </div>

@@ -49,6 +49,72 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "revolut-credit-card",
+    frontmatter: {
+      title: "Revolut Credit Card: Digital-First Banking for Modern Life",
+      description:
+        "Experience the Revolut Credit Card with multi-currency capabilities, instant virtual cards, advanced security controls, and premium subscription tiers. Choose Revolut Visa Credit Card or Revolut Secured Mastercard for innovative fintech banking.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/revolut-credit-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "step-visa-card",
+    frontmatter: {
+      title: "Step Visa Card: Build Credit for Free Starting at Age 13",
+      description:
+        "Discover the Step Visa Card—build credit history for free with no credit score required, no fees, and no interest. Perfect for teens 13+ and young adults. Reports to all 3 credit bureaus with an average 57-point score increase.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/step-visa-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "robinhood-gold-card",
+    frontmatter: {
+      title:
+        "Robinhood Gold Card: 3% Cash Back on Everything with Premium Benefits",
+      description:
+        "Discover the Robinhood Gold Card offering 3% cash back on all purchases, 5% back on travel, no annual fee, virtual cards, family card sharing, and Visa Signature benefits. Exclusive to Robinhood Gold members.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/robinhood-gold-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "tilt-card",
+    frontmatter: {
+      title:
+        "Tilt Card: Build Credit with Cash Back Rewards and No Security Deposit",
+      description:
+        "Discover Tilt credit cards offering credit building without security deposits or credit history. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere. Choose from Tilt Essentials, Motion, or Engage cards.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/tilt-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "upgrade-credit-card",
     frontmatter: {
       title: "Upgrade OneCard: Pay Now or Pay Later Credit Card",
