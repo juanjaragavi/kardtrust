@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
@@ -43,6 +44,20 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                 requirements beforehand can significantly increase your chances
                 of success and streamline your application experience.
               </p>
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-6.webp"
+                  alt="Discover it Student Chrome Credit Card Requirements"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
+              </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Key Requirements for the Discover it Student Chrome Credit Card
               </h2>

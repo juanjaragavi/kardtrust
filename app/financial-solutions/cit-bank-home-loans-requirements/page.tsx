@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
@@ -42,6 +43,20 @@ export default function CitBankHomeLoansRequirementsPage() {
                 Buying a home is a monumental step. With CIT Bank, understanding
                 the loan requirements is the first stride toward homeownership.
               </p>
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/CitiBL1-820x429.png"
+                  alt="CIT Bank Home Loans Requirements"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
+              </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Requirements
               </h2>

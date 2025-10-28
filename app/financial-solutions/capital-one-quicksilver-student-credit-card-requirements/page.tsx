@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
@@ -46,6 +47,20 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 explore the requirements for applying, the step-by-step process,
                 and the card's standout benefits.
               </p>
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone2.webp"
+                  alt="Capital One Quicksilver Student Credit Card Requirements"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
+              </div>
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Eligibility Requirements for Capital One Quicksilver Student
                 Credit Card

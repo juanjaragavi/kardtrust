@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
@@ -44,6 +45,21 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 requirements, application steps, and benefits to determine if
                 the TD FlexPay is a match for your financial goals.
               </p>
+
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay2.webp"
+                  alt="TD FlexPay Credit Card Requirements"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
+              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Eligibility Requirements for the TD FlexPay Credit Card

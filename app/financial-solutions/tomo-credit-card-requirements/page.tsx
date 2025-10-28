@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
@@ -43,6 +44,21 @@ export default function TomoCreditCardRequirementsPage() {
                 system, such as recent graduates, immigrants, or those who
                 haven’t used traditional credit products before.
               </p>
+
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://media.topfinanzas.com/images/kardtrust/tomo-credit-card-requirements.webp"
+                  alt="Tomo Credit Card Requirements"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
+              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Requirements for the Tomo Card
