@@ -666,7 +666,6 @@ export default function VaroBelieveCardRequirementsPage() {
               <div className="text-left my-8">
                 <Link
                   href="https://www.varomoney.com/credit-builder"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button className="bg-[#8c58d0] hover:bg-purple-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">

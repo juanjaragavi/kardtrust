@@ -452,7 +452,6 @@ export default function KlarnaCardPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.klarna.com/us/klarna-card"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#E27EAC] hover:bg-[#d16a9a] text-white font-medium text-md py-2 px-8 rounded-full w-full">

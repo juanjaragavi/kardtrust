@@ -468,7 +468,7 @@ export default function FundingOptionsPersonalLoanRequirementsPage() {
                 </div>
 
                 <div className="text-left my-8">
-                  <Link href="https://www.fundingoptions.com/" target="_blank">
+                  <Link href="https://www.fundingoptions.com/">
                     <Button className="bg-[#FDB913] hover:bg-yellow-500 text-black font-medium text-md py-2 px-8 rounded-full w-full">
                       Visit Funding Options Website
                     </Button>

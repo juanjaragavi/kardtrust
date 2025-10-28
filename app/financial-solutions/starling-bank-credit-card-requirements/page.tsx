@@ -518,7 +518,6 @@ export default function StarlingBankCreditCardRequirementsPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.starlingbank.com/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#250E62] hover:bg-purple-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">

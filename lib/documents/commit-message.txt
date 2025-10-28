@@ -1,6 +1,11 @@
-chore: Format code with Prettier
+feat: Add SIREN Card product pages and update credit card archive
 
-- Applied code formatting to Yotta Credit Card pages
-- Applied code formatting to homepage, blog, financial-solutions, and credit-cards pages
-- Automated formatting via npm run format
-- No functional changes, only code style improvements
+- Added new SIREN Card product page with comprehensive details
+- Added SIREN Card requirements page
+- Updated credit cards archive page with latest fintech offerings
+- Updated dates across multiple credit card product pages to October 27, 2025
+- Applied code formatting improvements across financial solutions pages
+- Added SIREN Card implementation documentation
+- Updated blog, homepage, and financial solutions archive pages
+- Updated contact page and personal finance content
+- Enhanced CREDIT_CARD_PRODUCT_GENERATION instructions

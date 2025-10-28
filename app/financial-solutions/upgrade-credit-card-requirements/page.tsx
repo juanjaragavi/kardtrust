@@ -757,11 +757,7 @@ export default function UpgradeCreditCardRequirementsPage() {
               </section>
 
               <div className="text-left my-8">
-                <Link
-                  href="https://www.upgrade.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <Link href="https://www.upgrade.com/" rel="noopener noreferrer">
                   <Button className="bg-[#0E680E] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     Apply Now at Upgrade
                   </Button>

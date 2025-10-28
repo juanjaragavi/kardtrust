@@ -759,7 +759,6 @@ export default function SoFiCreditCardRequirementsPage() {
               <div className="text-left my-8">
                 <Link
                   href="https://www.sofi.com/credit-card/"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button className="bg-[#329192] hover:bg-teal-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">

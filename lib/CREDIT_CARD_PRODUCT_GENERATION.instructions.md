@@ -143,7 +143,7 @@ This page details eligibility criteria and application process:
 - Include clear CTAs with brand-colored buttons
 - The final CTA button on the Requirements page must link to the official external bank/product URL (provided in CSV or user request), not to the internal benefits page
 - The CTA button should use text like "Apply Now", "Visit Official Website", or "Check Your Eligibility" to indicate it's an external link
-- The external CTA link should open in a new tab using a standard HTML anchor tag with `target="_blank"` and `rel="noopener noreferrer"` attributes wrapping the Button component
+- The external CTA link should open in a new tab using a standard HTML anchor tag with ``and`rel="noopener noreferrer"` attributes wrapping the Button component
 - Use US-specific terminology and comply with CFPB/FTC regulations
 - Images must use Next.js Image or ResponsiveImage components with proper attributes
 - All text alignment should be `text-left` for consistency
@@ -679,7 +679,7 @@ Correct Implementation Example:
 <div className="text-left my-8">
   <a
     href="https://www.bank-official-website.com/product-page"
-    target="_blank"
+
     rel="noopener noreferrer"
   >
     <Button className="bg-[#BrandColor] hover:bg-[#HoverColor] text-white font-medium text-md py-2 px-8 rounded-full w-full">
@@ -704,7 +704,7 @@ Incorrect Implementation (Do Not Use):
 Implementation Requirements:
 
 - Use standard `<a>` tag with `href` attribute (not Next.js `Link` component for external URLs)
-- Include `target="_blank"` to open in new tab
+- Include `` to open in new tab
 - Include `rel="noopener noreferrer"` for security
 - Button text should indicate external action: "Apply Now", "Visit Official Website", "Check Your Eligibility", etc.
 - The external URL must come from the CSV file or user-provided official product URL

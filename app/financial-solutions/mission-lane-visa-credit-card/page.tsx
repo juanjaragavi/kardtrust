@@ -514,7 +514,6 @@ export default function MissionLaneVisaCreditCardPage() {
                   consider, visit{" "}
                   <a
                     href="http://www.consumerfinance.gov/learnmore"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-700 hover:underline"
                   >
@@ -547,7 +546,6 @@ export default function MissionLaneVisaCreditCardPage() {
                 <div className="text-left my-8">
                   <a
                     href="https://www.missionlane.com"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#0f60c2] hover:bg-blue-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">

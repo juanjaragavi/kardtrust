@@ -42,6 +42,17 @@ export default function BlogArchivePage() {
   const allPosts: PostItem[] = [
     // Financial Solutions Posts
     {
+      title:
+        "SIREN Card: Premium Metal Card with Automatic Credit Building | KardTrust",
+      slug: "siren-card",
+      description:
+        "Exclusive to Starbucks partners: SIREN Card is a hybrid debit/credit card powered by cred.ai that builds credit automatically while guaranteeing zero fees and zero interest. Get paid up to 2 days early, access 55K+ free ATMs, and enjoy premium metal card benefits.",
+      image: "https://media.topfinanzas.com/images/kardtrust/siren-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
       title: "Yotta Credit Card: Win Cash Back With Every Purchase | KardTrust",
       slug: "yotta-credit-card",
       description:

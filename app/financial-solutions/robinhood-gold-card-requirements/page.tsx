@@ -810,7 +810,6 @@ export default function RobinhoodGoldCardRequirementsPage() {
               <div className="text-center my-8">
                 <a
                   href="https://robinhood.com/creditcard"
-                  target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="inline-block"
                 >

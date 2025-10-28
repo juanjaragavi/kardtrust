@@ -792,7 +792,6 @@ export default function StepVisaCardRequirementsPage() {
               <div className="text-center my-8">
                 <a
                   href="https://step.com/build-credit"
-                  target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="inline-block"
                 >

@@ -519,7 +519,6 @@ export default function VirginMoneyCreditCardRequirementsPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://uk.virginmoney.com/credit-cards/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#CC0000] hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">

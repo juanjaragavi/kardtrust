@@ -466,7 +466,6 @@ export default function TSBCreditCardRequirementsPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.tsb.co.uk/credit-cards/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#0A4D8C] hover:bg-blue-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">

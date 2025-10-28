@@ -383,7 +383,6 @@ export default function LloydsBankCreditCardRequirementsPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.lloydsbank.com/credit-cards.html"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#006A4D] hover:bg-green-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">

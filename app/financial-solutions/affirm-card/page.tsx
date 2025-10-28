@@ -429,7 +429,6 @@ export default function AffirmCardPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.affirm.com/card"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#4a4af4] hover:bg-[#3838d9] text-white font-medium text-md py-2 px-8 rounded-full w-full">

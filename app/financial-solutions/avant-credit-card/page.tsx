@@ -430,7 +430,6 @@ export default function AvantCreditCardPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.avant.com/credit-card"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#0d5bff] hover:bg-[#0a4acc] text-white font-medium text-md py-2 px-8 rounded-full w-full">

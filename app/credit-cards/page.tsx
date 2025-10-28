@@ -26,6 +26,15 @@ export default function CreditCardsArchivePage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "SIREN Card",
+        slug: "siren-card",
+        description:
+          "Exclusive to Starbucks partners: hybrid debit/credit card powered by cred.ai that builds credit automatically with guaranteed zero fees and zero interest. Get paid up to 2 days early, access 55K+ free ATMs, premium metal card, 24/7 support. Issued by WSFS Bank, Member FDIC. No FICO score required to apply.",
+        image: "https://media.topfinanzas.com/images/kardtrust/siren-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
         title: "Yotta Credit Card",
         slug: "yotta-credit-card",
         description:

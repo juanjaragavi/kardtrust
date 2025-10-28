@@ -456,7 +456,6 @@ export default function NatWestCreditCardRequirementsPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.natwest.com/credit-cards.html"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#42145F] hover:bg-purple-900 text-white font-medium text-md py-2 px-8 rounded-full w-full">

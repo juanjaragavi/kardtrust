@@ -501,7 +501,7 @@ export default function FleximizePersonalLoanRequirementsPage() {
                 </div>
 
                 <div className="text-left my-8">
-                  <Link href="https://fleximize.com/" target="_blank">
+                  <Link href="https://fleximize.com/">
                     <Button className="bg-[#6D2C91] hover:bg-purple-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                       Visit Fleximize Website
                     </Button>

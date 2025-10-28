@@ -302,7 +302,6 @@ export default function YottaCreditCardRequirementsPage() {
                           Visit{" "}
                           <a
                             href="https://banking.withyotta.com/"
-                            target="_blank"
                             rel="noopener noreferrer"
                             className="text-purple-600 hover:underline"
                           >
@@ -620,7 +619,6 @@ export default function YottaCreditCardRequirementsPage() {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
                       href="https://banking.withyotta.com/"
-                      target="_blank"
                       rel="noopener noreferrer nofollow"
                       className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white rounded-full transition-colors duration-200"
                       style={{ backgroundColor: "#4e0cdc" }}

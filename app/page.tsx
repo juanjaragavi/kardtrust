@@ -49,6 +49,22 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "siren-card",
+    frontmatter: {
+      title: "SIREN Card: Premium Metal Card with Automatic Credit Building",
+      description:
+        "Exclusive to Starbucks partners: SIREN Card is a hybrid debit/credit card powered by cred.ai that builds credit automatically while guaranteeing zero fees and zero interest. Get paid up to 2 days early, access 55K+ free ATMs, and enjoy premium metal card benefits.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/siren-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "yotta-credit-card",
     frontmatter: {
       title: "Yotta Credit Card: Win Cash Back With Every Purchase",

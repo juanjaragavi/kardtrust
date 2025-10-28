@@ -339,7 +339,6 @@ export default function FinancialUncouplingPage() {
                   financial guidance. You can also explore resources at{" "}
                   <a
                     href="https://www.mymoney.gov/"
-                    target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 hover:text-blue-800 underline"
                   >

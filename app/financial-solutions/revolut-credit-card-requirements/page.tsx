@@ -531,7 +531,6 @@ export default function RevolutCreditCardRequirementsPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://www.revolut.com/en-US/cards"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#121212] hover:bg-gray-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">

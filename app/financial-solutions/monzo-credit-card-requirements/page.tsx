@@ -510,7 +510,6 @@ export default function MonzoCreditCardRequirementsPage() {
                 <div className="text-left my-8">
                   <Link
                     href="https://monzo.com/flex/"
-                    target="_blank"
                     rel="noopener noreferrer"
                   >
                     <Button className="bg-[#FF4D56] hover:bg-red-500 text-white font-medium text-md py-2 px-8 rounded-full w-full">
