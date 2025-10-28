@@ -36,3 +36,8 @@ This procedure is initiated when the user issues the prompt "Push and commit our
 
 - Before finalizing any commit that involves creating, updating, or deleting Personal Finance or Financial Solutions blog posts, verify that every `allPosts` array in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`) reflects the latest content changes
 - Do not proceed with the push workflow until those arrays mirror the new metadata, ordering, and link structure
+
+## Sitemap Synchronization (MANDATORY)
+
+- Before executing the workflow script for any change that adds, renames, or removes a Personal Finance or Financial Solutions article or product page, confirm that `app/sitemap.xml` has been updated to include the new URLs and purge any stale entries
+- Do not run the push workflow until the sitemap changes are part of the pending commit set

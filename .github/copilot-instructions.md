@@ -190,6 +190,11 @@ export const metadata: Metadata = {
 - After any create, update, or delete operation on blog posts in the Personal Finance or Financial Solutions categories, immediately update every `allPosts` array defined inside the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
 - Confirm that titles, slugs, categories, descriptions, images, and ordering stay synchronized across those arrays before completing the CRUD task
 
+### Sitemap Synchronization (MANDATORY)
+
+- Any time a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, update `app/sitemap.xml` in the same change so search engines and internal tooling stay aligned with live content
+- Ensure new entries include accurate `lastmod`, `changefreq`, and `priority` values; remove stale URLs immediately during the same workflow
+
 ## Common Gotchas
 
 1. **Port Configuration**: Development runs on port 3005, not 3000

@@ -13,6 +13,11 @@ When creating new blog articles, they must be added to multiple locations across
 - Every time you create, update, or delete a blog post in the Personal Finance or Financial Solutions categories, you must update each `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
 - Do not complete the CRUD task until every listing array reflects the new metadata, ordering, and links so the static views stay synchronized with the underlying content
 
+## Sitemap Synchronization (MANDATORY)
+
+- Immediately update `app/sitemap.xml` whenever you add, rename, or delete a Personal Finance or Financial Solutions article or product page so search engines only index live content
+- Add new URLs with the current `lastmod`, `changefreq`, and `priority` values that reflect the page type and remove stale entries during the same workflow
+
 ## Required Locations for Blog Post Integration
 
 ### 1. Main Blog Listing Page (`app/blog/page.tsx`)
@@ -207,6 +212,11 @@ When creating new blog articles, they must be added to multiple locations across
    - **Featured Posts**: Add if it's a standout article
    - **Category Navigation**: Add if it becomes a top performer
 
+7. **Update Sitemap** (`app/sitemap.xml`):
+
+- Add the new article URL with accurate `lastmod`, `changefreq`, and `priority`
+- Remove any outdated or migrated URLs related to the update
+
 ### Image Requirements
 
 - **Format**: WebP preferred for performance
@@ -234,6 +244,7 @@ Before publishing, verify:
 - [ ] Article appears in blog filters correctly
 - [ ] Article appears in category filters correctly
 - [ ] Sidebar recent articles updated
+- [ ] `app/sitemap.xml` updated with new URL and stale entries removed
 - [ ] Consider homepage feature update
 - [ ] Test all internal links work
 - [ ] Verify responsive design on mobile

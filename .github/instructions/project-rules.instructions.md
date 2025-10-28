@@ -279,6 +279,11 @@ When creating new blog articles, they must be integrated across multiple locatio
 - **Requirement**: After any create, update, or delete operation on blog posts within the Personal Finance or Financial Solutions categories, update every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
 - **Verification**: Ensure titles, slugs, descriptions, categories, images, and ordering stay aligned across those arrays before marking the CRUD task complete
 
+### 5. Sitemap Synchronization (MANDATORY)
+
+- **Requirement**: Whenever a Personal Finance or Financial Solutions article or product page is created, renamed, or removed, update `app/sitemap.xml` within the same change set to keep search engines and internal tooling aligned with live content
+- **Verification**: Add new URLs with accurate `lastmod`, `changefreq`, and `priority` values and remove deprecated URLs immediately so the sitemap mirrors the latest site structure
+
 ## Git Workflow
 
 ### 1. Branch Strategy

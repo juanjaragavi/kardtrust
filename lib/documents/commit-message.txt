@@ -1,5 +1,5 @@
+chore: refresh sitemaps and sync instructions
 chore: Extract and prepare financial products data for injection
-
 CHANGES:
 - Created extract-products.js script
   * Automatically extracts financial product metadata from /app/financial-solutions/
