@@ -1,10 +1,10 @@
-feat: add wells fargo active cash card product pages
+feat: add citi custom cash card product pages
 
-- Created Wells Fargo Active Cash® Card benefits page with unlimited 2% cash back, $200 bonus, 0% intro APR
-- Created Wells Fargo Active Cash® Card requirements page with eligibility criteria, Wells Fargo rules, APR details
-- Integrated Wells Fargo Active Cash into homepage, blog archive, financial solutions, and credit cards pages
-- Added comprehensive compliance warnings with representative APR examples and three-tier APR structure
-- Included Visa Signature benefits (cellular protection, auto rental waiver, concierge)
-- Applied brand color #d71e28 for CTAs and bullet points
-- 1,200+ words benefits page, 1,100+ words requirements page
+- Created Citi Custom Cash® Card benefits page with automatic 5% cash back on top category, $200 bonus, 0% intro APR
+- Created Citi Custom Cash® Card requirements page with eligibility criteria, one-per-person rule, 48-month restrictions
+- Integrated Citi Custom Cash into homepage, blog archive, financial solutions, and credit cards pages
+- Added comprehensive compliance warnings with representative APR examples and balance transfer details
+- Included ThankYou® Points ecosystem explanation and flexible redemption options
+- Applied brand color #233A79 for CTAs and bullet points
+- 1,300+ words benefits page, 1,000+ words requirements page
 - All pages formatted, linted, and production-ready

@@ -49,6 +49,22 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "citi-custom-cash-card",
+    frontmatter: {
+      title: "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts",
+      description:
+        "Discover the Citi Custom Cash® Card with automatic 5% cash back on your top spending category, $200 welcome bonus, 0% intro APR for 18 months on balance transfers, and no annual fee. Your rewards adapt as your spending changes.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "wells-fargo-active-cash-card",
     frontmatter: {
       title:

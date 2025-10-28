@@ -43,6 +43,18 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts
     {
       title:
+        "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts | KardTrust",
+      slug: "citi-custom-cash-card",
+      description:
+        "Discover the Citi Custom Cash® Card with automatic 5% cash back on your top spending category, $200 welcome bonus, 0% intro APR for 18 months on balance transfers, and no annual fee. Your rewards adapt as your spending changes.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
         "Wells Fargo Active Cash® Card: Unlimited 2% Cash Back on Everything | KardTrust",
       slug: "wells-fargo-active-cash-card",
       description:

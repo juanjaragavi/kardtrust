@@ -26,6 +26,16 @@ export default function CreditCardsArchivePage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "Citi Custom Cash® Card",
+        slug: "citi-custom-cash-card",
+        description:
+          "Earn automatic 5% cash back on up to $500 spent in your highest eligible spending category each billing cycle—no activation required. Eligible categories: restaurants, gas, grocery, select travel, transit, streaming, drugstores, home improvement, fitness, live entertainment. Welcome bonus: $200 after $1,500 spend in 6 months. 0% intro APR for 18 months on balance transfers. 17.99%-27.99% variable APR, no annual fee.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
         title: "Wells Fargo Active Cash® Card",
         slug: "wells-fargo-active-cash-card",
         description:
