@@ -6,6 +6,15 @@ import { FeaturedPostCard } from "@/components/ui/featured-post-card";
 import { useState, useEffect, useMemo } from "react";
 import { sortPostsByDate } from "@/lib/utils/date-utils";
 
+type ContentItem = {
+  title: string;
+  slug: string;
+  description: string;
+  image: string;
+  date: string;
+  type: string;
+};
+
 export default function FinancialSolutionsPage() {
   // Category definitions
   const categories = {
@@ -54,208 +63,35 @@ export default function FinancialSolutionsPage() {
 
   // List of all loan content with types
   // IMPORTANT: Define data arrays BEFORE any conditional returns to avoid hook order issues
-  const allLoansContent = useMemo(
+  const allLoansContent = useMemo<ContentItem[]>(
     () => [
-      // Personal Loans (Traditional Banks)
       {
-        title: "HSBC Personal Loan",
-        slug: "hsbc-personal-loan",
+        title: "CIT Bank Home Loans",
+        slug: "cit-bank-home-loans-benefits",
         description:
-          "Discover HSBC Personal Loans with competitive rates, flexible repayment terms, and quick application process.",
+          "Discover CIT Bank Home Loans with competitive rates, flexible options, and expert guidance. Get pre-approved fast and access fixed-rate, adjustable-rate, and jumbo loans for your dream home.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Barclays Personal Loan",
-        slug: "barclays-personal-loan",
-        description:
-          "Explore Barclays Personal Loans with competitive rates, flexible terms, and a streamlined application process.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136012-fotosprestamo-barclays2uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Lloyds Bank Personal Loan",
-        slug: "lloyds-bank-personal-loan",
-        description:
-          "Explore Lloyds Bank Personal Loans with competitive rates, flexible repayment options, and trusted service.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136057-fotosprestamo-lloyds1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "NatWest Personal Loan",
-        slug: "natwest-personal-loan",
-        description:
-          "Explore NatWest Personal Loans with competitive rates, flexible repayment terms, and a straightforward application process.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136156-fotosprestamo-nawest1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Santander US Personal Loan",
-        slug: "santander-uk-personal-loan",
-        description:
-          "Explore Santander US Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "TSB Personal Loan",
-        slug: "tsb-personal-loan",
-        description:
-          "Explore TSB Personal Loans with competitive rates, flexible repayment options, and a focus on clear, simple banking solutions.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136271-fotosprestamo-tbs1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Virgin Money Personal Loan",
-        slug: "virgin-money-personal-loan",
-        description:
-          "Explore Virgin Money Personal Loans with competitive rates, flexible terms, and potential benefits linked to the Virgin Red rewards program.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136330-fotosprestamo-virginmoney1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Halifax Personal Loan",
-        slug: "halifax-personal-loan",
-        description:
-          "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major US bank.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136403-fotosprestamo-halifax1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Nationwide Personal Loan",
-        slug: "nationwide-personal-loan",
-        description:
-          "Explore Nationwide Personal Loans with competitive rates, flexible terms, and benefits for existing members.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136476-fotosprestamo-nationwide1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      // Personal Loans (Fintech/Neobank)
-      {
-        title: "Revolut Personal Loan",
-        slug: "revolut-personal-loan",
-        description:
-          "Explore Revolut Personal Loans offering quick decisions, flexible terms, and seamless management through the Revolut app.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136529-fotosprestamo-revoult1uk.webp",
-        date: "4 April 2025",
-        type: "fintech", // Could also be 'personal' depending on desired filter logic
-      },
-      {
-        title: "Monzo Personal Loan",
-        slug: "monzo-personal-loan",
-        description:
-          "Explore Monzo Personal Loans offering quick decisions, clear terms, and seamless management through the Monzo app.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136607-fotosprestamo-monzo2uk.webp",
-        date: "4 April 2025",
-        type: "neobank", // Could also be 'personal'
-      },
-      {
-        title: "Starling Bank Personal Loan",
-        slug: "starling-bank-personal-loan",
-        description:
-          "Explore Starling Bank Personal Loans offering competitive rates, clear terms, and seamless management via the Starling app.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136704-fotosprestamo-starlinkbanck1uk.webp",
-        date: "4 April 2025",
-        type: "neobank", // Could also be 'personal'
-      },
-      // SME Fintech Loans
-      {
-        title: "Funding Circle Business Loan",
-        slug: "funding-circle-personal-loan", // Keep slug as created
-        description:
-          "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for US SMEs.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
-      },
-      {
-        title: "Funding Options Marketplace",
-        slug: "funding-options-personal-loan", // Keep slug as created
-        description:
-          "Explore Funding Options, a leading US platform connecting SMEs with a wide range of business finance solutions.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718138018-fotosprestamo-fundingoption1uk.webp",
-        date: "4 April 2025",
-        type: "marketplace", // Specific type for marketplaces
-      },
-      {
-        title: "iwoca Flexi-Loan",
-        slug: "iwoca-personal-loan", // Keep slug as created
-        description:
-          "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for US SMEs.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718137033-fotosprestamo-iwoca1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
-      },
-      {
-        title: "MarketFinance Business Finance",
-        slug: "marketfinance-personal-loan", // Keep slug as created
-        description:
-          "Explore MarketFinance's solutions for US SMEs, including fast business loans and flexible invoice finance.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718137315-fotosprestamo-fundingchange2uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
-      },
-      {
-        title: "Funding Xchange Platform",
-        slug: "funding-xchange-personal-loan", // Keep slug as created
-        description:
-          "Explore Funding Xchange, a smart platform helping US SMEs compare and access business finance options.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136896-fotosprestamo-fundingchange1uk.webp",
-        date: "4 April 2025",
-        type: "marketplace", // Specific type for marketplaces
-      },
-      {
-        title: "Capify Business Finance",
-        slug: "capify-personal-loan", // Keep slug as created
-        description:
-          "Explore Capify's financing solutions for US SMEs, including Merchant Cash Advances and Business Loans.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718137374-fotosprestamo-capify1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
-      },
-      {
-        title: "Fleximize Business Loans",
-        slug: "fleximize-personal-loan", // Keep slug as created
-        description:
-          "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for US SMEs.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718137416-fotosprestamo-fleximize1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
+          "https://us.topfinanzas.com/wp-content/uploads/2024/12/CitiBL1-820x429.png",
+        date: "28 October 2025",
+        type: "guide",
       },
     ],
     [],
   );
 
   // Hardcoded list of all credit card content with types
-  const creditCardsContent = useMemo(
+  const creditCardsContent = useMemo<ContentItem[]>(
     () => [
+      {
+        title: "Amazon Rewards Visa Credit Card",
+        slug: "amazon-rewards-visa-credit-card-benefits",
+        description:
+          "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/09/Amazon1.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
       {
         title: "Blue Cash Preferred® Card from American Express",
         slug: "blue-cash-preferred-card-from-american-express",
@@ -263,6 +99,26 @@ export default function FinancialSolutionsPage() {
           "Earn 6% cash back at U.S. supermarkets (up to $6,000/year, then 1%), 6% on select U.S. streaming subscriptions, 3% at U.S. gas stations and on transit, and 1% on all other purchases. Welcome bonus: $250 statement credit after $3,000 spend in 6 months. $0 intro annual fee for first year, then $95. 19.24%-29.99% variable APR.",
         image:
           "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Capital One Quicksilver Student Credit Card",
+        slug: "capital-one-quicksilver-student-credit-card-benefits",
+        description:
+          "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone2.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Capital One Savor Rewards Credit Card",
+        slug: "capital-one-savor-rewards-credit-card-benefits",
+        description:
+          "Explore the Capital One Savor Rewards Credit Card benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-14-1.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -277,6 +133,36 @@ export default function FinancialSolutionsPage() {
         type: "traditional",
       },
       {
+        title: "Citi Double Cash® Card",
+        slug: "citi-double-cash-credit-card-benefits",
+        description:
+          "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase—1% when you buy and 1% when you pay—with no annual fee.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-2.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Citi Simplicity® Card",
+        slug: "citi-simplicity-card-benefits",
+        description:
+          "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Discover it® Student Chrome",
+        slug: "discover-it-student-chrome-credit-card-benefits",
+        description:
+          "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback at restaurants and gas stations, no annual fee, and double rewards in your first year.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Discoverst1.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
         title: "Wells Fargo Active Cash® Card",
         slug: "wells-fargo-active-cash-card",
         description:
@@ -287,12 +173,82 @@ export default function FinancialSolutionsPage() {
         type: "traditional",
       },
       {
+        title: "Wells Fargo Autograph℠ Card",
+        slug: "wells-fargo-autograph-card-benefits",
+        description:
+          "Explore the Wells Fargo Autograph Card benefits to earn 3X points on top everyday categories, access premium travel protections, and enjoy no annual fee.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-16-1024x536.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
         title: "Chase Freedom Flex℠",
         slug: "chase-freedom-flex",
         description:
           "Earn 5% cash back on up to $1,500 in combined purchases each quarter in rotating bonus categories you activate, plus 5% on travel through Chase Travel℠, 3% on dining and drugstores, and 1% on all other purchases. Welcome bonus: $200 after $500 spend in 3 months. 0% intro APR for 15 months on purchases and balance transfers. 18.74%-28.24% variable APR, no annual fee.",
         image:
           "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Chase Freedom Unlimited® Credit Card",
+        slug: "chase-freedom-unlimited-credit-card-benefits",
+        description:
+          "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-11.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "DoorDash Rewards Mastercard®",
+        slug: "doordash-rewards-mastercard-benefits",
+        description:
+          "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "First Digital NextGen Mastercard®",
+        slug: "first-digital-nextgen-mastercard-benefits",
+        description:
+          "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and full digital management.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-15.webp",
+        date: "28 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "TD FlexPay Credit Card",
+        slug: "td-flexpay-credit-card-benefits",
+        description:
+          "See how the TD FlexPay Credit Card delivers flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay1.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Titanium Rewards Visa Signature® Credit Card",
+        slug: "titanium-rewards-visa-signature-credit-card-benefits",
+        description:
+          "Maximize everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5X points on gas and groceries and enjoy premium benefits with no annual fee.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "U.S. Bank Cash+® Visa Signature® Card",
+        slug: "us-bank-cash-plus-visa-signature-card-benefits",
+        description:
+          "Customize your rewards with the U.S. Bank Cash+ Visa Signature Card: earn up to 5% cashback in your chosen categories, 2% on everyday essentials, and pay no annual fee.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Usbanck1.webp",
         date: "28 October 2025",
         type: "traditional",
       },
@@ -396,6 +352,16 @@ export default function FinancialSolutionsPage() {
         type: "fintech",
       },
       {
+        title: "Current Build Visa Signature® Credit Card",
+        slug: "visa-signature-us-current-build-credit-card-benefits",
+        description:
+          "Discover the benefits of the Current Build Visa Signature Credit Card. Build credit with no annual fees, flexible rewards, and no hidden charges from this modern neobank.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/09/Curren1.webp",
+        date: "28 October 2025",
+        type: "neobank",
+      },
+      {
         title: "Robinhood Gold Card",
         slug: "robinhood-gold-card",
         description:
@@ -412,6 +378,16 @@ export default function FinancialSolutionsPage() {
           "Build credit with no security deposit or credit history required. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere. Choose from Tilt Essentials, Motion, or Engage cards with variable APR 28.74%-33.74%.",
         image: "https://media.topfinanzas.com/images/kardtrust/tilt-card.webp",
         date: "27 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "Tomo Credit Card",
+        slug: "tomo-credit-card-benefits",
+        description:
+          "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees to jumpstart your credit journey.",
+        image:
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Tomo1.webp",
+        date: "28 October 2025",
         type: "fintech",
       },
       {
@@ -454,106 +430,6 @@ export default function FinancialSolutionsPage() {
         date: "24 October 2025",
         type: "fintech",
       },
-      {
-        title: "Lloyds Bank Credit Card",
-        slug: "lloyds-bank-credit-card",
-        description:
-          "Explore the Lloyds Bank Credit Card with competitive rates, no annual fees, and Everyday Offers cashback program for existing Lloyds customers.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/719906900-top_prestamos-y-tarjetas-uk_v1-16.webp",
-        date: "2 April 2025",
-        type: "traditional",
-      },
-      {
-        title: "NatWest Credit Card",
-        slug: "natwest-credit-card",
-        description:
-          "Discover the NatWest Credit Card with MyRewards program, mobile banking integration, and flexible payment options for everyday spending.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/718644866-top_prestamos-y-tarjetas-uk_v1_mesa-de-trabajo-1-copia.webp",
-        date: "2 April 2025",
-        type: "traditional",
-      },
-      {
-        title: "Santander US Credit Card",
-        slug: "santander-uk-credit-card",
-        description:
-          "Learn about the Santander US Credit Card with All in One cashback, no foreign transaction fees, and balance transfer options for smart financial management.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/718644935-top_prestamos-y-tarjetas-uk_v1-03.webp",
-        date: "2 April 2025",
-        type: "traditional",
-      },
-      {
-        title: "TSB Credit Card",
-        slug: "tsb-credit-card",
-        description:
-          "Explore the TSB Credit Card with everyday value, low fees, and seamless integration with TSB's mobile and online banking platforms.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/718645155-top_prestamos-y-tarjetas-uk_v1-06.webp",
-        date: "2 April 2025",
-        type: "traditional",
-      },
-      {
-        title: "Virgin Money Credit Card",
-        slug: "virgin-money-credit-card",
-        description:
-          "Discover the Virgin Money Credit Card with lifestyle-focused rewards, Virgin Points, and exclusive offers across the Virgin Group ecosystem.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/718645561-top_prestamos-y-tarjetas-uk_v1-08.webp",
-        date: "2 April 2025",
-        type: "traditional",
-      },
-      {
-        title: "Halifax World Elite MasterCard",
-        slug: "halifax-world-elite-mastercard",
-        description:
-          "Explore the Halifax World Elite MasterCard, offering premium travel benefits, comprehensive insurance, and exclusive rewards.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/719906760-top_prestamos-y-tarjetas-uk_v1-14.webp", // Placeholder image
-        date: "4 April 2025",
-        type: "traditional",
-      },
-      {
-        title: "Monzo Credit Card",
-        slug: "monzo-credit-card",
-        description:
-          "Learn about the Monzo Credit Card with real-time spending notifications, smart budgeting tools, and seamless integration with Monzo's digital banking services.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/719907302-top_prestamos-y-tarjetas-uk_v1-18.webp",
-        date: "2 April 2025",
-        type: "neobank",
-      },
-      {
-        title: "Revolut Credit Card",
-        slug: "revolut-credit-card",
-        description:
-          "Explore the Revolut Credit Card with multi-currency capabilities, competitive exchange rates, and real-time control for modern international lifestyles.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/718645626-top_prestamos-y-tarjetas-uk_v1-10.webp",
-        date: "2 April 2025",
-        type: "fintech",
-      },
-      {
-        title: "Starling Bank Credit Card",
-        slug: "starling-bank-credit-card",
-        description:
-          "Discover the Starling Bank Credit Card with transparent pricing, ethical banking practices, and advanced digital features for modern financial management.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/719907598-top_prestamos-y-tarjetas-uk_v1-20.webp",
-        date: "2 April 2025",
-        type: "neobank",
-      },
-      {
-        title: "Curve Credit Card",
-        slug: "curve-credit-card",
-        description:
-          "Learn about the innovative Curve Card that consolidates all your existing cards into a single smart card with time-travel functionality and enhanced rewards.",
-        image:
-          "https://media.topfinanzas.com/images/uk/credit-cards/719907701-top_prestamos-y-tarjetas-uk_v1-22.webp",
-        date: "2 April 2025",
-        type: "fintech",
-      },
     ],
     [],
   );
@@ -590,9 +466,9 @@ export default function FinancialSolutionsPage() {
       </h1>
 
       <p className="text-lg text-gray-700 mb-8 leading-tight text-left sm:text-left">
-        Find detailed information about the best credit cards available in the
-        UK, requirements for applying, and comprehensive guides to help you
-        choose the best option based on your financial needs.
+        Find detailed information about top United States credit cards, the
+        requirements for applying, and comprehensive guides to help you choose
+        the best option based on your financial needs.
       </p>
 
       {/* Main category selector */}

@@ -145,6 +145,11 @@ NEXT_PUBLIC_COOKIE_SHORT_EXPIRATION    # days (default: 1)
 - Comply with federal and state advertising standards
 - Proper United States address and phone number formats
 
+### Blog Listing Synchronization (MANDATORY)
+
+- Whenever you create, update, or delete a blog post in the Personal Finance or Financial Solutions categories, you must also update every `allPosts` array in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Verify that titles, descriptions, slugs, and ordering stay aligned across those arrays before completing the CRUD task
+
 ## Development Patterns
 
 ### Component Pattern

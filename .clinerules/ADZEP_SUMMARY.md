@@ -90,6 +90,11 @@ In development mode, you'll see:
 3. **Monitor performance** impact in production
 4. **Customize activation logic** based on your needs
 
+## Blog Listing Synchronization (MANDATORY)
+
+- Even though this summary focuses on analytics, every create, update, or delete operation on blog posts in the Personal Finance or Financial Solutions categories still requires updating each `allPosts` array present in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Ensure that metadata, ordering, and links remain aligned across those arrays before considering the CRUD work finished
+
 ## 🔧 Usage Examples
 
 ### For Most Pages (Automatic)

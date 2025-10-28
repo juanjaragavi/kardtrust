@@ -27,3 +27,8 @@ This procedure is initiated when the user issues the prompt "Push and commit our
    ```bash
    bash ./scripts/git-workflow.sh
    ```
+
+## Blog Listing Synchronization (MANDATORY)
+
+- Before finalizing any commit that touches Personal Finance or Financial Solutions blog posts, update every `allPosts` array in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Do not proceed with the push workflow until the static listings mirror the new metadata, ordering, and links

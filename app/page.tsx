@@ -49,6 +49,22 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "amazon-rewards-visa-credit-card-benefits",
+    frontmatter: {
+      title: "Unlock the Benefits of the Amazon Rewards Visa Credit Card",
+      description:
+        "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Amazon1.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "blue-cash-preferred-card-from-american-express",
     frontmatter: {
       title:
@@ -66,6 +82,38 @@ const allPosts: PostData[] = [
     categoryPath: "/financial-solutions",
   },
   {
+    slug: "capital-one-quicksilver-student-credit-card-benefits",
+    frontmatter: {
+      title: "Capital One Quicksilver Student Credit Card Benefits",
+      description:
+        "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone2.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "capital-one-savor-rewards-credit-card-benefits",
+    frontmatter: {
+      title: "Capital One Savor Rewards Credit Card Benefits",
+      description:
+        "Explore the Capital One Savor Rewards Credit Card benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-14-1.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "citi-custom-cash-card",
     frontmatter: {
       title: "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts",
@@ -74,6 +122,54 @@ const allPosts: PostData[] = [
       date: "2025-10-28T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "citi-double-cash-credit-card-benefits",
+    frontmatter: {
+      title: "Citi Double Cash® Card Benefits: Earn 2% Back Everywhere",
+      description:
+        "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase—1% when you buy and 1% when you pay—with no annual fee.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-2.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "citi-simplicity-card-benefits",
+    frontmatter: {
+      title: "Citi Simplicity® Card Benefits",
+      description:
+        "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "discover-it-student-chrome-credit-card-benefits",
+    frontmatter: {
+      title: "Discover it® Student Chrome Credit Card Benefits",
+      description:
+        "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback at restaurants and gas stations, no annual fee, and double rewards in your first year.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Discoverst1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -99,6 +195,22 @@ const allPosts: PostData[] = [
     categoryPath: "/financial-solutions",
   },
   {
+    slug: "wells-fargo-autograph-card-benefits",
+    frontmatter: {
+      title: "Wells Fargo Autograph℠ Card Benefits",
+      description:
+        "Explore the Wells Fargo Autograph Card benefits to earn 3X points on top everyday categories, access premium travel protections, and enjoy no annual fee.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-16-1024x536.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "chase-freedom-flex",
     frontmatter: {
       title:
@@ -108,6 +220,134 @@ const allPosts: PostData[] = [
       date: "2025-10-28T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "chase-freedom-unlimited-credit-card-benefits",
+    frontmatter: {
+      title: "Chase Freedom Unlimited® Credit Card Benefits",
+      description:
+        "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-11.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "doordash-rewards-mastercard-benefits",
+    frontmatter: {
+      title: "DoorDash Rewards Mastercard® Benefits",
+      description:
+        "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "first-digital-nextgen-mastercard-benefits",
+    frontmatter: {
+      title: "First Digital NextGen Mastercard® Benefits",
+      description:
+        "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and full digital management.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-15.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "td-flexpay-credit-card-benefits",
+    frontmatter: {
+      title: "TD FlexPay Credit Card Benefits",
+      description:
+        "See how the TD FlexPay Credit Card delivers flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay1.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "titanium-rewards-visa-signature-credit-card-benefits",
+    frontmatter: {
+      title: "Titanium Rewards Visa Signature® Credit Card Benefits",
+      description:
+        "Maximize everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5X points on gas and groceries and enjoy premium benefits with no annual fee.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "us-bank-cash-plus-visa-signature-card-benefits",
+    frontmatter: {
+      title: "U.S. Bank Cash+® Visa Signature® Card Benefits",
+      description:
+        "Customize your rewards with the U.S. Bank Cash+ Visa Signature Card: earn up to 5% cashback in your chosen categories, 2% on everyday essentials, and pay no annual fee.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Usbanck1.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "visa-signature-us-current-build-credit-card-benefits",
+    frontmatter: {
+      title: "Current Build Visa Signature® Credit Card Benefits",
+      description:
+        "Discover the benefits of the Current Build Visa Signature Credit Card. Build credit with no annual fees, flexible rewards, and no hidden charges from this modern neobank.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Curren1.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "tomo-credit-card-benefits",
+    frontmatter: {
+      title: "Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees",
+      description:
+        "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees to jumpstart your credit journey.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Tomo1.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -154,7 +394,7 @@ const allPosts: PostData[] = [
       title:
         "Self Credit Builder Account + Visa Card: Build Credit with One Ecosystem",
       description:
-        "Combine Self's Credit Builder Account and secured Visa card to report to all three bureaus, follow a $35-per-month plan example, and unlock a $100 refundable security deposit.",
+        "Explore how Self's Credit Builder Account and secured Visa card report to all three bureaus, follow a 24-month $35 plan, and use a $100 refundable security interest to unlock revolving credit.",
       date: "2025-10-27T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card.webp",
@@ -263,22 +503,6 @@ const allPosts: PostData[] = [
     categoryPath: "/financial-solutions",
   },
   {
-    slug: "revolut-credit-card",
-    frontmatter: {
-      title: "Revolut Credit Card: Digital-First Banking for Modern Life",
-      description:
-        "Experience the Revolut Credit Card with multi-currency capabilities, instant virtual cards, advanced security controls, and premium subscription tiers. Choose Revolut Visa Credit Card or Revolut Secured Mastercard for innovative fintech banking.",
-      date: "2025-10-27T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/kardtrust/revolut-credit-card.webp",
-      categories: [
-        { name: "Financial Solutions", slug: "financial-solutions" },
-      ],
-    },
-    category: "Financial Solutions",
-    categoryPath: "/financial-solutions",
-  },
-  {
     slug: "step-visa-card",
     frontmatter: {
       title: "Step Visa Card: Build Credit for Free Starting at Age 13",
@@ -317,7 +541,7 @@ const allPosts: PostData[] = [
       title:
         "Tilt Card: Build Credit with Cash Back Rewards and No Security Deposit",
       description:
-        "Discover Tilt credit cards offering credit building without security deposits or credit history. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere. Choose from Tilt Essentials, Motion, or Engage cards.",
+        "Discover Tilt credit cards offering credit building without security deposits or credit history. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere.",
       date: "2025-10-27T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/kardtrust/tilt-card.webp",
@@ -347,9 +571,9 @@ const allPosts: PostData[] = [
   {
     slug: "sofi-credit-card",
     frontmatter: {
-      title: "SoFi Credit Card: Unlimited 2% Cash Back on Everything",
+      title: "SoFi Credit Card: Unlimited 2% Cash Back with No Annual Fee",
       description:
-        "Earn unlimited 2% cash back rewards on all purchases with no annual fee. Enjoy Mastercard World Elite benefits, 3% cash back on travel, cell phone protection, and no foreign transaction fees.",
+        "Discover the SoFi Unlimited 2% Credit Card offering straightforward cash back rewards on all purchases, Mastercard World Elite benefits, and premium travel perks—all with no annual fee.",
       date: "2025-10-24T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/kardtrust/sofi-credit-card.webp",
@@ -363,9 +587,10 @@ const allPosts: PostData[] = [
   {
     slug: "varo-believe-card",
     frontmatter: {
-      title: "Varo Believe Card: Build Credit Without a Security Deposit",
+      title:
+        "Varo Believe Card: Build Credit with Zero Fees and No Security Deposit",
       description:
-        "Revolutionize credit building with no security deposit, 0% APR, and no annual fees. See an average 40+ point credit score increase in just 3 months with automatic payment management.",
+        "Discover how the Varo Believe Card revolutionizes credit building with no security deposit, 0% APR, no annual fees, and an average 40+ point credit score increase in just 3 months.",
       date: "2025-10-24T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp",
@@ -379,60 +604,13 @@ const allPosts: PostData[] = [
   {
     slug: "chime-credit-builder-visa-secured-card",
     frontmatter: {
-      title: "Chime Credit Builder: No Fees, No Interest, Build Credit Fast",
+      title:
+        "Chime Credit Builder Visa Secured Card: Build Credit with No Fees",
       description:
-        "Build credit with no annual fees, no interest, and no credit check. Earn 1.5% cash back on rotating categories with qualifying direct deposit. Average credit score increase of 30 points after 8 months.",
+        "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
       date: "2025-10-24T00:00:00Z",
       featuredImage:
         "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
-      categories: [
-        { name: "Financial Solutions", slug: "financial-solutions" },
-      ],
-    },
-    category: "Financial Solutions",
-    categoryPath: "/financial-solutions",
-  },
-  {
-    slug: "barclaycard-avios-plus",
-    frontmatter: {
-      title: "Barclaycard Avios Plus Credit Card: Premium Travel Rewards",
-      description:
-        "The Barclaycard Avios Plus Credit Card offers premium travel perks...",
-      date: "2025-04-04T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
-      categories: [
-        { name: "Financial Solutions", slug: "financial-solutions" },
-      ],
-    },
-    category: "Financial Solutions",
-    categoryPath: "/financial-solutions",
-  },
-  {
-    slug: "hsbc-personal-loan",
-    frontmatter: {
-      title:
-        "HSBC Personal Loan: Flexible Financing from a Global Banking Leader",
-      description: "Discover HSBC Personal Loans with competitive rates...",
-      date: "2025-04-04T00:00:00Z",
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-      categories: [
-        { name: "Financial Solutions", slug: "financial-solutions" },
-      ],
-    },
-    category: "Financial Solutions",
-    categoryPath: "/financial-solutions",
-  },
-  {
-    slug: "funding-circle-personal-loan", // Example Loan
-    frontmatter: {
-      title: "Funding Circle Business Loan",
-      description:
-        "Explore Funding Circle's business loans offering fast, flexible financing...",
-      date: "2025-04-04T00:00:00Z", // Example Date
-      featuredImage:
-        "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],
@@ -838,7 +1016,7 @@ export default function Home() {
           <div className="mb-12 relative">
             <FeaturedPostCard
               title="Best Personal Loans in the US: Your Complete Guide"
-              description="Comprehensive guide to the US's top personal loans, including rates, terms, and application requirements from leading lenders like Nationwide, Santander, and Barclays."
+              description="Comprehensive guide to the US's top personal loans, including rates, terms, and application requirements from leading US lenders."
               image="https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp"
               slug="best-personal-loans"
               category="Personal Finance"

@@ -185,6 +185,11 @@ export const metadata: Metadata = {
 };
 ```
 
+### Blog Listing Synchronization (MANDATORY)
+
+- After any create, update, or delete operation on blog posts in the Personal Finance or Financial Solutions categories, immediately update every `allPosts` array defined inside the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Confirm that titles, slugs, categories, descriptions, images, and ordering stay synchronized across those arrays before completing the CRUD task
+
 ## Common Gotchas
 
 1. **Port Configuration**: Development runs on port 3005, not 3000

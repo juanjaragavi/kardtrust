@@ -408,7 +408,7 @@ export default function AboutUs() {
                           // If image fails to load, show initials as fallback
                           e.currentTarget.style.display = "none";
                           if (e.currentTarget.parentElement) {
-                            e.currentTarget.parentElement.innerHTML = `<span class="text-primary-dark font-bold">${testimonial.initials}</span>`;
+                            e.currentTarget.parentElement.innerHTML = `<span className="text-primary-dark font-bold">${testimonial.initials}</span>`;
                           }
                         }}
                       />

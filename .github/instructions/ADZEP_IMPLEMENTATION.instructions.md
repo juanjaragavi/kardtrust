@@ -289,4 +289,9 @@ Consider adding configuration for:
 - Environment-specific behavior
 - Custom activation triggers
 
+## Blog Listing Synchronization (MANDATORY)
+
+- Even when work focuses on analytics, any create, update, or delete of Personal Finance or Financial Solutions blog posts must be accompanied by updates to every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Confirm that metadata, ordering, and links stay synchronized across those arrays before you consider the CRUD task complete
+
 This implementation provides a robust, Next.js-optimized solution for AdZep integration that maintains performance while ensuring reliable ad activation across your site.

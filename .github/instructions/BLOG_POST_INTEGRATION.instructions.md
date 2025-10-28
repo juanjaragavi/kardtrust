@@ -8,6 +8,11 @@ applyTo: "**/*"
 
 When creating new blog articles, they must be added to multiple locations across the site to ensure proper visibility and discoverability. This document outlines all the places where blog posts are displayed and need to be updated.
 
+## Blog Listing Synchronization (MANDATORY)
+
+- Every time you create, update, or delete a blog post in the Personal Finance or Financial Solutions categories, you must update each `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Do not complete the CRUD task until every listing array reflects the new metadata, ordering, and links so the static views stay synchronized with the underlying content
+
 ## Required Locations for Blog Post Integration
 
 ### 1. Main Blog Listing Page (`app/blog/page.tsx`)

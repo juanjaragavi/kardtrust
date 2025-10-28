@@ -274,6 +274,11 @@ When creating new blog articles, they must be integrated across multiple locatio
 - **Open Graph**: Social media optimization
 - **Sitemap**: Dynamic sitemap generation
 
+### 4. Blog Listing Synchronization (MANDATORY)
+
+- **Requirement**: After any create, update, or delete operation on blog posts within the Personal Finance or Financial Solutions categories, update every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- **Verification**: Ensure titles, slugs, descriptions, categories, images, and ordering stay aligned across those arrays before marking the CRUD task complete
+
 ## Git Workflow
 
 ### 1. Branch Strategy

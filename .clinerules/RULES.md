@@ -259,6 +259,11 @@ import { CustomComponent } from "./custom-component";
 - **Open Graph**: Social media optimization
 - **Sitemap**: Dynamic sitemap generation
 
+### 3. Blog Listing Synchronization (MANDATORY)
+
+- After any create, update, or delete operation on blog posts within the Personal Finance or Financial Solutions categories, update every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`)
+- Ensure titles, slugs, descriptions, categories, images, and ordering remain synchronized across those arrays before closing out the CRUD task
+
 ## Agent Authoring Directive
 
 - Whenever the agent is prompted to generate a new blog post or article for this UK site:

@@ -259,6 +259,12 @@ import { CustomComponent } from "./custom-component";
 - **Open Graph**: Social media optimization
 - **Sitemap**: Dynamic sitemap generation
 
+### 3. Blog Listing Synchronization (MANDATORY)
+
+- **Scope**: Applies to every create, update, or delete operation performed on blog posts in the Personal Finance or Financial Solutions categories
+- **Requirement**: Immediately propagate the change to every `allPosts` array defined in the listing `page.tsx` files (for example `app/blog/page.tsx`, `app/personal-finance/page.tsx`, `app/financial-solutions/page.tsx`) so static listings stay in sync with the source content
+- **Verification**: Do not finish the CRUD task until all impacted arrays reflect the new article order, metadata, and hyperlink paths
+
 ## Git Workflow
 
 ### 1. Branch Strategy

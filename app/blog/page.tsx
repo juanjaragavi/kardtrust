@@ -43,12 +43,46 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts
     {
       title:
+        "Unlock the Benefits of the Amazon Rewards Visa Credit Card | KardTrust",
+      slug: "amazon-rewards-visa-credit-card-benefits",
+      description:
+        "Make the most of your purchases with the Amazon Rewards Visa Credit Card. Earn cash rewards, discounts on Amazon, and much more.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Amazon1.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
         "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards | KardTrust",
       slug: "blue-cash-preferred-card-from-american-express",
       description:
         "Discover the Blue Cash Preferred® Card from American Express with 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Turn everyday spending into substantial rewards.",
       image:
         "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "Capital One Quicksilver Student Credit Card Benefits | KardTrust",
+      slug: "capital-one-quicksilver-student-credit-card-benefits",
+      description:
+        "Discover the student-friendly features and competitive rewards of the Capital One Quicksilver Student Credit Card. Earn unlimited cash back with no annual fee.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Capitalone2.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "Capital One Savor Rewards Credit Card Benefits | KardTrust",
+      slug: "capital-one-savor-rewards-credit-card-benefits",
+      description:
+        "Explore the Capital One Savor Rewards Credit Card benefits, offering unlimited 3% cash back on dining, entertainment, and more.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-14-1.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -67,12 +101,57 @@ export default function BlogArchivePage() {
     },
     {
       title:
+        "Citi Double Cash® Card Benefits: Earn 2% Back Everywhere | KardTrust",
+      slug: "citi-double-cash-credit-card-benefits",
+      description:
+        "Maximize your cash back effortlessly with the Citi Double Cash Credit Card. Earn 2% on every purchase—1% when you buy and 1% when you pay—with no annual fee.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-2.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "Citi Simplicity® Card Benefits | KardTrust",
+      slug: "citi-simplicity-card-benefits",
+      description:
+        "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "Discover it® Student Chrome Credit Card Benefits | KardTrust",
+      slug: "discover-it-student-chrome-credit-card-benefits",
+      description:
+        "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback at restaurants and gas stations, no annual fee, and double rewards in your first year.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Discoverst1.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
         "Wells Fargo Active Cash® Card: Unlimited 2% Cash Back on Everything | KardTrust",
       slug: "wells-fargo-active-cash-card",
       description:
         "Discover the Wells Fargo Active Cash® Card with unlimited 2% cash back on all purchases, $200 welcome bonus, 0% intro APR for 12 months, and no annual fee. Award-winning simplicity with Visa Signature benefits.",
       image:
         "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "Wells Fargo Autograph℠ Card Benefits | KardTrust",
+      slug: "wells-fargo-autograph-card-benefits",
+      description:
+        "Explore the Wells Fargo Autograph Card benefits to earn 3X points on top everyday categories, access premium travel protections, and enjoy no annual fee.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-16-1024x536.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -85,6 +164,95 @@ export default function BlogArchivePage() {
         "Discover the Chase Freedom Flex℠ with 5% cash back in quarterly bonus categories, $200 welcome bonus, 0% intro APR for 15 months, and no annual fee. Earn 5% on travel through Chase, 3% on dining and drugstores.",
       image:
         "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "Chase Freedom Unlimited® Credit Card Benefits | KardTrust",
+      slug: "chase-freedom-unlimited-credit-card-benefits",
+      description:
+        "Turn every dollar you spend into unlimited rewards and effortless savings with the Chase Freedom Unlimited Credit Card. Enjoy unlimited cashback, 0% intro APR, and no annual fee.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-11.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "DoorDash Rewards Mastercard® Benefits | KardTrust",
+      slug: "doordash-rewards-mastercard-benefits",
+      description:
+        "Discover the benefits of the DoorDash Rewards Mastercard: earn high cashback on DoorDash orders and dining, enjoy no annual fee, and access exclusive promotions.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "First Digital NextGen Mastercard® Benefits | KardTrust",
+      slug: "first-digital-nextgen-mastercard-benefits",
+      description:
+        "Discover the benefits of the First Digital NextGen Mastercard: instant approval, no credit check, low fees, and full digital management.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/download-15.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "TD FlexPay Credit Card Benefits | KardTrust",
+      slug: "td-flexpay-credit-card-benefits",
+      description:
+        "See how the TD FlexPay Credit Card delivers flexibility with 0% intro APR on balance transfers, no annual fee, and cashback on everyday purchases.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Flexpay1.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
+        "Titanium Rewards Visa Signature® Credit Card Benefits | KardTrust",
+      slug: "titanium-rewards-visa-signature-credit-card-benefits",
+      description:
+        "Maximize everyday spending with the Titanium Rewards Visa Signature Credit Card. Earn 5X points on gas and groceries and enjoy premium benefits with no annual fee.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "U.S. Bank Cash+® Visa Signature® Card Benefits | KardTrust",
+      slug: "us-bank-cash-plus-visa-signature-card-benefits",
+      description:
+        "Customize your rewards with the U.S. Bank Cash+ Visa Signature Card: earn up to 5% cashback in your chosen categories, 2% on everyday essentials, and pay no annual fee.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/11/Usbanck1.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title: "Current Build Visa Signature® Credit Card Benefits | KardTrust",
+      slug: "visa-signature-us-current-build-credit-card-benefits",
+      description:
+        "Discover the benefits of the Current Build Visa Signature Credit Card. Build credit with no annual fees, flexible rewards, and no hidden charges from this modern neobank.",
+      image:
+        "https://us.topfinanzas.com/wp-content/uploads/2024/09/Curren1.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
+        "Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees | KardTrust",
+      slug: "tomo-credit-card-benefits",
+      description:
+        "Discover the unique benefits of the Tomo Credit Card: no credit history required, flexible cashback rewards, and zero annual fees to jumpstart your credit journey.",
+      image: "https://us.topfinanzas.com/wp-content/uploads/2024/11/Tomo1.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "28 October 2025",
@@ -194,18 +362,6 @@ export default function BlogArchivePage() {
     },
     {
       title:
-        "Revolut Credit Card: Digital-First Banking for Modern Life | KardTrust",
-      slug: "revolut-credit-card",
-      description:
-        "Experience the Revolut Credit Card with multi-currency capabilities, instant virtual cards, advanced security controls, and premium subscription tiers. Choose Revolut Visa Credit Card or Revolut Secured Mastercard for innovative fintech banking.",
-      image:
-        "https://media.topfinanzas.com/images/kardtrust/revolut-credit-card.webp",
-      category: "Financial Solutions",
-      categoryPath: "/financial-solutions",
-      date: "27 October 2025",
-    },
-    {
-      title:
         "Step Visa Card: Build Credit for Free Starting at Age 13 | KardTrust",
       slug: "step-visa-card",
       description:
@@ -270,6 +426,18 @@ export default function BlogArchivePage() {
         "Discover how the Varo Believe Card revolutionizes credit building with no security deposit, 0% APR, no annual fees, and an average 40+ point credit score increase in just 3 months.",
       image:
         "https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "24 October 2025",
+    },
+    {
+      title:
+        "Chime Credit Builder Visa Secured Card: Build Credit with No Fees | KardTrust",
+      slug: "chime-credit-builder-visa-secured-card",
+      description:
+        "Discover the Chime Credit Builder Visa Secured Card offering fee-free credit building, 1.5% cash back on rotating categories, no annual fees, no interest, and no credit check to apply.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "24 October 2025",
@@ -532,50 +700,7 @@ export default function BlogArchivePage() {
       categoryPath: "/financial-solutions",
       date: "24 October 2025",
     },
-    {
-      title: "Barclaycard Avios Plus Credit Card: Premium Travel Rewards",
-      slug: "barclaycard-avios-plus",
-      description:
-        "The Barclaycard Avios Plus Credit Card offers premium travel perks...",
-      image: "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
-      category: "Financial Solutions",
-      categoryPath: "/financial-solutions",
-      date: "4 April 2025", // Example date
-    },
-    {
-      title:
-        "HSBC Personal Loan: Flexible Financing from a Global Banking Leader",
-      slug: "hsbc-personal-loan",
-      description: "Discover HSBC Personal Loans with competitive rates...",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-      category: "Financial Solutions",
-      categoryPath: "/financial-solutions",
-      date: "4 April 2025",
-    },
-    {
-      title: "Curve Credit Card",
-      slug: "curve-credit-card",
-      description:
-        "Learn about the innovative Curve Card that consolidates all your existing cards...",
-      image:
-        "https://media.topfinanzas.com/images/uk/credit-cards/719907701-top_prestamos-y-tarjetas-uk_v1-22.webp",
-      category: "Financial Solutions",
-      categoryPath: "/financial-solutions",
-      date: "2 April 2025",
-    },
-    {
-      title: "Funding Circle Business Loan",
-      slug: "funding-circle-personal-loan",
-      description:
-        "Explore Funding Circle's business loans offering fast, flexible financing...",
-      image:
-        "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
-      category: "Financial Solutions",
-      categoryPath: "/financial-solutions",
-      date: "4 April 2025",
-    },
-    // ... Add more posts from financial-solutions as needed
+    // Additional Financial Solutions posts can be added here
   ];
 
   // Sort posts by date (newest first) using the centralized utility
