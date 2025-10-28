@@ -43,6 +43,30 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts
     {
       title:
+        "Wells Fargo Active Cash® Card: Unlimited 2% Cash Back on Everything | KardTrust",
+      slug: "wells-fargo-active-cash-card",
+      description:
+        "Discover the Wells Fargo Active Cash® Card with unlimited 2% cash back on all purchases, $200 welcome bonus, 0% intro APR for 12 months, and no annual fee. Award-winning simplicity with Visa Signature benefits.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
+        "Chase Freedom Flex℠: Cash Back Credit Card with Rotating Categories | KardTrust",
+      slug: "chase-freedom-flex",
+      description:
+        "Discover the Chase Freedom Flex℠ with 5% cash back in quarterly bonus categories, $200 welcome bonus, 0% intro APR for 15 months, and no annual fee. Earn 5% on travel through Chase, 3% on dining and drugstores.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
         "Bank of America® Unlimited Cash Rewards: Straightforward Cash Back Card | KardTrust",
       slug: "bank-of-america-unlimited-cash-rewards",
       description:

@@ -49,6 +49,40 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "wells-fargo-active-cash-card",
+    frontmatter: {
+      title:
+        "Wells Fargo Active Cash® Card: Unlimited 2% Cash Back on Everything",
+      description:
+        "Discover the Wells Fargo Active Cash® Card with unlimited 2% cash back on all purchases, $200 welcome bonus, 0% intro APR for 12 months, and no annual fee. Award-winning simplicity with Visa Signature benefits.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "chase-freedom-flex",
+    frontmatter: {
+      title:
+        "Chase Freedom Flex℠: Cash Back Credit Card with Rotating Categories",
+      description:
+        "Discover the Chase Freedom Flex℠ with 5% cash back in quarterly bonus categories, $200 welcome bonus, 0% intro APR for 15 months, and no annual fee. Earn 5% on travel through Chase, 3% on dining and drugstores.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "bank-of-america-unlimited-cash-rewards",
     frontmatter: {
       title:

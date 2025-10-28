@@ -1,8 +1,10 @@
-feat: add Chase Sapphire Reserve and Bank of America Unlimited Cash Rewards product pages
+feat: add wells fargo active cash card product pages
 
-- create benefits and requirements pages for Chase Sapphire Reserve premium travel card
-- create benefits and requirements pages for Bank of America Unlimited Cash Rewards card
-- integrate both products across homepage, blog, financial solutions, and credit cards listings
-- include comprehensive travel rewards details, credit requirements, and compliance warnings
-- apply brand colors for CTAs (Chase #002855, BofA #012169)
-- format and lint all new product pages
+- Created Wells Fargo Active Cash® Card benefits page with unlimited 2% cash back, $200 bonus, 0% intro APR
+- Created Wells Fargo Active Cash® Card requirements page with eligibility criteria, Wells Fargo rules, APR details
+- Integrated Wells Fargo Active Cash into homepage, blog archive, financial solutions, and credit cards pages
+- Added comprehensive compliance warnings with representative APR examples and three-tier APR structure
+- Included Visa Signature benefits (cellular protection, auto rental waiver, concierge)
+- Applied brand color #d71e28 for CTAs and bullet points
+- 1,200+ words benefits page, 1,100+ words requirements page
+- All pages formatted, linted, and production-ready

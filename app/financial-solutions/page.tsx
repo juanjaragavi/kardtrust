@@ -253,9 +253,29 @@ export default function FinancialSolutionsPage() {
     [],
   );
 
-  // List of credit card content with types
+  // Hardcoded list of all credit card content with types
   const creditCardsContent = useMemo(
     () => [
+      {
+        title: "Wells Fargo Active Cash® Card",
+        slug: "wells-fargo-active-cash-card",
+        description:
+          "Earn unlimited 2% cash back on all purchases with no categories to track or activate. Welcome bonus: $200 after $500 spend in 3 months. 0% intro APR for 12 months on purchases and balance transfers. 18.99%-24.99%-28.99% variable APR, no annual fee. Includes Visa Signature benefits with cellular protection, auto rental waiver, and concierge services.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/wells-fargo-active-cash-card.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Chase Freedom Flex℠",
+        slug: "chase-freedom-flex",
+        description:
+          "Earn 5% cash back on up to $1,500 in combined purchases each quarter in rotating bonus categories you activate, plus 5% on travel through Chase Travel℠, 3% on dining and drugstores, and 1% on all other purchases. Welcome bonus: $200 after $500 spend in 3 months. 0% intro APR for 15 months on purchases and balance transfers. 18.74%-28.24% variable APR, no annual fee.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/chase-freedom-flex.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
       {
         title: "Bank of America® Unlimited Cash Rewards",
         slug: "bank-of-america-unlimited-cash-rewards",
