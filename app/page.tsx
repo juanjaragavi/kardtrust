@@ -49,6 +49,88 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "yotta-credit-card",
+    frontmatter: {
+      title:
+        "Yotta Credit Card: Win Cash Back With Every Purchase",
+      description:
+        "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card-lucky-swipe.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "mission-lane-visa-credit-card",
+    frontmatter: {
+      title:
+        "Mission Lane Visa Credit Card: Build Credit with Fair-to-Good Approval Odds",
+      description:
+        "Discover the Mission Lane Visa Credit Card designed for building and rebuilding credit. Features 19.99%-33.99% APR, $0-$59 annual fee, credit lines from $300-$3,000, and cash back rewards on select cards. No security deposit required.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "avant-credit-card",
+    frontmatter: {
+      title: "Avant Credit Card: Your Path to Healthy Credit Starts Here",
+      description:
+        "Build or rebuild your credit with the Avant Credit Card. No security deposit required, proactive credit line increases, and transparent pricing. 29.99%-35.99% APR, $39-$75 annual fee, $300-$3,000 credit limits. WebBank issuer.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/avant-credit-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "klarna-card",
+    frontmatter: {
+      title: "Klarna Card: Pay Now or Pay Later Everywhere Visa is Accepted",
+      description:
+        "Discover the Klarna Card—switch instantly between debit mode and flexible pay later plans. No annual fees, no credit impact to apply, earn cashback with membership plans, and enjoy 0%-35.99% APR on payment plans.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/klarna-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
+    slug: "affirm-card",
+    frontmatter: {
+      title: "Affirm Card: Flexible Payment Plans Without Hidden Fees",
+      description:
+        "Discover the Affirm Card—a Visa debit card with pay-over-time flexibility. No annual fees, no hidden charges, 0%-36% APR payment plans, and no credit impact to apply. Split purchases after checkout or plan ahead.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/affirm-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "revolut-credit-card",
     frontmatter: {
       title: "Revolut Credit Card: Digital-First Banking for Modern Life",

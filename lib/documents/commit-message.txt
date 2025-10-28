@@ -1,12 +1,14 @@
-feat: update Revolut Credit Card pages for US market
+feat: Add Yotta Credit Card and multiple financial product pages
 
-- Update Revolut Credit Card benefits and requirements pages with US-focused content
-- Apply brand color #121212 throughout all UI elements
-- Replace UK ad containers (uk_kardtrust_3/4) with US format (kardtrust_ad_1/2)
-- Update hero images to kardtrust CDN (revolut-credit-card.webp, revolut-credit-card-requirements.webp)
-- Emphasize both Revolut Visa Credit Card (Cross River Bank) and Revolut Secured Mastercard (Lead Bank)
-- Update external CTAs to https://www.revolut.com/en-US/cards
-- Add Revolut Credit Card to homepage featured posts (top position)
-- Add Revolut Credit Card to blog archive under Financial Solutions
-- Enhanced content highlighting multi-currency capabilities, virtual cards, security features, and subscription tiers
+- Created Yotta Credit Card benefits page with Lucky Swipe sweepstakes feature
+- Created Yotta Credit Card requirements page with 42-state availability
+- Created Mission Lane Visa Credit Card benefits and requirements pages
+- Created Affirm Card and Klarna Card benefits and requirements pages
+- Created Avant Credit Card benefits and requirements pages
+- Integrated all new financial products into homepage, blog, financial-solutions, and credit-cards pages
+- Added comprehensive eligibility requirements, APR details, and application processes
+- Implemented gamified credit card content with sweepstakes mechanics (Yotta)
+- All pages include CFPB/FTC compliance disclosures and US market regulatory requirements
+- SEO-optimized metadata for all new product pages
+- Brand color integration (#4e0cdc for Yotta, #0f60c2 for Mission Lane)
 - Zero compilation errors across all updated files

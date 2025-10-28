@@ -257,6 +257,56 @@ export default function FinancialSolutionsPage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "Yotta Credit Card",
+        slug: "yotta-credit-card",
+        description:
+          "Win up to 100% cash back on every purchase with Lucky Swipe sweepstakes. Every transaction enters you for prizes up to $5,000. Better-than-average odds (1 in 75 with direct deposit), no complex redemption, and automatic prize credits within 30 days. Issued via Synapse Credit with Evolve Bank & Trust.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card-lucky-swipe.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "Mission Lane Visa Credit Card",
+        slug: "mission-lane-visa-credit-card",
+        description:
+          "Build or rebuild credit with three card options designed for fair-to-good credit. Starting credit lines from $300-$3,000, 19.99%-33.99% variable APR, $0-$59 annual fee. Silver Line offers 1.5% cash back. No security deposit on Green Line and Silver Line. Issued by TAB Bank or WebBank.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "Avant Credit Card",
+        slug: "avant-credit-card",
+        description:
+          "Build or rebuild your credit with no security deposit required. Proactive credit line increases, transparent pricing, and mobile app management. 29.99%-35.99% APR, $39-$75 annual membership fee, $300-$3,000 credit limits. Issued by WebBank with Mastercard acceptance.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/avant-credit-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "Klarna Card",
+        slug: "klarna-card",
+        description:
+          "Switch instantly between debit mode and pay later plans. No annual fees, no credit impact to apply, earn cashback with membership plans (0.5%-1%), and enjoy flexible financing with 0%-35.99% APR. Issued by WebBank with up to 3.02% APY on balance.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/klarna-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
+        title: "Affirm Card",
+        slug: "affirm-card",
+        description:
+          "Pay over time with flexible payment plans. Visa debit card with no annual fees, no hidden charges, 0%-36% APR payment plans, and no credit impact to apply. Split purchases after checkout or plan ahead with transparent terms. Issued by Evolve Bank & Trust or Stride Bank.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/affirm-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
         title: "Step Visa Card",
         slug: "step-visa-card",
         description:

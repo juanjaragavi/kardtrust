@@ -43,6 +43,63 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts
     {
       title:
+        "Yotta Credit Card: Win Cash Back With Every Purchase | KardTrust",
+      slug: "yotta-credit-card",
+      description:
+        "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card-lucky-swipe.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
+        "Mission Lane Visa Credit Card: Build Credit with Fair-to-Good Approval Odds | KardTrust",
+      slug: "mission-lane-visa-credit-card",
+      description:
+        "Discover the Mission Lane Visa Credit Card designed for building and rebuilding credit. Features 19.99%-33.99% APR, $0-$59 annual fee, credit lines from $300-$3,000, and cash back rewards on select cards. No security deposit required.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
+        "Avant Credit Card: Your Path to Healthy Credit Starts Here | KardTrust",
+      slug: "avant-credit-card",
+      description:
+        "Build or rebuild your credit with the Avant Credit Card. No security deposit required, proactive credit line increases, and transparent pricing. 29.99%-35.99% APR, $39-$75 annual fee, $300-$3,000 credit limits. WebBank issuer.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/avant-credit-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title: "Klarna Card: Pay Now or Pay Later Everywhere - KardTrust",
+      slug: "klarna-card",
+      description:
+        "Discover the Klarna Card—switch instantly between debit mode and flexible pay later plans. No annual fees, no credit impact to apply, earn cashback with membership plans, and enjoy 0%-35.99% APR on payment plans.",
+      image: "https://media.topfinanzas.com/images/kardtrust/klarna-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
+        "Affirm Card: Pay Over Time with Flexible Payment Plans - KardTrust",
+      slug: "affirm-card",
+      description:
+        "Discover the Affirm Card—a Visa debit card with pay-over-time flexibility. No annual fees, no hidden charges, 0%-36% APR payment plans, and no credit impact to apply. Split purchases after checkout or plan ahead.",
+      image: "https://media.topfinanzas.com/images/kardtrust/affirm-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
         "Revolut Credit Card: Digital-First Banking for Modern Life | KardTrust",
       slug: "revolut-credit-card",
       description:
