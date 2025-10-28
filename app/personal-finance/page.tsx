@@ -39,6 +39,17 @@ export default function PersonalFinanceArchivePage() {
     () => [
       {
         title:
+          "The Hidden Costs of Homeownership That No One Talks About | KardTrust",
+        slug: "hidden-costs-of-homeownership",
+        description:
+          "Discover the unexpected expenses of owning a home beyond your mortgage payment. Learn how to budget for maintenance, repairs, insurance, and other hidden homeownership costs.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/hidden-costs-homeownership.webp",
+        date: "October 28, 2025",
+        category: "guide",
+      },
+      {
+        title:
           "Unlock the Benefits of the Amazon Rewards Visa Credit Card | KardTrust",
         slug: "amazon-rewards-visa-credit-card-benefits",
         description:

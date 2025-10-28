@@ -40,6 +40,19 @@ export default function BlogArchivePage() {
 
   // Combine posts from both categories
   const allPosts: PostItem[] = [
+    // Personal Finance Posts
+    {
+      title:
+        "The Hidden Costs of Homeownership That No One Talks About | KardTrust",
+      slug: "hidden-costs-of-homeownership",
+      description:
+        "Discover the unexpected expenses of owning a home beyond your mortgage payment. Learn how to budget for maintenance, repairs, insurance, and other hidden homeownership costs.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/hidden-costs-homeownership.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "October 28, 2025",
+    },
     // Financial Solutions Posts
     {
       title:

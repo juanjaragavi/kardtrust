@@ -1,5 +1,15 @@
-chore: restore financial solutions hero imagery
+feat: add comprehensive homeownership costs article
 
 CHANGES:
-- Reintroduced remote hero images across financial solutions benefits and requirements pages using original asset URLs.
-- Added Next.js Image imports where missing to ensure optimized delivery of the restored assets.
+- Created new Personal Finance article "The Hidden Costs of Homeownership That No One Talks About"
+- Added production-ready TypeScript component at app/personal-finance/hidden-costs-of-homeownership/page.tsx
+- Integrated article into blog listing page (app/blog/page.tsx) as most recent post
+- Added article to Personal Finance category page (app/personal-finance/page.tsx) with "guide" filter
+- Updated sitemap.xml with new article URL in alphabetical order
+- Article features 7 main content sections covering maintenance, utilities, HOA fees, landscaping, improvements, insurance, and property taxes
+- Included 5 strategic internal links to existing Personal Finance content
+- Implemented proper SEO metadata with title, description, and keywords
+- Added hero image, 2 ad placeholders, CTA button, and AI content disclaimer
+- Follows US market compliance standards and TOFU funnel guidelines
+- Word count: ~950 words (within TOFU 800-1,000 word target)
+- Build validated successfully without errors
