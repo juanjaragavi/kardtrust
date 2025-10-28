@@ -26,6 +26,26 @@ export default function CreditCardsArchivePage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "Bank of America® Unlimited Cash Rewards",
+        slug: "bank-of-america-unlimited-cash-rewards",
+        description:
+          "Earn unlimited 1.5% cash back on all purchases, receive a $200 online bonus after $1,000 spend in 90 days, enjoy 0% intro APR for 18 billing cycles on purchases and balance transfers, and boost rewards up to 2.625% with Preferred Rewards. No annual fee, 19.24%-29.24% variable APR.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/bank-of-america-unlimited-cash-rewards.webp",
+        date: "27 October 2025",
+        type: "traditional",
+      },
+      {
+        title: "Chase Sapphire Reserve®",
+        slug: "chase-sapphire-reserve",
+        description:
+          "Earn 3X points on travel & dining, receive a $300 annual travel credit, enjoy Priority Pass Select lounge access at 1,300+ airports, and benefit from comprehensive travel insurance. Welcome bonus: 60,000 points after $4,000 spend in 3 months. 21.49%-28.49% variable APR, $550 annual fee.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve.webp",
+        date: "27 October 2025",
+        type: "traditional",
+      },
+      {
         title: "Self Credit Builder Account + Visa Card",
         slug: "self-credit-builder-account-visa-card",
         description:

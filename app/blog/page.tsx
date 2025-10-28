@@ -43,6 +43,30 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts
     {
       title:
+        "Bank of America® Unlimited Cash Rewards: Straightforward Cash Back Card | KardTrust",
+      slug: "bank-of-america-unlimited-cash-rewards",
+      description:
+        "Discover the Bank of America® Unlimited Cash Rewards credit card with unlimited 1.5% cash back on all purchases, $200 online cash rewards bonus, 0% intro APR for 18 billing cycles, no annual fee, and Preferred Rewards benefits up to 75% bonus cash back.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/bank-of-america-unlimited-cash-rewards.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
+        "Chase Sapphire Reserve®: Premium Travel Rewards Card | KardTrust",
+      slug: "chase-sapphire-reserve",
+      description:
+        "Discover the Chase Sapphire Reserve® with 3X points on travel & dining, $300 annual travel credit, Priority Pass lounge access, and premium travel protections. Earn 60,000 bonus points after spending $4,000 in first 3 months.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
         "Self Credit Builder Account + Visa Card: Build Credit with One Ecosystem | KardTrust",
       slug: "self-credit-builder-account-visa-card",
       description:

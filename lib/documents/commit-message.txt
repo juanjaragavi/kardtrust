@@ -1,5 +1,8 @@
-feat: add Self Credit Builder product pages and fix lint
+feat: add Chase Sapphire Reserve and Bank of America Unlimited Cash Rewards product pages
 
-- add benefits and requirements pages for the Self Credit Builder Account + Visa Card
-- surface the new product across homepage, blog, financial solutions, and credit card listings
-- remove unused imports flagged by eslint in existing requirements pages
+- create benefits and requirements pages for Chase Sapphire Reserve premium travel card
+- create benefits and requirements pages for Bank of America Unlimited Cash Rewards card
+- integrate both products across homepage, blog, financial solutions, and credit cards listings
+- include comprehensive travel rewards details, credit requirements, and compliance warnings
+- apply brand colors for CTAs (Chase #002855, BofA #012169)
+- format and lint all new product pages
