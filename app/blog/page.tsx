@@ -42,13 +42,12 @@ export default function BlogArchivePage() {
   const allPosts: PostItem[] = [
     // Financial Solutions Posts
     {
-      title:
-        "Yotta Credit Card: Win Cash Back With Every Purchase | KardTrust",
+      title: "Yotta Credit Card: Win Cash Back With Every Purchase | KardTrust",
       slug: "yotta-credit-card",
       description:
         "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card-lucky-swipe.webp",
+        "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card.webp",
       category: "Financial Solutions",
       categoryPath: "/financial-solutions",
       date: "27 October 2025",

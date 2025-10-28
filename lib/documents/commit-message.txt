@@ -1,14 +1,6 @@
-feat: Add Yotta Credit Card and multiple financial product pages
+chore: Format code with Prettier
 
-- Created Yotta Credit Card benefits page with Lucky Swipe sweepstakes feature
-- Created Yotta Credit Card requirements page with 42-state availability
-- Created Mission Lane Visa Credit Card benefits and requirements pages
-- Created Affirm Card and Klarna Card benefits and requirements pages
-- Created Avant Credit Card benefits and requirements pages
-- Integrated all new financial products into homepage, blog, financial-solutions, and credit-cards pages
-- Added comprehensive eligibility requirements, APR details, and application processes
-- Implemented gamified credit card content with sweepstakes mechanics (Yotta)
-- All pages include CFPB/FTC compliance disclosures and US market regulatory requirements
-- SEO-optimized metadata for all new product pages
-- Brand color integration (#4e0cdc for Yotta, #0f60c2 for Mission Lane)
-- Zero compilation errors across all updated files
+- Applied code formatting to Yotta Credit Card pages
+- Applied code formatting to homepage, blog, financial-solutions, and credit-cards pages
+- Automated formatting via npm run format
+- No functional changes, only code style improvements

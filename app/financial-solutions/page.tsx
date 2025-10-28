@@ -262,7 +262,7 @@ export default function FinancialSolutionsPage() {
         description:
           "Win up to 100% cash back on every purchase with Lucky Swipe sweepstakes. Every transaction enters you for prizes up to $5,000. Better-than-average odds (1 in 75 with direct deposit), no complex redemption, and automatic prize credits within 30 days. Issued via Synapse Credit with Evolve Bank & Trust.",
         image:
-          "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card-lucky-swipe.webp",
+          "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card.webp",
         date: "27 October 2025",
         type: "fintech",
       },

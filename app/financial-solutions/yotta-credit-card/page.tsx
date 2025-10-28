@@ -68,7 +68,7 @@ export default function YottaCreditCardPage() {
               </div>
               <div className="relative h-64 md:h-96">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/yotta-credit-card-lucky-swipe.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/yotta-credit-card.webp"
                   alt="Yotta Credit Card with Lucky Swipe feature showing winning opportunities"
                   fill
                   className="object-contain"
@@ -164,8 +164,8 @@ export default function YottaCreditCardPage() {
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
-                    <span className="text-green-600 mr-2">✓</span>
-                    1 in 75 odds with direct deposit
+                    <span className="text-green-600 mr-2">✓</span>1 in 75 odds
+                    with direct deposit
                   </li>
                   <li className="flex items-start">
                     <span className="text-green-600 mr-2">✓</span>

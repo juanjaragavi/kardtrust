@@ -51,13 +51,12 @@ const allPosts: PostData[] = [
   {
     slug: "yotta-credit-card",
     frontmatter: {
-      title:
-        "Yotta Credit Card: Win Cash Back With Every Purchase",
+      title: "Yotta Credit Card: Win Cash Back With Every Purchase",
       description:
         "Discover how the Yotta Credit Card transforms spending into winning opportunities. Every purchase enters you to win up to 100% cash back, with prizes up to $5,000. Learn about Lucky Swipe rewards and better-than-average winning odds.",
       date: "2025-10-27T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card-lucky-swipe.webp",
+        "https://media.topfinanzas.com/images/kardtrust/yotta-credit-card.webp",
       categories: [
         { name: "Financial Solutions", slug: "financial-solutions" },
       ],

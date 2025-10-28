@@ -7,8 +7,7 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title:
-      "Yotta Credit Card Requirements & Eligibility | Application Guide",
+    title: "Yotta Credit Card Requirements & Eligibility | Application Guide",
     description:
       "Learn Yotta Credit Card eligibility requirements, application process, and state availability. Find out if you qualify for Lucky Swipe rewards and sweepstakes credit in 42 US states.",
     keywords: [
@@ -39,7 +38,9 @@ export default function YottaCreditCardRequirementsPage() {
                 Yotta Credit Card Requirements & Application Process
               </h1>
               <p className="text-lg text-purple-100">
-                Everything you need to know about qualifying for Yotta's gamified credit card with Lucky Swipe rewards. Available in 42 US states for residents 18 and older.
+                Everything you need to know about qualifying for Yotta's
+                gamified credit card with Lucky Swipe rewards. Available in 42
+                US states for residents 18 and older.
               </p>
             </div>
           </div>
@@ -56,42 +57,77 @@ export default function YottaCreditCardRequirementsPage() {
                 </h2>
                 <div className="bg-gradient-to-br from-purple-50 to-indigo-50 p-6 rounded-xl border-2 border-purple-200 mb-6">
                   <p className="text-gray-700 mb-4 leading-relaxed">
-                    The Yotta Credit Card has straightforward eligibility criteria designed to make gamified credit accessible to most US consumers. Unlike traditional credit cards, Yotta emphasizes financial engagement through sweepstakes rather than complex rewards tiers.
+                    The Yotta Credit Card has straightforward eligibility
+                    criteria designed to make gamified credit accessible to most
+                    US consumers. Unlike traditional credit cards, Yotta
+                    emphasizes financial engagement through sweepstakes rather
+                    than complex rewards tiers.
                   </p>
                   <ul className="space-y-3">
                     <li className="flex items-start">
-                      <span className="text-purple-600 font-bold mr-3 text-xl">✓</span>
+                      <span className="text-purple-600 font-bold mr-3 text-xl">
+                        ✓
+                      </span>
                       <div>
-                        <strong className="text-gray-900">Age Requirement:</strong>
-                        <p className="text-gray-700">Must be at least 18 years old at the time of application</p>
+                        <strong className="text-gray-900">
+                          Age Requirement:
+                        </strong>
+                        <p className="text-gray-700">
+                          Must be at least 18 years old at the time of
+                          application
+                        </p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-purple-600 font-bold mr-3 text-xl">✓</span>
+                      <span className="text-purple-600 font-bold mr-3 text-xl">
+                        ✓
+                      </span>
                       <div>
                         <strong className="text-gray-900">Residency:</strong>
-                        <p className="text-gray-700">Legal US resident in one of 42 eligible states (see state list below)</p>
+                        <p className="text-gray-700">
+                          Legal US resident in one of 42 eligible states (see
+                          state list below)
+                        </p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-purple-600 font-bold mr-3 text-xl">✓</span>
+                      <span className="text-purple-600 font-bold mr-3 text-xl">
+                        ✓
+                      </span>
                       <div>
-                        <strong className="text-gray-900">Valid Identification:</strong>
-                        <p className="text-gray-700">Government-issued ID (driver's license, state ID, or passport)</p>
+                        <strong className="text-gray-900">
+                          Valid Identification:
+                        </strong>
+                        <p className="text-gray-700">
+                          Government-issued ID (driver's license, state ID, or
+                          passport)
+                        </p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-purple-600 font-bold mr-3 text-xl">✓</span>
+                      <span className="text-purple-600 font-bold mr-3 text-xl">
+                        ✓
+                      </span>
                       <div>
-                        <strong className="text-gray-900">Social Security Number:</strong>
-                        <p className="text-gray-700">Required for credit check and identity verification</p>
+                        <strong className="text-gray-900">
+                          Social Security Number:
+                        </strong>
+                        <p className="text-gray-700">
+                          Required for credit check and identity verification
+                        </p>
                       </div>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-purple-600 font-bold mr-3 text-xl">✓</span>
+                      <span className="text-purple-600 font-bold mr-3 text-xl">
+                        ✓
+                      </span>
                       <div>
-                        <strong className="text-gray-900">US Mailing Address:</strong>
-                        <p className="text-gray-700">Physical address (no PO boxes) for card delivery</p>
+                        <strong className="text-gray-900">
+                          US Mailing Address:
+                        </strong>
+                        <p className="text-gray-700">
+                          Physical address (no PO boxes) for card delivery
+                        </p>
                       </div>
                     </li>
                   </ul>
@@ -105,7 +141,10 @@ export default function YottaCreditCardRequirementsPage() {
                 </h2>
                 <div className="bg-white p-6 rounded-xl border-2 border-gray-200 mb-6">
                   <p className="text-gray-700 mb-4 leading-relaxed">
-                    Yotta Credit Card and lending services are currently available in <strong>42 US states plus Washington, DC</strong>. The following states are eligible:
+                    Yotta Credit Card and lending services are currently
+                    available in{" "}
+                    <strong>42 US states plus Washington, DC</strong>. The
+                    following states are eligible:
                   </p>
                   <div className="grid md:grid-cols-3 gap-3 text-sm text-gray-700">
                     <ul className="space-y-1">
@@ -159,7 +198,9 @@ export default function YottaCreditCardRequirementsPage() {
                   </div>
                   <div className="mt-4 p-4 bg-yellow-50 border-l-4 border-yellow-500 rounded-r-lg">
                     <p className="text-sm text-gray-700">
-                      <strong>Not Available In:</strong> Alabama, Indiana, Kentucky, Mississippi, Nevada, Vermont, Washington, Wisconsin, Wyoming
+                      <strong>Not Available In:</strong> Alabama, Indiana,
+                      Kentucky, Mississippi, Nevada, Vermont, Washington,
+                      Wisconsin, Wyoming
                     </p>
                   </div>
                 </div>
@@ -176,24 +217,42 @@ export default function YottaCreditCardRequirementsPage() {
                       📊 Credit Score Expectations
                     </h3>
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      While Yotta doesn't publish specific minimum credit score requirements, the card is designed for consumers with <strong>fair to good credit (typically 580-720 FICO)</strong>. Yotta's credit model through Synapse Credit LLC considers:
+                      While Yotta doesn't publish specific minimum credit score
+                      requirements, the card is designed for consumers with{" "}
+                      <strong>
+                        fair to good credit (typically 580-720 FICO)
+                      </strong>
+                      . Yotta's credit model through Synapse Credit LLC
+                      considers:
                     </p>
                     <ul className="space-y-2 text-gray-700">
                       <li className="flex items-start">
                         <span className="text-green-600 mr-2">→</span>
-                        <span><strong>Payment History:</strong> Most important factor—consistently paying bills on time</span>
+                        <span>
+                          <strong>Payment History:</strong> Most important
+                          factor—consistently paying bills on time
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-600 mr-2">→</span>
-                        <span><strong>Credit Utilization:</strong> How much of your available credit you're using</span>
+                        <span>
+                          <strong>Credit Utilization:</strong> How much of your
+                          available credit you're using
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-600 mr-2">→</span>
-                        <span><strong>Credit History Length:</strong> How long your accounts have been open</span>
+                        <span>
+                          <strong>Credit History Length:</strong> How long your
+                          accounts have been open
+                        </span>
                       </li>
                       <li className="flex items-start">
                         <span className="text-green-600 mr-2">→</span>
-                        <span><strong>Recent Credit Inquiries:</strong> Number of recent credit applications</span>
+                        <span>
+                          <strong>Recent Credit Inquiries:</strong> Number of
+                          recent credit applications
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -203,7 +262,8 @@ export default function YottaCreditCardRequirementsPage() {
                       💰 Income Verification
                     </h3>
                     <p className="text-gray-700 mb-4 leading-relaxed">
-                      Applicants must provide proof of income or ability to make payments. Acceptable income sources include:
+                      Applicants must provide proof of income or ability to make
+                      payments. Acceptable income sources include:
                     </p>
                     <ul className="grid md:grid-cols-2 gap-2 text-gray-700 text-sm">
                       <li>✓ Employment income (W-2)</li>
@@ -216,7 +276,8 @@ export default function YottaCreditCardRequirementsPage() {
                       <li>✓ Rental property income</li>
                     </ul>
                     <p className="text-sm text-gray-600 mt-3 italic">
-                      Note: There is no published minimum income requirement, but you must demonstrate ability to repay credit.
+                      Note: There is no published minimum income requirement,
+                      but you must demonstrate ability to repay credit.
                     </p>
                   </div>
                 </div>
@@ -238,7 +299,19 @@ export default function YottaCreditCardRequirementsPage() {
                           Create a Yotta Account
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          Visit <a href="https://banking.withyotta.com/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">banking.withyotta.com</a> and create a free Yotta account. You'll download the Yotta mobile app (iOS or Android) and complete account registration with your email, phone number, and basic personal information.
+                          Visit{" "}
+                          <a
+                            href="https://banking.withyotta.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-purple-600 hover:underline"
+                          >
+                            banking.withyotta.com
+                          </a>{" "}
+                          and create a free Yotta account. You'll download the
+                          Yotta mobile app (iOS or Android) and complete account
+                          registration with your email, phone number, and basic
+                          personal information.
                         </p>
                       </div>
                     </div>
@@ -254,12 +327,15 @@ export default function YottaCreditCardRequirementsPage() {
                           Apply for Credit Card
                         </h3>
                         <p className="text-gray-700 leading-relaxed mb-3">
-                          Within the Yotta app, navigate to the credit card application section. You'll provide:
+                          Within the Yotta app, navigate to the credit card
+                          application section. You'll provide:
                         </p>
                         <ul className="space-y-1 text-sm text-gray-700">
                           <li>→ Full legal name and date of birth</li>
                           <li>→ Social Security Number</li>
-                          <li>→ Current residential address (minimum 6 months)</li>
+                          <li>
+                            → Current residential address (minimum 6 months)
+                          </li>
                           <li>→ Annual income and employment status</li>
                           <li>→ Housing payment (rent/mortgage amount)</li>
                         </ul>
@@ -277,10 +353,16 @@ export default function YottaCreditCardRequirementsPage() {
                           Credit Check & Approval Decision
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          Yotta (through Synapse Credit LLC) will perform a <strong>hard credit inquiry</strong> that may temporarily impact your credit score by 5-10 points. You'll receive an instant approval decision in most cases. If approved, you'll see your credit limit, APR, and Lucky Swipe odds.
+                          Yotta (through Synapse Credit LLC) will perform a{" "}
+                          <strong>hard credit inquiry</strong> that may
+                          temporarily impact your credit score by 5-10 points.
+                          You'll receive an instant approval decision in most
+                          cases. If approved, you'll see your credit limit, APR,
+                          and Lucky Swipe odds.
                         </p>
                         <p className="text-sm text-gray-600 mt-2 italic">
-                          Typical approval time: Instant to 1-2 business days for additional verification
+                          Typical approval time: Instant to 1-2 business days
+                          for additional verification
                         </p>
                       </div>
                     </div>
@@ -296,7 +378,11 @@ export default function YottaCreditCardRequirementsPage() {
                           Receive & Activate Card
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          Your Yotta Credit Card will arrive by mail within 7-10 business days. Once received, activate it through the Yotta app by following the prompts. Set up direct deposit to unlock the best Lucky Swipe odds (1 in 75 instead of standard rates).
+                          Your Yotta Credit Card will arrive by mail within 7-10
+                          business days. Once received, activate it through the
+                          Yotta app by following the prompts. Set up direct
+                          deposit to unlock the best Lucky Swipe odds (1 in 75
+                          instead of standard rates).
                         </p>
                       </div>
                     </div>
@@ -312,7 +398,11 @@ export default function YottaCreditCardRequirementsPage() {
                           Start Spending & Winning
                         </h3>
                         <p className="text-gray-700 leading-relaxed">
-                          Make your first purchase to enter the Lucky Swipe sweepstakes automatically. Every transaction gives you a chance to win up to 100% cash back (maximum $5,000). Winners are notified instantly through the app, with reimbursements credited within 30 days.
+                          Make your first purchase to enter the Lucky Swipe
+                          sweepstakes automatically. Every transaction gives you
+                          a chance to win up to 100% cash back (maximum $5,000).
+                          Winners are notified instantly through the app, with
+                          reimbursements credited within 30 days.
                         </p>
                       </div>
                     </div>
@@ -329,53 +419,104 @@ export default function YottaCreditCardRequirementsPage() {
                   <table className="w-full bg-white border border-gray-200 rounded-lg">
                     <thead className="bg-gradient-to-r from-purple-600 to-indigo-600 text-white">
                       <tr>
-                        <th className="px-6 py-3 text-left font-bold">Fee Type</th>
-                        <th className="px-6 py-3 text-left font-bold">Amount</th>
-                        <th className="px-6 py-3 text-left font-bold">Details</th>
+                        <th className="px-6 py-3 text-left font-bold">
+                          Fee Type
+                        </th>
+                        <th className="px-6 py-3 text-left font-bold">
+                          Amount
+                        </th>
+                        <th className="px-6 py-3 text-left font-bold">
+                          Details
+                        </th>
                       </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200">
                       <tr className="hover:bg-purple-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Annual Fee</td>
-                        <td className="px-6 py-4 text-gray-700">Varies by applicant</td>
-                        <td className="px-6 py-4 text-sm text-gray-600">Disclosed upon approval, typically competitive for fintech credit cards</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">
+                          Annual Fee
+                        </td>
+                        <td className="px-6 py-4 text-gray-700">
+                          Varies by applicant
+                        </td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          Disclosed upon approval, typically competitive for
+                          fintech credit cards
+                        </td>
                       </tr>
                       <tr className="hover:bg-purple-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">APR (Purchase)</td>
-                        <td className="px-6 py-4 text-gray-700">Variable rate</td>
-                        <td className="px-6 py-4 text-sm text-gray-600">Based on Prime Rate + margin, determined by creditworthiness</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">
+                          APR (Purchase)
+                        </td>
+                        <td className="px-6 py-4 text-gray-700">
+                          Variable rate
+                        </td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          Based on Prime Rate + margin, determined by
+                          creditworthiness
+                        </td>
                       </tr>
                       <tr className="hover:bg-purple-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Balance Transfer APR</td>
-                        <td className="px-6 py-4 text-gray-700">Same as purchase APR</td>
-                        <td className="px-6 py-4 text-sm text-gray-600">No special promotional rates</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">
+                          Balance Transfer APR
+                        </td>
+                        <td className="px-6 py-4 text-gray-700">
+                          Same as purchase APR
+                        </td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          No special promotional rates
+                        </td>
                       </tr>
                       <tr className="hover:bg-purple-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Cash Advance APR</td>
-                        <td className="px-6 py-4 text-gray-700">Variable rate + fee</td>
-                        <td className="px-6 py-4 text-sm text-gray-600">Higher than purchase APR, avoid cash advances when possible</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">
+                          Cash Advance APR
+                        </td>
+                        <td className="px-6 py-4 text-gray-700">
+                          Variable rate + fee
+                        </td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          Higher than purchase APR, avoid cash advances when
+                          possible
+                        </td>
                       </tr>
                       <tr className="hover:bg-purple-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Late Payment Fee</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">
+                          Late Payment Fee
+                        </td>
                         <td className="px-6 py-4 text-gray-700">Up to $40</td>
-                        <td className="px-6 py-4 text-sm text-gray-600">Charged if minimum payment not received by due date</td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          Charged if minimum payment not received by due date
+                        </td>
                       </tr>
                       <tr className="hover:bg-purple-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Foreign Transaction</td>
-                        <td className="px-6 py-4 text-gray-700">Typically 0-3%</td>
-                        <td className="px-6 py-4 text-sm text-gray-600">Check card terms for international usage fees</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">
+                          Foreign Transaction
+                        </td>
+                        <td className="px-6 py-4 text-gray-700">
+                          Typically 0-3%
+                        </td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          Check card terms for international usage fees
+                        </td>
                       </tr>
                       <tr className="hover:bg-purple-50">
-                        <td className="px-6 py-4 font-semibold text-gray-900">Returned Payment</td>
+                        <td className="px-6 py-4 font-semibold text-gray-900">
+                          Returned Payment
+                        </td>
                         <td className="px-6 py-4 text-gray-700">Up to $40</td>
-                        <td className="px-6 py-4 text-sm text-gray-600">If payment method fails (insufficient funds, closed account)</td>
+                        <td className="px-6 py-4 text-sm text-gray-600">
+                          If payment method fails (insufficient funds, closed
+                          account)
+                        </td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
                 <div className="mt-4 p-4 bg-blue-50 border-l-4 border-blue-500 rounded-r-lg">
                   <p className="text-sm text-gray-700">
-                    <strong>Important:</strong> Final APR, fees, and credit limit are determined during the application process based on your credit profile. Yotta will provide a detailed Terms & Conditions document before you accept the card.
+                    <strong>Important:</strong> Final APR, fees, and credit
+                    limit are determined during the application process based on
+                    your credit profile. Yotta will provide a detailed Terms &
+                    Conditions document before you accept the card.
                   </p>
                 </div>
               </section>
@@ -391,7 +532,10 @@ export default function YottaCreditCardRequirementsPage() {
                       Do I need perfect credit to qualify?
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
-                      No. Yotta Credit Card is designed for consumers with <strong>fair to good credit (580-720 FICO)</strong>. You don't need excellent credit, though higher scores may qualify for better terms and lower APRs.
+                      No. Yotta Credit Card is designed for consumers with{" "}
+                      <strong>fair to good credit (580-720 FICO)</strong>. You
+                      don't need excellent credit, though higher scores may
+                      qualify for better terms and lower APRs.
                     </p>
                   </div>
 
@@ -400,7 +544,11 @@ export default function YottaCreditCardRequirementsPage() {
                       Will applying hurt my credit score?
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
-                      Yotta performs a <strong>hard credit inquiry</strong> when you submit an application, which may temporarily lower your credit score by 5-10 points. This impact is typical for any credit card application and diminishes over time as you use credit responsibly.
+                      Yotta performs a <strong>hard credit inquiry</strong> when
+                      you submit an application, which may temporarily lower
+                      your credit score by 5-10 points. This impact is typical
+                      for any credit card application and diminishes over time
+                      as you use credit responsibly.
                     </p>
                   </div>
 
@@ -409,7 +557,11 @@ export default function YottaCreditCardRequirementsPage() {
                       What if I don't have direct deposit?
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
-                      You can still use the Yotta Credit Card and participate in Lucky Swipe sweepstakes, but your winning odds will be lower than the 1 in 75 rate offered to direct deposit users. Setting up direct deposit (even for a portion of your paycheck) unlocks the best odds.
+                      You can still use the Yotta Credit Card and participate in
+                      Lucky Swipe sweepstakes, but your winning odds will be
+                      lower than the 1 in 75 rate offered to direct deposit
+                      users. Setting up direct deposit (even for a portion of
+                      your paycheck) unlocks the best odds.
                     </p>
                   </div>
 
@@ -418,7 +570,10 @@ export default function YottaCreditCardRequirementsPage() {
                       Can I use Yotta Credit Card for all purchases?
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
-                      Yes. The Yotta Credit Card works anywhere that accepts Mastercard. Every qualifying purchase automatically enters you into the Lucky Swipe sweepstakes—groceries, gas, dining, online shopping, bills, subscriptions, and more.
+                      Yes. The Yotta Credit Card works anywhere that accepts
+                      Mastercard. Every qualifying purchase automatically enters
+                      you into the Lucky Swipe sweepstakes—groceries, gas,
+                      dining, online shopping, bills, subscriptions, and more.
                     </p>
                   </div>
 
@@ -427,7 +582,11 @@ export default function YottaCreditCardRequirementsPage() {
                       How long does approval take?
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
-                      Most applicants receive an <strong>instant approval decision</strong> within the app. Some applications may require additional verification (1-2 business days). Once approved, expect your physical card within 7-10 business days by mail.
+                      Most applicants receive an{" "}
+                      <strong>instant approval decision</strong> within the app.
+                      Some applications may require additional verification (1-2
+                      business days). Once approved, expect your physical card
+                      within 7-10 business days by mail.
                     </p>
                   </div>
 
@@ -436,7 +595,12 @@ export default function YottaCreditCardRequirementsPage() {
                       Is there a minimum income requirement?
                     </h3>
                     <p className="text-gray-700 leading-relaxed">
-                      Yotta doesn't publish a specific minimum income requirement. However, you must demonstrate <strong>ability to repay credit</strong> through income verification. This can include employment income, self-employment, retirement benefits, or other regular income sources.
+                      Yotta doesn't publish a specific minimum income
+                      requirement. However, you must demonstrate{" "}
+                      <strong>ability to repay credit</strong> through income
+                      verification. This can include employment income,
+                      self-employment, retirement benefits, or other regular
+                      income sources.
                     </p>
                   </div>
                 </div>
@@ -449,7 +613,9 @@ export default function YottaCreditCardRequirementsPage() {
                     Ready to Apply?
                   </h2>
                   <p className="text-lg text-purple-100 mb-6 max-w-2xl mx-auto">
-                    If you meet the eligibility requirements and live in an available state, you can apply for the Yotta Credit Card in minutes through the mobile app.
+                    If you meet the eligibility requirements and live in an
+                    available state, you can apply for the Yotta Credit Card in
+                    minutes through the mobile app.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <a
@@ -470,7 +636,8 @@ export default function YottaCreditCardRequirementsPage() {
                     </Button>
                   </div>
                   <p className="mt-6 text-sm text-purple-200">
-                    Banking services through Evolve Bank & Trust, Member FDIC. Lending via Synapse Credit LLC.
+                    Banking services through Evolve Bank & Trust, Member FDIC.
+                    Lending via Synapse Credit LLC.
                   </p>
                 </div>
               </section>
