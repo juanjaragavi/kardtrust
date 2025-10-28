@@ -43,6 +43,18 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts
     {
       title:
+        "Self Credit Builder Account + Visa Card: Build Credit with One Ecosystem | KardTrust",
+      slug: "self-credit-builder-account-visa-card",
+      description:
+        "Explore how Self's Credit Builder Account and secured Visa card report to all three bureaus, follow a 24-month $35 plan, and use a $100 refundable security interest to unlock revolving credit.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "27 October 2025",
+    },
+    {
+      title:
         "SIREN Card: Premium Metal Card with Automatic Credit Building | KardTrust",
       slug: "siren-card",
       description:

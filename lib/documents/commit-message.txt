@@ -1,11 +1,5 @@
-feat: Add SIREN Card product pages and update credit card archive
+feat: add Self Credit Builder product pages and fix lint
 
-- Added new SIREN Card product page with comprehensive details
-- Added SIREN Card requirements page
-- Updated credit cards archive page with latest fintech offerings
-- Updated dates across multiple credit card product pages to October 27, 2025
-- Applied code formatting improvements across financial solutions pages
-- Added SIREN Card implementation documentation
-- Updated blog, homepage, and financial solutions archive pages
-- Updated contact page and personal finance content
-- Enhanced CREDIT_CARD_PRODUCT_GENERATION instructions
+- add benefits and requirements pages for the Self Credit Builder Account + Visa Card
+- surface the new product across homepage, blog, financial solutions, and credit card listings
+- remove unused imports flagged by eslint in existing requirements pages

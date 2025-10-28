@@ -49,6 +49,23 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "self-credit-builder-account-visa-card",
+    frontmatter: {
+      title:
+        "Self Credit Builder Account + Visa Card: Build Credit with One Ecosystem",
+      description:
+        "Combine Self's Credit Builder Account and secured Visa card to report to all three bureaus, follow a $35-per-month plan example, and unlock a $100 refundable security deposit.",
+      date: "2025-10-27T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "siren-card",
     frontmatter: {
       title: "SIREN Card: Premium Metal Card with Automatic Credit Building",

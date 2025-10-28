@@ -26,6 +26,16 @@ export default function CreditCardsArchivePage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "Self Credit Builder Account + Visa Card",
+        slug: "self-credit-builder-account-visa-card",
+        description:
+          "Pair Self's Credit Builder Account with the secured Visa card to report payments to all three bureaus. Follow a $35 per month plan at 15.69% APR, build a $100 refundable security interest, and access a $0 intro annual fee with a 27.99% variable APR after activation.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
+      },
+      {
         title: "SIREN Card",
         slug: "siren-card",
         description:
