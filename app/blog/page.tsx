@@ -43,6 +43,18 @@ export default function BlogArchivePage() {
     // Financial Solutions Posts
     {
       title:
+        "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards | KardTrust",
+      slug: "blue-cash-preferred-card-from-american-express",
+      description:
+        "Discover the Blue Cash Preferred® Card from American Express with 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Turn everyday spending into substantial rewards.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "28 October 2025",
+    },
+    {
+      title:
         "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts | KardTrust",
       slug: "citi-custom-cash-card",
       description:

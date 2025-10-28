@@ -257,6 +257,16 @@ export default function FinancialSolutionsPage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "Blue Cash Preferred® Card from American Express",
+        slug: "blue-cash-preferred-card-from-american-express",
+        description:
+          "Earn 6% cash back at U.S. supermarkets (up to $6,000/year, then 1%), 6% on select U.S. streaming subscriptions, 3% at U.S. gas stations and on transit, and 1% on all other purchases. Welcome bonus: $250 statement credit after $3,000 spend in 6 months. $0 intro annual fee for first year, then $95. 19.24%-29.99% variable APR.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+        date: "28 October 2025",
+        type: "traditional",
+      },
+      {
         title: "Citi Custom Cash® Card",
         slug: "citi-custom-cash-card",
         description:

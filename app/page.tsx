@@ -49,6 +49,23 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "blue-cash-preferred-card-from-american-express",
+    frontmatter: {
+      title:
+        "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards",
+      description:
+        "Discover the Blue Cash Preferred® Card from American Express with 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Turn everyday spending into substantial rewards.",
+      date: "2025-10-28T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "citi-custom-cash-card",
     frontmatter: {
       title: "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts",

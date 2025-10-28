@@ -1,10 +1,13 @@
-feat: add citi custom cash card product pages
+feat: add blue cash preferred card from american express product pages
 
-- Created Citi Custom Cash® Card benefits page with automatic 5% cash back on top category, $200 bonus, 0% intro APR
-- Created Citi Custom Cash® Card requirements page with eligibility criteria, one-per-person rule, 48-month restrictions
-- Integrated Citi Custom Cash into homepage, blog archive, financial solutions, and credit cards pages
-- Added comprehensive compliance warnings with representative APR examples and balance transfer details
-- Included ThankYou® Points ecosystem explanation and flexible redemption options
-- Applied brand color #233A79 for CTAs and bullet points
-- 1,300+ words benefits page, 1,000+ words requirements page
-- All pages formatted, linted, and production-ready
+- Created Blue Cash Preferred® Card benefits page with 6% supermarket, 6% streaming, 3% gas/transit rewards
+- Created Blue Cash Preferred® Card requirements page with eligibility criteria, credit score expectations, APR details
+- Added $250 welcome bonus after $3,000 spend, $0 intro annual fee (then $95)
+- Integrated Blue Cash Preferred into homepage, blog archive, financial solutions, and credit cards pages
+- Comprehensive break-even analysis showing value proposition for $1,500+ annual supermarket spending
+- Included Amex purchase protection, extended warranty, and security features
+- Added compliance warnings with variable APR (19.24%-29.99%), late payment fees, foreign transaction details
+- Related resources section linking to cash back card guides
+- 1,500+ words benefits page with detailed category analysis
+- 2,000+ words requirements page with 8-step application process and FAQs
+- All pages formatted, linted, and production-ready with proper SEO metadata
