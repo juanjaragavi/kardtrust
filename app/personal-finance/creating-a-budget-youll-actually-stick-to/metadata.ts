@@ -10,7 +10,7 @@ export const metadata = {
       "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
     description:
       "Build a realistic UK budget with practical methods like 50/30/20, zero‑based budgeting, and digital pots — plus a 7‑day quick start plan.",
-    url: "https://uk.kardtrust.com/personal-finance/creating-a-budget-youll-actually-stick-to",
+    url: "https://kardtrust.com/personal-finance/creating-a-budget-youll-actually-stick-to",
     type: "article",
     publishedTime: "2025-09-04T12:00:00Z",
     authors: ["KardTrust Team"],

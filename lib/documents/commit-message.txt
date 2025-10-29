@@ -1,35 +1,14 @@
-feat: Complete UK to US market localization
+Production migration: Update URLs from staging to production domain, add Apache optimizations
 
-Comprehensive localization of entire codebase from UK to US market:
+- Updated AdZep script URL from UK subdomain to production domain (kardtrust.js)
+- Replaced all UK subdomain references (uk.kardtrust.com) with production domain (kardtrust.com) in 13 blog post metadata files
+- Updated legal content (privacy policy, terms, cookie policy) to reference production domain and US regulatory context
+- Modified CORS configuration to support both apex and www production domains
+- Enhanced next.config.mjs with production optimizations (SWC minification, disabled source maps, enhanced security headers)
+- Created comprehensive .htaccess file for Apache with HTTPS enforcement, GZIP compression, browser caching, and security headers
+- Updated documentation references from Vercel staging to production URLs
+- Created PRODUCTION_DEPLOYMENT_CHECKLIST.md with complete deployment guide
+- Verified all internal links point to production domain
+- Confirmed zero remaining references to staging or UK subdomain URLs in source code
 
-- Replaced 80+ currency symbols (£ → $) across all content
-- Updated 40+ UK credit card/loan products with US equivalents
-- Converted all British English to American English spelling (20+ instances)
-- Replaced UK regulatory references (FCA/HMRC) with US context
-- Updated tax terminology (PAYE→payroll tax, National Insurance→self-employment taxes)
-- Replaced "council tax" with "property tax" throughout (12+ instances)
-- Rewrote tax guidance sections for US compliance (side-hustle-or-second-job, tips-for-choosing-an-online-loan)
-
-Files Modified: 26+ content files including:
-- 16 Personal Finance blog articles
-- about-us page
-- Product recommendation pages
-
-Documentation Created:
-- UK_TO_US_LOCALIZATION_COMPLETE.md - Complete technical report
-- US_CONTENT_STYLE_GUIDE.md - Content creator reference guide
-- UK_TO_US_LOCALIZATION_EXECUTIVE_SUMMARY.md - Executive summary
-
-Quality Assurance:
-- Zero compilation errors
-- All formatting validated
-- Context-aware replacements (no blind find/replace)
-- US market compliance verified
-
-Impact:
-- Improved SEO relevance for US market
-- Enhanced user experience with familiar terminology
-- Regulatory compliance appropriate for US audience
-- Professional American English throughout
-
-Status: ✅ Production-ready
+Status: ✅ Production-ready for GCP deployment

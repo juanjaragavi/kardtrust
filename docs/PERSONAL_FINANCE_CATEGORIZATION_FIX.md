@@ -226,10 +226,10 @@ To prevent this issue from recurring:
 
 ## Next Steps
 
-1. ✅ Test on staging server: <https://kardtrust.vercel.app/personal-finance>
+1. ✅ Test on production server: <https://kardtrust.com/personal-finance>
 2. ✅ Verify category filters work correctly
 3. ✅ Check that all links resolve properly
-4. ⏳ Deploy to production
+4. ✅ Deploy to production
 5. ⏳ Monitor analytics for 404 errors
 
 ## Deployment

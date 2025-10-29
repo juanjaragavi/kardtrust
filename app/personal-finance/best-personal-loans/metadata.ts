@@ -8,7 +8,7 @@ export const metadata = {
     title: "Best Personal Loans in the UK: Your Complete Guide | KardTrust",
     description:
       "Find the perfect personal loan for your needs with our comprehensive guide to the UK's top lenders, rates, and application requirements.",
-    url: "https://uk.kardtrust.com/personal-finance/best-personal-loans",
+    url: "https://kardtrust.com/personal-finance/best-personal-loans",
     type: "article",
     publishedTime: "2025-03-30T12:00:00Z", // Note: Date might need updating
     authors: ["KardTrust Team"],

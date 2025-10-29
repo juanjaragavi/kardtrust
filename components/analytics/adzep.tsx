@@ -24,7 +24,7 @@ export default function AdZep() {
       {/* AdZep Script */}
       <Script
         id="adzep-script"
-        src="https://autozep.adzep.io/paid/uk.kardtrust.js"
+        src="https://autozep.adzep.io/paid/kardtrust.js"
         strategy="afterInteractive" // Load after page is interactive
         data-cfasync="false" // Preserve the original data-cfasync attribute
         onLoad={() => {

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",
     description:
       "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
-    url: "https://uk.kardtrust.com/personal-finance/understanding-credit-card-interest-rates",
+    url: "https://kardtrust.com/personal-finance/understanding-credit-card-interest-rates",
     type: "article",
     // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
     authors: ["KardTrust Team"], // Add if available in MDX frontmatter later

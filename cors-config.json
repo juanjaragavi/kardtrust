@@ -1,6 +1,6 @@
 [
   {
-    "origin": ["https://uk.kardtrust.com"],
+    "origin": ["https://kardtrust.com", "https://www.kardtrust.com"],
     "method": ["GET"],
     "responseHeader": ["Content-Type"],
     "maxAgeSeconds": 3600

@@ -12,7 +12,7 @@ export const metadata: Metadata = {
       "Credit Cards - Types, Benefits, and Keys to Financial Health | KardTrust",
     description:
       "Discover everything you need to know about credit cards, from types and benefits to tips for responsible usage and maintaining healthy finances.",
-    url: "https://uk.kardtrust.com/personal-finance/credit-card-types-benefits",
+    url: "https://kardtrust.com/personal-finance/credit-card-types-benefits",
     type: "article",
     // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
     authors: ["KardTrust Team"], // Add if available in MDX frontmatter later

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
     description:
       "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
-    url: "https://uk.kardtrust.com/personal-finance/cashback-credit-cards",
+    url: "https://kardtrust.com/personal-finance/cashback-credit-cards",
     type: "article",
     // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
     authors: ["KardTrust Team"], // Add if available in MDX frontmatter later

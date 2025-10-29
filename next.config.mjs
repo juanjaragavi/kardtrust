@@ -12,11 +12,15 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Output configuration for standalone mode
+  // Output configuration for standalone mode (optimized for Apache/GCP deployment)
   output: "standalone",
-  // Asset prefix and base path for Vercel deployment
+  // Asset prefix and base path - configured for production
   assetPrefix: undefined,
   basePath: "",
+  // Enable SWC minification for better performance
+  swcMinify: true,
+  // Production optimizations
+  productionBrowserSourceMaps: false, // Disable source maps in production for security
   // Add rewrites for static files - using simpler approach
   async rewrites() {
     return [
@@ -158,7 +162,7 @@ const nextConfig = {
         ],
       },
       {
-        // For all HTML pages
+        // For all HTML pages - Enhanced security headers for production
         source: "/:path*",
         headers: [
           {
@@ -172,6 +176,14 @@ const nextConfig = {
           {
             key: "Referrer-Policy",
             value: "strict-origin-when-cross-origin",
+          },
+          {
+            key: "X-XSS-Protection",
+            value: "1; mode=block",
+          },
+          {
+            key: "Permissions-Policy",
+            value: "geolocation=(), microphone=(), camera=()",
           },
         ],
       },

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
     description:
       "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
-    url: "https://uk.kardtrust.com/personal-finance/best-rewards-credit-cards",
+    url: "https://kardtrust.com/personal-finance/best-rewards-credit-cards",
     type: "article",
     // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
     authors: ["KardTrust Team"], // Add if available in MDX frontmatter later

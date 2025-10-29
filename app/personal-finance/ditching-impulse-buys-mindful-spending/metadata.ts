@@ -10,7 +10,7 @@ export const metadata = {
       "Ditching the Impulse Buys: A Practical Guide to Mindful Spending | KardTrust",
     description:
       "Master mindful spending with practical UK strategies. Stop impulse purchases, create spending boundaries, and take control of your personal finances with proven techniques.",
-    url: "https://uk.kardtrust.com/personal-finance/ditching-impulse-buys-mindful-spending",
+    url: "https://kardtrust.com/personal-finance/ditching-impulse-buys-mindful-spending",
     type: "article",
     publishedTime: "2025-09-26T12:00:00Z",
     authors: ["KardTrust Team"],

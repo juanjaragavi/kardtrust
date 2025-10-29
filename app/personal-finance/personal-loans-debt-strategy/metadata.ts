@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Personal Loans - A Strategy for Managing Debt | KardTrust",
     description:
       "Discover how personal loans can help you consolidate debt and manage your finances efficiently. Learn how to choose the right loan for your needs.",
-    url: "https://uk.kardtrust.com/personal-finance/personal-loans-debt-strategy",
+    url: "https://kardtrust.com/personal-finance/personal-loans-debt-strategy",
     type: "article",
     // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
     authors: ["KardTrust Team"], // Add if available in MDX frontmatter later

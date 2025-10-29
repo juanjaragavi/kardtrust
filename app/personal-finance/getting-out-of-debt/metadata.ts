@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Practical Guide to Getting Out of Debt | KardTrust",
     description:
       "Feeling overwhelmed by debt? Get practical strategies for getting out of debt, building an emergency fund, and taking control of your finances.",
-    url: "https://uk.kardtrust.com/personal-finance/getting-out-of-debt",
+    url: "https://kardtrust.com/personal-finance/getting-out-of-debt",
     type: "article",
     // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
     authors: ["KardTrust Team"], // Add if available in MDX frontmatter later

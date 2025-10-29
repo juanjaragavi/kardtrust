@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     title: "Best Credit Cards with 0% Intro APR Offers in the UK | KardTrust",
     description:
       "Compare the best credit cards offering 0% introductory APR on purchases and balance transfers in the UK. Save money on interest and manage debt effectively.",
-    url: "https://uk.kardtrust.com/personal-finance/top-credit-cards-0-intro-apr",
+    url: "https://kardtrust.com/personal-finance/top-credit-cards-0-intro-apr",
     type: "article",
     // publishedTime: "YYYY-MM-DDTHH:mm:ssZ", // Add if available in MDX frontmatter later
     authors: ["KardTrust Team"], // Add if available in MDX frontmatter later
