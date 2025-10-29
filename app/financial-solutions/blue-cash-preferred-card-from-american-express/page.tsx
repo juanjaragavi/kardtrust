@@ -4,21 +4,48 @@ import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
 import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
+import { Metadata } from "next";
+import { generatePageMetadata } from "@/lib/utils/seo";
+import { ProductSchema, BreadcrumbSchema } from "@/components/seo";
 
-export function generateMetadata() {
-  return {
-    title:
-      "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards - KardTrust",
-    description:
-      "Discover the Blue Cash Preferred® Card from American Express offering 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Learn about benefits, rewards, and how to apply.",
-    keywords:
-      "Blue Cash Preferred, American Express cash back, Amex Blue Cash, supermarket cash back, streaming rewards, gas station rewards, grocery cash back, best cash back cards, Amex rewards card, US credit cards",
-  };
-}
+export const metadata: Metadata = generatePageMetadata({
+  title: "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards",
+  description:
+    "Discover the Blue Cash Preferred® Card from American Express offering 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Learn about benefits, rewards, and how to apply.",
+  path: "financial-solutions/blue-cash-preferred-card-from-american-express",
+  keywords:
+    "Blue Cash Preferred, American Express cash back, Amex Blue Cash, supermarket cash back, streaming rewards, gas station rewards, grocery cash back, best cash back cards, Amex rewards card, US credit cards",
+  image: "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+});
 
 export default function BlueCashPreferredPage() {
   return (
     <main className="bg-white min-h-screen flex flex-col">
+      <ProductSchema
+        name="Blue Cash Preferred® Card from American Express"
+        description="Earn 6% cash back at U.S. supermarkets (up to $6,000/year), 6% on select U.S. streaming, 3% at gas stations and on transit. Plus, get a $250 statement credit after spending $3,000 in first 6 months."
+        image="https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp"
+        brand="American Express"
+        url="https://kardtrust.com/financial-solutions/blue-cash-preferred-card-from-american-express"
+        category="FinancialProduct"
+        features={[
+          "6% cash back at U.S. supermarkets (up to $6,000/year)",
+          "6% cash back on select U.S. streaming subscriptions",
+          "3% cash back at U.S. gas stations and on transit",
+          "$250 welcome bonus after $3,000 spend in 6 months",
+          "$0 intro annual fee for first year, then $95",
+        ]}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://kardtrust.com" },
+          { name: "Financial Solutions", url: "https://kardtrust.com/financial-solutions" },
+          {
+            name: "Blue Cash Preferred Card",
+            url: "https://kardtrust.com/financial-solutions/blue-cash-preferred-card-from-american-express",
+          },
+        ]}
+      />
       <Header />
 
       <article className="bg-white py-8 md:py-12" data-category="credit-cards">

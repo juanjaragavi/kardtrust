@@ -75,6 +75,11 @@ export const metadata: Metadata = {
     "credit cards US, personal loans US, compare credit cards, compare loans, financial advice US, KardTrust", // Updated keywords
   // Removed generator tag
 
+  // Canonical URL
+  alternates: {
+    canonical: baseUrl,
+  },
+
   // Added Open Graph Metadata
   openGraph: {
     title: "KardTrust - Your Guide to US Credit Cards & Loans",

@@ -3,10 +3,52 @@ import { CompactFooter } from "@/components/layout/compact-footer";
 import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 import Image from "next/image";
 import Link from "next/link";
+import { Metadata } from "next";
+import { generateArticleMetadata } from "@/lib/utils/seo";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/seo";
+
+export const metadata: Metadata = generateArticleMetadata({
+  title: "Side Hustle or Second Job? How to Choose the Right Income Booster",
+  description:
+    "With rising living costs across the US, many people are seeking ways to boost their income. Compare side hustles vs second jobs and make the right choice for your financial goals.",
+  slug: "side-hustle-or-second-job",
+  category: "personal-finance",
+  keywords:
+    "side hustle, second job, extra income, personal finance, financial goals, work from home, freelance work, part-time job",
+  image: "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+  publishedDate: "2025-01-15T00:00:00Z",
+  modifiedDate: "2025-10-29T00:00:00Z",
+});
 
 export default function SideHustleOrSecondJobPage() {
   return (
     <main className="bg-white min-h-screen flex flex-col">
+      <ArticleSchema
+        title="Side Hustle or Second Job? How to Choose the Right Income Booster"
+        description="With rising living costs across the US, many people are seeking ways to boost their income. Compare side hustles vs second jobs and make the right choice for your financial goals."
+        image="https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp"
+        datePublished="2025-01-15T00:00:00Z"
+        dateModified="2025-10-29T00:00:00Z"
+        url="https://kardtrust.com/personal-finance/side-hustle-or-second-job"
+        category="Personal Finance"
+        keywords={[
+          "side hustle",
+          "second job",
+          "extra income",
+          "personal finance",
+          "financial goals",
+        ]}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "https://kardtrust.com" },
+          { name: "Personal Finance", url: "https://kardtrust.com/personal-finance" },
+          {
+            name: "Side Hustle or Second Job",
+            url: "https://kardtrust.com/personal-finance/side-hustle-or-second-job",
+          },
+        ]}
+      />
       <Header />
 
       <article
