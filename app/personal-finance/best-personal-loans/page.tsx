@@ -60,7 +60,7 @@ export default function BestPersonalLoansPage() {
                   Personal loans provide a versatile financial solution for
                   various needs, from consolidating debt to funding home
                   improvements or covering unexpected expenses. In the US, these
-                  unsecured loans typically range from £1,000 to £50,000 with
+                  unsecured loans typically range from $1,000 to $50,000 with
                   repayment terms spanning 1 to 7 years, depending on the lender
                   and your financial profile.
                 </p>
@@ -84,7 +84,7 @@ export default function BestPersonalLoansPage() {
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Nationwide offers competitive rates starting from 3.5% APR
-                  representative on loans between £7,500 and £25,000. Their
+                  representative on loans between $7,500 and $25,000. Their
                   personal loans feature flexible repayment terms from 1 to 7
                   years, no arrangement fees, and the ability to make
                   overpayments without penalties. Existing Nationwide customers
@@ -105,7 +105,7 @@ export default function BestPersonalLoansPage() {
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Santander's personal loans start from 3.7% APR representative
-                  for amounts between £7,500 and £20,000. They offer loan terms
+                  for amounts between $7,500 and $20,000. They offer loan terms
                   from 1 to 5 years, providing flexibility for different
                   financial situations. Their online application process
                   includes a pre-approval option that gives you a decision
@@ -126,8 +126,8 @@ export default function BestPersonalLoansPage() {
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Barclays provides personal loans with rates from 3.9% APR
-                  representative for existing customers borrowing between £7,500
-                  and £15,000. Their loan amounts range from £1,000 to £50,000,
+                  representative for existing customers borrowing between $7,500
+                  and $15,000. Their loan amounts range from $1,000 to $50,000,
                   with terms from 1 to 5 years. Barclays' digital application
                   process allows customers to check eligibility and apply
                   entirely online, with funds often available within 24 hours of
@@ -148,7 +148,7 @@ export default function BestPersonalLoansPage() {
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Better known for insurance, Admiral has established a
                   competitive personal loan offering with rates from 3.8% APR
-                  representative for loans between £7,500 and £25,000. Their
+                  representative for loans between $7,500 and $25,000. Their
                   loans feature repayment terms from 1 to 7 years and no early
                   repayment charges, giving borrowers flexibility to pay off
                   their loans ahead of schedule if their financial situation
@@ -169,8 +169,8 @@ export default function BestPersonalLoansPage() {
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   M&S Bank personal loans start from 3.6% APR representative for
-                  existing customers borrowing between £7,500 and £15,000. Their
-                  loans range from £1,000 to £25,000 with terms from 1 to 7
+                  existing customers borrowing between $7,500 and $15,000. Their
+                  loans range from $1,000 to $25,000 with terms from 1 to 7
                   years. M&S Bank offers loan payment holidays (subject to
                   criteria) and the flexibility to choose your payment date.
                 </p>
@@ -247,39 +247,41 @@ export default function BestPersonalLoansPage() {
                   </li>
                   <li className="mb-2">
                     <a
-                      href="/financial-solutions/hsbc-personal-loan"
+                      href="/financial-solutions/sofi-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      HSBC Personal Loan:
+                      SoFi Personal Loan:
                     </a>{" "}
-                    Discover options with quick application processes.
+                    Discover options with quick application processes and
+                    competitive rates.
                   </li>
                   <li className="mb-2">
                     <a
-                      href="/financial-solutions/lloyds-bank-personal-loan"
+                      href="/financial-solutions/upgrade-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Lloyds Bank Personal Loan:
+                      Upgrade Personal Loan:
                     </a>{" "}
-                    Explore trusted service and flexible repayment.
+                    Explore trusted service and flexible repayment options.
                   </li>
                   <li className="mb-2">
                     <a
-                      href="/financial-solutions/nationwide-personal-loan"
+                      href="/financial-solutions/avant-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Nationwide Personal Loan:
+                      Avant Personal Loan:
                     </a>{" "}
-                    Check out benefits for existing members.
+                    Check out options for borrowers with various credit
+                    profiles.
                   </li>
                   <li className="mb-2">
                     <a
-                      href="/financial-solutions/santander-uk-personal-loan"
+                      href="/financial-solutions/wells-fargo-active-cash-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander US Personal Loan:
+                      Wells Fargo Personal Loan:
                     </a>{" "}
-                    See potential benefits for 1|2|3 World customers.
+                    See potential benefits for existing banking customers.
                   </li>
                 </ul>
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
@@ -377,9 +379,9 @@ export default function BestPersonalLoansPage() {
                   different financial needs and circumstances. By researching
                   thoroughly, comparing offers from multiple lenders, and
                   considering the factors that matter most to your situation,
-                  you can secure a personal loan with favourable terms that
-                  helps you achieve your financial goals. For a comprehensive
-                  list of available products, you can also explore our{" "}
+                  you can secure a personal loan with favorable terms that helps
+                  you achieve your financial goals. For a comprehensive list of
+                  available products, you can also explore our{" "}
                   <a
                     href="/financial-solutions"
                     className="text-blue-600 hover:underline"

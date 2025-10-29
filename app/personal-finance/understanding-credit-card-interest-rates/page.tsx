@@ -136,32 +136,31 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/lloyds-bank-credit-card"
+                      href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
                       className="text-blue-600 hover:underline"
                     >
-                      Lloyds Bank Credit Card:
+                      Bank of America® Unlimited Cash Rewards:
                     </Link>{" "}
                     Often features competitive standard rates and potential
                     offers.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/santander-uk-credit-card"
+                      href="/financial-solutions/wells-fargo-active-cash-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander US Credit Cards:
+                      Wells Fargo Active Cash® Card:
                     </Link>{" "}
-                    May offer different APRs depending on the card type (e.g.,
-                    cashback vs. low rate).
+                    May offer different APRs depending on creditworthiness.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/barclaycard-avios-plus"
+                      href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
                       className="text-blue-600 hover:underline"
                     >
-                      Barclaycard Avios Plus:
+                      Chase Freedom Unlimited®:
                     </Link>{" "}
-                    A rewards card where the APR might be higher due to the
+                    A rewards card where the APR is competitive due to the
                     benefits offered.
                   </li>
                 </ul>

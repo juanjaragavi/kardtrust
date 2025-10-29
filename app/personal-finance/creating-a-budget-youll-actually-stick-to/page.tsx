@@ -104,12 +104,12 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                 </p>
 
                 <h3 className="text-left sm:text-left text-lg font-semibold text-gray-700 mb-2 mt-4">
-                  50/30/20 (flexible favourite)
+                  50/30/20 (flexible favorite)
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  50% needs (rent, utilities, council tax, food, transport), 30%
-                  wants, 20% saving/debt. It's a great starter because you can
-                  bend the ratios to your reality in the US — especially if
+                  50% needs (rent, utilities, property tax, food, transport),
+                  30% wants, 20% saving/debt. It's a great starter because you
+                  can bend the ratios to your reality in the US — especially if
                   housing eats more than 50%.
                 </p>
 
@@ -117,8 +117,8 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                   Zero‑based budgeting (maximum control)
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  Give every pound a job before the month begins. Perfect if you
-                  like detail and want to see exactly where your money goes.
+                  Give every dollar a job before the month begins. Perfect if
+                  you like detail and want to see exactly where your money goes.
                 </p>
 
                 <h3 className="text-left sm:text-left text-lg font-semibold text-gray-700 mb-2 mt-4">
@@ -141,7 +141,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                 </p>
                 <ol className="list-decimal pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                   <li className="mb-2">
-                    List essentials: rent/mortgage, utilities, council tax,
+                    List essentials: rent/mortgage, utilities, property tax,
                     transport, food, and any minimum debt payments.
                   </li>
                   <li className="mb-2">
@@ -150,11 +150,11 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                   </li>
                   <li className="mb-2">
                     Set up a small standing order on payday to a separate
-                    savings pot (even £10–£25). Pay yourself first.
+                    savings pot (even $10–$25). Pay yourself first.
                   </li>
                   <li className="mb-2">
                     Choose one budgeting method (above) and set simple limits
-                    for wants (e.g., “£60 for eating out”).
+                    for wants (e.g., "$60 for eating out").
                   </li>
                   <li className="mb-2">
                     If you carry balances, consider tools that reduce interest

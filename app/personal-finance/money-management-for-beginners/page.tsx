@@ -57,7 +57,7 @@ export default function MoneyManagementBeginnersPage() {
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Money management (often called personal finance) is how you
-                  organise your income, spending, saving, and borrowing so your
+                  organize your income, spending, saving, and borrowing so your
                   money supports your life — today and in the future. Think of
                   it as a routine MOT for your finances: your essentials are
                   covered, you can handle the odd surprise, and you’re moving
@@ -141,14 +141,14 @@ export default function MoneyManagementBeginnersPage() {
                 <ol className="list-decimal pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                   <li className="mb-2">
                     List essentials and totals: rent/mortgage, utilities,
-                    council tax, transport, food, debt payments.
+                    property tax, transport, food, debt payments.
                   </li>
                   <li className="mb-2">
                     Track spending for two weeks (notes app is fine). You’ll
                     spot easy trims quickly.
                   </li>
                   <li className="mb-2">
-                    Automate a small transfer on payday (even £10–£25) to a
+                    Automate a small transfer on payday (even $10–$25) to a
                     separate savings pot.
                   </li>
                   <li className="mb-2">
@@ -189,7 +189,7 @@ export default function MoneyManagementBeginnersPage() {
                   Zero‑based budgeting
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  Give every pound a job before the month begins. Ideal if you
+                  Give every dollar a job before the month begins. Ideal if you
                   like detail and want full visibility.
                 </p>
                 <h3 className="text-left sm:text-left text-lg font-semibold text-gray-700 mb-2 mt-4">
@@ -237,11 +237,11 @@ export default function MoneyManagementBeginnersPage() {
                   A realistic US example
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  Imagine you bring home £2,200 a month. Essentials (rent,
-                  utilities, council tax, transport, food) total £1,550. You
-                  have two subscriptions you barely use (£24), and takeaway
-                  spending is higher than expected. You set up £30 a month to a
-                  savings pot, trim £24 of subs, and put a weekly £10 cap on
+                  Imagine you bring home $2,200 a month. Essentials (rent,
+                  utilities, property tax, transport, food) total $1,550. You
+                  have two subscriptions you barely use ($24), and takeaway
+                  spending is higher than expected. You set up $30 a month to a
+                  savings pot, trim $24 of subs, and put a weekly $10 cap on
                   takeaways. You redirect those savings to clear your
                   highest‑rate balance faster. After three months of small,
                   repeatable changes, your buffer grows, stress drops, and you
@@ -249,7 +249,7 @@ export default function MoneyManagementBeginnersPage() {
                 </p>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   The takeaway: improvement comes from consistency, not big
-                  gestures. Small pounds, placed well, make a big difference
+                  gestures. Small dollars, placed well, make a big difference
                   over time.
                 </p>
               </section>
@@ -310,7 +310,7 @@ export default function MoneyManagementBeginnersPage() {
                 </ul>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Final thought: you don’t need to do everything at once. Pick
-                  one small action this week — move £10 to savings, review two
+                  one small action this week — move $10 to savings, review two
                   subscriptions, or set a spending pot — and repeat it. That’s
                   how money management becomes second nature.
                 </p>

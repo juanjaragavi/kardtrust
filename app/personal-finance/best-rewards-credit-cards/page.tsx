@@ -57,9 +57,9 @@ export default function BestRewardsCreditCardsPage() {
                 there’s a card designed to offer exceptional value. From
                 flexible cashback options to dining perks and customizable
                 rewards categories, these cards provide benefits that make every
-                pound you spend work harder. Explore our guide to rewards credit
-                cards that combine practicality, savings, and benefits to help
-                you maximize your purchases.
+                dollar you spend work harder. Explore our guide to rewards
+                credit cards that combine practicality, savings, and benefits to
+                help you maximize your purchases.
               </p>
 
               <section className="my-6">
@@ -140,7 +140,7 @@ export default function BestRewardsCreditCardsPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <strong>Earning Rates:</strong> How many points/miles or
-                    what percentage cashback do you earn per pound spent, both
+                    what percentage cashback do you earn per dollar spent, both
                     overall and in bonus categories?
                   </li>
                   <li className="mb-2">
@@ -182,48 +182,48 @@ export default function BestRewardsCreditCardsPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/barclaycard-avios-plus"
+                      href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
                       className="text-blue-600 hover:underline"
                     >
-                      Barclaycard Avios Plus:
+                      Chase Freedom Unlimited®:
                     </Link>{" "}
-                    Ideal for earning travel rewards with Avios.
+                    Ideal for earning cash back rewards with no annual fee.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/halifax-world-elite-mastercard"
+                      href="/financial-solutions/chase-sapphire-reserve"
                       className="text-blue-600 hover:underline"
                     >
-                      Halifax World Elite Mastercard:
+                      Chase Sapphire Reserve®:
                     </Link>{" "}
                     Offers premium travel benefits and comprehensive insurance.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/lloyds-bank-credit-card"
+                      href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
                       className="text-blue-600 hover:underline"
                     >
-                      Lloyds Bank Credit Card:
+                      Bank of America® Unlimited Cash Rewards:
                     </Link>{" "}
-                    Features cashback through their Everyday Offers program.
+                    Features unlimited 1.5% cash back on all purchases.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/santander-uk-credit-card"
+                      href="/financial-solutions/wells-fargo-active-cash-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander US All in One Credit Card:
+                      Wells Fargo Active Cash® Card:
                     </Link>{" "}
-                    Provides cashback and no foreign transaction fees.
+                    Provides 2% cash back on purchases and no annual fee.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/virgin-money-credit-card"
+                      href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
                       className="text-blue-600 hover:underline"
                     >
-                      Virgin Money Credit Card:
+                      Capital One Savor Rewards:
                     </Link>{" "}
-                    Earn Virgin Points and enjoy lifestyle rewards.
+                    Earn bonus cash back on dining and entertainment.
                   </li>
                 </ul>
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">

@@ -147,50 +147,48 @@ export default function NoAnnualFeeCreditCards() {
           <ul className="list-disc list-inside space-y-2 text-sm leading-5 font-light text-gray-800">
             <li>
               <a
-                href="/financial-solutions/lloyds-bank-credit-card"
+                href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
                 className="text-blue-600 hover:underline"
               >
-                Lloyds Bank Credit Card:
+                Bank of America® Unlimited Cash Rewards:
               </a>{" "}
-              Often available with no annual fee and potential cashback offers.
+              Available with no annual fee and 1.5% unlimited cash back.
             </li>
             <li>
               <a
-                href="/financial-solutions/natwest-credit-card"
+                href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
                 className="text-blue-600 hover:underline"
               >
-                NatWest Credit Card:
+                Chase Freedom Unlimited®:
               </a>{" "}
-              Explore their standard card options which may include no-fee
-              versions with rewards.
+              No annual fee with cash back rewards and introductory 0% APR.
             </li>
             <li>
               <a
-                href="/financial-solutions/monzo-credit-card"
+                href="/financial-solutions/capital-one-quicksilver-student-credit-card-benefits"
                 className="text-blue-600 hover:underline"
               >
-                Monzo Credit Card:
+                Capital One Quicksilver:
               </a>{" "}
-              Known for its app integration and often comes without an annual
-              fee.
+              Known for 1.5% cash back with no annual fee.
             </li>
             <li>
               <a
-                href="/financial-solutions/starling-bank-credit-card"
+                href="/financial-solutions/discover-it-student-chrome-credit-card-benefits"
                 className="text-blue-600 hover:underline"
               >
-                Starling Bank Credit Card:
+                Discover it® Cash Back:
               </a>{" "}
-              Focuses on transparent banking, typically without annual fees.
+              Features rotating 5% categories with no annual fee.
             </li>
             <li>
               <a
-                href="/financial-solutions/tsb-credit-card"
+                href="/financial-solutions/wells-fargo-active-cash-card"
                 className="text-blue-600 hover:underline"
               >
-                TSB Credit Card:
+                Wells Fargo Active Cash® Card:
               </a>{" "}
-              Check their range for straightforward, no-fee options.
+              Straightforward 2% cash back on all purchases, no annual fee.
             </li>
           </ul>
           <p className="text-gray-800 mt-4 text-sm leading-5 font-light">

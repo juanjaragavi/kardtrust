@@ -238,40 +238,40 @@ export default function CreditCardTypesBenefitsPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/barclaycard-avios-plus"
+                      href="/financial-solutions/chase-sapphire-reserve"
                       className="text-blue-600 hover:underline"
                     >
-                      Barclaycard Avios Plus:
+                      Chase Sapphire Reserve®:
                     </Link>{" "}
-                    Excellent for earning Avios points for travel.
+                    Excellent for earning premium travel rewards and benefits.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/curve-credit-card"
+                      href="/financial-solutions/blue-cash-preferred-card-from-american-express"
                       className="text-blue-600 hover:underline"
                     >
-                      Curve Card:
+                      Blue Cash Preferred® Card from American Express:
                     </Link>{" "}
-                    A unique card that consolidates all your existing cards into
-                    one.
+                    Outstanding cash back on groceries, streaming, and gas.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/monzo-credit-card"
+                      href="/financial-solutions/citi-custom-cash-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Monzo Credit Card:
+                      Citi Custom Cash® Card:
                     </Link>{" "}
-                    Offers smart budgeting tools and seamless app integration.
+                    Offers automatic 5% cash back in your top spending category.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/santander-uk-credit-card"
+                      href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander US All in One Credit Card:
+                      Capital One Savor Rewards:
                     </Link>{" "}
-                    Provides cashback and no foreign transaction fees.
+                    Provides cash back on dining and entertainment with no
+                    foreign transaction fees.
                   </li>
                 </ul>
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
@@ -349,7 +349,7 @@ export default function CreditCardTypesBenefitsPage() {
                     <strong>Purchase Protection:</strong> Many cards offer
                     protection against fraud, and some cover loss, theft, or
                     damage for recent purchases. Section 75 protection in the US
-                    also offers valuable cover for purchases over £100.
+                    also offers valuable cover for purchases over $100.
                   </li>
                   <li className="mb-2">
                     <strong>Building Credit History:</strong> Responsible use

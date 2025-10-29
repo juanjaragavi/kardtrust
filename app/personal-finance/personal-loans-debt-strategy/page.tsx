@@ -182,38 +182,38 @@ export default function PersonalLoansDebtStrategyPage() {
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/hsbc-personal-loan"
+                      href="/financial-solutions/sofi-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      HSBC Personal Loan:
+                      SoFi Personal Loan:
                     </Link>{" "}
                     Often offer competitive rates suitable for managing existing
                     debts.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/lloyds-bank-personal-loan"
+                      href="/financial-solutions/upgrade-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Lloyds Bank Personal Loan:
+                      Upgrade Personal Loan:
                     </Link>{" "}
                     Explore their options for combining debts into one payment.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/nationwide-personal-loan"
+                      href="/financial-solutions/avant-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Nationwide Personal Loan:
+                      Avant Personal Loan:
                     </Link>{" "}
-                    May offer favourable terms, especially for existing members.
+                    May offer terms suitable for debt consolidation.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/santander-uk-personal-loan"
+                      href="/financial-solutions/wells-fargo-active-cash-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander US Personal Loan:
+                      Wells Fargo Personal Loan:
                     </Link>{" "}
                     See if their loan products fit your consolidation needs.
                   </li>

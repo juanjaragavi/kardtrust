@@ -57,8 +57,8 @@ export default function SettingFinancialGoalsPage() {
                   Why setting goals makes personal finance easier
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
-                  Clear goals give your pounds a job. Instead of &quot;try to
-                  save more&quot;, you decide &quot;save £400 for an emergency
+                  Clear goals give your dollars a job. Instead of &quot;try to
+                  save more&quot;, you decide &quot;save $400 for an emergency
                   fund by November&quot; — specific, time‑bound and motivating.
                   Good goals also improve your overall{" "}
                   <Link
@@ -91,11 +91,11 @@ export default function SettingFinancialGoalsPage() {
                 </p>
                 <ul className="list-disc pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                   <li className="mb-2">
-                    Specific: &quot;Build a £600 emergency buffer&quot; (not
+                    Specific: &quot;Build a $600 emergency buffer&quot; (not
                     &quot;save more&quot;).
                   </li>
                   <li className="mb-2">
-                    Measurable: Track progress monthly (e.g., £50 per payday).
+                    Measurable: Track progress monthly (e.g., $50 per payday).
                   </li>
                   <li className="mb-2">
                     Achievable: Fit the target to your income and bills —
@@ -135,7 +135,7 @@ export default function SettingFinancialGoalsPage() {
                 </h2>
                 <ol className="list-decimal pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                   <li className="mb-2">
-                    Map the essentials: rent/mortgage, council tax, utilities,
+                    Map the essentials: rent/mortgage, property tax, utilities,
                     travel, food, debt payments.
                   </li>
                   <li className="mb-2">

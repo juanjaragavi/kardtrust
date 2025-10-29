@@ -137,21 +137,21 @@ export default function SideHustleOrSecondJobPage() {
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Understanding the tax implications is essential for both
-                  options. With a second job, your employer handles PAYE
-                  deductions, but you might need to inform HMRC to ensure
-                  correct tax coding across both employments. The total income
-                  from both jobs could push you into a higher tax bracket,
-                  affecting your overall take-home pay.
+                  options. With a second job, your employer handles payroll tax
+                  deductions, but you should ensure proper withholding across
+                  both employments. The total income from both jobs could push
+                  you into a higher tax bracket, affecting your overall
+                  take-home pay.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Side hustles require more comprehensive record keeping as
-                  you'll be self-employed. You'll need to register with HMRC if
-                  your annual income exceeds £1,000, file self-assessment tax
-                  returns, and potentially pay National Insurance contributions.
+                  you'll be self-employed. You'll need to register as a business
+                  if your income exceeds certain thresholds, file quarterly
+                  estimated taxes, and potentially pay self-employment taxes.
                   However, you can also claim business expenses that might
                   reduce your tax liability, such as equipment costs, travel
-                  expenses, or workspace costs.
+                  expenses, or home office deductions.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">

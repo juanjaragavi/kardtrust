@@ -56,7 +56,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 What does “combining finances” actually mean?
               </h2>
               <p className="text-gray-800 mb-4 text-sm leading-6 font-light">
-                In simple terms, it’s how two people organise income, bills,
+                In simple terms, it's how two people organize income, bills,
                 spending, saving, and borrowing together. There’s no one “right
                 way” — good systems are clear, fair, and repeatable. Most
                 couples in the US use one of three models:
@@ -68,7 +68,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 </li>
                 <li className="mb-2">
                   <strong>Yours + Ours:</strong> Keep personal accounts but pay
-                  into a joint pot for rent, council tax, utilities, food,
+                  into a joint pot for rent, property tax, utilities, food,
                   transport.
                 </li>
                 <li className="mb-2">
@@ -91,8 +91,8 @@ export default function CombineFinancesAfterMarriagePage() {
               </p>
               <ul className="list-disc pl-6 mb-4 text-sm leading-6 font-light text-gray-800">
                 <li className="mb-2">
-                  List shared essentials: rent/mortgage, utilities, council tax,
-                  groceries, travel, insurance, childcare.
+                  List shared essentials: rent/mortgage, utilities, property
+                  tax, groceries, travel, insurance, childcare.
                 </li>
                 <li className="mb-2">
                   Automate transfers on payday to your joint account or shared
@@ -222,7 +222,7 @@ export default function CombineFinancesAfterMarriagePage() {
               </h2>
               <p className="text-gray-800 mb-4 text-sm leading-6 font-light">
                 Alex takes home £2,400 and Jamie £1,800. Shared bills total
-                £1,600 (rent, council tax, utilities, groceries, transport).
+                $1,600 (rent, property tax, utilities, groceries, transport).
                 They choose proportional contributions: Alex pays 57% (£912),
                 Jamie 43% (£688). Each keeps personal spending money separate.
                 They set up a £40/month joint emergency pot and review

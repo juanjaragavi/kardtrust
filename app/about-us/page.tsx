@@ -313,7 +313,7 @@ export default function AboutUs() {
 
             <p className="mb-6">
               At KardTrust, we understand that every step in your financial
-              journey is important. Whether you're beginning to organise your
+              journey is important. Whether you're beginning to organize your
               personal finances or exploring advanced investment strategies, our
               content is meticulously designed to provide you with the
               confidence and knowledge necessary to make prudent financial

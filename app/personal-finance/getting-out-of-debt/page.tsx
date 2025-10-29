@@ -239,7 +239,7 @@ export default function GettingOutOfDebtPage() {
                       <li>
                         <strong>Essential expenses:</strong> Necessities like
                         rent or mortgage, utilities (gas, electricity, water),
-                        council tax, transportation, food, and essential
+                        property tax, transportation, food, and essential
                         insurance.
                       </li>
                       <li>
@@ -265,8 +265,8 @@ export default function GettingOutOfDebtPage() {
                   </li>
                   <li className="mb-2">
                     <strong>Practical example:</strong> If you currently spend
-                    £100 on entertainment, try reducing it to £50 and allocate
-                    the other £50 toward your debt payments.
+                    $100 on entertainment, try reducing it to $50 and allocate
+                    the other $50 toward your debt payments.
                   </li>
                   <li className="mb-2">
                     <strong>Shop smarter:</strong> Look for deals on groceries,
@@ -501,19 +501,19 @@ export default function GettingOutOfDebtPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/barclays-personal-loan"
+                      href="/financial-solutions/sofi-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Barclays Personal Loan:
+                      SoFi Personal Loan:
                     </Link>{" "}
                     Could be an option for consolidating higher-interest debts.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/hsbc-personal-loan"
+                      href="/financial-solutions/upgrade-credit-card"
                       className="text-blue-600 hover:underline"
                     >
-                      HSBC Personal Loan:
+                      Upgrade Personal Loan:
                     </Link>{" "}
                     Explore their terms for debt consolidation purposes.
                   </li>
@@ -607,9 +607,10 @@ export default function GettingOutOfDebtPage() {
                     involved).
                   </li>
                   <li className="mb-2">
-                    <strong>Check credentials:</strong> Ensure any organisation
-                    you approach is reputable and authorised by the Financial
-                    Conduct Authority (FCA) if they offer regulated debt advice.
+                    <strong>Check credentials:</strong> Ensure any organization
+                    you approach is reputable and authorized by relevant
+                    consumer protection agencies if they offer regulated debt
+                    advice.
                   </li>
                 </ul>
               </section>
@@ -687,7 +688,7 @@ export default function GettingOutOfDebtPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <strong>Start Small:</strong> Aim for a modest initial goal,
-                    perhaps £500 or £1,000, even while tackling debt. This
+                    perhaps $500 or $1,000, even while tackling debt. This
                     provides a buffer.
                   </li>
                   <li className="mb-2">
@@ -700,7 +701,7 @@ export default function GettingOutOfDebtPage() {
                     non-priority debts (like credit cards) using the
                     snowball/avalanche method, while still making minimum
                     payments on everything. High-priority debts (rent/mortgage,
-                    council tax, utilities) must always be paid first.
+                    property tax, utilities) must always be paid first.
                   </li>
                 </ul>
               </section>

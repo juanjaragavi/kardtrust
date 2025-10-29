@@ -74,8 +74,8 @@ export default function WhatIsLifestyleCreepPage() {
                   And you have! The problem emerges when increased spending
                   consumes all of your income growth, leaving nothing for
                   savings, investments, or building financial security. Before
-                  you know it, you're back to living paycheque to paycheque —
-                  just at a higher income level.
+                  you know it, you're back to living paycheck to paycheck — just
+                  at a higher income level.
                 </p>
               </section>
 
@@ -107,11 +107,11 @@ export default function WhatIsLifestyleCreepPage() {
                   <li className="mb-2">
                     <strong>Subscription accumulation:</strong> Adding Netflix,
                     then Disney+, then Amazon Prime, then Spotify, then a gym
-                    membership you barely use — each "only" £10-15/month
+                    membership you barely use — each "only" $10-15/month
                   </li>
                   <li className="mb-2">
-                    <strong>Dining out more frequently:</strong> Your £5
-                    work-lunch routine becomes a £12-15 habit, or weekend
+                    <strong>Dining out more frequently:</strong> Your $5
+                    work-lunch routine becomes a $12-15 habit, or weekend
                     takeaways become a three-times-weekly occurrence
                   </li>
                   <li className="mb-2">
@@ -140,8 +140,8 @@ export default function WhatIsLifestyleCreepPage() {
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   The real danger of lifestyle creep isn't the spending itself —
-                  it's what you're not doing with that money. Every pound spent
-                  on lifestyle inflation is a pound that could be working
+                  it's what you're not doing with that money. Every dollar spent
+                  on lifestyle inflation is a dollar that could be working
                   towards your financial security and independence.
                 </p>
 
@@ -150,21 +150,16 @@ export default function WhatIsLifestyleCreepPage() {
                     Real US scenario:
                   </h3>
                   <p className="text-sm text-gray-800 mb-2 font-light">
-                    Imagine you receive a £3,000 annual pay rise (about
-                    £250/month after tax). If you let lifestyle creep consume it
-                    through small upgrades, you've gained nothing financially.
-                    However, if you directed even half of that increase —
-                    £125/month — into savings or investments, you could build:
+                    Imagine you receive a $3,000 annual pay raise (about
+                    $250/month after tax). If you let lifestyle creep consume it
+                    all, nothing changes. But if you allocate half — just
+                    $125/month — into savings or investments, you could build:
                   </p>
-                  <ul className="list-disc pl-4 text-sm text-gray-700 font-light">
-                    <li>A £1,500 emergency fund in just one year</li>
+                  <ul className="list-disc pl-6 mb-4 text-sm">
+                    <li>A $1,500 emergency fund in just one year</li>
                     <li>
-                      Over £7,500 in five years (not including interest or
-                      investment growth)
-                    </li>
-                    <li>
-                      A substantial deposit towards a home or significant
-                      retirement contribution
+                      Over $7,500 in five years (not including interest or
+                      returns)
                     </li>
                   </ul>
                 </div>

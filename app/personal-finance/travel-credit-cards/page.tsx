@@ -5,11 +5,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Best Travel Credit Cards UK: Top Options for 2025 - KardTrust",
+    title: "Best Travel Credit Cards US: Top Options for 2025 - KardTrust",
     description:
       "Compare the best travel credit cards in the US with no foreign transaction fees, travel insurance, and rewards for international spending. Find the perfect travel companion card.",
     keywords:
-      "travel credit cards UK, no foreign transaction fees, travel rewards, airline miles, hotel points, travel insurance, best travel cards",
+      "travel credit cards US, no foreign transaction fees, travel rewards, airline miles, hotel points, travel insurance, best travel cards",
   };
 }
 
@@ -25,7 +25,7 @@ export default function TravelCreditCardsPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-6">
-              Best Travel Credit Cards UK: Ultimate Guide for International
+              Best Travel Credit Cards US: Ultimate Guide for International
               Spending
             </h1>
             {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
@@ -38,9 +38,9 @@ export default function TravelCreditCardsPage() {
 
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-6">
-                The right travel credit card can save you hundreds of pounds in
+                The right travel credit card can save you hundreds of dollars in
                 fees and provide valuable benefits when traveling abroad. Our
-                comprehensive guide breaks down the top options for UK
+                comprehensive guide breaks down the top options for US
                 travelers, highlighting cards with no foreign transaction fees,
                 travel insurance, and rewarding points systems.
               </p>
@@ -67,33 +67,16 @@ export default function TravelCreditCardsPage() {
                     </span>
                     <div>
                       <span className="font-semibold">
-                        Halifax Clarity Credit Card
+                        <Link
+                          href="/financial-solutions/chase-sapphire-reserve"
+                          className="text-blue-600 hover:underline"
+                        >
+                          Chase Sapphire Reserve®
+                        </Link>
                       </span>{" "}
-                      - No foreign transaction fees, no annual fee, competitive
-                      exchange rates
-                    </div>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="h-4 w-4 text-white"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </span>
-                    <div>
-                      <span className="font-semibold">
-                        Barclaycard Avios Plus
-                      </span>{" "}
-                      - Earn Avios points, annual cabin upgrade voucher,
-                      comprehensive travel insurance
+                      - Premium travel rewards, no foreign transaction fees,
+                      comprehensive travel insurance, Priority Pass lounge
+                      access
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -114,14 +97,14 @@ export default function TravelCreditCardsPage() {
                     <div>
                       <span className="font-semibold">
                         <Link
-                          href="/financial-solutions/curve-credit-card"
+                          href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
                           className="text-blue-600 hover:underline"
                         >
-                          Curve Card
+                          Capital One Savor Rewards
                         </Link>
                       </span>{" "}
-                      - Combine all your cards, fee-free spending abroad (limits
-                      vary by plan), "Go Back in Time" feature
+                      - No foreign transaction fees, unlimited cash back on
+                      dining and entertainment, no annual fee
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -142,14 +125,42 @@ export default function TravelCreditCardsPage() {
                     <div>
                       <span className="font-semibold">
                         <Link
-                          href="/financial-solutions/santander-uk-credit-card"
+                          href="/financial-solutions/wells-fargo-autograph-card-benefits"
                           className="text-blue-600 hover:underline"
                         >
-                          Santander All in One Credit Card
+                          Wells Fargo Autograph Card
                         </Link>
                       </span>{" "}
-                      - No foreign transaction fees for the first 6 months, 0%
-                      on purchases, cashback on spending
+                      - No foreign transaction fees, cell phone protection,
+                      rewards on travel and dining
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="inline-block bg-primary-dark rounded-full p-1 mr-3 mt-1">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="h-4 w-4 text-white"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                      >
+                        <path
+                          fillRule="evenodd"
+                          d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                          clipRule="evenodd"
+                        />
+                      </svg>
+                    </span>
+                    <div>
+                      <span className="font-semibold">
+                        <Link
+                          href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
+                          className="text-blue-600 hover:underline"
+                        >
+                          Bank of America® Unlimited Cash Rewards
+                        </Link>
+                      </span>{" "}
+                      - Unlimited 1.5% cash back on all purchases, no foreign
+                      transaction fees, introductory 0% APR offer
                     </div>
                   </li>
                 </ul>
@@ -173,7 +184,7 @@ export default function TravelCreditCardsPage() {
               <p className="mb-4">
                 Standard credit cards typically charge between 2.75% and 3.99%
                 on transactions made in foreign currencies. For a traveler
-                spending £2,000 abroad, this could mean paying up to £80 in
+                spending $2,000 abroad, this could mean paying up to $80 in
                 unnecessary fees. Cards designed specifically for travel
                 eliminate these charges, providing substantial savings for
                 frequent international travelers.
@@ -197,7 +208,7 @@ export default function TravelCreditCardsPage() {
 
               <p className="mb-4">
                 Comprehensive travel insurance can save travelers hundreds of
-                pounds on standalone policies. Premium travel cards often
+                dollars on standalone policies. Premium travel cards often
                 include:
               </p>
 
@@ -220,7 +231,7 @@ export default function TravelCreditCardsPage() {
               </p>
 
               <ul className="list-disc pl-6 mb-4 space-y-2">
-                <li>Airline miles (Avios, Virgin Points)</li>
+                <li>Airline miles (American Airlines, United, Delta)</li>
                 <li>Hotel points (Hilton Honors, Marriott Bonvoy)</li>
                 <li>Flexible travel points</li>
                 <li>Cashback at higher rates for travel expenses</li>
@@ -232,78 +243,80 @@ export default function TravelCreditCardsPage() {
 
               <div className="border-b border-gray-200 pb-6 mb-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">
-                  Halifax Clarity Credit Card
+                  Chase Sapphire Reserve®
                 </h3>
                 <p className="mb-3">
-                  The Halifax Clarity Card has long been a favorite among UK
-                  travelers for its straightforward approach to foreign
-                  spending. With no fees on purchases abroad and competitive
-                  Mastercard exchange rates, it's an excellent choice for
-                  regular travelers seeking simplicity.
+                  The Chase Sapphire Reserve® is the gold standard for premium
+                  travel credit cards in the US. With exceptional travel
+                  benefits, comprehensive insurance coverage, and valuable
+                  rewards points, it's the ideal choice for frequent
+                  international travelers seeking luxury and convenience.
                 </p>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-4 bg-gray-50 p-4 rounded-xl">
                   <div className="mb-3 sm:mb-0">
                     <p className="font-semibold text-sm">Key Benefits:</p>
                     <ul className="list-disc pl-5 text-sm">
                       <li>No foreign transaction fees</li>
-                      <li>No annual fee</li>
-                      <li>Mastercard exchange rates</li>
+                      <li>$300 annual travel credit</li>
+                      <li>Priority Pass lounge access</li>
+                      <li>3x points on travel and dining</li>
                     </ul>
                   </div>
                   <div>
                     <p className="font-semibold text-sm">Considerations:</p>
                     <ul className="list-disc pl-5 text-sm">
-                      <li>Cash withdrawal fees apply</li>
-                      <li>No rewards program</li>
-                      <li>Basic travel insurance</li>
+                      <li>$550 annual fee</li>
+                      <li>Best for frequent travelers</li>
+                      <li>Premium rewards redemption</li>
                     </ul>
                   </div>
                 </div>
                 <div className="mt-4">
                   <Link
-                    href="/financial-solutions/halifax-world-elite-mastercard"
+                    href="/financial-solutions/chase-sapphire-reserve"
                     className="text-blue-600 hover:underline"
                   >
-                    View full Halifax card details →
+                    View full Chase Sapphire Reserve® details →
                   </Link>
                 </div>
               </div>
 
               <div className="border-b border-gray-200 pb-6 mb-6">
                 <h3 className="text-xl font-bold text-gray-800 mb-3">
-                  Barclaycard Avios Plus Credit Card
+                  Capital One Savor Rewards Credit Card
                 </h3>
                 <p className="mb-3">
-                  For travelers focused on earning rewards, particularly those
-                  who fly with British Airways, the Barclaycard Avios Plus
-                  offers exceptional value. The annual fee is offset by generous
-                  benefits for frequent travelers.
+                  For travelers who want excellent rewards without an annual
+                  fee, the Capital One Savor Rewards card delivers impressive
+                  value. With unlimited cash back on dining and entertainment
+                  plus no foreign transaction fees, it's perfect for travelers
+                  who prioritize food and experiences abroad.
                 </p>
                 <div className="flex flex-col sm:flex-row sm:justify-between mt-4 bg-gray-50 p-4 rounded-xl">
                   <div className="mb-3 sm:mb-0">
                     <p className="font-semibold text-sm">Key Benefits:</p>
                     <ul className="list-disc pl-5 text-sm">
-                      <li>1.5 Avios per £1 spent</li>
-                      <li>25,000 Avios welcome bonus</li>
-                      <li>Annual cabin upgrade voucher</li>
-                      <li>Comprehensive travel insurance</li>
+                      <li>4% cash back on dining and entertainment</li>
+                      <li>No foreign transaction fees</li>
+                      <li>No annual fee</li>
+                      <li>Unlimited rewards earning</li>
                     </ul>
                   </div>
                   <div>
                     <p className="font-semibold text-sm">Considerations:</p>
                     <ul className="list-disc pl-5 text-sm">
-                      <li>£20 monthly fee (£240 annually)</li>
-                      <li>Minimum income requirements</li>
-                      <li>Best value for BA frequent flyers</li>
+                      <li>Cash back vs. travel points</li>
+                      <li>Limited travel insurance</li>
+                      <li>No lounge access</li>
                     </ul>
                   </div>
                 </div>
                 <div className="mt-4">
                   <Link
-                    href="/financial-solutions/barclaycard-avios-plus"
+                    href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
                     className="text-blue-600 hover:underline"
                   >
-                    View full Barclaycard Avios Plus details →
+                    View full Capital One Savor Rewards details →
                   </Link>
                 </div>
               </div>

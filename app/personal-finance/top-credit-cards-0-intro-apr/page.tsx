@@ -150,7 +150,7 @@ export default function TopCreditCards0IntroAprPage() {
                   <li className="mb-2">
                     <strong>Factor in Balance Transfer Fees:</strong> If
                     transferring a balance, calculate the fee (e.g., 3% of
-                    £5,000 is £150). Ensure the interest savings over the intro
+                    $5,000 is $150). Ensure the interest savings over the intro
                     period significantly outweigh this fee.
                   </li>
                   <li className="mb-2">
@@ -217,39 +217,39 @@ export default function TopCreditCards0IntroAprPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/barclaycard-avios-plus"
+                      href="/financial-solutions/chase-freedom-flex"
                       className="text-blue-600 hover:underline"
                     >
-                      Barclaycard:
+                      Chase:
                     </Link>{" "}
                     Often provides cards with introductory offers on purchases
                     or balance transfers.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/lloyds-bank-credit-card"
+                      href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
                       className="text-blue-600 hover:underline"
                     >
-                      Lloyds Bank:
+                      Bank of America:
                     </Link>{" "}
                     Check their range for potential 0% APR deals.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/santander-uk-credit-card"
+                      href="/financial-solutions/wells-fargo-active-cash-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander UK:
+                      Wells Fargo:
                     </Link>{" "}
                     Frequently offers competitive balance transfer and purchase
                     cards.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/virgin-money-credit-card"
+                      href="/financial-solutions/citi-simplicity-card-benefits"
                       className="text-blue-600 hover:underline"
                     >
-                      Virgin Money:
+                      Citi:
                     </Link>{" "}
                     Explore their cards for potential introductory interest-free
                     periods.

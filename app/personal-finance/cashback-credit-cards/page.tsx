@@ -155,30 +155,31 @@ export default function CashbackCreditCardsPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/lloyds-bank-credit-card"
+                      href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
                       className="text-blue-600 hover:underline"
                     >
-                      Lloyds Bank Credit Card:
+                      Bank of America® Unlimited Cash Rewards:
                     </Link>{" "}
-                    Offers cashback through its Everyday Offers program.
+                    Offers unlimited 1.5% cash back on all purchases.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/santander-uk-credit-card"
+                      href="/financial-solutions/wells-fargo-active-cash-card"
                       className="text-blue-600 hover:underline"
                     >
-                      Santander US All in One Credit Card:
+                      Wells Fargo Active Cash® Card:
                     </Link>{" "}
-                    Known for its All in One cashback benefits.
+                    Known for its straightforward 2% cash back on all purchases.
                   </li>
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/natwest-credit-card"
+                      href="/financial-solutions/citi-double-cash-credit-card-benefits"
                       className="text-blue-600 hover:underline"
                     >
-                      NatWest Credit Card:
+                      Citi® Double Cash Card:
                     </Link>{" "}
-                    Features the MyRewards program for earning cashback.
+                    Features unique 2% cash back program (1% when you buy, 1%
+                    when you pay).
                   </li>
                 </ul>
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">

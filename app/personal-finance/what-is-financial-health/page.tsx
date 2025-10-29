@@ -153,7 +153,7 @@ export default function WhatIsFinancialHealthPage() {
                 </h3>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-5 font-light">
                   Health improves with routine. Pick one or two small actions
-                  (reduce a bill, add £10/week to savings, make an extra payment
+                  (reduce a bill, add $10/week to savings, make an extra payment
                   on a balance) and repeat them for the next three months.
                 </p>
               </section>

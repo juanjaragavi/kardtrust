@@ -30,7 +30,7 @@ export default function InflationProofYourLifePage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 When prices seem to climb every month — groceries, energy bills,
-                petrol, council tax — it's easy to feel your budget slipping
+                petrol, property taxes — it's easy to feel your budget slipping
                 away. Inflation doesn't mean you've lost control; it means you
                 need a fresh strategy. This guide walks through seven practical
                 money moves that help you protect your purchasing power, reduce
@@ -75,7 +75,7 @@ export default function InflationProofYourLifePage() {
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Start by listing your non-negotiables: housing, utilities,
-                  council tax, food, transport, and insurance. Then track the
+                  property tax, food, transport, and insurance. Then track the
                   "small stuff" for two weeks — coffees, meal deals, streaming
                   services, unused gym memberships. These quiet drains add up
                   quickly when prices are high.
@@ -367,7 +367,7 @@ export default function InflationProofYourLifePage() {
                 </h2>
                 <p className="text-left sm:text-left text-gray-800 mb-4 text-sm leading-6 font-light">
                   Imagine you bring home £2,400 a month. Essentials (rent,
-                  council tax, utilities, food, transport) total £1,850. You
+                  property tax, utilities, food, transport) total $1,850. You
                   notice groceries and energy climbing faster than expected. You
                   cancel two unused subscriptions (£18), switch to a fixed
                   energy deal, and start meal planning to trim £40 from your

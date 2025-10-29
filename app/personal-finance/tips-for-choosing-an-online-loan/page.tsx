@@ -55,7 +55,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                     <span className="font-semibold">
                       Verify lender legitimacy
                     </span>{" "}
-                    through FCA registration and customer reviews.
+                    through licensing verification and customer reviews.
                   </div>
                 </div>
 
@@ -65,7 +65,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   </div>
                   <div className="text-sm leading-5">
                     <span className="font-semibold">Read the fine print</span>{" "}
-                    to avoid hidden fees and unfavourable terms.
+                    to avoid hidden fees and unfavorable terms.
                   </div>
                 </div>
 
@@ -146,7 +146,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   For example, a loan with a 7% interest rate might seem more
                   attractive than one with 8%, but if the first includes an
-                  arrangement fee of £250 while the second has no additional
+                  arrangement fee of $250 while the second has no additional
                   fees, the APR could tell a different story. The representative
                   APR advertised by lenders must be offered to at least 51% of
                   approved applicants, but your personal rate might differ based
@@ -167,10 +167,10 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   The digital nature of online lending makes it particularly
                   important to verify that you're dealing with a legitimate
                   financial institution. All legitimate US lenders must be
-                  authorised and regulated by the Financial Conduct Authority
-                  (FCA). This regulation provides important protections for
-                  borrowers, including fair treatment standards and access to
-                  the Financial Ombudsman Service if disputes arise.
+                  licensed and regulated by relevant state and federal
+                  authorities. This regulation provides important protections
+                  for borrowers, including fair treatment standards and access
+                  to consumer protection resources if disputes arise.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
@@ -179,16 +179,15 @@ export default function TipsForChoosingAnOnlineLoanPage() {
 
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
-                    Check the FCA Register at register.fca.org.uk to confirm the
-                    lender is properly authorised
+                    Check if the lender is properly licensed in your state
                   </li>
                   <li className="mb-2">
-                    Look for their FCA registration number on their website,
-                    which should be prominently displayed
+                    Look for their licensing information on their website, which
+                    should be prominently displayed
                   </li>
                   <li className="mb-2">
                     Review independent customer reviews on platforms like
-                    Trustpilot or Feefo
+                    Trustpilot or the Better Business Bureau
                   </li>
                   <li className="mb-2">
                     Verify they have a physical address and legitimate contact
@@ -346,24 +345,24 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   comprehensive view of your options. You can also explore
                   specific providers directly, such as{" "}
                   <Link
-                    href="/financial-solutions/revolut-personal-loan"
+                    href="/financial-solutions/sofi-credit-card"
                     className="text-blue-600 hover:underline"
                   >
-                    Revolut
+                    SoFi
                   </Link>
                   ,{" "}
                   <Link
-                    href="/financial-solutions/monzo-personal-loan"
+                    href="/financial-solutions/upgrade-credit-card"
                     className="text-blue-600 hover:underline"
                   >
-                    Monzo
+                    Upgrade
                   </Link>
                   , or{" "}
                   <Link
-                    href="/financial-solutions/starling-bank-personal-loan"
+                    href="/financial-solutions/avant-credit-card"
                     className="text-blue-600 hover:underline"
                   >
-                    Starling Bank
+                    Avant
                   </Link>
                   , known for their online loan offerings.
                 </p>

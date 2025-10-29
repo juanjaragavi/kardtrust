@@ -34,7 +34,7 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
                 sabotage even the best-planned budgets. The good news: mindful
                 spending isn't about depriving yourself; it's about making
                 conscious choices that align with your personal finance goals.
-                This practical US guide shows you how to recognise spending
+                This practical US guide shows you how to recognize spending
                 triggers, create helpful boundaries, and develop habits that
                 keep your money working for you.
               </p>
