@@ -417,7 +417,7 @@ const inter = Inter({
 ```typescript
 let criticalCSS = fs.readFileSync(
   path.join(process.cwd(), "app/critical.css"),
-  "utf8"
+  "utf8",
 );
 ```
 
@@ -841,7 +841,7 @@ grep -rn "from \"next/image\"" app/ --include="*.tsx" | \
    - Systematic deployment
    - Validate with Rich Results Test
 
-    **🟡 Important (Do This Week)**
+     **🟡 Important (Do This Week)**
 
 5. **Add Canonical URLs to All Pages**
    - Use SEO utilities
@@ -863,7 +863,7 @@ grep -rn "from \"next/image\"" app/ --include="*.tsx" | \
    - Confirm all pages included
    - Check lastModified dates
 
-    **🟢 Enhancement (Do This Month)**
+     **🟢 Enhancement (Do This Month)**
 
 9. **Consider Homepage SSR Migration**
    - Evaluate impact

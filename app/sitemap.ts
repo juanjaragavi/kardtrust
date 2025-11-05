@@ -94,10 +94,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Dynamically get Personal Finance articles
-  const personalFinancePages = getDynamicPages("personal-finance", 0.8, "weekly");
+  const personalFinancePages = getDynamicPages(
+    "personal-finance",
+    0.8,
+    "weekly",
+  );
 
   // Dynamically get Financial Solutions pages
-  const financialSolutionsPages = getDynamicPages("financial-solutions", 0.7, "weekly");
+  const financialSolutionsPages = getDynamicPages(
+    "financial-solutions",
+    0.7,
+    "weekly",
+  );
 
   return [...staticPages, ...personalFinancePages, ...financialSolutionsPages];
 }
@@ -108,7 +116,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
 function getDynamicPages(
   directory: string,
   priority: number,
-  changeFrequency: "always" | "hourly" | "daily" | "weekly" | "monthly" | "yearly" | "never"
+  changeFrequency:
+    | "always"
+    | "hourly"
+    | "daily"
+    | "weekly"
+    | "monthly"
+    | "yearly"
+    | "never",
 ): MetadataRoute.Sitemap {
   const baseUrl = "https://kardtrust.com";
   const pages: MetadataRoute.Sitemap = [];
@@ -125,7 +140,11 @@ function getDynamicPages(
     for (const entry of entries) {
       if (entry.isDirectory()) {
         const pagePath = path.join(directoryPath, entry.name, "page.tsx");
-        const metadataPath = path.join(directoryPath, entry.name, "metadata.ts");
+        const metadataPath = path.join(
+          directoryPath,
+          entry.name,
+          "metadata.ts",
+        );
 
         // Check if it's a valid page (has page.tsx)
         if (fs.existsSync(pagePath)) {

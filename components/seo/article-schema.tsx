@@ -26,7 +26,10 @@ export function ArticleSchema({
   image,
   datePublished,
   dateModified,
-  author = { name: "KardTrust Editorial Team", url: "https://kardtrust.com/about-us" },
+  author = {
+    name: "KardTrust Editorial Team",
+    url: "https://kardtrust.com/about-us",
+  },
   category,
   url,
   keywords = [],

@@ -1,14 +1,25 @@
-Production migration: Update URLs from staging to production domain, add Apache optimizations
+Add new TOFU Personal Finance article: 5-Minute Financial Health Check
 
-- Updated AdZep script URL from UK subdomain to production domain (kardtrust.js)
-- Replaced all UK subdomain references (uk.kardtrust.com) with production domain (kardtrust.com) in 13 blog post metadata files
-- Updated legal content (privacy policy, terms, cookie policy) to reference production domain and US regulatory context
-- Modified CORS configuration to support both apex and www production domains
-- Enhanced next.config.mjs with production optimizations (SWC minification, disabled source maps, enhanced security headers)
-- Created comprehensive .htaccess file for Apache with HTTPS enforcement, GZIP compression, browser caching, and security headers
-- Updated documentation references from Vercel staging to production URLs
-- Created PRODUCTION_DEPLOYMENT_CHECKLIST.md with complete deployment guide
-- Verified all internal links point to production domain
-- Confirmed zero remaining references to staging or UK subdomain URLs in source code
+- Created comprehensive money tracking guide at /app/personal-finance/5-minute-financial-health-check/page.tsx
+- Article focuses on helping readers understand where their money goes through practical 5-minute check
+- Includes 950 words of original content with actionable steps for expense tracking
+- Features 10+ internal links to related Personal Finance articles and product pages
+- Integrated complete SEO metadata with optimized title, description, and keywords
+- Added hero image with descriptive alt text and proper CDN hosting
+- Implemented standard ad placements (kardtrust_ad_1 and kardtrust_ad_2)
+- Included AI Content Disclaimer component per project standards
 
-Status: ✅ Production-ready for GCP deployment
+Site Integration:
+- Updated /app/blog/page.tsx allPosts array with new article entry
+- Updated /app/personal-finance/page.tsx allPosts array with category filter "guide"
+- Updated /app/sitemap.xml with new URL entry (lastmod: 2025-11-05)
+
+Content Highlights:
+- TOFU funnel stage targeting new personal finance audiences
+- Main keyword: personal finance
+- Pillar: Money Management
+- Covers spending leaks, subscription tracking, and habit formation
+- US market-focused with compliance-aware language
+- Mobile-first responsive design matching existing article patterns
+
+All mandatory blog listing and sitemap synchronization requirements completed.

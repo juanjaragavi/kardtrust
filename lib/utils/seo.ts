@@ -43,7 +43,9 @@ export function generatePageMetadata({
   noIndex?: boolean;
 }): Metadata {
   const canonicalUrl = generateCanonicalUrl(path);
-  const ogImage = image || "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+  const ogImage =
+    image ||
+    "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
 
   const metadata: Metadata = {
     title,
@@ -150,14 +152,19 @@ export function generateSlug(title: string): string {
 /**
  * Truncates text to a specific length for meta descriptions
  */
-export function truncateDescription(text: string, maxLength: number = 160): string {
+export function truncateDescription(
+  text: string,
+  maxLength: number = 160,
+): string {
   if (text.length <= maxLength) return text;
 
   // Find the last space before the max length
   const truncated = text.slice(0, maxLength);
   const lastSpace = truncated.lastIndexOf(" ");
 
-  return lastSpace > 0 ? `${truncated.slice(0, lastSpace)}...` : `${truncated}...`;
+  return lastSpace > 0
+    ? `${truncated.slice(0, lastSpace)}...`
+    : `${truncated}...`;
 }
 
 /**

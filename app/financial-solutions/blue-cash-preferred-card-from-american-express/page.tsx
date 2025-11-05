@@ -9,13 +9,15 @@ import { generatePageMetadata } from "@/lib/utils/seo";
 import { ProductSchema, BreadcrumbSchema } from "@/components/seo";
 
 export const metadata: Metadata = generatePageMetadata({
-  title: "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards",
+  title:
+    "Blue Cash Preferred® Card from American Express: Maximize Your Cash Back Rewards",
   description:
     "Discover the Blue Cash Preferred® Card from American Express offering 6% cash back at U.S. supermarkets, 6% on streaming, 3% at gas stations, and a $250 welcome bonus. Learn about benefits, rewards, and how to apply.",
   path: "financial-solutions/blue-cash-preferred-card-from-american-express",
   keywords:
     "Blue Cash Preferred, American Express cash back, Amex Blue Cash, supermarket cash back, streaming rewards, gas station rewards, grocery cash back, best cash back cards, Amex rewards card, US credit cards",
-  image: "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
+  image:
+    "https://media.topfinanzas.com/images/kardtrust/blue-cash-preferred-card-from-american-express.webp",
 });
 
 export default function BlueCashPreferredPage() {
@@ -39,7 +41,10 @@ export default function BlueCashPreferredPage() {
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://kardtrust.com" },
-          { name: "Financial Solutions", url: "https://kardtrust.com/financial-solutions" },
+          {
+            name: "Financial Solutions",
+            url: "https://kardtrust.com/financial-solutions",
+          },
           {
             name: "Blue Cash Preferred Card",
             url: "https://kardtrust.com/financial-solutions/blue-cash-preferred-card-from-american-express",

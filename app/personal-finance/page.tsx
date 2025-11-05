@@ -39,6 +39,17 @@ export default function PersonalFinanceArchivePage() {
     () => [
       {
         title:
+          "The 5-Minute Financial Health Check: Where Does Your Money Go? | KardTrust",
+        slug: "5-minute-financial-health-check",
+        description:
+          "Discover where your money goes with this quick 5-minute financial health check. Learn simple tracking methods, identify spending leaks, and take control of your personal finances today.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/5-minute-financial-health-check.webp",
+        date: "November 5, 2025",
+        category: "guide",
+      },
+      {
+        title:
           "The Hidden Costs of Homeownership That No One Talks About | KardTrust",
         slug: "hidden-costs-of-homeownership",
         description:

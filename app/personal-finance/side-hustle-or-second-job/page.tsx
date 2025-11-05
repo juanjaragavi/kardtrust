@@ -15,7 +15,8 @@ export const metadata: Metadata = generateArticleMetadata({
   category: "personal-finance",
   keywords:
     "side hustle, second job, extra income, personal finance, financial goals, work from home, freelance work, part-time job",
-  image: "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
+  image:
+    "https://media.topfinanzas.com/images/kardtrust/side-hustle-second-job.webp",
   publishedDate: "2025-01-15T00:00:00Z",
   modifiedDate: "2025-10-29T00:00:00Z",
 });
@@ -42,7 +43,10 @@ export default function SideHustleOrSecondJobPage() {
       <BreadcrumbSchema
         items={[
           { name: "Home", url: "https://kardtrust.com" },
-          { name: "Personal Finance", url: "https://kardtrust.com/personal-finance" },
+          {
+            name: "Personal Finance",
+            url: "https://kardtrust.com/personal-finance",
+          },
           {
             name: "Side Hustle or Second Job",
             url: "https://kardtrust.com/personal-finance/side-hustle-or-second-job",

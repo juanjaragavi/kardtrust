@@ -49,7 +49,7 @@
    - Add `BreadcrumbSchema` for navigation
    - Verify image alt text
 
-    **Medium Priority (13 pages)**
+     **Medium Priority (13 pages)**
 
 3. **Archive Pages**
    - `/blog/page.tsx`
@@ -63,7 +63,7 @@
    - `/personal-loans`
    - Tool pages (recommenders)
 
-    **Optional Enhancements**
+     **Optional Enhancements**
 
 5. **Homepage Optimization**
    - Consider migrating from client to server rendering
