@@ -17,8 +17,6 @@ const nextConfig = {
   // Asset prefix and base path - configured for production
   assetPrefix: undefined,
   basePath: "",
-  // Enable SWC minification for better performance
-  swcMinify: true,
   // Production optimizations
   productionBrowserSourceMaps: false, // Disable source maps in production for security
   // Add rewrites for static files - using simpler approach
