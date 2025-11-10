@@ -7,42 +7,48 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 
 export function generateMetadata() {
   return {
-    title: "Discover the Benefits of the Citi Simplicity Card - KardTrust",
+    title:
+      "Citi Simplicity Card Benefits: 0% Intro APR and No Late Fees - KardTrust",
     description:
-      "Simplify your credit management with the Citi Simplicity Card. No late fees, no penalty APR, and 0% intro APR on purchases and balance transfers.",
-    keywords: "credit cards, no fees, balance transfer, simplicity",
+      "Review the Citi Simplicity Card’s 0% intro APR window, lack of late fees or penalty APR, and fee-free ownership for balance transfer planners.",
+    keywords:
+      "Citi Simplicity Card, 0 percent intro APR, no late fees, balance transfer",
   };
 }
 
 export default function CitiSimplicityCardBenefitsPage() {
   return (
-    <main className="bg-white min-h-screen flex flex-col">
+    <main
+      className="bg-white min-h-screen flex flex-col"
+      data-category="credit-cards"
+    >
       <Header />
 
-      <article className="bg-white py-8 md:py-12" data-category="credit-cards">
+      <article className="bg-white py-8 md:py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              Discover the Benefits of the Citi Simplicity Card
+              Citi Simplicity Card Benefits: Keep Payments Flexible Without Fees
             </h1>
 
             <div className="my-8 text-left sm:text-left">
-              <p className="text-lg text-gray-800 font-medium mb-4">
-                Citi Simplicity® removes the usual credit card penalties: no
-                late fees, no penalty APR, and an extended 0% intro APR window
-                for purchases and balance transfers.
+              <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
+                Citi Simplicity removes late fees and penalty APRs while giving
+                you a long 0% intro APR window on purchases and balance
+                transfers. It is built for payoff plans, not points chasing.
               </p>
-              <p className="text-base text-gray-700 mb-6">
-                Use it to consolidate debt or spread large expenses without the
-                fear of surprise rate spikes. Pay on your schedule while you
-                reset your budget.
+              <p className="text-base text-gray-700 mb-6 leading-6">
+                Use the intro period to consolidate higher-rate balances or fund
+                a large expense, then repay on your terms without surprise rate
+                jumps. Once you are back on track, layer a rewards card for
+                daily spending.
               </p>
 
               <div
                 id="kardtrust_ad_1"
                 className="items-center justify-center flex w-full my-6"
               >
-                {/* Empty responsive, centered div */}
+                {/* Reserved for display ad */}
               </div>
 
               <div className="my-6 grid gap-3">
@@ -61,7 +67,15 @@ export default function CitiSimplicityCardBenefitsPage() {
                 </div>
               </div>
 
-              <div className="my-8 text-left sm:text-left">
+              <div className="text-left my-6">
+                <Link href="/financial-solutions/citi-simplicity-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
+                  </Button>
+                </Link>
+              </div>
+
+              <div className="my-8 text-left">
                 <Image
                   src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp"
                   alt="Citi Simplicity Card"
@@ -80,45 +94,45 @@ export default function CitiSimplicityCardBenefitsPage() {
                 Extend Cash Flow with 0% Intro APR
               </h2>
 
-              <p className="text-gray-700 mb-6">
-                Citi Simplicity® offers 0% intro APR for 21 months on purchases
-                and balance transfers. Move high-interest balances or fund a big
-                expense, then set a payoff timeline that clears the balance
-                before the variable APR (19.24% – 29.99%) takes over. Transfer
-                fees apply, so weigh the savings before you move debt.
+              <p className="text-gray-700 mb-6 leading-6">
+                The card delivers 0% intro APR for 21 months on purchases and
+                balance transfers. Shift higher-interest balances or cover a
+                large expense, then map out payments that wrap up before the
+                variable 19.24% to 29.99% APR kicks in. Transfer fees apply, so
+                confirm that the savings outweigh the upfront cost.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 No Late Fees or Penalty APR
               </h2>
 
-              <p className="text-gray-700 mb-6">
+              <p className="text-gray-700 mb-6 leading-6">
                 Miss a due date and you still avoid late fees and penalty APR
-                jumps. Your rate stays consistent, giving you room to recover
-                without compounding charges. Use this flexibility to rebuild
-                habits, not to normalize late payments.
+                hikes. Your rate stays steady, giving you time to catch up
+                without compounding charges. Use that buffer to reinforce good
+                habits, not to make late payments routine.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Fee-Free Ownership
               </h2>
 
-              <p className="text-gray-700 mb-6">
-                There is no annual fee, so you keep the card in your wallet for
-                the long haul to support your credit age and available credit.
-                Pairing Citi Simplicity® with a rewards card covers purchases
-                while this card handles financing needs.
+              <p className="text-gray-700 mb-6 leading-6">
+                There is no annual fee, so you can hold the card for the long
+                haul to support your credit age and available credit. Pair it
+                with a rewards card once balances are under control to cover
+                everyday spending separately from financing needs.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Who This Card Fits
               </h2>
 
-              <p className="text-gray-700 mb-6">
-                Ideal for borrowers targeting debt payoff or anyone who wants a
-                forgiving safety net. If you prioritize cash back or travel
-                rewards, layer Citi Simplicity® with a dedicated rewards card
-                once balances are under control.
+              <p className="text-gray-700 mb-6 leading-6">
+                Simplicity is ideal for borrowers focused on paying down debt or
+                anyone who wants a safety net without fees. If you prioritize
+                rewards, layer a cash back or travel card once you have a payoff
+                plan in motion.
               </p>
 
               <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
@@ -127,75 +141,62 @@ export default function CitiSimplicityCardBenefitsPage() {
                 </h3>
                 <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
                   <strong>Representative Example:</strong> Transferring $5,000
-                  at 24% APR to Citi Simplicity® and paying it off within 21
+                  at 24% APR to Citi Simplicity and paying it off within 21
                   months avoids roughly $2,000 in interest. A 3% transfer fee
                   ($150) applies upfront.
                 </p>
                 <p className="text-sm text-gray-700 leading-5 text-left">
                   <strong>Risk Warning:</strong> Late or missed payments can
-                  still impact your credit profile. Review Citi’s Pricing &amp;
-                  Terms for full conditions before applying.
+                  still impact your credit profile. Review Citi pricing and
+                  terms for full conditions before applying.
                 </p>
               </section>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Explore Other Financial Solutions
-              </h2>
+              <div className="mt-10 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Compare Other Intro APR Cards
+                </h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>
+                    <Link
+                      href="/financial-solutions/td-flexpay-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      TD FlexPay Credit Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Chase Freedom Unlimited Credit Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/citi-double-cash-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Citi Double Cash Credit Card Benefits
+                    </Link>
+                  </li>
+                </ul>
+              </div>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <Link
-                    href="/financial-solutions/td-flexpay-credit-card-benefits"
-                    className="text-primary hover:underline"
-                  >
-                    <strong>TD FlexPay Credit Card</strong>
-                  </Link>
-                  : Offers flexible payment options and an intro APR on balance
-                  transfers.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                    className="text-primary hover:underline"
-                  >
-                    <strong>Chase Freedom Unlimited Credit Card</strong>
-                  </Link>
-                  : Provides a 0% intro APR on purchases and balance transfers.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                    className="text-primary hover:underline"
-                  >
-                    <strong>Citi Double Cash Card</strong>
-                  </Link>
-                  : Earn 2% cash back to offset everyday expenses.
-                </li>
-              </ul>
-
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-8">
                 <Link href="/financial-solutions/citi-simplicity-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                     See Requirements
                   </Button>
                 </Link>
               </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
 
+      <AIContentDisclaimer />
       <CompactFooter />
     </main>
   );

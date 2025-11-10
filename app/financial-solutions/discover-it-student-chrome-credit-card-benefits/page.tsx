@@ -10,8 +10,8 @@ export function generateMetadata() {
     title:
       "Discover it Student Chrome Credit Card Benefits: Smart Rewards for Students - KardTrust",
     description:
-      "Discover the key benefits of the Discover it Student Chrome Credit Card: 2% cashback on restaurants and gas, no annual fees, and double rewards in your first year. Perfect for students building credit.",
-    keywords: "credit cards, student, cashback, rewards, no annual fee",
+      "See how the Discover it Student Chrome Credit Card offers simple cash back, doubles year-one rewards, and supports credit building with student-friendly tools.",
+    keywords: "credit cards, student, cash back, rewards, no annual fee",
   };
 }
 
@@ -29,37 +29,48 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
             </h1>
 
             <div className="my-8 text-left sm:text-left">
-              <p className="text-lg text-gray-800 font-medium mb-4">
-                Discover it® Student Chrome delivers simple rewards: 2% cash
-                back at restaurants and gas stations (up to $1,000 in combined
-                purchases each quarter) and 1% everywhere else with no annual
-                fee.
+              <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
+                Discover it Student Chrome keeps rewards simple for new credit
+                users: earn 2% cash back at restaurants and gas stations (up to
+                $1,000 in combined purchases each quarter) and 1% everywhere
+                else with no annual fee.
               </p>
-              <p className="text-base text-gray-700 mb-6">
-                It doubles all cash back earned in year one and equips you with
-                free budgeting and FICO® tools so you can build credit while
-                you manage campus spending.
+              <p className="text-base text-gray-700 mb-6 leading-6">
+                Year-one Cashback Match doubles every dollar you earn, while
+                FICO Score tracking, budgeting reminders, and autopay support
+                help you build credit without stretching a student budget.
               </p>
 
               <div
                 id="kardtrust_ad_1"
                 className="items-center justify-center flex w-full my-6"
               >
-                {/* Empty responsive, centered div */}
+                {/* Reserved for display ad */}
               </div>
 
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900">
                   <p className="font-semibold">Quick snapshot</p>
                   <ul className="mt-2 space-y-1 pl-4 list-disc">
-                    <li>2% cash back at restaurants and gas (cap applies)</li>
-                    <li>1% cash back on all other purchases</li>
                     <li>
-                      Cashback Match doubles first-year rewards automatically
+                      Earn 2% at restaurants and gas (quarterly cap applies)
                     </li>
-                    <li>No annual fee; no foreign transaction fees</li>
+                    <li>Get 1% on other purchases with no annual fee</li>
+                    <li>
+                      Cashback Match doubles all first-year rewards
+                      automatically
+                    </li>
+                    <li>No foreign transaction fees and $0 first late fee</li>
                   </ul>
                 </div>
+              </div>
+
+              <div className="text-left my-6">
+                <Link href="/financial-solutions/discover-it-student-chrome-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
+                  </Button>
+                </Link>
               </div>
 
               <div className="my-8 text-left sm:text-left">
@@ -78,47 +89,43 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Everyday Categories That Matter
+                Reward Everyday Student Spending
               </h2>
-
-              <p className="text-gray-700 mb-6">
-                Earn 2% cash back at restaurants and gas stations up to $1,000
-                in combined spend per quarter, plus 1% everywhere else. Cover
-                coffee runs, rideshare fuel, and campus supplies while building
-                a payment track record.
+              <p className="text-gray-700 mb-6 leading-6">
+                Earn 2% cash back at restaurants and gas stations on up to
+                $1,000 in combined spend per quarter, plus 1% everywhere else.
+                Cover food runs, rideshare fuel, and supplies while keeping
+                rewards easy to manage.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                First-Year Cashback Match
+                Maximize the First-Year Cashback Match
               </h2>
-
-              <p className="text-gray-700 mb-6">
-                Discover automatically doubles all rewards after your first 12
-                billing cycles. That turns 2% dining and gas into 4% and 1%
-                baseline spend into 2% with no activation hoops—just use the
-                card responsibly throughout year one.
+              <p className="text-gray-700 mb-6 leading-6">
+                Discover doubles all rewards after your first 12 billing cycles.
+                Your 2% restaurant and gas earnings jump to 4% for that first
+                year, and every 1% everyday purchase becomes 2% with no
+                activation hoops required.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Student-Friendly Fees and Tools
               </h2>
-
-              <p className="text-gray-700 mb-6">
-                No annual fee, no foreign transaction fees, and a $0 first late
-                payment fee help student budgets breathe. The mobile app shows
-                your FICO® Score, delivers spending alerts, and supports
-                category-level budgeting so you stay ahead of due dates.
+              <p className="text-gray-700 mb-6 leading-6">
+                The card charges no annual fee, waives foreign transaction fees,
+                and forgives the first late fee. Use the Discover app for FICO
+                Score tracking, spending alerts, and budgeting tools so you stay
+                organized throughout the semester.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Build Credit Without Guesswork
               </h2>
-
-              <p className="text-gray-700 mb-6">
-                Discover reports to all three major bureaus, so on-time payments
-                compound into a stronger file. Set up autopay, keep utilization
-                low, and graduate to premium rewards once your credit profile
-                stabilizes.
+              <p className="text-gray-700 mb-6 leading-6">
+                Discover reports to all three major credit bureaus. Set up
+                autopay, keep utilization low, and review monthly statements to
+                reinforce good habits before graduating to premium rewards
+                cards.
               </p>
 
               <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
@@ -132,72 +139,65 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
                   for $136 total.
                 </p>
                 <p className="text-sm text-gray-700 leading-5 text-left">
-                  <strong>Risk Warning:</strong> Introductory match applies once
-                  and late payments after the first waived incident can trigger
-                  fees and promotional loss. Review Discover’s Student Chrome
-                  terms prior to applying.
+                  <strong>Risk Warning:</strong> Introductory match applies
+                  once, and late payments after the first waived incident can
+                  trigger fees or cancel promotions. Review Discover's Student
+                  Chrome terms before applying.
                 </p>
               </section>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Explore Other Financial Solutions
-              </h2>
-
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <Link
-                    href="/financial-solutions/capital-one-quicksilver-student-credit-card-benefits"
-                    className="text-primary hover:underline"
-                  >
-                    <strong>Capital One Quicksilver Student Credit Card</strong>
-                  </Link>
-                  : Earn unlimited 1.5% cashback on every purchase.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/tomo-credit-card-benefits"
-                    className="text-primary hover:underline"
-                  >
-                    <strong>Tomo Credit Card</strong>
-                  </Link>
-                  : Build credit without a credit history, based on your banking
-                  activity.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/visa-signature-us-current-build-credit-card-benefits"
-                    className="text-primary hover:underline"
-                  >
-                    <strong>Visa Signature U.S. Current Build Card</strong>
-                  </Link>
-                  : Another great option for building or improving your credit
-                  score.
-                </li>
-              </ul>
-
-              <div className="my-8 flex justify-center">
-                <Link href="/financial-solutions/discover-it-student-chrome-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
-                    See Requirements
-                  </Button>
-                </Link>
-              </div>
 
               <div
                 id="kardtrust_ad_2"
                 className="items-center justify-center flex w-full my-8"
               >
-                {/* Empty responsive, centered div */}
+                {/* Reserved for display ad */}
               </div>
 
-              <hr className="my-8" />
+              <div className="mt-10 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Compare Other Student Credit Builders
+                </h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>
+                    <Link
+                      href="/financial-solutions/capital-one-quicksilver-student-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Capital One Quicksilver Student Credit Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/tomo-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Tomo Credit Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/visa-signature-us-current-build-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Visa Signature US Current Build Credit Card Benefits
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="text-left my-8">
+                <Link href="/financial-solutions/discover-it-student-chrome-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    See Requirements
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
 
+      <AIContentDisclaimer />
       <CompactFooter />
     </main>
   );
