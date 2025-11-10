@@ -29,14 +29,20 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
             </h1>
 
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp"
+                  alt="Titanium Rewards Visa Signature Credit Card"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
               </div>
-
-              <hr className="my-8" />
 
               <p className="text-gray-700 mb-8">
                 Turn your everyday expenses into extraordinary rewards with
@@ -70,12 +76,19 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-6">
                 <Link href="/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
-                    Check If You Qualify
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
                   </Button>
                 </Link>
+              </div>
+
+              <div
+                id="kardtrust_ad_1"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
               </div>
 
               <p className="text-gray-700 mb-8">
@@ -85,21 +98,6 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 international getaway, this card ensures every dollar works
                 harder for you.
               </p>
-
-              <div className="my-8 text-left sm:text-left">
-                <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-1-2.webp"
-                  alt="Titanium Rewards Visa Signature Credit Card"
-                  width={900}
-                  height={507}
-                  className="w-full h-auto rounded-xl"
-                  style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
-                  quality={85}
-                  loading="eager"
-                />
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 5x Points on Gas: Perfect for Frequent Drivers and Road Trip
@@ -328,28 +326,20 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-8">
                 <Link href="/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
-                    See Requirements
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    See Detailed Requirements
                   </Button>
                 </Link>
               </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
+
+      <AIContentDisclaimer />
+      <CompactFooter />
 
       <CompactFooter />
     </main>

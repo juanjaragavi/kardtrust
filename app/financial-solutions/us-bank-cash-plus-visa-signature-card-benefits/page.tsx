@@ -28,14 +28,20 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
             </h1>
 
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://media.topfinanzas.com/images/kardtrust/us-bank-cash-plus-visa-signature-card.webp"
+                  alt="US Bank Cash+ Visa Signature Card"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
               </div>
-
-              <hr className="my-8" />
 
               <p className="text-gray-700 mb-8">
                 Looking for a credit card that truly fits your lifestyle and
@@ -62,12 +68,19 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-6">
                 <Link href="/financial-solutions/us-bank-cash-plus-visa-signature-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
-                    Check If You Qualify
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
                   </Button>
                 </Link>
+              </div>
+
+              <div
+                id="kardtrust_ad_1"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
               </div>
 
               <p className="text-gray-700 mb-8">
@@ -75,21 +88,6 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 cashback credit card designed for individuals who want
                 flexibility and control over their spending categories.
               </p>
-
-              <div className="my-8 text-left sm:text-left">
-                <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/us-bank-cash-plus-visa-signature-card.webp"
-                  alt="US Bank Cash+ Visa Signature Card"
-                  width={900}
-                  height={507}
-                  className="w-full h-auto rounded-xl"
-                  style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
-                  quality={85}
-                  loading="eager"
-                />
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Up to 5% Cashback in Selected Categories: Customize Your
@@ -214,28 +212,20 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-8">
                 <Link href="/financial-solutions/us-bank-cash-plus-visa-signature-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
-                    See Requirements
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    See Detailed Requirements
                   </Button>
                 </Link>
               </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
+
+      <AIContentDisclaimer />
+      <CompactFooter />
 
       <CompactFooter />
     </main>
