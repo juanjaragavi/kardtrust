@@ -110,7 +110,7 @@ export default function CreditCardTypesBenefitsPage() {
                     benefits. Check out our guide on{" "}
                     <Link
                       href="/personal-finance/best-rewards-credit-cards"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Maximising Credit Card Rewards
                     </Link>
@@ -125,7 +125,7 @@ export default function CreditCardTypesBenefitsPage() {
                     <strong>
                       <Link
                         href="/personal-finance/no-annual-fee-credit-cards"
-                        className="text-blue-600 hover:underline"
+                        className="text-primary hover:underline"
                       >
                         No-Annual-Fee Cards
                       </Link>
@@ -155,7 +155,7 @@ export default function CreditCardTypesBenefitsPage() {
                     <strong>
                       <Link
                         href="/personal-finance/travel-credit-cards"
-                        className="text-blue-600 hover:underline"
+                        className="text-primary hover:underline"
                       >
                         Travel Cards
                       </Link>
@@ -169,7 +169,7 @@ export default function CreditCardTypesBenefitsPage() {
                     <strong>
                       <Link
                         href="/personal-finance/top-credit-cards-0-intro-apr"
-                        className="text-blue-600 hover:underline"
+                        className="text-primary hover:underline"
                       >
                         Balance Transfer Cards
                       </Link>
@@ -204,7 +204,7 @@ export default function CreditCardTypesBenefitsPage() {
                     on purchases thanks to the grace period.{" "}
                     <Link
                       href="/personal-finance/understanding-credit-card-interest-rates"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Learn more about APRs
                     </Link>
@@ -239,7 +239,7 @@ export default function CreditCardTypesBenefitsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/chase-sapphire-reserve"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Chase Sapphire Reserve®:
                     </Link>{" "}
@@ -248,7 +248,7 @@ export default function CreditCardTypesBenefitsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/blue-cash-preferred-card-from-american-express"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Blue Cash Preferred® Card from American Express:
                     </Link>{" "}
@@ -257,7 +257,7 @@ export default function CreditCardTypesBenefitsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/citi-custom-cash-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Citi Custom Cash® Card:
                     </Link>{" "}
@@ -266,7 +266,7 @@ export default function CreditCardTypesBenefitsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Capital One Savor Rewards:
                     </Link>{" "}
@@ -279,7 +279,7 @@ export default function CreditCardTypesBenefitsPage() {
                   financial products, visit our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>
@@ -487,7 +487,7 @@ export default function CreditCardTypesBenefitsPage() {
                   card for your needs from options available on our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions section
                   </Link>

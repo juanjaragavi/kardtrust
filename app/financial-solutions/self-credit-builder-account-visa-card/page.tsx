@@ -111,7 +111,7 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
 
             <div className="text-left my-8">
               <Link href="/financial-solutions/self-credit-builder-account-visa-card-requirements">
-                <Button className="bg-[#4298F0] hover:bg-blue-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                <Button className="bg-[#4298F0] hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                   View Requirements
                 </Button>
               </Link>
@@ -262,7 +262,7 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
                   <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                     Learn more about building credit:
                   </h3>
-                  <ul className="space-y-2 list-disc list-inside text-blue-700">
+                  <ul className="space-y-2 list-disc list-inside text-red-800">
                     <li>
                       <Link
                         href="/financial-solutions/chime-credit-builder-visa-secured-card/"
@@ -305,14 +305,14 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
                 </p>
                 <div className="text-left my-8">
                   <Link href="/financial-solutions/self-credit-builder-account-visa-card-requirements">
-                    <Button className="bg-[#4298F0] hover:bg-blue-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    <Button className="bg-[#4298F0] hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                       Review Eligibility and Application Steps
                     </Button>
                   </Link>
                 </div>
                 <div className="text-left my-8">
                   <a href="https://www.self.inc/" rel="noopener noreferrer">
-                    <Button className="bg-[#4298F0] hover:bg-blue-700 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    <Button className="bg-[#4298F0] hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
                       Visit Self to Start Your Application
                     </Button>
                   </a>

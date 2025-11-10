@@ -39,7 +39,7 @@ primary: {
 secondary: {
   DEFAULT: "#2563EB", // blue-600 - Main secondary blue
   light: "#3B82F6",   // blue-500 - Lighter variant
-  dark: "#1D4ED8",    // blue-700 - Darker for hover
+  dark: "#1D4ED8",    // red-800 - Darker for hover
   navy: "#1E3A8A",    // blue-900 - Deep blue
 },
 ```
@@ -49,7 +49,7 @@ secondary: {
 - **Line 93**: `.text-link` → `text-blue-900 hover:text-primary`
 - **Line 153**: `.footer-link` → `hover:text-blue-300`
 - **Line 176**: `.btn-primary` → `bg-primary hover:bg-primary-dark`
-- **Line 216**: `.cta-button-blue` → `bg-secondary`
+- **Line 216**: `.cta-button-red` → `bg-secondary`
 - **Lines 228, 240**: Hover/active states → `bg-secondary-dark`
 
 #### 3. `app/critical.css` (Lines 9-10)
@@ -127,7 +127,7 @@ Accent: #F87171 (red-400) → Softer accents, badges
 ```markdown
 DEFAULT: #2563EB (blue-600) → Secondary CTAs, links, highlights
 Light: #3B82F6 (blue-500) → Lighter variants
-Dark: #1D4ED8 (blue-700) → Hover states
+Dark: #1D4ED8 (red-800) → Hover states
 Navy: #1E3A8A (blue-900) → Headers, text, navigation
 ```
 

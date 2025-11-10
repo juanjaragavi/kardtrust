@@ -217,7 +217,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Capital One Savor Rewards Credit Card</strong>
                   </Link>
@@ -226,7 +226,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Titanium Rewards Visa Signature Credit Card</strong>
                   </Link>
@@ -235,7 +235,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/doordash-rewards-mastercard-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>DoorDash Rewards Mastercard</strong>
                   </Link>
@@ -246,7 +246,7 @@ export default function WellsFargoAutographCardBenefitsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="/financial-solutions/wells-fargo-autograph-card-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

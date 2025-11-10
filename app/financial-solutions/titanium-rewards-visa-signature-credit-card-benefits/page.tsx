@@ -292,7 +292,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>US Bank Cash+ Visa Signature Card</strong>
                   </Link>
@@ -302,7 +302,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/amazon-rewards-visa-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Amazon Rewards Visa</strong>
                   </Link>
@@ -312,7 +312,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/wells-fargo-autograph-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Wells Fargo Autograph Card</strong>
                   </Link>
@@ -322,7 +322,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

@@ -16,60 +16,68 @@ export function generateMetadata() {
 
 export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
   return (
-    <main className="bg-white min-h-screen flex flex-col">
+    <main
+      className="bg-white min-h-screen flex flex-col"
+      data-category="credit-cards"
+    >
       <Header />
 
-      <article className="bg-white py-8 md:py-12" data-category="credit-cards">
+      <article className="bg-white py-8 md:py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              Capital One Savor Rewards Credit Card Benefits
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 leading-8">
+              Capital One Savor® Rewards: Cash Back for Dining and
+              Entertainment
             </h1>
 
-            <div className="my-8 text-left sm:text-left">
+            <div className="my-8 text-left">
+              <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
+                Earn 3% cash back on dining, entertainment, and select streaming
+                platforms, plus 1% everywhere else—without annual fees or reward
+                tracking headaches.
+              </p>
+              <p className="text-base text-gray-700 mb-6 leading-6">
+                Use it as your go-to card for nights out, concerts, and food
+                delivery while enjoying Capital One’s exclusive event access.
+              </p>
+
               <div
                 id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
+                className="items-center justify-center flex w-full my-6"
               >
-                {/* Empty responsive, centered div */}
+                {/* Reserved for display ad */}
               </div>
 
-              <hr className="my-8" />
+              <div className="my-6 grid gap-3">
+                <div className="rounded-lg border border-orange-200 bg-orange-50 p-4 text-sm text-orange-900">
+                  <p className="font-semibold">Quick snapshot</p>
+                  <ul className="mt-2 space-y-1 pl-4 list-disc">
+                    <li>
+                      3% cash back on dining, entertainment, and select
+                      streaming
+                    </li>
+                    <li>
+                      3% at grocery stores (excluding superstores), 1%
+                      everywhere else
+                    </li>
+                    <li>No annual fee and no foreign transaction fees</li>
+                    <li>
+                      Capital One Entertainment access for presales and VIP
+                      events
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-              <p className="text-gray-700 mb-8">
-                Reward yourself for the moments that matter most.
-              </p>
+              <div className="text-left my-6">
+                <Link href="/financial-solutions/capital-one-savor-rewards-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
+                  </Button>
+                </Link>
+              </div>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <strong>
-                    Unlimited 3% cash back on dining and entertainment:
-                  </strong>{" "}
-                  Enjoy every meal.
-                </li>
-                <li>
-                  <strong>No annual fee:</strong> Keep all your rewards without
-                  the extra cost.
-                </li>
-                <li>
-                  <strong>1% Cash back on all purchases:</strong> Every dollar
-                  spent earns you rewards.
-                </li>
-                <li>
-                  <strong>Access to exclusive experiences:</strong> VIP access
-                  to dining and events.
-                </li>
-              </ul>
-
-              <p className="text-gray-700 mb-8">
-                The Capital One Savor Rewards Credit Card is perfect for those
-                who love dining out and entertainment, offering straightforward
-                cash back with no rotating categories or enrollment
-                requirements. Discover why this card is a game-changer for
-                foodies and fun lovers.
-              </p>
-
-              <div className="my-8 text-left sm:text-left">
+              <div className="my-8">
                 <Image
                   src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-14-1.webp"
                   alt="Capital One Savor Rewards Credit Card"
@@ -77,203 +85,120 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                   height={507}
                   className="w-full h-auto rounded-xl"
                   style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
+                  loading="lazy"
                   quality={85}
-                  loading="eager"
                 />
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Perfect for Foodies and Fun Lovers
+                Turn Dining and Entertainment Into Monthly Savings
               </h2>
-
-              <p className="text-gray-700 mb-8">
-                If dining out and entertainment are part of your lifestyle, the
-                3% unlimited cash back ensures your spending is rewarding. From
-                movie nights to concerts, every outing brings you closer to your
-                financial goals. The Savor Rewards card offers straightforward
-                cash back with no rotating categories or enrollment
-                requirements, making it hassle-free to enjoy rewards for your
-                everyday purchases.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                Whether you're trying a new restaurant, catching the latest
-                blockbuster, or attending a live concert, this card turns your
-                entertainment expenses into valuable rewards. For frequent
-                diners and entertainment enthusiasts, the unlimited 3% cash back
-                can add up to significant savings throughout the year.
+              <p className="text-gray-700 mb-6 leading-6">
+                Spend $400 a month on restaurants, concerts, and streaming and
+                you’ll pocket roughly $12 back each month. Rewards post as soon
+                as purchases settle, so you can redeem as statement credits,
+                gift cards, or travel through Capital One.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Cash Back Without Complexity
+                Grocery Stores Covered, Superstores Excluded
               </h2>
-
-              <p className="text-gray-700 mb-8">
-                The Savor Rewards card offers straightforward cash back with no
-                rotating categories or enrollment requirements. Enjoy rewards
-                for your everyday purchases hassle-free. Unlike other cards that
-                require you to track quarterly categories or remember to opt-in
-                for bonuses, the Capital One Savor keeps things simple.
+              <p className="text-gray-700 mb-6 leading-6">
+                The card includes traditional grocery stores in its 3% tier.
+                Big-box stores like Walmart or Target code differently, so keep
+                that in mind when planning weekly shopping.
               </p>
 
-              <p className="text-gray-700 mb-8">
-                This simplicity means you can focus on enjoying your experiences
-                rather than worrying about maximizing complex reward structures.
-                Every qualifying purchase automatically earns the appropriate
-                cash back rate, making it one of the most user-friendly rewards
-                cards available.
+              <div
+                id="kardtrust_ad_2"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
+              </div>
+
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Skip Foreign Fees When You Travel
+              </h2>
+              <p className="text-gray-700 mb-6 leading-6">
+                Take the Savor abroad without worrying about the standard 3%
+                surcharge most cards charge. Every international meal still
+                earns the same elevated cash back rate.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Exclusive Event Access
+                Get More Than Cash Back With Capital One Entertainment
               </h2>
-
-              <p className="text-gray-700 mb-8">
-                Experience VIP treatment with special access to dining, music,
-                and sports events, turning ordinary nights into extraordinary
-                memories. Capital One Savor cardholders gain access to exclusive
-                experiences that money can't typically buy.
+              <p className="text-gray-700 mb-6 leading-6">
+                Access presales, VIP lounge upgrades, and curated events through
+                Capital One’s entertainment portal. It’s a perk that turns the
+                card into a lifestyle companion rather than just a cash back
+                tool.
               </p>
 
-              <p className="text-gray-700 mb-8">
-                From private dining events at renowned restaurants to early
-                access tickets for concerts and sporting events, these perks add
-                value beyond the cash back rewards. These exclusive
-                opportunities create memorable experiences that enhance your
-                lifestyle while providing access to unique entertainment
-                options.
-              </p>
+              <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
+                <h3 className="text-md font-bold text-gray-800 mb-3 text-left">
+                  Important Disclosure
+                </h3>
+                <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
+                  <strong>Representative Example:</strong> Spending $900 per
+                  month—$400 in dining/entertainment/streaming, $250 at grocery
+                  stores, and $250 elsewhere—earns roughly $29 per month ($348
+                  per year). Carrying that balance at the variable 19.99%–29.99%
+                  APR could cost $180+ annually in interest, erasing cash back
+                  gains.
+                </p>
+                <p className="text-sm text-gray-700 leading-5 text-left">
+                  <strong>Risk Warning:</strong> Missing payments can trigger
+                  late fees and penalty APRs. Verify current categories, sign-up
+                  bonuses, and terms with Capital One before applying.
+                </p>
+              </section>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                No Foreign Transaction Fees
-              </h2>
-
-              <p className="text-gray-700 mb-8">
-                Whether dining abroad or shopping online from international
-                retailers, you won't face extra fees. This feature makes the
-                Capital One Savor an excellent travel companion, allowing you to
-                earn cash back on international dining and entertainment without
-                worrying about additional charges.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                For travelers who love experiencing local cuisine and
-                entertainment abroad, this benefit ensures that every
-                international purchase earns rewards without the typical 2-3%
-                foreign transaction fees that many cards charge.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                How to Maximize Rewards
-              </h2>
-
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                Use it for Everyday Purchases
-              </h3>
-
-              <p className="text-gray-700 mb-8">
-                While the card shines in dining and entertainment, earning 1%
-                cash back on all purchases means you're rewarded for everything
-                from groceries to gas. This universal cash back rate ensures
-                that even non-bonus category spending contributes to your
-                rewards accumulation.
-              </p>
-
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">
-                Pair it with Another Capital One Card
-              </h3>
-
-              <p className="text-gray-700 mb-8">
-                Combine your Savor Rewards card with another Capital One product
-                to optimize rewards across all spending categories. Capital One
-                allows you to pool rewards across multiple cards, giving you
-                flexibility in how you redeem your earnings.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                Consider pairing the Savor with a card that offers higher rates
-                on categories like groceries or gas to create a comprehensive
-                rewards strategy that maximizes your earning potential across
-                all your spending.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Your Perfect Dining and Entertainment Companion
-              </h2>
-
-              <p className="text-gray-700 mb-8">
-                The Capital One Savor Rewards Credit Card is a game-changer for
-                those who love dining and entertainment. Its cash-back
-                structure, no annual fee, and exclusive perks make it a
-                must-have for anyone with a taste for the finer things in life.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                With unlimited 3% cash back on dining and entertainment, 1% on
-                all other purchases, and valuable perks like exclusive event
-                access and no foreign transaction fees, this card delivers
-                exceptional value for lifestyle-focused spenders.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Explore Other Financial Solutions
-              </h2>
-
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <Link
-                    href="/financial-solutions/wells-fargo-autograph-card-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>Wells Fargo Autograph Card</strong>
-                  </Link>
-                  : Earn 3x points on restaurants, travel, gas, and more.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/doordash-rewards-mastercard-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>DoorDash Rewards Mastercard</strong>
-                  </Link>
-                  : Ideal for those who frequently use food delivery services.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/amazon-rewards-visa-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>Amazon Rewards Visa</strong>
-                  </Link>
-                  : A great option if you also spend frequently on Amazon.
-                </li>
-              </ul>
-
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-8">
                 <Link href="/financial-solutions/capital-one-savor-rewards-credit-card-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
-                    See Requirements
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    See Detailed Requirements
                   </Button>
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
+              <div className="mt-10 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Compare Other Entertainment-Focused Cards
+                </h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>
+                    <Link
+                      href="/financial-solutions/wells-fargo-autograph-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Wells Fargo Autograph Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/doordash-rewards-mastercard-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      DoorDash Rewards Mastercard Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/amazon-rewards-visa-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Amazon Rewards Visa Credit Card Benefits
+                    </Link>
+                  </li>
+                </ul>
               </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
 
+      <AIContentDisclaimer />
       <CompactFooter />
     </main>
   );

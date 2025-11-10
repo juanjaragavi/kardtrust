@@ -156,7 +156,7 @@ export default function CashbackCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Bank of America® Unlimited Cash Rewards:
                     </Link>{" "}
@@ -165,7 +165,7 @@ export default function CashbackCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/wells-fargo-active-cash-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Wells Fargo Active Cash® Card:
                     </Link>{" "}
@@ -174,7 +174,7 @@ export default function CashbackCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Citi® Double Cash Card:
                     </Link>{" "}
@@ -187,7 +187,7 @@ export default function CashbackCreditCardsPage() {
                   cashback and rewards options, visit our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>
@@ -246,7 +246,7 @@ export default function CashbackCreditCardsPage() {
                   control of your spending, explore the best options on our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions section
                   </Link>

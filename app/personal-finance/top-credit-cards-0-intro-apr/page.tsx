@@ -218,7 +218,7 @@ export default function TopCreditCards0IntroAprPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/chase-freedom-flex"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Chase:
                     </Link>{" "}
@@ -228,7 +228,7 @@ export default function TopCreditCards0IntroAprPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Bank of America:
                     </Link>{" "}
@@ -237,7 +237,7 @@ export default function TopCreditCards0IntroAprPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/wells-fargo-active-cash-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Wells Fargo:
                     </Link>{" "}
@@ -247,7 +247,7 @@ export default function TopCreditCards0IntroAprPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/citi-simplicity-card-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Citi:
                     </Link>{" "}
@@ -261,7 +261,7 @@ export default function TopCreditCards0IntroAprPage() {
                   visit our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>
@@ -296,7 +296,7 @@ export default function TopCreditCards0IntroAprPage() {
                   which you can compare in our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions section
                   </Link>

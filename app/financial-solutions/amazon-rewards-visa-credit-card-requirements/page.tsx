@@ -102,14 +102,14 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/citi-simplicity-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Discover the Benefits of the Citi Simplicity Card
                 </Link>{" "}
                 or{" "}
                 <Link
                   href="/financial-solutions/doordash-rewards-mastercard-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   DoorDash Rewards Mastercard Benefits: Maximize Your Food
                   Savings
@@ -117,7 +117,7 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/understanding-your-paycheck-taxes-deductions-and-net-pay-explained"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Understanding Your Paycheck: Taxes, Deductions, and Net Pay
                   Explained
@@ -232,7 +232,7 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://creditcards.chase.com/cash-back-credit-cards/amazon-prime-rewards">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

@@ -83,7 +83,7 @@ export default function FinancialHealthCheckPage() {
                   effective{" "}
                   <Link
                     href="/personal-finance/money-management-for-beginners"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     money management for beginners
                   </Link>
@@ -193,7 +193,7 @@ export default function FinancialHealthCheckPage() {
                   impulse spending, check out our guide on{" "}
                   <Link
                     href="/personal-finance/ditching-impulse-buys-mindful-spending"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     ditching impulse buys for mindful spending
                   </Link>
@@ -208,7 +208,7 @@ export default function FinancialHealthCheckPage() {
                   your budget month after month. Consider a{" "}
                   <Link
                     href="/personal-finance/top-credit-cards-0-intro-apr"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     0% intro APR credit card
                   </Link>{" "}
@@ -216,7 +216,7 @@ export default function FinancialHealthCheckPage() {
                   explore how{" "}
                   <Link
                     href="/personal-finance/understanding-credit-card-interest-rates"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     credit card interest rates work
                   </Link>{" "}
@@ -259,7 +259,7 @@ export default function FinancialHealthCheckPage() {
                   habits, our article on{" "}
                   <Link
                     href="/personal-finance/creating-a-budget-youll-actually-stick-to"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     creating a budget you'll actually stick to
                   </Link>{" "}
@@ -294,7 +294,7 @@ export default function FinancialHealthCheckPage() {
                   deeper into overall financial wellness, explore what{" "}
                   <Link
                     href="/personal-finance/what-is-financial-health"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     financial health actually means
                   </Link>{" "}
@@ -315,7 +315,7 @@ export default function FinancialHealthCheckPage() {
                     Learn{" "}
                     <Link
                       href="/personal-finance/money-management-for-beginners"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       money management basics
                     </Link>{" "}
@@ -325,7 +325,7 @@ export default function FinancialHealthCheckPage() {
                     Understand the difference between{" "}
                     <Link
                       href="/personal-finance/understanding-credit-card-interest-rates"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       credit card interest rates and APR
                     </Link>{" "}
@@ -335,7 +335,7 @@ export default function FinancialHealthCheckPage() {
                     If you're juggling debt, read our guide on{" "}
                     <Link
                       href="/personal-finance/getting-out-of-debt"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       how to get out of debt
                     </Link>{" "}
@@ -345,7 +345,7 @@ export default function FinancialHealthCheckPage() {
                     Explore more resources in our{" "}
                     <Link
                       href="/personal-finance"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Personal Finance section
                     </Link>
@@ -361,7 +361,7 @@ export default function FinancialHealthCheckPage() {
               </section>
 
               <div className="mt-12 mb-6 text-center">
-                <Link href="/personal-finance" className="cta-button-blue">
+                <Link href="/personal-finance" className="cta-button-red">
                   Explore More Personal Finance Guides
                 </Link>
               </div>

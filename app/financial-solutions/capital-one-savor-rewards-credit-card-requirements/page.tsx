@@ -108,7 +108,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/doordash-rewards-mastercard-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   DoorDash Rewards Mastercard Benefits: Maximize Your Food
                   Savings
@@ -116,7 +116,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                 or{" "}
                 <Link
                   href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Chase Freedom Unlimited Credit Card Benefits: Unlimited
                   Cashback & More
@@ -124,7 +124,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/the-first-step-to-financial-freedom-understanding-your-money-mindset"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   The First Step to Financial Freedom: Understanding Your Money
                   Mindset
@@ -270,7 +270,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.capitalone.com/credit-cards/savor/">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

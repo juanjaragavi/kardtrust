@@ -844,7 +844,7 @@ const SidebarNewsletter = React.forwardRef<
         />
         <button
           type="submit"
-          className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-full"
+          className="w-full bg-primary hover:bg-red-800 text-white font-medium py-2 px-4 rounded-full"
         >
           Subscribe
         </button>

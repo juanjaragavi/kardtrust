@@ -828,7 +828,7 @@ export default function BlogArchivePage() {
             onClick={() => setActiveCategory(key === "all" ? null : key)}
             className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
               (key === "all" && !activeCategory) || activeCategory === key
-                ? "bg-blue-600 text-white"
+                ? "bg-primary text-white"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             }`}
             data-category={key}

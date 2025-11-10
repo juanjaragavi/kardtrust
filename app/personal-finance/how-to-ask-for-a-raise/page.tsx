@@ -96,7 +96,7 @@ export default function HowToAskForRaisePage() {
                   benefit your overall{" "}
                   <Link
                     href="/personal-finance/what-is-financial-health"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     financial health
                   </Link>
@@ -142,7 +142,7 @@ export default function HowToAskForRaisePage() {
                   Update your personal budget and review your{" "}
                   <Link
                     href="/personal-finance/setting-financial-goals"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     financial goals
                   </Link>{" "}
@@ -165,7 +165,7 @@ export default function HowToAskForRaisePage() {
                   Building strong{" "}
                   <Link
                     href="/personal-finance/money-management-for-beginners"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     money management habits
                   </Link>{" "}

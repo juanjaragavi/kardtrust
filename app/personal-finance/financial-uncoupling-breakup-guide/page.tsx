@@ -180,7 +180,7 @@ export default function FinancialUncouplingPage() {
                   check out our guide on{" "}
                   <Link
                     href="/personal-finance/credit-card-types-benefits"
-                    className="text-blue-600 hover:text-blue-800 underline"
+                    className="text-primary hover:text-blue-800 underline"
                   >
                     credit cards and financial health
                   </Link>
@@ -229,7 +229,7 @@ export default function FinancialUncouplingPage() {
                   article on{" "}
                   <Link
                     href="/personal-finance/getting-out-of-debt"
-                    className="text-blue-600 hover:text-blue-800 underline"
+                    className="text-primary hover:text-blue-800 underline"
                   >
                     getting out of debt
                   </Link>{" "}
@@ -340,7 +340,7 @@ export default function FinancialUncouplingPage() {
                   <a
                     href="https://www.mymoney.gov/"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 underline"
+                    className="text-primary hover:text-blue-800 underline"
                   >
                     MyMoney.gov
                   </a>{" "}
@@ -350,7 +350,7 @@ export default function FinancialUncouplingPage() {
                   For those starting fresh with money management, our guide on{" "}
                   <Link
                     href="/personal-finance/money-management-for-beginners"
-                    className="text-blue-600 hover:text-blue-800 underline"
+                    className="text-primary hover:text-blue-800 underline"
                   >
                     money management for beginners
                   </Link>{" "}
@@ -384,7 +384,7 @@ export default function FinancialUncouplingPage() {
               <div className="mt-12 mb-6 text-center">
                 <Link
                   href="/personal-finance"
-                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+                  className="inline-block bg-primary hover:bg-red-800 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
                 >
                   Explore More Personal Finance Guides
                 </Link>

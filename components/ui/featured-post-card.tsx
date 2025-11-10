@@ -106,7 +106,7 @@ export function FeaturedPostCard({
 
         <Link
           href={postUrl}
-          className="block mt-1 text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors mb-2 line-clamp-2 text-left sm:text-left"
+          className="block mt-1 text-lg font-semibold text-gray-900 hover:text-primary transition-colors mb-2 line-clamp-2 text-left sm:text-left"
         >
           {title}
         </Link>
@@ -118,7 +118,7 @@ export function FeaturedPostCard({
         <div className="mt-4 text-left sm:text-left">
           <Link
             href={postUrl}
-            className="text-blue-600 hover:text-blue-800 font-medium"
+            className="text-primary hover:text-blue-800 font-medium"
           >
             Read more →
           </Link>

@@ -102,7 +102,7 @@ export default function InflationProofYourLifePage() {
                   you're new to tracking spending, see our guide on{" "}
                   <Link
                     href="/personal-finance/creating-a-budget-youll-actually-stick-to"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     creating a budget you'll actually stick to
                   </Link>
@@ -132,7 +132,7 @@ export default function InflationProofYourLifePage() {
                     Transfer high-interest credit card balances to a{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       0% intro APR card
                     </Link>{" "}
@@ -176,7 +176,7 @@ export default function InflationProofYourLifePage() {
                   foundational steps, read our article on{" "}
                   <Link
                     href="/personal-finance/money-management-for-beginners"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     money management for beginners
                   </Link>
@@ -218,7 +218,7 @@ export default function InflationProofYourLifePage() {
                   pocket. Reducing impulse buys also helps; see{" "}
                   <Link
                     href="/personal-finance/ditching-impulse-buys-mindful-spending"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     ditching impulse buys through mindful spending
                   </Link>{" "}
@@ -240,7 +240,7 @@ export default function InflationProofYourLifePage() {
                     support it. Our guide on{" "}
                     <Link
                       href="/personal-finance/how-to-ask-for-a-raise"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       how to ask for a raise
                     </Link>{" "}
@@ -251,7 +251,7 @@ export default function InflationProofYourLifePage() {
                     during evenings or weekends. Read more about{" "}
                     <Link
                       href="/personal-finance/side-hustle-or-second-job"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       side hustles and second jobs
                     </Link>
@@ -289,7 +289,7 @@ export default function InflationProofYourLifePage() {
                     Consider consolidating multiple balances with a{" "}
                     <Link
                       href="/personal-finance/best-personal-loans"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       fixed-rate personal loan
                     </Link>{" "}
@@ -305,7 +305,7 @@ export default function InflationProofYourLifePage() {
                   comprehensive approach, see{" "}
                   <Link
                     href="/personal-finance/getting-out-of-debt"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     getting out of debt
                   </Link>
@@ -345,7 +345,7 @@ export default function InflationProofYourLifePage() {
                   times, read{" "}
                   <Link
                     href="/personal-finance/setting-financial-goals"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     setting financial goals
                   </Link>
@@ -401,14 +401,14 @@ export default function InflationProofYourLifePage() {
                     If you carry high-interest debt, explore{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       balance transfer options
                     </Link>{" "}
                     or{" "}
                     <Link
                       href="/personal-finance/best-personal-loans"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       consolidation loans
                     </Link>
@@ -421,7 +421,7 @@ export default function InflationProofYourLifePage() {
                     Explore more personal finance strategies in our{" "}
                     <Link
                       href="/personal-finance"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Personal Finance section
                     </Link>
@@ -437,7 +437,7 @@ export default function InflationProofYourLifePage() {
               </section>
 
               <div className="mt-12 mb-6 text-center">
-                <Link href="/personal-finance" className="cta-button-blue">
+                <Link href="/personal-finance" className="cta-button-red">
                   Explore More Personal Finance Guides
                 </Link>
               </div>

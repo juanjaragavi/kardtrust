@@ -328,7 +328,7 @@ export default function TiltCardPage() {
                   <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                     Learn More About Building Credit:
                   </h3>
-                  <ul className="space-y-2 list-disc list-inside text-blue-700">
+                  <ul className="space-y-2 list-disc list-inside text-red-800">
                     <li>
                       <Link
                         href="/personal-finance/credit-card-types-benefits/"

@@ -27,45 +27,39 @@ export default function CitiSimplicityCardBenefitsPage() {
             </h1>
 
             <div className="my-8 text-left sm:text-left">
+              <p className="text-lg text-gray-800 font-medium mb-4">
+                Citi Simplicity® removes the usual credit card penalties: no
+                late fees, no penalty APR, and an extended 0% intro APR window
+                for purchases and balance transfers.
+              </p>
+              <p className="text-base text-gray-700 mb-6">
+                Use it to consolidate debt or spread large expenses without the
+                fear of surprise rate spikes. Pay on your schedule while you
+                reset your budget.
+              </p>
+
               <div
                 id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
+                className="items-center justify-center flex w-full my-6"
               >
                 {/* Empty responsive, centered div */}
               </div>
 
-              <hr className="my-8" />
-
-              <p className="text-gray-700 mb-8">
-                Simplify your finances with no late fees, no penalty rates, and
-                exceptional ease of use.
-              </p>
-
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <strong>No late fees, ever</strong> - Focus on payments
-                  without penalty stress.
-                </li>
-                <li>
-                  <strong>No penalty APR</strong> - Your rate stays the same
-                  even if you miss a payment.
-                </li>
-                <li>
-                  <strong>0% intro APR for 21 months</strong> on purchases and
-                  balance transfers.
-                </li>
-                <li>
-                  <strong>No annual fee</strong> - Keep more money in your
-                  pocket.
-                </li>
-              </ul>
-
-              <p className="text-gray-700 mb-8">
-                The Citi Simplicity Card is designed for those who want
-                straightforward credit management without the worry of fees and
-                penalties. Perfect for consolidating debt or making large
-                purchases with peace of mind.
-              </p>
+              <div className="my-6 grid gap-3">
+                <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900">
+                  <p className="font-semibold">Quick snapshot</p>
+                  <ul className="mt-2 space-y-1 pl-4 list-disc">
+                    <li>
+                      0% intro APR for 21 months on purchases and transfers
+                    </li>
+                    <li>No late fees and no penalty APR ever</li>
+                    <li>No annual fee</li>
+                    <li>
+                      Balance transfer fee: 3% or $5, whichever is greater
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
               <div className="my-8 text-left sm:text-left">
                 <Image
@@ -83,153 +77,66 @@ export default function CitiSimplicityCardBenefitsPage() {
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                No Late Fees, Ever: Freedom from Financial Penalties
+                Extend Cash Flow with 0% Intro APR
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                The Citi Simplicity Card's standout feature is its commitment to
-                never charging late fees, regardless of how many times you might
-                miss a payment deadline. This unique benefit provides
-                unprecedented peace of mind for cardholders who want to manage
-                their finances without the stress of potential penalty charges.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                Unlike traditional credit cards that can impose late fees
-                ranging from $25 to $40 or more, the Citi Simplicity Card
-                eliminates this concern entirely. This means you can focus on
-                building better payment habits without the fear of accumulating
-                additional debt through penalty fees. Whether you're dealing
-                with irregular income, busy schedules, or simply want the
-                security of knowing you won't be penalized for occasional late
-                payments, this feature provides valuable financial flexibility.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                This benefit is particularly valuable for students, freelancers,
-                or anyone with variable income who might occasionally struggle
-                with payment timing but wants to maintain good credit standing.
+              <p className="text-gray-700 mb-6">
+                Citi Simplicity® offers 0% intro APR for 21 months on purchases
+                and balance transfers. Move high-interest balances or fund a big
+                expense, then set a payoff timeline that clears the balance
+                before the variable APR (19.24% – 29.99%) takes over. Transfer
+                fees apply, so weigh the savings before you move debt.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                No Penalty APR: Your Rate Stays Consistent
+                No Late Fees or Penalty APR
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                Beyond eliminating late fees, the Citi Simplicity Card also
-                promises no penalty APR increases. This means your interest rate
-                will never be raised as punishment for late payments or other
-                account behaviors that might trigger penalty rates on other
-                cards.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                Traditional credit cards often implement penalty APRs that can
-                jump to 29.99% or higher when cardholders miss payments, making
-                debt recovery much more difficult. The Citi Simplicity Card's
-                approach ensures your APR remains stable and predictable,
-                helping you maintain control over your debt and payment
-                strategy.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                This consistency in rates makes it easier to plan your finances
-                and creates a more forgiving environment for those working to
-                improve their credit management skills. You can focus on paying
-                down balances without worrying about sudden rate increases that
-                could derail your progress.
+              <p className="text-gray-700 mb-6">
+                Miss a due date and you still avoid late fees and penalty APR
+                jumps. Your rate stays consistent, giving you room to recover
+                without compounding charges. Use this flexibility to rebuild
+                habits, not to normalize late payments.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                0% Intro APR for 21 Months: Time to Breathe and Plan
+                Fee-Free Ownership
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                The Citi Simplicity Card offers an exceptionally generous 0%
-                introductory APR period of 21 months on both purchases and
-                balance transfers. This extended promotional period provides
-                substantial time to manage large expenses or consolidate
-                existing debt without accruing interest charges.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                For balance transfers, this means you can move high-interest
-                debt from other cards and have nearly two years to pay it down
-                without additional interest accumulation. This can result in
-                significant savings—if you transfer $5,000 from a card charging
-                24% APR, you could save over $2,000 in interest charges during
-                the promotional period.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                For new purchases, the 21-month 0% APR period allows you to make
-                large necessary purchases—like appliances, furniture, or
-                emergency expenses—and spread payments over time without
-                interest charges. This flexibility can be particularly valuable
-                for major life events, home improvements, or unexpected expenses
-                that might otherwise strain your budget.
+              <p className="text-gray-700 mb-6">
+                There is no annual fee, so you keep the card in your wallet for
+                the long haul to support your credit age and available credit.
+                Pairing Citi Simplicity® with a rewards card covers purchases
+                while this card handles financing needs.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                No Annual Fee: Maximum Value, Minimal Cost
+                Who This Card Fits
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                The Citi Simplicity Card comes with no annual fee, ensuring that
-                all the benefits you receive don't come at the cost of yearly
-                charges. This makes the card accessible to a broader range of
-                consumers and ensures that the money you save from avoided fees
-                and promotional rates translates directly to your bottom line.
+              <p className="text-gray-700 mb-6">
+                Ideal for borrowers targeting debt payoff or anyone who wants a
+                forgiving safety net. If you prioritize cash back or travel
+                rewards, layer Citi Simplicity® with a dedicated rewards card
+                once balances are under control.
               </p>
 
-              <p className="text-gray-700 mb-8">
-                Without an annual fee, you can keep the card open indefinitely
-                to maintain your credit history and available credit, even if
-                your usage patterns change over time. This long-term flexibility
-                supports your overall credit health and financial planning
-                goals.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Perfect for Debt Consolidation and Large Purchases
-              </h2>
-
-              <p className="text-gray-700 mb-8">
-                The combination of no fees, no penalty rates, and an extended 0%
-                APR period makes the Citi Simplicity Card an excellent choice
-                for debt consolidation. You can transfer balances from multiple
-                high-interest cards and focus on paying down the principal
-                without worrying about additional fees or rate increases.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                For large purchases, the card provides a practical way to spread
-                costs over time without the burden of immediate interest
-                charges. This makes it ideal for planned expenses like wedding
-                costs, medical procedures, or home improvements where you need
-                financing flexibility.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Simplicity in Credit Management
-              </h2>
-
-              <p className="text-gray-700 mb-8">
-                The Citi Simplicity Card lives up to its name by removing the
-                common complications and frustrations associated with credit
-                card ownership. By eliminating late fees and penalty rates while
-                providing an extended promotional period, it creates a more
-                forgiving and manageable credit experience.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                This approach makes it particularly suitable for those who are
-                new to credit, rebuilding their credit, or simply want a
-                straightforward card without complex rewards structures or
-                hidden fees. The card's simplicity doesn't mean sacrificing
-                value—it means focusing on the fundamental benefits that matter
-                most for everyday credit management.
-              </p>
+              <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
+                <h3 className="text-md font-bold text-gray-800 mb-3 text-left">
+                  Important Disclosure
+                </h3>
+                <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
+                  <strong>Representative Example:</strong> Transferring $5,000
+                  at 24% APR to Citi Simplicity® and paying it off within 21
+                  months avoids roughly $2,000 in interest. A 3% transfer fee
+                  ($150) applies upfront.
+                </p>
+                <p className="text-sm text-gray-700 leading-5 text-left">
+                  <strong>Risk Warning:</strong> Late or missed payments can
+                  still impact your credit profile. Review Citi’s Pricing &amp;
+                  Terms for full conditions before applying.
+                </p>
+              </section>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Explore Other Financial Solutions
@@ -239,7 +146,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/td-flexpay-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>TD FlexPay Credit Card</strong>
                   </Link>
@@ -249,7 +156,7 @@ export default function CitiSimplicityCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Chase Freedom Unlimited Credit Card</strong>
                   </Link>
@@ -258,18 +165,17 @@ export default function CitiSimplicityCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Citi Double Cash Card</strong>
                   </Link>
-                  : While not a balance transfer specific card, its 2% cashback
-                  can help offset costs.
+                  : Earn 2% cash back to offset everyday expenses.
                 </li>
               </ul>
 
               <div className="my-8 flex justify-center">
                 <Link href="/financial-solutions/citi-simplicity-card-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

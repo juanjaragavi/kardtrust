@@ -323,7 +323,7 @@ export default function PersonalFinanceArchivePage() {
             onClick={() => setActiveCategory(key)}
             className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
               activeCategory === key
-                ? "bg-blue-600 text-white"
+                ? "bg-primary text-white"
                 : "bg-gray-100 text-gray-700 hover:bg-gray-200"
             }`}
           >
@@ -363,7 +363,7 @@ export default function PersonalFinanceArchivePage() {
                 )}
                 <Link
                   href={`/personal-finance/${post.slug}`}
-                  className="text-lg font-semibold text-gray-900 hover:text-blue-600 transition-colors mb-2"
+                  className="text-lg font-semibold text-gray-900 hover:text-primary transition-colors mb-2"
                 >
                   {post.title.split("|")[0].trim()} {/* Show cleaner title */}
                 </Link>
@@ -373,7 +373,7 @@ export default function PersonalFinanceArchivePage() {
                 <div className="mt-auto">
                   <Link
                     href={`/personal-finance/${post.slug}`}
-                    className="text-blue-600 hover:text-blue-800 font-medium text-sm"
+                    className="text-primary hover:text-blue-800 font-medium text-sm"
                   >
                     Read more →
                   </Link>

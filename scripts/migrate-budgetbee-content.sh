@@ -186,10 +186,10 @@ processedBody = processedBody.replace(
         if (href.startsWith('/')) {
             // Handle markdown bold in link text
             const cleanText = text.replace(/\*\*/g, '');
-            return `<Link href="${href}" className="text-blue-600 hover:underline">${cleanText}</Link>`;
+            return `<Link href="${href}" className="text-primary hover:underline">${cleanText}</Link>`;
         } else {
             // External link
-            return `<a href="${href}" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">${text}</a>`;
+            return `<a href="${href}" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">${text}</a>`;
         }
     }
 );
@@ -279,7 +279,7 @@ const finalContent = tsxContent.replace(
     /<BUTTON_PLACEHOLDER label="([^"]+)" href="([^"]+)" \/>/g,
     `<div className="my-8 flex justify-center">
                 <Link href="$2">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     $1
                   </Button>
                 </Link>

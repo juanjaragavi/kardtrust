@@ -146,7 +146,7 @@ export default function SirenCardPage() {
 
               {/* Feature 2 */}
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-200">
-                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
                   <svg
                     className="w-6 h-6 text-white"
                     fill="none"
@@ -171,15 +171,15 @@ export default function SirenCardPage() {
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-primary mr-2">✓</span>
                     $0 monthly fees, forever
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-primary mr-2">✓</span>
                     $0 overdraft or late payment fees
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-primary mr-2">✓</span>
                     0% interest charged, guaranteed
                   </li>
                 </ul>
@@ -304,7 +304,7 @@ export default function SirenCardPage() {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-lg border-2 border-blue-200">
-                  <div className="w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
+                  <div className="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-xl font-bold mb-4">
                     2
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
@@ -712,7 +712,7 @@ export default function SirenCardPage() {
                 </div>
                 <ul className="space-y-4">
                   <li className="flex items-start">
-                    <span className="text-blue-600 font-bold text-xl mr-3">
+                    <span className="text-primary font-bold text-xl mr-3">
                       →
                     </span>
                     <div>
@@ -726,7 +726,7 @@ export default function SirenCardPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 font-bold text-xl mr-3">
+                    <span className="text-primary font-bold text-xl mr-3">
                       →
                     </span>
                     <div>
@@ -740,7 +740,7 @@ export default function SirenCardPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 font-bold text-xl mr-3">
+                    <span className="text-primary font-bold text-xl mr-3">
                       →
                     </span>
                     <div>
@@ -754,7 +754,7 @@ export default function SirenCardPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 font-bold text-xl mr-3">
+                    <span className="text-primary font-bold text-xl mr-3">
                       →
                     </span>
                     <div>
@@ -768,7 +768,7 @@ export default function SirenCardPage() {
                     </div>
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 font-bold text-xl mr-3">
+                    <span className="text-primary font-bold text-xl mr-3">
                       →
                     </span>
                     <div>

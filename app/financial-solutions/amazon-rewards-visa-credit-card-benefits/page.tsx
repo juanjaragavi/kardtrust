@@ -18,157 +18,64 @@ export function generateMetadata() {
 
 export default function AmazonRewardsVisaBenefitsPage() {
   return (
-    <main className="bg-white min-h-screen flex flex-col">
+    <main
+      className="bg-white min-h-screen flex flex-col"
+      data-category="credit-cards"
+    >
       <Header />
 
-      <article className="bg-white py-8 md:py-12" data-category="credit-cards">
+      <article className="bg-white py-8 md:py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              Unlock the Benefits of the Amazon Rewards Visa Credit Card
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 leading-8">
+              Amazon Rewards Visa®: Everyday Cash Back for Prime Shoppers
             </h1>
 
-            <div className="my-8 text-left sm:text-left">
-              <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
-                Maximize your rewards with cashback at Amazon and Whole Foods,
-                plus no annual fee!
+            <div className="my-8 text-left">
+              <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
+                Earn rich rewards at Amazon and Whole Foods, pick up value in
+                everyday categories, and keep every dollar of cash back thanks
+                to a $0 annual fee.
               </p>
-
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <strong>3% cashback on purchases</strong> at Amazon.com and
-                  Whole Foods Market.
-                </li>
-                <li>
-                  <strong>2% cashback at restaurants,</strong> gas stations, and
-                  drugstores.
-                </li>
-                <li>
-                  <strong>1% cashback</strong> on all other purchases.
-                </li>
-                <li>
-                  <strong>No annual fees.</strong>
-                </li>
-              </ul>
-
-              <p className="text-gray-700 mb-8">
-                The Amazon Rewards Visa Credit Card is ideal for frequent Amazon
-                and Whole Foods shoppers, offering cashback on purchases and
-                extra rewards in everyday categories like dining and gas.
-                Discover its key benefits and how to maximize your rewards.
+              <p className="text-base text-gray-700 mb-6 leading-6">
+                Prime members earn 5% back instantly, while non-Prime
+                cardholders still grab strong 3% returns, making this a go-to
+                wallet staple for repeat Amazon shoppers.
               </p>
 
               <div
                 id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
+                className="items-center justify-center flex w-full my-6"
               >
-                {/* Empty responsive, centered div */}
+                {/* Reserved for display ad */}
               </div>
 
-              <hr className="my-8" />
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                3% Cashback on Amazon and Whole Foods Purchases: Maximize Your
-                Favorite Purchases
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                The Amazon Rewards Visa Credit Card offers 3% cashback on
-                purchases at Amazon.com and Whole Foods Market, making it a
-                great choice for frequent shoppers. For example, spending $500 a
-                month on Amazon could earn $15 in cashback—$180 annually—which
-                can be used for future purchases or as a statement credit. This
-                is especially valuable during events like Prime Day or Black
-                Friday, where higher spending can lead to even greater rewards.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                At Whole Foods Market, known for its organic and premium
-                products, the same 3% cashback applies, offering savings for
-                health-conscious shoppers. This feature makes the card an
-                excellent tool for maximizing rewards on both online and grocery
-                purchases.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                2% Cashback at Restaurants, Gas Stations, and Drugstores:
-                Benefits for Your Daily Life
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                The Amazon Rewards Visa Credit Card offers 2% cashback on
-                everyday purchases at restaurants, gas stations, and drugstores,
-                adding value to your daily spending. For example, spending $200
-                a month on fuel earns $4 monthly cashback, while dining out or
-                shopping at pharmacies also helps you accumulate rewards.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                This 2% cashback feature makes the card a versatile choice,
-                benefiting not just Amazon shoppers but anyone looking to save
-                on essential purchases. Over a year, these rewards can add up to
-                meaningful savings for your budget.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                1% Cashback on All Other Purchases: Save Everywhere
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                The Amazon Rewards Visa Credit Card offers 1% cashback on all
-                purchases outside specific categories, ensuring every
-                transaction earns rewards. Whether you're shopping for clothes,
-                paying bills, or traveling, this feature helps you accumulate
-                savings effortlessly.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                For example, spending $1,000 a month earns $10 in cashback—$120
-                annually—which can be applied to your balance or future Amazon
-                purchases. This universal cashback makes the card a flexible
-                choice for any lifestyle.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                No Annual Fees: Maximize Your Rewards Without Paying More
-              </h2>
-
-              <p className="text-gray-700 mb-4">
-                The Amazon Rewards Visa Credit Card stands out with no annual
-                fees, ensuring all rewards you earn translate to net savings.
-                Unlike many cards with fees that reduce reward value, this card
-                lets you fully benefit from its cashback program.
-              </p>
-
-              <p className="text-gray-700 mb-8">
-                Without an annual fee, you can use the card freely—whether for
-                occasional or daily purchases—knowing every reward adds value
-                without extra costs.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Maximize Your Rewards with Flexibility and Savings
-              </h2>
-
-              <p className="text-gray-700 mb-8">
-                The Amazon Rewards Visa Credit Card offers 3% cashback at Amazon
-                and Whole Foods, 2% at restaurants, gas stations, and
-                drugstores, and 1% on all other purchases—all with no annual
-                fees. Before applying, check the requirements to take full
-                advantage of its benefits. It's a versatile option for
-                maximizing rewards and saving on everyday expenses.
-              </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
+              <div className="my-6 grid gap-3">
+                <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
+                  <p className="font-semibold">Quick snapshot</p>
+                  <ul className="mt-2 space-y-1 pl-4 list-disc">
+                    <li>
+                      Prime members earn 5% back at Amazon and Whole Foods (3%
+                      without Prime)
+                    </li>
+                    <li>
+                      2% back at restaurants, gas stations, and drugstores
+                    </li>
+                    <li>1% back on everything else, no rotating categories</li>
+                    <li>No annual fee and no foreign transaction fees</li>
+                  </ul>
+                </div>
               </div>
 
-              <hr className="my-8" />
+              <div className="text-left my-6">
+                <Link href="/financial-solutions/amazon-rewards-visa-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
+                  </Button>
+                </Link>
+              </div>
 
-              <div className="my-8 text-left sm:text-left">
+              <div className="my-8">
                 <Image
                   src="https://us.topfinanzas.com/wp-content/uploads/2024/09/Amazon1.webp"
                   alt="Amazon Rewards Visa Credit Card"
@@ -176,61 +83,120 @@ export default function AmazonRewardsVisaBenefitsPage() {
                   height={507}
                   className="w-full h-auto rounded-xl"
                   style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
+                  loading="lazy"
                   quality={85}
-                  loading="eager"
                 />
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Explore Other Financial Solutions
+                Maximize Amazon and Whole Foods Spending
               </h2>
+              <p className="text-gray-700 mb-6 leading-6">
+                Prime members get 5% back on every Amazon.com and Whole Foods
+                transaction; non-Prime customers still collect 3%. Apply rewards
+                at checkout, grab them as statement credits, or bank them for
+                Prime Day splurges.
+              </p>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <Link
-                    href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>US Bank Cash+ Visa Signature Card</strong>
-                  </Link>
-                  : Customize your cashback categories to match your spending.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>Citi Double Cash Card</strong>
-                  </Link>
-                  : Earn a simple, flat-rate cashback on all your purchases.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/doordash-rewards-mastercard-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>DoorDash Rewards Mastercard</strong>
-                  </Link>
-                  : Get high cashback rates on food delivery and dining.
-                </li>
-              </ul>
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Hit Everyday Essentials with 2% Back
+              </h2>
+              <p className="text-gray-700 mb-6 leading-6">
+                Pick up 2% cash back at restaurants, gas stations, and
+                drugstores—common spend categories that keep rewards flowing
+                even when you step away from Amazon’s ecosystem.
+              </p>
 
-              <div className="my-8 flex justify-center">
+              <div
+                id="kardtrust_ad_2"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
+              </div>
+
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Flat 1% Everywhere Else, No Annual Fee
+              </h2>
+              <p className="text-gray-700 mb-6 leading-6">
+                Every other purchase earns 1% cash back without the hassle of
+                rotating categories or activation windows. Because the card has
+                no annual fee, every reward dollar stays in your pocket.
+              </p>
+
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Stack Perks When You Travel
+              </h2>
+              <p className="text-gray-700 mb-6 leading-6">
+                Pay abroad without foreign transaction fees, and use Visa travel
+                protections for rental cars and trip interruptions—an easy win
+                for Prime members booking vacations with Amazon Travel or
+                partners.
+              </p>
+
+              <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
+                <h3 className="text-md font-bold text-gray-800 mb-3 text-left">
+                  Important Disclosure
+                </h3>
+                <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
+                  <strong>Representative Example:</strong> Spending $1,200 per
+                  month—$600 at Amazon/Whole Foods, $300 across 2% categories,
+                  and $300 elsewhere—as a Prime member yields roughly $45 in
+                  monthly rewards ($540 annually). Keep balances paid to avoid
+                  the variable 19.49%–27.49% APR erasing gains.
+                </p>
+                <p className="text-sm text-gray-700 leading-5 text-left">
+                  <strong>Risk Warning:</strong> Carrying a balance or missing
+                  payments can wipe out rewards with interest and fees. Confirm
+                  current rates, bonuses, and Prime eligibility directly with
+                  Amazon and Chase before applying.
+                </p>
+              </section>
+
+              <div className="text-left my-8">
                 <Link href="/financial-solutions/amazon-rewards-visa-credit-card-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
-                    See Requirements
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    See Detailed Requirements
                   </Button>
                 </Link>
+              </div>
+
+              <div className="mt-10 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Compare Other Everyday Cards
+                </h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>
+                    <Link
+                      href="/financial-solutions/citi-double-cash-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Citi Double Cash Credit Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      U.S. Bank Cash+ Visa Signature Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/doordash-rewards-mastercard-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      DoorDash Rewards Mastercard Benefits
+                    </Link>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
 
+      <AIContentDisclaimer />
       <CompactFooter />
     </main>
   );

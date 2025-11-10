@@ -163,7 +163,7 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Citi Double Cash Card</strong>
                   </Link>
@@ -172,7 +172,7 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Chase Freedom Unlimited Credit Card</strong>
                   </Link>
@@ -182,7 +182,7 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Titanium Rewards Visa Signature Credit Card</strong>
                   </Link>
@@ -192,7 +192,7 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="/financial-solutions/us-bank-cash-plus-visa-signature-card-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

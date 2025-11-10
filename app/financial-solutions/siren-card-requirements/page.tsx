@@ -168,7 +168,7 @@ export default function SirenCardRequirementsPage() {
                 <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg">
                   <div className="flex items-start">
                     <svg
-                      className="w-6 h-6 text-blue-600 mt-0.5 mr-3 flex-shrink-0"
+                      className="w-6 h-6 text-primary mt-0.5 mr-3 flex-shrink-0"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
@@ -226,7 +226,7 @@ export default function SirenCardRequirementsPage() {
 
                   <div className="bg-white p-6 rounded-xl border-2 border-blue-200 shadow-sm">
                     <div className="flex items-start">
-                      <div className="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-lg mr-4">
+                      <div className="flex-shrink-0 w-10 h-10 bg-primary text-white rounded-full flex items-center justify-center font-bold text-lg mr-4">
                         2
                       </div>
                       <div>
@@ -239,7 +239,7 @@ export default function SirenCardRequirementsPage() {
                             href="https://sirencard.com/go"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="text-blue-600 hover:underline"
+                            className="text-primary hover:underline"
                           >
                             sirencard.com/go
                           </a>{" "}

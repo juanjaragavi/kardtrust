@@ -419,13 +419,6 @@ export function Header() {
                     >
                       Contact Us
                     </Link>
-                    <Link
-                      href="/credit-card-recommender-p1"
-                      className="block px-2 text-body hover:bg-gray-100"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      Card Recommender
-                    </Link>
                   </div>
 
                   {/* Categories Section */}
@@ -434,10 +427,7 @@ export function Header() {
                       {headerContent.mobileMenu.categoriesLabel}
                     </div>
                     {headerNavigation.categoryDropdown.items
-                      .filter(
-                        (item) =>
-                          !["About Us", "Card Recommender"].includes(item.text),
-                      )
+                      .filter((item) => !["About Us"].includes(item.text))
                       .map((item) => (
                         <Link
                           key={item.href}
@@ -469,7 +459,7 @@ export function Header() {
                       ))}
                     <Link
                       href="/personal-finance"
-                      className="block px-2 text-sm text-blue-600 hover:bg-gray-100 font-medium"
+                      className="block px-2 text-sm text-primary hover:bg-gray-100 font-medium"
                       onClick={() => setIsOpen(false)}
                     >
                       Show more...
@@ -495,7 +485,7 @@ export function Header() {
                       ))}
                     <Link
                       href="/financial-solutions"
-                      className="block text-sm px-2 text-blue-600 hover:bg-gray-100 font-medium"
+                      className="block text-sm px-2 text-primary hover:bg-gray-100 font-medium"
                       onClick={() => setIsOpen(false)}
                     >
                       Show more...

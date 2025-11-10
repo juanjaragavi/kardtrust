@@ -110,14 +110,14 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees
                 </Link>{" "}
                 or{" "}
                 <Link
                   href="/financial-solutions/doordash-rewards-mastercard-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   DoorDash Rewards Mastercard Benefits: Maximize Your Food
                   Savings
@@ -125,7 +125,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/what-is-personal-finance-and-why-does-it-matter"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   What is Personal Finance and Why Does it Matter?
                 </Link>
@@ -278,7 +278,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.capitalone.com/credit-cards/quicksilver-student/">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>
