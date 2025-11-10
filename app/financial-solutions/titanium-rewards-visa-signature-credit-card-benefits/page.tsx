@@ -70,6 +70,14 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 </li>
               </ul>
 
+              <div className="my-8 flex justify-center">
+                <Link href="/financial-solutions/titanium-rewards-visa-signature-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                    Check If You Qualify
+                  </Button>
+                </Link>
+              </div>
+
               <p className="text-gray-700 mb-8">
                 The Titanium Rewards Visa Signature Credit Card is designed for
                 those who want to earn more from their spending. Whether you're

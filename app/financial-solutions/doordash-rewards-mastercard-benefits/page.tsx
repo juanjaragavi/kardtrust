@@ -61,6 +61,29 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 </div>
               </div>
 
+              <div className="my-8 flex justify-center">
+                <Link href="/financial-solutions/doordash-rewards-mastercard-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                    Check If You Qualify
+                  </Button>
+                </Link>
+              </div>
+
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp"
+                  alt="DoorDash Rewards Mastercard"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
+              </div>
+
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Turn DoorDash Spending into 4% Cash Back
               </h2>
@@ -160,21 +183,6 @@ export default function DoordashRewardsMastercardBenefitsPage() {
                 className="items-center justify-center flex w-full my-8"
               >
                 {/* Empty responsive, centered div */}
-              </div>
-
-              <div className="my-8 text-left sm:text-left">
-                <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-4.webp"
-                  alt="DoorDash Rewards Mastercard"
-                  width={900}
-                  height={507}
-                  className="w-full h-auto rounded-xl"
-                  style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
-                  quality={85}
-                  loading="eager"
-                />
               </div>
 
               <hr className="my-8" />
