@@ -148,7 +148,7 @@ export default function NoAnnualFeeCreditCards() {
             <li>
               <a
                 href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
-                className="text-blue-600 hover:underline"
+                className="text-primary hover:underline"
               >
                 Bank of America® Unlimited Cash Rewards:
               </a>{" "}
@@ -157,7 +157,7 @@ export default function NoAnnualFeeCreditCards() {
             <li>
               <a
                 href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                className="text-blue-600 hover:underline"
+                className="text-primary hover:underline"
               >
                 Chase Freedom Unlimited®:
               </a>{" "}
@@ -166,7 +166,7 @@ export default function NoAnnualFeeCreditCards() {
             <li>
               <a
                 href="/financial-solutions/capital-one-quicksilver-student-credit-card-benefits"
-                className="text-blue-600 hover:underline"
+                className="text-primary hover:underline"
               >
                 Capital One Quicksilver:
               </a>{" "}
@@ -175,7 +175,7 @@ export default function NoAnnualFeeCreditCards() {
             <li>
               <a
                 href="/financial-solutions/discover-it-student-chrome-credit-card-benefits"
-                className="text-blue-600 hover:underline"
+                className="text-primary hover:underline"
               >
                 Discover it® Cash Back:
               </a>{" "}
@@ -184,7 +184,7 @@ export default function NoAnnualFeeCreditCards() {
             <li>
               <a
                 href="/financial-solutions/wells-fargo-active-cash-card"
-                className="text-blue-600 hover:underline"
+                className="text-primary hover:underline"
               >
                 Wells Fargo Active Cash® Card:
               </a>{" "}
@@ -196,7 +196,7 @@ export default function NoAnnualFeeCreditCards() {
             structures and benefits, visit our{" "}
             <a
               href="/financial-solutions"
-              className="text-blue-600 hover:underline"
+              className="text-primary hover:underline"
             >
               Financial Solutions page
             </a>
@@ -259,7 +259,7 @@ export default function NoAnnualFeeCreditCards() {
             evaluate your priorities by exploring options in our{" "}
             <a
               href="/financial-solutions"
-              className="text-blue-600 hover:underline"
+              className="text-primary hover:underline"
             >
               Financial Solutions section
             </a>{" "}

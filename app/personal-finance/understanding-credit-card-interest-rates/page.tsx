@@ -137,7 +137,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Bank of America® Unlimited Cash Rewards:
                     </Link>{" "}
@@ -147,7 +147,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/wells-fargo-active-cash-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Wells Fargo Active Cash® Card:
                     </Link>{" "}
@@ -156,7 +156,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Chase Freedom Unlimited®:
                     </Link>{" "}
@@ -168,7 +168,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                   Comparing these and other options on our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>{" "}
@@ -233,7 +233,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                     balances to cards with lower rates or{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       0% APR introductory offers
                     </Link>{" "}
@@ -242,7 +242,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                     effectively. Explore potential options in our{" "}
                     <Link
                       href="/financial-solutions"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Financial Solutions section
                     </Link>
@@ -330,7 +330,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
                   taking control of your debt today by exploring options on our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>

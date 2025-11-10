@@ -65,7 +65,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                   organising your money, start with our{" "}
                   <Link
                     href="/personal-finance/money-management-for-beginners"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     money management for beginners guide
                   </Link>{" "}
@@ -85,7 +85,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                     those are yet, see{" "}
                     <Link
                       href="/personal-finance/setting-financial-goals"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       setting financial goals
                     </Link>
@@ -161,14 +161,14 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                     while you repay. Learn the{" "}
                     <Link
                       href="/personal-finance/understanding-credit-card-interest-rates"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       basics of credit card interest and APR
                     </Link>{" "}
                     and whether{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       a 0% intro APR period
                     </Link>{" "}
@@ -176,7 +176,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                     planned costs, review{" "}
                     <Link
                       href="/personal-finance/best-personal-loans"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       US personal loans
                     </Link>{" "}
@@ -219,7 +219,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                     you down, see{" "}
                     <Link
                       href="/personal-finance/getting-out-of-debt"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       how to get out of debt
                     </Link>
@@ -229,7 +229,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
                     Keep learning — browse more guides in{" "}
                     <Link
                       href="/personal-finance"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Personal Finance
                     </Link>
@@ -244,7 +244,7 @@ export default function CreatingABudgetYoullActuallyStickToPage() {
               </section>
 
               <div className="mt-12 mb-6 text-center">
-                <Link href="/personal-finance" className="cta-button-blue">
+                <Link href="/personal-finance" className="cta-button-red">
                   Explore More Personal Finance Guides
                 </Link>
               </div>

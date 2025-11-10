@@ -133,7 +133,7 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
         <Link
           href={linkHref}
           className={cn(
-            "text-blue-600 hover:text-blue-800 hover:underline",
+            "text-primary hover:text-blue-800 hover:underline",
             className,
           )}
           {...props}

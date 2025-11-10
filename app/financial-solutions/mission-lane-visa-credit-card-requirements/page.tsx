@@ -733,7 +733,7 @@ export default function MissionLaneVisaCreditCardRequirementsPage() {
                   <a
                     href="http://www.consumerfinance.gov/learnmore"
                     rel="noopener noreferrer"
-                    className="text-blue-700 hover:underline"
+                    className="text-red-800 hover:underline"
                   >
                     www.consumerfinance.gov/learnmore
                   </a>{" "}

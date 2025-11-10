@@ -111,14 +111,14 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees
                 </Link>{" "}
                 or{" "}
                 <Link
                   href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Citi Double Cash Credit Card Benefits: Earn 2% Cashback on
                   Every Purchase
@@ -126,7 +126,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/protecting-your-money-an-introduction-to-financial-security"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Protecting Your Money: An Introduction to Financial Security
                 </Link>
@@ -304,7 +304,7 @@ export default function TitaniumRewardsVisaSignatureCreditCardRequirementsPage()
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.andrewsfcu.org/Cards/Personal-Credit-Cards/Rewards-Cards/Titanium-Rewards-Visa-Signature-Credit-Card">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

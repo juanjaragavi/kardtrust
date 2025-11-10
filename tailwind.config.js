@@ -25,7 +25,7 @@ module.exports = {
         secondary: {
           DEFAULT: "#2563EB", // blue-600 - Main secondary blue
           light: "#3B82F6", // blue-500 - Lighter variant
-          dark: "#1D4ED8", // blue-700 - Darker for hover
+          dark: "#1D4ED8", // red-800 - Darker for hover
           navy: "#1E3A8A", // blue-900 - Deep blue
         },
         destructive: {

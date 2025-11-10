@@ -115,14 +115,14 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees
                 </Link>{" "}
                 or{" "}
                 <Link
                   href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Citi Double Cash Credit Card Benefits: Earn 2% Cashback on
                   Every Purchase
@@ -130,7 +130,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/the-basics-of-investing-how-to-get-started-without-being-an-expert"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   The Basics of Investing: How to Get Started Without Being an
                   Expert
@@ -245,7 +245,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.discover.com/credit-cards/student-credit-card/chrome-card.html">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

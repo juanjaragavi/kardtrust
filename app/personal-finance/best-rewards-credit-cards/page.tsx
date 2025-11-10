@@ -120,7 +120,7 @@ export default function BestRewardsCreditCardsPage() {
                     on general rewards, dedicated{" "}
                     <Link
                       href="/personal-finance/travel-credit-cards"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       travel credit cards
                     </Link>{" "}
@@ -183,7 +183,7 @@ export default function BestRewardsCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Chase Freedom Unlimited®:
                     </Link>{" "}
@@ -192,7 +192,7 @@ export default function BestRewardsCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/chase-sapphire-reserve"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Chase Sapphire Reserve®:
                     </Link>{" "}
@@ -201,7 +201,7 @@ export default function BestRewardsCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Bank of America® Unlimited Cash Rewards:
                     </Link>{" "}
@@ -210,7 +210,7 @@ export default function BestRewardsCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/wells-fargo-active-cash-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Wells Fargo Active Cash® Card:
                     </Link>{" "}
@@ -219,7 +219,7 @@ export default function BestRewardsCreditCardsPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Capital One Savor Rewards:
                     </Link>{" "}
@@ -231,7 +231,7 @@ export default function BestRewardsCreditCardsPage() {
                   products, check out our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>
@@ -291,7 +291,7 @@ export default function BestRewardsCreditCardsPage() {
                   options by visiting our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions section
                   </Link>

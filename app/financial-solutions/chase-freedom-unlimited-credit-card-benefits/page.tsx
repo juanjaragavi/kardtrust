@@ -17,63 +17,64 @@ export function generateMetadata() {
 
 export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
   return (
-    <main className="bg-white min-h-screen flex flex-col">
+    <main
+      className="bg-white min-h-screen flex flex-col"
+      data-category="credit-cards"
+    >
       <Header />
 
-      <article className="bg-white py-8 md:py-12" data-category="credit-cards">
+      <article className="bg-white py-8 md:py-12">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-3xl text-left sm:text-left md:text-4xl font-bold text-gray-800 mb-4 leading-8">
-              Chase Freedom Unlimited Credit Card Benefits: Unlimited Cashback &
-              More
+            <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4 leading-8">
+              Chase Freedom Unlimited®: Flat Cash Back Powerhouse with $0
+              Annual Fee
             </h1>
 
-            <div className="my-8 text-left sm:text-left">
+            <div className="my-8 text-left">
+              <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
+                Earn 5% on Chase Travel℠ bookings, 3% on dining and drugstores,
+                and 1.5% everywhere else—no bonus tracking, no annual fee.
+              </p>
+              <p className="text-base text-gray-700 mb-6 leading-6">
+                New cardmembers knock out the $200 bonus after $500 spend in
+                three months and enjoy 0% intro APR for 15 months on purchases
+                and balance transfers before the variable 19.24%–28.99% range
+                applies (3% or $5 balance transfer fee).
+              </p>
+
               <div
                 id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
+                className="items-center justify-center flex w-full my-6"
               >
-                {/* Empty responsive, centered div */}
+                {/* Reserved for display ad */}
               </div>
 
-              <hr className="my-8" />
+              <div className="my-6 grid gap-3">
+                <div className="rounded-lg border border-blue-200 bg-blue-50 p-4 text-sm text-blue-900">
+                  <p className="font-semibold">Quick snapshot</p>
+                  <ul className="mt-2 space-y-1 pl-4 list-disc">
+                    <li>5% back on travel through Chase Travel℠</li>
+                    <li>
+                      3% back on dining (including delivery) and drugstores
+                    </li>
+                    <li>1.5% back on every other purchase with no caps</li>
+                    <li>
+                      $200 bonus after $500 spend + 0% intro APR for 15 months
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-              <p className="text-gray-700 mb-8">
-                Turn every dollar you spend into unlimited rewards and
-                effortless savings with the Chase Freedom Unlimited Credit Card.
-              </p>
+              <div className="text-left my-6">
+                <Link href="/financial-solutions/chase-freedom-unlimited-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
+                  </Button>
+                </Link>
+              </div>
 
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <strong>Unlimited Cashback:</strong> Earn rewards on every
-                  purchase, with no exceptions.
-                </li>
-                <li>
-                  <strong>0% Intro APR:</strong> Spend or transfer balances
-                  interest-free during the introductory period.
-                </li>
-                <li>
-                  <strong>No Annual Fee:</strong> Enjoy all the perks without
-                  worrying about extra costs.
-                </li>
-                <li>
-                  <strong>Flexible Redemption Options:</strong> Redeem your
-                  cashback as statement credit, direct deposits, or gift cards.
-                </li>
-              </ul>
-
-              <p className="text-gray-700 mb-8">
-                The Chase Freedom Unlimited Credit Card is more than just a
-                payment tool; it’s a powerful instrument designed for
-                individuals seeking to enhance their financial rewards
-                effortlessly. With its offer of unlimited cashback, no annual
-                fee, and a variety of additional perks, this card fits various
-                lifestyles and spending habits. If you’re looking to improve
-                your shopping experience and optimize your finances, this
-                product may be the ideal choice.
-              </p>
-
-              <div className="my-8 text-left sm:text-left">
+              <div className="my-8">
                 <Image
                   src="https://us.topfinanzas.com/wp-content/uploads/2024/11/download-11.webp"
                   alt="Chase Freedom Unlimited Credit Card"
@@ -81,155 +82,121 @@ export default function ChaseFreedomUnlimitedCreditCardBenefitsPage() {
                   height={507}
                   className="w-full h-auto rounded-xl"
                   style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
+                  loading="lazy"
                   quality={85}
-                  loading="eager"
                 />
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Unlimited Cash Back on Every Purchase: Maximize Your Earnings
+                Everyday Rewards That Scale Automatically
               </h2>
-
-              <p className="text-gray-700 mb-8">
-                One of the standout features of the Chase Freedom Unlimited is
-                its ability to offer unlimited cashback on every single purchase
-                you make. Whether you’re buying your morning coffee or making a
-                large purchase, every dollar spent translates into valuable
-                financial rewards. This benefit serves as a continuous incentive
-                to use your card over cash, making it easy to accumulate rewards
-                that can be utilized later. Cashback rewards accumulate at a
-                fixed percentage on all your purchases, allowing you to
-                visualize the positive impact on your personal economy over
-                time. The more you spend, the more you earn, making this card a
-                smart choice for everyday spending.
+              <p className="text-gray-700 mb-6 leading-6">
+                Use Freedom Unlimited® as your all-purpose card: 1.5% applies
+                to every swipe, while dining, drugstores, and Chase Travel℠
+                purchases unlock higher tiers without activation checklists.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                0% Introductory APR on Purchases and Balance Transfers:
-                Financial Breathing Room
+                Leverage the Intro APR for Planned Purchases
               </h2>
+              <p className="text-gray-700 mb-6 leading-6">
+                Spread out a big expense or consolidate high-interest balances
+                over 15 months interest-free, then pay the balance before the
+                variable APR resumes. Factor the 3% (or $5) balance transfer fee
+                into your payoff math.
+              </p>
 
-              <p className="text-gray-700 mb-8">
-                Another significant advantage of the Chase Freedom Unlimited is
-                its 0% introductory APR period for both new purchases and
-                balance transfers. This feature is particularly beneficial for
-                those planning to make a major purchase or looking to
-                consolidate existing high-interest debt. Without the pressure of
-                accumulating interest, you can manage your finances with greater
-                peace of mind. You can use this time to pay off your purchases
-                gradually without incurring interest. Additionally, if you
-                transfer balances from other high-interest credit cards, you can
-                save significantly on costs, allowing you to focus on paying
-                down the principal amount more efficiently.
+              <div
+                id="kardtrust_ad_2"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
+              </div>
+
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Redeem Cash Back or Supercharge Travel
+              </h2>
+              <p className="text-gray-700 mb-6 leading-6">
+                Cash out any amount as statement credits, deposits, or gift
+                cards. Pair with a Sapphire Preferred® or Reserve® to turn
+                rewards into Ultimate Rewards points worth 1.25x–1.5x for travel
+                or transferable to partners.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                No Annual Fee: Pure Value, No Hidden Costs
+                Who Should Carry This Card
               </h2>
-
-              <p className="text-gray-700 mb-8">
-                The Chase Freedom Unlimited stands out because it has no annual
-                fee. This means you can enjoy all its advantages and benefits
-                without worrying about additional recurring costs. For
-                budget-conscious consumers, this feature is a major plus, as it
-                ensures that your rewards are not diminished by an annual
-                charge. Without an annual fee, every purchase feels more
-                valuable, and all benefits are genuinely “free,” enhancing your
-                overall financial experience and maximizing your net rewards.
+              <p className="text-gray-700 mb-6 leading-6">
+                Ideal for set-and-forget earners who still want elevated dining
+                and travel returns, or anyone building a two-card Sapphire +
+                Freedom combo. If you rarely dine out, compare a flat 2% card to
+                ensure the math works.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Flexible Redemption Options: Your Rewards, Your Way
-              </h2>
+              <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
+                <h3 className="text-md font-bold text-gray-800 mb-3 text-left">
+                  Important Disclosure
+                </h3>
+                <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
+                  <strong>Representative Example:</strong> Spending $1,000
+                  monthly— $400 on dining/drugstores, $200 on Chase Travel℠, and
+                  $400 on other purchases—earns roughly $306 annually. Carrying
+                  a $5,000 balance at 23.99% after the intro period could cost
+                  about $1,200 in interest in a year if you pay only the
+                  minimum.
+                </p>
+                <p className="text-sm text-gray-700 leading-5 text-left">
+                  <strong>Risk Warning:</strong> Missing payments can trigger
+                  late fees and penalty APRs. Confirm current rates, categories,
+                  and bonus offers with Chase before applying.
+                </p>
+              </section>
 
-              <p className="text-gray-700 mb-8">
-                Cardholders of the Chase Freedom Unlimited can enjoy versatile
-                redemption options for their accumulated cashback. You have the
-                flexibility to choose how you want to receive your rewards: as a
-                statement credit to reduce your balance, as a direct deposit
-                into your bank account, or by redeeming them for gift cards.
-                This flexibility means you can utilize your rewards in a way
-                that best fits your immediate financial needs or long-term
-                goals. Whether you prefer to reduce debt or treat yourself, the
-                choice is yours.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Your Best Credit Card: A Strategic Financial Ally
-              </h2>
-
-              <p className="text-gray-700 mb-8">
-                The Chase Freedom Unlimited Credit Card offers an excellent
-                option for those looking to maximize their purchase rewards with
-                simplicity and efficiency. Understanding the eligibility
-                criteria ensures this card is the right fit for your financial
-                goals. With benefits such as unlimited cashback on every
-                purchase, an attractive introductory APR on purchases and
-                balance transfers, no annual fee, and flexible redemption
-                options, this card can be a strategic ally in your financial
-                management, helping you achieve your financial objectives with
-                ease.
-              </p>
-
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Explore Other Financial Solutions
-              </h2>
-
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <Link
-                    href="/financial-solutions/citi-double-cash-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>Citi Double Cash Card</strong>
-                  </Link>
-                  : Earn a simple, flat-rate 2% cashback on all your purchases.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>US Bank Cash+ Visa Signature Card</strong>
-                  </Link>
-                  : Customize your cashback categories for up to 5% back.
-                </li>
-                <li>
-                  <Link
-                    href="/financial-solutions/amazon-rewards-visa-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
-                  >
-                    <strong>Amazon Rewards Visa</strong>
-                  </Link>
-                  : Great for Amazon shoppers with tiered cashback rewards.
-                </li>
-              </ul>
-
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-8">
                 <Link href="/financial-solutions/chase-freedom-unlimited-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
-                    See Requirements
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    See Detailed Requirements
                   </Button>
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
+              <div className="mt-10 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Compare Alternative Cash Back Cards
+                </h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>
+                    <Link
+                      href="/financial-solutions/citi-double-cash-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Citi Double Cash Credit Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/chase-freedom-flex"
+                      className="text-primary hover:underline"
+                    >
+                      Chase Freedom Flex℠ Overview
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      U.S. Bank Cash+ Visa Signature Card Benefits
+                    </Link>
+                  </li>
+                </ul>
               </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
 
+      <AIContentDisclaimer />
       <CompactFooter />
     </main>
   );

@@ -25,7 +25,7 @@ This document outlines the complete color palette migration for the KardTrust pr
 
 ### Accent Colors
 
-- **Blue (various Tailwind shades)**: blue-50, blue-500, blue-600, blue-700, blue-800
+- **Blue (various Tailwind shades)**: blue-50, blue-500, blue-600, red-800, blue-800
 - **Gray (muted)**: `#6B7280` (gray-500)
 - **Dark Navy**: `#222442` (links and primary text)
 - **Light Blue Hover**: `#55B9FF` (footer links)
@@ -50,7 +50,7 @@ Primary Red:
 Secondary Blue:
   - DEFAULT: #2563EB (blue-600) - Main secondary color
   - Light: #3B82F6 (blue-500) - Lighter variant
-  - Dark: #1D4ED8 (blue-700) - Darker for hover states
+  - Dark: #1D4ED8 (red-800) - Darker for hover states
   - Navy: #1E3A8A (blue-900) - Deep blue for text/headers
 ```
 
@@ -97,7 +97,7 @@ primary: {
 secondary: {
   DEFAULT: "#2563EB", // blue-600 - Main secondary blue
   light: "#3B82F6",   // blue-500 - Lighter variant
-  dark: "#1D4ED8",    // blue-700 - Darker for hover
+  dark: "#1D4ED8",    // red-800 - Darker for hover
   navy: "#1E3A8A",    // blue-900 - Deep blue
 },
 ```
@@ -153,15 +153,15 @@ secondary: {
 .cta-button-orange {
   @apply cta-button-base bg-orange-500 text-white;
 }
-.cta-button-blue {
-  @apply cta-button-base bg-blue-600 text-white;
+.cta-button-red {
+  @apply cta-button-base bg-primary text-white;
 }
 
 /* AFTER */
 .cta-button-orange {
   @apply cta-button-base bg-orange-500 text-white; /* KEEP - good accent */
 }
-.cta-button-blue {
+.cta-button-red {
   @apply cta-button-base bg-secondary text-white;
 }
 ```
@@ -215,7 +215,7 @@ secondary: {
 // KEEP most blue references as they work with new palette
 // UPDATE only when they conflict with new secondary blue
 // - text-blue-500 → text-secondary
-// - bg-blue-600 → bg-secondary
+// - bg-primary → bg-secondary
 // - Custom hex #00395D → bg-blue-900 or bg-secondary-navy
 ```
 

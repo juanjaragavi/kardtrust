@@ -93,7 +93,7 @@ export default function WhatIsFinancialHealthPage() {
                   you need to. If you’re exploring cards, our guide to{" "}
                   <Link
                     href="/personal-finance/understanding-credit-card-interest-rates"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     credit card interest rates
                   </Link>{" "}
@@ -133,7 +133,7 @@ export default function WhatIsFinancialHealthPage() {
                   overall financial health. If you’re tackling balances, see{" "}
                   <Link
                     href="/personal-finance/getting-out-of-debt"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     our practical guide to getting out of debt
                   </Link>
@@ -225,7 +225,7 @@ export default function WhatIsFinancialHealthPage() {
                     faster — our{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       guide to 0% intro APR offers
                     </Link>{" "}
@@ -240,7 +240,7 @@ export default function WhatIsFinancialHealthPage() {
                     Learn the basics of cards and borrowing with{" "}
                     <Link
                       href="/personal-finance/credit-card-types-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       our credit card types and benefits guide
                     </Link>
@@ -256,7 +256,7 @@ export default function WhatIsFinancialHealthPage() {
 
               {/* CTA Button */}
               <div className="mt-12 mb-6 text-center">
-                <Link href="/personal-finance" className="cta-button-blue">
+                <Link href="/personal-finance" className="cta-button-red">
                   Explore More Personal Finance Guides
                 </Link>
               </div>

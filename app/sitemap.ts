@@ -140,11 +140,6 @@ function getDynamicPages(
     for (const entry of entries) {
       if (entry.isDirectory()) {
         const pagePath = path.join(directoryPath, entry.name, "page.tsx");
-        const metadataPath = path.join(
-          directoryPath,
-          entry.name,
-          "metadata.ts",
-        );
 
         // Check if it's a valid page (has page.tsx)
         if (fs.existsSync(pagePath)) {
@@ -154,7 +149,7 @@ function getDynamicPages(
           try {
             const stats = fs.statSync(pagePath);
             lastModified = stats.mtime;
-          } catch (e) {
+          } catch {
             // Use current date if stat fails
           }
 

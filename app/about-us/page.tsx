@@ -39,7 +39,7 @@ export default function AboutUs() {
         <p>
           Start by evaluating your income and expenses, establishing a budget,
           and setting clear financial goals. Find more advice on
-          <Link href="/blog" className="text-blue-600 hover:underline ml-1">
+          <Link href="/blog" className="text-primary hover:underline ml-1">
             our blog
           </Link>
           .
@@ -54,7 +54,7 @@ export default function AboutUs() {
           financial goals. For more information,
           <Link
             href="/contact-us"
-            className="text-blue-600 hover:underline ml-1"
+            className="text-primary hover:underline ml-1"
           >
             click here
           </Link>
@@ -78,7 +78,7 @@ export default function AboutUs() {
           You can contact us through our online form, email, or phone by
           <Link
             href="/contact-us"
-            className="text-blue-600 hover:underline ml-1"
+            className="text-primary hover:underline ml-1"
           >
             clicking here
           </Link>
@@ -93,7 +93,7 @@ export default function AboutUs() {
         <p>
           We offer articles, tutorials, and webinars on investments. Learn more
           in our
-          <Link href="/blog" className="text-blue-600 hover:underline ml-1">
+          <Link href="/blog" className="text-primary hover:underline ml-1">
             investment section
           </Link>
           .
@@ -115,7 +115,7 @@ export default function AboutUs() {
         <p>
           Automate your savings and regularly review your expenses. Find more
           strategies in our
-          <Link href="/blog" className="text-blue-600 hover:underline ml-1">
+          <Link href="/blog" className="text-primary hover:underline ml-1">
             savings article
           </Link>
           .
@@ -132,7 +132,7 @@ export default function AboutUs() {
         <p>
           Research your options and consider speaking with a financial advisor.
           Learn more about
-          <Link href="/blog" className="text-blue-600 hover:underline ml-1">
+          <Link href="/blog" className="text-primary hover:underline ml-1">
             investment options
           </Link>
           .

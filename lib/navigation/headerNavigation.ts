@@ -44,10 +44,6 @@ export const headerNavigation = {
   /** Main navigation items */
   mainNavItems: [
     {
-      text: "CARD RECOMMENDER",
-      href: "/credit-card-recommender-p1",
-    },
-    {
       text: "BLOG",
       href: "/blog",
     },

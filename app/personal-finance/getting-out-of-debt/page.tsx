@@ -77,14 +77,14 @@ export default function GettingOutOfDebtPage() {
                     List all your debts:{" "}
                     <Link
                       href="/personal-finance/credit-card-types-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       credit cards
                     </Link>
                     ,{" "}
                     <Link
                       href="/personal-finance/personal-loans-debt-strategy"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       personal loans
                     </Link>
@@ -94,7 +94,7 @@ export default function GettingOutOfDebtPage() {
                     Include important details for each: total amount owed,{" "}
                     <Link
                       href="/personal-finance/understanding-credit-card-interest-rates"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       interest rate (APR)
                     </Link>
@@ -278,7 +278,7 @@ export default function GettingOutOfDebtPage() {
                   Maximizing rewards on essential spending with tools like{" "}
                   <Link
                     href="/personal-finance/cashback-credit-cards"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     cashback credit cards
                   </Link>{" "}
@@ -426,7 +426,7 @@ export default function GettingOutOfDebtPage() {
                     offer{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       0% introductory APR periods
                     </Link>{" "}
@@ -440,7 +440,7 @@ export default function GettingOutOfDebtPage() {
                     <strong>Personal Loans:</strong> Taking out a{" "}
                     <Link
                       href="/personal-finance/best-personal-loans"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       personal loan
                     </Link>{" "}
@@ -502,7 +502,7 @@ export default function GettingOutOfDebtPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/sofi-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       SoFi Personal Loan:
                     </Link>{" "}
@@ -511,7 +511,7 @@ export default function GettingOutOfDebtPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/upgrade-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Upgrade Personal Loan:
                     </Link>{" "}
@@ -521,14 +521,14 @@ export default function GettingOutOfDebtPage() {
                     Consider{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       balance transfer credit cards
                     </Link>{" "}
                     if you have credit card debt. Some cards in our{" "}
                     <Link
                       href="/financial-solutions"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Financial Solutions section
                     </Link>{" "}
@@ -541,7 +541,7 @@ export default function GettingOutOfDebtPage() {
                   visit our main{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>
@@ -770,7 +770,7 @@ export default function GettingOutOfDebtPage() {
                   information, visit our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions hub
                   </Link>

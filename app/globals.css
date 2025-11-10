@@ -236,6 +236,10 @@ body {
     @apply font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md;
   }
 
+  .cta-button-red {
+    @apply cta-button-base bg-primary text-white;
+  }
+
   .cta-button-orange {
     @apply cta-button-base bg-orange-500 text-white;
   }
@@ -247,25 +251,33 @@ body {
   /* Only apply hover effects (including transforms) on devices with true hover capability */
   /* This prevents the double-tap issue on mobile touch devices */
   @media (hover: hover) and (pointer: fine) {
+    .cta-button-red:hover {
+      @apply bg-red-800 shadow-lg text-white;
+      transform: translateY(-2px);
+    }
+
     .cta-button-orange:hover {
-      @apply bg-orange-600 shadow-lg;
+      @apply bg-orange-600 shadow-lg text-white;
       transform: translateY(-2px);
     }
 
     .cta-button-blue:hover {
-      @apply bg-secondary-dark shadow-lg;
+      @apply bg-secondary-dark shadow-lg text-white;
       transform: translateY(-2px);
     }
   }
 
   /* For touch devices, provide simple active state feedback without transforms */
   @media (hover: none) and (pointer: coarse) {
+    .cta-button-red:active {
+      @apply bg-red-900 text-white;
+    }
     .cta-button-orange:active {
-      @apply bg-orange-600;
+      @apply bg-orange-600 text-white;
     }
 
     .cta-button-blue:active {
-      @apply bg-secondary-dark;
+      @apply bg-secondary-dark text-white;
     }
   }
 }

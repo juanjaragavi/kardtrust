@@ -539,7 +539,7 @@ export default function KlarnaCardRequirementsPage() {
                 <h3 className="text-lg font-semibold text-gray-800 mb-3 text-left">
                   Related Financial Guidance:
                 </h3>
-                <ul className="space-y-2 list-disc list-inside text-blue-700 text-left">
+                <ul className="space-y-2 list-disc list-inside text-red-800 text-left">
                   <li className="text-left">
                     <Link
                       href="/personal-finance/credit-card-types-benefits/"

@@ -136,7 +136,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 stick with it: {""}
                 <Link
                   href="/personal-finance/creating-a-budget-youll-actually-stick-to"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Create a budget you’ll actually stick to
                 </Link>
@@ -156,7 +156,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 {""}
                 <Link
                   href="/personal-finance/top-credit-cards-0-intro-apr"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   0% intro APR card
                 </Link>{" "}
@@ -164,7 +164,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 sure how interest is calculated? Start with {""}
                 <Link
                   href="/personal-finance/understanding-credit-card-interest-rates"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   understanding credit card interest rates
                 </Link>
@@ -195,7 +195,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 guide to {""}
                 <Link
                   href="/personal-finance/getting-out-of-debt"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   getting out of debt
                 </Link>
@@ -262,7 +262,7 @@ export default function CombineFinancesAfterMarriagePage() {
                 Explore more guides in our {""}
                 <Link
                   href="/personal-finance"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Personal Finance section
                 </Link>
@@ -271,7 +271,7 @@ export default function CombineFinancesAfterMarriagePage() {
             </section>
 
             <div className="mt-12 mb-6 text-center">
-              <Link href="/personal-finance" className="cta-button-blue">
+              <Link href="/personal-finance" className="cta-button-red">
                 Explore More Personal Finance Guides
               </Link>
             </div>

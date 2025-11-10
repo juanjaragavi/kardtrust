@@ -115,7 +115,7 @@ export default function TomoCreditCardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Unlock the Benefits of the Titanium Rewards Visa Signature
                   Credit Card
@@ -123,14 +123,14 @@ export default function TomoCreditCardRequirementsPage() {
                 or{" "}
                 <Link
                   href="/financial-solutions/amazon-rewards-visa-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Unlock the Benefits of the Amazon Rewards Visa Credit Card
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/building-good-money-habits-consistency-is-key"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Building Good Money Habits: Consistency is Key
                 </Link>
@@ -245,7 +245,7 @@ export default function TomoCreditCardRequirementsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="https://tomocredit.com/">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>
