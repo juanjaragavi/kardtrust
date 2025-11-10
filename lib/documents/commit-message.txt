@@ -1,1 +1,8 @@
-Update credit card content and personal finance articles
+feat: enhance UI component functionality and styling
+
+- Refactor button component with improved variant system and disabled state support
+- Add buttonVariants utility function for consistent styling across components
+- Enhance Button component with proper disabled handling for links
+- Update alert-dialog to use simplified buttonVariants function
+- Improve carousel navigation buttons with better styling and positioning
+- Add proper TypeScript interfaces for enhanced button props
