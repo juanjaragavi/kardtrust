@@ -92,14 +92,14 @@ export default function MoneyManagementBeginnersPage() {
                   with the basics of how APR and interest are calculated:{" "}
                   <Link
                     href="/personal-finance/understanding-credit-card-interest-rates"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     understanding credit card interest rates
                   </Link>
                   . It’s also helpful to know the{" "}
                   <Link
                     href="/personal-finance/credit-card-types-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     different credit card types and benefits
                   </Link>{" "}
@@ -155,7 +155,7 @@ export default function MoneyManagementBeginnersPage() {
                     Make a plan for any balances you carry. If you qualify, a{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       0% intro APR period
                     </Link>{" "}
@@ -164,7 +164,7 @@ export default function MoneyManagementBeginnersPage() {
                     and eligibility carefully; our guide to{" "}
                     <Link
                       href="/personal-finance/best-personal-loans"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       the best personal loans in the US
                     </Link>{" "}
@@ -223,7 +223,7 @@ export default function MoneyManagementBeginnersPage() {
                     overall financial health. If you’re working on balances, see{" "}
                     <Link
                       href="/personal-finance/getting-out-of-debt"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       how to get out of debt
                     </Link>
@@ -271,7 +271,7 @@ export default function MoneyManagementBeginnersPage() {
                     Learn the{" "}
                     <Link
                       href="/personal-finance/understanding-credit-card-interest-rates"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       basics of credit card interest and APR
                     </Link>
@@ -281,7 +281,7 @@ export default function MoneyManagementBeginnersPage() {
                     Consider whether a{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       0% intro APR card
                     </Link>{" "}
@@ -291,7 +291,7 @@ export default function MoneyManagementBeginnersPage() {
                     If a fixed repayment plan suits you better, compare{" "}
                     <Link
                       href="/personal-finance/best-personal-loans"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       US personal loans
                     </Link>{" "}
@@ -301,7 +301,7 @@ export default function MoneyManagementBeginnersPage() {
                     Explore more guides in our{" "}
                     <Link
                       href="/personal-finance"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Personal Finance section
                     </Link>
@@ -317,7 +317,7 @@ export default function MoneyManagementBeginnersPage() {
               </section>
 
               <div className="mt-12 mb-6 text-center">
-                <Link href="/personal-finance" className="cta-button-blue">
+                <Link href="/personal-finance" className="cta-button-red">
                   Explore More Personal Finance Guides
                 </Link>
               </div>

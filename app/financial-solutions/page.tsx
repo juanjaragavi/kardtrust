@@ -484,7 +484,7 @@ export default function FinancialSolutionsPage() {
             }}
             className={`px-6 py-3 font-medium text-md transition-colors focus:outline-none ${
               activeCategory === key
-                ? "text-blue-600 border-b-2 border-blue-600"
+                ? "text-primary border-b-2 border-primary"
                 : "text-gray-500 hover:text-gray-800"
             }`}
           >
@@ -503,7 +503,7 @@ export default function FinancialSolutionsPage() {
                 onClick={() => setActiveCreditCardType(key)}
                 className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
                   activeCreditCardType === key
-                    ? "bg-blue-600 text-white"
+                    ? "bg-primary text-white"
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                 }`}
               >

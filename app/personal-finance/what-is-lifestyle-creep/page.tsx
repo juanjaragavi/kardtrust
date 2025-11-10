@@ -187,7 +187,7 @@ export default function WhatIsLifestyleCreepPage() {
                   you're just starting to track your finances, our guide on{" "}
                   <Link
                     href="/personal-finance/money-management-for-beginners"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     money management for beginners
                   </Link>{" "}
@@ -296,7 +296,7 @@ export default function WhatIsLifestyleCreepPage() {
                   haven't established one yet, our guide on{" "}
                   <Link
                     href="/personal-finance/creating-a-budget-youll-actually-stick-to"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     creating a budget you'll actually stick to
                   </Link>{" "}
@@ -357,7 +357,7 @@ export default function WhatIsLifestyleCreepPage() {
                   extra income toward something meaningful. Our article on{" "}
                   <Link
                     href="/personal-finance/setting-financial-goals"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     setting financial goals
                   </Link>{" "}

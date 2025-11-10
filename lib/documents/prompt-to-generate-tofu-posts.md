@@ -81,7 +81,7 @@ Generate a blog article following these rules:
    - Hero image from CSV or CDN
    - Ad placeholders (`kardtrust_ad_1`, `kardtrust_ad_2`)
    - Internal links using Next.js `<Link>` component
-   - CTA button with `className="cta-button-blue"`
+   - CTA button with `className="cta-button-red"`
    - `AIContentDisclaimer` component at the end
 
 6. **Directory Placement**: Since Funnel Stage is TOFU, create the file at:

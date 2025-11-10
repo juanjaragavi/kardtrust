@@ -75,7 +75,7 @@ Used an automated script (`scripts/fix-mobile-button-tap.js`) to replace inline 
 
 ### CSS Changes
 
-- `app/globals.css` - Added `.cta-button-orange` and `.cta-button-blue` utility classes
+- `app/globals.css` - Added `.cta-button-orange` and `.cta-button-red` utility classes
 
 ### Personal Finance Articles (18 files)
 

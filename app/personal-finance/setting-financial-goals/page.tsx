@@ -63,7 +63,7 @@ export default function SettingFinancialGoalsPage() {
                   Good goals also improve your overall{" "}
                   <Link
                     href="/personal-finance/what-is-financial-health"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     financial health
                   </Link>{" "}
@@ -72,7 +72,7 @@ export default function SettingFinancialGoalsPage() {
                   primer on{" "}
                   <Link
                     href="/personal-finance/money-management-for-beginners"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     money management for beginners
                   </Link>
@@ -154,14 +154,14 @@ export default function SettingFinancialGoalsPage() {
                     you carry balances, learn{" "}
                     <Link
                       href="/personal-finance/understanding-credit-card-interest-rates"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       how credit card interest works
                     </Link>
                     . A{" "}
                     <Link
                       href="/personal-finance/top-credit-cards-0-intro-apr"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       0% intro APR period
                     </Link>{" "}
@@ -217,7 +217,7 @@ export default function SettingFinancialGoalsPage() {
                     our{" "}
                     <Link
                       href="/personal-finance/getting-out-of-debt"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       guide to getting out of debt
                     </Link>
@@ -250,14 +250,14 @@ export default function SettingFinancialGoalsPage() {
                   feel natural. For more practical help, explore our{" "}
                   <Link
                     href="/personal-finance"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Personal Finance guides
                   </Link>{" "}
                   and, if a fixed repayment plan suits your situation, compare{" "}
                   <Link
                     href="/personal-finance/best-personal-loans"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     the best personal loans in the US
                   </Link>
@@ -266,7 +266,7 @@ export default function SettingFinancialGoalsPage() {
               </section>
 
               <div className="mt-12 mb-6 text-center">
-                <Link href="/personal-finance" className="cta-button-blue">
+                <Link href="/personal-finance" className="cta-button-red">
                   Explore More Personal Finance Guides
                 </Link>
               </div>

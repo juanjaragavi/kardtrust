@@ -116,7 +116,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   like{" "}
                   <Link
                     href="/personal-finance/best-rewards-credit-cards"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     rewards credit cards
                   </Link>{" "}
@@ -154,7 +154,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   Some lenders specialise in{" "}
                   <Link
                     href="/personal-finance/getting-out-of-debt"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     debt consolidation loans
                   </Link>
@@ -174,7 +174,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/barclays-personal-loan"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Barclays Personal Loan:
                     </Link>{" "}
@@ -183,7 +183,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/sofi-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       SoFi Personal Loan:
                     </Link>{" "}
@@ -193,7 +193,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/upgrade-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Upgrade Personal Loan:
                     </Link>{" "}
@@ -202,7 +202,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/avant-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Avant Personal Loan:
                     </Link>{" "}
@@ -211,7 +211,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   <li className="mb-2">
                     <Link
                       href="/financial-solutions/wells-fargo-active-cash-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Wells Fargo Personal Loan:
                     </Link>{" "}
@@ -223,7 +223,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   tools, visit our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>
@@ -336,7 +336,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   managing debt, tools like{" "}
                   <Link
                     href="/personal-finance/credit-card-types-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     credit builder cards
                   </Link>{" "}
@@ -365,7 +365,7 @@ export default function PersonalLoansDebtStrategyPage() {
                   further in our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions section
                   </Link>

@@ -239,7 +239,7 @@ export default function BestPersonalLoansPage() {
                   <li className="mb-2">
                     <a
                       href="/financial-solutions/barclays-personal-loan"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Barclays Personal Loan:
                     </a>{" "}
@@ -248,7 +248,7 @@ export default function BestPersonalLoansPage() {
                   <li className="mb-2">
                     <a
                       href="/financial-solutions/sofi-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       SoFi Personal Loan:
                     </a>{" "}
@@ -258,7 +258,7 @@ export default function BestPersonalLoansPage() {
                   <li className="mb-2">
                     <a
                       href="/financial-solutions/upgrade-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Upgrade Personal Loan:
                     </a>{" "}
@@ -267,7 +267,7 @@ export default function BestPersonalLoansPage() {
                   <li className="mb-2">
                     <a
                       href="/financial-solutions/avant-credit-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Avant Personal Loan:
                     </a>{" "}
@@ -277,7 +277,7 @@ export default function BestPersonalLoansPage() {
                   <li className="mb-2">
                     <a
                       href="/financial-solutions/wells-fargo-active-cash-card"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Wells Fargo Personal Loan:
                     </a>{" "}
@@ -289,7 +289,7 @@ export default function BestPersonalLoansPage() {
                   including different types of loans and credit cards, visit our{" "}
                   <a
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </a>
@@ -384,7 +384,7 @@ export default function BestPersonalLoansPage() {
                   available products, you can also explore our{" "}
                   <a
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     main financial solutions page
                   </a>

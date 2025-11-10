@@ -42,11 +42,11 @@ const filesToUpdate = [
 const orangeButtonPattern =
   /className="bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0\.5"/g;
 const blueButtonPattern =
-  /className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0\.5"/g;
+  /className="bg-primary hover:bg-red-800 text-white font-semibold py-3 px-6 rounded-full inline-block transition-colors text-lg shadow-md hover:shadow-lg transform hover:-translate-y-0\.5"/g;
 
 // Replacements
 const orangeButtonReplacement = 'className="cta-button-orange"';
-const blueButtonReplacement = 'className="cta-button-blue"';
+const blueButtonReplacement = 'className="cta-button-red"';
 
 let totalReplacements = 0;
 let filesModified = 0;

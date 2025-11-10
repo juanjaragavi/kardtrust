@@ -51,7 +51,7 @@ export default function HiddenCostsHomeownershipPage() {
                 effective{" "}
                 <Link
                   href="/personal-finance/money-management-for-beginners"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   money management
                 </Link>{" "}
@@ -96,7 +96,7 @@ export default function HiddenCostsHomeownershipPage() {
                   Planning ahead through{" "}
                   <Link
                     href="/personal-finance/creating-a-budget-youll-actually-stick-to"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     disciplined budgeting
                   </Link>{" "}
@@ -204,7 +204,7 @@ export default function HiddenCostsHomeownershipPage() {
                   Many homeowners finance these improvements through{" "}
                   <Link
                     href="/personal-finance/best-personal-loans"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     personal loans
                   </Link>
@@ -213,7 +213,7 @@ export default function HiddenCostsHomeownershipPage() {
                   the total cost including interest. Using{" "}
                   <Link
                     href="/personal-finance/cashback-credit-cards"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     cashback credit cards
                   </Link>{" "}
@@ -286,7 +286,7 @@ export default function HiddenCostsHomeownershipPage() {
                   income. This leaves room for other financial priorities like{" "}
                   <Link
                     href="/personal-finance/setting-financial-goals"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     retirement savings
                   </Link>
@@ -339,7 +339,7 @@ export default function HiddenCostsHomeownershipPage() {
               </section>
 
               <div className="mt-12 mb-6 text-center">
-                <Link href="/personal-finance" className="cta-button-blue">
+                <Link href="/personal-finance" className="cta-button-red">
                   Explore more personal finance guides
                 </Link>
               </div>

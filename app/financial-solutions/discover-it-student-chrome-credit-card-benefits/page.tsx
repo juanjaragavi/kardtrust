@@ -29,46 +29,38 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
             </h1>
 
             <div className="my-8 text-left sm:text-left">
+              <p className="text-lg text-gray-800 font-medium mb-4">
+                Discover it® Student Chrome delivers simple rewards: 2% cash
+                back at restaurants and gas stations (up to $1,000 in combined
+                purchases each quarter) and 1% everywhere else with no annual
+                fee.
+              </p>
+              <p className="text-base text-gray-700 mb-6">
+                It doubles all cash back earned in year one and equips you with
+                free budgeting and FICO® tools so you can build credit while
+                you manage campus spending.
+              </p>
+
               <div
                 id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
+                className="items-center justify-center flex w-full my-6"
               >
                 {/* Empty responsive, centered div */}
               </div>
 
-              <hr className="my-8" />
-
-              <p className="text-gray-700 mb-8">
-                The Discover it Student Chrome Credit Card is an excellent
-                choice for students looking to build their credit history while
-                earning rewards on everyday expenses.
-              </p>
-
-              <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
-                <li>
-                  <strong>2% Cashback:</strong> Earn rewards on dining and gas
-                  station purchases.
-                </li>
-                <li>
-                  <strong>No Annual Fees:</strong> Maximize your cashback
-                  without incurring extra costs.
-                </li>
-                <li>
-                  <strong>Double Rewards:</strong> All your cashback is doubled
-                  at the end of your first year.
-                </li>
-                <li>
-                  <strong>Financial Tools:</strong> Access tools to track
-                  expenses and budget effectively for financial success.
-                </li>
-              </ul>
-
-              <p className="text-gray-700 mb-8">
-                Designed with student lifestyles in mind, this card offers a
-                rewarding cashback program that maximizes savings and supports
-                responsible financial habits. It's a smart option for students
-                starting their financial journey.
-              </p>
+              <div className="my-6 grid gap-3">
+                <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900">
+                  <p className="font-semibold">Quick snapshot</p>
+                  <ul className="mt-2 space-y-1 pl-4 list-disc">
+                    <li>2% cash back at restaurants and gas (cap applies)</li>
+                    <li>1% cash back on all other purchases</li>
+                    <li>
+                      Cashback Match doubles first-year rewards automatically
+                    </li>
+                    <li>No annual fee; no foreign transaction fees</li>
+                  </ul>
+                </div>
+              </div>
 
               <div className="my-8 text-left sm:text-left">
                 <Image
@@ -86,90 +78,66 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                2% Cashback on Restaurants and Gas Stations: Rewards on Everyday
-                Spending
+                Everyday Categories That Matter
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                One of the standout features of the Discover it Student Chrome
-                Credit Card is its 2% cashback on purchases made at restaurants
-                and gas stations (on up to $1,000 in combined purchases each
-                quarter). This makes it an ideal card for students who
-                frequently dine out with friends or commute to campus. By
-                earning rewards on these common expenses, students can enjoy
-                significant savings on the money they’re already spending. Every
-                time you grab a bite to eat or fill up your tank, you’re not
-                just covering expenses—you’re earning a return. This focus on
-                everyday spending categories encourages financial responsibility
-                while rewarding practical, real-world purchases.
+              <p className="text-gray-700 mb-6">
+                Earn 2% cash back at restaurants and gas stations up to $1,000
+                in combined spend per quarter, plus 1% everywhere else. Cover
+                coffee runs, rideshare fuel, and campus supplies while building
+                a payment track record.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                1% Cashback on All Other Purchases: Every Dollar Counts
+                First-Year Cashback Match
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                In addition to the 2% cashback on select categories, the
-                Discover it Student Chrome Credit Card offers 1% cashback on all
-                other purchases. This ensures that no matter what you
-                buy—whether it’s school supplies, electronics, or
-                entertainment—you’re earning rewards. For students managing a
-                variety of expenses, sometimes unexpected ones, this feature is
-                particularly valuable. Even small purchases add up over time,
-                turning routine transactions into meaningful savings. With this
-                card, every dollar spent contributes to your financial goals, no
-                matter the type of purchase.
+              <p className="text-gray-700 mb-6">
+                Discover automatically doubles all rewards after your first 12
+                billing cycles. That turns 2% dining and gas into 4% and 1%
+                baseline spend into 2% with no activation hoops—just use the
+                card responsibly throughout year one.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                No Annual Fees: Maximize Your Savings
+                Student-Friendly Fees and Tools
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                One of the biggest advantages of the Discover it Student Chrome
-                Credit Card is its no annual fee policy. For students working
-                with tight budgets, this is a crucial benefit. By avoiding
-                annual charges, cardholders can focus on maximizing their
-                cashback rewards without worrying about additional costs. Every
-                cent earned through the cashback program becomes real savings
-                that can be used for personal expenses, trips, or emergencies.
-                Eliminating this common fee makes the Discover it Student Chrome
-                Credit Card a particularly student-friendly financial tool.
+              <p className="text-gray-700 mb-6">
+                No annual fee, no foreign transaction fees, and a $0 first late
+                payment fee help student budgets breathe. The mobile app shows
+                your FICO® Score, delivers spending alerts, and supports
+                category-level budgeting so you stay ahead of due dates.
               </p>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Double Rewards in the First Year: An Unmissable Opportunity
+                Build Credit Without Guesswork
               </h2>
 
-              <p className="text-gray-700 mb-8">
-                The Discover it Student Chrome Credit Card offers an exclusive
-                double rewards promotion for new cardholders. At the end of your
-                first year, Discover will automatically match all the cashback
-                you’ve earned. This means your 2% cashback effectively becomes
-                4% on restaurants and gas stations, and your 1% cashback becomes
-                2% on all other purchases. This introductory offer allows
-                students to significantly maximize their savings in the first
-                year of use, whether they’re shopping for back-to-school
-                supplies, dining out, or traveling. It’s an excellent incentive
-                to establish responsible credit habits while enjoying enhanced
-                benefits.
+              <p className="text-gray-700 mb-6">
+                Discover reports to all three major bureaus, so on-time payments
+                compound into a stronger file. Set up autopay, keep utilization
+                low, and graduate to premium rewards once your credit profile
+                stabilizes.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
-                Why the Discover it Student Chrome Credit Card Stands Out
-              </h2>
-
-              <p className="text-gray-700 mb-8">
-                The Discover it Student Chrome Credit Card is packed with
-                benefits that make it an excellent choice for students. From
-                generous cashback on everyday spending to no annual fees and the
-                unique first-year cashback match, this card is designed to
-                maximize savings while supporting financial education. Before
-                applying, students should confirm they meet the basic
-                eligibility criteria to ensure the card aligns with their needs.
-                With its rewarding and practical features, this card is a
-                valuable tool for any student starting their credit journey.
-              </p>
+              <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
+                <h3 className="text-md font-bold text-gray-800 mb-3 text-left">
+                  Important Disclosure
+                </h3>
+                <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
+                  <strong>Representative Example:</strong> Spend $900 per
+                  quarter on dining and gas and $400 elsewhere. In year one you
+                  earn $68 in cash back plus an extra $68 from Cashback Match,
+                  for $136 total.
+                </p>
+                <p className="text-sm text-gray-700 leading-5 text-left">
+                  <strong>Risk Warning:</strong> Introductory match applies once
+                  and late payments after the first waived incident can trigger
+                  fees and promotional loss. Review Discover’s Student Chrome
+                  terms prior to applying.
+                </p>
+              </section>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Explore Other Financial Solutions
@@ -179,7 +147,7 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/capital-one-quicksilver-student-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Capital One Quicksilver Student Credit Card</strong>
                   </Link>
@@ -188,7 +156,7 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/tomo-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Tomo Credit Card</strong>
                   </Link>
@@ -198,7 +166,7 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/visa-signature-us-current-build-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Visa Signature U.S. Current Build Card</strong>
                   </Link>
@@ -209,7 +177,7 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="/financial-solutions/discover-it-student-chrome-credit-card-requirements">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     See Requirements
                   </Button>
                 </Link>

@@ -75,7 +75,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   US Bank Cash+ Visa Signature Card Benefits: Customizable
                   Cashback
@@ -83,14 +83,14 @@ export default function WellsFargoAutographCardRequirementsPage() {
                 or{" "}
                 <Link
                   href="/financial-solutions/first-digital-nextgen-mastercard-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Benefits of the First Digital NextGen Mastercard
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/the-basics-of-investing-how-to-get-started-without-being-an-expert"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   The Basics of Investing: How to Get Started Without Being an
                   Expert
@@ -190,7 +190,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://creditcards.wellsfargo.com/autograph-visa-credit-card/?sub_channel=SEO&vendor_code=G">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

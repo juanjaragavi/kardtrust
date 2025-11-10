@@ -107,7 +107,7 @@ The CSV schema provides these columns per topic row:
   - Related cluster guides within the same pillar
   - Relevant `/financial-solutions` product pages
   - Category index pages such as `/personal-finance`
-- Provide a CTA button (`<Link>` with `className="cta-button-blue"`) near the end that drives readers to a deeper resource or comparison tool
+- Provide a CTA button (`<Link>` with `className="cta-button-red"`) near the end that drives readers to a deeper resource or comparison tool
 
 ### Post-Creation Integration Requirements
 
@@ -318,7 +318,7 @@ export default function {ComponentName}Page() {
               </p>
             </section>
             <div className="mt-12 mb-6 text-center">
-              <Link href="/personal-finance" className="cta-button-blue">
+              <Link href="/personal-finance" className="cta-button-red">
                 Explore more personal finance guides
               </Link>
             </div>

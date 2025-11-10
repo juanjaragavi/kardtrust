@@ -150,7 +150,7 @@ export default function CitBankHomeLoansRequirementsPage() {
                 <li>
                   <Link
                     href="/personal-finance/money-management-complete-beginners-guide"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Money Management Guide</strong>
                   </Link>
@@ -159,7 +159,7 @@ export default function CitBankHomeLoansRequirementsPage() {
                 <li>
                   <Link
                     href="/personal-finance/how-to-create-a-budget"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>How to Create a Budget</strong>
                   </Link>
@@ -169,7 +169,7 @@ export default function CitBankHomeLoansRequirementsPage() {
                 <li>
                   <Link
                     href="/financial-solutions/chase-freedom-unlimited-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     <strong>Chase Freedom Unlimited</strong>
                   </Link>
@@ -179,7 +179,7 @@ export default function CitBankHomeLoansRequirementsPage() {
               </ul>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.cit.com/cit-bank/platinum-savings/ps2025">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Visit Official Website
                   </Button>
                 </Link>

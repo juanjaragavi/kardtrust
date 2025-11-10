@@ -108,21 +108,21 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Capital One Savor Rewards Credit Card Benefits
                 </Link>{" "}
                 or{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/the-first-step-to-financial-freedom-understanding-your-money-mindset"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   The First Step to Financial Freedom: Understanding Your Money
                   Mindset
@@ -255,7 +255,7 @@ export default function DoordashRewardsMastercardRequirementsPage() {
 
               <div className="my-8 flex justify-center">
                 <Link href="https://creditcards.chase.com/cash-back-credit-cards/doordash">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

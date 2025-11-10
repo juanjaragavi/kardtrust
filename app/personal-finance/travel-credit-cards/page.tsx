@@ -69,7 +69,7 @@ export default function TravelCreditCardsPage() {
                       <span className="font-semibold">
                         <Link
                           href="/financial-solutions/chase-sapphire-reserve"
-                          className="text-blue-600 hover:underline"
+                          className="text-primary hover:underline"
                         >
                           Chase Sapphire Reserve®
                         </Link>
@@ -98,7 +98,7 @@ export default function TravelCreditCardsPage() {
                       <span className="font-semibold">
                         <Link
                           href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
-                          className="text-blue-600 hover:underline"
+                          className="text-primary hover:underline"
                         >
                           Capital One Savor Rewards
                         </Link>
@@ -126,7 +126,7 @@ export default function TravelCreditCardsPage() {
                       <span className="font-semibold">
                         <Link
                           href="/financial-solutions/wells-fargo-autograph-card-benefits"
-                          className="text-blue-600 hover:underline"
+                          className="text-primary hover:underline"
                         >
                           Wells Fargo Autograph Card
                         </Link>
@@ -154,7 +154,7 @@ export default function TravelCreditCardsPage() {
                       <span className="font-semibold">
                         <Link
                           href="/financial-solutions/bank-of-america-unlimited-cash-rewards"
-                          className="text-blue-600 hover:underline"
+                          className="text-primary hover:underline"
                         >
                           Bank of America® Unlimited Cash Rewards
                         </Link>
@@ -274,7 +274,7 @@ export default function TravelCreditCardsPage() {
                 <div className="mt-4">
                   <Link
                     href="/financial-solutions/chase-sapphire-reserve"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     View full Chase Sapphire Reserve® details →
                   </Link>
@@ -314,7 +314,7 @@ export default function TravelCreditCardsPage() {
                 <div className="mt-4">
                   <Link
                     href="/financial-solutions/capital-one-savor-rewards-credit-card-benefits"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     View full Capital One Savor Rewards details →
                   </Link>
@@ -437,7 +437,7 @@ export default function TravelCreditCardsPage() {
                   <li>
                     <Link
                       href="/personal-finance/best-rewards-credit-cards"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Best Rewards Credit Cards: Maximize Your Points and
                       Cashback
@@ -446,7 +446,7 @@ export default function TravelCreditCardsPage() {
                   <li>
                     <Link
                       href="/personal-finance/understanding-credit-card-interest-rates"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Understanding Credit Card Interest Rates and Fees
                     </Link>
@@ -454,7 +454,7 @@ export default function TravelCreditCardsPage() {
                   <li>
                     <Link
                       href="/personal-finance/credit-card-types-benefits"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Credit Card Types and Their Benefits: Finding Your Perfect
                       Match
@@ -463,7 +463,7 @@ export default function TravelCreditCardsPage() {
                   <li>
                     <Link
                       href="/personal-finance/getting-out-of-debt"
-                      className="text-blue-600 hover:underline"
+                      className="text-primary hover:underline"
                     >
                       Getting Out of Debt: Effective Strategies for Financial
                       Freedom
@@ -500,7 +500,7 @@ export default function TravelCreditCardsPage() {
                 evolve. Explore various options in our{" "}
                 <Link
                   href="/financial-solutions"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Financial Solutions section
                 </Link>{" "}

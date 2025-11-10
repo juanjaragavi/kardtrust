@@ -106,7 +106,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Unlock the Benefits of the Titanium Rewards Visa Signature
                   Credit Card
@@ -114,7 +114,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                 or{" "}
                 <Link
                   href="/financial-solutions/us-bank-cash-plus-visa-signature-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   US Bank Cash+ Visa Signature Card Benefits: Customizable
                   Cashback
@@ -122,7 +122,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/simple-ways-to-start-saving-money-today-even-on-a-tight-budget"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Simple Ways to Start Saving Money Today (Even on a Tight
                   Budget)
@@ -292,7 +292,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://current.com/spend/">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

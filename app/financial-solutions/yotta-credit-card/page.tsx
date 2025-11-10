@@ -179,7 +179,7 @@ export default function YottaCreditCardPage() {
 
               {/* Feature 3 */}
               <div className="bg-gradient-to-br from-blue-50 to-cyan-50 p-6 rounded-xl border border-blue-200">
-                <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mb-4">
+                <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center mb-4">
                   <svg
                     className="w-6 h-6 text-white"
                     fill="none"
@@ -205,15 +205,15 @@ export default function YottaCreditCardPage() {
                 </p>
                 <ul className="space-y-2 text-sm text-gray-600">
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-primary mr-2">✓</span>
                     Automatic prize notification
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-primary mr-2">✓</span>
                     Direct account credit in 30 days
                   </li>
                   <li className="flex items-start">
-                    <span className="text-blue-600 mr-2">✓</span>
+                    <span className="text-primary mr-2">✓</span>
                     No minimum redemption thresholds
                   </li>
                 </ul>

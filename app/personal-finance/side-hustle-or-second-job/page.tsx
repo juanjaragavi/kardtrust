@@ -241,7 +241,7 @@ export default function SideHustleOrSecondJobPage() {
                   Consider consulting resources on effective{" "}
                   <a
                     href="/personal-finance/getting-out-of-debt"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     debt management strategies
                   </a>{" "}
@@ -250,7 +250,7 @@ export default function SideHustleOrSecondJobPage() {
                   smart financial products, exploring options like{" "}
                   <a
                     href="/personal-finance/best-rewards-credit-cards"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     rewards credit cards
                   </a>{" "}
@@ -287,7 +287,7 @@ export default function SideHustleOrSecondJobPage() {
                   strategic use of{" "}
                   <a
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     financial products
                   </a>{" "}

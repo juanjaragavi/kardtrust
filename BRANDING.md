@@ -102,7 +102,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 - **HEX:** `#2563EB` (Tailwind: blue-600)
 - **HEX Light:** `#3B82F6` (Tailwind: blue-500)
-- **HEX Dark:** `#1D4ED8` (Tailwind: blue-700)
+- **HEX Dark:** `#1D4ED8` (Tailwind: red-800)
 - **HEX Navy:** `#1E3A8A` (Tailwind: blue-900)
 - **Usage:** Secondary CTAs, links, interactive elements, information
 - **CSS Variable:** `--secondary`
@@ -611,7 +611,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 - **Background Hover:** `#1D4ED8` (Secondary Dark)
 - **Text Color:** White
 - **Properties:** Same as orange CTA
-- **Class:** `.cta-button-blue`
+- **Class:** `.cta-button-red`
 
 #### Button Best Practices
 

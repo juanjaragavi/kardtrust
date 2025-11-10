@@ -130,7 +130,7 @@ All generated content must:
 
 - **Primary Ad ID**: kardtrust_ad_1 (after H1)
 - **Secondary Ad ID**: kardtrust_ad_2 (near end of article)
-- **CTA Button Class**: `cta-button-blue`
+- **CTA Button Class**: `cta-button-red`
 - **Currency Format**: USD ($)
 - **Date Format**: MM/DD/YYYY
 

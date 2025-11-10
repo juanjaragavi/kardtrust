@@ -99,14 +99,14 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/first-digital-nextgen-mastercard-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Benefits of the First Digital NextGen Mastercard
                 </Link>{" "}
                 or{" "}
                 <Link
                   href="/financial-solutions/titanium-rewards-visa-signature-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Unlock the Benefits of the Titanium Rewards Visa Signature
                   Credit Card
@@ -114,7 +114,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/the-basics-of-investing-how-to-get-started-without-being-an-expert"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   The Basics of Investing: How to Get Started Without Being an
                   Expert
@@ -270,7 +270,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.usbank.com/credit-cards/cash-plus-visa-signature-credit-card.html">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>

@@ -346,21 +346,21 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   specific providers directly, such as{" "}
                   <Link
                     href="/financial-solutions/sofi-credit-card"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     SoFi
                   </Link>
                   ,{" "}
                   <Link
                     href="/financial-solutions/upgrade-credit-card"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Upgrade
                   </Link>
                   , or{" "}
                   <Link
                     href="/financial-solutions/avant-credit-card"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Avant
                   </Link>
@@ -435,7 +435,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   our{" "}
                   <Link
                     href="/financial-solutions"
-                    className="text-blue-600 hover:underline"
+                    className="text-primary hover:underline"
                   >
                     Financial Solutions page
                   </Link>

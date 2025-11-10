@@ -105,21 +105,21 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                 Also consider{" "}
                 <Link
                   href="/financial-solutions/tomo-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees
                 </Link>{" "}
                 or{" "}
                 <Link
                   href="/financial-solutions/td-flexpay-credit-card-benefits"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   TD FlexPay Credit Card Benefits: Unlock Financial Flexibility
                 </Link>
                 . For a deeper dive, read{" "}
                 <Link
                   href="/personal-finance/the-basics-of-investing-how-to-get-started-without-being-an-expert"
-                  className="text-blue-600 hover:underline"
+                  className="text-primary hover:underline"
                 >
                   The Basics of Investing: How to Get Started Without Being an
                   Expert
@@ -307,7 +307,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               </p>
               <div className="my-8 flex justify-center">
                 <Link href="https://www.firstdigitalcard.com/">
-                  <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
                     Apply on Official Site
                   </Button>
                 </Link>
