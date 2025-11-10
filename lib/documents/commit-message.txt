@@ -1,5 +1,11 @@
-Rebrand: Top Networks Inc → Surf Networks Inc
+Update US-facing header content and legal copy
 
+- refresh financial solutions navigation to highlight US credit cards
+- swap featured articles in header mega menu with current US content
+- adjust about us FAQ answer to clarify services
+- remove outdated complaints section from privacy policy
+- align blog menu styling with primary color
+Rebrand: Top Networks Inc → Surf Networks Inc
 Update all references to company name throughout the codebase:
 - BRANDING.md: Changed legal entity from "TOP NETWORKS INC" to "SURF NETWORKS INC"
 - App layout.tsx: Updated schema address and copyright

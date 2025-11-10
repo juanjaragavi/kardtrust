@@ -25,12 +25,11 @@ export default function AboutUs() {
       question: "What services does KardTrust offer?",
       answer: (
         <p>
-          KardTrust offers financial advice, practical tools, and educational
-          resources. For more details,
-          <Link href="/" className="text-blue-600 hover:underline ml-1">
-            visit our homepage
-          </Link>
-          .
+          KardTrust provides public information about credit cards and personal
+          loans, along with tips on how to better manage your personal finances.
+          We do not offer any credit products directly — such as credit cards or
+          loans — but rather aim to provide useful and reliable financial
+          information.
         </p>
       ),
     },

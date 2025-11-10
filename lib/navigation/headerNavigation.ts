@@ -124,24 +124,24 @@ export const headerNavigation = {
         title: "Credit Cards",
         items: [
           {
-            text: cleanTitle("Barclaycard Avios Plus"),
-            href: "/financial-solutions/barclaycard-avios-plus",
+            text: cleanTitle("Affirm Card"),
+            href: "/financial-solutions/affirm-card",
           },
           {
-            text: cleanTitle("Curve Credit Card"),
-            href: "/financial-solutions/curve-credit-card",
+            text: cleanTitle("Chase Sapphire Reserve"),
+            href: "/financial-solutions/chase-sapphire-reserve",
           },
           {
-            text: cleanTitle("Halifax World Elite Mastercard"),
-            href: "/financial-solutions/halifax-world-elite-mastercard",
+            text: cleanTitle("Wells Fargo Active Cash Card"),
+            href: "/financial-solutions/wells-fargo-active-cash-card",
           },
           {
-            text: cleanTitle("Lloyds Bank Credit Card"),
-            href: "/financial-solutions/lloyds-bank-credit-card",
+            text: cleanTitle("SoFi Credit Card"),
+            href: "/financial-solutions/sofi-credit-card",
           },
           {
-            text: cleanTitle("Monzo Credit Card"),
-            href: "/financial-solutions/monzo-credit-card",
+            text: cleanTitle("Chime Credit Builder Visa Secured Card"),
+            href: "/financial-solutions/chime-credit-builder-visa-secured-card",
           },
           {
             text: "Show more...",
@@ -187,6 +187,16 @@ export const headerNavigation = {
       title: "Featured Articles",
       posts: [
         {
+          title: cleanTitle(
+            "The 5-Minute Financial Health Check: Where Does Your Money Go?",
+          ),
+          href: "/personal-finance/5-minute-financial-health-check",
+          image:
+            "https://media.topfinanzas.com/images/kardtrust/5-minute-financial-health-check.webp",
+          category: "Personal Finance",
+          categoryHref: "/personal-finance",
+        },
+        {
           title: cleanTitle("Best Personal Loans in the US"),
           href: "/personal-finance/best-personal-loans",
           image:
@@ -195,27 +205,19 @@ export const headerNavigation = {
           categoryHref: "/personal-finance",
         },
         {
-          title: cleanTitle("Practical Guide to Getting Out of Debt"),
-          href: "/personal-finance/getting-out-of-debt",
+          title: cleanTitle("Affirm Card"),
+          href: "/financial-solutions/affirm-card",
           image:
-            "https://media.topfinanzas.com/images/kardtrust/Top_Finance_how_to_get_out_of_debt.webp",
-          category: "Personal Finance",
-          categoryHref: "/personal-finance",
-        },
-        {
-          title: cleanTitle("Barclaycard Avios Plus"),
-          href: "/financial-solutions/barclaycard-avios-plus",
-          image:
-            "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
+            "https://media.topfinanzas.com/images/kardtrust/affirm-card.webp",
           category: "Credit Cards",
           categoryHref: "/financial-solutions",
         },
         {
-          title: cleanTitle("HSBC Personal Loan"),
-          href: "/financial-solutions/hsbc-personal-loan",
+          title: cleanTitle("Chase Sapphire Reserve"),
+          href: "/financial-solutions/chase-sapphire-reserve",
           image:
-            "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-          category: "Loans",
+            "https://media.topfinanzas.com/images/kardtrust/chase-sapphire-reserve.webp",
+          category: "Credit Cards",
           categoryHref: "/financial-solutions",
         },
       ],
