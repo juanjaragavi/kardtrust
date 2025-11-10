@@ -188,7 +188,7 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
               <div className="text-left my-8">
                 <Link href="/financial-solutions/discover-it-student-chrome-credit-card-requirements">
                   <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                    See Requirements
+                    See Detailed Requirements
                   </Button>
                 </Link>
               </div>

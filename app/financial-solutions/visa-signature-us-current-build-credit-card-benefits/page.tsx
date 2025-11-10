@@ -38,11 +38,19 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 climb.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Empty responsive, centered div */}
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://media.topfinanzas.com/images/kardtrust/visa-signature-us-current-build-credit-card.webp"
+                  alt="Visa Signature U.S. Current Build Credit Card"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
               </div>
 
               <div className="my-6 grid gap-3">
@@ -57,27 +65,19 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 </div>
               </div>
 
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-6">
                 <Link href="/financial-solutions/visa-signature-us-current-build-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
-                    Check If You Qualify
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Requirements
                   </Button>
                 </Link>
               </div>
 
-              <div className="my-8 text-left sm:text-left">
-                <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/visa-signature-us-current-build-credit-card.webp"
-                  alt="Visa Signature U.S. Current Build Credit Card"
-                  width={900}
-                  height={507}
-                  className="w-full h-auto rounded-xl"
-                  style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
-                  quality={85}
-                  loading="eager"
-                />
+              <div
+                id="kardtrust_ad_1"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
@@ -178,28 +178,20 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 </li>
               </ul>
 
-              <div className="my-8 flex justify-center">
+              <div className="text-left my-8">
                 <Link href="/financial-solutions/visa-signature-us-current-build-credit-card-requirements">
-                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
-                    See Requirements
+                  <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    See Detailed Requirements
                   </Button>
                 </Link>
               </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>
-
-        <AIContentDisclaimer />
       </article>
+
+      <AIContentDisclaimer />
+      <CompactFooter />
 
       <CompactFooter />
     </main>
