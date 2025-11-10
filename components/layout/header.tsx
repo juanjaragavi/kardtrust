@@ -311,7 +311,7 @@ export function Header() {
                           <div className="mt-4 text-right">
                             <Link
                               href="/blog"
-                              className="text-gray-700 hover:text-gray-900 font-medium inline-flex items-center underline underline-offset-2 transition-colors"
+                              className="text-primary hover:text-gray-700 font-medium inline-flex items-center underline underline-offset-2 transition-colors"
                               onClick={() => setActiveMegaMenu(null)}
                             >
                               {headerContent.blogMegaMenu.viewAllText}
