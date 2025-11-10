@@ -44,11 +44,19 @@ export default function CitiSimplicityCardBenefitsPage() {
                 daily spending.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
+              <div className="my-8 text-left">
+                <Image
+                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp"
+                  alt="Citi Simplicity Card"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
               </div>
 
               <div className="my-6 grid gap-3">
@@ -75,19 +83,11 @@ export default function CitiSimplicityCardBenefitsPage() {
                 </Link>
               </div>
 
-              <div className="my-8 text-left">
-                <Image
-                  src="https://us.topfinanzas.com/wp-content/uploads/2024/12/download-12-1-1024x536.webp"
-                  alt="Citi Simplicity Card"
-                  width={900}
-                  height={507}
-                  className="w-full h-auto rounded-xl"
-                  style={{ width: "auto", height: "auto" }}
-                  priority={false}
-                  fetchPriority="high"
-                  quality={85}
-                  loading="eager"
-                />
+              <div
+                id="kardtrust_ad_1"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
@@ -187,7 +187,7 @@ export default function CitiSimplicityCardBenefitsPage() {
               <div className="text-left my-8">
                 <Link href="/financial-solutions/citi-simplicity-card-requirements">
                   <Button className="bg-primary hover:bg-red-800 text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                    See Requirements
+                    See Detailed Requirements
                   </Button>
                 </Link>
               </div>
