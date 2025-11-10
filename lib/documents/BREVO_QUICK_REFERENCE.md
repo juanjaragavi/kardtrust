@@ -96,7 +96,7 @@ Contact Created in Lists 9 & 5
     "INCOME": "£2,000 - £3,000",
     "CARD_PREFERENCE": "Cashback",
     "PAIS": "Reino Unido",
-    "MARCA": "Top Finanzas",
+    "MARCA": "KardTrust",
     "QUIZ_TARJETAS": "SI",
     "CONSENT": "1",
     "UTM_SOURCE": "google",

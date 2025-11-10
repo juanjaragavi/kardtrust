@@ -33,7 +33,7 @@
 
 ### Legal Entity
 
-#### **TOP NETWORKS INC**
+#### **SURF NETWORKS INC**
 
 ### Brand Positioning
 
@@ -784,9 +784,9 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
   "logo": "https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "PANAMA, PANAMA CITY",
-    "addressLocality": "AV. AQUILINO DE LA GUARDIA",
-    "postalCode": "OCEAN BUSINESS PLAZA BUILDING, FLOOR 12",
+    "streetAddress": "Calle 50, Edificio BMW",
+    "addressLocality": "Esquina con Vía Porras",
+    "postalCode": "Panamá",
     "addressCountry": "PA"
   },
   "contactPoint": {
@@ -1067,8 +1067,8 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 
 ##### Copyright
 
-- **Short:** "Copyright Top Networks Inc. 2025"
-- **Full:** "ALL RIGHTS RESERVED, ©TOP NETWORKS INC 2025. REPRODUCTION IN WHOLE OR IN PART BY ANY MEANS OR FORM WITHOUT WRITTEN AND EXPRESS AUTHORISATION FROM THE COPYRIGHT HOLDER IS PROHIBITED."
+- **Short:** "Copyright Surf Networks Inc. 2025"
+- **Full:** "ALL RIGHTS RESERVED, ©SURF NETWORKS INC 2025. REPRODUCTION IN WHOLE OR IN PART BY ANY MEANS OR FORM WITHOUT WRITTEN AND EXPRESS AUTHORISATION FROM THE COPYRIGHT HOLDER IS PROHIBITED."
 
 ---
 
@@ -1157,7 +1157,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
 ```typescript
 export const BRAND_STATIC_FIELDS = {
   Pais: "Reino Unido",
-  Marca: "Top Finanzas",
+  Marca: "KardTrust",
 } as const;
 ```
 
@@ -1314,7 +1314,7 @@ For agents extracting specific values:
 
 ### Brand Stewardship
 
-**Owner:** TOP NETWORKS INC  
+**Owner:** SURF NETWORKS INC  
 **Email:** <info@topfinanzas.com>  
 **Website:** <https://kardtrust.com>
 

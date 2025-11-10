@@ -13,8 +13,8 @@ export const footerContent = {
 
   /** Company information */
   companyInfo: {
-    name: "TOP NETWORKS INC",
-    productLabel: "A Product of TOP NETWORKS INC.",
+    name: "SURF NETWORKS INC",
+    productLabel: "A Product of SURF NETWORKS INC.",
   },
 
   /** Legal content */
@@ -27,11 +27,11 @@ export const footerContent = {
 
     /** Copyright notice */
     copyright: {
-      text: "Copyright Top Networks Inc. 2025",
+      text: "Copyright Surf Networks Inc. 2025",
       year: "2025",
     },
     fullCopyright: {
-      text: "ALL RIGHTS RESERVED, ©TOP NETWORKS INC 2025. REPRODUCTION IN WHOLE OR IN PART BY ANY MEANS OR FORM WITHOUT WRITTEN AND EXPRESS AUTHORISATION FROM THE COPYRIGHT HOLDER IS PROHIBITED.",
+      text: "ALL RIGHTS RESERVED, ©SURF NETWORKS INC 2025. REPRODUCTION IN WHOLE OR IN PART BY ANY MEANS OR FORM WITHOUT WRITTEN AND EXPRESS AUTHORISATION FROM THE COPYRIGHT HOLDER IS PROHIBITED.",
     },
   },
 

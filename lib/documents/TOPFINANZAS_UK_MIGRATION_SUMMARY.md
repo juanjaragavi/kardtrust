@@ -53,7 +53,7 @@ The KardTrust project has been successfully updated with the latest improvements
 
 - **Added YAML Front Matter**: Included `applyTo: "**/*"` directive for proper instruction scoping
 - **Date Format Consistency**: Standardized all date examples to US format `Month DD, YYYY`
-- **Brand Name Consistency**: Ensured all references use "KardTrust" (not "Top Finance UK")
+- **Brand Name Consistency**: Ensured all references use "KardTrust" (not "KardTrust")
 - **Image URL Consistency**: Updated all examples to use `https://media.topfinanzas.com/images/kardtrust/` path
 - **Improved Section Organization**: Better structured with clearer headings and formatting
 - **Enhanced Quality Control**: Retained valuable additions like Quality Control Checklist and Maintenance Notes

@@ -18,7 +18,7 @@ const testData = {
     cual_es_tu_ingreso_mensual: "£2,000 - £3,000",
     que_es_lo_que_mas_importante_en_una_tarjeta_de_credito: "Cashback",
     pais: "Reino Unido",
-    marca: "Top Finanzas",
+    marca: "KardTrust",
     quiz_tarjetas: "SI",
     acepto_politicas_de_tratamiento_de_datos_y_terminos_y_condiciones: "1",
     date_created: new Date().toISOString(),

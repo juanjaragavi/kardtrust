@@ -46,3 +46,6 @@ public/images/**/*.webp
 
 # Ignore file for testing the formatting of Strict markdown documents
 lib/documents/document.md
+
+# Backup folder
+.backup/

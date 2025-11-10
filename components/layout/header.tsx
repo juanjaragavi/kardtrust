@@ -109,11 +109,11 @@ export function Header() {
                 alt={logos.colorLogo.alt}
                 width={logos.colorLogo.width}
                 height={logos.colorLogo.height}
-                className="h-10 w-auto"
+                className="h-[42px] w-auto"
                 style={{ width: "auto", height: "auto" }}
                 priority={true}
                 loading="eager"
-                sizes="153px" // Updated based on h-10 (40px) and aspect ratio
+                sizes="161px" // Updated based on h-[42px] and aspect ratio
                 quality={85}
                 placeholder="blur"
                 blurDataURL="data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAAQAAAACQAAAwAAQUxQSBcAAAABD9D/ERFCyDa37d+ICPgXqjgjoqA+qgAAVlA4IDYAAACQAQCdASoKAAQAAkA4JZwAAPrHQAD++5AK1AA="
