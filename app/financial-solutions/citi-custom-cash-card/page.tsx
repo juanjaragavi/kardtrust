@@ -8,11 +8,11 @@ import { AIContentDisclaimer } from "@/components/ui/ai-content-disclaimer";
 export function generateMetadata() {
   return {
     title:
-      "Citi Custom Cash® Card: 5% Cash Back That Automatically Adapts - KardTrust",
+      "Citi Custom Cash Card Benefits: Automatic 5% Cash Back Highlights - KardTrust",
     description:
-      "Discover the Citi Custom Cash® Card with automatic 5% cash back on your top spending category, $200 welcome bonus, 0% intro APR for 18 months on balance transfers, and no annual fee. Your rewards adapt as your spending changes.",
+      "See how the Citi Custom Cash Card automatically assigns 5% cash back to your top category, adds a $200 bonus, and offers 0% intro APR on balance transfers, all with no annual fee.",
     keywords:
-      "Citi Custom Cash Card, automatic cash back, 5% cash back, adaptive rewards, no annual fee, balance transfer, Citi credit card, ThankYou Points",
+      "Citi Custom Cash Card, 5 percent cash back, automatic rewards, no annual fee, balance transfer offer",
   };
 }
 
@@ -28,285 +28,179 @@ export default function CitiCustomCashCardPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
-              Citi Custom Cash® Card: Automatic 5% Cash Back That Adapts to
-              Your Spending
+              Citi Custom Cash Card: Automatic 5% Cash Back That Adapts to You
             </h1>
 
-            <p className="text-lg text-gray-800 mb-4 leading-5 text-left">
-              The Citi Custom Cash® Card automatically applies 5% cash back to
-              the eligible category where you spend the most each billing cycle,
-              up to $500 in purchases. There is no activation calendar, no
-              rotating enrollment, and no annual fee standing between you and
-              the bonus rate.
-            </p>
-            <p className="text-base text-gray-700 mb-8 leading-5 text-left">
-              Spend $1,500 within six months to earn a $200 welcome bonus, enjoy
-              0% intro APR for 18 months on balance transfers completed in the
-              first four months, and earn 1% back on everything else. This
-              structure favors cardholders who want quick upside without
-              spreadsheets or quarterly reminders.
-            </p>
+            <div className="my-8 text-left sm:text-left">
+              <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
+                Let the Citi Custom Cash Card pick your 5% category every
+                billing cycle. It tracks where you spend the most, applies the
+                elevated rate to that category on up to $500 in purchases, and
+                handles the rotation automatically with no annual fee.
+              </p>
+              <p className="text-base text-gray-700 mb-6 leading-6">
+                Complete $1,500 in purchases within six months to earn a $200
+                bonus, then leverage the 0% intro APR window on balance
+                transfers for 18 months to tackle higher-rate debt. All other
+                purchases earn 1% cash back.
+              </p>
 
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+              <div
+                id="kardtrust_ad_1"
+                className="items-center justify-center flex w-full my-6"
+              >
+                {/* Reserved for display ad */}
+              </div>
 
-            <div className="my-8 space-y-4">
-              <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                Key Features of the Citi Custom Cash® Card
-              </h2>
-
-              <div className="space-y-6 my-8">
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 size-5 rounded-full bg-[#233A79] flex items-center justify-center mr-3 mt-0.5">
-                    <span className="text-white font-bold">➔</span>
-                  </div>
-                  <div className="text-sm leading-5 text-left">
-                    <span className="font-semibold">
-                      Automatic 5% bonus category:
-                    </span>{" "}
-                    Earn 5% cash back on up to $500 in purchases in your top
-                    eligible category every billing cycle (worth up to $300 per
-                    year) with zero activation requirements.
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 size-5 rounded-full bg-[#233A79] flex items-center justify-center mr-3 mt-0.5">
-                    <span className="text-white font-bold">➔</span>
-                  </div>
-                  <div className="text-sm leading-5 text-left">
-                    <span className="font-semibold">
-                      $200 bonus + 0% intro APR:
-                    </span>{" "}
-                    Earn $200 cash back (20,000 ThankYou® Points) after $1,500
-                    in purchases within six months and secure a 0% intro APR for
-                    18 months on balance transfers made in the first four months
-                    (balance transfer fee applies).
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 size-5 rounded-full bg-[#233A79] flex items-center justify-center mr-3 mt-0.5">
-                    <span className="text-white font-bold">➔</span>
-                  </div>
-                  <div className="text-sm leading-5 text-left">
-                    <span className="font-semibold">
-                      No annual fee + Citi Travel boost:
-                    </span>{" "}
-                    Pay $0 annually, earn an extra 4% on hotels, car rentals,
-                    and attractions booked through Citi Travel®, and collect 1%
-                    back on every other purchase.
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="flex-shrink-0 size-5 rounded-full bg-[#233A79] flex items-center justify-center mr-3 mt-0.5">
-                    <span className="text-white font-bold">➔</span>
-                  </div>
-                  <div className="text-sm leading-5 text-left">
-                    <span className="font-semibold">
-                      Flexible ThankYou® Points redemption:
-                    </span>{" "}
-                    Rewards post as ThankYou® Points, redeemable at one cent
-                    per point for statement credits, direct deposits, gift
-                    cards, or Citi Travel bookings with no minimum threshold.
-                  </div>
+              <div className="my-6 grid gap-3">
+                <div className="rounded-lg border border-[#233A79]/30 bg-[#233A79]/5 p-4 text-sm text-[#1a2b5c]">
+                  <p className="font-semibold">Quick snapshot</p>
+                  <ul className="mt-2 space-y-1 pl-4 list-disc">
+                    <li>
+                      5% cash back on up to $500 in your top category each cycle
+                    </li>
+                    <li>$200 bonus after $1,500 spend in six months</li>
+                    <li>
+                      0% intro APR for 18 months on balance transfers (fee
+                      applies)
+                    </li>
+                    <li>No annual fee; 1% cash back on all other spending</li>
+                  </ul>
                 </div>
               </div>
-            </div>
 
-            <div className="text-left my-8">
-              <Link href="/financial-solutions/citi-custom-cash-card-requirements">
-                <Button className="bg-[#233A79] hover:bg-[#1a2b5c] text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                  View Eligibility Requirements
-                </Button>
-              </Link>
-            </div>
+              <div className="text-left my-6">
+                <Link href="/financial-solutions/citi-custom-cash-card-requirements">
+                  <Button className="bg-[#233A79] hover:bg-[#1a2b5c] text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    View Eligibility Requirements
+                  </Button>
+                </Link>
+              </div>
 
-            <div className="my-8 text-left sm:text-left">
-              <Image
-                src="https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp"
-                alt="Citi Custom Cash Card"
-                width={900}
-                height={507}
-                className="w-full h-auto rounded-xl"
-                style={{ width: "auto", height: "auto" }}
-                loading="lazy"
-                quality={80}
-              />
-            </div>
+              <div className="my-8 text-left">
+                <Image
+                  src="https://media.topfinanzas.com/images/kardtrust/citi-custom-cash-card.webp"
+                  alt="Citi Custom Cash Credit Card"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  loading="lazy"
+                  quality={80}
+                />
+              </div>
 
-            <section className="my-6">
-              <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                How the Citi Custom Cash® Card Automatically Maximizes Your
-                Rewards
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Let the Card Pick Your 5% Category
               </h2>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                The Custom Cash tracks spending in real time and tags the
-                category with the highest dollar total each statement cycle.
-                Purchases in that category earn 5% back on up to $500, so maxing
-                out the cap delivers $25 per month or $300 per year in automatic
-                rewards.
+              <p className="text-gray-700 mb-6 leading-6">
+                Restaurants one month, grocery stores the next, then streaming
+                or gas, the Custom Cash follows your highest eligible category
+                and applies 5% cash back automatically. Maxing out the $500 cap
+                nets $25 per cycle, or $300 per year, without quarterly
+                enrollments.
               </p>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                Eligible categories cover everyday costs: restaurants, grocery
-                stores, gas stations, select travel and transit, streaming,
-                drugstores, home improvement stores, fitness clubs, and live
-                entertainment. When your spending shifts, the bonus follows
-                without any action required.
-              </p>
-              <p className="text-sm text-gray-700 leading-5 text-left">
-                Book hotels, car rentals, and attractions through Citi Travel®
-                to add an extra 4% cash back on top of the base 1%, keeping the
-                card competitive with travel-focused alternatives while staying
-                fee-free.
-              </p>
-            </section>
 
-            <div
-              id="kardtrust_ad_2"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
-
-            <section className="my-6">
-              <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                Welcome Bonus, Intro APR, and Balance Transfer Playbook
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Pair the Bonus With the Intro APR Window
               </h2>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                The $200 bonus returns 13.3% on the required spend and stacks
-                with your early 5% category earnings. Aim for roughly $250 per
-                month in everyday purchases to clear the threshold without
-                forcing extra swipes.
+              <p className="text-gray-700 mb-6 leading-6">
+                Average roughly $250 per month in everyday purchases to trigger
+                the $200 bonus naturally. Moving a balance? Divide the transfer
+                by 18 to stay on track before the variable 17.99% to 27.99% APR
+                returns. New purchases accrue interest if you carry that
+                transfer, so plan payments accordingly.
               </p>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                Balance transfers booked within four months receive 0% intro APR
-                for 18 months. Divide your transferred balance by 18 to set a
-                payoff target that keeps you interest-free once the standard
-                17.99% – 27.99% variable APR resumes. Remember that new
-                purchases accrue interest if you are still carrying the
-                transferred balance, so keep routine spending focused on the 5%
-                cap or pay new charges in full.
-              </p>
-            </section>
 
-            <section className="my-6">
-              <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                ThankYou® Points Ecosystem and Flexible Redemption Options
+              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+                Everyday Management and ThankYou Points
               </h2>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                Rewards accrue as ThankYou® Points at a clean one cent per
-                point value for statement credits, direct deposits, or mailed
-                checks. Redemptions are available instantly—no minimum balance
-                gets in the way.
+              <p className="text-gray-700 mb-6 leading-6">
+                Rewards post as ThankYou Points worth one cent each toward
+                statement credits, direct deposits, gift cards, or Citi Travel
+                bookings. The Citi Mobile app tracks category performance, lets
+                you set alerts, and keeps tap-to-pay, card lock, and autopay
+                tools close at hand.
               </p>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                You can also funnel points into gift cards, Citi Travel bookings
-                (where the 4% boost applies), Shop with Points at Amazon, or
-                eligible loan payments. Holders of other ThankYou® cards can
-                pool balances to unlock premium airline and hotel transfers down
-                the road.
-              </p>
-            </section>
 
-            <section className="my-6">
-              <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                Comparing Citi Custom Cash to Other Popular Cash Back Cards
-              </h2>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                Flat-rate cards such as the{" "}
-                <Link
-                  href="/financial-solutions/wells-fargo-active-cash-card"
-                  className="text-primary hover:underline"
-                >
-                  Wells Fargo Active Cash® Card
-                </Link>{" "}
-                and Citi Double Cash® deliver 2% everywhere. The Custom Cash
-                wins when you consistently run $500 in a single category each
-                month, effectively lifting blended earnings above 2% while
-                staying fee-free.
-              </p>
-              <p className="text-sm text-gray-700 leading-5 text-left">
-                Prefer simplicity over quarterly rotations on the{" "}
-                <Link
-                  href="/financial-solutions/chase-freedom-flex"
-                  className="text-primary hover:underline"
-                >
-                  Chase Freedom Flex℠
-                </Link>{" "}
-                or Discover it® Cash Back? The Custom Cash keeps the same $300
-                annual 5% ceiling but spreads it across 12 months and does the
-                category selection for you. Pair it with a 2% card for a
-                reliable one-two punch: 5% on the category cap, 2% on everything
-                else.
-              </p>
-            </section>
-
-            <section className="my-6">
-              <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
-                Convenience Features, Digital Wallets, and Citi Mobile App
-              </h2>
-              <p className="text-sm text-gray-700 leading-5 mb-4 text-left">
-                Tap-to-pay, zero-liability protection, and widespread digital
-                wallet support keep daily purchases fast and secure while you
-                continue earning rewards.
-              </p>
-              <p className="text-sm text-gray-700 leading-5 text-left">
-                The Citi Mobile® App shows real-time category tracking, lets
-                you set custom alerts, schedule payments, and pick a due date
-                that matches your cash-flow routine, keeping the card easy to
-                manage.
-              </p>
-            </section>
-
-            <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
-              <h3 className="text-md font-bold text-gray-800 mb-3 text-left">
-                ⚠️ Important Disclosure
-              </h3>
-              <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
-                <strong>Representative APR Example:</strong> Purchases carry a
-                variable 17.99% – 27.99% APR. A $3,000 balance at 22.99% costs
-                roughly $689 in interest over 12 months if you pay only the
-                minimum. Balance transfers made within four months qualify for
-                0% APR for 18 months, then revert to the variable range. Balance
-                transfer fee: $5 or 5%, whichever is greater.
-              </p>
-              <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
-                <strong>Credit Impact:</strong> Applications trigger a hard
-                inquiry that may temporarily trim scores. Keep utilization below
-                30% and pay on time to rebuild momentum.
-              </p>
-              <p className="text-sm text-gray-700 leading-5 text-left">
-                <strong>Product Restrictions:</strong> One Citi Custom Cash®
-                account per person. You are ineligible for the welcome bonus if
-                you received one for this product in the last 48 months. Subject
-                to credit approval. This information is educational; KardTrust
-                is not affiliated with Citi.
-              </p>
-            </section>
-
-            <div className="text-left my-8">
-              <a
-                href="https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
-                target="_blank"
-                rel="noopener noreferrer"
+              <div
+                id="kardtrust_ad_2"
+                className="items-center justify-center flex w-full my-6"
               >
-                <Button className="bg-[#233A79] hover:bg-[#1a2b5c] text-white font-medium text-md py-2 px-8 rounded-full w-full">
-                  Apply Now - Visit Official Citi Website
-                </Button>
-              </a>
-            </div>
+                {/* Reserved for display ad */}
+              </div>
 
-            <AIContentDisclaimer />
+              <div className="mt-6 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
+                <h3 className="text-lg font-semibold text-gray-800">
+                  Compare Other Cash Back Cards
+                </h3>
+                <ul className="space-y-2 text-sm text-gray-700">
+                  <li>
+                    <Link
+                      href="/financial-solutions/citi-double-cash-credit-card-benefits"
+                      className="text-primary hover:underline"
+                    >
+                      Citi Double Cash Credit Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/wells-fargo-active-cash-card"
+                      className="text-primary hover:underline"
+                    >
+                      Wells Fargo Active Cash Card Benefits
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/financial-solutions/chase-freedom-flex"
+                      className="text-primary hover:underline"
+                    >
+                      Chase Freedom Flex Card Benefits
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+
+              <section className="my-6 p-6 bg-yellow-50 border-l-4 border-yellow-400">
+                <h3 className="text-md font-bold text-gray-800 mb-3 text-left">
+                  Important Disclosure
+                </h3>
+                <p className="text-sm text-gray-700 leading-5 mb-3 text-left">
+                  <strong>Representative APR Example:</strong> Purchases carry a
+                  variable 17.99% to 27.99% APR. A $3,000 balance at 22.99%
+                  accrues about $689 in interest over 12 months if you make only
+                  minimum payments. Balance transfers completed within four
+                  months receive 0% APR for 18 months, then switch to the same
+                  variable range. Balance transfer fee: $5 or 5%, whichever is
+                  greater.
+                </p>
+                <p className="text-sm text-gray-700 leading-5 text-left">
+                  <strong>Credit Impact:</strong> Citi limits Custom Cash
+                  bonuses to once every 48 months and typically allows one
+                  account per person. Applications trigger a hard inquiry and
+                  approval is not guaranteed. Payment history and utilization
+                  across all accounts still drive overall credit performance.
+                </p>
+              </section>
+
+              <div className="text-left my-8">
+                <a
+                  href="https://www.citi.com/credit-cards/citi-custom-cash-credit-card"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <Button className="bg-[#233A79] hover:bg-[#1a2b5c] text-white font-medium text-md py-2 px-8 rounded-full w-full">
+                    Apply Now - Visit Official Citi Website
+                  </Button>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
+      <AIContentDisclaimer />
       <CompactFooter />
     </main>
   );
