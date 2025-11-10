@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
@@ -57,6 +58,14 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 </li>
               </ul>
 
+              <div className="my-8 flex justify-center">
+                <Link href="/financial-solutions/wells-fargo-autograph-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                    Check If You Qualify
+                  </Button>
+                </Link>
+              </div>
+
               <p className="text-gray-700 mb-8">
                 The Wells Fargo Autograph Card offers a balanced rewards
                 structure that makes it easy to earn on everyday purchases. With
@@ -64,6 +73,21 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 phone services, plus a generous welcome bonus, it's designed for
                 modern spending habits.
               </p>
+
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://media.topfinanzas.com/images/kardtrust/wells-fargo-autograph-card.webp"
+                  alt="Wells Fargo Autograph Card"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
+              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 3x Points on Popular Categories: Maximize Your Daily Spending

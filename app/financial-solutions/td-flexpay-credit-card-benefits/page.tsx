@@ -60,6 +60,14 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 </li>
               </ul>
 
+              <div className="my-8 flex justify-center">
+                <Link href="/financial-solutions/td-flexpay-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                    Check If You Qualify
+                  </Button>
+                </Link>
+              </div>
+
               <p className="text-gray-700 mb-8">
                 The TD FlexPay Credit Card is designed to provide financial
                 flexibility, allowing cardholders to manage their expenses with

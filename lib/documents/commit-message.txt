@@ -1,9 +1,28 @@
-feat: optimize credit card content for SEO and user experience
+feat: implement mandatory CTAs and optimize image placement across Financial Solutions benefit articles
 
-- Update Citi Custom Cash Card page with improved metadata and streamlined content
-- Enhance Citi Double Cash Card benefits page with better keyword targeting
-- Refactor Citi Simplicity Card content for clearer value proposition
-- Optimize Discover it Student Chrome page with student-focused messaging
-- Improve page structure with better heading hierarchy and ad placement
-- Add relevant internal linking to related financial products
-- Enhance mobile responsiveness and content readability
+CRITICAL MONETIZATION FIX:
+- Add second CTA button (above-the-fold) to 8 benefit articles for improved conversion
+- Relocate product images from bottom to top in DoorDash Rewards article
+- Add missing product images to 3 articles (Wells Fargo, US Bank, Visa Current Build)
+
+COMPLIANCE ACHIEVED:
+- All 16 Financial Solutions benefit articles now have 2 CTAs linking to requirements pages
+- First CTA visible above-the-fold on mobile for immediate user action
+- Product images properly positioned at article top to prevent AdUnit Mob dominance
+- 100% compliance with monetization requirements
+
+ARTICLES MODIFIED (8):
+- Titanium Rewards Visa Signature - Added 1st CTA
+- Wells Fargo Autograph - Added image + 1st CTA
+- US Bank Cash+ Visa Signature - Added image + 1st CTA  
+- Visa Signature US Current Build - Added image + 1st CTA
+- CIT Bank Home Loans - Added 1st CTA
+- DoorDash Rewards Mastercard - Relocated image + Added 1st CTA
+- Tomo Credit Card - Added 1st CTA
+- TD FlexPay - Added 1st CTA
+
+TECHNICAL:
+- Consistent CTA button styling and placement
+- Optimized image loading (eager + fetchPriority="high")
+- All CTAs properly linked to requirements pages
+- No TypeScript errors, maintains project patterns

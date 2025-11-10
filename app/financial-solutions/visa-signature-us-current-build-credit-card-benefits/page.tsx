@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Header } from "@/components/layout/header";
@@ -54,6 +55,29 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                     <li>Credit monitoring tools and bureau reporting</li>
                   </ul>
                 </div>
+              </div>
+
+              <div className="my-8 flex justify-center">
+                <Link href="/financial-solutions/visa-signature-us-current-build-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                    Check If You Qualify
+                  </Button>
+                </Link>
+              </div>
+
+              <div className="my-8 text-left sm:text-left">
+                <Image
+                  src="https://media.topfinanzas.com/images/kardtrust/visa-signature-us-current-build-credit-card.webp"
+                  alt="Visa Signature U.S. Current Build Credit Card"
+                  width={900}
+                  height={507}
+                  className="w-full h-auto rounded-xl"
+                  style={{ width: "auto", height: "auto" }}
+                  priority={false}
+                  fetchPriority="high"
+                  quality={85}
+                  loading="eager"
+                />
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
