@@ -108,8 +108,7 @@ export const footerNavigation = {
     },
     {
       type: "address",
-      value:
-        "PANAMA, PANAMA CITY, AV. AQUILINO DE LA GUARDIA, OCEAN BUSINESS PLAZA BUILDING, FLOOR 12",
+      value: "Calle 50, Edificio BMW, Esquina con Vía Porras, Panamá",
       svgPath:
         "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z|M15 11a3 3 0 11-6 0 3 3 0 016 0z",
     },

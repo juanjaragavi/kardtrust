@@ -24,7 +24,7 @@ export const BRAND_STATIC_FIELDS_LOWER = {
 } as const;
 
 export const commonStrings = {
-  copyright: "© Top Networks Inc. 2025",
+  copyright: "© Surf Networks Inc. 2025",
   important: {
     prefix: "Important:",
     emailVerification:

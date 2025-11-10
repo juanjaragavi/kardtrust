@@ -44,7 +44,7 @@
 
 | Aspect         | UK Version                         | US Version                     |
 | -------------- | ---------------------------------- | ------------------------------ |
-| **Brand**      | Top Finanzas UK                    | KardTrust                      |
+| **Brand**      | KardTrust                          | KardTrust                      |
 | **Domain**     | uk.topfinanzas.com                 | kardtrust.com                  |
 | **Language**   | British English                    | American English               |
 | **Regulators** | FCA, MoneyHelper                   | CFPB, FTC, MyMoney.gov         |

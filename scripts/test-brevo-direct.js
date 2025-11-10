@@ -27,7 +27,7 @@ const testData = {
     INCOME: "£2,000 - £3,000",
     CARD_PREFERENCE: "Cashback",
     PAIS: "Reino Unido",
-    MARCA: "Top Finanzas",
+    MARCA: "KardTrust",
     QUIZ_TARJETAS: "SI",
     CONSENT: "1",
     DATE_CREATED: new Date().toISOString(),

@@ -165,9 +165,9 @@ export default function RootLayout({
                 logo: "https://media.topfinanzas.com/images/kardtrust/kardtrust-logo-dark.png",
                 address: {
                   "@type": "PostalAddress",
-                  streetAddress: "PANAMA, PANAMA CITY",
-                  addressLocality: "AV. AQUILINO DE LA GUARDIA",
-                  postalCode: "OCEAN BUSINESS PLAZA BUILDING, FLOOR 12",
+                  streetAddress: "Calle 50, Edificio BMW",
+                  addressLocality: "Esquina con Vía Porras",
+                  postalCode: "Panamá",
                   addressCountry: "PA",
                 },
                 contactPoint: {

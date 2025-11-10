@@ -26,7 +26,7 @@
 | Attribution | `utm_term`        | string     | Hidden field                        | "                                                           |
 | Attribution | `utm_content`     | string     | Hidden field                        | "                                                           |
 | Brand       | `Pais`            | string     | Static "Reino Unido"                | Shared with all endpoints for market rollups                |
-| Brand       | `Marca`           | string     | Static "Top Finanzas"               | Shared with all endpoints                                   |
+| Brand       | `Marca`           | string     | Static "KardTrust"                  | Shared with all endpoints                                   |
 | Brand       | `pais`            | string     | Static lower-case                   | ConvertKit/Brevo custom fields                              |
 | Brand       | `marca`           | string     | Static lower-case                   | ConvertKit/Brevo custom fields                              |
 | System      | `date_created`    | ISO string | Auto-generated                      | Persisted for ConvertKit audit trail                        |

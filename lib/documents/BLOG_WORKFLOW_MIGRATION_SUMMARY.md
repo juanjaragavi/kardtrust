@@ -44,9 +44,9 @@ This document summarizes the successful migration of the blog post generation wo
 
 | UK TopFinanzas                   | KardTrust                   |
 | -------------------------------- | --------------------------- |
-| Top Finanzas UK                  | KardTrust                   |
+| KardTrust                        | KardTrust                   |
 | uk.topfinanzas.com               | kardtrust.com               |
-| Top Finance UK                   | KardTrust                   |
+| KardTrust                        | KardTrust                   |
 | topfinanzas-us-topic-outline.csv | kardtrust-topic-outline.csv |
 
 ### 2. Localization Changes
