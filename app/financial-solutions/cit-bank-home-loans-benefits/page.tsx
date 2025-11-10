@@ -62,6 +62,14 @@ export default function CitBankHomeLoansBenefitsPage() {
                 </li>
               </ul>
 
+              <div className="my-8 flex justify-center">
+                <Link href="/financial-solutions/cit-bank-home-loans-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                    Check If You Qualify
+                  </Button>
+                </Link>
+              </div>
+
               <p className="text-gray-700 mb-8">
                 CIT Bank Home Loans represent more than just a financial
                 product—they're your pathway to homeownership. With a commitment

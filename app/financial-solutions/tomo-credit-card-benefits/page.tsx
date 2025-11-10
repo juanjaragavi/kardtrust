@@ -59,6 +59,14 @@ export default function TomoCreditCardBenefitsPage() {
                 </div>
               </div>
 
+              <div className="my-8 flex justify-center">
+                <Link href="/financial-solutions/tomo-credit-card-requirements">
+                  <Button className="bg-primary hover:bg-red-800 text-white px-8 py-3">
+                    Check If You Qualify
+                  </Button>
+                </Link>
+              </div>
+
               <div className="my-8 text-left sm:text-left">
                 <Image
                   src="https://us.topfinanzas.com/wp-content/uploads/2024/11/Tomo1.webp"
