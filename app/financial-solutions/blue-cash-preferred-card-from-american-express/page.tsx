@@ -269,7 +269,7 @@ export default function BlueCashPreferredPage() {
                 <div className="my-8 text-left sm:text-left">
                   <Link href="/personal-finance/best-rewards-credit-cards/">
                     <Image
-                      src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
+                      src="https://media.topfinanzas.com/images/kardtrust/kardtrust-credit-cards-banner-ad.webp"
                       alt="Learn About Credit Card Rewards"
                       width={1000}
                       height={563}

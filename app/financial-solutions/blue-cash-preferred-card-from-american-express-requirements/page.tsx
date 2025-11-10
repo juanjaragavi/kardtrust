@@ -431,7 +431,7 @@ export default function BlueCashPreferredRequirementsPage() {
                 <div className="my-8 text-left sm:text-left">
                   <Link href="/personal-finance/cashback-credit-cards/">
                     <Image
-                      src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
+                      src="https://media.topfinanzas.com/images/kardtrust/kardtrust-credit-cards-banner-ad.webp"
                       alt="Learn About Cash Back Credit Cards"
                       width={1000}
                       height={563}

@@ -373,7 +373,7 @@ export default function ChaseSapphireReserveRequirementsPage() {
                 <div className="my-8 text-left sm:text-left">
                   <Link href="/personal-finance/travel-credit-cards/">
                     <Image
-                      src="https://media.topfinanzas.com/images/ads/Top-Blog-Credit-Cards.webp"
+                      src="https://media.topfinanzas.com/images/kardtrust/kardtrust-credit-cards-banner-ad.webp"
                       alt="Best Travel Credit Cards Comparison"
                       width={1000}
                       height={563}
