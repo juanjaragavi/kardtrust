@@ -1,7 +1,3 @@
-refactor: update financial solutions product pages and sidebar styling
+refactor: update credit card recommender banner images to kardtrust brand
 
-- Update credit card requirements and product pages in financial-solutions directory
-- Standardize formatting and component structure across financial solution cards
-- Enhance sidebar component styling and functionality
-- Improve consistency across Klarna, SoFi, Robinhood Gold, Step, Tilt, Upgrade, and Varo card pages
-- Apply code formatting and styling improvements
+Update image URLs across all credit card recommender pages (steps 1, 2, and 3) to use the new kardtrust branded banner image asset for improved visual consistency and brand identity.
