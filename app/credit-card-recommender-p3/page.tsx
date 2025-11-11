@@ -280,7 +280,7 @@ function CreditCardRecommenderPageContent() {
             <div className="my-8 text-left sm:text-left">
               <Link href="/financial-solutions/chime-credit-builder-visa-secured-card">
                 <Image
-                  src="https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/kardtrust-credit-card-user-banner-ad.webp"
                   alt="Chime Credit Builder Card"
                   width={900}
                   height={507}

@@ -271,7 +271,7 @@ function CreditCardRecommenderPageContent() {
             <div className="my-8 text-left sm:text-left">
               <Link href="/financial-solutions/sofi-credit-card">
                 <Image
-                  src="https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/kardtrust-credit-card-user-banner-ad.webp"
                   alt="SoFi Credit Card"
                   width={900}
                   height={507}

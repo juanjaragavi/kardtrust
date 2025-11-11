@@ -309,7 +309,7 @@ function CreditCardRecommenderContent() {
             <div className="my-8 text-left sm:text-left">
               <Link href="/financial-solutions/varo-believe-card">
                 <Image
-                  src="https://media.topfinanzas.com/images/ads/Top-Blog-Debt-management-1.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/kardtrust-credit-card-user-banner-ad.webp"
                   alt="Varo Believe Card"
                   width={900}
                   height={507}
