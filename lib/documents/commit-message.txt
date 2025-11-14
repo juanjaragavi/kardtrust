@@ -1,7 +1,14 @@
-docs: generate credit card product URLs for spreadsheet integration
+feat: add TOFU article on breaking paycheck-to-paycheck cycle
 
-- Generated complete list of credit card product URLs for both NEOBANCOS and Bancos Tradicionales categories
-- Corrected X1 Card reference to Robinhood Gold Card (robinhood-gold-card)
-- Organized URLs by category for Google Sheets integration
-- Verified all financial-solutions directory paths match existing blog post structure
-- Ready for spreadsheet integration with 21 total credit card products
+- Created comprehensive personal finance guide: "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today"
+- Article focuses on cash flow management with 3 practical shifts for US audience
+- Integrated article into blog listing page (app/blog/page.tsx)
+- Integrated article into personal finance category page (app/personal-finance/page.tsx)
+- Added complete SEO metadata and schema markup (ArticleSchema, BreadcrumbSchema)
+- Included 4 internal links to related content and 2 external authoritative sources (NFCC, CFPB)
+- Implemented proper ad placements (kardtrust_ad_1, kardtrust_ad_2) and CTA buttons
+- Added AI content disclaimer component
+- ~900 words targeting TOFU funnel stage with "guide" category filter
+- Slug: stop-living-paycheck-to-paycheck
+- Category: Personal Finance
+- Date: November 14, 2025
