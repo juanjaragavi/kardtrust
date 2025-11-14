@@ -40,6 +40,19 @@ export default function BlogArchivePage() {
 
   // Combine posts from both categories
   const allPosts: PostItem[] = [
+    // Financial Solutions Posts - NEW
+    {
+      title:
+        "Revolut Credit Card: Premium Banking with Advanced Security | KardTrust",
+      slug: "revolut-credit-card",
+      description:
+        "Discover the Revolut Credit Card offering customizable spending controls, virtual cards with regenerating details, real-time fraud protection, and exclusive Metal card benefits. Available on Standard, Premium, and Metal plans.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/revolut-credit-card.webp",
+      category: "Financial Solutions",
+      categoryPath: "/financial-solutions",
+      date: "November 14, 2025",
+    },
     // Personal Finance Posts
     {
       title:

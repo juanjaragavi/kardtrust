@@ -49,6 +49,22 @@ const cleanTitle = (title: string): string => {
 // Using a subset of posts for the homepage, sorted by date descending
 const allPosts: PostData[] = [
   {
+    slug: "revolut-credit-card",
+    frontmatter: {
+      title: "Revolut Credit Card: Premium Banking with Advanced Security",
+      description:
+        "Discover the Revolut Credit Card offering customizable spending controls, virtual cards with regenerating details, real-time fraud protection, and exclusive Metal card benefits. Available on Standard, Premium, and Metal plans.",
+      date: "2025-11-14T00:00:00Z",
+      featuredImage:
+        "https://media.topfinanzas.com/images/kardtrust/revolut-credit-card.webp",
+      categories: [
+        { name: "Financial Solutions", slug: "financial-solutions" },
+      ],
+    },
+    category: "Financial Solutions",
+    categoryPath: "/financial-solutions",
+  },
+  {
     slug: "amazon-rewards-visa-credit-card-benefits",
     frontmatter: {
       title: "Unlock the Benefits of the Amazon Rewards Visa Credit Card",

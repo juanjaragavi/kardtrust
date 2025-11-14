@@ -26,6 +26,16 @@ export default function CreditCardsArchivePage() {
   const creditCardsContent = useMemo(
     () => [
       {
+        title: "Revolut Credit Card",
+        slug: "revolut-credit-card",
+        description:
+          "Discover the Revolut Credit Card offering customizable spending controls, virtual cards with regenerating details, real-time fraud protection, and exclusive Metal card benefits. Available on Standard, Premium, and Metal plans.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/revolut-credit-card.webp",
+        date: "14 November 2025",
+        type: "neobank",
+      },
+      {
         title: "Blue Cash Preferred® Card from American Express",
         slug: "blue-cash-preferred-card-from-american-express",
         description:
