@@ -39,6 +39,17 @@ export default function PersonalFinanceArchivePage() {
     () => [
       {
         title:
+          "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today | KardTrust",
+        slug: "stop-living-paycheck-to-paycheck",
+        description:
+          "Discover three fundamental shifts that will help you break free from the paycheck-to-paycheck cycle. Learn practical money management strategies to build a buffer, control cash flow, and create lasting financial stability.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/stop-living-paycheck-to-paycheck.webp",
+        date: "November 14, 2025",
+        category: "guide",
+      },
+      {
+        title:
           "The 5-Minute Financial Health Check: Where Does Your Money Go? | KardTrust",
         slug: "5-minute-financial-health-check",
         description:

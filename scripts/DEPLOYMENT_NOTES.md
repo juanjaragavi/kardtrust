@@ -6,7 +6,8 @@
 ## Key Changes Made
 
 ### 1. Fixed PM2 User Configuration
-- **Previous Issue:** Script was trying to restart PM2 under user `juanjaramillo` 
+
+- **Previous Issue:** Script was trying to restart PM2 under user `juanjaramillo`
 - **Solution:** Updated to use `sudo pm2` commands since kardtrust runs under root's PM2
 - **Current PM2 Setup:**
   - Process runs under root user
@@ -17,28 +18,33 @@
 ### 2. Enhanced Script Features
 
 #### Added Color-Coded Output
+
 - Green for success messages
 - Red for errors
 - Yellow for warnings
 - Timestamped log entries
 
 #### Smart Dependency Management (Step 2)
+
 - Checks if `package.json` or `package-lock.json` changed
 - Only runs `npm install --production` if dependencies were modified
 - Skips unnecessary installations for faster deployments
 
 #### Permission Fix (Step 5)
+
 - Automatically fixes `.next/cache` directory permissions
 - Sets ownership to `macbookpro:macbookpro`
 - Prevents image caching errors
 
 #### Health Check (Step 6)
+
 - Waits 3 seconds after PM2 restart
 - Performs HTTP health check on port 3005
 - Verifies server returns HTTP 200 status
 - Provides helpful error messages if issues detected
 
 #### Better Error Handling
+
 - Uses `set -e` to exit on any command failure
 - Individual step validation with clear error messages
 - Proper exit codes for automation integration
@@ -58,16 +64,17 @@ The script now follows this optimized workflow:
 
 All Next.js projects in `/var/www/html/` have distinct ports:
 
-| Project | Port | Status |
-|---------|------|--------|
-| kardtrust | 3005 | ✅ Active |
-| uk | 3004 | Active |
-| budgetbee-next | 3007 | Active |
-| emailgenius-broadcasts-generator | 3020 | Active |
+| Project                          | Port | Status    |
+| -------------------------------- | ---- | --------- |
+| kardtrust                        | 3005 | ✅ Active |
+| uk                               | 3004 | Active    |
+| budgetbee-next                   | 3007 | Active    |
+| emailgenius-broadcasts-generator | 3020 | Active    |
 
 ## Usage
 
 ### Standard Deployment
+
 ```bash
 cd /var/www/html/kardtrust
 ./scripts/deploy_update.sh
@@ -84,22 +91,26 @@ cd /var/www/html/kardtrust
 ## Troubleshooting
 
 ### Check PM2 Status
+
 ```bash
 sudo pm2 list
 sudo pm2 show kardtrust
 ```
 
 ### View Logs
+
 ```bash
 sudo pm2 logs kardtrust --lines 50
 ```
 
 ### Manual Restart
+
 ```bash
 sudo pm2 restart kardtrust
 ```
 
 ### Verify Server Response
+
 ```bash
 curl -I http://localhost:3005
 ```
