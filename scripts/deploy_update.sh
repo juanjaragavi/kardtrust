@@ -1,33 +1,124 @@
 #!/bin/bash
 
-# Exit immediately if a command exits with a non-zero status.
+# Exit immediately if a command exits with a non-zero status
 set -e
 
-echo "--- Starting Application Update ---"
+# Color codes for better output
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
 
-# Optional: Navigate to your project directory if the script isn't run from there
-# cd /path/to/your/project || { echo "Failed to change directory"; exit 1; }
+# Function to print colored output
+print_step() {
+    echo -e "${GREEN}[$(date '+%Y-%m-%d %H:%M:%S')]${NC} $1"
+}
 
-echo "[1/5] Pulling latest changes from Git repository (origin main)..."
-sudo git pull origin main
+print_error() {
+    echo -e "${RED}[ERROR]${NC} $1"
+}
 
-echo "[2/5] Removing previous build directory (.next)..."
-# Use -f to force removal without prompts and ignore if it doesn't exist
+print_warning() {
+    echo -e "${YELLOW}[WARNING]${NC} $1"
+}
+
+echo "======================================"
+echo "  KardTrust Deployment Update Script  "
+echo "======================================"
+echo ""
+
+# Verify we're in the correct directory
+EXPECTED_DIR="/var/www/html/kardtrust"
+if [ "$PWD" != "$EXPECTED_DIR" ]; then
+    print_warning "Not in expected directory. Changing to $EXPECTED_DIR"
+    cd "$EXPECTED_DIR" || { print_error "Failed to change directory"; exit 1; }
+fi
+
+# Step 1: Pull latest changes
+print_step "[1/7] Pulling latest changes from Git repository (origin main)..."
+if sudo git pull origin main; then
+    print_step "Git pull successful"
+else
+    print_error "Git pull failed"
+    exit 1
+fi
+
+# Step 2: Install/update dependencies if package.json changed
+print_step "[2/7] Checking for dependency updates..."
+if git diff HEAD@{1} HEAD --name-only | grep -q "package.json\|package-lock.json"; then
+    print_step "Dependencies changed, running npm install..."
+    sudo npm install --production
+else
+    print_step "No dependency changes detected, skipping npm install"
+fi
+
+# Step 3: Remove previous build
+print_step "[3/7] Removing previous build directory (.next)..."
 sudo rm -rf .next
 
-echo "[3/5] Building the application..."
-sudo npm run build
+# Step 4: Build the application
+print_step "[4/7] Building the application..."
+if sudo npm run build; then
+    print_step "Build completed successfully"
+else
+    print_error "Build failed"
+    exit 1
+fi
 
-echo "[4/5] Restarting PM2 process 'kardtrust'..."
-sudo -u juanjaramillo pm2 restart kardtrust
+# Step 5: Copy static files for standalone mode
+print_step "[5/7] Copying static files to standalone directory..."
+if [ -d ".next/standalone" ]; then
+    # Copy static files
+    if [ -d ".next/static" ]; then
+        sudo cp -r .next/static .next/standalone/.next/
+        print_step "Static files copied"
+    fi
+    
+    # Copy public folder
+    if [ -d "public" ]; then
+        sudo cp -r public .next/standalone/
+        print_step "Public folder copied"
+    fi
+else
+    print_warning "Standalone directory not found - skipping static file copy"
+fi
 
-echo "[5/5] Saving current PM2 process list..."
-sudo -u juanjaramillo pm2 save
+# Step 6: Fix permissions for cache directory
+print_step "[6/7] Fixing cache directory permissions..."
+sudo chown -R macbookpro:macbookpro .next/cache 2>/dev/null || true
 
-# Note: 'sudo pm2 startup' is typically a one-time setup command
-# to ensure pm2 resurrects processes on server reboot.
-# It's usually not needed in a regular deployment script.
+# Step 7: Restart PM2 process (running under root)
+print_step "[7/7] Restarting PM2 process 'kardtrust'..."
+if sudo pm2 restart kardtrust; then
+    print_step "PM2 restart successful"
+    
+    # Wait for server to be ready
+    print_step "Waiting for server to be ready..."
+    sleep 3
+    
+    # Verify server is responding
+    if curl -s -o /dev/null -w "%{http_code}" http://localhost:3005 | grep -q "200"; then
+        print_step "Server is responding correctly on port 3005"
+    else
+        print_warning "Server may not be responding correctly, check logs with: sudo pm2 logs kardtrust"
+    fi
+else
+    print_error "PM2 restart failed"
+    exit 1
+fi
 
-echo "--- Application Update Finished Successfully ---"
+# Save PM2 configuration
+print_step "Saving PM2 configuration..."
+sudo pm2 save
+
+# Display status
+echo ""
+echo "======================================"
+sudo pm2 list | grep kardtrust || print_warning "Could not display PM2 status"
+echo "======================================"
+
+echo ""
+print_step "✅ Application Update Finished Successfully!"
+echo ""
 
 exit 0
