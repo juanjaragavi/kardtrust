@@ -22,7 +22,7 @@ export default function CombineFinancesAfterMarriagePage() {
 
             {/* Ad unit placeholder (centered and responsive) */}
             <div
-              id="uk_kardtrust_3"
+              id="us_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             />
 
@@ -233,7 +233,7 @@ export default function CombineFinancesAfterMarriagePage() {
 
             {/* Mid-article ad placeholder */}
             <div
-              id="uk_kardtrust_4"
+              id="us_kardtrust_4"
               className="items-center justify-center flex w-full my-8"
             />
 

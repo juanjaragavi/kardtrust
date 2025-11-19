@@ -40,6 +40,19 @@ export default function BlogArchivePage() {
 
   // Combine posts from both categories
   const allPosts: PostItem[] = [
+    // Personal Finance Posts - NEW
+    {
+      title:
+        'Automate Your Wealth: Setting Up the "Set It and Forget It" Finance System | KardTrust',
+      slug: "automate-your-wealth",
+      description:
+        "Learn how to build a hands-off financial system that pays your bills, grows your savings, and invests for your future automatically.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/automate-your-wealth.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "November 19, 2025",
+    },
     // Financial Solutions Posts - NEW
     {
       title:

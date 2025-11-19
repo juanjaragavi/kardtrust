@@ -793,7 +793,7 @@ To provide Americans with the most comprehensive, accurate, and user-friendly fi
     "@type": "ContactPoint",
     "telephone": "+44-20-1234-5678",
     "contactType": "customer support",
-    "email": "info@topfinanzas.com"
+    "email": "info@kardtrust.com"
   },
   "sameAs": ["https://www.instagram.com/kardtrust/"]
 }
@@ -1315,7 +1315,7 @@ For agents extracting specific values:
 ### Brand Stewardship
 
 **Owner:** SURF NETWORKS INC  
-**Email:** <info@topfinanzas.com>  
+**Email:** <info@kardtrust.com>  
 **Website:** <https://kardtrust.com>
 
 ### Social Media

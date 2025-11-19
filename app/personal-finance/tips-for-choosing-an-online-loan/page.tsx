@@ -19,9 +19,9 @@ export default function TipsForChoosingAnOnlineLoanPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               5 Essential Tips for Choosing an Online Loan: Your Quick Guide
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_kardtrust_3"
+              id="us_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -406,9 +406,9 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   conditions.
                 </p>
 
-                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_kardtrust_4"
+                  id="us_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

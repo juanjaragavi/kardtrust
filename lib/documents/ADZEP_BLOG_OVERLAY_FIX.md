@@ -48,7 +48,7 @@ The original logic treated both listing pages and article pages the same:
 **Why This Was Wrong**:
 
 1. **Listing pages don't have ad containers** - They're just lists of articles
-2. **Only individual articles have ad containers** - Like `uk_topfinanzas_3`, `uk_topfinanzas_4`
+2. **Only individual articles have ad containers** - Like `us_kardtrust_3`, `us_kardtrust_4`
 3. **Overlay shows on ALL article paths** - Including listing pages without ads
 4. **3-second timeout was the only exit** - No ad containers meant no early hide
 
@@ -123,7 +123,7 @@ Result: Clean, instant page load with no overlay
 User navigates to /blog/best-personal-loans →
 isArticlePath() returns true (is article, not listing) →
 showOverlay() called →
-waitForContainers() finds uk_topfinanzas_3, uk_topfinanzas_4 →
+waitForContainers() finds us_kardtrust_3, us_kardtrust_4 →
 AdZep activates and renders ads →
 verify() detects rendered creatives →
 Overlay hides immediately (< 1 second) →
@@ -157,8 +157,8 @@ Result: Brief, purposeful overlay during ad initialization
 **Articles Have**:
 
 ```html
-<div id="uk_topfinanzas_3" ...></div>
-<div id="uk_topfinanzas_4" ...></div>
+<div id="us_kardtrust_3" ...></div>
+<div id="us_kardtrust_4" ...></div>
 ```
 
 **Listing Pages Don't Have**: No ad containers at all
@@ -328,7 +328,7 @@ Good UX (unchanged)
 
 1. **Page starts loading**
 2. **Overlay appears** (small dot at bottom-right)
-3. **Ad containers detected** (`uk_topfinanzas_3`, `uk_topfinanzas_4`)
+3. **Ad containers detected** (`us_kardtrust_3`, `us_kardtrust_4`)
 4. **AdZep activates** and renders ads
 5. **Overlay hides** when ads render (< 1 second typically)
 6. **Fallback**: 3-second timeout if ads slow to render

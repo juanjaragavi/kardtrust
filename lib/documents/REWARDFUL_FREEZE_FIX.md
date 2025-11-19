@@ -127,7 +127,7 @@ html[style*="overflow: hidden"] {
 
 **Element Filtering:**
 
-- Preserves actual ad containers (`uk_topfinanzas_*`)
+- Preserves actual ad containers (`us_kardtrust_*`)
 - Preserves legitimate UI elements
 - Only removes overlay-like blocking elements
 
@@ -162,7 +162,7 @@ const position = style.position;
 if (
   (position === "fixed" || position === "absolute") &&
   zIndex > 100 &&
-  !htmlEl.id.includes("uk_topfinanzas_")
+  !htmlEl.id.includes("us_kardtrust_")
 ) {
   // Potential blocking element
 }

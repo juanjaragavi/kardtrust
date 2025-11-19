@@ -20,7 +20,7 @@
 - [x] TypeScript types correct
 - [x] Responsive design
 - [x] Image optimization (Next.js Image)
-- [x] Ad units placed (uk_topfinanzas_3, uk_topfinanzas_4)
+- [x] Ad units placed (us_kardtrust_3, us_kardtrust_4)
 - [x] Header and Footer components
 - [x] AI Content Disclaimer included
 - [x] No TypeScript or linting errors

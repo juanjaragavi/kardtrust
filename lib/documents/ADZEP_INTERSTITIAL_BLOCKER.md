@@ -2,12 +2,12 @@
 
 ## Problem
 
-After analyzing the console output, we discovered that the blur overlay blocking blog content was **not our custom overlay** - it was **AdZep's interstitial ad format** (`uk_topfinanzas_com_mob_interstitial`).
+After analyzing the console output, we discovered that the blur overlay blocking blog content was **not our custom overlay** - it was **AdZep's interstitial ad format** (`us_kardtrust_com_mob_interstitial`).
 
 The console showed:
 
 ```bash
-Interstitial adUnit: 'uk_topfinanzas_com_mob_interstitial'
+Interstitial adUnit: 'us_kardtrust_com_mob_interstitial'
 ⚠️ Rewardful não ficou pronto no tempo limite
 ```
 
@@ -120,7 +120,7 @@ const removeInterstitials = () => {
       if (
         (position === "fixed" || position === "absolute") &&
         zIndex > 1000 &&
-        !htmlEl.id.includes("uk_topfinanzas_")
+        !htmlEl.id.includes("us_kardtrust_")
       ) {
         htmlEl.remove();
       }
@@ -172,10 +172,10 @@ The blocker runs client-side and activates automatically on article pages.
 
 ✅ **Regular ad units still work:**
 
-- `uk_topfinanzas_1` (header position)
-- `uk_topfinanzas_2` (early content)
-- `uk_topfinanzas_3` (in-article)
-- `uk_topfinanzas_4` (in-article)
+- `us_kardtrust_1` (header position)
+- `us_kardtrust_2` (early content)
+- `us_kardtrust_3` (in-article)
+- `us_kardtrust_4` (in-article)
 
 ✅ **AdZep activation still works:**
 
@@ -213,7 +213,7 @@ This helps with debugging and verification.
 - [ ] Navigate to blog post - no overlay appears
 - [ ] Navigate to personal finance article - no overlay appears
 - [ ] Navigate to financial solutions page - no overlay appears
-- [ ] Regular ad units (uk_topfinanzas_3, uk_topfinanzas_4) still display
+- [ ] Regular ad units (us_kardtrust_3, us_kardtrust_4) still display
 - [ ] Homepage/quiz pages can still show interstitials (if configured)
 - [ ] No console errors from the blocker
 - [ ] AdZep activation still occurs (check console in dev mode)

@@ -2,11 +2,11 @@
 
 ## Issue Description
 
-**Problem**: Ad units with IDs like `uk_topfinanzas_3`, `uk_topfinanzas_4`, etc. were not rendering properly. Console showed warnings about AdZep not being ready, and ads were not displaying despite containers being present in the DOM.
+**Problem**: Ad units with IDs like `us_kardtrust_3`, `us_kardtrust_4`, etc. were not rendering properly. Console showed warnings about AdZep not being ready, and ads were not displaying despite containers being present in the DOM.
 
 **Root Cause Analysis**:
 
-1. **Missing Container Selectors**: The AdZep configuration's `containerSelectors` array didn't include the actual AdZep container ID pattern `[id^='uk_topfinanzas_']`
+1. **Missing Container Selectors**: The AdZep configuration's `containerSelectors` array didn't include the actual AdZep container ID pattern `[id^='us_kardtrust_']`
 2. **Insufficient Timeouts**: Initial timeouts were too short for the AdZep script to fully load and initialize
 3. **Timing Issues**: AdZep activation was attempting before the `window.AdZepActivateAds()` function was available
 
@@ -20,8 +20,8 @@ Added the primary AdZep container pattern as the first selector:
 
 ```typescript
 containerSelectors: [
-  // Primary AdZep containers (uk_topfinanzas_1, uk_topfinanzas_2, etc.)
-  "[id^='uk_topfinanzas_']",
+  // Primary AdZep containers (us_kardtrust_1, us_kardtrust_2, etc.)
+  "[id^='us_kardtrust_']",
   // Generic patterns for future use
   "[data-ad-slot]",
   "[data-adzep]",
@@ -111,7 +111,7 @@ console.warn("[AdZep] window.AdZepActivateAds function not found");
 
    ```html
    <div
-     id="uk_topfinanzas_3"
+     id="us_kardtrust_3"
      class="items-center justify-center flex w-full my-6"
    >
      <!-- AdZep fills this with ad creative -->
@@ -135,13 +135,13 @@ console.warn("[AdZep] window.AdZepActivateAds function not found");
 
 Currently used in production:
 
-- `uk_topfinanzas_1` - Header/top position
-- `uk_topfinanzas_2` - Early content position
-- `uk_topfinanzas_3` - Mid-content position
-- `uk_topfinanzas_4` - Late content position
-- `uk_topfinanzas_mob_interstitial` - Mobile interstitial
+- `us_kardtrust_1` - Header/top position
+- `us_kardtrust_2` - Early content position
+- `us_kardtrust_3` - Mid-content position
+- `us_kardtrust_4` - Late content position
+- `us_kardtrust_mob_interstitial` - Mobile interstitial
 
-The selector `[id^='uk_topfinanzas_']` matches all of these.
+The selector `[id^='us_kardtrust_']` matches all of these.
 
 ## Testing Checklist
 
@@ -149,8 +149,8 @@ The selector `[id^='uk_topfinanzas_']` matches all of these.
 
 - [x] Navigate to `/financial-solutions/barclaycard-avios-plus-requirements`
 - [x] Wait for page to fully load
-- [x] Verify `uk_topfinanzas_3` container is detected
-- [x] Verify `uk_topfinanzas_4` container is detected
+- [x] Verify `us_kardtrust_3` container is detected
+- [x] Verify `us_kardtrust_4` container is detected
 - [x] Check console for "[AdZep] Calling window.AdZepActivateAds()"
 - [x] Verify ads render in containers
 - [x] Check no "function not found" warnings
@@ -179,7 +179,7 @@ The selector `[id^='uk_topfinanzas_']` matches all of these.
 ## Files Modified
 
 1. **`/lib/ads/config.ts`**
-   - Added `[id^='uk_topfinanzas_']` as primary container selector
+   - Added `[id^='us_kardtrust_']` as primary container selector
    - Increased all timeout and retry values
    - Better documentation of configuration
 

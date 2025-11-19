@@ -19,9 +19,9 @@ export default function SettingFinancialGoalsPage() {
               Setting Financial Goals: A Beginner&apos;s Guide to Personal
               Finance Planning
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_kardtrust_3"
+              id="us_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}
@@ -231,9 +231,9 @@ export default function SettingFinancialGoalsPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_4' - centered and responsive */}
+                {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_4' - centered and responsive */}
                 <div
-                  id="uk_kardtrust_4"
+                  id="us_kardtrust_4"
                   className="items-center justify-center flex w-full my-8"
                 >
                   {/* Empty responsive, centered div */}

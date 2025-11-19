@@ -2,9 +2,9 @@
 
 ## ✅ Problem Solved
 
-**Root Cause:** AdZep was creating interstitial ad units (`uk_topfinanzas_com_mob_interstitial`) that covered blog/article pages with a blur overlay, blocking content access.
+**Root Cause:** AdZep was creating interstitial ad units (`us_kardtrust_com_mob_interstitial`) that covered blog/article pages with a blur overlay, blocking content access.
 
-**Evidence:** Console output showed "Interstitial adUnit: 'uk_topfinanzas_com_mob_interstitial'" immediately before overlay appeared.
+**Evidence:** Console output showed "Interstitial adUnit: 'us_kardtrust_com_mob_interstitial'" immediately before overlay appeared.
 
 ## 🔧 Solution Implemented
 
@@ -61,7 +61,7 @@
 - ✅ Blog articles load without overlay
 - ✅ Personal finance articles accessible immediately
 - ✅ Financial solutions pages work correctly
-- ✅ Regular ad units still display (uk_topfinanzas_3, uk_topfinanzas_4)
+- ✅ Regular ad units still display (us_kardtrust_3, us_kardtrust_4)
 - ✅ AdZep activation continues normally
 - ✅ Interstitials can still show on non-article pages
 - ✅ No breaking changes to existing functionality
@@ -76,7 +76,7 @@
 - Fixed/absolute positioning
 - Z-index > 1000
 - Full-screen coverage
-- NOT actual ad containers (uk_topfinanzas_*)
+- NOT actual ad containers (us_kardtrust_*)
 ```
 
 ### Removal Logic

@@ -1,5 +1,9 @@
-Update GTM container ID to GTM-KGKXQGMX
+Add new blog article: Automate Your Wealth
 
-- Updated Google Tag Manager container ID from GTM-MR76NXR3 to GTM-KGKXQGMX
-- This enables deployment of new tracking pixels and analytics configurations
-- No structural changes to GTM integration architecture
+- Created new TOFU blog article at /app/personal-finance/automate-your-wealth/page.tsx
+- Updated blog index (app/blog/page.tsx) with new article entry
+- Updated personal finance category page (app/personal-finance/page.tsx) with new article
+- Updated sidebar recent articles in components/mdx/blog-layout.tsx
+- Article covers practical automation strategies for personal finance management
+- Includes internal links, compliance disclaimers, and ad placeholders
+- SEO optimized with metadata and keywords

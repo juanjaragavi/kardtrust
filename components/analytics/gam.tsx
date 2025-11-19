@@ -144,7 +144,7 @@ export default function GoogleAdManager() {
                   
                   if (!window.gamSlots.header) {
                     window.gamSlots.header = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_kardtrust_header',
+                      '/${GAM_NETWORK_CODE}/us_kardtrust_header',
                       [[728, 90], [970, 90], [320, 50]],
                       'gam-header-ad'
                     ).addService(window.googletag.pubads());
@@ -153,7 +153,7 @@ export default function GoogleAdManager() {
                   // Sidebar ad slot
                   if (!window.gamSlots.sidebar) {
                     window.gamSlots.sidebar = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_kardtrust_sidebar',
+                      '/${GAM_NETWORK_CODE}/us_kardtrust_sidebar',
                       [[300, 250], [336, 280], [300, 600]],
                       'gam-sidebar-ad'
                     ).addService(window.googletag.pubads());
@@ -162,7 +162,7 @@ export default function GoogleAdManager() {
                   // Content ad slot
                   if (!window.gamSlots.content) {
                     window.gamSlots.content = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_kardtrust_content',
+                      '/${GAM_NETWORK_CODE}/us_kardtrust_content',
                       [[728, 90], [300, 250], [336, 280]],
                       'gam-content-ad'
                     ).addService(window.googletag.pubads());
@@ -171,7 +171,7 @@ export default function GoogleAdManager() {
                   // Footer ad slot
                   if (!window.gamSlots.footer) {
                     window.gamSlots.footer = window.googletag.defineSlot(
-                      '/${GAM_NETWORK_CODE}/uk_kardtrust_footer',
+                      '/${GAM_NETWORK_CODE}/us_kardtrust_footer',
                       [[728, 90], [970, 90], [320, 50]],
                       'gam-footer-ad'
                     ).addService(window.googletag.pubads());

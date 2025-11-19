@@ -42,15 +42,15 @@
 
 ## 🎯 Key Adaptations from UK to US
 
-| Aspect         | UK Version                         | US Version                     |
-| -------------- | ---------------------------------- | ------------------------------ |
-| **Brand**      | KardTrust                          | KardTrust                      |
-| **Domain**     | uk.topfinanzas.com                 | kardtrust.com                  |
-| **Language**   | British English                    | American English               |
-| **Regulators** | FCA, MoneyHelper                   | CFPB, FTC, MyMoney.gov         |
-| **Currency**   | GBP (£)                            | USD ($)                        |
-| **Ad IDs**     | uk_topfinanzas_3, uk_topfinanzas_4 | kardtrust_ad_1, kardtrust_ad_2 |
-| **CSV File**   | topfinanzas-us-topic-outline.csv   | kardtrust-topic-outline.csv    |
+| Aspect         | UK Version                       | US Version                     |
+| -------------- | -------------------------------- | ------------------------------ |
+| **Brand**      | KardTrust                        | KardTrust                      |
+| **Domain**     | uk.topfinanzas.com               | kardtrust.com                  |
+| **Language**   | British English                  | American English               |
+| **Regulators** | FCA, MoneyHelper                 | CFPB, FTC, MyMoney.gov         |
+| **Currency**   | GBP (£)                          | USD ($)                        |
+| **Ad IDs**     | us_kardtrust_3, us_kardtrust_4   | kardtrust_ad_1, kardtrust_ad_2 |
+| **CSV File**   | topfinanzas-us-topic-outline.csv | kardtrust-topic-outline.csv    |
 
 ## 📊 Content Specifications
 
