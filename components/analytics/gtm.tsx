@@ -4,7 +4,7 @@ import Script from "next/script";
 import { useEffect } from "react";
 import logger from "@/lib/browser-logger";
 
-const GTM_ID = "GTM-MR76NXR3"; // Default GTM ID
+const GTM_ID = "GTM-KGKXQGMX"; // Default GTM ID
 
 /**
  * Enhanced Google Tag Manager Script Component

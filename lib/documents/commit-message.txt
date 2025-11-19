@@ -1,14 +1,5 @@
-feat: add TOFU article on breaking paycheck-to-paycheck cycle
+Update GTM container ID to GTM-KGKXQGMX
 
-- Created comprehensive personal finance guide: "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today"
-- Article focuses on cash flow management with 3 practical shifts for US audience
-- Integrated article into blog listing page (app/blog/page.tsx)
-- Integrated article into personal finance category page (app/personal-finance/page.tsx)
-- Added complete SEO metadata and schema markup (ArticleSchema, BreadcrumbSchema)
-- Included 4 internal links to related content and 2 external authoritative sources (NFCC, CFPB)
-- Implemented proper ad placements (kardtrust_ad_1, kardtrust_ad_2) and CTA buttons
-- Added AI content disclaimer component
-- ~900 words targeting TOFU funnel stage with "guide" category filter
-- Slug: stop-living-paycheck-to-paycheck
-- Category: Personal Finance
-- Date: November 14, 2025
+- Updated Google Tag Manager container ID from GTM-MR76NXR3 to GTM-KGKXQGMX
+- This enables deployment of new tracking pixels and analytics configurations
+- No structural changes to GTM integration architecture
