@@ -256,7 +256,7 @@ These rules **enable** interaction rather than block it, ensuring users can alwa
 
    ```css
    /* ✅ GOOD: Exclude legitimate ad networks */
-   [id*="overlay"]:not([data-adzep]):not([id^="uk_topfinanzas_"]) {
+   [id*="overlay"]:not([data-adzep]):not([id^="us_kardtrust_"]) {
      /* Only target if NOT from AdZep */
    }
    ```

@@ -37,7 +37,7 @@ export default function InvitCreditCardRecUKPage() {
             </p>
 
             <div
-              id="uk_kardtrust_1"
+              id="us_kardtrust_1"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}
@@ -243,7 +243,7 @@ export default function InvitCreditCardRecUKPage() {
             </div>
 
             <div
-              id="uk_kardtrust_2"
+              id="us_kardtrust_2"
               className="items-center justify-center flex w-full my-6"
             >
               {/* Empty responsive, centered div */}

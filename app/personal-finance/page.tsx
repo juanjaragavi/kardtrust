@@ -39,6 +39,17 @@ export default function PersonalFinanceArchivePage() {
     () => [
       {
         title:
+          'Automate Your Wealth: Setting Up the "Set It and Forget It" Finance System | KardTrust',
+        slug: "automate-your-wealth",
+        description:
+          "Learn how to build a hands-off financial system that pays your bills, grows your savings, and invests for your future automatically.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/automate-your-wealth.webp",
+        date: "November 19, 2025",
+        category: "guide",
+      },
+      {
+        title:
           "Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle Today | KardTrust",
         slug: "stop-living-paycheck-to-paycheck",
         description:

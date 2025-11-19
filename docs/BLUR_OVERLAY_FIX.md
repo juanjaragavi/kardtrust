@@ -51,20 +51,20 @@ Added CSS that removes **ONLY orphaned backdrop elements** without blocking ads:
 /* Remove ONLY empty/orphaned backdrop elements */
 body
   > div[style*="position: fixed"][style*="inset: 0"]:not(
-    [id*="uk_topfinanzas"]
+    [id*="us_kardtrust"]
   ):empty,
 body
   > div[style*="position: fixed"][style*="z-index"][style*="background"]:not(
-    [id*="uk_topfinanzas"]
+    [id*="us_kardtrust"]
   ):empty,
 body > div[class*="backdrop"]:empty,
-body > div[class*="overlay"]:empty:not([id*="uk_topfinanzas"]) {
+body > div[class*="overlay"]:empty:not([id*="us_kardtrust"]) {
   display: none !important;
   pointer-events: none !important;
 }
 
 /* Remove blur effects when no active ads present */
-body:not(:has([id^="uk_topfinanzas_"][style*="display"][style*="block"])),
+body:not(:has([id^="us_kardtrust_"][style*="display"][style*="block"])),
 body:not(:has([data-adzep-active])) {
   backdrop-filter: none !important;
   filter: none !important;
@@ -86,7 +86,7 @@ main,
    - Targets only backdrop elements without children (orphaned)
    - Ad units have children, so they're NOT affected
 
-2. **`:not([id*="uk_topfinanzas"])`**
+2. **`:not([id*="us_kardtrust"])`**
    - Excludes legitimate AdZep ad containers
    - Ensures we don't block revenue-generating ads
 

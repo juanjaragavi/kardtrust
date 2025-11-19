@@ -69,7 +69,7 @@ Engaging opening that acknowledges UK households feeling the squeeze from rising
 - Uses standard Next.js 15 App Router pattern
 - Follows existing personal-finance article template
 - Includes Header, CompactFooter, AIContentDisclaimer components
-- Ad unit placements: `uk_topfinanzas_3` and `uk_topfinanzas_4`
+- Ad unit placements: `us_kardtrust_3` and `us_kardtrust_4`
 - Responsive image with proper Next.js Image component
 - Full accessibility with proper heading hierarchy
 - UK-specific formatting and terminology

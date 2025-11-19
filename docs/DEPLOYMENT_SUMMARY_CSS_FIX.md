@@ -301,7 +301,7 @@ CSS `!important` rules are **more powerful** than any JavaScript changes.
 
    ```css
    /* ✅ GOOD: Only block if NOT from AdZep */
-   [id*="overlay"]:not([data-adzep]):not([id^="uk_topfinanzas_"]) {
+   [id*="overlay"]:not([data-adzep]):not([id^="us_kardtrust_"]) {
      display: none;
    }
    ```

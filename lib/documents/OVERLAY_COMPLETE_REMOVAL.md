@@ -63,7 +63,7 @@ Added comprehensive CSS rules to force-hide any overlay elements that might be c
 
 ### Ad Units
 
-- ✅ Ad containers (`uk_topfinanzas_3`, `uk_topfinanzas_4`, etc.) still render
+- ✅ Ad containers (`us_kardtrust_3`, `us_kardtrust_4`, etc.) still render
 - ✅ AdZep's own interstitials and ad formats work normally
 - ✅ No interference with AdZep's native overlay/interstitial logic
 
@@ -86,7 +86,7 @@ Added comprehensive CSS rules to force-hide any overlay elements that might be c
 
 - [ ] Navigate to blog posts - no overlay should appear
 - [ ] Navigate to personal finance articles - no overlay should appear
-- [ ] Check that ad units still load (uk_topfinanzas_3, uk_topfinanzas_4)
+- [ ] Check that ad units still load (us_kardtrust_3, us_kardtrust_4)
 - [ ] Verify AdZep activation calls in console (development mode)
 - [ ] Test navigation between pages - ads should reload without overlay
 - [ ] Test browser back/forward - no overlay

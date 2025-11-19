@@ -76,8 +76,8 @@ This document summarizes the successful migration of the blog post generation wo
 
 | UK Version                     | US Version                |
 | ------------------------------ | ------------------------- |
-| uk_topfinanzas_3               | kardtrust_ad_1            |
-| uk_topfinanzas_4               | kardtrust_ad_2            |
+| us_kardtrust_3                 | kardtrust_ad_1            |
+| us_kardtrust_4                 | kardtrust_ad_2            |
 | media.topfinanzas.com          | media.topfinanzas.com     |
 | uk.topfinanzas.com/sitemap.xml | kardtrust.com/sitemap.xml |
 

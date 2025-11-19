@@ -25,10 +25,10 @@ export interface AdZepConfig {
 }
 
 export const adZepConfig: AdZepConfig = {
-  // Known AdZep container patterns - includes uk_kardtrust_* IDs
+  // Known AdZep container patterns - includes us_kardtrust_* IDs
   containerSelectors: [
-    // Primary AdZep containers (uk_kardtrust_1, uk_kardtrust_2, etc.)
-    "[id^='uk_kardtrust_']",
+    // Primary AdZep containers (us_kardtrust_1, us_kardtrust_2, etc.)
+    "[id^='us_kardtrust_']",
     // Generic patterns for future use
     "[data-ad-slot]",
     "[data-adzep]",

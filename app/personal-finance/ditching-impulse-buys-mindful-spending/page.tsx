@@ -19,9 +19,9 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
               Ditching the Impulse Buys: A Practical Guide to Mindful Spending
             </h1>
 
-            {/* Placeholder `<div>` for the Ad Unit 'uk_kardtrust_3' - centered and responsive */}
+            {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_3' - centered and responsive */}
             <div
-              id="uk_kardtrust_3"
+              id="us_kardtrust_3"
               className="items-center justify-center flex w-full my-8"
             >
               {/* Empty responsive, centered div */}

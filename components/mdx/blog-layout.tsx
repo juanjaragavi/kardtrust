@@ -61,6 +61,30 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   <SidebarSeparator />
                   {/* Recent Articles - Updated */}
                   <SidebarRecentArticles>
+                    {/* Automate Your Wealth Article - NEW */}
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src="https://media.topfinanzas.com/images/kardtrust/automate-your-wealth.webp"
+                        alt="Automate Your Wealth: Setting Up the System"
+                        width={50}
+                        height={50}
+                        loading="lazy"
+                        priority={false}
+                        className="rounded-md object-cover"
+                        onError={(e) => {
+                          e.currentTarget.src =
+                            "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+                        }}
+                      />
+                      <div>
+                        <Link
+                          href="/personal-finance/automate-your-wealth"
+                          className="text-sm font-medium hover:underline line-clamp-2"
+                        >
+                          Automate Your Wealth: Setting Up the System
+                        </Link>
+                      </div>
+                    </div>
                     {/* Inflation-Proof Article - NEW */}
                     <div className="flex items-center gap-3">
                       <Image
@@ -130,30 +154,6 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                           className="text-sm font-medium hover:underline line-clamp-2"
                         >
                           Create a Budget You'll Actually Stick To
-                        </Link>
-                      </div>
-                    </div>
-                    {/* Article 1 */}
-                    <div className="flex items-center gap-3">
-                      <Image
-                        src="https://media.topfinanzas.com/images/kardtrust/best-personal-loans.webp"
-                        alt="Best Personal Loans in the US"
-                        width={50}
-                        height={50}
-                        loading="lazy"
-                        priority={false}
-                        className="rounded-md object-cover"
-                        onError={(e) => {
-                          e.currentTarget.src =
-                            "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
-                        }}
-                      />
-                      <div>
-                        <Link
-                          href="/personal-finance/best-personal-loans"
-                          className="text-sm font-medium hover:underline line-clamp-2"
-                        >
-                          Best Personal Loans in the US
                         </Link>
                       </div>
                     </div>
