@@ -19,7 +19,7 @@ Rewardful is an ad format/network integrated into AdZep. When it times out (não
 
 ### Why It Happens
 
-```
+```bash
 AdZep loads → Rewardful ad requested → Times out → Leaves blocking elements → Navigation freezes
 ```
 
