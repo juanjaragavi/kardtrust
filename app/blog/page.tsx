@@ -43,6 +43,18 @@ export default function BlogArchivePage() {
     // Personal Finance Posts - NEW
     {
       title:
+        "The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving | KardTrust",
+      slug: "psychology-of-spending",
+      description:
+        "Understand the psychological triggers behind impulse spending and learn practical strategies to build mindful saving habits that support your financial well-being.",
+      image:
+        "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "November 25, 2025",
+    },
+    {
+      title:
         'Automate Your Wealth: Setting Up the "Set It and Forget It" Finance System | KardTrust',
       slug: "automate-your-wealth",
       description:
