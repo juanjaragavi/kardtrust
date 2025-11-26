@@ -1,9 +1,1 @@
-feat(blog): Add new article - The Psychology of Spending
-
-- Created new Personal Finance article: psychology-of-spending
-- Article covers impulse buying psychology, 24-hour rule, mindful saving strategies
-- Added to blog listing page (app/blog/page.tsx)
-- Added to Personal Finance category page (app/personal-finance/page.tsx)
-- Includes internal links to money-management, getting-out-of-debt, and stop-living-paycheck-to-paycheck
-- SEO metadata and schema markup configured
-- Ad placeholders and AIContentDisclaimer component included
+chore: add github prompts directory
