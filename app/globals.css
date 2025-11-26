@@ -24,12 +24,9 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   font-family: var(--font-poppins);
   @apply text-gray-900;
 }
@@ -65,13 +62,14 @@ body {
 }
 
 @layer components {
+
   /* Heading Typography */
   .text-h1 {
     @apply text-[16px] font-bold text-gray-800 leading-7;
   }
 
   .text-h2 {
-    @apply text-[12px] text-primary-dark leading-6;
+    @apply text-[20px] font-bold text-primary-dark leading-7;
   }
 
   .text-h3 {
@@ -90,7 +88,12 @@ body {
 
   /* Link Typography */
   .text-link {
-    @apply text-primary hover:text-primary-dark hover:underline;
+    @apply text-blue-600 hover:text-blue-800 hover:underline;
+  }
+
+  /* Strong/Bold Typography */
+  .text-strong {
+    @apply text-gray-900 font-bold;
   }
 
   /* Caption/Meta Typography */
@@ -272,6 +275,7 @@ body {
     .cta-button-red:active {
       @apply bg-red-900 text-white;
     }
+
     .cta-button-orange:active {
       @apply bg-orange-600 text-white;
     }
@@ -338,16 +342,10 @@ html[style*="overflow: hidden"] {
  */
 
 /* Target AdZep backdrop elements that commonly remain after ad dismissal */
-body
-  > div[style*="position: fixed"][style*="inset: 0"]:not(
-    [id*="us_kardtrust"]
-  ):empty,
-body
-  > div[style*="position: fixed"][style*="z-index"][style*="background"]:not(
-    [id*="us_kardtrust"]
-  ):empty,
-body > div[class*="backdrop"]:empty,
-body > div[class*="overlay"]:empty:not([id*="us_kardtrust"]) {
+body>div[style*="position: fixed"][style*="inset: 0"]:not([id*="us_kardtrust"]):empty,
+body>div[style*="position: fixed"][style*="z-index"][style*="background"]:not([id*="us_kardtrust"]):empty,
+body>div[class*="backdrop"]:empty,
+body>div[class*="overlay"]:empty:not([id*="us_kardtrust"]) {
   display: none !important;
   pointer-events: none !important;
 }

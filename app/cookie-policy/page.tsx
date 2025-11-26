@@ -42,7 +42,7 @@ export default async function CookiePolicyPage() {
 
       <div className="container mx-auto px-4 py-12">
         <div className="bg-white rounded-xl shadow-sm p-8 max-w-4xl mx-auto">
-          <div className="article-container prose max-w-none prose-h1:text-h1 prose-h2:text-h2 prose-h3:text-h3 prose-p:text-body prose-li:text-list prose-a:text-link">
+          <div className="article-container prose max-w-none prose-h1:text-h1 prose-h2:text-h2 prose-h3:text-h3 prose-p:text-body prose-li:text-list prose-a:text-link prose-strong:text-strong">
             {content}
           </div>
         </div>
