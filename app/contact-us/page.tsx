@@ -211,29 +211,19 @@ export default function ContactUs() {
       return false;
     }
 
-    // US mobile numbers are 11 digits, typically starting with '07'
-    const ukPhoneRegex = /^07\d{9}$/;
+    // US phone numbers are 10 digits (area code + 7 digits)
+    const usPhoneRegex = /^\d{10}$/;
 
-    // Alternative format with spaces or dashes
-    const ukPhoneRegexAlt = /^(07[0-9]{3})[- ]?([0-9]{6})$/;
+    // Alternative formats with dashes, spaces, or parentheses
+    const usPhoneRegexAlt = /^(\(\d{3}\)|\d{3})[-. ]?\d{3}[-. ]?\d{4}$/;
 
-    // Remove any spaces or dashes for validation
-    const cleanPhone = phoneNumber.replace(/[- ]/g, "");
+    // Remove any spaces, dashes, parentheses, or periods for validation
+    const cleanPhone = phoneNumber.replace(/[\s\-().]/g, "");
 
-    if (!ukPhoneRegex.test(cleanPhone) && !ukPhoneRegexAlt.test(phoneNumber)) {
+    if (!usPhoneRegex.test(cleanPhone) && !usPhoneRegexAlt.test(phoneNumber)) {
       setErrors((prev) => ({
         ...prev,
-        phone: "Please enter a valid US mobile number (11 digits)",
-      }));
-      return false;
-    }
-
-    // Check that it starts with valid US mobile prefix (07)
-    const firstTwoDigits = cleanPhone.substring(0, 2);
-    if (firstTwoDigits !== "07") {
-      setErrors((prev) => ({
-        ...prev,
-        phone: "The number must start with '07' (UK mobile prefix)",
+        phone: "Please enter a valid US phone number (10 digits)",
       }));
       return false;
     }
@@ -380,7 +370,7 @@ export default function ContactUs() {
           <div className="md:col-span-5 space-y-6">
             <div className="relative w-full h-64 md:h-80 overflow-hidden rounded-xl shadow-md">
               <Image
-                src="https://media.topfinanzas.com/images/uk/contact-us-uk.webp"
+                src="https://media.topfinanzas.com/images/kardtrust/contact-us.webp"
                 alt="Contact KardTrust"
                 fill
                 priority

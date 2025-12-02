@@ -55,7 +55,7 @@ export default function PersonalFinanceArchivePage() {
         description:
           "Understand the psychological triggers behind impulse spending and learn practical strategies to build mindful saving habits that support your financial well-being.",
         image:
-          "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+          "https://media.topfinanzas.com/images/kardtrust/psychology-of-spending.webp",
         date: "November 25, 2025",
         category: "guide",
       },
@@ -141,7 +141,7 @@ export default function PersonalFinanceArchivePage() {
         description:
           "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
         image:
-          "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
+          "https://media.topfinanzas.com/images/kardtrust/top-rewards-credit-cards.webp",
         date: "3 April 2025",
         category: "creditCards",
       },
@@ -204,7 +204,7 @@ export default function PersonalFinanceArchivePage() {
         description:
           "Navigate the world of online loans with confidence using these essential tips to find the best rates and terms for your financial needs.",
         image:
-          "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
+          "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan.webp",
         date: "30 March 2025",
         category: "loans",
       },
@@ -234,7 +234,7 @@ export default function PersonalFinanceArchivePage() {
           "What Is Financial Health? A Quick Guide to Checking Your Vitals | KardTrust",
         slug: "what-is-financial-health",
         description:
-          "A simple UK-focused guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
+          "A simple guide to checking your money vitals—cash flow, savings, borrowing, and habits—plus quick steps to improve your financial health.",
         image:
           "https://media.topfinanzas.com/images/kardtrust/what-is-financial-health.webp",
         date: "13 August 2025",
@@ -245,7 +245,7 @@ export default function PersonalFinanceArchivePage() {
           "Money Management for Beginners: Where Do I Even Start? | KardTrust",
         slug: "money-management-for-beginners",
         description:
-          "New to personal finance? Learn simple UK-based steps to budget, save, manage debt, and build steady money habits that stick.",
+          "New to personal finance? Learn simple steps to budget, save, manage debt, and build steady money habits that stick.",
         image:
           "https://media.topfinanzas.com/images/kardtrust/money-management-for-beginners.webp",
         date: "13 August 2025",
@@ -256,7 +256,7 @@ export default function PersonalFinanceArchivePage() {
           "Setting Financial Goals: A Beginner's Guide to Personal Finance Planning | KardTrust",
         slug: "setting-financial-goals",
         description:
-          "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple UK-focused personal finance guide for beginners.",
+          "Learn how to set SMART financial goals, align your budget, and build habits that stick. A simple personal finance guide for beginners.",
         image:
           "https://media.topfinanzas.com/images/kardtrust/setting-financial-goals.webp",
         date: "15 August 2025",
@@ -278,7 +278,7 @@ export default function PersonalFinanceArchivePage() {
           "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
         slug: "creating-a-budget-youll-actually-stick-to",
         description:
-          "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start — built to help you actually stick to it.",
+          "A modern budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start — built to help you actually stick to it.",
         image:
           "https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp",
         date: "4 September 2025",

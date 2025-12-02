@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Feeling overwhelmed by debt? Get practical strategies for getting out of debt, building an emergency fund, and taking control of your finances.",
   keywords:
-    "getting out of debt UK, debt management plan, debt consolidation UK, debt advice, emergency fund, snowball method, avalanche method",
+    "getting out of debt US, debt management plan, debt consolidation US, debt advice, emergency fund, snowball method, avalanche method",
   openGraph: {
     title: "Practical Guide to Getting Out of Debt | KardTrust",
     description:

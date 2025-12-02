@@ -1,7 +1,32 @@
-Add new Personal Finance article: How to Track Your Expenses for 30 Days
+refactor: Complete UK to US market migration
 
-- Created new blog post at /personal-finance/how-to-track-your-expenses/
-- Updated blog listing page (app/blog/page.tsx) with new article entry
-- Updated Personal Finance archive page (app/personal-finance/page.tsx) with new article
-- Article includes practical expense tracking methods, 30-day plan, and internal links
-- Sitemap auto-updates via dynamic page discovery
+## Summary
+Comprehensive audit and remediation of all UK references across the KardTrust codebase to align with US market focus.
+
+## Core Content Changes
+- app/personal-loans/page.tsx: Complete rewrite - replaced 19 UK bank products with 12 US financial products (CIT Bank, Self, Chime, Varo, Step, Tilt, Upgrade, Affirm, Klarna, Mission Lane, Avant, Tomo)
+- app/personal-finance/best-personal-loans/page.tsx: Replaced UK lenders (Nationwide, Santander, Barclays, Admiral, M&S Bank) with US lenders (SoFi, Marcus, LightStream, Discover, Upgrade)
+- app/contact-us/page.tsx: Rewrote phone validation from UK 07xxx format to US 10-digit format
+
+## Metadata Files Updated (12 files)
+- Updated UK keywords to US equivalents across all metadata.ts files
+- Changed FCA references to CFPB for US regulatory compliance
+- Fixed all UK-specific SEO keywords
+
+## Image URL Path Updates
+- All /images/uk/ paths changed to /images/kardtrust/
+- Fixed Top_Finance_uk_credit_cards.webp and choosing-online-loan-uk.webp references
+
+## UK Spellings Fixed
+- travellers → travelers (credit card recommender pages)
+- behaviour → behavior
+- Other UK English spellings normalized to US English
+
+## Analytics & Configuration
+- components/analytics/gam.tsx: Changed targeting from kardtrust_uk to kardtrust_us
+- .clinerules/RULES.md: Updated all UK market references to US (CFPB, US timezones)
+- .github/copilot-instructions.md: Fixed UK references
+
+## Deleted
+- app/invit-credit-card-rec-uk/ directory (UK-specific product links)
+- Removed backup files with UK references

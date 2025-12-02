@@ -79,108 +79,105 @@ export default function BestPersonalLoansPage() {
                 </h2>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  Nationwide Building Society
+                  SoFi
                 </h3>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Nationwide offers competitive rates starting from 3.5% APR
-                  representative on loans between $7,500 and $25,000. Their
-                  personal loans feature flexible repayment terms from 1 to 7
-                  years, no arrangement fees, and the ability to make
-                  overpayments without penalties. Existing Nationwide customers
-                  may access preferential rates, making it an excellent choice
-                  for those already banking with this building society.
+                  SoFi offers competitive rates starting from 8.99% APR on loans
+                  between $5,000 and $100,000. Their personal loans feature
+                  flexible repayment terms from 2 to 7 years, no origination
+                  fees, and the ability to make overpayments without penalties.
+                  SoFi members access exclusive benefits including career
+                  coaching and financial planning, making it an excellent choice
+                  for those seeking more than just a loan.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
                   Their application process is straightforward, with same-day
-                  approval available for many customers. Nationwide's
-                  transparent terms and member-owned structure have earned them
-                  high satisfaction ratings among US borrowers.
+                  funding available for many customers. SoFi's transparent terms
+                  and member benefits have earned them high satisfaction ratings
+                  among US borrowers.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  Santander
+                  Marcus by Goldman Sachs
                 </h3>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Santander's personal loans start from 3.7% APR representative
-                  for amounts between $7,500 and $20,000. They offer loan terms
-                  from 1 to 5 years, providing flexibility for different
-                  financial situations. Their online application process
-                  includes a pre-approval option that gives you a decision
-                  within minutes without affecting your credit score.
+                  Marcus personal loans start from 6.99% APR for amounts between
+                  $3,500 and $40,000. They offer loan terms from 3 to 6 years,
+                  providing flexibility for different financial situations.
+                  Their online application process includes a pre-approval
+                  option that gives you a decision within minutes without
+                  affecting your credit score.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Santander account holders can benefit from streamlined
-                  applications and potential rate discounts. Their personal
-                  loans include payment holidays (subject to conditions) and the
-                  option to choose your payment date, adding convenience to
-                  their offering.
+                  Marcus customers benefit from no fees whatsoever—no sign-up
+                  fees, no prepayment fees, and no late fees. Their personal
+                  loans include a 30-day payment grace period and the option to
+                  defer a payment each year, adding convenience to their
+                  offering.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  Barclays
+                  LightStream
                 </h3>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Barclays provides personal loans with rates from 3.9% APR
-                  representative for existing customers borrowing between $7,500
-                  and $15,000. Their loan amounts range from $1,000 to $50,000,
-                  with terms from 1 to 5 years. Barclays' digital application
-                  process allows customers to check eligibility and apply
-                  entirely online, with funds often available within 24 hours of
-                  approval.
+                  LightStream, a division of Truist Bank, provides personal
+                  loans with rates from 7.49% APR for borrowers with excellent
+                  credit. Their loan amounts range from $5,000 to $100,000, with
+                  terms from 2 to 12 years. LightStream's fully online
+                  application process allows customers to receive same-day
+                  funding, with funds often available within hours of approval.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Their loan calculator tool helps borrowers understand the
-                  total cost of borrowing before applying. Barclays also offers
-                  a Price Promise, potentially matching lower rates offered by
-                  other lenders (subject to terms and conditions).
+                  Their Rate Beat Program promises to beat qualifying rates from
+                  other lenders by 0.10 percentage points. LightStream also
+                  offers purpose-based loans with potentially lower rates for
+                  specific uses like home improvement or auto purchases.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  Admiral
+                  Discover
                 </h3>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Better known for insurance, Admiral has established a
-                  competitive personal loan offering with rates from 3.8% APR
-                  representative for loans between $7,500 and $25,000. Their
-                  loans feature repayment terms from 1 to 7 years and no early
-                  repayment charges, giving borrowers flexibility to pay off
-                  their loans ahead of schedule if their financial situation
-                  improves.
+                  Discover Personal Loans feature rates from 7.99% APR for loans
+                  between $2,500 and $40,000. Their loans offer repayment terms
+                  from 3 to 7 years and no origination fees, giving borrowers
+                  flexibility to manage their payments according to their
+                  financial situation.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Admiral's straightforward application process can be completed
-                  entirely online, with decisions often provided within minutes.
-                  They also offer a 14-day cooling-off period, allowing
-                  borrowers to cancel without penalty if they change their minds
-                  shortly after taking out the loan.
+                  Discover's straightforward application process can be
+                  completed entirely online, with decisions often provided
+                  within minutes. They also send funds directly to creditors for
+                  debt consolidation loans, simplifying the payoff process for
+                  borrowers.
                 </p>
 
                 <h3 className="text-lg font-semibold text-gray-800 mb-3">
-                  M&S Bank
+                  Upgrade
                 </h3>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  M&S Bank personal loans start from 3.6% APR representative for
-                  existing customers borrowing between $7,500 and $15,000. Their
-                  loans range from $1,000 to $25,000 with terms from 1 to 7
-                  years. M&S Bank offers loan payment holidays (subject to
-                  criteria) and the flexibility to choose your payment date.
+                  Upgrade personal loans start from 8.49% APR for borrowers with
+                  good credit, with amounts from $1,000 to $50,000. Their loans
+                  range with terms from 2 to 7 years. Upgrade offers accessible
+                  options for borrowers with fair credit and provides direct
+                  payment to creditors for debt consolidation.
                 </p>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 font-light">
-                  Their application process can be completed online, by phone,
-                  or in-store, providing options for different preferences. M&S
-                  Bank's customer service has received high ratings, making them
-                  a good choice for borrowers who value support throughout the
-                  loan process.
+                  Their application process can be completed online or via their
+                  mobile app, providing options for different preferences.
+                  Upgrade's customer service and flexible eligibility
+                  requirements make them a good choice for borrowers who may not
+                  qualify elsewhere.
                 </p>
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
@@ -238,19 +235,19 @@ export default function BestPersonalLoansPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <a
-                      href="/financial-solutions/barclays-personal-loan"
-                      className="text-primary hover:underline"
-                    >
-                      Barclays Personal Loan:
-                    </a>{" "}
-                    Learn more about competitive rates and flexible terms.
-                  </li>
-                  <li className="mb-2">
-                    <a
                       href="/financial-solutions/sofi-credit-card"
                       className="text-primary hover:underline"
                     >
                       SoFi Personal Loan:
+                    </a>{" "}
+                    Learn more about competitive rates and member benefits.
+                  </li>
+                  <li className="mb-2">
+                    <a
+                      href="/financial-solutions/discover-it-cash-back"
+                      className="text-primary hover:underline"
+                    >
+                      Discover Personal Loan:
                     </a>{" "}
                     Discover options with quick application processes and
                     competitive rates.

@@ -173,10 +173,10 @@ export default function PersonalLoansDebtStrategyPage() {
                 <ul className="list-disc pl-6 mb-4 text-sm leading-5 font-light text-gray-800">
                   <li className="mb-2">
                     <Link
-                      href="/financial-solutions/barclays-personal-loan"
+                      href="/financial-solutions/discover-it-cash-back"
                       className="text-primary hover:underline"
                     >
-                      Barclays Personal Loan:
+                      Discover Personal Loan:
                     </Link>{" "}
                     Check their rates and terms for consolidation.
                   </li>

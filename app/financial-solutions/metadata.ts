@@ -13,8 +13,8 @@ export const metadata: Metadata = {
       "Your guide to the top credit cards and personal loans available in the US. Compare options and find the best fit for your needs.",
     images: [
       {
-        // Using a relevant UK product image
-        url: "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
+        // Using a relevant US product image
+        url: "https://media.topfinanzas.com/images/kardtrust/financial-solutions.webp",
         width: 1200, // Adjust if necessary
         height: 630, // Adjust if necessary
         alt: "US Financial Solutions from KardTrust",
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description:
       "Your guide to the top credit cards and personal loans available in the US. Compare options and find the best fit for your needs.",
     images: [
-      "https://media.topfinanzas.com/images/barclaycard-avios-plus.webp",
+      "https://media.topfinanzas.com/images/kardtrust/financial-solutions.webp",
     ],
   },
 };

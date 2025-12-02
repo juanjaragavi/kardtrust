@@ -94,7 +94,7 @@ bash ./scripts/git-workflow.sh
 - Copy `.env.example` to `.env.production`
 - Production environment files stored in `/opt/app/` with strict permissions
 - Google Sheets API requires `GOOGLE_SERVICE_ACCOUNT_EMAIL` and `GOOGLE_PRIVATE_KEY`
-- AdZep integration requires UK-specific script URL
+- AdZep integration requires US-specific script URL
 - Kit.com API integration for newsletter subscriptions
 - Multiple environment files in use: `.env`, `.env.production`, `.env.local`
 
@@ -172,16 +172,16 @@ export async function POST(req: Request) {
 
 - Blog posts in `/content/` with frontmatter
 - Custom MDX components for financial content
-- UK regulatory compliance in financial product descriptions
+- US regulatory compliance in financial product descriptions
 
 ### SEO Pattern
 
 ```typescript
 // In page.tsx files
 export const metadata: Metadata = {
-  title: "UK-specific title",
-  description: "FCA-compliant description",
-  // UK-specific metadata
+  title: "US-specific title",
+  description: "CFPB-compliant description",
+  // US-specific metadata
 };
 ```
 
@@ -200,7 +200,7 @@ export const metadata: Metadata = {
 1. **Port Configuration**: Development runs on port 3005, not 3000
 2. **Analytics Order**: GTM loads before AdZep in layout
 3. **Form Navigation**: Always call `window.scrollTo(0, 0)` on step changes
-4. **UK Compliance**: Include regulatory disclaimers for financial products
+4. **US Compliance**: Include regulatory disclaimers for financial products
 5. **Git Workflow**: NEVER bypass the automated script for commits
 
 ## File Naming Conventions
@@ -210,7 +210,7 @@ export const metadata: Metadata = {
 - Utilities: Descriptive names in `/lib/utils/`
 - Constants: Centralized in `/lib/constants.ts`
 
-This project prioritizes UK financial compliance, performance optimization, and comprehensive analytics tracking. Always consider FCA regulations when working with financial content.
+This project prioritizes US financial compliance, performance optimization, and comprehensive analytics tracking. Always consider CFPB regulations when working with financial content.
 
 ## Instruction Files System
 

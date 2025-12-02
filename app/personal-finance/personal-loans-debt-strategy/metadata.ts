@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Discover how personal loans can help you consolidate debt and manage your finances efficiently. Learn how to choose the right loan for your needs.",
   keywords:
-    "personal loans UK, debt consolidation loan, manage debt UK, debt strategy, unsecured loans, loan comparison UK",
+    "personal loans US, debt consolidation loan, manage debt US, debt strategy, unsecured loans, loan comparison US",
   openGraph: {
     title: "Personal Loans - A Strategy for Managing Debt | KardTrust",
     description:

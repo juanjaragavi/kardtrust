@@ -116,7 +116,7 @@ export default function BestRewardsCreditCardsPage() {
                     with your regular spending.
                   </li>
                   <li className="mb-2">
-                    <strong>For Travellers:</strong> While this article focuses
+                    <strong>For Travelers:</strong> While this article focuses
                     on general rewards, dedicated{" "}
                     <Link
                       href="/personal-finance/travel-credit-cards"

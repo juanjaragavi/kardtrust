@@ -4,7 +4,7 @@ export const metadata = {
   description:
     "Navigate the world of online loans with confidence using these essential tips to find the best rates and terms for your financial needs in the US market.",
   keywords:
-    "online loan tips UK, choose online loan, UK loan comparison, FCA regulated loans, online loan fees, online loan flexibility",
+    "online loan tips US, choose online loan, US loan comparison, CFPB regulated loans, online loan fees, online loan flexibility",
   openGraph: {
     title:
       "5 Essential Tips for Choosing an Online Loan: Quick Guide | KardTrust",

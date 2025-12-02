@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Find the best no annual fee credit cards with great cashback, rewards, and flexible benefits. Perfect for managing expenses while saving on fees.",
   keywords:
-    "no annual fee credit cards UK, best no annual fee cards, cashback no annual fee, rewards no annual fee, 0 APR no annual fee",
+    "no annual fee credit cards US, best no annual fee cards, cashback no annual fee, rewards no annual fee, 0 APR no annual fee",
   openGraph: {
     title: "Top Credit Cards With No Annual Fees | KardTrust",
     description:

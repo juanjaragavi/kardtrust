@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Discover everything you need to know about credit cards, from types and benefits to tips for responsible usage and maintaining healthy finances.",
   keywords:
-    "credit card types UK, credit card benefits, responsible credit card use, credit card rewards, credit card guide UK",
+    "credit card types US, credit card benefits, responsible credit card use, credit card rewards, credit card guide US",
   openGraph: {
     title:
       "Credit Cards - Types, Benefits, and Keys to Financial Health | KardTrust",
