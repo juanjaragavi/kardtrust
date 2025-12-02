@@ -17,7 +17,7 @@ export const metadata: Metadata = generateArticleMetadata({
   keywords:
     "psychology of spending, impulse buying, mindful saving, financial behavior, personal finance, money mindset, spending habits, emotional spending",
   image:
-    "https://media.topfinanzas.com/images/kardtrust/psychology-of-spending.webp",
+    "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
   publishedDate: "2025-11-25T00:00:00Z",
   modifiedDate: "2025-11-25T00:00:00Z",
 });
@@ -28,7 +28,7 @@ export default function PsychologyOfSpendingPage() {
       <ArticleSchema
         title="The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving"
         description="Understand the psychological triggers behind impulse spending and learn practical strategies to build mindful saving habits that support your financial well-being."
-        image="https://media.topfinanzas.com/images/kardtrust/psychology-of-spending.webp"
+        image="https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp"
         datePublished="2025-11-25T00:00:00Z"
         dateModified="2025-11-25T00:00:00Z"
         url="https://kardtrust.com/personal-finance/psychology-of-spending"
@@ -87,7 +87,7 @@ export default function PsychologyOfSpendingPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/psychology-of-spending.webp"
+                  src="https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp"
                   alt="Understanding the psychology of spending and mindful saving strategies"
                   width={800}
                   height={450}

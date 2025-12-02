@@ -641,7 +641,7 @@ const allPosts: PostData[] = [
       description: "Discover the best rewards credit cards...",
       date: "2025-04-03T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/kardtrust/top-rewards-credit-cards.webp",
+        "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
       categories: [{ name: "Personal Finance", slug: "personal-finance" }],
     },
     category: "Personal Finance",
@@ -694,7 +694,7 @@ const allPosts: PostData[] = [
       description: "Navigate the world of online loans with confidence...",
       date: "2025-03-30T00:00:00Z",
       featuredImage:
-        "https://media.topfinanzas.com/images/kardtrust/online-loan-tips.webp",
+        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
       categories: [{ name: "Personal Finance", slug: "personal-finance" }],
     },
     category: "Personal Finance",
@@ -1006,7 +1006,7 @@ export default function Home() {
       <FiftyFiftySection
         title="Find the Perfect Credit Card for Your Lifestyle"
         description="Navigate the overwhelming world of credit cards with confidence. We analyze hundreds of options to recommend cards that actually match your spending habits and financial goals. Whether you're building credit, maximizing rewards, or consolidating debt, we'll help you find the right fit – without the sales pitch."
-        imageSrc="https://media.topfinanzas.com/images/kardtrust/top-rewards-credit-cards.webp"
+        imageSrc="https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp"
         imageAlt="Credit card comparison"
         ctaText="Explore Credit Cards"
         ctaLink="/credit-cards"

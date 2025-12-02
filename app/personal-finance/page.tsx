@@ -55,7 +55,7 @@ export default function PersonalFinanceArchivePage() {
         description:
           "Understand the psychological triggers behind impulse spending and learn practical strategies to build mindful saving habits that support your financial well-being.",
         image:
-          "https://media.topfinanzas.com/images/kardtrust/psychology-of-spending.webp",
+          "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
         date: "November 25, 2025",
         category: "guide",
       },
@@ -141,7 +141,7 @@ export default function PersonalFinanceArchivePage() {
         description:
           "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
         image:
-          "https://media.topfinanzas.com/images/kardtrust/top-rewards-credit-cards.webp",
+          "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
         date: "3 April 2025",
         category: "creditCards",
       },

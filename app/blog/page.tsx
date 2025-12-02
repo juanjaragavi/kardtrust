@@ -60,7 +60,7 @@ export default function BlogArchivePage() {
       description:
         "Understand the psychological triggers behind impulse spending and learn practical strategies to build mindful saving habits that support your financial well-being.",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/psychology-of-spending.webp",
+        "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "November 25, 2025",
@@ -632,7 +632,7 @@ export default function BlogArchivePage() {
       slug: "tips-for-choosing-an-online-loan",
       description: "Navigate the world of online loans with confidence...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/online-loan-tips.webp",
+        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "30 March 2025",
