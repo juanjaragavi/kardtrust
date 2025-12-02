@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
   keywords:
-    "rewards credit cards UK, best reward cards, credit card points, cashback cards UK, maximize spending rewards",
+    "rewards credit cards US, best reward cards, credit card points, cashback cards US, maximize spending rewards",
   openGraph: {
     title: "Top Rewards Credit Cards to Maximize Your Spending | KardTrust",
     description:
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       "Discover the best rewards credit cards that turn your everyday spending into valuable perks. From cashback to points and miles, find the perfect card.",
     images: [
-      "https://media.topfinanzas.com/images/kardtrust/Top_Finance_uk_credit_cards.webp",
+      "https://media.topfinanzas.com/images/kardtrust/top-rewards-credit-cards.webp",
     ], // Add if featuredImage is available
   },
 };

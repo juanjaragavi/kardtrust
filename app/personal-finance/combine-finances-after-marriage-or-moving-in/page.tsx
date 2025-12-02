@@ -27,10 +27,10 @@ export default function CombineFinancesAfterMarriagePage() {
             />
 
             <p className="text-left text-lg text-gray-800 mb-6 leading-7">
-              Thinking about merging money with a partner? Whether you’ve just
+              Thinking about merging money with a partner? Whether you've just
               tied the knot or moved in together, combining finances is more
-              than opening a joint account — it’s about building a system that
-              fits your life, values, and goals. This UK‑focused guide walks you
+              than opening a joint account — it's about building a system that
+              fits your life, values, and goals. This US‑focused guide walks you
               through practical options, common pitfalls, and an easy
               step‑by‑step plan so you can keep your personal finance on track
               without losing your independence.
@@ -151,8 +151,8 @@ export default function CombineFinancesAfterMarriagePage() {
               <p className="text-gray-800 mb-4 text-sm leading-6 font-light">
                 If you open a joint account or apply for joint credit, your
                 credit files can become financially associated. That means one
-                person’s credit behaviour may affect the other’s. Keep balances
-                low and pay on time. If you’re managing credit card balances, a{" "}
+                person's credit behavior may affect the other's. Keep balances
+                low and pay on time. If you're managing credit card balances, a{" "}
                 {""}
                 <Link
                   href="/personal-finance/top-credit-cards-0-intro-apr"

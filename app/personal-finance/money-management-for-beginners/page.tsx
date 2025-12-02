@@ -29,11 +29,11 @@ export default function MoneyManagementBeginnersPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 Starting with personal finance can feel overwhelming — bills,
-                direct debits, interest rates, savings, credit scores… where do
-                you even begin? The good news: money management is less about
-                perfection and more about simple habits you can repeat every
-                month. This UK‑focused guide walks you through the essentials so
-                you can take control with confidence.
+                automatic payments, interest rates, savings, credit scores…
+                where do you even begin? The good news: money management is less
+                about perfection and more about simple habits you can repeat
+                every month. This guide walks you through the essentials so you
+                can take control with confidence.
               </p>
 
               <div className="my-8 text-left sm:text-left">

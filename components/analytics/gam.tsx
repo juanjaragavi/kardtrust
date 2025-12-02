@@ -81,7 +81,7 @@ export default function GoogleAdManager() {
             // Set additional targeting for US market
             googletag.pubads().setTargeting("country", "US");
             googletag.pubads().setTargeting("language", "en");
-            googletag.pubads().setTargeting("site", "kardtrust_uk");
+            googletag.pubads().setTargeting("site", "kardtrust_us");
 
             logger.debug(
               {

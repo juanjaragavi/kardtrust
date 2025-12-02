@@ -207,7 +207,7 @@ function CreditCardRecommenderPageContent() {
                     openFaq === "travelers" ? "text-primary" : "text-secondary"
                   }`}
                 >
-                  What's the best option for travellers?
+                  What's the best option for travelers?
                 </h3>
                 <span
                   className={`text-xl transition-transform ${
@@ -224,7 +224,7 @@ function CreditCardRecommenderPageContent() {
                 <div className="p-4 text-gray-700" id="faq-travelers-content">
                   <p className="text-left">
                     Cards with air miles accumulation or access to VIP lounges
-                    are ideal for frequent travellers, allowing you to save on
+                    are ideal for frequent travelers, allowing you to save on
                     flights and enjoy exclusive benefits.
                   </p>
                 </div>

@@ -1,18 +1,19 @@
 "use client";
 
-import { BlogLayout } from "@/components/mdx/blog-layout"; // Assuming BlogLayout is suitable
-import { FeaturedPostCard } from "@/components/ui/featured-post-card"; // Reusing card component
-import { useState, useEffect, useMemo } from "react"; // Keep state hooks for consistency
+import { BlogLayout } from "@/components/mdx/blog-layout";
+import { FeaturedPostCard } from "@/components/ui/featured-post-card";
+import Link from "next/link";
+import { useState, useEffect, useMemo } from "react";
 import { sortPostsByDate } from "@/lib/utils/date-utils";
 
-// Define the structure for each post item (can be imported if shared)
+// Define the structure for each post item
 interface PostItem {
   title: string;
   slug: string;
   description: string;
   image: string;
   date?: string;
-  type?: string; // Keep type if used by FeaturedPostCard
+  type?: string;
 }
 
 export default function PersonalLoansArchivePage() {
@@ -22,201 +23,131 @@ export default function PersonalLoansArchivePage() {
     setIsClient(true);
   }, []);
 
-  // Hardcoded list of loan content (copied from financial-solutions/page.tsx)
+  // US Personal Loans and Credit-Building Solutions
   const allLoansContent = useMemo<PostItem[]>(
     () => [
-      // Personal Loans (Traditional Banks)
+      // Home Loans
       {
-        title: "HSBC Personal Loan",
-        slug: "hsbc-personal-loan",
+        title: "CIT Bank Home Loans",
+        slug: "cit-bank-home-loans-benefits",
         description:
-          "Discover HSBC Personal Loans with competitive rates, flexible repayment terms, and quick application process.",
+          "Discover CIT Bank Home Loans with competitive rates, flexible options, and expert guidance. Get pre-approved fast and access fixed-rate, adjustable-rate, and jumbo loans for your dream home.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718135900-fotosprestamo1hsbc-uk.webp",
-        date: "4 April 2025",
-        type: "personal",
+          "https://us.topfinanzas.com/wp-content/uploads/2024/12/CitiBL1-820x429.png",
+        date: "28 October 2025",
+        type: "home",
+      },
+      // Credit Builder Cards (help with financing goals)
+      {
+        title: "Self Credit Builder Account + Visa Card",
+        slug: "self-credit-builder-account-visa-card",
+        description:
+          "Build credit to qualify for better loan rates. Self's Credit Builder Account reports payments to all three bureaus with a $35/month plan at 15.69% APR.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/self-credit-builder-account-visa-card.webp",
+        date: "27 October 2025",
+        type: "credit_builder",
       },
       {
-        title: "Barclays Personal Loan",
-        slug: "barclays-personal-loan",
+        title: "Chime Credit Builder Visa Secured Card",
+        slug: "chime-credit-builder-visa-secured-card",
         description:
-          "Explore Barclays Personal Loans with competitive rates, flexible terms, and a streamlined application process.",
+          "Build credit to access better financing options with no annual fees, no interest, and no credit check. Average 30-point credit score increase after 8 months.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718136012-fotosprestamo-barclays2uk.webp",
-        date: "4 April 2025",
-        type: "personal",
+          "https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp",
+        date: "24 October 2025",
+        type: "credit_builder",
       },
       {
-        title: "Lloyds Bank Personal Loan",
-        slug: "lloyds-bank-personal-loan",
+        title: "Varo Believe Card",
+        slug: "varo-believe-card",
         description:
-          "Explore Lloyds Bank Personal Loans with competitive rates, flexible repayment options, and trusted service.",
+          "Build credit for future loan applications with no security deposit, 0% APR, and no annual fees. Average 40+ point credit score increase in just 3 months.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718136057-fotosprestamo-lloyds1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
+          "https://media.topfinanzas.com/images/kardtrust/varo-believe-card.webp",
+        date: "24 October 2025",
+        type: "credit_builder",
       },
       {
-        title: "NatWest Personal Loan",
-        slug: "natwest-personal-loan",
+        title: "Step Visa Card",
+        slug: "step-visa-card",
         description:
-          "Explore NatWest Personal Loans with competitive rates, flexible repayment terms, and a straightforward application process.",
+          "Start building credit early for free starting at age 13 with no credit score required, no fees, and 0% APR. Reports to all 3 bureaus with average 57-point score increase.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718136156-fotosprestamo-nawest1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
+          "https://media.topfinanzas.com/images/kardtrust/step-visa-card.webp",
+        date: "27 October 2025",
+        type: "credit_builder",
       },
       {
-        title: "Santander US Personal Loan",
-        slug: "santander-uk-personal-loan",
+        title: "Tilt Card",
+        slug: "tilt-card",
         description:
-          "Explore Santander US Personal Loans with competitive rates, flexible repayment terms, and potential benefits for 1|2|3 World customers.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136214-fotosprestamo-santander1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
+          "Build credit with no security deposit or credit history required. Get up to 10% cash back, automatic limit increases, and approval even if denied elsewhere.",
+        image: "https://media.topfinanzas.com/images/kardtrust/tilt-card.webp",
+        date: "27 October 2025",
+        type: "credit_builder",
       },
+      // Pay-Over-Time Solutions
       {
-        title: "TSB Personal Loan",
-        slug: "tsb-personal-loan",
+        title: "Upgrade OneCard",
+        slug: "upgrade-credit-card",
         description:
-          "Explore TSB Personal Loans with competitive rates, flexible repayment options, and a focus on clear, simple banking solutions.",
+          "Combines credit card flexibility with personal loan predictability. Pay now or pay later with no annual fee and 14.99%-29.99% APR for structured financing.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718136271-fotosprestamo-tbs1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Virgin Money Personal Loan",
-        slug: "virgin-money-personal-loan",
-        description:
-          "Explore Virgin Money Personal Loans with competitive rates, flexible terms, and potential benefits linked to the Virgin Red rewards program.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136330-fotosprestamo-virginmoney1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Halifax Personal Loan",
-        slug: "halifax-personal-loan",
-        description:
-          "Explore Halifax Personal Loans with competitive rates, flexible repayment options, and the trusted service of a major US bank.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136403-fotosprestamo-halifax1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      {
-        title: "Nationwide Personal Loan",
-        slug: "nationwide-personal-loan",
-        description:
-          "Explore Nationwide Personal Loans with competitive rates, flexible terms, and benefits for existing members.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136476-fotosprestamo-nationwide1uk.webp",
-        date: "4 April 2025",
-        type: "personal",
-      },
-      // Personal Loans (Fintech/Neobank)
-      {
-        title: "Revolut Personal Loan",
-        slug: "revolut-personal-loan",
-        description:
-          "Explore Revolut Personal Loans offering quick decisions, flexible terms, and seamless management through the Revolut app.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136529-fotosprestamo-revoult1uk.webp",
-        date: "4 April 2025",
+          "https://media.topfinanzas.com/images/kardtrust/upgrade-credit-card.webp",
+        date: "24 October 2025",
         type: "fintech",
       },
       {
-        title: "Monzo Personal Loan",
-        slug: "monzo-personal-loan",
+        title: "Affirm Card",
+        slug: "affirm-card",
         description:
-          "Explore Monzo Personal Loans offering quick decisions, clear terms, and seamless management through the Monzo app.",
+          "Pay over time with flexible payment plans. No annual fees, no hidden charges, 0%-36% APR payment plans. Split purchases after checkout with transparent terms.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718136607-fotosprestamo-monzo2uk.webp",
-        date: "4 April 2025",
-        type: "neobank",
+          "https://media.topfinanzas.com/images/kardtrust/affirm-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
       },
       {
-        title: "Starling Bank Personal Loan",
-        slug: "starling-bank-personal-loan",
+        title: "Klarna Card",
+        slug: "klarna-card",
         description:
-          "Explore Starling Bank Personal Loans offering competitive rates, clear terms, and seamless management via the Starling app.",
+          "Switch between debit mode and pay later plans. No annual fees, 0%-35.99% APR flexible financing, and up to 3.02% APY on balance.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718136704-fotosprestamo-starlinkbanck1uk.webp",
-        date: "4 April 2025",
-        type: "neobank",
+          "https://media.topfinanzas.com/images/kardtrust/klarna-card.webp",
+        date: "27 October 2025",
+        type: "fintech",
       },
-      // SME Fintech Loans
+      // Cards for Fair/Rebuilding Credit
       {
-        title: "Funding Circle Business Loan",
-        slug: "funding-circle-personal-loan",
+        title: "Mission Lane Visa Credit Card",
+        slug: "mission-lane-visa-credit-card",
         description:
-          "Explore Funding Circle's business loans offering fast, flexible financing solutions designed specifically for US SMEs.",
+          "Build or rebuild credit with starting credit lines from $300-$3,000. 19.99%-33.99% variable APR, $0-$59 annual fee. No security deposit on most options.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718136824-fotosprestamo-fundingcircle1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
-      },
-      {
-        title: "Funding Options Marketplace",
-        slug: "funding-options-personal-loan",
-        description:
-          "Explore Funding Options, a leading US platform connecting SMEs with a wide range of business finance solutions.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718138018-fotosprestamo-fundingoption1uk.webp",
-        date: "4 April 2025",
-        type: "marketplace",
+          "https://media.topfinanzas.com/images/kardtrust/mission-lane-visa-credit-card.webp",
+        date: "27 October 2025",
+        type: "credit_builder",
       },
       {
-        title: "iwoca Flexi-Loan",
-        slug: "iwoca-personal-loan",
+        title: "Avant Credit Card",
+        slug: "avant-credit-card",
         description:
-          "Explore iwoca's Flexi-Loan, offering fast, flexible working capital solutions designed for US SMEs.",
+          "Build or rebuild your credit with no security deposit required. Proactive credit line increases and $300-$3,000 credit limits.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718137033-fotosprestamo-iwoca1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
+          "https://media.topfinanzas.com/images/kardtrust/avant-credit-card.webp",
+        date: "27 October 2025",
+        type: "credit_builder",
       },
       {
-        title: "MarketFinance Business Finance",
-        slug: "marketfinance-personal-loan",
+        title: "Tomo Credit Card",
+        slug: "tomo-credit-card-benefits",
         description:
-          "Explore MarketFinance's solutions for US SMEs, including fast business loans and flexible invoice finance.",
+          "No credit history required to apply. Flexible cashback rewards and zero annual fees to jumpstart your credit journey.",
         image:
-          "https://media.topfinanzas.com/images/uk/loans/718137315-fotosprestamo-fundingchange2uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
-      },
-      {
-        title: "Funding Xchange Platform",
-        slug: "funding-xchange-personal-loan",
-        description:
-          "Explore Funding Xchange, a smart platform helping US SMEs compare and access business finance options.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718136896-fotosprestamo-fundingchange1uk.webp",
-        date: "4 April 2025",
-        type: "marketplace",
-      },
-      {
-        title: "Capify Business Finance",
-        slug: "capify-personal-loan",
-        description:
-          "Explore Capify's financing solutions for US SMEs, including Merchant Cash Advances and Business Loans.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718137374-fotosprestamo-capify1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
-      },
-      {
-        title: "Fleximize Business Loans",
-        slug: "fleximize-personal-loan",
-        description:
-          "Explore Fleximize's flexible business loans (Flexiloan & Flexiloan Lite) offering tailored repayment options for US SMEs.",
-        image:
-          "https://media.topfinanzas.com/images/uk/loans/718137416-fotosprestamo-fleximize1uk.webp",
-        date: "4 April 2025",
-        type: "sme_fintech",
+          "https://us.topfinanzas.com/wp-content/uploads/2024/11/Tomo1.webp",
+        date: "28 October 2025",
+        type: "credit_builder",
       },
     ],
     [],
@@ -228,14 +159,12 @@ export default function PersonalLoansArchivePage() {
     [allLoansContent],
   );
 
-  // No filtering needed, just display the sorted loan content
   const filteredPosts = allLoansContentSorted;
 
   // Avoid rendering until client-side code is running
   if (!isClient) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        {/* Basic loading skeleton */}
         <div className="animate-pulse bg-gray-200 rounded-xl p-8 w-full max-w-4xl">
           <div className="h-8 bg-gray-300 rounded w-3/4 mb-4"></div>
           <div className="h-4 bg-gray-300 rounded w-1/2 mb-6"></div>
@@ -250,11 +179,27 @@ export default function PersonalLoansArchivePage() {
 
   const pageContent = (
     <div>
-      <h1 className="text-4xl font-bold mb-6">UK Personal & Business Loans</h1>
+      <h1 className="text-4xl font-bold mb-6">
+        Personal Loans & Credit Building
+      </h1>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
-        Explore detailed guides and reviews of personal and business loans
-        available in the US. Find the right financing solution for your needs.
+        Explore financing options available in the US. From home loans to
+        credit-building solutions and flexible payment plans, find the right
+        financial products for your needs.
       </p>
+
+      {/* Information callout */}
+      <div className="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-lg mb-8">
+        <h2 className="text-xl font-semibold text-blue-800 mb-2">
+          Building Credit for Better Loan Rates
+        </h2>
+        <p className="text-blue-700">
+          A strong credit score helps you qualify for personal loans with lower
+          interest rates. Many of the credit builder cards below can help
+          improve your credit profile, making you eligible for better financing
+          options in the future.
+        </p>
+      </div>
 
       {/* Grid of loan posts */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -262,22 +207,38 @@ export default function PersonalLoansArchivePage() {
           <div
             key={post.slug}
             className="relative"
-            style={{ position: "relative" }} // Needed for FeaturedPostCard image positioning
+            style={{ position: "relative" }}
           >
             <FeaturedPostCard
               title={post.title}
               description={post.description}
               image={post.image}
-              // Posts are located under /financial-solutions/
               slug={post.slug}
-              category="Loans" // Static category for this page
-              categorySlug="/financial-solutions" // Base path for these posts
+              category="Financing"
+              categorySlug="/financial-solutions"
               date={post.date}
               type={post.type}
-              showBadge={true} // Show type badge if desired
+              showBadge={true}
             />
           </div>
         ))}
+      </div>
+
+      {/* CTA section */}
+      <div className="bg-primary/10 p-8 rounded-xl shadow-sm mt-10">
+        <h2 className="text-2xl font-bold mb-4">
+          Looking for Credit Card Options?
+        </h2>
+        <p className="text-gray-700 mb-6">
+          Explore our comprehensive guide to credit cards, including cashback
+          rewards, travel cards, and options for all credit levels.
+        </p>
+        <Link
+          href="/financial-solutions"
+          className="bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-6 inline-block transition-colors rounded-full"
+        >
+          View All Financial Solutions
+        </Link>
       </div>
     </div>
   );
@@ -285,9 +246,9 @@ export default function PersonalLoansArchivePage() {
   return (
     <BlogLayout
       metadata={{
-        title: "UK Personal & Business Loans: Reviews & Guides | KardTrust",
+        title: "Personal Loans & Credit Building Solutions | KardTrust",
         description:
-          "Compare the best US personal loans and business financing options. Find reviews, guides, and comparisons for various loan types.",
+          "Compare the best US personal loans, home loans, and credit-building options. Find financing solutions and credit builder cards to meet your financial goals.",
       }}
     >
       {pageContent}

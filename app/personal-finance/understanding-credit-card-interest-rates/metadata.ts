@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Learn how credit card interest rates work, including APR calculations, and discover ways to manage and minimize your debt effectively.",
   keywords:
-    "credit card interest rates UK, APR calculation, manage credit card debt, reduce credit card interest, credit card guide",
+    "credit card interest rates US, APR calculation, manage credit card debt, reduce credit card interest, credit card guide",
   openGraph: {
     title:
       "Understanding Credit Card Interest Rates - A Consumer Guide | KardTrust",

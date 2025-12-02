@@ -32,9 +32,9 @@ export default function SettingFinancialGoalsPage() {
                 If &quot;sort out my money&quot; is on your to‑do list,
                 you&apos;re not alone. Personal finance doesn&apos;t have to be
                 complicated — the trick is to set clear, realistic goals and
-                build small habits you can repeat. This UK‑focused guide shows
-                you how to define short, medium and long‑term targets, and how
-                to align your budget so you actually reach them.
+                build small habits you can repeat. This guide shows you how to
+                define short, medium and long‑term targets, and how to align
+                your budget so you actually reach them.
               </p>
 
               <div className="my-8 text-left sm:text-left">

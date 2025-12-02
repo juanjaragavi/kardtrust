@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   description:
     "Discover the top cashback credit cards! Compare benefits like unlimited rewards, flexible redemption options, and introductory APR offers.",
   keywords:
-    "cashback credit cards UK, best cashback cards, earn money back, credit card rewards UK, compare cashback cards",
+    "cashback credit cards US, best cashback cards, earn money back, credit card rewards US, compare cashback cards",
   openGraph: {
     title: "Best Cashback Credit Cards for Maximizing Your Rewards | KardTrust",
     description:

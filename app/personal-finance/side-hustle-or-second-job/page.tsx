@@ -119,7 +119,7 @@ export default function SideHustleOrSecondJobPage() {
                   selling products online, offering consulting services,
                   creating content, or providing freelance skills like graphic
                   design or writing. The flexibility and entrepreneurial nature
-                  of side hustles make them increasingly popular among UK
+                  of side hustles make them increasingly popular among US
                   workers seeking financial independence.
                 </p>
 

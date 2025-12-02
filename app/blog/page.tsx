@@ -60,7 +60,7 @@ export default function BlogArchivePage() {
       description:
         "Understand the psychological triggers behind impulse spending and learn practical strategies to build mindful saving habits that support your financial well-being.",
       image:
-        "https://media.topfinanzas.com/images/uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp",
+        "https://media.topfinanzas.com/images/kardtrust/psychology-of-spending.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "November 25, 2025",
@@ -632,7 +632,7 @@ export default function BlogArchivePage() {
       slug: "tips-for-choosing-an-online-loan",
       description: "Navigate the world of online loans with confidence...",
       image:
-        "https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp",
+        "https://media.topfinanzas.com/images/kardtrust/online-loan-tips.webp",
       category: "Personal Finance",
       categoryPath: "/personal-finance",
       date: "30 March 2025",
@@ -674,7 +674,7 @@ export default function BlogArchivePage() {
         "Beyond Spreadsheets: Create a Personal Finance Budget You'll Actually Stick To | KardTrust",
       slug: "creating-a-budget-youll-actually-stick-to",
       description:
-        "A modern UK-friendly budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start.",
+        "A modern budgeting guide covering 50/30/20, zero‑based budgeting, digital pots, and a 7‑day quick start.",
       image:
         "https://media.topfinanzas.com/images/kardtrust/modern-budget-guide.webp",
       category: "Personal Finance",
@@ -686,7 +686,7 @@ export default function BlogArchivePage() {
         "How to Confidently Ask for a Raise (with Scripts and a Preparation Guide)",
       slug: "how-to-ask-for-a-raise",
       description:
-        "Learn exactly what to say when asking for a pay rise. This UK-focused guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
+        "Learn exactly what to say when asking for a raise. This guide includes preparation steps, conversation scripts, salary research tips, and how to handle both positive and negative responses professionally.",
       image:
         "https://media.topfinanzas.com/images/kardtrust/how-to-ask-for-a-raise.webp",
       category: "Personal Finance",
