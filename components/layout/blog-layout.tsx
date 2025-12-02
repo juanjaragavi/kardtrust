@@ -398,7 +398,7 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   >
                     <div className="relative h-32 rounded-xl overflow-hidden">
                       <Image
-                        src="https://media.topfinanzas.com/images/kardtrust/online-loan-tips.webp"
+                        src="https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp"
                         alt="5 Tips for Choosing an Online Loan: Quick Guide" // Updated Alt
                         fill
                         style={{ objectFit: "cover" }}

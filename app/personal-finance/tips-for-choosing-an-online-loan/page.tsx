@@ -94,7 +94,7 @@ export default function TipsForChoosingAnOnlineLoanPage() {
 
               <div className="my-8 text-left sm:text-left">
                 <Image
-                  src="https://media.topfinanzas.com/images/kardtrust/online-loan-tips.webp"
+                  src="https://media.topfinanzas.com/images/kardtrust/choosing-online-loan-uk.webp"
                   alt="Tips for Choosing an Online Loan"
                   width={800}
                   height={450}

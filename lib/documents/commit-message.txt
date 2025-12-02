@@ -1,32 +1,21 @@
-refactor: Complete UK to US market migration
+fix: Restore broken image URLs after UK migration
 
 ## Summary
-Comprehensive audit and remediation of all UK references across the KardTrust codebase to align with US market focus.
+Restored image URLs that were incorrectly modified during the UK-to-US migration. The media files on media.topfinanzas.com use specific naming conventions that must be preserved.
 
-## Core Content Changes
-- app/personal-loans/page.tsx: Complete rewrite - replaced 19 UK bank products with 12 US financial products (CIT Bank, Self, Chime, Varo, Step, Tilt, Upgrade, Affirm, Klarna, Mission Lane, Avant, Tomo)
-- app/personal-finance/best-personal-loans/page.tsx: Replaced UK lenders (Nationwide, Santander, Barclays, Admiral, M&S Bank) with US lenders (SoFi, Marcus, LightStream, Discover, Upgrade)
-- app/contact-us/page.tsx: Rewrote phone validation from UK 07xxx format to US 10-digit format
+## Image URLs Restored (7 files)
+- psychology-of-spending.webp → uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp
+- top-rewards-credit-cards.webp → kardtrust/Top_Finance_uk_credit_cards.webp  
+- online-loan-tips.webp → kardtrust/choosing-online-loan-uk.webp
 
-## Metadata Files Updated (12 files)
-- Updated UK keywords to US equivalents across all metadata.ts files
-- Changed FCA references to CFPB for US regulatory compliance
-- Fixed all UK-specific SEO keywords
+## Files Modified
+- app/page.tsx: 3 image references restored
+- app/blog/page.tsx: 2 image references restored
+- app/personal-finance/page.tsx: 2 image references restored
+- app/personal-finance/psychology-of-spending/page.tsx: 3 image references restored
+- app/personal-finance/tips-for-choosing-an-online-loan/page.tsx: 1 image reference restored
+- app/personal-finance/best-rewards-credit-cards/metadata.ts: 1 image reference restored
+- components/layout/blog-layout.tsx: 1 image reference restored
 
-## Image URL Path Updates
-- All /images/uk/ paths changed to /images/kardtrust/
-- Fixed Top_Finance_uk_credit_cards.webp and choosing-online-loan-uk.webp references
-
-## UK Spellings Fixed
-- travellers → travelers (credit card recommender pages)
-- behaviour → behavior
-- Other UK English spellings normalized to US English
-
-## Analytics & Configuration
-- components/analytics/gam.tsx: Changed targeting from kardtrust_uk to kardtrust_us
-- .clinerules/RULES.md: Updated all UK market references to US (CFPB, US timezones)
-- .github/copilot-instructions.md: Fixed UK references
-
-## Deleted
-- app/invit-credit-card-rec-uk/ directory (UK-specific product links)
-- Removed backup files with UK references
+## Technical Note
+Media URLs on media.topfinanzas.com/images/ must be excluded from future UK-to-US migrations. The "uk" in filenames is part of the asset naming convention, not a locale reference.
