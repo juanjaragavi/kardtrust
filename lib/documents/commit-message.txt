@@ -1,9 +1,7 @@
-Fix legal pages text styling and improve readability
+Add new Personal Finance article: How to Track Your Expenses for 30 Days
 
-- Fixed illegible link colors: changed from light gray to blue (text-blue-600)
-- Fixed light gray bold text: added .text-strong class with dark gray color
-- Installed @tailwindcss/typography plugin to enable prose modifiers
-- Increased h2 section heading size from 12px to 20px with bold weight
-- Updated all legal pages (terms, privacy-policy, cookie-policy) with prose-strong modifier
-
-This improves accessibility and readability across all legal documentation pages.
+- Created new blog post at /personal-finance/how-to-track-your-expenses/
+- Updated blog listing page (app/blog/page.tsx) with new article entry
+- Updated Personal Finance archive page (app/personal-finance/page.tsx) with new article
+- Article includes practical expense tracking methods, 30-day plan, and internal links
+- Sitemap auto-updates via dynamic page discovery

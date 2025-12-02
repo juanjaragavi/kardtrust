@@ -43,6 +43,18 @@ export default function BlogArchivePage() {
     // Personal Finance Posts - NEW
     {
       title:
+        "How to Track Your Expenses for 30 Days (Without Going Crazy) | KardTrust",
+      slug: "how-to-track-your-expenses",
+      description:
+        "Stop guessing where your money goes. Learn simple, stress-free methods to track your spending for 30 days and finally gain clarity over your personal finances.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/how-to-track-your-expenses.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "December 2, 2025",
+    },
+    {
+      title:
         "The Psychology of Spending: How to Stop Impulse Buys and Start Mindful Saving | KardTrust",
       slug: "psychology-of-spending",
       description:
