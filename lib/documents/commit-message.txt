@@ -1,21 +1,20 @@
-fix: Restore broken image URLs after UK migration
+chore(deps): Update Next.js to v15.4.8
 
 ## Summary
-Restored image URLs that were incorrectly modified during the UK-to-US migration. The media files on media.topfinanzas.com use specific naming conventions that must be preserved.
+Updated Next.js framework from version 15.4.3 to 15.4.8 for improved stability, performance, and security patches.
 
-## Image URLs Restored (7 files)
-- psychology-of-spending.webp → uk/the-psychology-of-spending-how-to-stop-impulse-buys-and-start-mindful-saving.webp
-- top-rewards-credit-cards.webp → kardtrust/Top_Finance_uk_credit_cards.webp  
-- online-loan-tips.webp → kardtrust/choosing-online-loan-uk.webp
+## Changes
+- package.json: Updated Next.js dependency to ^15.4.8
+- package-lock.json: Updated lockfile with new Next.js packages and SWC binaries
 
-## Files Modified
-- app/page.tsx: 3 image references restored
-- app/blog/page.tsx: 2 image references restored
-- app/personal-finance/page.tsx: 2 image references restored
-- app/personal-finance/psychology-of-spending/page.tsx: 3 image references restored
-- app/personal-finance/tips-for-choosing-an-online-loan/page.tsx: 1 image reference restored
-- app/personal-finance/best-rewards-credit-cards/metadata.ts: 1 image reference restored
-- components/layout/blog-layout.tsx: 1 image reference restored
-
-## Technical Note
+## Package Updates
+- @next/env: 15.4.3 → 15.4.8
+- @next/swc-darwin-arm64: 15.4.3 → 15.4.8
+- @next/swc-darwin-x64: 15.4.3 → 15.4.8
+- @next/swc-linux-arm64-gnu: 15.4.3 → 15.4.8
+- @next/swc-linux-arm64-musl: 15.4.3 → 15.4.8
+- @next/swc-linux-x64-gnu: 15.4.3 → 15.4.8
+- @next/swc-linux-x64-musl: 15.4.3 → 15.4.8
+- @next/swc-win32-arm64-msvc: 15.4.3 → 15.4.8
+- @next/swc-win32-x64-msvc: 15.4.3 → 15.4.8
 Media URLs on media.topfinanzas.com/images/ must be excluded from future UK-to-US migrations. The "uk" in filenames is part of the asset naming convention, not a locale reference.
