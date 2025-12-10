@@ -41,8 +41,23 @@ export function middleware(request: NextRequest) {
     }
   }
 
+  const response = NextResponse.next();
+
+  // Attach hreflang Link headers for localized alternates (HTML pages only)
+  const acceptHeader = request.headers.get("accept");
+
+  if (acceptHeader?.includes("text/html")) {
+    const currentUrl = request.nextUrl.href;
+    const linkHeader = [
+      `<${currentUrl}>; rel="alternate"; hreflang="en-US"`,
+      `<${currentUrl}>; rel="alternate"; hreflang="x-default"`,
+    ].join(", ");
+
+    response.headers.set("Link", linkHeader);
+  }
+
   // For other requests, continue normally
-  return NextResponse.next();
+  return response;
 }
 
 export const config = {
