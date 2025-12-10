@@ -64,6 +64,7 @@ else
     print_error "Build failed"
     exit 1
 fi
+    print_warning "Standalone directory not found - skipping static file copy"
 # Step 5: Copy static files for standalone mode
 print_step "[5/7] Copying static files to standalone directory..."
 if [ -d ".next/standalone" ]; then
@@ -87,6 +88,8 @@ if [ -d ".next/standalone" ]; then
 else
     print_warning "Standalone directory not found - skipping static file copy"
 fi
+fi
+
 # Step 6: Fix permissions for cache directory
 print_step "[6/7] Fixing cache directory permissions..."
 sudo chown -R macbookpro:macbookpro .next/cache 2>/dev/null || true
