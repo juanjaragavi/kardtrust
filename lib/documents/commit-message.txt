@@ -1,4 +1,1 @@
-chore: add hreflang alternates and headers
-
-- add en-US and x-default hreflang alternates via Metadata API
-- set Link response header with hreflang for html requests
+chore: bump next to 15.4.10
