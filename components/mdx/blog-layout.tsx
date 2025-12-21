@@ -61,6 +61,30 @@ export function BlogLayout({ children, metadata }: BlogLayoutProps) {
                   <SidebarSeparator />
                   {/* Recent Articles - Updated */}
                   <SidebarRecentArticles>
+                    {/* The Emotional Side of Debt Article - NEW */}
+                    <div className="flex items-center gap-3">
+                      <Image
+                        src="https://media.topfinanzas.com/images/kardtrust/the-emotional-side-of-debt.webp"
+                        alt="The Emotional Side of Debt: How to Stay Motivated"
+                        width={50}
+                        height={50}
+                        loading="lazy"
+                        priority={false}
+                        className="rounded-md object-cover"
+                        onError={(e) => {
+                          e.currentTarget.src =
+                            "https://media.topfinanzas.com/images/kardtrust/kardtrust-og-image.webp";
+                        }}
+                      />
+                      <div>
+                        <Link
+                          href="/personal-finance/the-emotional-side-of-debt"
+                          className="text-sm font-medium hover:underline line-clamp-2"
+                        >
+                          The Emotional Side of Debt: How to Stay Motivated
+                        </Link>
+                      </div>
+                    </div>
                     {/* Automate Your Wealth Article - NEW */}
                     <div className="flex items-center gap-3">
                       <Image

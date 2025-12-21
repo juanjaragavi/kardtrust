@@ -1,1 +1,6 @@
-chore: bump next to 15.4.10
+feat(content): add 'The Emotional Side of Debt' article
+
+- Create new TOFU article at /app/personal-finance/the-emotional-side-of-debt/page.tsx
+- Update blog archive at /app/blog/page.tsx
+- Update personal finance category at /app/personal-finance/page.tsx
+- Update sidebar recent articles in /components/mdx/blog-layout.tsx

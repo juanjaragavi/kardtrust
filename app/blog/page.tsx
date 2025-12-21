@@ -43,6 +43,18 @@ export default function BlogArchivePage() {
     // Personal Finance Posts - NEW
     {
       title:
+        "The Emotional Side of Debt: How to Stay Motivated on Your Payoff Journey | KardTrust",
+      slug: "the-emotional-side-of-debt",
+      description:
+        "Debt isn't just about numbers; it's emotional. Discover practical strategies to stay motivated, manage stress, and maintain a positive mindset on your debt payoff journey.",
+      image:
+        "https://media.topfinanzas.com/images/kardtrust/the-emotional-side-of-debt.webp",
+      category: "Personal Finance",
+      categoryPath: "/personal-finance",
+      date: "December 20, 2025",
+    },
+    {
+      title:
         "How to Track Your Expenses for 30 Days (Without Going Crazy) | KardTrust",
       slug: "how-to-track-your-expenses",
       description:
