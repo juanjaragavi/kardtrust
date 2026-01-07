@@ -27,7 +27,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Capital One Quicksilver Student Credit Card Requirements
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div id="square03" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-gray-700 mb-8">
@@ -101,7 +101,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 How to Apply for the Capital One Quicksilver Student Credit Card
               </h2>
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div id="square04" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
               <p className="text-gray-700 mb-8">
                 Also consider{" "}
                 <Link

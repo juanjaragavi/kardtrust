@@ -30,7 +30,7 @@ export default function ChaseSapphireReservePage() {
               Chase Sapphire Reserve®: Premium Travel Rewards on Repeat
             </h1>
 
-            <div id="square02" data-topads data-topads-size="square"></div>
+            <div id="square02" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="my-8 text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">

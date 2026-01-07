@@ -29,7 +29,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               Eligibility Guide
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div id="square03" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-gray-700 mb-8">
@@ -180,7 +180,7 @@ export default function DiscoverItStudentChromeCreditCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 What Happens After You Apply?
               </h2>
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div id="square04" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
               <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
                 <li>
                   <strong>Immediate Decision:</strong> In many cases, applicants

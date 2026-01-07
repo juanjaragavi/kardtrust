@@ -28,7 +28,7 @@ export default function TiltCardRequirementsPage() {
               Requirements for the Tilt Card
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div id="square03" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
@@ -250,7 +250,7 @@ export default function TiltCardRequirementsPage() {
                   Understanding the Costs
                 </h2>
 
-                <div id="square04" data-topads data-topads-size="square"></div>
+                <div id="square04" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
                 <p className="text-gray-800 mb-4 text-sm leading-5 text-left">
                   Tilt cards have transparent pricing with no hidden fees.

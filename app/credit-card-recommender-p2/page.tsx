@@ -31,7 +31,7 @@ function CreditCardRecommenderContent() {
               Discover Your Ideal Credit Card
             </h1>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div id="square01" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="grid grid-cols-1 my-8 items-center justify-center text-left sm:text-left space-y-4">
               <Link href="/financial-solutions/sofi-credit-card">
@@ -154,18 +154,15 @@ function CreditCardRecommenderContent() {
                 aria-expanded={openFaq === "benefits"}
               >
                 <h3
-                  className={`font-medium text-lg leading-5 ${
-                    openFaq === "benefits" ? "text-primary" : "text-secondary"
-                  }`}
+                  className={`font-medium text-lg leading-5 ${openFaq === "benefits" ? "text-primary" : "text-secondary"
+                    }`}
                 >
                   What are the benefits of a card with no annual fee?
                 </h3>
                 <span
-                  className={`text-xl transition-transform ${
-                    openFaq === "benefits" ? "transform rotate-180" : "" // Changed to rotate for better icon indication
-                  } ${
-                    openFaq === "benefits" ? "text-primary" : "text-secondary"
-                  }`}
+                  className={`text-xl transition-transform ${openFaq === "benefits" ? "transform rotate-180" : "" // Changed to rotate for better icon indication
+                    } ${openFaq === "benefits" ? "text-primary" : "text-secondary"
+                    }`}
                   aria-hidden="true" // Hide decorative icon from screen readers
                 >
                   ▼ {/* Use a consistent down arrow, rotation handled by CSS */}
@@ -189,18 +186,15 @@ function CreditCardRecommenderContent() {
                 aria-expanded={openFaq === "cashback"}
               >
                 <h3
-                  className={`font-medium text-lg leading-5 ${
-                    openFaq === "cashback" ? "text-primary" : "text-secondary"
-                  }`}
+                  className={`font-medium text-lg leading-5 ${openFaq === "cashback" ? "text-primary" : "text-secondary"
+                    }`}
                 >
                   How does cashback work?
                 </h3>
                 <span
-                  className={`text-xl transition-transform ${
-                    openFaq === "cashback" ? "transform rotate-180" : ""
-                  } ${
-                    openFaq === "cashback" ? "text-primary" : "text-secondary"
-                  }`}
+                  className={`text-xl transition-transform ${openFaq === "cashback" ? "transform rotate-180" : ""
+                    } ${openFaq === "cashback" ? "text-primary" : "text-secondary"
+                    }`}
                   aria-hidden="true"
                 >
                   ▼
@@ -223,18 +217,15 @@ function CreditCardRecommenderContent() {
                 aria-expanded={openFaq === "travelers"}
               >
                 <h3
-                  className={`font-medium text-lg leading-5 ${
-                    openFaq === "travelers" ? "text-primary" : "text-secondary"
-                  }`}
+                  className={`font-medium text-lg leading-5 ${openFaq === "travelers" ? "text-primary" : "text-secondary"
+                    }`}
                 >
                   What's the best option for travelers?
                 </h3>
                 <span
-                  className={`text-xl transition-transform ${
-                    openFaq === "travelers" ? "transform rotate-180" : ""
-                  } ${
-                    openFaq === "travelers" ? "text-primary" : "text-secondary"
-                  }`}
+                  className={`text-xl transition-transform ${openFaq === "travelers" ? "transform rotate-180" : ""
+                    } ${openFaq === "travelers" ? "text-primary" : "text-secondary"
+                    }`}
                   aria-hidden="true"
                 >
                   ▼
@@ -258,16 +249,14 @@ function CreditCardRecommenderContent() {
                 aria-expanded={openFaq === "online"}
               >
                 <h3
-                  className={`font-medium text-lg leading-6 ${
-                    openFaq === "online" ? "text-primary" : "text-secondary"
-                  }`}
+                  className={`font-medium text-lg leading-6 ${openFaq === "online" ? "text-primary" : "text-secondary"
+                    }`}
                 >
                   Is it safe to use credit cards online?
                 </h3>
                 <span
-                  className={`text-xl transition-transform ${
-                    openFaq === "online" ? "transform rotate-180" : ""
-                  } ${openFaq === "online" ? "text-primary" : "text-secondary"}`}
+                  className={`text-xl transition-transform ${openFaq === "online" ? "transform rotate-180" : ""
+                    } ${openFaq === "online" ? "text-primary" : "text-secondary"}`}
                   aria-hidden="true"
                 >
                   ▼

@@ -460,8 +460,8 @@ export default function FinancialSolutionsPage() {
     activeCreditCardType === "all"
       ? creditCardsContentSorted
       : creditCardsContentSorted.filter(
-          (card) => card.type === activeCreditCardType,
-        );
+        (card) => card.type === activeCreditCardType,
+      );
 
   const filteredLoans =
     activeLoanType === "all"
@@ -475,7 +475,7 @@ export default function FinancialSolutionsPage() {
         Financial Solutions
       </h1>
 
-      <div id="square02" data-topads data-topads-size="square"></div>
+      <div id="square02" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
       <p className="text-lg text-gray-700 mb-8 leading-tight text-left sm:text-left">
         Find detailed information about top United States credit cards, the
@@ -494,11 +494,10 @@ export default function FinancialSolutionsPage() {
               setActiveCreditCardType("all");
               setActiveLoanType("all");
             }}
-            className={`px-6 py-3 font-medium text-md transition-colors focus:outline-none ${
-              activeCategory === key
+            className={`px-6 py-3 font-medium text-md transition-colors focus:outline-none ${activeCategory === key
                 ? "text-primary border-b-2 border-primary"
                 : "text-gray-500 hover:text-gray-800"
-            }`}
+              }`}
           >
             {value}
           </button>
@@ -513,11 +512,10 @@ export default function FinancialSolutionsPage() {
               <button
                 key={key}
                 onClick={() => setActiveCreditCardType(key)}
-                className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
-                  activeCreditCardType === key
+                className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${activeCreditCardType === key
                     ? "bg-primary text-white"
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
+                  }`}
               >
                 {value}
               </button>
@@ -561,11 +559,10 @@ export default function FinancialSolutionsPage() {
               <button
                 key={key}
                 onClick={() => setActiveLoanType(key)}
-                className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${
-                  activeLoanType === key
+                className={`px-4 py-2 text-sm font-medium rounded-full transition-colors ${activeLoanType === key
                     ? "bg-green-600 text-white" // Use a different color for loan filters
                     : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-                }`}
+                  }`}
               >
                 {value}
               </button>

@@ -16,7 +16,7 @@ export default function NoAnnualFeeCreditCards() {
           Top Credit Cards With No Annual Fees
         </h1>
 
-        <div id="square01" data-topads data-topads-size="square"></div>
+        <div id="square01" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
         <p className="text-gray-800 mb-6 text-sm leading-5 font-light">
           Finding the right credit card can be a game-changer, especially when

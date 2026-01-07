@@ -1,1 +1,3 @@
-Apply automated code formatting and linting standards across the codebase.
+style: center-align ad container divs in financial solutions and personal finance pages
+
+- Adds flex, justify-center, items-center, w-full, and my-8 classes to ad container divs (square01/02) across multiple pages to ensure proper centering and spacing.

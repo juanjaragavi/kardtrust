@@ -27,7 +27,7 @@ export default function TdFlexpayCreditCardRequirementsPage() {
               TD FlexPay Credit Card Requirements: Your Eligibility Checklist
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div id="square03" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-gray-700 mb-8">
@@ -166,7 +166,7 @@ export default function TdFlexpayCreditCardRequirementsPage() {
                 Key Features and Benefits of the TD FlexPay Credit Card
               </h2>
 
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div id="square04" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
               <p className="text-gray-700 mb-8">
                 The TD FlexPay Credit Card offers several compelling features

@@ -19,7 +19,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               Understanding Credit Card Interest Rates - A Consumer Guide
             </h1>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div id="square01" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">

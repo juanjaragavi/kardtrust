@@ -32,7 +32,7 @@ export default function StepVisaCardRequirementsPage() {
               Guide
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div id="square03" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
@@ -193,7 +193,7 @@ export default function StepVisaCardRequirementsPage() {
                 Complete Cost Breakdown
               </h2>
 
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div id="square04" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
 
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4 text-left">
