@@ -84,13 +84,6 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <p className="text-gray-700 mb-8">
                 The Titanium Rewards Visa Signature Credit Card is designed for
                 those who want to earn more from their spending. Whether you're

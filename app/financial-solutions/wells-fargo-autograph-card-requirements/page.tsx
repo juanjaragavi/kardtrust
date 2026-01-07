@@ -25,14 +25,9 @@ export default function WellsFargoAutographCardRequirementsPage() {
               Wells Fargo Autograph Card Requirements
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Your gateway to rewards starts here - understand the
                 requirements and apply with confidence.
@@ -114,6 +109,7 @@ export default function WellsFargoAutographCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Step-by-Step Application Process
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <strong>Step 1: Gather Necessary Information</strong>
               Before starting the application, prepare your SSN, proof of income
               (recent pay stubs or tax documents), and government-issued ID.
@@ -198,13 +194,6 @@ export default function WellsFargoAutographCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

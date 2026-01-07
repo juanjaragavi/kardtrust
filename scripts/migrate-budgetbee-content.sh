@@ -249,7 +249,7 @@ export default function ${componentName}() {
                 {/* Empty responsive, centered div */}
               </div>
 
-              <hr className="my-8" />
+              
 
               ${jsxBody}
 
@@ -260,7 +260,7 @@ export default function ${componentName}() {
                 {/* Empty responsive, centered div */}
               </div>
 
-              <hr className="my-8" />
+              
             </div>
           </div>
         </div>

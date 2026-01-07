@@ -83,13 +83,6 @@ export default function CitiSimplicityCardBenefitsPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Extend Cash Flow with 0% Intro APR
               </h2>

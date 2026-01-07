@@ -45,13 +45,6 @@ export default function CitiCustomCashCardPage() {
                 purchases earn 1% cash back.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-[#233A79]/30 bg-[#233A79]/5 p-4 text-sm text-[#1a2b5c]">
                   <p className="font-semibold">Quick snapshot</p>
@@ -122,13 +115,6 @@ export default function CitiCustomCashCardPage() {
                 you set alerts, and keeps tap-to-pay, card lock, and autopay
                 tools close at hand.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
 
               <div className="mt-6 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
                 <h3 className="text-lg font-semibold text-gray-800">

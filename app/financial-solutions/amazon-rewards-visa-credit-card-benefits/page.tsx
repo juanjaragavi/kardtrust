@@ -43,13 +43,6 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 wallet staple for repeat Amazon shoppers.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-900">
                   <p className="font-semibold">Quick snapshot</p>
@@ -106,13 +99,6 @@ export default function AmazonRewardsVisaBenefitsPage() {
                 drugstores—common spend categories that keep rewards flowing
                 even when you step away from Amazon’s ecosystem.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Flat 1% Everywhere Else, No Annual Fee

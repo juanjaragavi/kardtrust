@@ -46,13 +46,6 @@ export default function BankOfAmericaUnlimitedCashRewardsPage() {
                 earners available to Bank of America loyalists.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-[#012169]/30 bg-[#012169]/5 p-4 text-sm text-[#021742]">
                   <p className="font-semibold">Quick snapshot</p>
@@ -113,13 +106,6 @@ export default function BankOfAmericaUnlimitedCashRewardsPage() {
                 bonus cash back. Platinum Honors members see every swipe earn
                 2.625% without paying an annual fee.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Use the Intro APR Window Strategically

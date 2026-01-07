@@ -31,18 +31,13 @@ function CreditCardRecommenderPageContent() {
               Discover Your Ideal Credit Card
             </h1>
 
+            <div id="square01" data-topads data-topads-size="square"></div>
+
             <p className="text-left text-xs leading-4 text-gray-800 mb-5">
               Finding the right card is simple. Maximize rewards, organize your
               spending and enjoy exclusive benefits. Explore and choose the
               ideal card for you!
             </p>
-
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
 
             <h2 className="text-lg leading-5 font-bold text-gray-800 mb-6">
               Why Choose Our Credit Card Recommender?
@@ -96,13 +91,6 @@ function CreditCardRecommenderPageContent() {
               we give you clear, easy-to-understand options so you can make
               informed decisions.
             </p>
-
-            <div
-              id="kardtrust_ad_2"
-              className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
 
             <p className="text-left text-sm leading-5 text-gray-800 mb-5">
               With our guide, you'll transform your credit card into a tool that

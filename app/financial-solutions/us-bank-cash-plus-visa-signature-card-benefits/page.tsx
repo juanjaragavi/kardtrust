@@ -76,13 +76,6 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <p className="text-gray-700 mb-8">
                 The US Bank Cash+ Visa Signature Card is a highly customizable
                 cashback credit card designed for individuals who want

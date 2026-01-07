@@ -31,6 +31,8 @@ function CreditCardRecommenderContent() {
               Discover Your Ideal Credit Card
             </h1>
 
+            <div id="square01" data-topads data-topads-size="square"></div>
+
             <div className="grid grid-cols-1 my-8 items-center justify-center text-left sm:text-left space-y-4">
               <Link href="/financial-solutions/sofi-credit-card">
                 <Button className="bg-[#329192] hover:bg-[#297a7b] text-white font-medium text-md py-2 w-full rounded-full inline-flex items-center justify-center">
@@ -72,15 +74,6 @@ function CreditCardRecommenderContent() {
               ideal card for you!
             </p>
 
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
-
-            <hr className="my-8" />
-
             <h2 className="text-lg leading-5 font-bold text-gray-800 mb-6">
               Why Choose Our Credit Card Recommender?
             </h2>
@@ -119,19 +112,10 @@ function CreditCardRecommenderContent() {
               with cards that suit your needs.
             </p>
 
-            <div
-              id="kardtrust_ad_2"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
-
             <p className="text-left text-sm leading-5 text-gray-800 mb-4">
               From cashback to travel rewards, we give you clear,
               easy-to-understand options so you can make informed decisions.
             </p>
-
-            <hr className="my-8" />
 
             <div className="mt-6 mb-4">
               <Link href="/financial-solutions/sofi-credit-card">

@@ -27,14 +27,9 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               Capital One Quicksilver Student Credit Card Requirements
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Build credit and earn unlimited cash back with student-friendly
                 approval criteria.
@@ -106,6 +101,7 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 How to Apply for the Capital One Quicksilver Student Credit Card
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <p className="text-gray-700 mb-8">
                 Also consider{" "}
                 <Link
@@ -286,13 +282,6 @@ export default function CapitalOneQuicksilverStudentCreditCardRequirementsPage()
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

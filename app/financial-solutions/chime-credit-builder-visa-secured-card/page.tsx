@@ -43,13 +43,6 @@ export default function ChimeCreditBuilderPage() {
                 balance.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4 text-sm text-emerald-900">
                   <p className="font-semibold">Quick snapshot</p>
@@ -83,12 +76,6 @@ export default function ChimeCreditBuilderPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Reserved for display ad */}
-              </div>
               <div className="my-8">
                 <Image
                   src="https://media.topfinanzas.com/images/kardtrust/chime-credit-builder-visa-secured-card.webp"

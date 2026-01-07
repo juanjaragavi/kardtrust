@@ -76,13 +76,6 @@ export default function CitBankHomeLoansBenefitsPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <p className="text-gray-700 mb-8">
                 CIT Bank Home Loans represent more than just a financial
                 product—they're your pathway to homeownership. With a commitment
@@ -332,15 +325,6 @@ export default function CitBankHomeLoansBenefitsPage() {
                   </Button>
                 </Link>
               </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>

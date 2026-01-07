@@ -27,16 +27,9 @@ export default function DoordashRewardsMastercardRequirementsPage() {
               DoorDash Rewards Mastercard Requirements: How to Qualify
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <p className="text-gray-700 mb-8">
                 The DoorDash Rewards Mastercard is designed for frequent
                 DoorDash users and those who love dining out, offering cashback
@@ -177,6 +170,8 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 Key Benefits of the DoorDash Rewards Mastercard
               </h2>
 
+              <div id="square04" data-topads data-topads-size="square"></div>
+
               <p className="text-gray-700 mb-8">
                 The DoorDash Rewards Mastercard offers a range of benefits
                 designed to enhance your dining and delivery experience.
@@ -264,15 +259,6 @@ export default function DoordashRewardsMastercardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>

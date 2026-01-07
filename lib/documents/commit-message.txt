@@ -1,6 +1,7 @@
-feat(content): add 'The Emotional Side of Debt' article
+feat(analytics): replace AdZep with TopAds and cleanup ad containers
 
-- Create new TOFU article at /app/personal-finance/the-emotional-side-of-debt/page.tsx
-- Update blog archive at /app/blog/page.tsx
-- Update personal finance category at /app/personal-finance/page.tsx
-- Update sidebar recent articles in /components/mdx/blog-layout.tsx
+- Add `TopAds` component for new analytics integration
+- Disable `AdZep` components in `RootLayout`
+- Remove legacy `kardtrust_ad_*` containers from all financial solution and personal finance pages
+- Update `migrate-budgetbee-content.sh` template to remove horizontal rules
+- Add `public/ads.txt`

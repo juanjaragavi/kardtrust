@@ -42,13 +42,6 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 future graduation into rewards cards once scores improve.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900">
                   <p className="font-semibold">Quick snapshot</p>
@@ -116,13 +109,6 @@ export default function FirstDigitalNextgenMastercardBenefitsPage() {
                 wallets via the online dashboard. Real-time alerts flag unusual
                 activity and keep utilization in check.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Build Credit, Then Graduate

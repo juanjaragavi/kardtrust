@@ -32,6 +32,8 @@ export default function RobinhoodGoldCardRequirementsPage() {
               Application Guide
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Robinhood Gold Card offers exceptional rewards with 3% cash
@@ -42,15 +44,6 @@ export default function RobinhoodGoldCardRequirementsPage() {
                 need to know about qualifying for and applying for the Robinhood
                 Gold Card.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <div className="my-8 text-left sm:text-left">
                 <Image
@@ -210,18 +203,11 @@ export default function RobinhoodGoldCardRequirementsPage() {
                 </div>
               </div>
 
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 Complete Cost Breakdown
               </h2>
+
+              <div id="square04" data-topads data-topads-size="square"></div>
 
               <div className="bg-gray-50 p-6 rounded-xl border border-gray-200 mb-8">
                 <h3 className="text-xl font-semibold text-gray-900 mb-4 text-left">

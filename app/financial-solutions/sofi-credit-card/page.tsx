@@ -38,15 +38,6 @@ export default function SoFiCreditCardPage() {
                 minimum redemption thresholds.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <section className="my-8">
                 <h2 className="text-lg font-bold text-gray-800 mb-6 text-left">
                   Key Features of the SoFi Unlimited 2% Card
@@ -172,13 +163,6 @@ export default function SoFiCreditCardPage() {
                       spend, regardless of merchant category, time of year, or
                       spending caps.
                     </div>
-                  </div>
-
-                  <div
-                    id="kardtrust_ad_2"
-                    className="items-center justify-center flex w-full my-6"
-                  >
-                    {/* Empty responsive, centered div */}
                   </div>
 
                   <div className="flex items-start">

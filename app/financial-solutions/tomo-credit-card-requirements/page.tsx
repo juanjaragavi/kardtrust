@@ -27,16 +27,9 @@ export default function TomoCreditCardRequirementsPage() {
               Tomo Credit Card Requirements: Your Guide to Eligibility
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <p className="text-gray-700 mb-8">
                 The Tomo Credit Card is designed to help individuals build or
                 improve their credit without requiring a prior credit history.
@@ -175,6 +168,8 @@ export default function TomoCreditCardRequirementsPage() {
                 Why Choose the Tomo Card?
               </h2>
 
+              <div id="square04" data-topads data-topads-size="square"></div>
+
               <p className="text-gray-700 mb-8">
                 The Tomo Credit Card is an excellent choice for empowering
                 individuals to build credit. It reports to major credit bureaus,
@@ -254,15 +249,6 @@ export default function TomoCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>

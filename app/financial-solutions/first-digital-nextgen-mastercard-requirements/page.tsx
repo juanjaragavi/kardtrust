@@ -26,14 +26,9 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               First Digital NextGen Mastercard Requirements
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Experience instant approval and digital convenience with no
                 credit check required.
@@ -179,6 +174,7 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Key Benefits of the First Digital NextGen Mastercard
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <p className="text-gray-700 mb-8">
                 The First Digital NextGen Mastercard offers numerous advantages
                 that make it stand out in the credit card market:
@@ -316,13 +312,6 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
                 *By clicking you will be redirected to view card benefits and
                 features.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

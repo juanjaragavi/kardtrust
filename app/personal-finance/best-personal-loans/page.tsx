@@ -27,8 +27,6 @@ export default function BestPersonalLoansPage() {
               {/* Empty responsive, centered div */}
             </div>
 
-            <hr className="my-8" />
-
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
                 Find the perfect personal loan for your needs with our
@@ -364,8 +362,6 @@ export default function BestPersonalLoansPage() {
                 >
                   {/* Empty responsive, centered div */}
                 </div>
-
-                <hr className="my-8" />
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Finding Your Ideal Financial Solution

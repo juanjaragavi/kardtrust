@@ -26,14 +26,9 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               Capital One Savor Rewards Credit Card Requirements
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Apply for unlimited 3% cash back on dining and entertainment
                 with no annual fee.
@@ -104,6 +99,7 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 How to Apply for the Capital One Savor Rewards Credit Card
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <p className="text-gray-700 mb-8">
                 Also consider{" "}
                 <Link
@@ -278,13 +274,6 @@ export default function CapitalOneSavorRewardsCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

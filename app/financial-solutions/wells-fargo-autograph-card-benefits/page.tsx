@@ -72,13 +72,6 @@ export default function WellsFargoAutographCardBenefitsPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <p className="text-gray-700 mb-8">
                 The Wells Fargo Autograph Card offers a balanced rewards
                 structure that makes it easy to earn on everyday purchases. With

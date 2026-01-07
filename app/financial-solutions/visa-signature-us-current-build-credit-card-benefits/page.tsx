@@ -73,13 +73,6 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Keep Costs Low While You Build Credit
               </h2>

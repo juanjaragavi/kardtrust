@@ -41,13 +41,6 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
                 help you build credit without stretching a student budget.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900">
                   <p className="font-semibold">Quick snapshot</p>
@@ -145,13 +138,6 @@ export default function DiscoverItStudentChromeCreditCardBenefitsPage() {
                   Chrome terms before applying.
                 </p>
               </section>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Reserved for display ad */}
-              </div>
 
               <div className="mt-10 space-y-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-left">
                 <h3 className="text-lg font-semibold text-gray-800">
