@@ -20,7 +20,6 @@ export default function WhatIsFinancialHealthPage() {
             </h1>
 
             <div id="square01" data-topads data-topads-size="square"></div>
-            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-5">
@@ -196,8 +195,6 @@ export default function WhatIsFinancialHealthPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">
                   First steps to improve your financial health
                 </h2>

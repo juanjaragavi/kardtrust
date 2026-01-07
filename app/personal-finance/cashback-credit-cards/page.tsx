@@ -20,7 +20,6 @@ export default function CashbackCreditCardsPage() {
             </h1>
 
             <div id="square01" data-topads data-topads-size="square"></div>
-            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -220,8 +219,6 @@ export default function CashbackCreditCardsPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Unlock the Power of Cashback Rewards
                 </h2>

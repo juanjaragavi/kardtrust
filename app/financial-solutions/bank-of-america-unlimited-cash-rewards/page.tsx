@@ -32,6 +32,8 @@ export default function BankOfAmericaUnlimitedCashRewardsPage() {
               Back on Every Purchase
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Bank of America® Unlimited Cash Rewards keeps things simple:

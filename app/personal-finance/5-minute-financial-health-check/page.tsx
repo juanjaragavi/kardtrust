@@ -33,8 +33,6 @@ export default function FinancialHealthCheckPage() {
 
             <div id="square01" data-topads data-topads-size="square"></div>
 
-            
-
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 You work hard, you earn, and somehow by mid-month you're left
@@ -264,7 +262,6 @@ export default function FinancialHealthCheckPage() {
                   against it.
                 </p>
               </section>
-
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">

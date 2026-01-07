@@ -27,6 +27,8 @@ export default function TomoCreditCardBenefitsPage() {
               Tomo Credit Card Benefits: Build Credit, Earn Rewards, No Fees
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4">
                 Tomo Credit Card® skips the credit check, bases limits on your

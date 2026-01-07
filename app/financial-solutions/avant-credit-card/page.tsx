@@ -27,6 +27,8 @@ export default function AvantCreditCardPage() {
               Avant Credit Card: Your Path to Healthy Credit Starts Here
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Avant Credit Card targets credit builders who want an unsecured

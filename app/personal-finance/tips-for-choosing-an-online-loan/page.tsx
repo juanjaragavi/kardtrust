@@ -21,7 +21,6 @@ export default function TipsForChoosingAnOnlineLoanPage() {
             </h1>
 
             <div id="square01" data-topads data-topads-size="square"></div>
-            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -401,8 +400,6 @@ export default function TipsForChoosingAnOnlineLoanPage() {
                   specific financial needs while offering fair terms and
                   conditions.
                 </p>
-
-                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Navigating Online Loans with Confidence

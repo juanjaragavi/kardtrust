@@ -33,8 +33,6 @@ export default function HiddenCostsHomeownershipPage() {
 
             <div id="square01" data-topads data-topads-size="square"></div>
 
-            
-
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-6 leading-7">
                 You've saved for the down payment, secured mortgage approval,
@@ -175,7 +173,6 @@ export default function HiddenCostsHomeownershipPage() {
                   or more depending on size and complexity.
                 </p>
               </section>
-
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">

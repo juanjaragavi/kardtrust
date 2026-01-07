@@ -28,6 +28,8 @@ export default function SoFiCreditCardPage() {
               SoFi Credit Card: Earn Unlimited 2% Cash Back on Every Purchase
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The SoFi Unlimited 2% Credit Card delivers straightforward value

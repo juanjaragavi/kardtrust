@@ -32,7 +32,7 @@ export default function AutomateYourWealthPage() {
             </h1>
 
             <div id="square01" data-topads data-topads-size="square"></div>
-            
+
             <p className="text-lg text-gray-700 mb-6 leading-7">
               Willpower is a finite resource. If you rely on remembering to
               transfer money to savings or manually paying every bill, you’re
@@ -130,7 +130,6 @@ export default function AutomateYourWealthPage() {
                 bill—a non-negotiable payment to your future self.
               </p>
             </section>
-
 
             <section className="my-8">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">

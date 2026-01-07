@@ -21,8 +21,6 @@ export default function DitchingImpulseBuysMindfulSpendingPage() {
 
             <div id="square01" data-topads data-topads-size="square"></div>
 
-            
-
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 You walk into a shop for milk and leave with £40 worth of things

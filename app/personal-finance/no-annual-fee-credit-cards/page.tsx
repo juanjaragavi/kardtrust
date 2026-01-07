@@ -16,7 +16,7 @@ export default function NoAnnualFeeCreditCards() {
           Top Credit Cards With No Annual Fees
         </h1>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+        <div id="square01" data-topads data-topads-size="square"></div>
 
         <p className="text-gray-800 mb-6 text-sm leading-5 font-light">
           Finding the right credit card can be a game-changer, especially when
@@ -235,7 +235,6 @@ export default function NoAnnualFeeCreditCards() {
         </section>
 
         <section className="my-8">
-
           <h2 className="text-xl font-bold text-gray-900 mb-4">
             Maximize Rewards Without Extra Costs
           </h2>

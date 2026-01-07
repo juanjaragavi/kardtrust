@@ -31,6 +31,8 @@ export default function CitiCustomCashCardPage() {
               Citi Custom Cash Card: Automatic 5% Cash Back That Adapts to You
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Let the Citi Custom Cash Card pick your 5% category every

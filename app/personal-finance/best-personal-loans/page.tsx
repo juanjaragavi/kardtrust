@@ -349,8 +349,6 @@ export default function BestPersonalLoansPage() {
                   </li>
                 </ul>
 
-                
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Finding Your Ideal Financial Solution
                 </h2>

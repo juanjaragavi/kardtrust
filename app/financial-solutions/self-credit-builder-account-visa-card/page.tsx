@@ -29,6 +29,8 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
               Ecosystem
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <p className="text-lg text-gray-800 font-medium mb-8 leading-6 text-left">
               Self Financial combines an installment-style Credit Builder
               Account with the secured Self Visa Credit Card so you can build

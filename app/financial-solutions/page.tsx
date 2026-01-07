@@ -475,6 +475,8 @@ export default function FinancialSolutionsPage() {
         Financial Solutions
       </h1>
 
+      <div id="square02" data-topads data-topads-size="square"></div>
+
       <p className="text-lg text-gray-700 mb-8 leading-tight text-left sm:text-left">
         Find detailed information about top United States credit cards, the
         requirements for applying, and comprehensive guides to help you choose

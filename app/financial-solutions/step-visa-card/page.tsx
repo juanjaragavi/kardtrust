@@ -28,6 +28,8 @@ export default function StepVisaCardPage() {
               Step Visa Card: Build Credit History for Free Starting at Age 13
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Step Visa Card revolutionizes credit building by making it

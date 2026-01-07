@@ -29,6 +29,8 @@ export default function MissionLaneVisaCreditCardPage() {
               Headed
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Mission Lane’s family of Visa credit cards targets borrowers

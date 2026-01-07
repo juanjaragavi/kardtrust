@@ -32,6 +32,8 @@ export default function RevolutCreditCardPage() {
               Security
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 The Revolut Credit Card combines cutting-edge fintech innovation

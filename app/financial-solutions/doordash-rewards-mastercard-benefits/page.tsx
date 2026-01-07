@@ -27,6 +27,8 @@ export default function DoordashRewardsMastercardBenefitsPage() {
               DoorDash Rewards Mastercard Benefits: Maximize Your Food Savings
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4">
                 DoorDash Rewards Mastercard® turns delivery habits into cash
