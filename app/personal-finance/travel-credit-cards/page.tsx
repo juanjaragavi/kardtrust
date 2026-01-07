@@ -30,7 +30,7 @@ export default function TravelCreditCardsPage() {
             </h1>
 
             <div id="square01" data-topads data-topads-size="square"></div>
-            
+
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-6">
                 The right travel credit card can save you hundreds of dollars in

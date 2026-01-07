@@ -27,6 +27,8 @@ export default function UsBankCashPlusVisaSignatureCardBenefitsPage() {
               US Bank Cash+ Visa Signature Card Benefits: Customizable Cashback
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <div className="my-8 text-left sm:text-left">
                 <Image

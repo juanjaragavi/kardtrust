@@ -20,7 +20,6 @@ export default function GettingOutOfDebtPage() {
             </h1>
 
             <div id="square01" data-topads data-topads-size="square"></div>
-            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -740,8 +739,6 @@ export default function GettingOutOfDebtPage() {
               </section>
 
               <section className="my-6">
-                
-
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Build a Debt-Free Future
                 </h2>

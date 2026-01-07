@@ -28,6 +28,8 @@ export default function TiltCardPage() {
               Tilt Card: Revolutionary Credit Building with Cash Back Rewards
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 Tilt credit cards break the mold of traditional credit building

@@ -31,6 +31,8 @@ export default function CitiSimplicityCardBenefitsPage() {
               Citi Simplicity Card Benefits: Keep Payments Flexible Without Fees
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Citi Simplicity removes late fees and penalty APRs while giving

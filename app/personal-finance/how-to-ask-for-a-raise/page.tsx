@@ -21,7 +21,6 @@ export default function HowToAskForRaisePage() {
             </h1>
 
             <div id="square01" data-topads data-topads-size="square"></div>
-            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">

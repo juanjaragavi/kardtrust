@@ -30,6 +30,8 @@ export default function CapitalOneQuicksilverStudentCreditCardBenefitsPage() {
               Capital One Quicksilver Student®: Flat Cash Back for Campus Life
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Earn 1.5% cash back on every purchase, skip annual fees, and use

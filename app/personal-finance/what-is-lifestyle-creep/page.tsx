@@ -22,8 +22,6 @@ export default function WhatIsLifestyleCreepPage() {
 
             <div id="square01" data-topads data-topads-size="square"></div>
 
-            
-
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
                 You got a pay rise last year, yet your bank balance doesn't look

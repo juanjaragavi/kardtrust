@@ -28,6 +28,8 @@ export default function KlarnaCardPage() {
               Klarna Card: The Ultimate Flexible Payment Solution
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Klarna Card revolutionizes how you pay by giving you instant

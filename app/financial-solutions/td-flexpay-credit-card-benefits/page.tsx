@@ -27,6 +27,8 @@ export default function TdFlexpayCreditCardBenefitsPage() {
               TD FlexPay Credit Card Benefits: Unlock Financial Flexibility
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <div className="my-8 text-left sm:text-left">
                 <Image

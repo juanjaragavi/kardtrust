@@ -26,6 +26,8 @@ export default function VisaSignatureUsCurrentBuildCreditCardBenefitsPage() {
               Visa Signature U.S. Current Build Credit Card Benefits
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4">
                 Visa Signature® U.S. Current Build targets credit builders with

@@ -1,6 +1,1 @@
-feat(content): update ad units in personal finance pages
-
-- Replace legacy `us_kardtrust_*` ad placeholders with `TopAds` `square01` unit
-- Clean up unused ad containers in Personal Finance articles
-- Add `topads` square unit to Personal Finance archive page
-- Standardize ad placement across all personal finance guides
+Apply automated code formatting and linting standards across the codebase.

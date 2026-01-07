@@ -31,6 +31,8 @@ export default function AmazonRewardsVisaBenefitsPage() {
               Amazon Rewards Visa®: Everyday Cash Back for Prime Shoppers
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Earn rich rewards at Amazon and Whole Foods, pick up value in

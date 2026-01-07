@@ -29,6 +29,8 @@ export default function VaroBelieveCardPage() {
               Deposits
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Varo Visa® Believe Credit Card breaks the mold of

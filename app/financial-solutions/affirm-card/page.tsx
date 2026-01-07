@@ -27,6 +27,8 @@ export default function AffirmCardPage() {
               Affirm Card: Flexible Payment Plans Without Hidden Fees
             </h1>
 
+            <div id="square02" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-4 leading-6">
                 Affirm Card is a Visa debit card that lets you pay now or pay
