@@ -65,13 +65,8 @@ export default function StopLivingPaycheckToPaycheckPage() {
               Stop Living Paycheck to Paycheck: 3 Shifts to Break the Cycle
               Today
             </h1>
-            {/* Placeholder for Ad Unit - centered and responsive */}
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+
+            <div id="square01" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -235,13 +230,6 @@ export default function StopLivingPaycheckToPaycheckPage() {
                   .
                 </p>
               </section>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <section className="my-6">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">

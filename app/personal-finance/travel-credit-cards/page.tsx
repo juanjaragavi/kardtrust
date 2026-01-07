@@ -28,14 +28,9 @@ export default function TravelCreditCardsPage() {
               Best Travel Credit Cards US: Ultimate Guide for International
               Spending
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_3' - centered and responsive */}
-            <div
-              id="us_kardtrust_3"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
 
+            <div id="square01" data-topads data-topads-size="square"></div>
+            
             <div className="prose max-w-none">
               <p className="text-lg text-gray-700 mb-6">
                 The right travel credit card can save you hundreds of dollars in
@@ -470,14 +465,6 @@ export default function TravelCreditCardsPage() {
                     </Link>
                   </li>
                 </ul>
-              </div>
-
-              {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_4' - centered and responsive */}
-              <div
-                id="us_kardtrust_4"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
               </div>
 
               <h2 className="text-2xl font-bold text-gray-800 my-5">

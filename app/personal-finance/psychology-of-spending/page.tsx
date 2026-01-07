@@ -66,13 +66,8 @@ export default function PsychologyOfSpendingPage() {
               The Psychology of Spending: How to Stop Impulse Buys and Start
               Mindful Saving
             </h1>
-            {/* Placeholder for Ad Unit 'us_kardtrust_3' - centered and responsive */}
-            <div
-              id="us_kardtrust_3"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+
+            <div id="square01" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -255,14 +250,6 @@ export default function PsychologyOfSpendingPage() {
                   without requiring constant willpower.
                 </p>
               </section>
-
-              {/* Placeholder for Ad Unit 'us_kardtrust_4' - centered and responsive */}
-              <div
-                id="us_kardtrust_4"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <section className="my-6">
                 <h2 className="text-xl font-bold text-gray-800 mb-4">

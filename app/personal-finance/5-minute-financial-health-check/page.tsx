@@ -31,12 +31,9 @@ export default function FinancialHealthCheckPage() {
               The 5-Minute Financial Health Check: Where Does Your Money Go?
             </h1>
 
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Ad placeholder */}
-            </div>
+            <div id="square01" data-topads data-topads-size="square"></div>
+
+            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
@@ -268,12 +265,6 @@ export default function FinancialHealthCheckPage() {
                 </p>
               </section>
 
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Ad placeholder */}
-              </div>
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">

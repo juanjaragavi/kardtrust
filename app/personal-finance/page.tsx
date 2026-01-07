@@ -365,6 +365,8 @@ export default function PersonalFinanceArchivePage() {
   const content = (
     <div data-category="personal-finance">
       <h1 className="text-4xl font-bold mb-6">Personal Finance Guides</h1>
+
+            <div id="square01" data-topads data-topads-size="square"></div>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
         Explore our guides on credit cards, loans, debt management, and other
         personal finance topics to help you make informed decisions.
