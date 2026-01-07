@@ -41,13 +41,6 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 delivery while enjoying Capital One’s exclusive event access.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-orange-200 bg-orange-50 p-4 text-sm text-orange-900">
                   <p className="font-semibold">Quick snapshot</p>
@@ -108,13 +101,6 @@ export default function CapitalOneSavorRewardsCreditCardBenefitsPage() {
                 Big-box stores like Walmart or Target code differently, so keep
                 that in mind when planning weekly shopping.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Skip Foreign Fees When You Travel

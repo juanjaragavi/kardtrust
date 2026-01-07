@@ -28,12 +28,7 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
               Requirements for the Self Credit Builder Account + Visa Card
             </h1>
 
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
-            >
-              {/* Reserved for on-page advertising */}
-            </div>
+            <div id="square03" data-topads data-topads-size="square"></div>
 
             <p className="text-lg text-gray-800 mb-8 leading-6 text-left">
               Self Financial pairs its Credit Builder Account with the secured
@@ -112,13 +107,6 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
                     one payment can delay eligibility and trigger delinquent
                     reporting, so set up reminders or automatic drafts.
                   </div>
-                </div>
-
-                <div
-                  id="kardtrust_ad_2"
-                  className="items-center justify-center flex w-full my-6"
-                >
-                  {/* Reserved for on-page advertising */}
                 </div>
 
                 <div className="flex items-start">
@@ -210,6 +198,9 @@ export default function SelfCreditBuilderAccountVisaCardRequirementsPage() {
               <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
                 Understanding the Costs
               </h2>
+
+              <div id="square04" data-topads data-topads-size="square"></div>
+
               <p className="text-sm text-gray-800 mb-4 leading-5">
                 Self shares a representative example for the $35 plan: 24
                 monthly payments at 15.69% APR result in $840 paid, $123 in

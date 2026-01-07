@@ -51,15 +51,6 @@ export default function WellsFargoActiveCashCardPage() {
                 rotating categories or bonus caps.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
                   <div className="flex-shrink-0 size-5 rounded-full bg-[#d71e28] flex items-center justify-center mr-3">
@@ -237,13 +228,6 @@ export default function WellsFargoActiveCashCardPage() {
                   when you're not using a dedicated travel rewards card.
                 </p>
               </section>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <section className="my-6">
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">

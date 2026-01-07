@@ -29,12 +29,7 @@ export default function BlueCashPreferredRequirementsPage() {
               Express
             </h1>
 
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            <div id="square03" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
@@ -140,13 +135,6 @@ export default function BlueCashPreferredRequirementsPage() {
                     </div>
                   </div>
 
-                  <div
-                    id="kardtrust_ad_2"
-                    className="items-center justify-center flex w-full my-6"
-                  >
-                    {/* Empty responsive, centered div */}
-                  </div>
-
                   <div className="flex items-start">
                     <div className="flex-shrink-0 size-5 rounded-full bg-[#180053] flex items-center justify-center mr-3 mt-0.5">
                       <span className="text-white font-bold">➔</span>
@@ -219,6 +207,8 @@ export default function BlueCashPreferredRequirementsPage() {
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
                   Required Documentation for Application:
                 </h2>
+
+                <div id="square04" data-topads data-topads-size="square"></div>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">

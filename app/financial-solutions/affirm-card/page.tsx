@@ -40,13 +40,6 @@ export default function AffirmCardPage() {
                 cost before you commit and avoid compound interest entirely.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-[#4a4af4]/30 bg-[#4a4af4]/5 p-4 text-sm text-[#1f1fb3]">
                   <p className="font-semibold">Quick snapshot</p>
@@ -106,13 +99,6 @@ export default function AffirmCardPage() {
                 virtual Visa anywhere in the U.S., then track every purchase in
                 one dashboard.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Manage Everything in the App

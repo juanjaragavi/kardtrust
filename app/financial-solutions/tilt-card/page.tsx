@@ -39,15 +39,6 @@ export default function TiltCardPage() {
                 months.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
                   <div className="flex-shrink-0 size-5 rounded-full bg-[#e4e24e] flex items-center justify-center mr-3">
@@ -121,15 +112,6 @@ export default function TiltCardPage() {
                   </Button>
                 </Link>
               </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <div className="my-8 text-left sm:text-left">
                 <Image

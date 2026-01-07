@@ -30,12 +30,7 @@ export default function WellsFargoActiveCashCardRequirementsPage() {
               Requirements for the Wells Fargo Active Cash® Card
             </h1>
 
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-6"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            <div id="square03" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5 text-left">
@@ -203,17 +198,12 @@ export default function WellsFargoActiveCashCardRequirementsPage() {
                 </div>
               </section>
 
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
               <section className="my-6">
                 <h2 className="text-lg font-bold text-gray-800 mb-4 text-left">
                   Required Documentation for Application
                 </h2>
+
+                <div id="square04" data-topads data-topads-size="square"></div>
 
                 <div className="space-y-6 my-8">
                   <div className="flex items-start">

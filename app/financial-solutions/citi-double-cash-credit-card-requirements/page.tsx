@@ -28,16 +28,9 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
               Cashback
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <p className="text-gray-700 mb-8">
                 The Citi Double Cash Credit Card is highly valued for its
                 straightforward cash-back rewards, offering earnings on every
@@ -166,6 +159,8 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
                 Benefits of the Citi Double Cash Credit Card: Why It Stands Out
               </h2>
 
+              <div id="square04" data-topads data-topads-size="square"></div>
+
               <p className="text-gray-700 mb-8">
                 The Citi Double Cash Credit Card offers several compelling
                 benefits that make it a top choice for many consumers.
@@ -246,15 +241,6 @@ export default function CitiDoubleCashCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
             </div>
           </div>
         </div>

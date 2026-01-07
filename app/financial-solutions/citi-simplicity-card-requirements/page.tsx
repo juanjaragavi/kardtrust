@@ -26,14 +26,9 @@ export default function CitiSimplicityCardRequirementsPage() {
               Citi Simplicity Card Requirements
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Zero fees, zero hassle—here's how to qualify.
               </p>
@@ -138,6 +133,7 @@ export default function CitiSimplicityCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Application Process for Citi Simplicity Card
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <p className="text-gray-700 mb-8">
                 The Citi Simplicity application process is designed to be quick
                 and user-friendly when you're properly prepared:
@@ -278,13 +274,6 @@ export default function CitiSimplicityCardRequirementsPage() {
                 *By clicking you will be redirected to learn more about card
                 features.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

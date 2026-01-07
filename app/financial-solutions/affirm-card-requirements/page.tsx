@@ -27,6 +27,8 @@ export default function AffirmCardRequirementsPage() {
               Affirm Card Requirements: Eligibility & How to Apply
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Affirm Card is available to eligible U.S. residents who meet
@@ -38,15 +40,6 @@ export default function AffirmCardRequirementsPage() {
                 specific purchases is determined based on your credit profile
                 and the purchase amount.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 Basic Eligibility Requirements
@@ -200,6 +193,8 @@ export default function AffirmCardRequirementsPage() {
                 Cost Breakdown & Payment Plan Details
               </h2>
 
+              <div id="square04" data-topads data-topads-size="square"></div>
+
               <div className="space-y-6 mb-8">
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
                   <h3 className="font-semibold text-gray-800 mb-3 text-left">
@@ -323,15 +318,6 @@ export default function AffirmCardRequirementsPage() {
                   </p>
                 </div>
               </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 How to Apply for the Affirm Card

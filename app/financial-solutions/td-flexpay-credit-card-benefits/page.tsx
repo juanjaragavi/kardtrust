@@ -74,13 +74,6 @@ export default function TdFlexpayCreditCardBenefitsPage() {
                 </Link>
               </div>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <p className="text-gray-700 mb-8">
                 The TD FlexPay Credit Card is designed to provide financial
                 flexibility, allowing cardholders to manage their expenses with

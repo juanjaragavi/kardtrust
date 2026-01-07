@@ -26,14 +26,9 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               Amazon Rewards Visa Credit Card Requirements
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Enjoy cash back on everyday purchases and save with no annual
                 fees.
@@ -170,6 +165,7 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Key Benefits of the Amazon Rewards Visa Credit Card
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <p className="text-gray-700 mb-8">
                 The Amazon Rewards Visa Credit Card offers a range of benefits
                 that make it a favorite for frequent Amazon shoppers. Here’s
@@ -240,13 +236,6 @@ export default function AmazonRewardsVisaCreditCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

@@ -26,14 +26,9 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               Visa Signature U.S. Current Build Credit Card Requirements
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Build or improve your credit with a card designed for
                 accessibility and growth.
@@ -191,6 +186,7 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Key Benefits and Features
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <p className="text-gray-700 mb-8">
                 The Visa Signature U.S. Current Build Credit Card offers several
                 valuable features:
@@ -300,13 +296,6 @@ export default function VisaSignatureUsCurrentBuildCreditCardRequirementsPage() 
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

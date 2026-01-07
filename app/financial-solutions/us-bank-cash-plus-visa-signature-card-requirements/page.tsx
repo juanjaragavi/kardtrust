@@ -27,14 +27,9 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               Guide
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 The US Bank Cash+ Visa Signature Card is a highly customizable
                 cashback credit card designed for individuals who want
@@ -171,6 +166,7 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 What Happens After You Apply?
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <ul className="list-disc pl-6 mb-8 text-gray-700 space-y-2">
                 <li>
                   <strong>Instant Decision or Further Review:</strong> In many
@@ -278,13 +274,6 @@ export default function UsBankCashPlusVisaSignatureCardRequirementsPage() {
               <p className="text-sm mt-2">
                 *By clicking you will be redirected to an external site.
               </p>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

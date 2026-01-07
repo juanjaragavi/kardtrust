@@ -27,6 +27,8 @@ export default function KlarnaCardRequirementsPage() {
               Klarna Card Requirements: Eligibility & How to Apply
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
                 The Klarna Card is available to eligible U.S. residents who meet
@@ -38,15 +40,6 @@ export default function KlarnaCardRequirementsPage() {
                 options work wherever Visa is accepted, giving you flexible
                 payment control from day one.
               </p>
-
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
 
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 Basic Eligibility Requirements
@@ -365,18 +358,11 @@ export default function KlarnaCardRequirementsPage() {
                 </div>
               </div>
 
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <h2 className="text-2xl font-bold text-gray-800 mb-6 text-left">
                 How to Apply for the Klarna Card
               </h2>
+
+              <div id="square04" data-topads data-topads-size="square"></div>
 
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">

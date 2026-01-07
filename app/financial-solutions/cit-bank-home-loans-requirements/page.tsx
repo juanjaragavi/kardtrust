@@ -27,14 +27,9 @@ export default function CitBankHomeLoansRequirementsPage() {
               CIT Bank Home Loans Requirements: What You Need to Qualify
             </h1>
 
+            <div id="square03" data-topads data-topads-size="square"></div>
+
             <div className="my-8 text-left sm:text-left">
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
               <p className="text-gray-700 mb-8">
                 Find out what it takes to apply for a CIT Bank Home Loan and
                 start your journey to homeownership.
@@ -70,6 +65,7 @@ export default function CitBankHomeLoansRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Why Choose CIT Bank for Home Loans?
               </h2>
+              <div id="square04" data-topads data-topads-size="square"></div>
               <p className="text-gray-700 mb-8">
                 CIT Bank offers competitive rates and flexible terms tailored to
                 meet diverse borrower needs. Whether you're a first-time buyer
@@ -184,13 +180,6 @@ export default function CitBankHomeLoansRequirementsPage() {
                   </Button>
                 </Link>
               </div>
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-              <hr className="my-8" />
             </div>
           </div>
         </div>

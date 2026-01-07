@@ -47,16 +47,16 @@ export default function EmotionalSideOfDebtPage() {
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                 When we talk about <strong>personal finance</strong>, we usually
-                talk about math. We calculate interest rates, create spreadsheets,
-                and track every penny. But if getting out of debt were just about
-                math, a lot more people would be debt-free. The reality is that
-                debt is deeply emotional. It carries weight—stress, guilt, shame,
-                and anxiety—that can feel heavier than the balance on your
-                statement.
+                talk about math. We calculate interest rates, create
+                spreadsheets, and track every penny. But if getting out of debt
+                were just about math, a lot more people would be debt-free. The
+                reality is that debt is deeply emotional. It carries
+                weight—stress, guilt, shame, and anxiety—that can feel heavier
+                than the balance on your statement.
               </p>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Staying motivated when the finish line feels miles away is one of
-                the hardest parts of the journey. This guide isn't about the
+                Staying motivated when the finish line feels miles away is one
+                of the hardest parts of the journey. This guide isn't about the
                 numbers; it's about the mindset you need to keep going when the
                 going gets tough.
               </p>
@@ -78,8 +78,8 @@ export default function EmotionalSideOfDebtPage() {
                 </h2>
                 <p className="text-gray-700 mb-4 text-base leading-7">
                   Debt often triggers a "fight or flight" response. For many, it
-                  feels like a threat to our security and freedom. This stress can
-                  lead to avoidance—where you stop looking at your bills
+                  feels like a threat to our security and freedom. This stress
+                  can lead to avoidance—where you stop looking at your bills
                   altogether—or panic, where you make rash decisions.
                 </p>
                 <p className="text-gray-700 mb-4 text-base leading-7">
@@ -146,9 +146,10 @@ export default function EmotionalSideOfDebtPage() {
                     milestones.
                   </li>
                   <li>
-                    <strong>Track Your Progress Visually:</strong> Use a coloring
-                    chart or a thermometer tracker on your fridge. Seeing the
-                    balance go down visually is incredibly satisfying.
+                    <strong>Track Your Progress Visually:</strong> Use a
+                    coloring chart or a thermometer tracker on your fridge.
+                    Seeing the balance go down visually is incredibly
+                    satisfying.
                   </li>
                   <li>
                     <strong>Find a Community:</strong> Debt can be isolating.
@@ -165,7 +166,8 @@ export default function EmotionalSideOfDebtPage() {
                     getting out of debt
                   </Link>{" "}
                   can help you find a strategy—like the snowball or avalanche
-                  method—that provides the quick wins you need to build momentum.
+                  method—that provides the quick wins you need to build
+                  momentum.
                 </p>
               </section>
 

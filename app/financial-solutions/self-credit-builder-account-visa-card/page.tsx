@@ -39,15 +39,6 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
               on both the loan and the card.
             </p>
 
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Reserved for on-page advertising */}
-            </div>
-
-            <hr className="my-8" />
-
             <div className="space-y-4 mb-8">
               <div className="flex items-start">
                 <div className="flex-shrink-0 h-6 w-6 rounded-full bg-[#4298F0] flex items-center justify-center mr-3">
@@ -116,15 +107,6 @@ export default function SelfCreditBuilderAccountVisaCardPage() {
                 </Button>
               </Link>
             </div>
-
-            <div
-              id="kardtrust_ad_2"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Reserved for on-page advertising */}
-            </div>
-
-            <hr className="my-8" />
 
             <div className="my-8 text-left sm:text-left">
               <Image

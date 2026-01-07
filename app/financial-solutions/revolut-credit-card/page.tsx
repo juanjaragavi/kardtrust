@@ -46,13 +46,6 @@ export default function RevolutCreditCardPage() {
                 that has helped prevent over $590 million in fraud globally.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Reserved for display ad */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-gray-200 bg-gray-50 p-4 text-sm text-gray-900">
                   <p className="font-semibold">Quick snapshot</p>
@@ -85,13 +78,6 @@ export default function RevolutCreditCardPage() {
                     View Requirements
                   </Button>
                 </Link>
-              </div>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Reserved for display ad */}
               </div>
 
               <div className="my-8">

@@ -42,13 +42,6 @@ export default function MissionLaneVisaCreditCardPage() {
                 payment history translate into score gains.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-blue-100 bg-blue-50 p-4 text-sm text-blue-900">
                   <p className="font-semibold">Quick snapshot</p>

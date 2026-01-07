@@ -41,15 +41,6 @@ export default function KlarnaCardPage() {
                 choice of colors.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
-              <hr className="my-8" />
-
               <div className="space-y-2 mb-8">
                 <div className="flex items-start">
                   <div className="flex-shrink-0 size-5 rounded-full bg-[#E27EAC] flex items-center justify-center mr-3">
@@ -189,15 +180,6 @@ export default function KlarnaCardPage() {
                   upfront, including any service fees, so you'll know exactly
                   what you'll pay before completing your purchase.
                 </p>
-
-                <div
-                  id="kardtrust_ad_2"
-                  className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
-
-                <hr className="my-8" />
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4 text-left">
                   Klarna Balance: Your Built-In Money Account

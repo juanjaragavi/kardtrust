@@ -39,13 +39,6 @@ export default function AvantCreditCardPage() {
                 and center so you can graduate to stronger rewards cards later.
               </p>
 
-              <div
-                id="kardtrust_ad_1"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
-
               <div className="my-6 grid gap-3">
                 <div className="rounded-lg border border-[#0d5bff]/30 bg-[#0d5bff]/5 p-4 text-sm text-[#0a3da3]">
                   <p className="font-semibold">Quick snapshot</p>
@@ -119,13 +112,6 @@ export default function AvantCreditCardPage() {
                 under 30%, and you can lock the card instantly if anything looks
                 off.
               </p>
-
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-6"
-              >
-                {/* Empty responsive, centered div */}
-              </div>
 
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Is the Avant Credit Card a Fit?
