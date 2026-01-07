@@ -36,13 +36,7 @@ export default function EmotionalSideOfDebtPage() {
               Journey
             </h1>
 
-            {/* Ad Unit 1 */}
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8 min-h-[250px] bg-gray-50 rounded-lg"
-            >
-              {/* Ad Placeholder */}
-            </div>
+            <div id="square01" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -170,14 +164,6 @@ export default function EmotionalSideOfDebtPage() {
                   momentum.
                 </p>
               </section>
-
-              {/* Ad Unit 2 */}
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8 min-h-[250px] bg-gray-50 rounded-lg"
-              >
-                {/* Ad Placeholder */}
-              </div>
 
               <section className="my-10">
                 <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">

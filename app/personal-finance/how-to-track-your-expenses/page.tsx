@@ -31,13 +31,7 @@ export default function HowToTrackYourExpensesPage() {
               How to Track Your Expenses for 30 Days (Without Going Crazy)
             </h1>
 
-            {/* Ad Placeholder 1 */}
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Ad unit placeholder */}
-            </div>
+            <div id="square01" data-topads data-topads-size="square"></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">
@@ -205,14 +199,6 @@ export default function HowToTrackYourExpensesPage() {
                   clarity is priceless.
                 </p>
               </section>
-
-              {/* Ad Placeholder 2 */}
-              <div
-                id="kardtrust_ad_2"
-                className="items-center justify-center flex w-full my-8"
-              >
-                {/* Ad unit placeholder */}
-              </div>
 
               <section className="my-6">
                 <h2 className="text-left sm:text-left text-xl font-bold text-gray-800 mb-4">

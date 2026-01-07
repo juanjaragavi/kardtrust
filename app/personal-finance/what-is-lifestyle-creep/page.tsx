@@ -20,13 +20,9 @@ export default function WhatIsLifestyleCreepPage() {
               Wallet?
             </h1>
 
-            {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_3' - centered and responsive */}
-            <div
-              id="us_kardtrust_3"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+            <div id="square01" data-topads data-topads-size="square"></div>
+
+            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-left sm:text-left text-lg text-gray-800 mb-4 leading-6">

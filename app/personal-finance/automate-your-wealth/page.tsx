@@ -30,12 +30,9 @@ export default function AutomateYourWealthPage() {
               Automate Your Wealth: Setting Up the "Set It and Forget It"
               Finance System
             </h1>
-            <div
-              id="kardtrust_ad_1"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Ad placeholder */}
-            </div>
+
+            <div id="square01" data-topads data-topads-size="square"></div>
+            
             <p className="text-lg text-gray-700 mb-6 leading-7">
               Willpower is a finite resource. If you rely on remembering to
               transfer money to savings or manually paying every bill, you’re
@@ -134,12 +131,6 @@ export default function AutomateYourWealthPage() {
               </p>
             </section>
 
-            <div
-              id="kardtrust_ad_2"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Ad placeholder */}
-            </div>
 
             <section className="my-8">
               <h2 className="text-2xl font-semibold text-gray-800 mb-4">

@@ -1,7 +1,6 @@
-feat(analytics): replace AdZep with TopAds and cleanup ad containers
+feat(content): update ad units in personal finance pages
 
-- Add `TopAds` component for new analytics integration
-- Disable `AdZep` components in `RootLayout`
-- Remove legacy `kardtrust_ad_*` containers from all financial solution and personal finance pages
-- Update `migrate-budgetbee-content.sh` template to remove horizontal rules
-- Add `public/ads.txt`
+- Replace legacy `us_kardtrust_*` ad placeholders with `TopAds` `square01` unit
+- Clean up unused ad containers in Personal Finance articles
+- Add `topads` square unit to Personal Finance archive page
+- Standardize ad placement across all personal finance guides

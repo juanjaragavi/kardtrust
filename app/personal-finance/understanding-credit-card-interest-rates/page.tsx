@@ -18,13 +18,9 @@ export default function UnderstandingCreditCardInterestRatesPage() {
             <h1 className="text-3xl text-left sm:text-left md:text-3xl font-bold text-gray-800 mb-4 leading-8">
               Understanding Credit Card Interest Rates - A Consumer Guide
             </h1>
-            {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_3' - centered and responsive */}
-            <div
-              id="us_kardtrust_3"
-              className="items-center justify-center flex w-full my-8"
-            >
-              {/* Empty responsive, centered div */}
-            </div>
+
+            <div id="square01" data-topads data-topads-size="square"></div>
+            
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">
@@ -311,13 +307,7 @@ export default function UnderstandingCreditCardInterestRatesPage() {
               </section>
 
               <section className="my-6">
-                {/* Placeholder `<div>` for the Ad Unit 'us_kardtrust_4' - centered and responsive */}
-                <div
-                  id="us_kardtrust_4"
-                  className="items-center justify-center flex w-full my-8"
-                >
-                  {/* Empty responsive, centered div */}
-                </div>
+                
 
                 <h2 className="text-xl font-bold text-gray-800 mb-4">
                   Take Control of Your Financial Future
