@@ -43,7 +43,12 @@ export default function SirenCardPage() {
                   SIREN Card: A Debit Card with Superpowers
                 </h1>
 
-                <div id="square02" data-topads data-topads-size="square"></div>
+                <div
+                  id="square02"
+                  data-topads
+                  data-topads-size="square"
+                  className="items-center justify-center flex w-full my-8"
+                ></div>
                 <p className="text-lg md:text-xl text-green-100 mb-6">
                   Built exclusively for Starbucks partners, SIREN combines the
                   simplicity of a debit card with automatic credit building

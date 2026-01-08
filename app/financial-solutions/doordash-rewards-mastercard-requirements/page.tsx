@@ -27,7 +27,12 @@ export default function DoordashRewardsMastercardRequirementsPage() {
               DoorDash Rewards Mastercard Requirements: How to Qualify
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div
+              id="square03"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-gray-700 mb-8">
@@ -170,7 +175,12 @@ export default function DoordashRewardsMastercardRequirementsPage() {
                 Key Benefits of the DoorDash Rewards Mastercard
               </h2>
 
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              ></div>
 
               <p className="text-gray-700 mb-8">
                 The DoorDash Rewards Mastercard offers a range of benefits

@@ -31,7 +31,12 @@ function CreditCardRecommenderPageContent() {
               Discover Your Ideal Credit Card
             </h1>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div
+              id="square01"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <p className="text-left text-xs leading-4 text-gray-800 mb-5">
               Finding the right card is simple. Maximize rewards, organize your

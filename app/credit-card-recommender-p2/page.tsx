@@ -31,7 +31,12 @@ function CreditCardRecommenderContent() {
               Discover Your Ideal Credit Card
             </h1>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div
+              id="square01"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="grid grid-cols-1 my-8 items-center justify-center text-left sm:text-left space-y-4">
               <Link href="/financial-solutions/sofi-credit-card">

@@ -1,1 +1,8 @@
-Apply automated code formatting and linting standards across the codebase.
+feat(content): add AI budget automation article and refactor topic outline CSV
+
+- Add new TOFU article: "AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026"
+- Update blog listing page with new article entry
+- Update personal finance archive page with new article entry
+- Refactor topic outline CSV: expand from 12 to 45 topics across 9 content pillars
+- Add new CSV columns: Secondary Keywords, Category, Suggested Internal Links, Hero Image URL, Supporting Notes
+- Apply Prettier formatting to ad placeholder divs across ~70 financial solutions and personal finance pages

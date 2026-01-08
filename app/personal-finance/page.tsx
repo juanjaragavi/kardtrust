@@ -39,6 +39,17 @@ export default function PersonalFinanceArchivePage() {
     () => [
       {
         title:
+          "AI and Your Wallet: How to Use Artificial Intelligence to Automate Your Budget in 2026 | KardTrust",
+        slug: "ai-budget-automation",
+        description:
+          "Learn how AI-powered budgeting tools can automate expense tracking, categorize spending, and help you build better financial habits in 2026.",
+        image:
+          "https://media.topfinanzas.com/images/kardtrust/ai-budget-automation.webp",
+        date: "January 8, 2026",
+        category: "guide",
+      },
+      {
+        title:
           "The Emotional Side of Debt: How to Stay Motivated on Your Payoff Journey | KardTrust",
         slug: "the-emotional-side-of-debt",
         description:
@@ -366,7 +377,12 @@ export default function PersonalFinanceArchivePage() {
     <div data-category="personal-finance">
       <h1 className="text-4xl font-bold mb-6">Personal Finance Guides</h1>
 
-      <div id="square01" data-topads data-topads-size="square"></div>
+      <div
+        id="square01"
+        data-topads
+        data-topads-size="square"
+        className="items-center justify-center flex w-full my-8"
+      ></div>
       <p className="text-lg text-gray-700 mb-8 leading-tight">
         Explore our guides on credit cards, loans, debt management, and other
         personal finance topics to help you make informed decisions.

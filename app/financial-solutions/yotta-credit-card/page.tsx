@@ -43,7 +43,12 @@ export default function YottaCreditCardPage() {
                   Yotta Credit Card: Every Purchase is a Winning Opportunity
                 </h1>
 
-                <div id="square02" data-topads data-topads-size="square"></div>
+                <div
+                  id="square02"
+                  data-topads
+                  data-topads-size="square"
+                  className="items-center justify-center flex w-full my-8"
+                ></div>
                 <p className="text-lg md:text-xl text-purple-100 mb-6">
                   Transform ordinary spending into extraordinary wins. With
                   Lucky Swipe technology, every transaction gives you a chance

@@ -27,7 +27,12 @@ export default function KlarnaCardRequirementsPage() {
               Klarna Card Requirements: Eligibility & How to Apply
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div
+              id="square03"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 font-medium mb-8 leading-5 text-left">
@@ -362,7 +367,12 @@ export default function KlarnaCardRequirementsPage() {
                 How to Apply for the Klarna Card
               </h2>
 
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              ></div>
 
               <div className="space-y-6 mb-8">
                 <div className="flex items-start">

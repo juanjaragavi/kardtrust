@@ -26,7 +26,12 @@ export default function CitiSimplicityCardRequirementsPage() {
               Citi Simplicity Card Requirements
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div
+              id="square03"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-gray-700 mb-8">
@@ -133,7 +138,12 @@ export default function CitiSimplicityCardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Application Process for Citi Simplicity Card
               </h2>
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              ></div>
               <p className="text-gray-700 mb-8">
                 The Citi Simplicity application process is designed to be quick
                 and user-friendly when you're properly prepared:

@@ -20,7 +20,12 @@ export default function CombineFinancesAfterMarriagePage() {
               Marriage (or Moving In)
             </h1>
 
-            <div id="square01" data-topads data-topads-size="square"></div>
+            <div
+              id="square01"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <p className="text-left text-lg text-gray-800 mb-6 leading-7">
               Thinking about merging money with a partner? Whether you've just

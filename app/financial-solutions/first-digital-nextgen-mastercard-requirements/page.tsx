@@ -26,7 +26,12 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               First Digital NextGen Mastercard Requirements
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square"></div>
+            <div
+              id="square03"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-gray-700 mb-8">
@@ -174,7 +179,12 @@ export default function FirstDigitalNextgenMastercardRequirementsPage() {
               <h2 className="text-2xl font-bold text-gray-800 mb-4">
                 Key Benefits of the First Digital NextGen Mastercard
               </h2>
-              <div id="square04" data-topads data-topads-size="square"></div>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              ></div>
               <p className="text-gray-700 mb-8">
                 The First Digital NextGen Mastercard offers numerous advantages
                 that make it stand out in the credit card market:

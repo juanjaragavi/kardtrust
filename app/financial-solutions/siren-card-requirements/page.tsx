@@ -43,7 +43,12 @@ export default function SirenCardRequirementsPage() {
                 SIREN Card Requirements & Application Process
               </h1>
 
-              <div id="square03" data-topads data-topads-size="square"></div>
+              <div
+                id="square03"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              ></div>
               <p className="text-lg text-green-100">
                 Everything you need to know about qualifying for SIREN Card.
                 Exclusively for Starbucks partners—simple eligibility, no FICO
@@ -336,7 +341,12 @@ export default function SirenCardRequirementsPage() {
                   Understanding the cred.ai Guaranty
                 </h2>
 
-                <div id="square04" data-topads data-topads-size="square"></div>
+                <div
+                  id="square04"
+                  data-topads
+                  data-topads-size="square"
+                  className="items-center justify-center flex w-full my-8"
+                ></div>
 
                 <div className="bg-gradient-to-br from-green-900 to-green-700 text-white p-8 rounded-xl mb-6">
                   <h3 className="text-2xl font-bold mb-4">
