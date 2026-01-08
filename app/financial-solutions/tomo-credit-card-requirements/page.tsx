@@ -27,7 +27,12 @@ export default function TomoCreditCardRequirementsPage() {
               Tomo Credit Card Requirements: Your Guide to Eligibility
             </h1>
 
-            <div id="square03" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
+            <div
+              id="square03"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-gray-700 mb-8">
@@ -168,7 +173,12 @@ export default function TomoCreditCardRequirementsPage() {
                 Why Choose the Tomo Card?
               </h2>
 
-              <div id="square04" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
+              <div
+                id="square04"
+                data-topads
+                data-topads-size="square"
+                className="items-center justify-center flex w-full my-8"
+              ></div>
 
               <p className="text-gray-700 mb-8">
                 The Tomo Credit Card is an excellent choice for empowering

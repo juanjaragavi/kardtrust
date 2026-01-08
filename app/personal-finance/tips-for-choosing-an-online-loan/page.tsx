@@ -20,7 +20,12 @@ export default function TipsForChoosingAnOnlineLoanPage() {
               5 Essential Tips for Choosing an Online Loan: Your Quick Guide
             </h1>
 
-            <div id="square01" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
+            <div
+              id="square01"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <p className="text-lg text-gray-800 mb-8 leading-5">

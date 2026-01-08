@@ -26,7 +26,12 @@ export default function WellsFargoAutographCardBenefitsPage() {
               Discover the Wells Fargo Autograph Card Benefits
             </h1>
 
-            <div id="square02" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
+            <div
+              id="square02"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <div className="my-8 text-left sm:text-left">

@@ -28,7 +28,12 @@ export default function TitaniumRewardsVisaSignatureCreditCardBenefitsPage() {
               Card
             </h1>
 
-            <div id="square02" data-topads data-topads-size="square" className="items-center justify-center flex w-full my-8"></div>
+            <div
+              id="square02"
+              data-topads
+              data-topads-size="square"
+              className="items-center justify-center flex w-full my-8"
+            ></div>
 
             <div className="my-8 text-left sm:text-left">
               <div className="my-8 text-left sm:text-left">
